@@ -1,0 +1,3 @@
+DotaWorkshopAssetType_t
+WorkshopFileImportMode_t
+WorkshopFileListerSort_t

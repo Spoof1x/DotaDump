@@ -1,0 +1,48 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropElement_Group (size: 0xa0 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfa6e0, scope "toolscenenodes.dll") extends CSmartPropElement
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x684120"
+^MPropertyFriendlyName "Group"
+^MPropertyDescription "A group of elements that will all be evaulated."
+^MVDataOutlinerLabelExpr "m_sLabel"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropElement (size: 0x80 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfa340, scope "toolscenenodes.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x683a30"
+	^MVDataBase
+	^MVDataNodeType "1"
+	^MVDataAnonymousNode
+	^MPropertyFriendlyName "Smart Prop Element"
+	
+	-----members of class CSmartPropElement-----
+		uint8_t[8] unaccounted(offset 0x0)
+		int32 m_nElementID(offset 0x8, size 0x4, align 0x4)
+			^MPropertySuppressField
+			^MVDataUniqueMonotonicInt "_editor/next_element_id"
+		uint8_t[4] unaccounted(offset 0xc)
+		CSmartPropAttributeBool m_bEnabled(offset 0x10, size 0x40, align 0x8)
+			^MVDataEnableKey
+			^MPropertyDescription "Is this element enabled? If not enabled, this element will not be evaluted and will have no effect on the result."
+			^MPropertySortPriority "10"
+		CUtlVector< CSmartPropSelectionCriteria* > m_SelectionCriteria(offset 0x50, size 0x18, align 0x8)
+			^MPropertyFriendlyName "Selection Criteria"
+			^MVDataPromoteField "2"
+		CUtlVector< CSmartPropModifier* > m_Modifiers(offset 0x68, size 0x18, align 0x8)
+			^MPropertyFriendlyName "Modifiers"
+			^MVDataPromoteField "2"
+	
+
+-----members of class CSmartPropElement_Group-----
+	CUtlVector< CSmartPropElement* > m_Children(offset 0x80, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Children"
+		^MPropertyDescription "List of child elements which will appear if this element appears"
+		^MVDataPromoteField "1"
+	CUtlString m_sLabel(offset 0x98, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Label"
+		^MPropertyDescription "Optional text that will appear in the outliner to help organize Smart Prop elements and communicate their purpose to other users."
+

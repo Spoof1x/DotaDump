@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RnCapsule_t (size: 0x1c bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a4f50, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1389a50"
+
+-----members of class RnCapsule_t-----
+	Vector[2] m_vCenter(offset 0x0, size 0x18, align 0x4)
+	float32 m_flRadius(offset 0x18, size 0x4, align 0x4)
+

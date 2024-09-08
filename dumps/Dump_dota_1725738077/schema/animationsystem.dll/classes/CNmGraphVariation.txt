@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphVariation (size: 0x50 bytes, project "animlib", binding @ animationsystem.dll + 0x5e1830, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x346e40"
+
+-----members of class CNmGraphVariation-----
+	CStrongHandle< InfoForResourceTypeCNmGraphDefinition > m_graphDefinition(offset 0x0, size 0x8, align 0x8)
+	CNmGraphDataSet m_dataSet(offset 0x8, size 0x48, align 0x8)
+

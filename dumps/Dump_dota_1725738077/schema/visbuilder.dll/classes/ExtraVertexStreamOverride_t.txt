@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ExtraVertexStreamOverride_t (size: 0x30 bytes, project "visbuilder", binding @ visbuilder.dll + 0x187b10, scope "visbuilder.dll") extends BaseSceneObjectOverride_t
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: visbuilder.dll + 0x420a0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class BaseSceneObjectOverride_t (size: 0x4 bytes, project "visbuilder", binding @ visbuilder.dll + 0x187c60, scope "visbuilder.dll")
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: visbuilder.dll + 0x419c0"
+	
+	-----members of class BaseSceneObjectOverride_t-----
+		uint32 m_nSceneObjectIndex(offset 0x0, size 0x4, align 0x4)
+	
+
+-----members of class ExtraVertexStreamOverride_t-----
+	uint32 m_nSubSceneObject(offset 0x4, size 0x4, align 0x4)
+	uint32 m_nDrawCallIndex(offset 0x8, size 0x4, align 0x4)
+	MeshDrawPrimitiveFlags_t m_nAdditionalMeshDrawPrimitiveFlags(offset 0xc, size 0x4, align 0x4)
+	CRenderBufferBinding m_extraBufferBinding(offset 0x10, size 0x20, align 0x8)
+

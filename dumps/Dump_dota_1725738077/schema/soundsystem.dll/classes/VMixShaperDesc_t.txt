@@ -1,0 +1,21 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VMixShaperDesc_t (size: 0x14 bytes, project "soundsystem_lowlevel", binding @ soundsystem.dll + 0x399650, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x22e350"
+
+-----members of class VMixShaperDesc_t-----
+	int32 m_nShape(offset 0x0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Shape"
+		^MPropertyAttributeRange "0 14"
+	float32 m_fldbDrive(offset 0x4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Drive (dB)"
+		^MPropertyAttributeRange "0 36"
+	float32 m_fldbOutputGain(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Output Gain (dB)"
+		^MPropertyAttributeRange "-36 0"
+	float32 m_flWetMix(offset 0xc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Dry/Wet"
+	int32 m_nOversampleFactor(offset 0x10, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Oversampling"
+

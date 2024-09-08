@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNavHullPresetVData (size: 0x18 bytes, project "navlib", binding @ server.dll + 0x3b25130, scope "server.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MVDataRoot
+^MGetKV3ClassDefaults "func: server.dll + 0x1faaa00"
+
+-----members of class CNavHullPresetVData-----
+	CUtlVector< CUtlString > m_vecNavHulls(offset 0x0, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Nav Hulls"
+		^MPropertyDescription "List of nav hulls belonging to this preset."
+		^MPropertyAttributeEditor "VDataChoice( scripts/nav_hulls.vdata )"
+

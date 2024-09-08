@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class sBounceInfo (size: 0x20 bytes, project "server", binding @ server.dll + 0x3937470, scope "server.dll")
+
+-----members of class sBounceInfo-----
+	int32 iAttackIndex(offset 0x0, size 0x4, align 0x4)
+	int32 iBounceCount(offset 0x4, size 0x4, align 0x4)
+	CUtlVector< CHandle< CBaseEntity > > hAlreadyHitList(offset 0x8, size 0x18, align 0x8)
+

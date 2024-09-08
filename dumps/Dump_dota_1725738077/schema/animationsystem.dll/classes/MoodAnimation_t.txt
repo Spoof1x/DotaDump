@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class MoodAnimation_t (size: 0x10 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f0e10, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x4e850"
+^MPropertyArrayElementNameKey "m_sName"
+
+-----members of class MoodAnimation_t-----
+	CUtlString m_sName(offset 0x0, size 0x8, align 0x8)
+		^MPropertyDescription "Name of the animation"
+		^MPropertyAttributeEditor "VDataModelAnim( m_sModelName; include_deltas )"
+	float32 m_flWeight(offset 0x8, size 0x4, align 0x4)
+		^MPropertyDescription "Weight of the animation, higher numbers get picked more"
+	uint8_t[4] unaccounted(offset 0xc)
+

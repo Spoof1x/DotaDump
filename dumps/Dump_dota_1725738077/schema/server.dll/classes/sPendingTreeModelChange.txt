@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class sPendingTreeModelChange (size: 0x18 bytes, project "server", binding @ server.dll + 0x3ab4510, scope "!GlobalTypes")
+
+-----members of class sPendingTreeModelChange-----
+	int32 nTeam(offset 0x0, size 0x4, align 0x4)
+	int32 nIndex(offset 0x4, size 0x4, align 0x4)
+	CUtlString strModel(offset 0x8, size 0x8, align 0x8)
+	int32 nChangeToken(offset 0x10, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x14)
+

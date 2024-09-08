@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimParamHandle (size: 0x2 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242c630, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x758fe0"
+
+-----members of class CAnimParamHandle-----
+	AnimParamType_t m_type(offset 0x0, size 0x1, align 0x1)
+	uint8 m_index(offset 0x1, size 0x1, align 0x1)
+

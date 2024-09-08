@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum LayerMaskType_t(size: 4 bytes, 2 values, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24f0580):
+	LAYER_MASK_LUMINOSITY = 0,
+	LAYER_MASK_COLOR_RANGE = 1,

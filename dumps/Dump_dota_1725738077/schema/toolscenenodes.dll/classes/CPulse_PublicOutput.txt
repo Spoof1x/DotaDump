@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulse_PublicOutput (size: 0x20 bytes, project "pulse_runtime_lib", binding @ toolscenenodes.dll + 0xbf4680, scope "toolscenenodes.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x620ca0"
+
+-----members of class CPulse_PublicOutput-----
+	CUtlSymbolLarge m_Name(offset 0x0, size 0x8, align 0x8)
+	CUtlString m_Description(offset 0x8, size 0x8, align 0x8)
+	CPulseValueFullType m_ParamType(offset 0x10, size 0x10, align 0x8)
+

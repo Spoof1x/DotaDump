@@ -1,0 +1,816 @@
+CAllAssetsWorkingSet
+	assetsystem.dll + 0x458f00(hierarchy CAllAssetsWorkingSet: CProceduralWorkingSet, IWorkingSet)
+CAsset
+	assetsystem.dll + 0x44e630(hierarchy CAsset: IAsset)
+CAssetEditinfoFilter
+	assetsystem.dll + 0x450ad0(hierarchy CAssetEditinfoFilter: CGenericFilterKey)
+CAssetFileSystemDirectoryVisitor
+	assetsystem.dll + 0x453240(hierarchy CAssetFileSystemDirectoryVisitor: CDirTreeWatchManager::Visitor)
+CAssetLocationFilter
+	assetsystem.dll + 0x450a70(hierarchy CAssetLocationFilter: CGenericFilterKey)
+CAssetModFilter
+	assetsystem.dll + 0x450bf0(hierarchy CAssetModFilter: CGenericFilterKey)
+CAssetNameFilterDef
+	assetsystem.dll + 0x4509b0(hierarchy CAssetNameFilterDef: CGenericFilterKey)
+CAssetReferencedByFilter
+	assetsystem.dll + 0x450950(hierarchy CAssetReferencedByFilter: CGenericFilterKey)
+CAssetReferencingFilter
+	assetsystem.dll + 0x450b90(hierarchy CAssetReferencingFilter: CGenericFilterKey)
+CAssetSystem
+	assetsystem.dll + 0x453288(hierarchy CAssetSystem: CTier3DmAppSystem<class IAssetSystem,0>, CTier2DmAppSystem<class IAssetSystem,0>, CTier2AppSystem<class IAssetSystem,0>, CTier1AppSystem<class IAssetSystem,0>, CTier0AppSystem<class IAssetSystem,0>, CBaseAppSystem<class IAssetSystem>, IAssetSystem, IAppSystem, IToolsResourceListener, IResourceUpdater)
+	assetsystem.dll + 0x4535c8 MI offset 40(hierarchy IToolsResourceListener: IResourceUpdater)
+	assetsystem.dll + 0x453610 MI offset 48(hierarchy IResourceUpdater)
+CAssetSystemTest
+	assetsystem.dll + 0x456730(hierarchy CAssetSystemTest: CTier1AppSystem<class IAssetSystemTest,0>, CTier0AppSystem<class IAssetSystemTest,0>, CBaseAppSystem<class IAssetSystemTest>, IAssetSystemTest, IAppSystem)
+CAssetTagFilterDef
+	assetsystem.dll + 0x450a10(hierarchy CAssetTagFilterDef: CGenericFilterKey)
+CAssetTagVDataManager
+	assetsystem.dll + 0x456e90(hierarchy CAssetTagVDataManager: CVDataFileManager<class CAssetTagInfo>, CBaseVDataFileManager, IVDataResourceListener)
+CAssetType
+	assetsystem.dll + 0x456100(hierarchy CAssetType: IAssetType)
+CAssetTypeFilter
+	assetsystem.dll + 0x450c50(hierarchy CAssetTypeFilter: CGenericFilterKey)
+CAsyncLoadResourceHeaderPromise
+	assetsystem.dll + 0x431ae0(hierarchy CAsyncLoadResourceHeaderPromise: IAsyncLoadResourceHeaderPromise)
+CBaseVDataFileManager
+	assetsystem.dll + 0x431ab0(hierarchy CBaseVDataFileManager: IVDataResourceListener)
+CBitmapAsset
+	assetsystem.dll + 0x4577e8(hierarchy CBitmapAsset: CAsset, IAsset, IBitmapAsset)
+	assetsystem.dll + 0x457790 MI offset 136(hierarchy IBitmapAsset)
+CBitmapAssetType
+	assetsystem.dll + 0x457ad8(hierarchy CBitmapAssetType: CAssetType, IAssetType)
+CBitmapAssetTypeInfo
+	assetsystem.dll + 0x437c98(hierarchy CBitmapAssetTypeInfo: CSimpleAssetTypeInfo)
+CConCommandMemberAccessor<class CAssetSystem>
+	assetsystem.dll + 0x453620(hierarchy CConCommandMemberAccessor<class CAssetSystem>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+	assetsystem.dll + 0x453218 MI offset 8(hierarchy ICommandCompletionCallback)
+CDataModel
+	assetsystem.dll + 0x365998(hierarchy CDataModel: CBaseAppSystem<class IDataModel>, IDataModel, CBaseAppSystem<class IAppSystem>, IAppSystem)
+CDmArrayAttributeOp<bool>
+	assetsystem.dll + 0x362290(hierarchy CDmArrayAttributeOp<bool>: CDmAttributeOp<class CUtlVector<bool,int,class CUtlMemory<bool,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<class CUtlBinaryBlock>
+	assetsystem.dll + 0x362890(hierarchy CDmArrayAttributeOp<class CUtlBinaryBlock>: CDmAttributeOp<class CUtlVector<class CUtlBinaryBlock,int,class CUtlMemory<class CUtlBinaryBlock,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<class CUtlSymbolLarge>
+	assetsystem.dll + 0x361f88(hierarchy CDmArrayAttributeOp<class CUtlSymbolLarge>: CDmAttributeOp<class CUtlVector<class CUtlSymbolLarge,int,class CUtlMemory<class CUtlSymbolLarge,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<class Color>
+	assetsystem.dll + 0x362350(hierarchy CDmArrayAttributeOp<class Color>: CDmAttributeOp<class CUtlVector<class Color,int,class CUtlMemory<class Color,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<class DmeTime_t>
+	assetsystem.dll + 0x362950(hierarchy CDmArrayAttributeOp<class DmeTime_t>: CDmAttributeOp<class CUtlVector<class DmeTime_t,int,class CUtlMemory<class DmeTime_t,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<class QAngle>
+	assetsystem.dll + 0x362650(hierarchy CDmArrayAttributeOp<class QAngle>: CDmAttributeOp<class CUtlVector<class QAngle,int,class CUtlMemory<class QAngle,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<class QuaternionStorage>
+	assetsystem.dll + 0x362710(hierarchy CDmArrayAttributeOp<class QuaternionStorage>: CDmAttributeOp<class CUtlVector<class QuaternionStorage,int,class CUtlMemory<class QuaternionStorage,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<class VMatrix>
+	assetsystem.dll + 0x3627d0(hierarchy CDmArrayAttributeOp<class VMatrix>: CDmAttributeOp<class CUtlVector<class VMatrix,int,class CUtlMemory<class VMatrix,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<class Vec2D<float> >
+	assetsystem.dll + 0x362410(hierarchy CDmArrayAttributeOp<class Vec2D<float> >: CDmAttributeOp<class CUtlVector<class Vec2D<float>,int,class CUtlMemory<class Vec2D<float>,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<class Vec3D<float> >
+	assetsystem.dll + 0x3624d0(hierarchy CDmArrayAttributeOp<class Vec3D<float> >: CDmAttributeOp<class CUtlVector<class Vec3D<float>,int,class CUtlMemory<class Vec3D<float>,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<class Vec4D<float> >
+	assetsystem.dll + 0x362590(hierarchy CDmArrayAttributeOp<class Vec4D<float> >: CDmAttributeOp<class CUtlVector<class Vec4D<float>,int,class CUtlMemory<class Vec4D<float>,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<enum DmElementHandle_t>
+	assetsystem.dll + 0x361ec8(hierarchy CDmArrayAttributeOp<enum DmElementHandle_t>: CDmAttributeOp<class CUtlVector<enum DmElementHandle_t,int,class CUtlMemory<enum DmElementHandle_t,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<float>
+	assetsystem.dll + 0x3621d0(hierarchy CDmArrayAttributeOp<float>: CDmAttributeOp<class CUtlVector<float,int,class CUtlMemory<float,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<int>
+	assetsystem.dll + 0x362110(hierarchy CDmArrayAttributeOp<int>: CDmAttributeOp<class CUtlVector<int,int,class CUtlMemory<int,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<unsigned __int64>
+	assetsystem.dll + 0x362a10(hierarchy CDmArrayAttributeOp<unsigned __int64>: CDmAttributeOp<class CUtlVector<unsigned __int64,int,class CUtlMemory<unsigned __int64,int> > >, IDmAttributeOp)
+CDmArrayAttributeOp<unsigned char>
+	assetsystem.dll + 0x362ad0(hierarchy CDmArrayAttributeOp<unsigned char>: CDmAttributeOp<class CUtlVector<unsigned char,int,class CUtlMemory<unsigned char,int> > >, IDmAttributeOp)
+CDmAttributeOp<bool>
+	assetsystem.dll + 0x361170(hierarchy CDmAttributeOp<bool>: IDmAttributeOp)
+CDmAttributeOp<class CUtlBinaryBlock>
+	assetsystem.dll + 0x361768(hierarchy CDmAttributeOp<class CUtlBinaryBlock>: IDmAttributeOp)
+CDmAttributeOp<class CUtlSymbolLarge>
+	assetsystem.dll + 0x361450(hierarchy CDmAttributeOp<class CUtlSymbolLarge>: IDmAttributeOp)
+CDmAttributeOp<class Color>
+	assetsystem.dll + 0x361b00(hierarchy CDmAttributeOp<class Color>: IDmAttributeOp)
+CDmAttributeOp<class DmeTime_t>
+	assetsystem.dll + 0x361228(hierarchy CDmAttributeOp<class DmeTime_t>: IDmAttributeOp)
+CDmAttributeOp<class QAngle>
+	assetsystem.dll + 0x3612e0(hierarchy CDmAttributeOp<class QAngle>: IDmAttributeOp)
+CDmAttributeOp<class QuaternionStorage>
+	assetsystem.dll + 0x361398(hierarchy CDmAttributeOp<class QuaternionStorage>: IDmAttributeOp)
+CDmAttributeOp<class VMatrix>
+	assetsystem.dll + 0x361820(hierarchy CDmAttributeOp<class VMatrix>: IDmAttributeOp)
+CDmAttributeOp<class Vec2D<float> >
+	assetsystem.dll + 0x361a48(hierarchy CDmAttributeOp<class Vec2D<float> >: IDmAttributeOp)
+CDmAttributeOp<class Vec3D<float> >
+	assetsystem.dll + 0x361990(hierarchy CDmAttributeOp<class Vec3D<float> >: IDmAttributeOp)
+CDmAttributeOp<class Vec4D<float> >
+	assetsystem.dll + 0x3618d8(hierarchy CDmAttributeOp<class Vec4D<float> >: IDmAttributeOp)
+CDmAttributeOp<enum DmElementHandle_t>
+	assetsystem.dll + 0x3616b0(hierarchy CDmAttributeOp<enum DmElementHandle_t>: IDmAttributeOp)
+CDmAttributeOp<float>
+	assetsystem.dll + 0x3610b8(hierarchy CDmAttributeOp<float>: IDmAttributeOp)
+CDmAttributeOp<int>
+	assetsystem.dll + 0x361000(hierarchy CDmAttributeOp<int>: IDmAttributeOp)
+CDmAttributeOp<struct DmUnknownAttribute_t>
+	assetsystem.dll + 0x360f48(hierarchy CDmAttributeOp<struct DmUnknownAttribute_t>: IDmAttributeOp)
+CDmAttributeOp<unsigned __int64>
+	assetsystem.dll + 0x3615f8(hierarchy CDmAttributeOp<unsigned __int64>: IDmAttributeOp)
+CDmAttributeOp<unsigned char>
+	assetsystem.dll + 0x361540(hierarchy CDmAttributeOp<unsigned char>: IDmAttributeOp)
+CDmElement
+	assetsystem.dll + 0x365618(hierarchy CDmElement)
+CDmElementFactory<class CDmElement>
+	assetsystem.dll + 0x3655a8(hierarchy CDmElementFactory<class CDmElement>: CDmElementFactoryInternal, IDmElementFactory)
+CDmElementFactoryDefault
+	assetsystem.dll + 0x365968(hierarchy CDmElementFactoryDefault: IDmElementFactory)
+CDmElementFramework
+	assetsystem.dll + 0x367060(hierarchy CDmElementFramework: CBaseAppSystem<class IDmElementFramework>, IDmElementFramework, CBaseAppSystem<class IAppSystem>, IAppSystem)
+CDmFormatUpdater_animflags
+	assetsystem.dll + 0x36a870(hierarchy CDmFormatUpdater_animflags: IDmFormatUpdater)
+CDmFormatUpdater_dmx
+	assetsystem.dll + 0x369cb0(hierarchy CDmFormatUpdater_dmx: IDmFormatUpdater)
+CDmFormatUpdater_facial_animation
+	assetsystem.dll + 0x369f60(hierarchy CDmFormatUpdater_facial_animation: IDmFormatUpdater)
+CDmFormatUpdater_gui
+	assetsystem.dll + 0x36a570(hierarchy CDmFormatUpdater_gui: IDmFormatUpdater)
+CDmFormatUpdater_model
+	assetsystem.dll + 0x369fc8(hierarchy CDmFormatUpdater_model: IDmFormatUpdater)
+CDmFormatUpdater_movieobjects
+	assetsystem.dll + 0x369cf8(hierarchy CDmFormatUpdater_movieobjects: IDmFormatUpdater)
+CDmFormatUpdater_mp_anim
+	assetsystem.dll + 0x36a208(hierarchy CDmFormatUpdater_mp_anim: IDmFormatUpdater)
+CDmFormatUpdater_mp_bonemask
+	assetsystem.dll + 0x36a4e8(hierarchy CDmFormatUpdater_mp_bonemask: IDmFormatUpdater)
+CDmFormatUpdater_mp_eyes
+	assetsystem.dll + 0x36a478(hierarchy CDmFormatUpdater_mp_eyes: IDmFormatUpdater)
+CDmFormatUpdater_mp_hitbox
+	assetsystem.dll + 0x36a2f8(hierarchy CDmFormatUpdater_mp_hitbox: IDmFormatUpdater)
+CDmFormatUpdater_mp_keyvalues
+	assetsystem.dll + 0x36a400(hierarchy CDmFormatUpdater_mp_keyvalues: IDmFormatUpdater)
+CDmFormatUpdater_mp_materialgroup
+	assetsystem.dll + 0x36a370(hierarchy CDmFormatUpdater_mp_materialgroup: IDmFormatUpdater)
+CDmFormatUpdater_mp_model
+	assetsystem.dll + 0x36a198(hierarchy CDmFormatUpdater_mp_model: IDmFormatUpdater)
+CDmFormatUpdater_mp_physics
+	assetsystem.dll + 0x36a280(hierarchy CDmFormatUpdater_mp_physics: IDmFormatUpdater)
+CDmFormatUpdater_mp_preprocess
+	assetsystem.dll + 0x36a0c0(hierarchy CDmFormatUpdater_mp_preprocess: IDmFormatUpdater)
+CDmFormatUpdater_mp_root
+	assetsystem.dll + 0x36a130(hierarchy CDmFormatUpdater_mp_root: IDmFormatUpdater)
+CDmFormatUpdater_pcf
+	assetsystem.dll + 0x369eb0(hierarchy CDmFormatUpdater_pcf: IDmFormatUpdater)
+CDmFormatUpdater_preset
+	assetsystem.dll + 0x369f10(hierarchy CDmFormatUpdater_preset: IDmFormatUpdater)
+CDmFormatUpdater_schema
+	assetsystem.dll + 0x36a5c8(hierarchy CDmFormatUpdater_schema: IDmFormatUpdater)
+CDmFormatUpdater_sfm
+	assetsystem.dll + 0x369d58(hierarchy CDmFormatUpdater_sfm: IDmFormatUpdater)
+CDmFormatUpdater_sfm_session
+	assetsystem.dll + 0x369e00(hierarchy CDmFormatUpdater_sfm_session: IDmFormatUpdater)
+CDmFormatUpdater_sfm_settings
+	assetsystem.dll + 0x369da8(hierarchy CDmFormatUpdater_sfm_settings: IDmFormatUpdater)
+CDmFormatUpdater_sfm_trackgroup
+	assetsystem.dll + 0x369e58(hierarchy CDmFormatUpdater_sfm_trackgroup: IDmFormatUpdater)
+CDmFormatUpdater_vanim
+	assetsystem.dll + 0x36a810(hierarchy CDmFormatUpdater_vanim: IDmFormatUpdater)
+CDmFormatUpdater_ved
+	assetsystem.dll + 0x36a018(hierarchy CDmFormatUpdater_ved: IDmFormatUpdater)
+CDmFormatUpdater_virtualvolumetexture
+	assetsystem.dll + 0x36a748(hierarchy CDmFormatUpdater_virtualvolumetexture: IDmFormatUpdater)
+CDmFormatUpdater_vmap
+	assetsystem.dll + 0x36a7c0(hierarchy CDmFormatUpdater_vmap: IDmFormatUpdater)
+CDmFormatUpdater_vmks
+	assetsystem.dll + 0x36a070(hierarchy CDmFormatUpdater_vmks: IDmFormatUpdater)
+CDmFormatUpdater_vtex
+	assetsystem.dll + 0x36a628(hierarchy CDmFormatUpdater_vtex: IDmFormatUpdater)
+CDmFormatUpdater_world
+	assetsystem.dll + 0x36a688(hierarchy CDmFormatUpdater_world: IDmFormatUpdater)
+CDmFormatUpdater_worldnode
+	assetsystem.dll + 0x36a6e0(hierarchy CDmFormatUpdater_worldnode: IDmFormatUpdater)
+CDmSerializerBinary
+	assetsystem.dll + 0x367af0(hierarchy CDmSerializerBinary: IDmSerializer)
+CDmSerializerKeyValues
+	assetsystem.dll + 0x367288(hierarchy CDmSerializerKeyValues: IDmSerializer)
+CDmSerializerKeyValues2
+	assetsystem.dll + 0x367448(hierarchy CDmSerializerKeyValues2: IDmSerializer)
+CDmSerializers
+	assetsystem.dll + 0x36a8d0(hierarchy CDmSerializers: CBaseAppSystem<class IDmSerializers>, IDmSerializers, IAppSystem)
+CElementForKeyValueCallback
+	assetsystem.dll + 0x36e880(hierarchy CElementForKeyValueCallback: IElementForKeyValueCallback)
+CElementVisitor_DmeMeshFinder
+	assetsystem.dll + 0x36c9b0(hierarchy CElementVisitor_DmeMeshFinder: IElementVisitor)
+CElementVisitor_DotaLightFinder
+	assetsystem.dll + 0x36cf30(hierarchy CElementVisitor_DotaLightFinder: IElementVisitor)
+CElementVisitor_LightEnvironment
+	assetsystem.dll + 0x36cff0(hierarchy CElementVisitor_LightEnvironment: IElementVisitor)
+CFilterVPKFiles
+	assetsystem.dll + 0x458058(hierarchy CFilterVPKFiles: IResourceDependencyFilter)
+CGenericExprPart
+	assetsystem.dll + 0x421cc0(hierarchy CGenericExprPart)
+CGenericExpr_Binary
+	assetsystem.dll + 0x421d38(hierarchy CGenericExpr_Binary: CGenericExprPart)
+CGenericExpr_BoolLiteral
+	assetsystem.dll + 0x421ed0(hierarchy CGenericExpr_BoolLiteral: CGenericExprPart)
+CGenericExpr_FloatLiteral
+	assetsystem.dll + 0x421e60(hierarchy CGenericExpr_FloatLiteral: CGenericExprPart)
+CGenericExpr_FunctionCall
+	assetsystem.dll + 0x421f78(hierarchy CGenericExpr_FunctionCall: CGenericExprPart)
+CGenericExpr_IntLiteral
+	assetsystem.dll + 0x421e98(hierarchy CGenericExpr_IntLiteral: CGenericExprPart)
+CGenericExpr_Property
+	assetsystem.dll + 0x421f40(hierarchy CGenericExpr_Property: CGenericExprPart)
+CGenericExpr_StringLiteral
+	assetsystem.dll + 0x421e28(hierarchy CGenericExpr_StringLiteral: CGenericExprPart)
+CGenericExpr_TernaryConditional
+	assetsystem.dll + 0x421de8(hierarchy CGenericExpr_TernaryConditional: CGenericExprPart)
+CGenericExpr_Unary
+	assetsystem.dll + 0x421ce8(hierarchy CGenericExpr_Unary: CGenericExprPart)
+CGenericExpr_VariableReference
+	assetsystem.dll + 0x421f08(hierarchy CGenericExpr_VariableReference: CGenericExprPart)
+CGenericFilterKey
+	assetsystem.dll + 0x4370e8(hierarchy CGenericFilterKey)
+CGenericFilterKey_AliasGroup
+	assetsystem.dll + 0x437148(hierarchy CGenericFilterKey_AliasGroup: CGenericFilterKey)
+CGenericFilterKey_Unknown
+	assetsystem.dll + 0x4371a8(hierarchy CGenericFilterKey_Unknown: CGenericFilterKey)
+CImportActBusy
+	assetsystem.dll + 0x36e158(hierarchy CImportActBusy: CImportKeyValueBase, IDmSerializer)
+CImportCommentary
+	assetsystem.dll + 0x36e808(hierarchy CImportCommentary: CImportKeyValueBase, IDmSerializer)
+CImportMKS
+	assetsystem.dll + 0x36f3e0(hierarchy CImportMKS: IDmSerializer)
+CImportSFMV1
+	assetsystem.dll + 0x36ec98(hierarchy CImportSFMV1: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+CImportSFMV2
+	assetsystem.dll + 0x36efc8(hierarchy CImportSFMV2: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+CImportSFMV3
+	assetsystem.dll + 0x36f028(hierarchy CImportSFMV3: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+CImportSFMV4
+	assetsystem.dll + 0x36f298(hierarchy CImportSFMV4: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+CImportSFMV5
+	assetsystem.dll + 0x36f2d8(hierarchy CImportSFMV5: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+CImportSFMV6
+	assetsystem.dll + 0x36f308(hierarchy CImportSFMV6: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+CImportSFMV7
+	assetsystem.dll + 0x36f340(hierarchy CImportSFMV7: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+CImportSFMV8
+	assetsystem.dll + 0x36f378(hierarchy CImportSFMV8: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+CImportSFMV9
+	assetsystem.dll + 0x36f3b8(hierarchy CImportSFMV9: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+CImportTex
+	assetsystem.dll + 0x36fd68(hierarchy CImportTex: IDmSerializer)
+CImportVMT
+	assetsystem.dll + 0x36e8b0(hierarchy CImportVMT: CImportKeyValueBase, IDmSerializer)
+CKV3TransferContextBase
+	assetsystem.dll + 0x4369a0(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferLoadContext
+	assetsystem.dll + 0x436a10(hierarchy CKV3TransferLoadContext: CKV3TransferContextBase, IErrorListener)
+CKV3TransferSaveContext
+	assetsystem.dll + 0x4369d8(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CLoadedResourcesWorkingSet
+	assetsystem.dll + 0x458fb0(hierarchy CLoadedResourcesWorkingSet: CProceduralWorkingSet, IWorkingSet)
+CMRUAssetsWorkingSet
+	assetsystem.dll + 0x458da0(hierarchy CMRUAssetsWorkingSet: CProceduralWorkingSet, IWorkingSet)
+CMapAsset
+	assetsystem.dll + 0x457c38(hierarchy CMapAsset: CAsset, IAsset)
+CMapAssetType
+	assetsystem.dll + 0x457f48(hierarchy CMapAssetType: CAssetType, IAssetType)
+CMapAssetTypeInfo
+	assetsystem.dll + 0x437cf0(hierarchy CMapAssetTypeInfo: CResourceAssetTypeInfo, CSimpleAssetTypeInfo)
+CP4File
+	assetsystem.dll + 0x436e10(hierarchy CP4File)
+CParallelProcessLauncher::CParallelLambdaJob<class `private: void __cdecl CKMeansClustering::AssignVectorsToClusters(void) __ptr64'::`2'::<lambda_1> >
+	assetsystem.dll + 0x3e0270(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `private: void __cdecl CKMeansClustering::AssignVectorsToClusters(void) __ptr64'::`2'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC7_bc7e(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >
+	assetsystem.dll + 0x35f658(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC7_bc7e(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC7_ispctexcomp(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >
+	assetsystem.dll + 0x35f670(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC7_ispctexcomp(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferETC(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >
+	assetsystem.dll + 0x35f688(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferETC(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct BGRA8888_t,1>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct BGRA8888_t,1>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	assetsystem.dll + 0x35f900(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct BGRA8888_t,1>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct BGRA8888_t,1>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA16161616F_t,0>(unsigned char const * __ptr64,struct RGBA16161616F_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA16161616F_t,0>(unsigned char const * __ptr64,struct RGBA16161616F_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	assetsystem.dll + 0x35f918(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA16161616F_t,0>(unsigned char const * __ptr64,struct RGBA16161616F_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA16161616F_t,0>(unsigned char const * __ptr64,struct RGBA16161616F_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA32323232F_t,0>(unsigned char const * __ptr64,struct RGBA32323232F_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA32323232F_t,0>(unsigned char const * __ptr64,struct RGBA32323232F_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	assetsystem.dll + 0x35f930(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA32323232F_t,0>(unsigned char const * __ptr64,struct RGBA32323232F_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA32323232F_t,0>(unsigned char const * __ptr64,struct RGBA32323232F_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA8888_t,1>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA8888_t,1>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	assetsystem.dll + 0x35f8e8(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA8888_t,1>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA8888_t,1>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC7<struct BGRA8888_t>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC7<struct BGRA8888_t>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	assetsystem.dll + 0x35f948(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC7<struct BGRA8888_t>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC7<struct BGRA8888_t>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC7<struct RGBA8888_t>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC7<struct RGBA8888_t>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	assetsystem.dll + 0x35f8d0(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC7<struct RGBA8888_t>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC7<struct RGBA8888_t>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC6H_ispctexcomp(void * __ptr64,unsigned __int64,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >(int,int,char const * __ptr64,class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC6H_ispctexcomp(void * __ptr64,unsigned __int64,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	assetsystem.dll + 0x35f6a0(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC6H_ispctexcomp(void * __ptr64,unsigned __int64,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >(int,int,char const * __ptr64,class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC6H_ispctexcomp(void * __ptr64,unsigned __int64,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CPostConnectCallback
+	assetsystem.dll + 0x435b28(hierarchy CPostConnectCallback)
+CResourceAsset
+	assetsystem.dll + 0x4586c0(hierarchy CResourceAsset: CAsset, IAsset)
+CResourceAsset::CInMemoryCompileResultsListener
+	assetsystem.dll + 0x4589b0(hierarchy CResourceAsset::CInMemoryCompileResultsListener: IInMemoryCompileResultsListener)
+CResourceAssetType
+	assetsystem.dll + 0x4589c0(hierarchy CResourceAssetType: CAssetType, IAssetType)
+CResourceAssetTypeInfo
+	assetsystem.dll + 0x437c40(hierarchy CResourceAssetTypeInfo: CSimpleAssetTypeInfo)
+CSFMBaseImporter
+	assetsystem.dll + 0x3702f8(hierarchy CSFMBaseImporter: CDmeBaseImporter, IDmLegacyUpdater)
+CSchemaInstallCallback
+	assetsystem.dll + 0x436e90(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_toolutils2
+	assetsystem.dll + 0x437018(hierarchy CSchemaRegistration_toolutils2: CSchemaRegistration)
+CSimpleAssetTypeInfo
+	assetsystem.dll + 0x437be8(hierarchy CSimpleAssetTypeInfo)
+CSimpleWorkingSet
+	assetsystem.dll + 0x458e50(hierarchy CSimpleWorkingSet: IWorkingSet)
+CStdAssetFileSystem
+	assetsystem.dll + 0x4505c8(hierarchy CStdAssetFileSystem: IAssetFileSystemInterface)
+CSubasset
+	assetsystem.dll + 0x458c00(hierarchy CSubasset: ISubasset)
+CSubassetFilter
+	assetsystem.dll + 0x450b30(hierarchy CSubassetFilter: CGenericFilterKey)
+CSubassetType
+	assetsystem.dll + 0x453228(hierarchy CSubassetType: ISubassetType)
+CTestAsset
+	assetsystem.dll + 0x456260(hierarchy CTestAsset: CAsset, IAsset)
+CTestAssetFileSystem
+	assetsystem.dll + 0x455a10(hierarchy CTestAssetFileSystem: CInMemoryFilesystem, IAssetFileSystemInterface)
+CTestAssetType
+	assetsystem.dll + 0x456838(hierarchy CTestAssetType: CAssetType, IAssetType)
+CUndoArrayAttributeSetMultipleValueElement<bool>
+	assetsystem.dll + 0x3637d8(hierarchy CUndoArrayAttributeSetMultipleValueElement<bool>: CUndoAttributeArrayBase<bool>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<class CUtlBinaryBlock>
+	assetsystem.dll + 0x364af8(hierarchy CUndoArrayAttributeSetMultipleValueElement<class CUtlBinaryBlock>: CUndoAttributeArrayBase<class CUtlBinaryBlock>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<class CUtlSymbolLarge>
+	assetsystem.dll + 0x363130(hierarchy CUndoArrayAttributeSetMultipleValueElement<class CUtlSymbolLarge>: CUndoAttributeArrayBase<class CUtlSymbolLarge>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<class Color>
+	assetsystem.dll + 0x363a10(hierarchy CUndoArrayAttributeSetMultipleValueElement<class Color>: CUndoAttributeArrayBase<class Color>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<class DmeTime_t>
+	assetsystem.dll + 0x364d30(hierarchy CUndoArrayAttributeSetMultipleValueElement<class DmeTime_t>: CUndoAttributeArrayBase<class DmeTime_t>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<class QAngle>
+	assetsystem.dll + 0x3643f8(hierarchy CUndoArrayAttributeSetMultipleValueElement<class QAngle>: CUndoAttributeArrayBase<class QAngle>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<class QuaternionStorage>
+	assetsystem.dll + 0x364630(hierarchy CUndoArrayAttributeSetMultipleValueElement<class QuaternionStorage>: CUndoAttributeArrayBase<class QuaternionStorage>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<class VMatrix>
+	assetsystem.dll + 0x364868(hierarchy CUndoArrayAttributeSetMultipleValueElement<class VMatrix>: CUndoAttributeArrayBase<class VMatrix>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<class Vec2D<float> >
+	assetsystem.dll + 0x363c48(hierarchy CUndoArrayAttributeSetMultipleValueElement<class Vec2D<float> >: CUndoAttributeArrayBase<class Vec2D<float> >, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<class Vec3D<float> >
+	assetsystem.dll + 0x363ed8(hierarchy CUndoArrayAttributeSetMultipleValueElement<class Vec3D<float> >: CUndoAttributeArrayBase<class Vec3D<float> >, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<class Vec4D<float> >
+	assetsystem.dll + 0x364168(hierarchy CUndoArrayAttributeSetMultipleValueElement<class Vec4D<float> >: CUndoAttributeArrayBase<class Vec4D<float> >, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<enum DmElementHandle_t>
+	assetsystem.dll + 0x362ef8(hierarchy CUndoArrayAttributeSetMultipleValueElement<enum DmElementHandle_t>: CUndoAttributeArrayBase<enum DmElementHandle_t>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<float>
+	assetsystem.dll + 0x3635a0(hierarchy CUndoArrayAttributeSetMultipleValueElement<float>: CUndoAttributeArrayBase<float>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<int>
+	assetsystem.dll + 0x363368(hierarchy CUndoArrayAttributeSetMultipleValueElement<int>: CUndoAttributeArrayBase<int>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<unsigned __int64>
+	assetsystem.dll + 0x364fc0(hierarchy CUndoArrayAttributeSetMultipleValueElement<unsigned __int64>: CUndoAttributeArrayBase<unsigned __int64>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetMultipleValueElement<unsigned char>
+	assetsystem.dll + 0x365250(hierarchy CUndoArrayAttributeSetMultipleValueElement<unsigned char>: CUndoAttributeArrayBase<unsigned char>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<bool>
+	assetsystem.dll + 0x363828(hierarchy CUndoArrayAttributeSetValueElement<bool>: CUndoAttributeArrayBase<bool>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<class CUtlBinaryBlock>
+	assetsystem.dll + 0x364b48(hierarchy CUndoArrayAttributeSetValueElement<class CUtlBinaryBlock>: CUndoAttributeArrayBase<class CUtlBinaryBlock>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<class CUtlSymbolLarge>
+	assetsystem.dll + 0x363180(hierarchy CUndoArrayAttributeSetValueElement<class CUtlSymbolLarge>: CUndoAttributeArrayBase<class CUtlSymbolLarge>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<class Color>
+	assetsystem.dll + 0x363a60(hierarchy CUndoArrayAttributeSetValueElement<class Color>: CUndoAttributeArrayBase<class Color>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<class DmeTime_t>
+	assetsystem.dll + 0x364d80(hierarchy CUndoArrayAttributeSetValueElement<class DmeTime_t>: CUndoAttributeArrayBase<class DmeTime_t>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<class QAngle>
+	assetsystem.dll + 0x364448(hierarchy CUndoArrayAttributeSetValueElement<class QAngle>: CUndoAttributeArrayBase<class QAngle>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<class QuaternionStorage>
+	assetsystem.dll + 0x364680(hierarchy CUndoArrayAttributeSetValueElement<class QuaternionStorage>: CUndoAttributeArrayBase<class QuaternionStorage>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<class VMatrix>
+	assetsystem.dll + 0x3648b8(hierarchy CUndoArrayAttributeSetValueElement<class VMatrix>: CUndoAttributeArrayBase<class VMatrix>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<class Vec2D<float> >
+	assetsystem.dll + 0x363c98(hierarchy CUndoArrayAttributeSetValueElement<class Vec2D<float> >: CUndoAttributeArrayBase<class Vec2D<float> >, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<class Vec3D<float> >
+	assetsystem.dll + 0x363f28(hierarchy CUndoArrayAttributeSetValueElement<class Vec3D<float> >: CUndoAttributeArrayBase<class Vec3D<float> >, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<class Vec4D<float> >
+	assetsystem.dll + 0x3641b8(hierarchy CUndoArrayAttributeSetValueElement<class Vec4D<float> >: CUndoAttributeArrayBase<class Vec4D<float> >, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<enum DmElementHandle_t>
+	assetsystem.dll + 0x362f48(hierarchy CUndoArrayAttributeSetValueElement<enum DmElementHandle_t>: CUndoAttributeArrayBase<enum DmElementHandle_t>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<float>
+	assetsystem.dll + 0x3635f0(hierarchy CUndoArrayAttributeSetValueElement<float>: CUndoAttributeArrayBase<float>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<int>
+	assetsystem.dll + 0x3633b8(hierarchy CUndoArrayAttributeSetValueElement<int>: CUndoAttributeArrayBase<int>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<unsigned __int64>
+	assetsystem.dll + 0x365010(hierarchy CUndoArrayAttributeSetValueElement<unsigned __int64>: CUndoAttributeArrayBase<unsigned __int64>, CUndoElement, IUndoElement)
+CUndoArrayAttributeSetValueElement<unsigned char>
+	assetsystem.dll + 0x3652a0(hierarchy CUndoArrayAttributeSetValueElement<unsigned char>: CUndoAttributeArrayBase<unsigned char>, CUndoElement, IUndoElement)
+CUndoAttributeAddRemove
+	assetsystem.dll + 0x3656d8(hierarchy CUndoAttributeAddRemove: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<bool>
+	assetsystem.dll + 0x363788(hierarchy CUndoAttributeArrayBase<bool>: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<class CUtlBinaryBlock>
+	assetsystem.dll + 0x364aa8(hierarchy CUndoAttributeArrayBase<class CUtlBinaryBlock>: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<class CUtlSymbolLarge>
+	assetsystem.dll + 0x3630e0(hierarchy CUndoAttributeArrayBase<class CUtlSymbolLarge>: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<class Color>
+	assetsystem.dll + 0x3639c0(hierarchy CUndoAttributeArrayBase<class Color>: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<class DmeTime_t>
+	assetsystem.dll + 0x364ce0(hierarchy CUndoAttributeArrayBase<class DmeTime_t>: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<class QAngle>
+	assetsystem.dll + 0x3643a8(hierarchy CUndoAttributeArrayBase<class QAngle>: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<class QuaternionStorage>
+	assetsystem.dll + 0x3645e0(hierarchy CUndoAttributeArrayBase<class QuaternionStorage>: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<class VMatrix>
+	assetsystem.dll + 0x364818(hierarchy CUndoAttributeArrayBase<class VMatrix>: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<class Vec2D<float> >
+	assetsystem.dll + 0x363bf8(hierarchy CUndoAttributeArrayBase<class Vec2D<float> >: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<class Vec3D<float> >
+	assetsystem.dll + 0x363e88(hierarchy CUndoAttributeArrayBase<class Vec3D<float> >: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<class Vec4D<float> >
+	assetsystem.dll + 0x364118(hierarchy CUndoAttributeArrayBase<class Vec4D<float> >: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<enum DmElementHandle_t>
+	assetsystem.dll + 0x362ea8(hierarchy CUndoAttributeArrayBase<enum DmElementHandle_t>: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<float>
+	assetsystem.dll + 0x363550(hierarchy CUndoAttributeArrayBase<float>: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<int>
+	assetsystem.dll + 0x363318(hierarchy CUndoAttributeArrayBase<int>: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<unsigned __int64>
+	assetsystem.dll + 0x364f70(hierarchy CUndoAttributeArrayBase<unsigned __int64>: CUndoElement, IUndoElement)
+CUndoAttributeArrayBase<unsigned char>
+	assetsystem.dll + 0x365200(hierarchy CUndoAttributeArrayBase<unsigned char>: CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<bool>
+	assetsystem.dll + 0x363970(hierarchy CUndoAttributeArrayCopyAllElement<bool>: CUndoAttributeArrayBase<bool>, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<class CUtlBinaryBlock>
+	assetsystem.dll + 0x364c90(hierarchy CUndoAttributeArrayCopyAllElement<class CUtlBinaryBlock>: CUndoAttributeArrayBase<class CUtlBinaryBlock>, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<class CUtlSymbolLarge>
+	assetsystem.dll + 0x3632c8(hierarchy CUndoAttributeArrayCopyAllElement<class CUtlSymbolLarge>: CUndoAttributeArrayBase<class CUtlSymbolLarge>, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<class Color>
+	assetsystem.dll + 0x363ba8(hierarchy CUndoAttributeArrayCopyAllElement<class Color>: CUndoAttributeArrayBase<class Color>, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<class DmeTime_t>
+	assetsystem.dll + 0x364ec8(hierarchy CUndoAttributeArrayCopyAllElement<class DmeTime_t>: CUndoAttributeArrayBase<class DmeTime_t>, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<class QAngle>
+	assetsystem.dll + 0x364590(hierarchy CUndoAttributeArrayCopyAllElement<class QAngle>: CUndoAttributeArrayBase<class QAngle>, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<class QuaternionStorage>
+	assetsystem.dll + 0x3647c8(hierarchy CUndoAttributeArrayCopyAllElement<class QuaternionStorage>: CUndoAttributeArrayBase<class QuaternionStorage>, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<class VMatrix>
+	assetsystem.dll + 0x364a00(hierarchy CUndoAttributeArrayCopyAllElement<class VMatrix>: CUndoAttributeArrayBase<class VMatrix>, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<class Vec2D<float> >
+	assetsystem.dll + 0x363de0(hierarchy CUndoAttributeArrayCopyAllElement<class Vec2D<float> >: CUndoAttributeArrayBase<class Vec2D<float> >, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<class Vec3D<float> >
+	assetsystem.dll + 0x364070(hierarchy CUndoAttributeArrayCopyAllElement<class Vec3D<float> >: CUndoAttributeArrayBase<class Vec3D<float> >, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<class Vec4D<float> >
+	assetsystem.dll + 0x364300(hierarchy CUndoAttributeArrayCopyAllElement<class Vec4D<float> >: CUndoAttributeArrayBase<class Vec4D<float> >, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<enum DmElementHandle_t>
+	assetsystem.dll + 0x363090(hierarchy CUndoAttributeArrayCopyAllElement<enum DmElementHandle_t>: CUndoAttributeArrayBase<enum DmElementHandle_t>, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<float>
+	assetsystem.dll + 0x363738(hierarchy CUndoAttributeArrayCopyAllElement<float>: CUndoAttributeArrayBase<float>, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<int>
+	assetsystem.dll + 0x363500(hierarchy CUndoAttributeArrayCopyAllElement<int>: CUndoAttributeArrayBase<int>, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<unsigned __int64>
+	assetsystem.dll + 0x365158(hierarchy CUndoAttributeArrayCopyAllElement<unsigned __int64>: CUndoAttributeArrayBase<unsigned __int64>, CUndoElement, IUndoElement)
+CUndoAttributeArrayCopyAllElement<unsigned char>
+	assetsystem.dll + 0x3653e8(hierarchy CUndoAttributeArrayCopyAllElement<unsigned char>: CUndoAttributeArrayBase<unsigned char>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<bool>
+	assetsystem.dll + 0x3638c8(hierarchy CUndoAttributeArrayInsertBefore<bool>: CUndoAttributeArrayBase<bool>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<class CUtlBinaryBlock>
+	assetsystem.dll + 0x364be8(hierarchy CUndoAttributeArrayInsertBefore<class CUtlBinaryBlock>: CUndoAttributeArrayBase<class CUtlBinaryBlock>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<class CUtlSymbolLarge>
+	assetsystem.dll + 0x363220(hierarchy CUndoAttributeArrayInsertBefore<class CUtlSymbolLarge>: CUndoAttributeArrayBase<class CUtlSymbolLarge>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<class Color>
+	assetsystem.dll + 0x363b00(hierarchy CUndoAttributeArrayInsertBefore<class Color>: CUndoAttributeArrayBase<class Color>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<class DmeTime_t>
+	assetsystem.dll + 0x364e20(hierarchy CUndoAttributeArrayInsertBefore<class DmeTime_t>: CUndoAttributeArrayBase<class DmeTime_t>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<class QAngle>
+	assetsystem.dll + 0x3644e8(hierarchy CUndoAttributeArrayInsertBefore<class QAngle>: CUndoAttributeArrayBase<class QAngle>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<class QuaternionStorage>
+	assetsystem.dll + 0x364720(hierarchy CUndoAttributeArrayInsertBefore<class QuaternionStorage>: CUndoAttributeArrayBase<class QuaternionStorage>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<class VMatrix>
+	assetsystem.dll + 0x364958(hierarchy CUndoAttributeArrayInsertBefore<class VMatrix>: CUndoAttributeArrayBase<class VMatrix>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<class Vec2D<float> >
+	assetsystem.dll + 0x363d38(hierarchy CUndoAttributeArrayInsertBefore<class Vec2D<float> >: CUndoAttributeArrayBase<class Vec2D<float> >, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<class Vec3D<float> >
+	assetsystem.dll + 0x363fc8(hierarchy CUndoAttributeArrayInsertBefore<class Vec3D<float> >: CUndoAttributeArrayBase<class Vec3D<float> >, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<class Vec4D<float> >
+	assetsystem.dll + 0x364258(hierarchy CUndoAttributeArrayInsertBefore<class Vec4D<float> >: CUndoAttributeArrayBase<class Vec4D<float> >, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<enum DmElementHandle_t>
+	assetsystem.dll + 0x362fe8(hierarchy CUndoAttributeArrayInsertBefore<enum DmElementHandle_t>: CUndoAttributeArrayBase<enum DmElementHandle_t>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<float>
+	assetsystem.dll + 0x363690(hierarchy CUndoAttributeArrayInsertBefore<float>: CUndoAttributeArrayBase<float>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<int>
+	assetsystem.dll + 0x363458(hierarchy CUndoAttributeArrayInsertBefore<int>: CUndoAttributeArrayBase<int>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<unsigned __int64>
+	assetsystem.dll + 0x3650b0(hierarchy CUndoAttributeArrayInsertBefore<unsigned __int64>: CUndoAttributeArrayBase<unsigned __int64>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertBefore<unsigned char>
+	assetsystem.dll + 0x365340(hierarchy CUndoAttributeArrayInsertBefore<unsigned char>: CUndoAttributeArrayBase<unsigned char>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<bool>
+	assetsystem.dll + 0x363878(hierarchy CUndoAttributeArrayInsertCopyBefore<bool>: CUndoAttributeArrayBase<bool>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<class CUtlBinaryBlock>
+	assetsystem.dll + 0x364b98(hierarchy CUndoAttributeArrayInsertCopyBefore<class CUtlBinaryBlock>: CUndoAttributeArrayBase<class CUtlBinaryBlock>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<class CUtlSymbolLarge>
+	assetsystem.dll + 0x3631d0(hierarchy CUndoAttributeArrayInsertCopyBefore<class CUtlSymbolLarge>: CUndoAttributeArrayBase<class CUtlSymbolLarge>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<class Color>
+	assetsystem.dll + 0x363ab0(hierarchy CUndoAttributeArrayInsertCopyBefore<class Color>: CUndoAttributeArrayBase<class Color>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<class DmeTime_t>
+	assetsystem.dll + 0x364dd0(hierarchy CUndoAttributeArrayInsertCopyBefore<class DmeTime_t>: CUndoAttributeArrayBase<class DmeTime_t>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<class QAngle>
+	assetsystem.dll + 0x364498(hierarchy CUndoAttributeArrayInsertCopyBefore<class QAngle>: CUndoAttributeArrayBase<class QAngle>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<class QuaternionStorage>
+	assetsystem.dll + 0x3646d0(hierarchy CUndoAttributeArrayInsertCopyBefore<class QuaternionStorage>: CUndoAttributeArrayBase<class QuaternionStorage>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<class VMatrix>
+	assetsystem.dll + 0x364908(hierarchy CUndoAttributeArrayInsertCopyBefore<class VMatrix>: CUndoAttributeArrayBase<class VMatrix>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<class Vec2D<float> >
+	assetsystem.dll + 0x363ce8(hierarchy CUndoAttributeArrayInsertCopyBefore<class Vec2D<float> >: CUndoAttributeArrayBase<class Vec2D<float> >, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<class Vec3D<float> >
+	assetsystem.dll + 0x363f78(hierarchy CUndoAttributeArrayInsertCopyBefore<class Vec3D<float> >: CUndoAttributeArrayBase<class Vec3D<float> >, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<class Vec4D<float> >
+	assetsystem.dll + 0x364208(hierarchy CUndoAttributeArrayInsertCopyBefore<class Vec4D<float> >: CUndoAttributeArrayBase<class Vec4D<float> >, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<enum DmElementHandle_t>
+	assetsystem.dll + 0x362f98(hierarchy CUndoAttributeArrayInsertCopyBefore<enum DmElementHandle_t>: CUndoAttributeArrayBase<enum DmElementHandle_t>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<float>
+	assetsystem.dll + 0x363640(hierarchy CUndoAttributeArrayInsertCopyBefore<float>: CUndoAttributeArrayBase<float>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<int>
+	assetsystem.dll + 0x363408(hierarchy CUndoAttributeArrayInsertCopyBefore<int>: CUndoAttributeArrayBase<int>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<unsigned __int64>
+	assetsystem.dll + 0x365060(hierarchy CUndoAttributeArrayInsertCopyBefore<unsigned __int64>: CUndoAttributeArrayBase<unsigned __int64>, CUndoElement, IUndoElement)
+CUndoAttributeArrayInsertCopyBefore<unsigned char>
+	assetsystem.dll + 0x3652f0(hierarchy CUndoAttributeArrayInsertCopyBefore<unsigned char>: CUndoAttributeArrayBase<unsigned char>, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<bool>
+	assetsystem.dll + 0x363918(hierarchy CUndoAttributeArrayRemoveElement<bool>: CUndoAttributeArrayBase<bool>, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<class CUtlBinaryBlock>
+	assetsystem.dll + 0x364c38(hierarchy CUndoAttributeArrayRemoveElement<class CUtlBinaryBlock>: CUndoAttributeArrayBase<class CUtlBinaryBlock>, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<class CUtlSymbolLarge>
+	assetsystem.dll + 0x363270(hierarchy CUndoAttributeArrayRemoveElement<class CUtlSymbolLarge>: CUndoAttributeArrayBase<class CUtlSymbolLarge>, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<class Color>
+	assetsystem.dll + 0x363b50(hierarchy CUndoAttributeArrayRemoveElement<class Color>: CUndoAttributeArrayBase<class Color>, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<class DmeTime_t>
+	assetsystem.dll + 0x364e70(hierarchy CUndoAttributeArrayRemoveElement<class DmeTime_t>: CUndoAttributeArrayBase<class DmeTime_t>, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<class QAngle>
+	assetsystem.dll + 0x364538(hierarchy CUndoAttributeArrayRemoveElement<class QAngle>: CUndoAttributeArrayBase<class QAngle>, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<class QuaternionStorage>
+	assetsystem.dll + 0x364770(hierarchy CUndoAttributeArrayRemoveElement<class QuaternionStorage>: CUndoAttributeArrayBase<class QuaternionStorage>, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<class VMatrix>
+	assetsystem.dll + 0x3649a8(hierarchy CUndoAttributeArrayRemoveElement<class VMatrix>: CUndoAttributeArrayBase<class VMatrix>, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<class Vec2D<float> >
+	assetsystem.dll + 0x363d88(hierarchy CUndoAttributeArrayRemoveElement<class Vec2D<float> >: CUndoAttributeArrayBase<class Vec2D<float> >, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<class Vec3D<float> >
+	assetsystem.dll + 0x364018(hierarchy CUndoAttributeArrayRemoveElement<class Vec3D<float> >: CUndoAttributeArrayBase<class Vec3D<float> >, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<class Vec4D<float> >
+	assetsystem.dll + 0x3642a8(hierarchy CUndoAttributeArrayRemoveElement<class Vec4D<float> >: CUndoAttributeArrayBase<class Vec4D<float> >, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<enum DmElementHandle_t>
+	assetsystem.dll + 0x363038(hierarchy CUndoAttributeArrayRemoveElement<enum DmElementHandle_t>: CUndoAttributeArrayBase<enum DmElementHandle_t>, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<float>
+	assetsystem.dll + 0x3636e0(hierarchy CUndoAttributeArrayRemoveElement<float>: CUndoAttributeArrayBase<float>, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<int>
+	assetsystem.dll + 0x3634a8(hierarchy CUndoAttributeArrayRemoveElement<int>: CUndoAttributeArrayBase<int>, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<unsigned __int64>
+	assetsystem.dll + 0x365100(hierarchy CUndoAttributeArrayRemoveElement<unsigned __int64>: CUndoAttributeArrayBase<unsigned __int64>, CUndoElement, IUndoElement)
+CUndoAttributeArrayRemoveElement<unsigned char>
+	assetsystem.dll + 0x365390(hierarchy CUndoAttributeArrayRemoveElement<unsigned char>: CUndoAttributeArrayBase<unsigned char>, CUndoElement, IUndoElement)
+CUndoAttributeRenameElement
+	assetsystem.dll + 0x361e40(hierarchy CUndoAttributeRenameElement: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<bool>
+	assetsystem.dll + 0x362d48(hierarchy CUndoAttributeSetValueElement<bool>: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<class CUtlBinaryBlock>
+	assetsystem.dll + 0x362be8(hierarchy CUndoAttributeSetValueElement<class CUtlBinaryBlock>: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<class CUtlSymbolLarge>
+	assetsystem.dll + 0x362b90(hierarchy CUndoAttributeSetValueElement<class CUtlSymbolLarge>: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<class Color>
+	assetsystem.dll + 0x362c40(hierarchy CUndoAttributeSetValueElement<class Color>: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<class DmeTime_t>
+	assetsystem.dll + 0x362da0(hierarchy CUndoAttributeSetValueElement<class DmeTime_t>: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<class QAngle>
+	assetsystem.dll + 0x362df8(hierarchy CUndoAttributeSetValueElement<class QAngle>: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<class QuaternionStorage>
+	assetsystem.dll + 0x362e50(hierarchy CUndoAttributeSetValueElement<class QuaternionStorage>: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<class VMatrix>
+	assetsystem.dll + 0x364a50(hierarchy CUndoAttributeSetValueElement<class VMatrix>: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<class Vec2D<float> >
+	assetsystem.dll + 0x363e30(hierarchy CUndoAttributeSetValueElement<class Vec2D<float> >: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<class Vec3D<float> >
+	assetsystem.dll + 0x3640c0(hierarchy CUndoAttributeSetValueElement<class Vec3D<float> >: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<class Vec4D<float> >
+	assetsystem.dll + 0x364350(hierarchy CUndoAttributeSetValueElement<class Vec4D<float> >: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<enum DmElementHandle_t>
+	assetsystem.dll + 0x364f18(hierarchy CUndoAttributeSetValueElement<enum DmElementHandle_t>: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<float>
+	assetsystem.dll + 0x362cf0(hierarchy CUndoAttributeSetValueElement<float>: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<int>
+	assetsystem.dll + 0x362c98(hierarchy CUndoAttributeSetValueElement<int>: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<unsigned __int64>
+	assetsystem.dll + 0x3651a8(hierarchy CUndoAttributeSetValueElement<unsigned __int64>: CUndoElement, IUndoElement)
+CUndoAttributeSetValueElement<unsigned char>
+	assetsystem.dll + 0x365438(hierarchy CUndoAttributeSetValueElement<unsigned char>: CUndoElement, IUndoElement)
+CUndoCreateElement
+	assetsystem.dll + 0x3669d0(hierarchy CUndoCreateElement: CUndoElement, IUndoElement)
+CUndoDestroyElement
+	assetsystem.dll + 0x366a60(hierarchy CUndoDestroyElement: CUndoElement, IUndoElement)
+CUndoElement
+	assetsystem.dll + 0x361df0(hierarchy CUndoElement: IUndoElement)
+CVDataAutoTagger
+	assetsystem.dll + 0x456e70(hierarchy CVDataAutoTagger: IVDataResourceListener)
+CVDataFileManager<class CAssetTagInfo>
+	assetsystem.dll + 0x456f28(hierarchy CVDataFileManager<class CAssetTagInfo>: CBaseVDataFileManager, IVDataResourceListener)
+Concurrency::details::_CancellationTokenCallback<class <lambda_be3e5d9dce35d2c8dbfa8485373731d5> >
+	assetsystem.dll + 0x371610(hierarchy Concurrency::details::_CancellationTokenCallback<class <lambda_be3e5d9dce35d2c8dbfa8485373731d5> >: Concurrency::details::_CancellationTokenRegistration, Concurrency::details::_RefCounter)
+Concurrency::details::_CancellationTokenRegistration
+	assetsystem.dll + 0x371548(hierarchy Concurrency::details::_CancellationTokenRegistration: Concurrency::details::_RefCounter)
+Concurrency::details::_DefaultPPLTaskScheduler
+	assetsystem.dll + 0x371500(hierarchy Concurrency::details::_DefaultPPLTaskScheduler: Concurrency::scheduler_interface)
+Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>
+	assetsystem.dll + 0x371d40(hierarchy Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>: Concurrency::details::_TaskProcHandle)
+Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>
+	assetsystem.dll + 0x371dd8(hierarchy Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>: Concurrency::details::_TaskProcHandle)
+Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>
+	assetsystem.dll + 0x371da8(hierarchy Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>: Concurrency::details::_TaskProcHandle)
+Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>
+	assetsystem.dll + 0x371d10(hierarchy Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>: Concurrency::details::_TaskProcHandle)
+Concurrency::details::_RefCounter
+	assetsystem.dll + 0x371530(hierarchy Concurrency::details::_RefCounter)
+Concurrency::details::_TaskProcHandle
+	assetsystem.dll + 0x371568(hierarchy Concurrency::details::_TaskProcHandle)
+Concurrency::details::_Task_impl<unsigned char>
+	assetsystem.dll + 0x371630(hierarchy Concurrency::details::_Task_impl<unsigned char>: Concurrency::details::_Task_impl_base)
+Concurrency::details::_Task_impl_base
+	assetsystem.dll + 0x3715c0(hierarchy Concurrency::details::_Task_impl_base)
+Concurrency::details::stl_condition_variable_win7
+	assetsystem.dll + 0x43eec0(hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+Concurrency::details::stl_critical_section_win7
+	assetsystem.dll + 0x43ee90(hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+Concurrency::invalid_operation
+	assetsystem.dll + 0x3714e8(hierarchy Concurrency::invalid_operation: std::exception)
+Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>
+	assetsystem.dll + 0x371d58(hierarchy Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>: Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>, Concurrency::details::_TaskProcHandle)
+Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>
+	assetsystem.dll + 0x371df0(hierarchy Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>: Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>, Concurrency::details::_TaskProcHandle)
+Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>
+	assetsystem.dll + 0x371dc0(hierarchy Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>: Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>, Concurrency::details::_TaskProcHandle)
+Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>
+	assetsystem.dll + 0x371d28(hierarchy Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>: Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>, Concurrency::details::_TaskProcHandle)
+Etc::Block4x4Encoding
+	assetsystem.dll + 0x372488(hierarchy Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_ETC1
+	assetsystem.dll + 0x3724d0(hierarchy Etc::Block4x4Encoding_ETC1: Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_R11
+	assetsystem.dll + 0x3733d0(hierarchy Etc::Block4x4Encoding_R11: Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RG11
+	assetsystem.dll + 0x373520(hierarchy Etc::Block4x4Encoding_RG11: Etc::Block4x4Encoding_R11, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGB8
+	assetsystem.dll + 0x372d08(hierarchy Etc::Block4x4Encoding_RGB8: Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGB8A1
+	assetsystem.dll + 0x373210(hierarchy Etc::Block4x4Encoding_RGB8A1: Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGB8A1_Opaque
+	assetsystem.dll + 0x372000(hierarchy Etc::Block4x4Encoding_RGB8A1_Opaque: Etc::Block4x4Encoding_RGB8A1, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGB8A1_Transparent
+	assetsystem.dll + 0x372048(hierarchy Etc::Block4x4Encoding_RGB8A1_Transparent: Etc::Block4x4Encoding_RGB8A1, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGBA8
+	assetsystem.dll + 0x373020(hierarchy Etc::Block4x4Encoding_RGBA8: Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGBA8_Opaque
+	assetsystem.dll + 0x371f70(hierarchy Etc::Block4x4Encoding_RGBA8_Opaque: Etc::Block4x4Encoding_RGBA8, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGBA8_Transparent
+	assetsystem.dll + 0x371fb8(hierarchy Etc::Block4x4Encoding_RGBA8_Transparent: Etc::Block4x4Encoding_RGBA8, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+FindByTypeVisitor
+	assetsystem.dll + 0x36c988(hierarchy FindByTypeVisitor: IElementVisitor)
+IAssetFileSystemInterface
+	assetsystem.dll + 0x450568(hierarchy IAssetFileSystemInterface)
+IMultipleWorkerJob
+	assetsystem.dll + 0x35f018(hierarchy IMultipleWorkerJob)
+IUndoElement
+	assetsystem.dll + 0x361da0(hierarchy IUndoElement)
+IWorkingSet
+	assetsystem.dll + 0x458cf0(hierarchy IWorkingSet)
+ResourceAssetTypeDependenciesContext_t
+	assetsystem.dll + 0x458af8(hierarchy ResourceAssetTypeDependenciesContext_t: IAssetTypeDependenciesContext)
+VDataInitInfo_t
+	assetsystem.dll + 0x456ef0(hierarchy VDataInitInfo_t: IErrorListener)
+`anonymous namespace'::_ExceptionPtr_normal
+	assetsystem.dll + 0x43ee18(hierarchy `anonymous namespace'::_ExceptionPtr_normal: std::_Ref_count_base)
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>
+	assetsystem.dll + 0x43ee40(hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>: std::_Ref_count_base)
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>
+	assetsystem.dll + 0x43ee68(hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>: std::_Ref_count_base)
+`public: void __cdecl CAssetSystem::ProcessFileChanges(void) __ptr64'::`2'::CAssetFileSystemChangeHandlerVisitor
+	assetsystem.dll + 0x4535e0(hierarchy `public: void __cdecl CAssetSystem::ProcessFileChanges(void) __ptr64'::`2'::CAssetFileSystemChangeHandlerVisitor: CDirTreeWatchManager::Visitor)
+std::_Associated_state<int>
+	assetsystem.dll + 0x3716e8(hierarchy std::_Associated_state<int>)
+std::_Associated_state<unsigned int>
+	assetsystem.dll + 0x371900(hierarchy std::_Associated_state<unsigned int>)
+std::_Deferred_async_state<unsigned int>
+	assetsystem.dll + 0x371b50(hierarchy std::_Deferred_async_state<unsigned int>: std::_Packaged_state<unsigned int __cdecl(void)>, std::_Associated_state<unsigned int>)
+std::_Deferred_async_state<void>
+	assetsystem.dll + 0x371a70(hierarchy std::_Deferred_async_state<void>: std::_Packaged_state<void __cdecl(void)>, std::_Associated_state<int>)
+std::_Facet_base
+	assetsystem.dll + 0x35fe28(hierarchy std::_Facet_base)
+std::_Func_base<unsigned char>
+	assetsystem.dll + 0x371938(hierarchy std::_Func_base<unsigned char>)
+std::_Func_base<unsigned int>
+	assetsystem.dll + 0x371bc0(hierarchy std::_Func_base<unsigned int>)
+std::_Func_base<void>
+	assetsystem.dll + 0x3718c8(hierarchy std::_Func_base<void>)
+std::_Func_impl<class <lambda_5a9ef80d79df7873994019ff15dceae5>,class std::allocator<int>,void>
+	assetsystem.dll + 0x371e40(hierarchy std::_Func_impl<class <lambda_5a9ef80d79df7873994019ff15dceae5>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,class std::allocator<int>,void>
+	assetsystem.dll + 0x371eb0(hierarchy std::_Func_impl<class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_713ee8bbd6b08550d59c52695cab5ce3>,class std::allocator<int>,void>
+	assetsystem.dll + 0x371c30(hierarchy std::_Func_impl<class <lambda_713ee8bbd6b08550d59c52695cab5ce3>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_763529b0c7473cbc215a52d189ac9b18>,class std::allocator<int>,void>
+	assetsystem.dll + 0x371ca0(hierarchy std::_Func_impl<class <lambda_763529b0c7473cbc215a52d189ac9b18>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_85226a1ade6d27c19b16702c44b1a394>,class std::allocator<int>,void>
+	assetsystem.dll + 0x371e78(hierarchy std::_Func_impl<class <lambda_85226a1ade6d27c19b16702c44b1a394>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_e0b623a606acfd10554dbddbb0c1a7da>,class std::allocator<int>,unsigned char>
+	assetsystem.dll + 0x371c68(hierarchy std::_Func_impl<class <lambda_e0b623a606acfd10554dbddbb0c1a7da>,class std::allocator<int>,unsigned char>: std::_Func_base<unsigned char>)
+std::_Func_impl<class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,class std::allocator<int>,void>
+	assetsystem.dll + 0x371e08(hierarchy std::_Func_impl<class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_f25c37099038263181b5186a3fa41b37>,class std::allocator<int>,void>
+	assetsystem.dll + 0x371bf8(hierarchy std::_Func_impl<class <lambda_f25c37099038263181b5186a3fa41b37>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class std::_Fake_no_copy_callable_adapter<unsigned int (__cdecl Etc::Image::*)(unsigned int,unsigned int,unsigned int) __ptr64,class Etc::Image * __ptr64 const,unsigned int & __ptr64,int & __ptr64,unsigned int & __ptr64>,class std::allocator<int>,unsigned int>
+	assetsystem.dll + 0x371d70(hierarchy std::_Func_impl<class std::_Fake_no_copy_callable_adapter<unsigned int (__cdecl Etc::Image::*)(unsigned int,unsigned int,unsigned int) __ptr64,class Etc::Image * __ptr64 const,unsigned int & __ptr64,int & __ptr64,unsigned int & __ptr64>,class std::allocator<int>,unsigned int>: std::_Func_base<unsigned int>)
+std::_Func_impl<class std::_Fake_no_copy_callable_adapter<void (__cdecl Etc::Image::*)(unsigned int,unsigned int) __ptr64,class Etc::Image * __ptr64 const,int & __ptr64,unsigned int & __ptr64>,class std::allocator<int>,void>
+	assetsystem.dll + 0x371cd8(hierarchy std::_Func_impl<class std::_Fake_no_copy_callable_adapter<void (__cdecl Etc::Image::*)(unsigned int,unsigned int) __ptr64,class Etc::Image * __ptr64 const,int & __ptr64,unsigned int & __ptr64>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `private: void __cdecl CAsyncLoadResourceHeaderPromise::StartNewReadRequest(unsigned __int64,bool) __ptr64'::`2'::<lambda_1>,void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>
+	assetsystem.dll + 0x431cf8(hierarchy std::_Func_impl_no_alloc<class `private: void __cdecl CAsyncLoadResourceHeaderPromise::StartNewReadRequest(unsigned __int64,bool) __ptr64'::`2'::<lambda_1>,void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>: std::_Func_base<void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>)
+std::_Func_impl_no_alloc<class `private: void __cdecl CBitmapAsset::SubmitCacheRequest(bool) __ptr64'::`5'::<lambda_1>,void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>
+	assetsystem.dll + 0x4577b0(hierarchy std::_Func_impl_no_alloc<class `private: void __cdecl CBitmapAsset::SubmitCacheRequest(bool) __ptr64'::`5'::<lambda_1>,void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>: std::_Func_base<void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::FillAttr(int,float) __ptr64'::`13'::<lambda_1>,void>
+	assetsystem.dll + 0x436c58(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::FillAttr(int,float) __ptr64'::`13'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::SrgbLinearToGamma(int) __ptr64'::`9'::<lambda_1>,void>
+	assetsystem.dll + 0x436c90(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::SrgbLinearToGamma(int) __ptr64'::`9'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Future_error_category
+	assetsystem.dll + 0x3716a8(hierarchy std::_Future_error_category: std::_Generic_error_category, std::error_category)
+std::_Generic_error_category
+	assetsystem.dll + 0x3714a8(hierarchy std::_Generic_error_category: std::error_category)
+std::_Iostream_error_category2
+	assetsystem.dll + 0x35fdc8(hierarchy std::_Iostream_error_category2: std::error_category)
+std::_Packaged_state<unsigned int __cdecl(void)>
+	assetsystem.dll + 0x371ae0(hierarchy std::_Packaged_state<unsigned int __cdecl(void)>: std::_Associated_state<unsigned int>)
+std::_Packaged_state<void __cdecl(void)>
+	assetsystem.dll + 0x371a00(hierarchy std::_Packaged_state<void __cdecl(void)>: std::_Associated_state<int>)
+std::_Ref_count<struct ResourceAssetTypeDependenciesContext_t>
+	assetsystem.dll + 0x458b08(hierarchy std::_Ref_count<struct ResourceAssetTypeDependenciesContext_t>: std::_Ref_count_base)
+std::_Ref_count_base
+	assetsystem.dll + 0x370348(hierarchy std::_Ref_count_base)
+std::_Ref_count_obj2<class CAsyncLoadResourceHeaderPromise>
+	assetsystem.dll + 0x431cd0(hierarchy std::_Ref_count_obj2<class CAsyncLoadResourceHeaderPromise>: std::_Ref_count_base)
+std::_Ref_count_obj<struct Concurrency::details::_ExceptionHolder>
+	assetsystem.dll + 0x3719b0(hierarchy std::_Ref_count_obj<struct Concurrency::details::_ExceptionHolder>: std::_Ref_count_base)
+std::_Ref_count_obj<struct Concurrency::details::_Task_impl<unsigned char> >
+	assetsystem.dll + 0x3719d8(hierarchy std::_Ref_count_obj<struct Concurrency::details::_Task_impl<unsigned char> >: std::_Ref_count_base)
+std::_System_error
+	assetsystem.dll + 0x35fd80(hierarchy std::_System_error: std::runtime_error, stdext::exception)
+std::_Task_async_state<unsigned int,0>
+	assetsystem.dll + 0x371b18(hierarchy std::_Task_async_state<unsigned int,0>: std::_Packaged_state<unsigned int __cdecl(void)>, std::_Associated_state<unsigned int>)
+std::_Task_async_state<unsigned int,1>
+	assetsystem.dll + 0x371b88(hierarchy std::_Task_async_state<unsigned int,1>: std::_Packaged_state<unsigned int __cdecl(void)>, std::_Associated_state<unsigned int>)
+std::_Task_async_state<void,0>
+	assetsystem.dll + 0x371a38(hierarchy std::_Task_async_state<void,0>: std::_Packaged_state<void __cdecl(void)>, std::_Associated_state<int>)
+std::_Task_async_state<void,1>
+	assetsystem.dll + 0x371aa8(hierarchy std::_Task_async_state<void,1>: std::_Packaged_state<void __cdecl(void)>, std::_Associated_state<int>)
+std::__non_rtti_object
+	assetsystem.dll + 0x43f2b8(hierarchy std::__non_rtti_object: std::bad_typeid, std::exception)
+std::bad_alloc
+	assetsystem.dll + 0x436a98(hierarchy std::bad_alloc: std::exception)
+std::bad_cast
+	assetsystem.dll + 0x43f0c8(hierarchy std::bad_cast: std::exception)
+std::bad_exception
+	assetsystem.dll + 0x43edf0(hierarchy std::bad_exception: std::exception)
+std::bad_function_call
+	assetsystem.dll + 0x43df18(hierarchy std::bad_function_call: std::exception)
+std::bad_typeid
+	assetsystem.dll + 0x43f2a0(hierarchy std::bad_typeid: std::exception)
+std::basic_ios<char,struct std::char_traits<char> >
+	assetsystem.dll + 0x3601b8(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_iostream<char,struct std::char_traits<char> >
+	assetsystem.dll + 0x3601f0 MI offset 32(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>, std::basic_ostream<char,struct std::char_traits<char> >, std::basic_ios<char,struct std::char_traits<char> >, std::ios_base, std::_Iosb<int>)
+std::basic_istream<char,struct std::char_traits<char> >
+	assetsystem.dll + 0x3601c8 MI offset 24(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_ostream<char,struct std::char_traits<char> >
+	assetsystem.dll + 0x3601e0 MI offset 16(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_streambuf<char,struct std::char_traits<char> >
+	assetsystem.dll + 0x360200(hierarchy std::basic_streambuf<char,struct std::char_traits<char> >)
+std::basic_stringbuf<char,struct std::char_traits<char>,class std::allocator<char> >
+	assetsystem.dll + 0x360280(hierarchy std::basic_stringbuf<char,struct std::char_traits<char>,class std::allocator<char> >: std::basic_streambuf<char,struct std::char_traits<char> >)
+std::basic_stringstream<char,struct std::char_traits<char>,class std::allocator<char> >
+	assetsystem.dll + 0x360300 MI offset 152(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>, std::basic_ostream<char,struct std::char_traits<char> >, std::basic_ios<char,struct std::char_traits<char> >, std::ios_base, std::_Iosb<int>)
+std::ctype<char>
+	assetsystem.dll + 0x35fe60(hierarchy std::ctype<char>: std::ctype_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::error_category
+	assetsystem.dll + 0x371468(hierarchy std::error_category)
+std::exception
+	assetsystem.dll + 0x371368(hierarchy std::exception)
+std::future_error
+	assetsystem.dll + 0x43efa8(hierarchy std::future_error: std::logic_error, std::exception)
+std::ios_base
+	assetsystem.dll + 0x35fee0(hierarchy std::ios_base: std::_Iosb<int>)
+std::ios_base::failure
+	assetsystem.dll + 0x35fec0(hierarchy std::ios_base::failure: std::system_error, std::_System_error, std::runtime_error, stdext::exception)
+std::length_error
+	assetsystem.dll + 0x43df60(hierarchy std::length_error: std::logic_error, std::exception)
+std::locale::_Locimp
+	assetsystem.dll + 0x43edc0(hierarchy std::locale::_Locimp: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::logic_error
+	assetsystem.dll + 0x43df48(hierarchy std::logic_error: std::exception)
+std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >
+	assetsystem.dll + 0x360a00(hierarchy std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::numpunct<char>
+	assetsystem.dll + 0x360a68(hierarchy std::numpunct<char>: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::out_of_range
+	assetsystem.dll + 0x43df78(hierarchy std::out_of_range: std::logic_error, std::exception)
+std::runtime_error
+	assetsystem.dll + 0x35fd60(hierarchy std::runtime_error: stdext::exception)
+std::system_error
+	assetsystem.dll + 0x35fda8(hierarchy std::system_error: std::_System_error, std::runtime_error, stdext::exception)
+stdext::bad_array_new_length
+	assetsystem.dll + 0x35fd18(hierarchy stdext::bad_array_new_length: stdext::bad_alloc, stdext::exception)
+stdext::exception
+	assetsystem.dll + 0x35fce0(hierarchy stdext::exception)
+type_info
+	assetsystem.dll + 0x43f280(hierarchy type_info)

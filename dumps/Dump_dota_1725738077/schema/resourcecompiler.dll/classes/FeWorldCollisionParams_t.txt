@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeWorldCollisionParams_t (size: 0xc bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a0a00, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1366f10"
+
+-----members of class FeWorldCollisionParams_t-----
+	float32 flWorldFriction(offset 0x0, size 0x4, align 0x4)
+	float32 flGroundFriction(offset 0x4, size 0x4, align 0x4)
+	uint16 nListBegin(offset 0x8, size 0x2, align 0x2)
+	uint16 nListEnd(offset 0xa, size 0x2, align 0x2)
+

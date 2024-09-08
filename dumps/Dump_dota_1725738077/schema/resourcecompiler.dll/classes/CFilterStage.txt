@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFilterStage (size: 0x18 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24be890, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x15c8f30"
+
+-----members of class CFilterStage-----
+	CUtlString m_filterType(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Filter Type"
+		^MPropertyAttributeChoiceName "filter_type"
+	float32 m_flFrequency(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Center Frequency (Hz)"
+		^MPropertyAttributeRange "biased 20 22000"
+	float32 m_flQ(offset 0xc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Q"
+		^MPropertyAttributeRange "0.1 12"
+	float32 m_fldbGain(offset 0x10, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Gain (dB)"
+		^MPropertyAttributeRange "-24 24"
+	VMixFilterSlope_t m_nFilterSlope(offset 0x14, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Slope"
+	bool m_bEnable(offset 0x15, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enabled"
+	uint8_t[2] unaccounted(offset 0x16)
+

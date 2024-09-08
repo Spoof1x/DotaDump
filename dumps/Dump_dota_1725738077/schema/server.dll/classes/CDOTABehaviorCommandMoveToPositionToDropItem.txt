@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABehaviorCommandMoveToPositionToDropItem (size: 0x158 bytes, project "server", binding @ server.dll + 0x3ae3f10, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CDOTABehaviorCommandMoveToPositionToDropItem-----
+	uint8_t[104] unaccounted(offset 0x0)
+	CDOTABehaviorMoveTo m_MoveTo(offset 0x68, size 0xe0, align 0x0)
+	Vector m_vPosition(offset 0x148, size 0xc, align 0x4)
+	CHandle< CBaseEntity > m_hItem(offset 0x154, size 0x4, align 0x4)
+

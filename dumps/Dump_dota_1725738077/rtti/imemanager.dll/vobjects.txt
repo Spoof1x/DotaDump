@@ -1,0 +1,10 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CConCommandMemberAccessor<class CIMEManager>
+	(hierarchy CConCommandMemberAccessor<class CIMEManager>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		imemanager.dll + 0x2e8f8
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		imemanager.dll + 0x2e900
+CIMEManager (hierarchy CIMEManager: CTier2AppSystem<class IIMEManager,0>, CTier1AppSystem<class IIMEManager,0>, CTier0AppSystem<class IIMEManager,0>, CBaseAppSystem<class IIMEManager>, IIMEManager, IAppSystem)
+	imemanager.dll + 0x2e8d0
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	imemanager.dll + 0x2f9e8

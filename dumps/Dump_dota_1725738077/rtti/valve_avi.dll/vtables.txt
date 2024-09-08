@@ -1,0 +1,12 @@
+CAvi
+	valve_avi.dll + 0x1d4a0(hierarchy CAvi: CTier3AppSystem<class IAvi,0>, CTier2AppSystem<class IAvi,0>, CTier1AppSystem<class IAvi,0>, CTier0AppSystem<class IAvi,0>, CBaseAppSystem<class IAvi>, IAvi, IAppSystem)
+CPostConnectCallback
+	valve_avi.dll + 0x15a50(hierarchy CPostConnectCallback)
+CSchemaInstallCallback
+	valve_avi.dll + 0x15b70(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+std::bad_exception
+	valve_avi.dll + 0x16b60(hierarchy std::bad_exception: std::exception)
+std::exception
+	valve_avi.dll + 0x16b30(hierarchy std::exception)
+type_info
+	valve_avi.dll + 0x15c98(hierarchy type_info)

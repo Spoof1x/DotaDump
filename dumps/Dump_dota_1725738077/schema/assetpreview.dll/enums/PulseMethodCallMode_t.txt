@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PulseMethodCallMode_t(size: 4 bytes, 2 values, project "pulse_runtime_lib", binding @ assetpreview.dll + 0x4f98b0):
+	SYNC_WAIT_FOR_COMPLETION = 0,
+		^MPropertyFriendlyName "Wait For Completion"
+		^MPropertyDescription "Synchronous - wait for the method to fully complete before returning"
+	ASYNC_FIRE_AND_FORGET = 1,
+		^MPropertyFriendlyName "Fire And Forget"
+		^MPropertyDescription "Asynchronous - returns and continues despite the called method yielding"

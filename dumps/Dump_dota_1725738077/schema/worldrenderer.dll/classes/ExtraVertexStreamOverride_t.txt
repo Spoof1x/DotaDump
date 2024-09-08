@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ExtraVertexStreamOverride_t (size: 0x30 bytes, project "worldrenderer", binding @ worldrenderer.dll + 0x10fcf0, scope "worldrenderer.dll") extends BaseSceneObjectOverride_t
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: worldrenderer.dll + 0x32a60"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class BaseSceneObjectOverride_t (size: 0x4 bytes, project "worldrenderer", binding @ worldrenderer.dll + 0x10ffb0, scope "worldrenderer.dll")
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: worldrenderer.dll + 0x31ff0"
+	
+	-----members of class BaseSceneObjectOverride_t-----
+		uint32 m_nSceneObjectIndex(offset 0x0, size 0x4, align 0x4)
+	
+
+-----members of class ExtraVertexStreamOverride_t-----
+	uint32 m_nSubSceneObject(offset 0x4, size 0x4, align 0x4)
+	uint32 m_nDrawCallIndex(offset 0x8, size 0x4, align 0x4)
+	MeshDrawPrimitiveFlags_t m_nAdditionalMeshDrawPrimitiveFlags(offset 0xc, size 0x4, align 0x4)
+	CRenderBufferBinding m_extraBufferBinding(offset 0x10, size 0x20, align 0x8)
+

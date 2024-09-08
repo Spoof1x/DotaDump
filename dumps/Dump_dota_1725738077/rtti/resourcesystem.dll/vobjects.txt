@@ -1,0 +1,40 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CCodeResourceManifestManager (hierarchy CCodeResourceManifestManager: ICodeResourceManifestManager)
+	resourcesystem.dll + 0x63d80
+CConCommandMemberAccessor<class CResourceSystemProfiler>
+	(hierarchy CConCommandMemberAccessor<class CResourceSystemProfiler>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		resourcesystem.dll + 0x6ad40
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		resourcesystem.dll + 0x6ad48
+CDefaultKV3TransferResourceTypeManager<500152235126> (hierarchy CDefaultKV3TransferResourceTypeManager<500152235126>: CKV3ResourceTypeManager<500152235126>, IResourceTypeManager)
+	resourcesystem.dll + 0x62450
+CResourceManifestTypeManager (hierarchy CResourceManifestTypeManager: IResourceTypeManager)
+	resourcesystem.dll + 0x63e40
+CResourceSystem
+	(hierarchy CResourceSystem: CTier2AppSystem<class IResourceSystem,0>, CTier1AppSystem<class IResourceSystem,0>, CTier0AppSystem<class IResourceSystem,0>, CBaseAppSystem<class IResourceSystem>, IResourceSystem, IAppSystem, IResourceSystemUtils, IResourceHandleUtils, IResourceManifestRegistry)
+		resourcesystem.dll + 0x6aff0
+	MI offset 40 (hierarchy IResourceSystemUtils: IResourceHandleUtils, IResourceManifestRegistry)
+		resourcesystem.dll + 0x6b018
+	MI offset 48 (hierarchy IResourceHandleUtils: IResourceManifestRegistry)
+		resourcesystem.dll + 0x6b020
+	MI offset 56 (hierarchy IResourceManifestRegistry)
+		resourcesystem.dll + 0x6b028
+CResourceSystemLeakTracker (hierarchy CResourceSystemLeakTracker: IResourceSystemLeakTracker)
+	resourcesystem.dll + 0x624b8
+CResourceSystemProfiler (hierarchy CResourceSystemProfiler: IResourceSystemProfiler)
+	resourcesystem.dll + 0x6ad38
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	resourcesystem.dll + 0x69c70
+CSchemaRegistration_mathlib_extended (hierarchy CSchemaRegistration_mathlib_extended: CSchemaRegistration)
+	resourcesystem.dll + 0x60000
+CSchemaRegistration_resourcefile (hierarchy CSchemaRegistration_resourcefile: CSchemaRegistration)
+	resourcesystem.dll + 0x60ac0
+CSchemaRegistration_resourcesystem (hierarchy CSchemaRegistration_resourcesystem: CSchemaRegistration)
+	resourcesystem.dll + 0x640b0
+CVConResourceProfileCommandHandler (hierarchy CVConResourceProfileCommandHandler: IVConCommDataReceived)
+	resourcesystem.dll + 0x6af28
+CVDataTypeManager
+	(hierarchy CVDataTypeManager: CKV3ResourceTypeManager<418564367478>, IResourceTypeManager, IVDataTypeManager)
+		resourcesystem.dll + 0x63fd0
+	MI offset 48 (hierarchy IVDataTypeManager)
+		resourcesystem.dll + 0x64000

@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ScriptedMoveType_t(size: 4 bytes, 4 values, project "server", binding @ server.dll + 0x3a4deb0):
+	SCRIPTED_MOVETYPE_NONE = 0,
+	SCRIPTED_MOVETYPE_TO_WITH_DURATION = 1,
+	SCRIPTED_MOVETYPE_TO_WITH_MOVESPEED = 2,
+	SCRIPTED_MOVETYPE_SWEEP_TO_AT_MOVEMENT_SPEED = 3,

@@ -1,0 +1,85 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropElement_PickOne (size: 0x228 bytes, project "smartprops", binding @ hammer.dll + 0x1dd2ae0, scope "hammer.dll") extends CSmartPropElement_Group
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: hammer.dll + 0x1067e30"
+^MPropertyFriendlyName "Select Single Child"
+^MPropertyDescription "An element which selects a single choice from its set of child choices."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropElement_Group (size: 0xa0 bytes, project "smartprops", binding @ hammer.dll + 0x1dcccb0, scope "hammer.dll") extends CSmartPropElement
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: hammer.dll + 0x101fbc0"
+	^MPropertyFriendlyName "Group"
+	^MPropertyDescription "A group of elements that will all be evaulated."
+	^MVDataOutlinerLabelExpr "m_sLabel"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropElement (size: 0x80 bytes, project "smartprops", binding @ hammer.dll + 0x1dcc910, scope "hammer.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: hammer.dll + 0x101f4d0"
+		^MVDataBase
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		^MPropertyFriendlyName "Smart Prop Element"
+		
+		-----members of class CSmartPropElement-----
+			uint8_t[8] unaccounted(offset 0x0)
+			int32 m_nElementID(offset 0x8, size 0x4, align 0x4)
+				^MPropertySuppressField
+				^MVDataUniqueMonotonicInt "_editor/next_element_id"
+			uint8_t[4] unaccounted(offset 0xc)
+			CSmartPropAttributeBool m_bEnabled(offset 0x10, size 0x40, align 0x8)
+				^MVDataEnableKey
+				^MPropertyDescription "Is this element enabled? If not enabled, this element will not be evaluted and will have no effect on the result."
+				^MPropertySortPriority "10"
+			CUtlVector< CSmartPropSelectionCriteria* > m_SelectionCriteria(offset 0x50, size 0x18, align 0x8)
+				^MPropertyFriendlyName "Selection Criteria"
+				^MVDataPromoteField "2"
+			CUtlVector< CSmartPropModifier* > m_Modifiers(offset 0x68, size 0x18, align 0x8)
+				^MPropertyFriendlyName "Modifiers"
+				^MVDataPromoteField "2"
+		
+	
+	-----members of class CSmartPropElement_Group-----
+		CUtlVector< CSmartPropElement* > m_Children(offset 0x80, size 0x18, align 0x8)
+			^MPropertyFriendlyName "Children"
+			^MPropertyDescription "List of child elements which will appear if this element appears"
+			^MVDataPromoteField "1"
+		CUtlString m_sLabel(offset 0x98, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Label"
+			^MPropertyDescription "Optional text that will appear in the outliner to help organize Smart Prop elements and communicate their purpose to other users."
+	
+
+-----members of class CSmartPropElement_PickOne-----
+	CSmartPropAttributeChoiceSelectionMode m_SelectionMode(offset 0xa0, size 0x40, align 0x0)
+		^MPropertyDescription "Specifies how the initial selection of a choice should be handled."
+	CSmartPropAttributeInt m_SpecificChildIndex(offset 0xe0, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Specific Child"
+		^MPropertyDescription "Specifies the index of the child to pick."
+		^MPropertySuppressExpr "( m_SelectionMode != SPECIFIC )"
+	CSmartPropAttributeBool m_bConfigurable(offset 0x120, size 0x40, align 0x8)
+		^MPropertyDescription "Should a control to select the specific choice be shown when this prop is placed in Hammer."
+	CSmartPropAttributeVector m_vHandleOffset(offset 0x160, size 0x40, align 0x8)
+		^MPropertyGroupName "Handle Settings"
+		^MPropertyReadonlyExpr "m_bConfigurable == false"
+		^MPropertyDescription "Specifies an offset in the local space of the element to apply to the configuration handle."
+	CSmartPropAttributeColor m_HandleColor(offset 0x1a0, size 0x40, align 0x8)
+		^MPropertyGroupName "Handle Settings"
+		^MPropertyReadonlyExpr "m_bConfigurable == false"
+		^MPropertyDescription "Color to use to display the configuration handle."
+	CSmartPropAttributeInt m_HandleSize(offset 0x1e0, size 0x40, align 0x8)
+		^MPropertyGroupName "Handle Settings"
+		^MPropertyReadonlyExpr "m_bConfigurable == false"
+		^MPropertyDescription "Size of the configuration handle."
+	ConfigurationHandleShape_t m_HandleShape(offset 0x220, size 0x4, align 0x4)
+		^MPropertyGroupName "Handle Settings"
+		^MPropertyReadonlyExpr "m_bConfigurable == false"
+		^MPropertyDescription "Shape of the configuration handle to display."
+	uint8_t[4] unaccounted(offset 0x224)
+

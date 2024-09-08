@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CWorkshopBatchImporterConfig (size: 0x48 bytes, project "workshoptoolutils", binding @ workshopmanager.dll + 0xea47b0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x62b660"
+
+-----members of class CWorkshopBatchImporterConfig-----
+	uint32 m_steamAppId(offset 0x0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlString m_strSteamUniverse(offset 0x8, size 0x8, align 0x8)
+	uint8_t[56] unaccounted(offset 0x10)
+

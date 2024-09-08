@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmBlendTaskBase (size: 0xc0 bytes, project "animlib", binding @ resourcecompiler.dll + 0x244cf40, scope "resourcecompiler.dll") extends CNmTask
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmTask (size: 0x30 bytes, project "animlib", binding @ resourcecompiler.dll + 0x244d630, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	
+	-----members of class CNmTask-----
+		uint8_t[48] unaccounted(offset 0x0)
+	
+
+-----members of class CNmBlendTaskBase-----
+	uint8_t[144] unaccounted(offset 0x30)
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseAnimFuncs (size: 0x1 bytes, project "client", binding @ client.dll + 0x4713e60, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+^MPulseLibraryBindings "ptr: client.dll + 0x4714040"
+^MPulseDomainOptInFeatureTag "PulseEntities"
+
+-----members of class CPulseAnimFuncs-----
+	uint8_t[1] unaccounted(offset 0x0)
+

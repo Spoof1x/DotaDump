@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ItemRecipe_t (size: 0x20 bytes, project "server", binding @ server.dll + 0x39f4d70, scope "server.dll")
+
+-----members of class ItemRecipe_t-----
+	CUtlVector< AbilityID_t > m_vecRecipeComponents(offset 0x0, size 0x18, align 0x8)
+	int32 m_nPrimaryComponentIndex(offset 0x18, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1c)
+

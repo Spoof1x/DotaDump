@@ -1,0 +1,55 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CTestDomainDerived_Cursor (size: 0xb0 bytes, project "pulse_runtime_lib", binding @ toolscenenodes.dll + 0xbf15f0, scope "toolscenenodes.dll") extends CPulseExecCursor
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MPulseLibraryBindings "ptr: toolscenenodes.dll + 0xbf1ec0"
+^MPulseInternal_IsCursor
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseExecCursor (size: 0xa8 bytes, project "pulse_runtime_lib", binding @ toolscenenodes.dll + 0xbf40c0, scope "toolscenenodes.dll") extends IGapHost_YieldingCursor(MI offset 0x8)
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	^MPulseInternal_IsCursor
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IGapHost_YieldingCursor (size: 0x8 bytes, project "pulse_runtime_lib", binding @ toolscenenodes.dll + 0xbf4040, MI offset 0x8, scope "toolscenenodes.dll") extends IGapHost_Cursor
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IGapHost_Cursor (size: 0x8 bytes, project "pulse_runtime_lib", binding @ toolscenenodes.dll + 0xbf3fc0, scope "toolscenenodes.dll") extends IGapHost_ExecLog
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+			| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+			
+				|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IGapHost_ExecLog (size: 0x8 bytes, project "pulse_runtime_lib", binding @ toolscenenodes.dll + 0xbf3f40, scope "toolscenenodes.dll")
+				| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+				| SCHEMA_CF1_IS_ABSTRACT
+				| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+				| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+				
+				-----members of class IGapHost_ExecLog-----
+					uint8_t[8] unaccounted(offset 0x0)
+				
+			
+			-----members of class IGapHost_Cursor-----
+				<no members>
+			
+		
+		-----members of class IGapHost_YieldingCursor-----
+			<no members>
+		
+	
+	-----members of class CPulseExecCursor-----
+		uint8_t[8] unaccounted(offset 0x0)
+		uint8_t[152] unaccounted(offset 0x10)
+	
+
+-----members of class CTestDomainDerived_Cursor-----
+	int32 m_nCursorValueA(offset 0xa8, size 0x4, align 0x4)
+	int32 m_nCursorValueB(offset 0xac, size 0x4, align 0x4)
+

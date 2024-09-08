@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_BaseFlex::Emphasized_Phoneme (size: 0x20 bytes, project "client", binding @ client.dll + 0x46dfb80, scope "client.dll")
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class C_BaseFlex::Emphasized_Phoneme-----
+	CUtlString m_sClassName(offset 0x0, size 0x8, align 0x8)
+	uint8_t[16] unaccounted(offset 0x8)
+	float32 m_flAmount(offset 0x18, size 0x4, align 0x4)
+	bool m_bRequired(offset 0x1c, size 0x1, align 0x1)
+	bool m_bBasechecked(offset 0x1d, size 0x1, align 0x1)
+	bool m_bValid(offset 0x1e, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x1f)
+

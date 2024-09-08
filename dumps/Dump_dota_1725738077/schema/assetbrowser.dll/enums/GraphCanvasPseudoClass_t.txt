@@ -1,0 +1,13 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum GraphCanvasPseudoClass_t(size: 4 bytes, 10 values, project "qcontrols", binding @ assetbrowser.dll + 0x1d4370):
+	INVALID = 0,
+		^MPropertySuppressEnumerator
+	FIRST_CHILD = 1,
+	LAST_CHILD = 2,
+	NTH_CHILD = 3,
+	NTH_LAST_CHILD = 4,
+	ONLY_CHILD = 5,
+	HOVER_ASSOCIATE = 6,
+	HOVER_DESCENDANT = 7,
+	SELECTED = 8,
+	HOVER_SELF = 9,

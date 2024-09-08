@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PostProcessingLocalContrastParameters_t (size: 0x14 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24eeed0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x33c3c0"
+
+-----members of class PostProcessingLocalContrastParameters_t-----
+	float32 m_flLocalContrastStrength(offset 0x0, size 0x4, align 0x4)
+	float32 m_flLocalContrastEdgeStrength(offset 0x4, size 0x4, align 0x4)
+	float32 m_flLocalContrastVignetteStart(offset 0x8, size 0x4, align 0x4)
+	float32 m_flLocalContrastVignetteEnd(offset 0xc, size 0x4, align 0x4)
+	float32 m_flLocalContrastVignetteBlur(offset 0x10, size 0x4, align 0x4)
+

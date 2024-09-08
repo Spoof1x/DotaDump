@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CModelConfigList (size: 0x20 bytes, project "modellib", binding @ meshsystem.dll + 0x11b2c0, scope "meshsystem.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x86d20"
+
+-----members of class CModelConfigList-----
+	bool m_bHideMaterialGroupInTools(offset 0x0, size 0x1, align 0x1)
+	bool m_bHideRenderColorInTools(offset 0x1, size 0x1, align 0x1)
+	uint8_t[6] unaccounted(offset 0x2)
+	CUtlVector< CModelConfig* > m_Configs(offset 0x8, size 0x18, align 0x8)
+

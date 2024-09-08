@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleHitboxBiasType_t(size: 4 bytes, 2 values, project "particles", binding @ particles.dll + 0x519960):
+	PARTICLE_HITBOX_BIAS_ENTITY = 0,
+		^MPropertyFriendlyName "Bias relative to Entity"
+	PARTICLE_HITBOX_BIAS_HITBOX = 1,
+		^MPropertyFriendlyName "Bias relative to Hitbox"

@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class View2DOptionsEditableData_t (size: 0xc bytes, project "hammer", binding @ hammer.dll + 0x1e0a400, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class View2DOptionsEditableData_t-----
+	bool bNudge(offset 0x0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Nudge"
+	bool bUsegroupcolors(offset 0x1, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Use group colors for brush color"
+	uint8_t[2] unaccounted(offset 0x2)
+	int32 iGridIntensity(offset 0x4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Grid Intensity"
+	bool bShowEntityNames(offset 0x8, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Show Entity names"
+	uint8_t[3] unaccounted(offset 0x9)
+

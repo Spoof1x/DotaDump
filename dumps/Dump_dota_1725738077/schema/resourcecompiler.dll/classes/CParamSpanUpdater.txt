@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CParamSpanUpdater (size: 0x18 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242cc50, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x763390"
+
+-----members of class CParamSpanUpdater-----
+	CUtlVector< ParamSpan_t > m_spans(offset 0x0, size 0x18, align 0x8)
+

@@ -1,0 +1,35 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSlopeComponentUpdater (size: 0x48 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242f5e0, scope "resourcecompiler.dll") extends CAnimComponentUpdater
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x77c2d0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimComponentUpdater (size: 0x30 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242e770, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimComponentUpdater-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x18, size 0x8, align 0x8)
+		AnimComponentID m_id(offset 0x20, size 0x4, align 0x4)
+		AnimNodeNetworkMode m_networkMode(offset 0x24, size 0x4, align 0x4)
+		bool m_bStartEnabled(offset 0x28, size 0x1, align 0x1)
+		uint8_t[7] unaccounted(offset 0x29)
+	
+
+-----members of class CSlopeComponentUpdater-----
+	uint8_t[4] unaccounted(offset 0x30)
+	float32 m_flTraceDistance(offset 0x34, size 0x4, align 0x4)
+	CAnimParamHandle m_hSlopeAngle(offset 0x38, size 0x2, align 0x1)
+	CAnimParamHandle m_hSlopeAngleFront(offset 0x3a, size 0x2, align 0x1)
+	CAnimParamHandle m_hSlopeAngleSide(offset 0x3c, size 0x2, align 0x1)
+	CAnimParamHandle m_hSlopeHeading(offset 0x3e, size 0x2, align 0x1)
+	CAnimParamHandle m_hSlopeNormal(offset 0x40, size 0x2, align 0x1)
+	CAnimParamHandle m_hSlopeNormal_WorldSpace(offset 0x42, size 0x2, align 0x1)
+	uint8_t[4] unaccounted(offset 0x44)
+

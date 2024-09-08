@@ -1,0 +1,3 @@
+ImportExportOptionsEditableData_t::ExportDefaultFormat_t
+ImportExportOptionsEditableData_t::ExportEncoding_t
+ImportExportOptionsEditableData_t::ExportFbxUnit_t

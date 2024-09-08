@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum VMixLFOShape_t(size: 4 bytes, 5 values, project "soundsystem_lowlevel", binding @ soundsystem.dll + 0x398220):
+	LFO_SHAPE_SINE = 0,
+	LFO_SHAPE_SQUARE = 1,
+	LFO_SHAPE_TRI = 2,
+	LFO_SHAPE_SAW = 3,
+	LFO_SHAPE_NOISE = 4,

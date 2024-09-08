@@ -1,0 +1,12 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleTopology_t(size: 4 bytes, 5 values, project "particles", binding @ particles.dll + 0x51a490):
+	PARTICLE_TOPOLOGY_POINTS = 0,
+		^MPropertyFriendlyName "Points"
+	PARTICLE_TOPOLOGY_LINES = 1,
+		^MPropertyFriendlyName "Line segments"
+	PARTICLE_TOPOLOGY_TRIS = 2,
+		^MPropertyFriendlyName "Triangles"
+	PARTICLE_TOPOLOGY_QUADS = 3,
+		^MPropertyFriendlyName "Quadrilaterals"
+	PARTICLE_TOPOLOGY_CUBES = 4,
+		^MPropertyFriendlyName "Cubes"

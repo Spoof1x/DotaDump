@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RnNode_t (size: 0x20 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a3e40, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1387b80"
+
+-----members of class RnNode_t-----
+	Vector m_vMin(offset 0x0, size 0xc, align 0x4)
+	uint32 m_nChildren(offset 0xc, size 0x4, align 0x4)
+	Vector m_vMax(offset 0x10, size 0xc, align 0x4)
+	uint32 m_nTriangleOffset(offset 0x1c, size 0x4, align 0x4)
+

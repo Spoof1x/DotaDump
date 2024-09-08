@@ -1,0 +1,16 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PFuncVisualizationType_t(size: 4 bytes, 7 values, project "particles", binding @ particles.dll + 0x519b10):
+	PFUNC_VISUALIZATION_SPHERE_WIREFRAME = 0,
+		^MPropertyFriendlyName "Visualization Sphere Wireframe"
+	PFUNC_VISUALIZATION_SPHERE_SOLID = 1,
+		^MPropertyFriendlyName "Visualization Sphere Solid"
+	PFUNC_VISUALIZATION_BOX = 2,
+		^MPropertyFriendlyName "Visualization Box"
+	PFUNC_VISUALIZATION_RING = 3,
+		^MPropertyFriendlyName "Visualization Ring"
+	PFUNC_VISUALIZATION_PLANE = 4,
+		^MPropertyFriendlyName "Visualization Plane"
+	PFUNC_VISUALIZATION_LINE = 5,
+		^MPropertyFriendlyName "Visualization Line"
+	PFUNC_VISUALIZATION_CYLINDER = 6,
+		^MPropertyFriendlyName "Visualization Cylinder"

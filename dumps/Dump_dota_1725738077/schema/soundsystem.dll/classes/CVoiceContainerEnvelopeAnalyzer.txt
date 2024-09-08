@@ -1,0 +1,38 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVoiceContainerEnvelopeAnalyzer (size: 0x60 bytes, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39afb0, scope "soundsystem.dll") extends CVoiceContainerAnalysisBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x272030"
+^MPropertyFriendlyName "Envelope Analyzer"
+^MPropertyDescription "Generates an Envelope Curve on compile"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CVoiceContainerAnalysisBase (size: 0x50 bytes, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39a440, scope "soundsystem.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: soundsystem.dll + 0x264c90"
+	^MVDataNodeType "1"
+	^MFgdFromSchemaEditablePolymorphicThisClass
+	^MPropertyFriendlyName "Analysis Container"
+	^MPropertyDescription "Does Not Play Sound, member of CVoiceContainerDefaultDefault"
+	
+	-----members of class CVoiceContainerAnalysisBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		bool m_bRegenerateCurveOnCompile(offset 0x8, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Regenerate curve on compile"
+		uint8_t[7] unaccounted(offset 0x9)
+		CPiecewiseCurve m_curve(offset 0x10, size 0x40, align 0x8)
+			^MPropertyFriendlyName "Envelope Curve"
+	
+
+-----members of class CVoiceContainerEnvelopeAnalyzer-----
+	EMode_t m_mode(offset 0x50, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Envelope Mode"
+	int32 m_nSamples(offset 0x54, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Number of sections"
+	float32 m_flThreshold(offset 0x58, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Threshold"
+	uint8_t[4] unaccounted(offset 0x5c)
+

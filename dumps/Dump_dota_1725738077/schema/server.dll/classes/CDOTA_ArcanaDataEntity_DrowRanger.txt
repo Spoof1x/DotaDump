@@ -1,0 +1,32 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTA_ArcanaDataEntity_DrowRanger (size: 0x108 bytes, project "server", binding @ server.dll + 0x39f5eb0, scope "server.dll") extends CDOTA_ArcanaDataEntity_Base
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MNetworkVarNames "m_vecDrowRangerArcanaTargetPlayerID int8"
+^MNetworkVarNames "m_vecDrowRangerArcanaDeathTime GameTime_t"
+^MNetworkVarNames "m_vecDrowRangerArcanaKillTime GameTime_t"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CDOTA_ArcanaDataEntity_Base (size: 0x30 bytes, project "server", binding @ server.dll + 0x39f5db0, scope "server.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CLASS_UNIDENTIFIED17
+	
+	-----members of class CDOTA_ArcanaDataEntity_Base-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CNetworkVarChainer __m_pChainEntity(offset 0x8, size 0x28, align 0x0)
+			^MNetworkDisable
+			^MNetworkChangeAccessorFieldPathIndex
+	
+
+-----members of class CDOTA_ArcanaDataEntity_DrowRanger-----
+	int8[24] m_vecDrowRangerArcanaTargetPlayerID(offset 0x30, size 0x18, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnDrowArcanaChanged"
+	GameTime_t[24] m_vecDrowRangerArcanaDeathTime(offset 0x48, size 0x60, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnDrowArcanaChanged"
+	GameTime_t[24] m_vecDrowRangerArcanaKillTime(offset 0xa8, size 0x60, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnDrowArcanaChanged"
+

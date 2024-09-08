@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCursorFuncs (size: 0x1 bytes, project "pulse_system", binding @ pulse_system.dll + 0x127b60, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MPulseLibraryBindings "ptr: pulse_system.dll + 0x128c30"
+^MPropertyDescription "Library for interacting with pulse cursors."
+
+-----members of class CPulseCursorFuncs-----
+	uint8_t[1] unaccounted(offset 0x0)
+

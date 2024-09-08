@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EventFrameBoundary_t (size: 0x4 bytes, project "server", binding @ server.dll + 0x38f0c60, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+-----members of class EventFrameBoundary_t-----
+	float32 m_flFrameTime(offset 0x0, size 0x4, align 0x4)
+

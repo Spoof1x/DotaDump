@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PoseType_t(size: 1 bytes, 3 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x242b880):
+	POSETYPE_STATIC = 0,
+	POSETYPE_DYNAMIC = 1,
+	POSETYPE_INVALID = -1,

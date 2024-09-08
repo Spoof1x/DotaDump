@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EventClientOutput_t (size: 0x38 bytes, project "sfm", binding @ sfm.dll + 0xa24070, scope "sfm.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+-----members of class EventClientOutput_t-----
+	EngineLoopState_t m_LoopState(offset 0x0, size 0x28, align 0x0)
+	float32 m_flRenderTime(offset 0x28, size 0x4, align 0x4)
+	float32 m_flRealTime(offset 0x2c, size 0x4, align 0x4)
+	float32 m_flRenderFrameTimeUnbounded(offset 0x30, size 0x4, align 0x4)
+	bool m_bRenderOnly(offset 0x34, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x35)
+

@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AttachmentHandle_t (size: 0x1 bytes, project "modellib", binding @ toolframework2.dll + 0x92dd80, scope "toolframework2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class AttachmentHandle_t-----
+	static bool IS_TYPESAFE_INTEGER(toolframework2.dll + 0x785994)
+
+-----members of class AttachmentHandle_t-----
+	uint8 m_Value(offset 0x0, size 0x1, align 0x1)
+

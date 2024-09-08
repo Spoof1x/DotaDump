@@ -1,0 +1,28 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeBuildSDFRigid_t (size: 0x50 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a1db0, scope "!GlobalTypes") extends FeSDFRigid_t
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1369040"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class FeSDFRigid_t (size: 0x48 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a11a0, scope "!GlobalTypes")
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1367bc0"
+	
+	-----members of class FeSDFRigid_t-----
+		Vector vLocalMin(offset 0x0, size 0xc, align 0x4)
+		Vector vLocalMax(offset 0xc, size 0xc, align 0x4)
+		uint16 nNode(offset 0x18, size 0x2, align 0x2)
+		uint16 nCollisionMask(offset 0x1a, size 0x2, align 0x2)
+		uint16 nVertexMapIndex(offset 0x1c, size 0x2, align 0x2)
+		uint16 nFlags(offset 0x1e, size 0x2, align 0x2)
+		CUtlVector< float32 > m_Distances(offset 0x20, size 0x18, align 0x8)
+		int32 m_nWidth(offset 0x38, size 0x4, align 0x4)
+		int32 m_nHeight(offset 0x3c, size 0x4, align 0x4)
+		int32 m_nDepth(offset 0x40, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x44)
+	
+
+-----members of class FeBuildSDFRigid_t-----
+	int32 m_nPriority(offset 0x48, size 0x4, align 0x4)
+	uint32 m_nVertexMapHash(offset 0x4c, size 0x4, align 0x4)
+

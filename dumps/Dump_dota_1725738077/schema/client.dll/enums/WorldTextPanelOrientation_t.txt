@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum WorldTextPanelOrientation_t(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x469ed90):
+	WORLDTEXT_ORIENTATION_DEFAULT = 0,
+	WORLDTEXT_ORIENTATION_FACEUSER = 1,
+	WORLDTEXT_ORIENTATION_FACEUSER_UPRIGHT = 2,

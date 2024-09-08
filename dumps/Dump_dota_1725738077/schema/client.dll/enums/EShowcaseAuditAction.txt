@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EShowcaseAuditAction(size: 4 bytes, 8 values, project "client", binding @ client.dll + 0x46f8ac0):
+	k_eShowcaseAuditAction_Invalid = 0,
+	k_eShowcaseAuditAction_ShowcaseChanged = 1,
+	k_eShowcaseAuditAction_AdminShowcaseReset = 2,
+	k_eShowcaseAuditAction_AdminShowcaseAccountLocked = 3,
+	k_eShowcaseAuditAction_AdminShowcaseExonerated = 4,
+	k_eShowcaseAuditAction_AdminShowcaseConvicted = 5,
+	k_eShowcaseAuditAction_AdminModerationApproved = 6,
+	k_eShowcaseAuditAction_AdminModerationRejected = 7,

@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMorphData (size: 0x20 bytes, project "modellib", binding @ animationsystem.dll + 0x5e7fc0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x3f2be0"
+
+-----members of class CMorphData-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	CUtlVector< CMorphRectData > m_morphRectDatas(offset 0x8, size 0x18, align 0x8)
+

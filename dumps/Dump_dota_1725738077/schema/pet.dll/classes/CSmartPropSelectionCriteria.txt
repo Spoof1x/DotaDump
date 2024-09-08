@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropSelectionCriteria (size: 0x48 bytes, project "smartprops", binding @ pet.dll + 0xd1baa0, scope "pet.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: pet.dll + 0x623c0"
+^MVDataBase
+^MVDataNodeType "1"
+^MVDataAnonymousNode
+
+-----members of class CSmartPropSelectionCriteria-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+		^MVDataEnableKey
+

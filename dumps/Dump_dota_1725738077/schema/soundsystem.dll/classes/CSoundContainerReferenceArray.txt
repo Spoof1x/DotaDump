@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSoundContainerReferenceArray (size: 0x38 bytes, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39a360, scope "soundsystem.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x265910"
+^MPropertyFriendlyName "Sound Array "
+^MPropertyDescription "Reference to list of vsnd files or other containers."
+
+-----members of class CSoundContainerReferenceArray-----
+	bool m_bUseReference(offset 0x0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Use Vsnd File"
+	uint8_t[7] unaccounted(offset 0x1)
+	CUtlVector< CStrongHandle< InfoForResourceTypeCVoiceContainerBase > > m_sounds(offset 0x8, size 0x18, align 0x8)
+		^MPropertySuppressExpr "m_bUseReference == 0"
+		^MPropertyFriendlyName "Vsnd File"
+	CUtlVector< CVoiceContainerBase* > m_pSounds(offset 0x20, size 0x18, align 0x8)
+		^MPropertySuppressExpr "m_bUseReference == 1"
+		^MPropertyFriendlyName "Vsnd Container"
+

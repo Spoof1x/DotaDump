@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTAFantasyDefinition (size: 0x38 bytes, project "client", binding @ client.dll + 0x4893530, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x166d7d0"
+^MVDataRoot
+
+-----members of class CDOTAFantasyDefinition-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlVector< FantasyCraftSetupData_t > m_vecCraftingSetups(offset 0x8, size 0x18, align 0x8)
+	CUtlVector< FantasyLeagueData_t > m_vecLeagues(offset 0x20, size 0x18, align 0x8)
+

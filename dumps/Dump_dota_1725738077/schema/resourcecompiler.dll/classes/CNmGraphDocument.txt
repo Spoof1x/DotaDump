@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphDocument (size: 0x90 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23d8d60, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x416900"
+
+-----members of class CNmGraphDocument-----
+	CNmGraphDocFlowGraph* m_pRootGraph(offset 0x0, size 0x8, align 0x8)
+	CNmVariationHierarchy m_variationHierarchy(offset 0x8, size 0x18, align 0x8)
+	V_uuid_t m_runtimeVersionID(offset 0x20, size 0x10, align 0x4)
+	uint8_t[96] unaccounted(offset 0x30)
+

@@ -1,0 +1,41 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TempViewerInfo_t (size: 0x50 bytes, project "client", binding @ client.dll + 0x4895d60, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_nGridX int"
+^MNetworkVarNames "m_nGridY int"
+^MNetworkVarNames "m_nRadius int"
+^MNetworkVarNames "m_nViewerType int8"
+^MNetworkVarNames "m_bObstructedVision bool"
+^MNetworkVarNames "m_bValid bool"
+
+-----members of class TempViewerInfo_t-----
+	uint8_t[48] unaccounted(offset 0x0)
+	int32 m_nGridX(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnFieldChanged"
+	int32 m_nGridY(offset 0x34, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnFieldChanged"
+	int32 m_nRadius(offset 0x38, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnFieldChanged"
+	int8 m_nViewerType(offset 0x3c, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnFieldChanged"
+	bool m_bObstructedVision(offset 0x3d, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnFieldChanged"
+	bool m_bValid(offset 0x3e, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnFieldChanged"
+	bool m_bDirty(offset 0x3f, size 0x1, align 0x1)
+		^MNetworkDisable
+	GameTime_t flEndTime(offset 0x40, size 0x4, align 0x0)
+		^MNetworkDisable
+	int32 nFoWID(offset 0x44, size 0x4, align 0x4)
+		^MNetworkDisable
+	CHandle< C_BaseEntity > hOwner(offset 0x48, size 0x4, align 0x4)
+		^MNetworkDisable
+	uint8_t[4] unaccounted(offset 0x4c)
+

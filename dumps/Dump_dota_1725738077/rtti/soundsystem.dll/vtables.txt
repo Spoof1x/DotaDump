@@ -1,0 +1,1108 @@
+CAddonWatcher
+	soundsystem.dll + 0x33ab80(hierarchy CAddonWatcher: IAddonListChangeNotify)
+CAsyncWavDataCache
+	soundsystem.dll + 0x338268(hierarchy CAsyncWavDataCache: IAsyncWavDataCache)
+CAudioCacheHandle
+	soundsystem.dll + 0x338398(hierarchy CAudioCacheHandle: IAudioCacheHandle)
+CAudioCaptureDevice
+	soundsystem.dll + 0x334eb8(hierarchy CAudioCaptureDevice: IAudioDevice2)
+CAudioDecoderEncoded
+	soundsystem.dll + 0x3382e8(hierarchy CAudioDecoderEncoded: CAudioDecoderWave, IAudioDecoder)
+CAudioDecoderStretch
+	soundsystem.dll + 0x33bd18(hierarchy CAudioDecoderStretch: IAudioDecoder)
+CAudioDecoderWave
+	soundsystem.dll + 0x3383d0(hierarchy CAudioDecoderWave: IAudioDecoder)
+CAudioDecoderWaveMP3
+	soundsystem.dll + 0x338608(hierarchy CAudioDecoderWaveMP3: CAudioDecoderEncoded, CAudioDecoderWave, IAudioDecoder)
+CAudioDeviceNull2
+	soundsystem.dll + 0x313738(hierarchy CAudioDeviceNull2: IAudioDevice2)
+CAudioDeviceWindows
+	soundsystem.dll + 0x314258(hierarchy CAudioDeviceWindows: IAudioDevice2)
+CAudioInputStream
+	soundsystem.dll + 0x334aa8(hierarchy CAudioInputStream: IAudioInputStream)
+CAudioOutputStream
+	soundsystem.dll + 0x334a08(hierarchy CAudioOutputStream: IAudioOutputStream)
+CAudioProcessor
+	soundsystem.dll + 0x3137b0(hierarchy CAudioProcessor)
+CAudioSDL
+	soundsystem.dll + 0x314458(hierarchy CAudioSDL: IAudioDevice2)
+CAudioSource
+	soundsystem.dll + 0x3387e0(hierarchy CAudioSource)
+CAudioSourceMP3
+	soundsystem.dll + 0x337da8(hierarchy CAudioSourceMP3: CAudioSourceCached, CAudioSource)
+CAudioSourceMemWave
+	soundsystem.dll + 0x338738(hierarchy CAudioSourceMemWave: CAudioSourceWave, CAudioSourceCached, CAudioSource)
+CAudioSourceWave
+	soundsystem.dll + 0x338888(hierarchy CAudioSourceWave: CAudioSourceCached, CAudioSource)
+CAutoFilterAudioProcessor
+	soundsystem.dll + 0x3150c8(hierarchy CAutoFilterAudioProcessor: CSideChainAudioProcessor, CAudioProcessor)
+CBaseToolAttr
+	soundsystem.dll + 0x317788(hierarchy CBaseToolAttr: IBaseToolAttr)
+CBlendInstance
+	soundsystem.dll + 0x324c30(hierarchy CBlendInstance: CMultiInstance, CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CBoxverbAudioProcessor
+	soundsystem.dll + 0x314d70(hierarchy CBoxverbAudioProcessor: CAudioProcessor)
+CConcreteToolAttrDirectMember<bool,struct VMixDynamicsBand_t>
+	soundsystem.dll + 0x31b270(hierarchy CConcreteToolAttrDirectMember<bool,struct VMixDynamicsBand_t>: CConcreteToolAttr<bool,struct VMixDynamicsBand_t,void>, CBaseConcreteToolAttrValue<bool,struct VMixDynamicsBand_t>, CBaseConcreteToolAttr<bool,struct VMixDynamicsBand_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+	soundsystem.dll + 0x31b400 MI offset 376(hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<bool,struct VMixDynamicsCompressorDesc_t>
+	soundsystem.dll + 0x319db8(hierarchy CConcreteToolAttrDirectMember<bool,struct VMixDynamicsCompressorDesc_t>: CConcreteToolAttr<bool,struct VMixDynamicsCompressorDesc_t,void>, CBaseConcreteToolAttrValue<bool,struct VMixDynamicsCompressorDesc_t>, CBaseConcreteToolAttr<bool,struct VMixDynamicsCompressorDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+	soundsystem.dll + 0x319f48 MI offset 376(hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<bool,struct VMixFilterDesc_t>
+	soundsystem.dll + 0x318128(hierarchy CConcreteToolAttrDirectMember<bool,struct VMixFilterDesc_t>: CConcreteToolAttr<bool,struct VMixFilterDesc_t,void>, CBaseConcreteToolAttrValue<bool,struct VMixFilterDesc_t>, CBaseConcreteToolAttr<bool,struct VMixFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+	soundsystem.dll + 0x3182b8 MI offset 376(hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<bool,struct VMixUtilityDesc_t>
+	soundsystem.dll + 0x31e1d8(hierarchy CConcreteToolAttrDirectMember<bool,struct VMixUtilityDesc_t>: CConcreteToolAttr<bool,struct VMixUtilityDesc_t,void>, CBaseConcreteToolAttrValue<bool,struct VMixUtilityDesc_t>, CBaseConcreteToolAttr<bool,struct VMixUtilityDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+	soundsystem.dll + 0x31e368 MI offset 376(hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<enum VMixChannelOperation_t,struct VMixUtilityDesc_t>
+	soundsystem.dll + 0x31d658(hierarchy CConcreteToolAttrDirectMember<enum VMixChannelOperation_t,struct VMixUtilityDesc_t>: CConcreteToolAttr<enum VMixChannelOperation_t,struct VMixUtilityDesc_t,void>, CBaseConcreteToolAttrValue<enum VMixChannelOperation_t,struct VMixUtilityDesc_t>, CBaseConcreteToolAttr<enum VMixChannelOperation_t,struct VMixUtilityDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<enum VMixChannelOperation_t>, IToolAttr_Value)
+	soundsystem.dll + 0x31d7e8 MI offset 376(hierarchy IToolAttr_TypedValue<enum VMixChannelOperation_t>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<enum VMixFilterSlope_t,struct VMixFilterDesc_t>
+	soundsystem.dll + 0x317d40(hierarchy CConcreteToolAttrDirectMember<enum VMixFilterSlope_t,struct VMixFilterDesc_t>: CConcreteToolAttr<enum VMixFilterSlope_t,struct VMixFilterDesc_t,void>, CBaseConcreteToolAttrValue<enum VMixFilterSlope_t,struct VMixFilterDesc_t>, CBaseConcreteToolAttr<enum VMixFilterSlope_t,struct VMixFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<enum VMixFilterSlope_t>, IToolAttr_Value)
+	soundsystem.dll + 0x317ed0 MI offset 376(hierarchy IToolAttr_TypedValue<enum VMixFilterSlope_t>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<enum VMixFilterType_t,struct VMixFilterDesc_t>
+	soundsystem.dll + 0x317958(hierarchy CConcreteToolAttrDirectMember<enum VMixFilterType_t,struct VMixFilterDesc_t>: CConcreteToolAttr<enum VMixFilterType_t,struct VMixFilterDesc_t,void>, CBaseConcreteToolAttrValue<enum VMixFilterType_t,struct VMixFilterDesc_t>, CBaseConcreteToolAttr<enum VMixFilterType_t,struct VMixFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<enum VMixFilterType_t>, IToolAttr_Value)
+	soundsystem.dll + 0x317ae8 MI offset 376(hierarchy IToolAttr_TypedValue<enum VMixFilterType_t>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<enum VMixLFOShape_t,struct VMixAutoFilterDesc_t>
+	soundsystem.dll + 0x31f8d0(hierarchy CConcreteToolAttrDirectMember<enum VMixLFOShape_t,struct VMixAutoFilterDesc_t>: CConcreteToolAttr<enum VMixLFOShape_t,struct VMixAutoFilterDesc_t,void>, CBaseConcreteToolAttrValue<enum VMixLFOShape_t,struct VMixAutoFilterDesc_t>, CBaseConcreteToolAttr<enum VMixLFOShape_t,struct VMixAutoFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<enum VMixLFOShape_t>, IToolAttr_Value)
+	soundsystem.dll + 0x31fa60 MI offset 376(hierarchy IToolAttr_TypedValue<enum VMixLFOShape_t>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<enum VMixLFOShape_t,struct VMixOscDesc_t>
+	soundsystem.dll + 0x31fd28(hierarchy CConcreteToolAttrDirectMember<enum VMixLFOShape_t,struct VMixOscDesc_t>: CConcreteToolAttr<enum VMixLFOShape_t,struct VMixOscDesc_t,void>, CBaseConcreteToolAttrValue<enum VMixLFOShape_t,struct VMixOscDesc_t>, CBaseConcreteToolAttr<enum VMixLFOShape_t,struct VMixOscDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<enum VMixLFOShape_t>, IToolAttr_Value)
+	soundsystem.dll + 0x31feb8 MI offset 376(hierarchy IToolAttr_TypedValue<enum VMixLFOShape_t>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<float,struct VMixAutoFilterDesc_t>
+	soundsystem.dll + 0x31e7b8(hierarchy CConcreteToolAttrDirectMember<float,struct VMixAutoFilterDesc_t>: CConcreteToolAttr<float,struct VMixAutoFilterDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixAutoFilterDesc_t>, CBaseConcreteToolAttr<float,struct VMixAutoFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31e948 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<float,struct VMixConvolutionDesc_t>
+	soundsystem.dll + 0x31b830(hierarchy CConcreteToolAttrDirectMember<float,struct VMixConvolutionDesc_t>: CConcreteToolAttr<float,struct VMixConvolutionDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixConvolutionDesc_t>, CBaseConcreteToolAttr<float,struct VMixConvolutionDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31b9c0 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<float,struct VMixDynamicsBand_t>
+	soundsystem.dll + 0x31a1a0(hierarchy CConcreteToolAttrDirectMember<float,struct VMixDynamicsBand_t>: CConcreteToolAttr<float,struct VMixDynamicsBand_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsBand_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsBand_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31a330 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<float,struct VMixDynamicsCompressorDesc_t>
+	soundsystem.dll + 0x318ce8(hierarchy CConcreteToolAttrDirectMember<float,struct VMixDynamicsCompressorDesc_t>: CConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsCompressorDesc_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x318e78 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<float,struct VMixEffectChainDesc_t>
+	soundsystem.dll + 0x3206d0(hierarchy CConcreteToolAttrDirectMember<float,struct VMixEffectChainDesc_t>: CConcreteToolAttr<float,struct VMixEffectChainDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixEffectChainDesc_t>, CBaseConcreteToolAttr<float,struct VMixEffectChainDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x320860 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<float,struct VMixFilterDesc_t>
+	soundsystem.dll + 0x318510(hierarchy CConcreteToolAttrDirectMember<float,struct VMixFilterDesc_t>: CConcreteToolAttr<float,struct VMixFilterDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixFilterDesc_t>, CBaseConcreteToolAttr<float,struct VMixFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x3186a0 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<float,struct VMixOscDesc_t>
+	soundsystem.dll + 0x320110(hierarchy CConcreteToolAttrDirectMember<float,struct VMixOscDesc_t>: CConcreteToolAttr<float,struct VMixOscDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixOscDesc_t>, CBaseConcreteToolAttr<float,struct VMixOscDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x3202a0 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<float,struct VMixShaperDesc_t>
+	soundsystem.dll + 0x31cce8(hierarchy CConcreteToolAttrDirectMember<float,struct VMixShaperDesc_t>: CConcreteToolAttr<float,struct VMixShaperDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixShaperDesc_t>, CBaseConcreteToolAttr<float,struct VMixShaperDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31ce78 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<float,struct VMixUtilityDesc_t>
+	soundsystem.dll + 0x31da40(hierarchy CConcreteToolAttrDirectMember<float,struct VMixUtilityDesc_t>: CConcreteToolAttr<float,struct VMixUtilityDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixUtilityDesc_t>, CBaseConcreteToolAttr<float,struct VMixUtilityDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31dbd0 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<int,struct VMixShaperDesc_t>
+	soundsystem.dll + 0x31c900(hierarchy CConcreteToolAttrDirectMember<int,struct VMixShaperDesc_t>: CConcreteToolAttr<int,struct VMixShaperDesc_t,void>, CBaseConcreteToolAttrValue<int,struct VMixShaperDesc_t>, CBaseConcreteToolAttr<int,struct VMixShaperDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+	soundsystem.dll + 0x31ca90 MI offset 376(hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+CConcreteToolAttrDirectMember<struct VMixFilterDesc_t,struct VMixAutoFilterDesc_t>
+	soundsystem.dll + 0x31ef50(hierarchy CConcreteToolAttrDirectMember<struct VMixFilterDesc_t,struct VMixAutoFilterDesc_t>: CConcreteToolAttr<struct VMixFilterDesc_t,struct VMixAutoFilterDesc_t,void>, CBaseConcreteToolAttr<struct VMixFilterDesc_t,struct VMixAutoFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_Table)
+	soundsystem.dll + 0x31f0e0 MI offset 392(hierarchy IToolAttr_Table)
+CConvolutionAudioProcessor
+	soundsystem.dll + 0x314650(hierarchy CConvolutionAudioProcessor: CAudioProcessor)
+CDSPEditor
+	soundsystem.dll + 0x33d1e0(hierarchy CDSPEditor: IVMixToolServices)
+CDSPEditorWrapper
+	soundsystem.dll + 0x33d0f8(hierarchy CDSPEditorWrapper: IVMixToolServices)
+CDSPTableManager
+	soundsystem.dll + 0x335110(hierarchy CDSPTableManager: IVDataResourceListener)
+CDelayAudioProcessor
+	soundsystem.dll + 0x314948(hierarchy CDelayAudioProcessor: CAudioProcessor)
+CDiffusorAudioProcessor
+	soundsystem.dll + 0x314b08(hierarchy CDiffusorAudioProcessor: CAudioProcessor)
+CDynamics3BandAudioProcessor
+	soundsystem.dll + 0x313d68(hierarchy CDynamics3BandAudioProcessor: CAudioProcessor)
+CDynamicsAudioProcessor
+	soundsystem.dll + 0x313b98(hierarchy CDynamicsAudioProcessor: CSideChainAudioProcessor, CAudioProcessor)
+CDynamicsCompressorAudioProcessor
+	soundsystem.dll + 0x313c98(hierarchy CDynamicsCompressorAudioProcessor: CSideChainAudioProcessor, CAudioProcessor)
+CEQ8AudioProcessor
+	soundsystem.dll + 0x313a28(hierarchy CEQ8AudioProcessor: CAudioProcessor)
+CEffectChainAudioProcessor
+	soundsystem.dll + 0x315350(hierarchy CEffectChainAudioProcessor: CAudioProcessor)
+CEnvelopeAudioProcessor
+	soundsystem.dll + 0x313f50(hierarchy CEnvelopeAudioProcessor: CAudioProcessor)
+CFilterAudioProcessor
+	soundsystem.dll + 0x313950(hierarchy CFilterAudioProcessor: CAudioProcessor)
+CFractionalMonoDelayLine
+	soundsystem.dll + 0x314938(hierarchy CFractionalMonoDelayLine: CMonoDelayLine)
+CFreeverbAudioProcessor
+	soundsystem.dll + 0x314e60(hierarchy CFreeverbAudioProcessor: CAudioProcessor)
+CFullWaveIntegratorAudioProcessor
+	soundsystem.dll + 0x313ae8(hierarchy CFullWaveIntegratorAudioProcessor: CAudioProcessor)
+CGenericExprPart
+	soundsystem.dll + 0x309c20(hierarchy CGenericExprPart)
+CGenericExpr_Binary
+	soundsystem.dll + 0x309c98(hierarchy CGenericExpr_Binary: CGenericExprPart)
+CGenericExpr_BoolLiteral
+	soundsystem.dll + 0x309e30(hierarchy CGenericExpr_BoolLiteral: CGenericExprPart)
+CGenericExpr_FloatLiteral
+	soundsystem.dll + 0x309dc0(hierarchy CGenericExpr_FloatLiteral: CGenericExprPart)
+CGenericExpr_FunctionCall
+	soundsystem.dll + 0x309ed8(hierarchy CGenericExpr_FunctionCall: CGenericExprPart)
+CGenericExpr_IntLiteral
+	soundsystem.dll + 0x309df8(hierarchy CGenericExpr_IntLiteral: CGenericExprPart)
+CGenericExpr_Property
+	soundsystem.dll + 0x309ea0(hierarchy CGenericExpr_Property: CGenericExprPart)
+CGenericExpr_StringLiteral
+	soundsystem.dll + 0x309d88(hierarchy CGenericExpr_StringLiteral: CGenericExprPart)
+CGenericExpr_TernaryConditional
+	soundsystem.dll + 0x309d48(hierarchy CGenericExpr_TernaryConditional: CGenericExprPart)
+CGenericExpr_Unary
+	soundsystem.dll + 0x309c48(hierarchy CGenericExpr_Unary: CGenericExprPart)
+CGenericExpr_VariableReference
+	soundsystem.dll + 0x309e68(hierarchy CGenericExpr_VariableReference: CGenericExprPart)
+CHRTFAudioProcessor
+	soundsystem.dll + 0x33bc50(hierarchy CHRTFAudioProcessor: CAudioProcessor)
+CKV3ResourceBlockHelper
+	soundsystem.dll + 0x33a750(hierarchy CKV3ResourceBlockHelper: IAsyncProcessedDataResult)
+CKV3TransferContextBase
+	soundsystem.dll + 0x3268e0(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferLoadContext
+	soundsystem.dll + 0x326950(hierarchy CKV3TransferLoadContext: CKV3TransferContextBase, IErrorListener)
+CKV3TransferSaveContext
+	soundsystem.dll + 0x326918(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CKV3Transfer_EmptyResourceLoadInterface
+	soundsystem.dll + 0x3562c0(hierarchy CKV3Transfer_EmptyResourceLoadInterface: IKV3TransferInterface_ResourceLoad)
+CKV3Transfer_ResourceLoadInterface
+	soundsystem.dll + 0x33a558(hierarchy CKV3Transfer_ResourceLoadInterface: IKV3TransferInterface_ResourceLoad)
+CMMNotificationClient
+	soundsystem.dll + 0x314180(hierarchy CMMNotificationClient: IMMNotificationClient, IUnknown)
+CModDelayAudioProcessor
+	soundsystem.dll + 0x314a08(hierarchy CModDelayAudioProcessor: CAudioProcessor)
+CMonoDelayLine
+	soundsystem.dll + 0x314928(hierarchy CMonoDelayLine)
+CMultiInstance
+	soundsystem.dll + 0x3210a8(hierarchy CMultiInstance: CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CNullAudioSubsystem
+	soundsystem.dll + 0x3136e8(hierarchy CNullAudioSubsystem: IAudioSubsystem)
+COscAudioProcessor
+	soundsystem.dll + 0x3151d0(hierarchy COscAudioProcessor: CGeneratorAudioProcessor, CAudioProcessor)
+COversampler
+	soundsystem.dll + 0x320c20(hierarchy COversampler)
+COversampler16
+	soundsystem.dll + 0x320ca0(hierarchy COversampler16: COversampler)
+COversampler2
+	soundsystem.dll + 0x320c40(hierarchy COversampler2: COversampler)
+COversampler4
+	soundsystem.dll + 0x320c60(hierarchy COversampler4: COversampler)
+COversampler8
+	soundsystem.dll + 0x320c80(hierarchy COversampler8: COversampler)
+CPannerAudioProcessor
+	soundsystem.dll + 0x314c08(hierarchy CPannerAudioProcessor: CAudioProcessor)
+CPathingAudioProcessor
+	soundsystem.dll + 0x33bba0(hierarchy CPathingAudioProcessor: CAudioProcessor)
+CPlateverbAudioProcessor
+	soundsystem.dll + 0x314f30(hierarchy CPlateverbAudioProcessor: CAudioProcessor)
+CPostConnectCallback
+	soundsystem.dll + 0x326268(hierarchy CPostConnectCallback)
+CPresetDSPAudioProcessor
+	soundsystem.dll + 0x3369a0(hierarchy CPresetDSPAudioProcessor: CAudioProcessor)
+CRealtimePitchShiftProcessor
+	soundsystem.dll + 0x3147b8(hierarchy CRealtimePitchShiftProcessor: CAudioProcessor)
+CRealtimePitchShiftProcessorFFT
+	soundsystem.dll + 0x314868(hierarchy CRealtimePitchShiftProcessorFFT: CAudioProcessor)
+CRetriggerInstance
+	soundsystem.dll + 0x324d00(hierarchy CRetriggerInstance: CMultiInstance, CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CSDLAudioSubsystem
+	soundsystem.dll + 0x314418(hierarchy CSDLAudioSubsystem: IAudioSubsystem)
+CSchemaInstallCallback
+	soundsystem.dll + 0x326ad0(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_soundsystem
+	soundsystem.dll + 0x355ca8(hierarchy CSchemaRegistration_soundsystem: CSchemaRegistration)
+CSchemaRegistration_soundsystem_lowlevel
+	soundsystem.dll + 0x314108(hierarchy CSchemaRegistration_soundsystem_lowlevel: CSchemaRegistration)
+CSchemaRegistration_soundsystem_voicecontainers
+	soundsystem.dll + 0x321bb0(hierarchy CSchemaRegistration_soundsystem_voicecontainers: CSchemaRegistration)
+CSequenceArranger
+	soundsystem.dll + 0x352f40(hierarchy CSequenceArranger: ISequenceArranger)
+CSfxTable
+	soundsystem.dll + 0x335fb0(hierarchy CSfxTable)
+CShaperAudioProcessor
+	soundsystem.dll + 0x314700(hierarchy CShaperAudioProcessor: CAudioProcessor)
+CSideChainAudioProcessor
+	soundsystem.dll + 0x313860(hierarchy CSideChainAudioProcessor: CAudioProcessor)
+CSosEdit
+	soundsystem.dll + 0x33f898(hierarchy CSosEdit: CTier2AppSystem<class ISoundOpSystemEdit,0>, CTier1AppSystem<class ISoundOpSystemEdit,0>, CTier0AppSystem<class ISoundOpSystemEdit,0>, CBaseAppSystem<class ISoundOpSystemEdit>, ISoundOpSystemEdit, IAppSystem)
+CSosEventInfoWithFieldData_t
+	soundsystem.dll + 0x34aa50(hierarchy CSosEventInfoWithFieldData_t: CSosEventInfo_t)
+CSosEventInfo_t
+	soundsystem.dll + 0x34aa60(hierarchy CSosEventInfo_t)
+CSosGroupAction
+	soundsystem.dll + 0x340080(hierarchy CSosGroupAction)
+CSosGroupActionLimit
+	soundsystem.dll + 0x33ffd8(hierarchy CSosGroupActionLimit: CSosGroupAction)
+CSosGroupActionLimitSchema
+	soundsystem.dll + 0x3551c0(hierarchy CSosGroupActionLimitSchema: CSosGroupActionSchema)
+CSosGroupActionMemberCountEnvelope
+	soundsystem.dll + 0x33ff90(hierarchy CSosGroupActionMemberCountEnvelope: CSosGroupAction)
+CSosGroupActionMemberCountEnvelopeSchema
+	soundsystem.dll + 0x354d18(hierarchy CSosGroupActionMemberCountEnvelopeSchema: CSosGroupActionSchema)
+CSosGroupActionSchema
+	soundsystem.dll + 0x355238(hierarchy CSosGroupActionSchema)
+CSosGroupActionSetSoundeventParameter
+	soundsystem.dll + 0x33ffc0(hierarchy CSosGroupActionSetSoundeventParameter: CSosGroupAction)
+CSosGroupActionSetSoundeventParameterSchema
+	soundsystem.dll + 0x355048(hierarchy CSosGroupActionSetSoundeventParameterSchema: CSosGroupActionSchema)
+CSosGroupActionSoundeventCluster
+	soundsystem.dll + 0x340068(hierarchy CSosGroupActionSoundeventCluster: CSosGroupAction)
+CSosGroupActionSoundeventClusterSchema
+	soundsystem.dll + 0x354f00(hierarchy CSosGroupActionSoundeventClusterSchema: CSosGroupActionSchema)
+CSosGroupActionSoundeventCount
+	soundsystem.dll + 0x340050(hierarchy CSosGroupActionSoundeventCount: CSosGroupAction)
+CSosGroupActionSoundeventCountSchema
+	soundsystem.dll + 0x354c88(hierarchy CSosGroupActionSoundeventCountSchema: CSosGroupActionSchema)
+CSosGroupActionSoundeventMinMaxValues
+	soundsystem.dll + 0x340020(hierarchy CSosGroupActionSoundeventMinMaxValues: CSosGroupAction)
+CSosGroupActionSoundeventMinMaxValuesSchema
+	soundsystem.dll + 0x354b90(hierarchy CSosGroupActionSoundeventMinMaxValuesSchema: CSosGroupActionSchema)
+CSosGroupActionSoundeventPriority
+	soundsystem.dll + 0x340038(hierarchy CSosGroupActionSoundeventPriority: CSosGroupAction)
+CSosGroupActionSoundeventPrioritySchema
+	soundsystem.dll + 0x354e38(hierarchy CSosGroupActionSoundeventPrioritySchema: CSosGroupActionSchema)
+CSosGroupActionTimeBlockLimit
+	soundsystem.dll + 0x33ffa8(hierarchy CSosGroupActionTimeBlockLimit: CSosGroupAction)
+CSosGroupActionTimeBlockLimitSchema
+	soundsystem.dll + 0x3550f0(hierarchy CSosGroupActionTimeBlockLimitSchema: CSosGroupActionSchema)
+CSosGroupActionTimeLimit
+	soundsystem.dll + 0x33fff0(hierarchy CSosGroupActionTimeLimit: CSosGroupAction)
+CSosGroupActionTimeLimitSchema
+	soundsystem.dll + 0x355160(hierarchy CSosGroupActionTimeLimitSchema: CSosGroupActionSchema)
+CSosGroupBranchPattern
+	soundsystem.dll + 0x354ad0(hierarchy CSosGroupBranchPattern)
+CSosGroupMatchPattern
+	soundsystem.dll + 0x354a38(hierarchy CSosGroupMatchPattern: CSosGroupBranchPattern)
+CSosOperator
+	soundsystem.dll + 0x340480(hierarchy CSosOperator: CSosDependent)
+CSosOperatorAnimateFloat3
+	soundsystem.dll + 0x3440d8(hierarchy CSosOperatorAnimateFloat3: CSosOperator, CSosDependent)
+CSosOperatorApplyEffect
+	soundsystem.dll + 0x34dc78(hierarchy CSosOperatorApplyEffect: CSosOperator, CSosDependent)
+CSosOperatorArrangementStart
+	soundsystem.dll + 0x348bd0(hierarchy CSosOperatorArrangementStart: CSosOperator, CSosDependent)
+CSosOperatorArrangementTrackStop
+	soundsystem.dll + 0x348b38(hierarchy CSosOperatorArrangementTrackStop: CSosOperator, CSosDependent)
+CSosOperatorAudibility
+	soundsystem.dll + 0x3472e8(hierarchy CSosOperatorAudibility: CSosOperator, CSosDependent)
+CSosOperatorBlockEvents
+	soundsystem.dll + 0x340778(hierarchy CSosOperatorBlockEvents: CSosOperator, CSosDependent)
+CSosOperatorBlockTest
+	soundsystem.dll + 0x3406f8(hierarchy CSosOperatorBlockTest: CSosOperator, CSosDependent)
+CSosOperatorBuiltIn
+	soundsystem.dll + 0x3403e8(hierarchy CSosOperatorBuiltIn: CSosOperator, CSosDependent)
+CSosOperatorCalcAngleFrom3Vec3
+	soundsystem.dll + 0x343f20(hierarchy CSosOperatorCalcAngleFrom3Vec3: CSosOperator, CSosDependent)
+CSosOperatorCalcDirectionalVec3
+	soundsystem.dll + 0x343c70(hierarchy CSosOperatorCalcDirectionalVec3: CSosOperator, CSosDependent)
+CSosOperatorCalcDoppler
+	soundsystem.dll + 0x344058(hierarchy CSosOperatorCalcDoppler: CSosOperator, CSosDependent)
+CSosOperatorCalcFixedRotation
+	soundsystem.dll + 0x343fa0(hierarchy CSosOperatorCalcFixedRotation: CSosOperator, CSosDependent)
+CSosOperatorCalcInterpolatedRotationAngle
+	soundsystem.dll + 0x343e58(hierarchy CSosOperatorCalcInterpolatedRotationAngle: CSosOperator, CSosDependent)
+CSosOperatorCalcWeightedAvgSerialVec3
+	soundsystem.dll + 0x343d38(hierarchy CSosOperatorCalcWeightedAvgSerialVec3: CSosOperator, CSosDependent)
+CSosOperatorCalcWeightedAvgVec3
+	soundsystem.dll + 0x343db8(hierarchy CSosOperatorCalcWeightedAvgVec3: CSosOperator, CSosDependent)
+CSosOperatorCheckValidVsnd
+	soundsystem.dll + 0x3447e0(hierarchy CSosOperatorCheckValidVsnd: CSosOperator, CSosDependent)
+CSosOperatorClampFloat
+	soundsystem.dll + 0x3443b0(hierarchy CSosOperatorClampFloat: CSosOperator, CSosDependent)
+CSosOperatorConvar
+	soundsystem.dll + 0x340910(hierarchy CSosOperatorConvar: CSosOperator, CSosDependent)
+CSosOperatorCrossfade
+	soundsystem.dll + 0x345410(hierarchy CSosOperatorCrossfade: CSosOperator, CSosDependent)
+CSosOperatorCurve
+	soundsystem.dll + 0x345148(hierarchy CSosOperatorCurve: CSosOperator, CSosDependent)
+CSosOperatorCurve4
+	soundsystem.dll + 0x345260(hierarchy CSosOperatorCurve4: CSosOperator, CSosDependent)
+CSosOperatorCurve6
+	soundsystem.dll + 0x3451e0(hierarchy CSosOperatorCurve6: CSosOperator, CSosDependent)
+CSosOperatorDBToGain
+	soundsystem.dll + 0x344288(hierarchy CSosOperatorDBToGain: CSosOperator, CSosDependent)
+CSosOperatorDelta
+	soundsystem.dll + 0x340b58(hierarchy CSosOperatorDelta: CSosOperator, CSosDependent)
+CSosOperatorDeltaFloat3
+	soundsystem.dll + 0x340ad8(hierarchy CSosOperatorDeltaFloat3: CSosOperator, CSosDependent)
+CSosOperatorDistance
+	soundsystem.dll + 0x3457d0(hierarchy CSosOperatorDistance: CSosOperator, CSosDependent)
+CSosOperatorDistantDSP
+	soundsystem.dll + 0x340c28(hierarchy CSosOperatorDistantDSP: CSosOperator, CSosDependent)
+CSosOperatorDotaGroundUnderWater
+	soundsystem.dll + 0x3418e0(hierarchy CSosOperatorDotaGroundUnderWater: CSosOperator, CSosDependent)
+CSosOperatorDrawRadius
+	soundsystem.dll + 0x34c6a0(hierarchy CSosOperatorDrawRadius: CSosOperator, CSosDependent)
+CSosOperatorDspMixgroupMod
+	soundsystem.dll + 0x340e40(hierarchy CSosOperatorDspMixgroupMod: CSosOperator, CSosDependent)
+CSosOperatorEntityGetHealth
+	soundsystem.dll + 0x341700(hierarchy CSosOperatorEntityGetHealth: CSosOperator, CSosDependent)
+CSosOperatorEntityInfo
+	soundsystem.dll + 0x341ac0(hierarchy CSosOperatorEntityInfo: CSosOperator, CSosDependent)
+CSosOperatorEntityRandomPosition
+	soundsystem.dll + 0x341530(hierarchy CSosOperatorEntityRandomPosition: CSosOperator, CSosDependent)
+CSosOperatorEntityWorldAABB
+	soundsystem.dll + 0x341798(hierarchy CSosOperatorEntityWorldAABB: CSosOperator, CSosDependent)
+CSosOperatorEvalFloat
+	soundsystem.dll + 0x345cd8(hierarchy CSosOperatorEvalFloat: CSosOperator, CSosDependent)
+CSosOperatorFacing
+	soundsystem.dll + 0x3450a0(hierarchy CSosOperatorFacing: CSosOperator, CSosDependent)
+CSosOperatorFalloff
+	soundsystem.dll + 0x341e10(hierarchy CSosOperatorFalloff: CSosOperator, CSosDependent)
+CSosOperatorFalloffTail
+	soundsystem.dll + 0x341cd8(hierarchy CSosOperatorFalloffTail: CSosOperator, CSosDependent)
+CSosOperatorFalloffVR
+	soundsystem.dll + 0x341d80(hierarchy CSosOperatorFalloffVR: CSosOperator, CSosDependent)
+CSosOperatorFindGroup
+	soundsystem.dll + 0x349ff0(hierarchy CSosOperatorFindGroup: CSosOperator, CSosDependent)
+CSosOperatorFindSourceDspPreset
+	soundsystem.dll + 0x342018(hierarchy CSosOperatorFindSourceDspPreset: CSosOperator, CSosDependent)
+CSosOperatorFloat
+	soundsystem.dll + 0x345d58(hierarchy CSosOperatorFloat: CSosOperator, CSosDependent)
+CSosOperatorFloat3ToFloat
+	soundsystem.dll + 0x34ca40(hierarchy CSosOperatorFloat3ToFloat: CSosOperator, CSosDependent)
+CSosOperatorFloatAccumulate12
+	soundsystem.dll + 0x345850(hierarchy CSosOperatorFloatAccumulate12: CSosOperator, CSosDependent)
+CSosOperatorFloatFilter
+	soundsystem.dll + 0x341e90(hierarchy CSosOperatorFloatFilter: CSosOperator, CSosDependent)
+CSosOperatorFloatToFloat3
+	soundsystem.dll + 0x34c990(hierarchy CSosOperatorFloatToFloat3: CSosOperator, CSosDependent)
+CSosOperatorFloatToSpeakers
+	soundsystem.dll + 0x34cac0(hierarchy CSosOperatorFloatToSpeakers: CSosOperator, CSosDependent)
+CSosOperatorFunc1
+	soundsystem.dll + 0x345f68(hierarchy CSosOperatorFunc1: CSosOperator, CSosDependent)
+CSosOperatorGainToDB
+	soundsystem.dll + 0x344208(hierarchy CSosOperatorGainToDB: CSosOperator, CSosDependent)
+CSosOperatorGameEntityPerspective
+	soundsystem.dll + 0x3415e8(hierarchy CSosOperatorGameEntityPerspective: CSosOperator, CSosDependent)
+CSosOperatorGateLogic
+	soundsystem.dll + 0x3439d0(hierarchy CSosOperatorGateLogic: CSosOperator, CSosDependent)
+CSosOperatorGetContainerCurve
+	soundsystem.dll + 0x34dec8(hierarchy CSosOperatorGetContainerCurve: CSosOperator, CSosDependent)
+CSosOperatorGetCurrentEffect
+	soundsystem.dll + 0x340d98(hierarchy CSosOperatorGetCurrentEffect: CSosOperator, CSosDependent)
+CSosOperatorGetEnemyRelevance
+	soundsystem.dll + 0x341830(hierarchy CSosOperatorGetEnemyRelevance: CSosOperator, CSosDependent)
+CSosOperatorGetMixLayerAmount
+	soundsystem.dll + 0x346668(hierarchy CSosOperatorGetMixLayerAmount: CSosOperator, CSosDependent)
+CSosOperatorGetOpVarArrayIndex
+	soundsystem.dll + 0x347cc0(hierarchy CSosOperatorGetOpVarArrayIndex: CSosOperator, CSosDependent)
+CSosOperatorGetOpVarBool
+	soundsystem.dll + 0x348350(hierarchy CSosOperatorGetOpVarBool: CSosOperator, CSosDependent)
+CSosOperatorGetOpVarDsppreset
+	soundsystem.dll + 0x347e98(hierarchy CSosOperatorGetOpVarDsppreset: CSosOperator, CSosDependent)
+CSosOperatorGetOpVarFloat
+	soundsystem.dll + 0x348468(hierarchy CSosOperatorGetOpVarFloat: CSosOperator, CSosDependent)
+CSosOperatorGetOpVarFloat12
+	soundsystem.dll + 0x3480f8(hierarchy CSosOperatorGetOpVarFloat12: CSosOperator, CSosDependent)
+CSosOperatorGetOpVarFloat3
+	soundsystem.dll + 0x348228(hierarchy CSosOperatorGetOpVarFloat3: CSosOperator, CSosDependent)
+CSosOperatorGetOpVarFloat8
+	soundsystem.dll + 0x348178(hierarchy CSosOperatorGetOpVarFloat8: CSosOperator, CSosDependent)
+CSosOperatorGetOpVarInfo
+	soundsystem.dll + 0x348588(hierarchy CSosOperatorGetOpVarInfo: CSosOperator, CSosDependent)
+CSosOperatorGetOpVarSndevt
+	soundsystem.dll + 0x347f18(hierarchy CSosOperatorGetOpVarSndevt: CSosOperator, CSosDependent)
+CSosOperatorGetOpVarString
+	soundsystem.dll + 0x347fc8(hierarchy CSosOperatorGetOpVarString: CSosOperator, CSosDependent)
+CSosOperatorGetOpVarVsnd
+	soundsystem.dll + 0x347d70(hierarchy CSosOperatorGetOpVarVsnd: CSosOperator, CSosDependent)
+CSosOperatorGlobals
+	soundsystem.dll + 0x3492a0(hierarchy CSosOperatorGlobals: CSosOperator, CSosDependent)
+CSosOperatorGoTo
+	soundsystem.dll + 0x349470(hierarchy CSosOperatorGoTo: CSosOperator, CSosDependent)
+CSosOperatorGroupGetFloat
+	soundsystem.dll + 0x349c38(hierarchy CSosOperatorGroupGetFloat: CSosOperator, CSosDependent)
+CSosOperatorGroupInfo
+	soundsystem.dll + 0x349e10(hierarchy CSosOperatorGroupInfo: CSosOperator, CSosDependent)
+CSosOperatorGroupOpvars
+	soundsystem.dll + 0x349f40(hierarchy CSosOperatorGroupOpvars: CSosOperator, CSosDependent)
+CSosOperatorGroupQuit
+	soundsystem.dll + 0x349ec0(hierarchy CSosOperatorGroupQuit: CSosOperator, CSosDependent)
+CSosOperatorGroupSetFloat
+	soundsystem.dll + 0x349cf8(hierarchy CSosOperatorGroupSetFloat: CSosOperator, CSosDependent)
+CSosOperatorGroupStop
+	soundsystem.dll + 0x349d78(hierarchy CSosOperatorGroupStop: CSosOperator, CSosDependent)
+CSosOperatorGroups
+	soundsystem.dll + 0x34a088(hierarchy CSosOperatorGroups: CSosOperator, CSosDependent)
+CSosOperatorImportStack
+	soundsystem.dll + 0x3495a0(hierarchy CSosOperatorImportStack: CSosOperator, CSosDependent)
+CSosOperatorInRangeFloat
+	soundsystem.dll + 0x344460(hierarchy CSosOperatorInRangeFloat: CSosOperator, CSosDependent)
+CSosOperatorIncrementOpVarFloat
+	soundsystem.dll + 0x3483e8(hierarchy CSosOperatorIncrementOpVarFloat: CSosOperator, CSosDependent)
+CSosOperatorIntervalTimer
+	soundsystem.dll + 0x34bb28(hierarchy CSosOperatorIntervalTimer: CSosOperator, CSosDependent)
+CSosOperatorIsLocalPlayerSlot
+	soundsystem.dll + 0x341680(hierarchy CSosOperatorIsLocalPlayerSlot: CSosOperator, CSosDependent)
+CSosOperatorIterateAndMergeSpeakers
+	soundsystem.dll + 0x342110(hierarchy CSosOperatorIterateAndMergeSpeakers: CSosOperator, CSosDependent)
+CSosOperatorLFO
+	soundsystem.dll + 0x3468e8(hierarchy CSosOperatorLFO: CSosOperator, CSosDependent)
+CSosOperatorLerpSpeakers
+	soundsystem.dll + 0x345390(hierarchy CSosOperatorLerpSpeakers: CSosOperator, CSosDependent)
+CSosOperatorLogicPerspectiveSwitchFloat
+	soundsystem.dll + 0x344630(hierarchy CSosOperatorLogicPerspectiveSwitchFloat: CSosOperator, CSosDependent)
+CSosOperatorLogicPerspectiveSwitchString
+	soundsystem.dll + 0x344590(hierarchy CSosOperatorLogicPerspectiveSwitchString: CSosOperator, CSosDependent)
+CSosOperatorLogicSwitch
+	soundsystem.dll + 0x344c10(hierarchy CSosOperatorLogicSwitch: CSosOperator, CSosDependent)
+CSosOperatorLogicSwitch12Float
+	soundsystem.dll + 0x3449b0(hierarchy CSosOperatorLogicSwitch12Float: CSosOperator, CSosDependent)
+CSosOperatorLogicSwitch3Float
+	soundsystem.dll + 0x344b90(hierarchy CSosOperatorLogicSwitch3Float: CSosOperator, CSosDependent)
+CSosOperatorLogicSwitch3Float3
+	soundsystem.dll + 0x344a60(hierarchy CSosOperatorLogicSwitch3Float3: CSosOperator, CSosDependent)
+CSosOperatorLogicSwitch3StringHandle
+	soundsystem.dll + 0x3446b0(hierarchy CSosOperatorLogicSwitch3StringHandle: CSosOperator, CSosDependent)
+CSosOperatorLogicSwitchFloat3
+	soundsystem.dll + 0x344ae0(hierarchy CSosOperatorLogicSwitchFloat3: CSosOperator, CSosDependent)
+CSosOperatorLogicSwitchSpeakers
+	soundsystem.dll + 0x344890(hierarchy CSosOperatorLogicSwitchSpeakers: CSosOperator, CSosDependent)
+CSosOperatorLogicSwitchStringHandle
+	soundsystem.dll + 0x344760(hierarchy CSosOperatorLogicSwitchStringHandle: CSosOperator, CSosDependent)
+CSosOperatorLoopFloat
+	soundsystem.dll + 0x343b48(hierarchy CSosOperatorLoopFloat: CSosOperator, CSosDependent)
+CSosOperatorMathAverage8
+	soundsystem.dll + 0x344330(hierarchy CSosOperatorMathAverage8: CSosOperator, CSosDependent)
+CSosOperatorMetronome
+	soundsystem.dll + 0x34ba80(hierarchy CSosOperatorMetronome: CSosOperator, CSosDependent)
+CSosOperatorMixGraphInput
+	soundsystem.dll + 0x34d798(hierarchy CSosOperatorMixGraphInput: CSosOperator, CSosDependent)
+CSosOperatorMixGraphInputDSPPreset
+	soundsystem.dll + 0x34d520(hierarchy CSosOperatorMixGraphInputDSPPreset: CSosOperator, CSosDependent)
+CSosOperatorMixGraphInputGetFloat
+	soundsystem.dll + 0x34d5a0(hierarchy CSosOperatorMixGraphInputGetFloat: CSosOperator, CSosDependent)
+CSosOperatorMixGraphInputIR
+	soundsystem.dll + 0x34b2d8(hierarchy CSosOperatorMixGraphInputIR: CSosOperator, CSosDependent)
+CSosOperatorMixGraphInputReset
+	soundsystem.dll + 0x34d640(hierarchy CSosOperatorMixGraphInputReset: CSosOperator, CSosDependent)
+CSosOperatorMixGraphOutput
+	soundsystem.dll + 0x34d700(hierarchy CSosOperatorMixGraphOutput: CSosOperator, CSosDependent)
+CSosOperatorMixGroup
+	soundsystem.dll + 0x346458(hierarchy CSosOperatorMixGroup: CSosOperator, CSosDependent)
+CSosOperatorMixLayer
+	soundsystem.dll + 0x346788(hierarchy CSosOperatorMixLayer: CSosOperator, CSosDependent)
+CSosOperatorMixLayerAmount
+	soundsystem.dll + 0x346708(hierarchy CSosOperatorMixLayerAmount: CSosOperator, CSosDependent)
+CSosOperatorMixSends
+	soundsystem.dll + 0x346328(hierarchy CSosOperatorMixSends: CSosOperator, CSosDependent)
+CSosOperatorMixTrigger
+	soundsystem.dll + 0x3463d8(hierarchy CSosOperatorMixTrigger: CSosOperator, CSosDependent)
+CSosOperatorNoise
+	soundsystem.dll + 0x344e38(hierarchy CSosOperatorNoise: CSosOperator, CSosDependent)
+CSosOperatorNormalizeVec3
+	soundsystem.dll + 0x343bf0(hierarchy CSosOperatorNormalizeVec3: CSosOperator, CSosDependent)
+CSosOperatorNull
+	soundsystem.dll + 0x34cb58(hierarchy CSosOperatorNull: CSosOperator, CSosDependent)
+CSosOperatorOcclusion
+	soundsystem.dll + 0x347410(hierarchy CSosOperatorOcclusion: CSosOperator, CSosDependent)
+CSosOperatorOcclusion2
+	soundsystem.dll + 0x347390(hierarchy CSosOperatorOcclusion2: CSosOperator, CSosDependent)
+CSosOperatorOcclusionInfo
+	soundsystem.dll + 0x347250(hierarchy CSosOperatorOcclusionInfo: CSosOperator, CSosDependent)
+CSosOperatorOpvarGetElementFloat8
+	soundsystem.dll + 0x344930(hierarchy CSosOperatorOpvarGetElementFloat8: CSosOperator, CSosDependent)
+CSosOperatorOrientVectorToEntity
+	soundsystem.dll + 0x341a40(hierarchy CSosOperatorOrientVectorToEntity: CSosOperator, CSosDependent)
+CSosOperatorParameterAccumulator
+	soundsystem.dll + 0x343898(hierarchy CSosOperatorParameterAccumulator: CSosOperator, CSosDependent)
+CSosOperatorPauseSoundEvents
+	soundsystem.dll + 0x348798(hierarchy CSosOperatorPauseSoundEvents: CSosOperator, CSosDependent)
+CSosOperatorPointContents
+	soundsystem.dll + 0x341960(hierarchy CSosOperatorPointContents: CSosOperator, CSosDependent)
+CSosOperatorPointInSoundArea
+	soundsystem.dll + 0x349798(hierarchy CSosOperatorPointInSoundArea: CSosOperator, CSosDependent)
+CSosOperatorPointOnCapsule
+	soundsystem.dll + 0x345540(hierarchy CSosOperatorPointOnCapsule: CSosOperator, CSosDependent)
+CSosOperatorPointOnLine
+	soundsystem.dll + 0x345720(hierarchy CSosOperatorPointOnLine: CSosOperator, CSosDependent)
+CSosOperatorPointOnSphere
+	soundsystem.dll + 0x3456a0(hierarchy CSosOperatorPointOnSphere: CSosOperator, CSosDependent)
+CSosOperatorPointOnVolume
+	soundsystem.dll + 0x3455e0(hierarchy CSosOperatorPointOnVolume: CSosOperator, CSosDependent)
+CSosOperatorPosVec8
+	soundsystem.dll + 0x348930(hierarchy CSosOperatorPosVec8: CSosOperator, CSosDependent)
+CSosOperatorPrintFloat
+	soundsystem.dll + 0x34c910(hierarchy CSosOperatorPrintFloat: CSosOperator, CSosDependent)
+CSosOperatorPrintFloat3
+	soundsystem.dll + 0x34c860(hierarchy CSosOperatorPrintFloat3: CSosOperator, CSosDependent)
+CSosOperatorPrintString
+	soundsystem.dll + 0x34c7e0(hierarchy CSosOperatorPrintString: CSosOperator, CSosDependent)
+CSosOperatorPrintVsnd
+	soundsystem.dll + 0x34c738(hierarchy CSosOperatorPrintVsnd: CSosOperator, CSosDependent)
+CSosOperatorQueueToTrack
+	soundsystem.dll + 0x34c120(hierarchy CSosOperatorQueueToTrack: CSosOperator, CSosDependent)
+CSosOperatorRandom
+	soundsystem.dll + 0x344f70(hierarchy CSosOperatorRandom: CSosOperator, CSosDependent)
+CSosOperatorRandomFloat3
+	soundsystem.dll + 0x344d88(hierarchy CSosOperatorRandomFloat3: CSosOperator, CSosDependent)
+CSosOperatorRandomizeFloat
+	soundsystem.dll + 0x344ef0(hierarchy CSosOperatorRandomizeFloat: CSosOperator, CSosDependent)
+CSosOperatorRegisterSoundArea
+	soundsystem.dll + 0x3498d0(hierarchy CSosOperatorRegisterSoundArea: CSosOperator, CSosDependent)
+CSosOperatorRemapValue
+	soundsystem.dll + 0x3454c0(hierarchy CSosOperatorRemapValue: CSosOperator, CSosDependent)
+CSosOperatorRenderDebugSphere
+	soundsystem.dll + 0x34c4f0(hierarchy CSosOperatorRenderDebugSphere: CSosOperator, CSosDependent)
+CSosOperatorRenderPerspectiveDebug
+	soundsystem.dll + 0x34c620(hierarchy CSosOperatorRenderPerspectiveDebug: CSosOperator, CSosDependent)
+CSosOperatorRenderRelevanceDebug
+	soundsystem.dll + 0x34c570(hierarchy CSosOperatorRenderRelevanceDebug: CSosOperator, CSosDependent)
+CSosOperatorRightAngleFloat3
+	soundsystem.dll + 0x344cc0(hierarchy CSosOperatorRightAngleFloat3: CSosOperator, CSosDependent)
+CSosOperatorSamplerEvent
+	soundsystem.dll + 0x348a10(hierarchy CSosOperatorSamplerEvent: CSosOperator, CSosDependent)
+CSosOperatorScaleVec3
+	soundsystem.dll + 0x343950(hierarchy CSosOperatorScaleVec3: CSosOperator, CSosDependent)
+CSosOperatorSetBuiltins
+	soundsystem.dll + 0x349620(hierarchy CSosOperatorSetBuiltins: CSosOperator, CSosDependent)
+CSosOperatorSetContainerInstanceParam
+	soundsystem.dll + 0x34de30(hierarchy CSosOperatorSetContainerInstanceParam: CSosOperator, CSosDependent)
+CSosOperatorSetConvar
+	soundsystem.dll + 0x3409a0(hierarchy CSosOperatorSetConvar: CSosOperator, CSosDependent)
+CSosOperatorSetEventInfo
+	soundsystem.dll + 0x349348(hierarchy CSosOperatorSetEventInfo: CSosOperator, CSosDependent)
+CSosOperatorSetOpVarArrayIndex
+	soundsystem.dll + 0x347c28(hierarchy CSosOperatorSetOpVarArrayIndex: CSosOperator, CSosDependent)
+CSosOperatorSetOpVarFloat
+	soundsystem.dll + 0x348508(hierarchy CSosOperatorSetOpVarFloat: CSosOperator, CSosDependent)
+CSosOperatorSetOpVarFloat3
+	soundsystem.dll + 0x3482a8(hierarchy CSosOperatorSetOpVarFloat3: CSosOperator, CSosDependent)
+CSosOperatorSetOpVarString
+	soundsystem.dll + 0x348048(hierarchy CSosOperatorSetOpVarString: CSosOperator, CSosDependent)
+CSosOperatorSetOpVarVsnd
+	soundsystem.dll + 0x347df0(hierarchy CSosOperatorSetOpVarVsnd: CSosOperator, CSosDependent)
+CSosOperatorSetVoicePosition
+	soundsystem.dll + 0x340368(hierarchy CSosOperatorSetVoicePosition: CSosOperator, CSosDependent)
+CSosOperatorSoundEventParam
+	soundsystem.dll + 0x34a9b8(hierarchy CSosOperatorSoundEventParam: CSosOperator, CSosDependent)
+CSosOperatorSourceInfo
+	soundsystem.dll + 0x34a120(hierarchy CSosOperatorSourceInfo: CSosOperator, CSosDependent)
+CSosOperatorSpatializeSpeakers
+	soundsystem.dll + 0x34a600(hierarchy CSosOperatorSpatializeSpeakers: CSosOperator, CSosDependent)
+CSosOperatorSpatializeSpeakersHRTF
+	soundsystem.dll + 0x34a468(hierarchy CSosOperatorSpatializeSpeakersHRTF: CSosOperator, CSosDependent)
+CSosOperatorSpatializeVR
+	soundsystem.dll + 0x34a568(hierarchy CSosOperatorSpatializeVR: CSosOperator, CSosDependent)
+CSosOperatorSpeakers
+	soundsystem.dll + 0x345960(hierarchy CSosOperatorSpeakers: CSosOperator, CSosDependent)
+CSosOperatorStackCollection
+	soundsystem.dll + 0x352590(hierarchy CSosOperatorStackCollection)
+CSosOperatorStackControl
+	soundsystem.dll + 0x349508(hierarchy CSosOperatorStackControl: CSosOperator, CSosDependent)
+CSosOperatorStackInfo
+	soundsystem.dll + 0x3493c8(hierarchy CSosOperatorStackInfo: CSosOperator, CSosDependent)
+CSosOperatorStartSoundEvent
+	soundsystem.dll + 0x34aa80(hierarchy CSosOperatorStartSoundEvent: CSosOperator, CSosDependent)
+CSosOperatorStartSoundEventData
+	soundsystem.dll + 0x34abe8(hierarchy CSosOperatorStartSoundEventData: CSosOperator, CSosDependent)
+CSosOperatorStartVoice
+	soundsystem.dll + 0x34da08(hierarchy CSosOperatorStartVoice: CSosOperator, CSosDependent)
+CSosOperatorSteamAudio
+	soundsystem.dll + 0x34b548(hierarchy CSosOperatorSteamAudio: CSosOperator, CSosDependent)
+CSosOperatorSteamAudioBlendIR
+	soundsystem.dll + 0x34b370(hierarchy CSosOperatorSteamAudioBlendIR: CSosOperator, CSosDependent)
+CSosOperatorSteamAudioRemapIR
+	soundsystem.dll + 0x34b408(hierarchy CSosOperatorSteamAudioRemapIR: CSosOperator, CSosDependent)
+CSosOperatorSteamAudioReverb
+	soundsystem.dll + 0x34b488(hierarchy CSosOperatorSteamAudioReverb: CSosOperator, CSosDependent)
+CSosOperatorStopAllSoundEvents
+	soundsystem.dll + 0x34b798(hierarchy CSosOperatorStopAllSoundEvents: CSosOperator, CSosDependent)
+CSosOperatorStopSoundEvents
+	soundsystem.dll + 0x34b830(hierarchy CSosOperatorStopSoundEvents: CSosOperator, CSosDependent)
+CSosOperatorStopTrack
+	soundsystem.dll + 0x34c090(hierarchy CSosOperatorStopTrack: CSosOperator, CSosDependent)
+CSosOperatorString
+	soundsystem.dll + 0x345aa8(hierarchy CSosOperatorString: CSosOperator, CSosDependent)
+CSosOperatorSubmix
+	soundsystem.dll + 0x34daa0(hierarchy CSosOperatorSubmix: CSosOperator, CSosDependent)
+CSosOperatorThresholdLogic3
+	soundsystem.dll + 0x343a78(hierarchy CSosOperatorThresholdLogic3: CSosOperator, CSosDependent)
+CSosOperatorTimer
+	soundsystem.dll + 0x34bc38(hierarchy CSosOperatorTimer: CSosOperator, CSosDependent)
+CSosOperatorTimerRamp
+	soundsystem.dll + 0x34bba8(hierarchy CSosOperatorTimerRamp: CSosOperator, CSosDependent)
+CSosOperatorUnregisterSoundArea
+	soundsystem.dll + 0x349850(hierarchy CSosOperatorUnregisterSoundArea: CSosOperator, CSosDependent)
+CSosOperatorVMixInput
+	soundsystem.dll + 0x34d958(hierarchy CSosOperatorVMixInput: CSosOperator, CSosDependent)
+CSosOperatorVMixInputArray
+	soundsystem.dll + 0x34d818(hierarchy CSosOperatorVMixInputArray: CSosOperator, CSosDependent)
+CSosOperatorVMixInputIR
+	soundsystem.dll + 0x34b230(hierarchy CSosOperatorVMixInputIR: CSosOperator, CSosDependent)
+CSosOperatorVMixNameInput
+	soundsystem.dll + 0x34d8d8(hierarchy CSosOperatorVMixNameInput: CSosOperator, CSosDependent)
+CSosOperatorValOnFirstFrame
+	soundsystem.dll + 0x343818(hierarchy CSosOperatorValOnFirstFrame: CSosOperator, CSosDependent)
+CSosOperatorVec3
+	soundsystem.dll + 0x345b78(hierarchy CSosOperatorVec3: CSosOperator, CSosDependent)
+CSosOperatorVectorFacingPoint
+	soundsystem.dll + 0x345020(hierarchy CSosOperatorVectorFacingPoint: CSosOperator, CSosDependent)
+CSosOperatorVelocity
+	soundsystem.dll + 0x3444e0(hierarchy CSosOperatorVelocity: CSosOperator, CSosDependent)
+CSosOperatorVsndInfo
+	soundsystem.dll + 0x34d480(hierarchy CSosOperatorVsndInfo: CSosOperator, CSosDependent)
+CSosSetLibraryStackFieldsInfo_t
+	soundsystem.dll + 0x3523d8(hierarchy CSosSetLibraryStackFieldsInfo_t: CSosEventInfoWithFieldData_t, CSosEventInfo_t)
+CSosSetSoundEventFieldsInfo_t
+	soundsystem.dll + 0x352458(hierarchy CSosSetSoundEventFieldsInfo_t: CSosEventInfoWithFieldData_t, CSosEventInfo_t)
+CSosStartSoundEventQueueInfo_t
+	soundsystem.dll + 0x34aa70(hierarchy CSosStartSoundEventQueueInfo_t: CSosStartSoundEventInfo_t, CSosEventInfoWithFieldData_t, CSosEventInfo_t)
+CSoundDebugVisualizer
+	soundsystem.dll + 0x334e28(hierarchy CSoundDebugVisualizer: IDebugVisualizer)
+CSoundEventManager
+	soundsystem.dll + 0x351c00(hierarchy CSoundEventManager: ISoundEventManager)
+CSoundMixGroupSystem
+	soundsystem.dll + 0x337cd8(hierarchy CSoundMixGroupSystem: ISoundMixGroupSystem)
+CSoundOpSystem
+	soundsystem.dll + 0x351fc0(hierarchy CSoundOpSystem: CTier2AppSystem<class ISoundOpSystem,0>, CTier1AppSystem<class ISoundOpSystem,0>, CTier0AppSystem<class ISoundOpSystem,0>, CBaseAppSystem<class ISoundOpSystem>, ISoundOpSystem, IAppSystem, ISoundEventManager)
+	soundsystem.dll + 0x351de0 MI offset 8(hierarchy ISoundEventManager)
+CSoundSamplers
+	soundsystem.dll + 0x3528c0(hierarchy CSoundSamplers: ISoundSamplers)
+CSoundSequencer
+	soundsystem.dll + 0x352fd8(hierarchy CSoundSequencer: ISoundSequencer)
+CSoundSystem
+	soundsystem.dll + 0x33abb0(hierarchy CSoundSystem: CTier2AppSystem<class ISoundSystem,0>, CTier1AppSystem<class ISoundSystem,0>, CTier0AppSystem<class ISoundSystem,0>, CBaseAppSystem<class ISoundSystem>, ISoundSystem, IAppSystem, IVConCommDataReceived)
+	soundsystem.dll + 0x33aba0 MI offset 40(hierarchy IVConCommDataReceived)
+CSoundViewerState
+	soundsystem.dll + 0x336b78(hierarchy CSoundViewerState: IMixFilter)
+CSteamAudioDirectProcessor
+	soundsystem.dll + 0x33baf0(hierarchy CSteamAudioDirectProcessor: CAudioProcessor)
+CSteamAudioHybridReverbProcessor
+	soundsystem.dll + 0x33ba30(hierarchy CSteamAudioHybridReverbProcessor: CAudioProcessor)
+CStereoDelayAudioProcessor
+	soundsystem.dll + 0x3152a0(hierarchy CStereoDelayAudioProcessor: CAudioProcessor)
+CSubgraphSwitchAudioProcessor
+	soundsystem.dll + 0x315468(hierarchy CSubgraphSwitchAudioProcessor: CAudioProcessor)
+CSyncVSndResourceUtils
+	soundsystem.dll + 0x33e6d0(hierarchy CSyncVSndResourceUtils: IRD_RegisterResourceDataUtils)
+CTestBlendContainer
+	soundsystem.dll + 0x356218(hierarchy CTestBlendContainer: CVoiceContainerBase)
+CToolAttrDirectMemberAccess<bool,struct VMixDynamicsBand_t>
+	soundsystem.dll + 0x31b238(hierarchy CToolAttrDirectMemberAccess<bool,struct VMixDynamicsBand_t>: IToolAttrConcreteDataAccess<bool>)
+CToolAttrDirectMemberAccess<bool,struct VMixDynamicsCompressorDesc_t>
+	soundsystem.dll + 0x319d80(hierarchy CToolAttrDirectMemberAccess<bool,struct VMixDynamicsCompressorDesc_t>: IToolAttrConcreteDataAccess<bool>)
+CToolAttrDirectMemberAccess<bool,struct VMixFilterDesc_t>
+	soundsystem.dll + 0x3180f0(hierarchy CToolAttrDirectMemberAccess<bool,struct VMixFilterDesc_t>: IToolAttrConcreteDataAccess<bool>)
+CToolAttrDirectMemberAccess<bool,struct VMixUtilityDesc_t>
+	soundsystem.dll + 0x31e1a0(hierarchy CToolAttrDirectMemberAccess<bool,struct VMixUtilityDesc_t>: IToolAttrConcreteDataAccess<bool>)
+CToolAttrDirectMemberAccess<enum VMixChannelOperation_t,struct VMixUtilityDesc_t>
+	soundsystem.dll + 0x31d620(hierarchy CToolAttrDirectMemberAccess<enum VMixChannelOperation_t,struct VMixUtilityDesc_t>: IToolAttrConcreteDataAccess<enum VMixChannelOperation_t>)
+CToolAttrDirectMemberAccess<enum VMixFilterSlope_t,struct VMixFilterDesc_t>
+	soundsystem.dll + 0x317d08(hierarchy CToolAttrDirectMemberAccess<enum VMixFilterSlope_t,struct VMixFilterDesc_t>: IToolAttrConcreteDataAccess<enum VMixFilterSlope_t>)
+CToolAttrDirectMemberAccess<enum VMixFilterType_t,struct VMixFilterDesc_t>
+	soundsystem.dll + 0x317920(hierarchy CToolAttrDirectMemberAccess<enum VMixFilterType_t,struct VMixFilterDesc_t>: IToolAttrConcreteDataAccess<enum VMixFilterType_t>)
+CToolAttrDirectMemberAccess<enum VMixLFOShape_t,struct VMixAutoFilterDesc_t>
+	soundsystem.dll + 0x31f898(hierarchy CToolAttrDirectMemberAccess<enum VMixLFOShape_t,struct VMixAutoFilterDesc_t>: IToolAttrConcreteDataAccess<enum VMixLFOShape_t>)
+CToolAttrDirectMemberAccess<enum VMixLFOShape_t,struct VMixOscDesc_t>
+	soundsystem.dll + 0x31fcf0(hierarchy CToolAttrDirectMemberAccess<enum VMixLFOShape_t,struct VMixOscDesc_t>: IToolAttrConcreteDataAccess<enum VMixLFOShape_t>)
+CToolAttrDirectMemberAccess<float,struct VMixAutoFilterDesc_t>
+	soundsystem.dll + 0x31e780(hierarchy CToolAttrDirectMemberAccess<float,struct VMixAutoFilterDesc_t>: IToolAttrConcreteDataAccess<float>)
+CToolAttrDirectMemberAccess<float,struct VMixConvolutionDesc_t>
+	soundsystem.dll + 0x31b7f8(hierarchy CToolAttrDirectMemberAccess<float,struct VMixConvolutionDesc_t>: IToolAttrConcreteDataAccess<float>)
+CToolAttrDirectMemberAccess<float,struct VMixDynamicsBand_t>
+	soundsystem.dll + 0x31a168(hierarchy CToolAttrDirectMemberAccess<float,struct VMixDynamicsBand_t>: IToolAttrConcreteDataAccess<float>)
+CToolAttrDirectMemberAccess<float,struct VMixDynamicsCompressorDesc_t>
+	soundsystem.dll + 0x318cb0(hierarchy CToolAttrDirectMemberAccess<float,struct VMixDynamicsCompressorDesc_t>: IToolAttrConcreteDataAccess<float>)
+CToolAttrDirectMemberAccess<float,struct VMixEffectChainDesc_t>
+	soundsystem.dll + 0x320698(hierarchy CToolAttrDirectMemberAccess<float,struct VMixEffectChainDesc_t>: IToolAttrConcreteDataAccess<float>)
+CToolAttrDirectMemberAccess<float,struct VMixFilterDesc_t>
+	soundsystem.dll + 0x3184d8(hierarchy CToolAttrDirectMemberAccess<float,struct VMixFilterDesc_t>: IToolAttrConcreteDataAccess<float>)
+CToolAttrDirectMemberAccess<float,struct VMixOscDesc_t>
+	soundsystem.dll + 0x3200d8(hierarchy CToolAttrDirectMemberAccess<float,struct VMixOscDesc_t>: IToolAttrConcreteDataAccess<float>)
+CToolAttrDirectMemberAccess<float,struct VMixShaperDesc_t>
+	soundsystem.dll + 0x31ccb0(hierarchy CToolAttrDirectMemberAccess<float,struct VMixShaperDesc_t>: IToolAttrConcreteDataAccess<float>)
+CToolAttrDirectMemberAccess<float,struct VMixUtilityDesc_t>
+	soundsystem.dll + 0x31da08(hierarchy CToolAttrDirectMemberAccess<float,struct VMixUtilityDesc_t>: IToolAttrConcreteDataAccess<float>)
+CToolAttrDirectMemberAccess<int,struct VMixShaperDesc_t>
+	soundsystem.dll + 0x31c8c8(hierarchy CToolAttrDirectMemberAccess<int,struct VMixShaperDesc_t>: IToolAttrConcreteDataAccess<int>)
+CToolAttrDirectMemberAccess<struct VMixFilterDesc_t,struct VMixAutoFilterDesc_t>
+	soundsystem.dll + 0x31ef18(hierarchy CToolAttrDirectMemberAccess<struct VMixFilterDesc_t,struct VMixAutoFilterDesc_t>: IToolAttrConcreteDataAccess<struct VMixFilterDesc_t>)
+CUtilityAudioProcessor
+	soundsystem.dll + 0x315018(hierarchy CUtilityAudioProcessor: CAudioProcessor)
+CVMixAPI
+	soundsystem.dll + 0x33bf30(hierarchy CVMixAPI: IVMixAPI)
+CVMixMixer
+	soundsystem.dll + 0x33cf78(hierarchy CVMixMixer: IAudioMixer)
+CVMixNestedVoiceGraphFlattener
+	soundsystem.dll + 0x33cf68(hierarchy CVMixNestedVoiceGraphFlattener)
+CVMixTypeManager
+	soundsystem.dll + 0x33be60(hierarchy CVMixTypeManager: CKV3ResourceTypeManager<2020175222>, IResourceTypeManager)
+CVSndParameterTable
+	soundsystem.dll + 0x33ab90(hierarchy CVSndParameterTable: IVSndParameterTable)
+CVSoundEventScriptTypeManager
+	soundsystem.dll + 0x351b48(hierarchy CVSoundEventScriptTypeManager: IResourceTypeManager)
+CVSoundStackScriptTypeManager
+	soundsystem.dll + 0x3522f8(hierarchy CVSoundStackScriptTypeManager: IResourceTypeManager)
+CVSoundStackScriptTypeManager::CAsyncProcessResult
+	soundsystem.dll + 0x351a78(hierarchy CVSoundStackScriptTypeManager::CAsyncProcessResult: IAsyncProcessedDataResult)
+CVSoundTypeManager
+	soundsystem.dll + 0x33e5f8(hierarchy CVSoundTypeManager: IVSoundManager, IResourceTypeManager)
+CVocoderAudioProcessor
+	soundsystem.dll + 0x314588(hierarchy CVocoderAudioProcessor: CAudioProcessor)
+CVoiceContainerAmpedDecayingSineWave
+	soundsystem.dll + 0x322778(hierarchy CVoiceContainerAmpedDecayingSineWave: CVoiceContainerDecayingSineWave, CVoiceContainerBase)
+CVoiceContainerAmpedDecayingSineWave::CAmpedDecaySineInstance
+	soundsystem.dll + 0x3226a8(hierarchy CVoiceContainerAmpedDecayingSineWave::CAmpedDecaySineInstance: CVoiceContainerDecayingSineWave::CSineInstance, CVoiceContainerBase::CInstanceGenerator, CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CVoiceContainerAnalysisBase
+	soundsystem.dll + 0x321908(hierarchy CVoiceContainerAnalysisBase)
+CVoiceContainerBase
+	soundsystem.dll + 0x320f30(hierarchy CVoiceContainerBase)
+CVoiceContainerBase::CDecoderInstance
+	soundsystem.dll + 0x322e18(hierarchy CVoiceContainerBase::CDecoderInstance: CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CVoiceContainerBase::CInstanceBase
+	soundsystem.dll + 0x320d90(hierarchy CVoiceContainerBase::CInstanceBase: IAudioMixer)
+CVoiceContainerBase::CInstanceGenerator
+	soundsystem.dll + 0x320e60(hierarchy CVoiceContainerBase::CInstanceGenerator: CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CVoiceContainerBase::CParameter<class CVoiceContainerBase::CInstanceBase,float>
+	soundsystem.dll + 0x324b38(hierarchy CVoiceContainerBase::CParameter<class CVoiceContainerBase::CInstanceBase,float>: CVoiceContainerBase::CParameterBase)
+CVoiceContainerBase::CParameter<class CVoiceContainerBase::CInstanceBase,int>
+	soundsystem.dll + 0x325060(hierarchy CVoiceContainerBase::CParameter<class CVoiceContainerBase::CInstanceBase,int>: CVoiceContainerBase::CParameterBase)
+CVoiceContainerBase::CParameter<class CVoiceContainerGranulator::CGranulatorInstance,float>
+	soundsystem.dll + 0x324ee8(hierarchy CVoiceContainerBase::CParameter<class CVoiceContainerGranulator::CGranulatorInstance,float>: CVoiceContainerBase::CParameterBase)
+CVoiceContainerBase::CParameter<class CVoiceContainerGranulator::CGranulatorInstance,int>
+	soundsystem.dll + 0x324ea0(hierarchy CVoiceContainerBase::CParameter<class CVoiceContainerGranulator::CGranulatorInstance,int>: CVoiceContainerBase::CParameterBase)
+CVoiceContainerBase::CParameter<class CVoiceContainerRandomSampler::CRandomSamplerInstanceView,int>
+	soundsystem.dll + 0x3229f8(hierarchy CVoiceContainerBase::CParameter<class CVoiceContainerRandomSampler::CRandomSamplerInstanceView,int>: CVoiceContainerBase::CParameterBase)
+CVoiceContainerBase::CParameter<class CVoiceContainerRealtimeFMSineWave::CFMSineInstance,float>
+	soundsystem.dll + 0x322d80(hierarchy CVoiceContainerBase::CParameter<class CVoiceContainerRealtimeFMSineWave::CFMSineInstance,float>: CVoiceContainerBase::CParameterBase)
+CVoiceContainerBase::CParameter<class CVoiceContainerStaticAdditiveSynth::CAdditiveSynthInstanceView,int>
+	soundsystem.dll + 0x324ac8(hierarchy CVoiceContainerBase::CParameter<class CVoiceContainerStaticAdditiveSynth::CAdditiveSynthInstanceView,int>: CVoiceContainerBase::CParameterBase)
+CVoiceContainerBlender
+	soundsystem.dll + 0x324188(hierarchy CVoiceContainerBlender: CVoiceContainerBase)
+CVoiceContainerDecayingSineWave
+	soundsystem.dll + 0x322600(hierarchy CVoiceContainerDecayingSineWave: CVoiceContainerBase)
+CVoiceContainerDecayingSineWave::CSineInstance
+	soundsystem.dll + 0x322530(hierarchy CVoiceContainerDecayingSineWave::CSineInstance: CVoiceContainerBase::CInstanceGenerator, CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CVoiceContainerDefault
+	soundsystem.dll + 0x321938(hierarchy CVoiceContainerDefault: CVoiceContainerBase)
+CVoiceContainerEnvelope
+	soundsystem.dll + 0x323340(hierarchy CVoiceContainerEnvelope: CVoiceContainerBase)
+CVoiceContainerEnvelopeAnalyzer
+	soundsystem.dll + 0x323310(hierarchy CVoiceContainerEnvelopeAnalyzer: CVoiceContainerAnalysisBase)
+CVoiceContainerGranulator
+	soundsystem.dll + 0x3244c0(hierarchy CVoiceContainerGranulator: CVoiceContainerBase)
+CVoiceContainerGranulator::CGranulatorInstance
+	soundsystem.dll + 0x324dd0(hierarchy CVoiceContainerGranulator::CGranulatorInstance: CVoiceContainerBase::CInstanceGenerator, CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CVoiceContainerLoopTrigger
+	soundsystem.dll + 0x324358(hierarchy CVoiceContainerLoopTrigger: CVoiceContainerBase)
+CVoiceContainerNull
+	soundsystem.dll + 0x3219e0(hierarchy CVoiceContainerNull: CVoiceContainerBase)
+CVoiceContainerNull::CNullContainerInstance
+	soundsystem.dll + 0x320fd8(hierarchy CVoiceContainerNull::CNullContainerInstance: CVoiceContainerBase::CInstanceGenerator, CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CVoiceContainerOutputStreamAttached
+	soundsystem.dll + 0x334ce8(hierarchy CVoiceContainerOutputStreamAttached: CVoiceContainerBase, IAudioOutputStream)
+	soundsystem.dll + 0x334c98 MI offset 184(hierarchy IAudioOutputStream)
+CVoiceContainerOutputStreamAttached::COutputStreamAttachedInstance
+	soundsystem.dll + 0x334bc8(hierarchy CVoiceContainerOutputStreamAttached::COutputStreamAttachedInstance: CVoiceContainerBase::CInstanceGenerator, CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CVoiceContainerRandomSampler
+	soundsystem.dll + 0x321cf8(hierarchy CVoiceContainerRandomSampler: CVoiceContainerBase)
+CVoiceContainerRandomSampler::CRandomSamplerInstanceView
+	soundsystem.dll + 0x3228c8(hierarchy CVoiceContainerRandomSampler::CRandomSamplerInstanceView: CVoiceContainerBase::CInstanceGenerator, CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CVoiceContainerRealtimeFMSineWave
+	soundsystem.dll + 0x322820(hierarchy CVoiceContainerRealtimeFMSineWave: CVoiceContainerBase)
+CVoiceContainerRealtimeFMSineWave::CFMSineInstance
+	soundsystem.dll + 0x322cb0(hierarchy CVoiceContainerRealtimeFMSineWave::CFMSineInstance: CVoiceContainerBase::CInstanceGenerator, CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CVoiceContainerSelector
+	soundsystem.dll + 0x322048(hierarchy CVoiceContainerSelector: CVoiceContainerBase)
+CVoiceContainerSet
+	soundsystem.dll + 0x3247b0(hierarchy CVoiceContainerSet: CVoiceContainerBase)
+CVoiceContainerSet::CInstance
+	soundsystem.dll + 0x3250a8(hierarchy CVoiceContainerSet::CInstance: CMultiInstance, CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CVoiceContainerShapedNoise
+	soundsystem.dll + 0x323f08(hierarchy CVoiceContainerShapedNoise: CVoiceContainerBase)
+CVoiceContainerShapedNoise::CInstance
+	soundsystem.dll + 0x324930(hierarchy CVoiceContainerShapedNoise::CInstance: CVoiceContainerBase::CInstanceGenerator, CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CVoiceContainerStaticAdditiveSynth
+	soundsystem.dll + 0x323e60(hierarchy CVoiceContainerStaticAdditiveSynth: CVoiceContainerBase)
+CVoiceContainerStaticAdditiveSynth::CAdditiveSynthInstanceView
+	soundsystem.dll + 0x324860(hierarchy CVoiceContainerStaticAdditiveSynth::CAdditiveSynthInstanceView: CVoiceContainerBase::CInstanceGenerator, CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CVoiceContainerSwitch
+	soundsystem.dll + 0x324600(hierarchy CVoiceContainerSwitch: CVoiceContainerBase)
+CVoiceContainerVOIP
+	soundsystem.dll + 0x33de98(hierarchy CVoiceContainerVOIP: CVoiceContainerBase)
+CVoiceContainerVOIP::CVOIPInstance
+	soundsystem.dll + 0x33ddb8(hierarchy CVoiceContainerVOIP::CVOIPInstance: CVoiceContainerBase::CInstanceGenerator, CVoiceContainerBase::CInstanceBase, IAudioMixer)
+CVoiceContainerVOIP::CVOIPPlaybackData
+	soundsystem.dll + 0x33de88(hierarchy CVoiceContainerVOIP::CVOIPPlaybackData)
+CVoiceTraceKV3
+	soundsystem.dll + 0x33d970(hierarchy CVoiceTraceKV3: IVoiceTraceKV3)
+CWaveTmpFileWriter
+	soundsystem.dll + 0x338ab0(hierarchy CWaveTmpFileWriter: CRefCounted1<class IAudioWAVRecorder,class CRefCountServiceBase<class CRefMT> >, IAudioWAVRecorder, IAudioStreamRecorder, IRefCounted, CRefCountServiceBase<class CRefMT>)
+	soundsystem.dll + 0x338a90 MI offset 8(hierarchy IRefCounted: CRefCountServiceBase<class CRefMT>)
+CWindowsAudioSubsystem
+	soundsystem.dll + 0x314218(hierarchy CWindowsAudioSubsystem: IAudioSubsystem)
+IAsyncProcessedDataResult
+	soundsystem.dll + 0x33a760(hierarchy IAsyncProcessedDataResult)
+IAudioDevice2
+	soundsystem.dll + 0x313688(hierarchy IAudioDevice2)
+IAudioInputStream
+	soundsystem.dll + 0x334ad8(hierarchy IAudioInputStream)
+IAudioMixer
+	soundsystem.dll + 0x320ce0(hierarchy IAudioMixer)
+IAudioOutputStream
+	soundsystem.dll + 0x334a58(hierarchy IAudioOutputStream)
+IAudioStreamRecorder
+	soundsystem.dll + 0x338a50(hierarchy IAudioStreamRecorder)
+IAudioSubsystem
+	soundsystem.dll + 0x313648(hierarchy IAudioSubsystem)
+IBaseToolAttr
+	soundsystem.dll + 0x3175f8(hierarchy IBaseToolAttr)
+IDebugVisualizer
+	soundsystem.dll + 0x334e60(hierarchy IDebugVisualizer)
+IRefCounted
+	soundsystem.dll + 0x338a70(hierarchy IRefCounted)
+IVMixAPI
+	soundsystem.dll + 0x33bfa0(hierarchy IVMixAPI)
+IVMixToolServices
+	soundsystem.dll + 0x33d2c8(hierarchy IVMixToolServices)
+IVSoundManager
+	soundsystem.dll + 0x33e738(hierarchy IVSoundManager: IResourceTypeManager)
+IVoiceTraceKV3
+	soundsystem.dll + 0x33d9c0(hierarchy IVoiceTraceKV3)
+`public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_filter
+	soundsystem.dll + 0x31f130(hierarchy `public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_filter: CConcreteToolAttrDirectMember<struct VMixFilterDesc_t,struct VMixAutoFilterDesc_t>, CConcreteToolAttr<struct VMixFilterDesc_t,struct VMixAutoFilterDesc_t,void>, CBaseConcreteToolAttr<struct VMixFilterDesc_t,struct VMixAutoFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_Table)
+	soundsystem.dll + 0x31f2c0 MI offset 392(hierarchy IToolAttr_Table)
+`public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flAttackTimeMS
+	soundsystem.dll + 0x31eb68(hierarchy `public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flAttackTimeMS: CConcreteToolAttrDirectMember<float,struct VMixAutoFilterDesc_t>, CConcreteToolAttr<float,struct VMixAutoFilterDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixAutoFilterDesc_t>, CBaseConcreteToolAttr<float,struct VMixAutoFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31ecf8 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flEnvelopeAmount
+	soundsystem.dll + 0x31e990(hierarchy `public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flEnvelopeAmount: CConcreteToolAttrDirectMember<float,struct VMixAutoFilterDesc_t>, CConcreteToolAttr<float,struct VMixAutoFilterDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixAutoFilterDesc_t>, CBaseConcreteToolAttr<float,struct VMixAutoFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31eb20 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flLFOAmount
+	soundsystem.dll + 0x31f310(hierarchy `public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flLFOAmount: CConcreteToolAttrDirectMember<float,struct VMixAutoFilterDesc_t>, CConcreteToolAttr<float,struct VMixAutoFilterDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixAutoFilterDesc_t>, CBaseConcreteToolAttr<float,struct VMixAutoFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31f4a0 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flLFORate
+	soundsystem.dll + 0x31f4e8(hierarchy `public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flLFORate: CConcreteToolAttrDirectMember<float,struct VMixAutoFilterDesc_t>, CConcreteToolAttr<float,struct VMixAutoFilterDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixAutoFilterDesc_t>, CBaseConcreteToolAttr<float,struct VMixAutoFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31f678 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flPhase
+	soundsystem.dll + 0x31f6c0(hierarchy `public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flPhase: CConcreteToolAttrDirectMember<float,struct VMixAutoFilterDesc_t>, CConcreteToolAttr<float,struct VMixAutoFilterDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixAutoFilterDesc_t>, CBaseConcreteToolAttr<float,struct VMixAutoFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31f850 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flReleaseTimeMS
+	soundsystem.dll + 0x31ed40(hierarchy `public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flReleaseTimeMS: CConcreteToolAttrDirectMember<float,struct VMixAutoFilterDesc_t>, CConcreteToolAttr<float,struct VMixAutoFilterDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixAutoFilterDesc_t>, CBaseConcreteToolAttr<float,struct VMixAutoFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31eed0 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_nLFOShape
+	soundsystem.dll + 0x31faa8(hierarchy `public: static void __cdecl VMixAutoFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_nLFOShape: CConcreteToolAttrDirectMember<enum VMixLFOShape_t,struct VMixAutoFilterDesc_t>, CConcreteToolAttr<enum VMixLFOShape_t,struct VMixAutoFilterDesc_t,void>, CBaseConcreteToolAttrValue<enum VMixLFOShape_t,struct VMixAutoFilterDesc_t>, CBaseConcreteToolAttr<enum VMixLFOShape_t,struct VMixAutoFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<enum VMixLFOShape_t>, IToolAttr_Value)
+	soundsystem.dll + 0x31fc38 MI offset 376(hierarchy IToolAttr_TypedValue<enum VMixLFOShape_t>: IToolAttr_Value)
+`public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flHighCutoffFreq
+	soundsystem.dll + 0x31c6f0(hierarchy `public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flHighCutoffFreq: CConcreteToolAttrDirectMember<float,struct VMixConvolutionDesc_t>, CConcreteToolAttr<float,struct VMixConvolutionDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixConvolutionDesc_t>, CBaseConcreteToolAttr<float,struct VMixConvolutionDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31c880 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flLowCutoffFreq
+	soundsystem.dll + 0x31c518(hierarchy `public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flLowCutoffFreq: CConcreteToolAttrDirectMember<float,struct VMixConvolutionDesc_t>, CConcreteToolAttr<float,struct VMixConvolutionDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixConvolutionDesc_t>, CBaseConcreteToolAttr<float,struct VMixConvolutionDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31c6a8 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flPreDelayMS
+	soundsystem.dll + 0x31bbe0(hierarchy `public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flPreDelayMS: CConcreteToolAttrDirectMember<float,struct VMixConvolutionDesc_t>, CConcreteToolAttr<float,struct VMixConvolutionDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixConvolutionDesc_t>, CBaseConcreteToolAttr<float,struct VMixConvolutionDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31bd70 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flWetMix
+	soundsystem.dll + 0x31bdb8(hierarchy `public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flWetMix: CConcreteToolAttrDirectMember<float,struct VMixConvolutionDesc_t>, CConcreteToolAttr<float,struct VMixConvolutionDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixConvolutionDesc_t>, CBaseConcreteToolAttr<float,struct VMixConvolutionDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31bf48 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbGain
+	soundsystem.dll + 0x31ba08(hierarchy `public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbGain: CConcreteToolAttrDirectMember<float,struct VMixConvolutionDesc_t>, CConcreteToolAttr<float,struct VMixConvolutionDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixConvolutionDesc_t>, CBaseConcreteToolAttr<float,struct VMixConvolutionDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31bb98 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbHigh
+	soundsystem.dll + 0x31c340(hierarchy `public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbHigh: CConcreteToolAttrDirectMember<float,struct VMixConvolutionDesc_t>, CConcreteToolAttr<float,struct VMixConvolutionDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixConvolutionDesc_t>, CBaseConcreteToolAttr<float,struct VMixConvolutionDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31c4d0 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbLow
+	soundsystem.dll + 0x31bf90(hierarchy `public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbLow: CConcreteToolAttrDirectMember<float,struct VMixConvolutionDesc_t>, CConcreteToolAttr<float,struct VMixConvolutionDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixConvolutionDesc_t>, CBaseConcreteToolAttr<float,struct VMixConvolutionDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31c120 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbMid
+	soundsystem.dll + 0x31c168(hierarchy `public: static void __cdecl VMixConvolutionDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbMid: CConcreteToolAttrDirectMember<float,struct VMixConvolutionDesc_t>, CConcreteToolAttr<float,struct VMixConvolutionDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixConvolutionDesc_t>, CBaseConcreteToolAttr<float,struct VMixConvolutionDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31c2f8 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_bEnable
+	soundsystem.dll + 0x31b448(hierarchy `public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_bEnable: CConcreteToolAttrDirectMember<bool,struct VMixDynamicsBand_t>, CConcreteToolAttr<bool,struct VMixDynamicsBand_t,void>, CBaseConcreteToolAttrValue<bool,struct VMixDynamicsBand_t>, CBaseConcreteToolAttr<bool,struct VMixDynamicsBand_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+	soundsystem.dll + 0x31b5d8 MI offset 376(hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_bSolo
+	soundsystem.dll + 0x31b620(hierarchy `public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_bSolo: CConcreteToolAttrDirectMember<bool,struct VMixDynamicsBand_t>, CConcreteToolAttr<bool,struct VMixDynamicsBand_t,void>, CBaseConcreteToolAttrValue<bool,struct VMixDynamicsBand_t>, CBaseConcreteToolAttr<bool,struct VMixDynamicsBand_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+	soundsystem.dll + 0x31b7b0 MI offset 376(hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flAttackTimeMS
+	soundsystem.dll + 0x31ae88(hierarchy `public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flAttackTimeMS: CConcreteToolAttrDirectMember<float,struct VMixDynamicsBand_t>, CConcreteToolAttr<float,struct VMixDynamicsBand_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsBand_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsBand_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31b018 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flRatioAbove
+	soundsystem.dll + 0x31acb0(hierarchy `public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flRatioAbove: CConcreteToolAttrDirectMember<float,struct VMixDynamicsBand_t>, CConcreteToolAttr<float,struct VMixDynamicsBand_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsBand_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsBand_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31ae40 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flRatioBelow
+	soundsystem.dll + 0x31aad8(hierarchy `public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flRatioBelow: CConcreteToolAttrDirectMember<float,struct VMixDynamicsBand_t>, CConcreteToolAttr<float,struct VMixDynamicsBand_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsBand_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsBand_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31ac68 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flReleaseTimeMS
+	soundsystem.dll + 0x31b060(hierarchy `public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flReleaseTimeMS: CConcreteToolAttrDirectMember<float,struct VMixDynamicsBand_t>, CConcreteToolAttr<float,struct VMixDynamicsBand_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsBand_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsBand_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31b1f0 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbGainInput
+	soundsystem.dll + 0x31a378(hierarchy `public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbGainInput: CConcreteToolAttrDirectMember<float,struct VMixDynamicsBand_t>, CConcreteToolAttr<float,struct VMixDynamicsBand_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsBand_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsBand_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31a508 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbGainOutput
+	soundsystem.dll + 0x31a550(hierarchy `public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbGainOutput: CConcreteToolAttrDirectMember<float,struct VMixDynamicsBand_t>, CConcreteToolAttr<float,struct VMixDynamicsBand_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsBand_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsBand_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31a6e0 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbThresholdAbove
+	soundsystem.dll + 0x31a900(hierarchy `public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbThresholdAbove: CConcreteToolAttrDirectMember<float,struct VMixDynamicsBand_t>, CConcreteToolAttr<float,struct VMixDynamicsBand_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsBand_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsBand_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31aa90 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbThresholdBelow
+	soundsystem.dll + 0x31a728(hierarchy `public: static void __cdecl VMixDynamicsBand_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbThresholdBelow: CConcreteToolAttrDirectMember<float,struct VMixDynamicsBand_t>, CConcreteToolAttr<float,struct VMixDynamicsBand_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsBand_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsBand_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31a8b8 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_bPeakMode
+	soundsystem.dll + 0x319f90(hierarchy `public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_bPeakMode: CConcreteToolAttrDirectMember<bool,struct VMixDynamicsCompressorDesc_t>, CConcreteToolAttr<bool,struct VMixDynamicsCompressorDesc_t,void>, CBaseConcreteToolAttrValue<bool,struct VMixDynamicsCompressorDesc_t>, CBaseConcreteToolAttr<bool,struct VMixDynamicsCompressorDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+	soundsystem.dll + 0x31a120 MI offset 376(hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flAttackTimeMS
+	soundsystem.dll + 0x319620(hierarchy `public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flAttackTimeMS: CConcreteToolAttrDirectMember<float,struct VMixDynamicsCompressorDesc_t>, CConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsCompressorDesc_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x3197b0 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flCompressionRatio
+	soundsystem.dll + 0x319448(hierarchy `public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flCompressionRatio: CConcreteToolAttrDirectMember<float,struct VMixDynamicsCompressorDesc_t>, CConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsCompressorDesc_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x3195d8 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flRMSTimeMS
+	soundsystem.dll + 0x3199d0(hierarchy `public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flRMSTimeMS: CConcreteToolAttrDirectMember<float,struct VMixDynamicsCompressorDesc_t>, CConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsCompressorDesc_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x319b60 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flReleaseTimeMS
+	soundsystem.dll + 0x3197f8(hierarchy `public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flReleaseTimeMS: CConcreteToolAttrDirectMember<float,struct VMixDynamicsCompressorDesc_t>, CConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsCompressorDesc_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x319988 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flWetMix
+	soundsystem.dll + 0x319ba8(hierarchy `public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flWetMix: CConcreteToolAttrDirectMember<float,struct VMixDynamicsCompressorDesc_t>, CConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsCompressorDesc_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x319d38 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbCompressionThreshold
+	soundsystem.dll + 0x319098(hierarchy `public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbCompressionThreshold: CConcreteToolAttrDirectMember<float,struct VMixDynamicsCompressorDesc_t>, CConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsCompressorDesc_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x319228 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbKneeWidth
+	soundsystem.dll + 0x319270(hierarchy `public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbKneeWidth: CConcreteToolAttrDirectMember<float,struct VMixDynamicsCompressorDesc_t>, CConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsCompressorDesc_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x319400 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbOutputGain
+	soundsystem.dll + 0x318ec0(hierarchy `public: static void __cdecl VMixDynamicsCompressorDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbOutputGain: CConcreteToolAttrDirectMember<float,struct VMixDynamicsCompressorDesc_t>, CConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixDynamicsCompressorDesc_t>, CBaseConcreteToolAttr<float,struct VMixDynamicsCompressorDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x319050 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixEffectChainDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flCrossfadeTime
+	soundsystem.dll + 0x3208a8(hierarchy `public: static void __cdecl VMixEffectChainDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flCrossfadeTime: CConcreteToolAttrDirectMember<float,struct VMixEffectChainDesc_t>, CConcreteToolAttr<float,struct VMixEffectChainDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixEffectChainDesc_t>, CBaseConcreteToolAttr<float,struct VMixEffectChainDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x320a38 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_bEnabled
+	soundsystem.dll + 0x318300(hierarchy `public: static void __cdecl VMixFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_bEnabled: CConcreteToolAttrDirectMember<bool,struct VMixFilterDesc_t>, CConcreteToolAttr<bool,struct VMixFilterDesc_t,void>, CBaseConcreteToolAttrValue<bool,struct VMixFilterDesc_t>, CBaseConcreteToolAttr<bool,struct VMixFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+	soundsystem.dll + 0x318490 MI offset 376(hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+`public: static void __cdecl VMixFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flCutoffFreq
+	soundsystem.dll + 0x3188c0(hierarchy `public: static void __cdecl VMixFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flCutoffFreq: CConcreteToolAttrDirectMember<float,struct VMixFilterDesc_t>, CConcreteToolAttr<float,struct VMixFilterDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixFilterDesc_t>, CBaseConcreteToolAttr<float,struct VMixFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x318a50 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flQ
+	soundsystem.dll + 0x318a98(hierarchy `public: static void __cdecl VMixFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flQ: CConcreteToolAttrDirectMember<float,struct VMixFilterDesc_t>, CConcreteToolAttr<float,struct VMixFilterDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixFilterDesc_t>, CBaseConcreteToolAttr<float,struct VMixFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x318c28 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbGain
+	soundsystem.dll + 0x3186e8(hierarchy `public: static void __cdecl VMixFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbGain: CConcreteToolAttrDirectMember<float,struct VMixFilterDesc_t>, CConcreteToolAttr<float,struct VMixFilterDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixFilterDesc_t>, CBaseConcreteToolAttr<float,struct VMixFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x318878 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_nFilterSlope
+	soundsystem.dll + 0x317f18(hierarchy `public: static void __cdecl VMixFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_nFilterSlope: CConcreteToolAttrDirectMember<enum VMixFilterSlope_t,struct VMixFilterDesc_t>, CConcreteToolAttr<enum VMixFilterSlope_t,struct VMixFilterDesc_t,void>, CBaseConcreteToolAttrValue<enum VMixFilterSlope_t,struct VMixFilterDesc_t>, CBaseConcreteToolAttr<enum VMixFilterSlope_t,struct VMixFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<enum VMixFilterSlope_t>, IToolAttr_Value)
+	soundsystem.dll + 0x3180a8 MI offset 376(hierarchy IToolAttr_TypedValue<enum VMixFilterSlope_t>: IToolAttr_Value)
+`public: static void __cdecl VMixFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_nFilterType
+	soundsystem.dll + 0x317b30(hierarchy `public: static void __cdecl VMixFilterDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_nFilterType: CConcreteToolAttrDirectMember<enum VMixFilterType_t,struct VMixFilterDesc_t>, CConcreteToolAttr<enum VMixFilterType_t,struct VMixFilterDesc_t,void>, CBaseConcreteToolAttrValue<enum VMixFilterType_t,struct VMixFilterDesc_t>, CBaseConcreteToolAttr<enum VMixFilterType_t,struct VMixFilterDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<enum VMixFilterType_t>, IToolAttr_Value)
+	soundsystem.dll + 0x317cc0 MI offset 376(hierarchy IToolAttr_TypedValue<enum VMixFilterType_t>: IToolAttr_Value)
+`public: static void __cdecl VMixOscDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flPhase
+	soundsystem.dll + 0x3204c0(hierarchy `public: static void __cdecl VMixOscDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flPhase: CConcreteToolAttrDirectMember<float,struct VMixOscDesc_t>, CConcreteToolAttr<float,struct VMixOscDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixOscDesc_t>, CBaseConcreteToolAttr<float,struct VMixOscDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x320650 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixOscDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_freq
+	soundsystem.dll + 0x3202e8(hierarchy `public: static void __cdecl VMixOscDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_freq: CConcreteToolAttrDirectMember<float,struct VMixOscDesc_t>, CConcreteToolAttr<float,struct VMixOscDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixOscDesc_t>, CBaseConcreteToolAttr<float,struct VMixOscDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x320478 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixOscDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_oscType
+	soundsystem.dll + 0x31ff00(hierarchy `public: static void __cdecl VMixOscDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_oscType: CConcreteToolAttrDirectMember<enum VMixLFOShape_t,struct VMixOscDesc_t>, CConcreteToolAttr<enum VMixLFOShape_t,struct VMixOscDesc_t,void>, CBaseConcreteToolAttrValue<enum VMixLFOShape_t,struct VMixOscDesc_t>, CBaseConcreteToolAttr<enum VMixLFOShape_t,struct VMixOscDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<enum VMixLFOShape_t>, IToolAttr_Value)
+	soundsystem.dll + 0x320090 MI offset 376(hierarchy IToolAttr_TypedValue<enum VMixLFOShape_t>: IToolAttr_Value)
+`public: static void __cdecl VMixShaperDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flWetMix
+	soundsystem.dll + 0x31d270(hierarchy `public: static void __cdecl VMixShaperDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flWetMix: CConcreteToolAttrDirectMember<float,struct VMixShaperDesc_t>, CConcreteToolAttr<float,struct VMixShaperDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixShaperDesc_t>, CBaseConcreteToolAttr<float,struct VMixShaperDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31d400 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixShaperDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbDrive
+	soundsystem.dll + 0x31cec0(hierarchy `public: static void __cdecl VMixShaperDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbDrive: CConcreteToolAttrDirectMember<float,struct VMixShaperDesc_t>, CConcreteToolAttr<float,struct VMixShaperDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixShaperDesc_t>, CBaseConcreteToolAttr<float,struct VMixShaperDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31d050 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixShaperDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbOutputGain
+	soundsystem.dll + 0x31d098(hierarchy `public: static void __cdecl VMixShaperDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbOutputGain: CConcreteToolAttrDirectMember<float,struct VMixShaperDesc_t>, CConcreteToolAttr<float,struct VMixShaperDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixShaperDesc_t>, CBaseConcreteToolAttr<float,struct VMixShaperDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31d228 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixShaperDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_nOversampleFactor
+	soundsystem.dll + 0x31d448(hierarchy `public: static void __cdecl VMixShaperDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_nOversampleFactor: CConcreteToolAttrDirectMember<int,struct VMixShaperDesc_t>, CConcreteToolAttr<int,struct VMixShaperDesc_t,void>, CBaseConcreteToolAttrValue<int,struct VMixShaperDesc_t>, CBaseConcreteToolAttr<int,struct VMixShaperDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+	soundsystem.dll + 0x31d5d8 MI offset 376(hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+`public: static void __cdecl VMixShaperDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_nShape
+	soundsystem.dll + 0x31cad8(hierarchy `public: static void __cdecl VMixShaperDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_nShape: CConcreteToolAttrDirectMember<int,struct VMixShaperDesc_t>, CConcreteToolAttr<int,struct VMixShaperDesc_t,void>, CBaseConcreteToolAttrValue<int,struct VMixShaperDesc_t>, CBaseConcreteToolAttr<int,struct VMixShaperDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+	soundsystem.dll + 0x31cc68 MI offset 376(hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+`public: static void __cdecl VMixUtilityDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_bBassMono
+	soundsystem.dll + 0x31e3b0(hierarchy `public: static void __cdecl VMixUtilityDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_bBassMono: CConcreteToolAttrDirectMember<bool,struct VMixUtilityDesc_t>, CConcreteToolAttr<bool,struct VMixUtilityDesc_t,void>, CBaseConcreteToolAttrValue<bool,struct VMixUtilityDesc_t>, CBaseConcreteToolAttr<bool,struct VMixUtilityDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+	soundsystem.dll + 0x31e540 MI offset 376(hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+`public: static void __cdecl VMixUtilityDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flBassFreq
+	soundsystem.dll + 0x31e588(hierarchy `public: static void __cdecl VMixUtilityDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flBassFreq: CConcreteToolAttrDirectMember<float,struct VMixUtilityDesc_t>, CConcreteToolAttr<float,struct VMixUtilityDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixUtilityDesc_t>, CBaseConcreteToolAttr<float,struct VMixUtilityDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31e718 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixUtilityDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flInputPan
+	soundsystem.dll + 0x31dc18(hierarchy `public: static void __cdecl VMixUtilityDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flInputPan: CConcreteToolAttrDirectMember<float,struct VMixUtilityDesc_t>, CConcreteToolAttr<float,struct VMixUtilityDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixUtilityDesc_t>, CBaseConcreteToolAttr<float,struct VMixUtilityDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31dda8 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixUtilityDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flOutputBalance
+	soundsystem.dll + 0x31ddf0(hierarchy `public: static void __cdecl VMixUtilityDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_flOutputBalance: CConcreteToolAttrDirectMember<float,struct VMixUtilityDesc_t>, CConcreteToolAttr<float,struct VMixUtilityDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixUtilityDesc_t>, CBaseConcreteToolAttr<float,struct VMixUtilityDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31df80 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixUtilityDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbOutputGain
+	soundsystem.dll + 0x31dfc8(hierarchy `public: static void __cdecl VMixUtilityDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_fldbOutputGain: CConcreteToolAttrDirectMember<float,struct VMixUtilityDesc_t>, CConcreteToolAttr<float,struct VMixUtilityDesc_t,void>, CBaseConcreteToolAttrValue<float,struct VMixUtilityDesc_t>, CBaseConcreteToolAttr<float,struct VMixUtilityDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+	soundsystem.dll + 0x31e158 MI offset 376(hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+`public: static void __cdecl VMixUtilityDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_nOp
+	soundsystem.dll + 0x31d830(hierarchy `public: static void __cdecl VMixUtilityDesc_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_nOp: CConcreteToolAttrDirectMember<enum VMixChannelOperation_t,struct VMixUtilityDesc_t>, CConcreteToolAttr<enum VMixChannelOperation_t,struct VMixUtilityDesc_t,void>, CBaseConcreteToolAttrValue<enum VMixChannelOperation_t,struct VMixUtilityDesc_t>, CBaseConcreteToolAttr<enum VMixChannelOperation_t,struct VMixUtilityDesc_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<enum VMixChannelOperation_t>, IToolAttr_Value)
+	soundsystem.dll + 0x31d9c0 MI offset 376(hierarchy IToolAttr_TypedValue<enum VMixChannelOperation_t>: IToolAttr_Value)
+std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerGranulator::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CVoiceContainerGranulator::CGranulatorInstance * __ptr64,int const & __ptr64>
+	soundsystem.dll + 0x324f70(hierarchy std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerGranulator::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CVoiceContainerGranulator::CGranulatorInstance * __ptr64,int const & __ptr64>: std::_Func_base<void,class CVoiceContainerGranulator::CGranulatorInstance * __ptr64,int const & __ptr64>)
+std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerGranulator::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_2>,void,class CVoiceContainerGranulator::CGranulatorInstance * __ptr64,int const & __ptr64>
+	soundsystem.dll + 0x324fa8(hierarchy std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerGranulator::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_2>,void,class CVoiceContainerGranulator::CGranulatorInstance * __ptr64,int const & __ptr64>: std::_Func_base<void,class CVoiceContainerGranulator::CGranulatorInstance * __ptr64,int const & __ptr64>)
+std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerGranulator::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_3>,void,class CVoiceContainerGranulator::CGranulatorInstance * __ptr64,float const & __ptr64>
+	soundsystem.dll + 0x324fe0(hierarchy std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerGranulator::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_3>,void,class CVoiceContainerGranulator::CGranulatorInstance * __ptr64,float const & __ptr64>: std::_Func_base<void,class CVoiceContainerGranulator::CGranulatorInstance * __ptr64,float const & __ptr64>)
+std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerRandomSampler::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CVoiceContainerRandomSampler::CRandomSamplerInstanceView * __ptr64,int const & __ptr64>
+	soundsystem.dll + 0x322c40(hierarchy std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerRandomSampler::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CVoiceContainerRandomSampler::CRandomSamplerInstanceView * __ptr64,int const & __ptr64>: std::_Func_base<void,class CVoiceContainerRandomSampler::CRandomSamplerInstanceView * __ptr64,int const & __ptr64>)
+std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerRealtimeFMSineWave::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CVoiceContainerRealtimeFMSineWave::CFMSineInstance * __ptr64,float const & __ptr64>
+	soundsystem.dll + 0x322de0(hierarchy std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerRealtimeFMSineWave::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CVoiceContainerRealtimeFMSineWave::CFMSineInstance * __ptr64,float const & __ptr64>: std::_Func_base<void,class CVoiceContainerRealtimeFMSineWave::CFMSineInstance * __ptr64,float const & __ptr64>)
+std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerStaticAdditiveSynth::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CVoiceContainerStaticAdditiveSynth::CAdditiveSynthInstanceView * __ptr64,int const & __ptr64>
+	soundsystem.dll + 0x324b80(hierarchy std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerStaticAdditiveSynth::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CVoiceContainerStaticAdditiveSynth::CAdditiveSynthInstanceView * __ptr64,int const & __ptr64>: std::_Func_base<void,class CVoiceContainerStaticAdditiveSynth::CAdditiveSynthInstanceView * __ptr64,int const & __ptr64>)
+std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerStaticAdditiveSynth::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_2>,void,class CVoiceContainerStaticAdditiveSynth::CAdditiveSynthInstanceView * __ptr64,int const & __ptr64>
+	soundsystem.dll + 0x324bb8(hierarchy std::_Func_impl_no_alloc<class `protected: virtual void __cdecl CVoiceContainerStaticAdditiveSynth::BindInstanceParams(class CUtlVector<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int,class CUtlMemory<class std::unique_ptr<class CVoiceContainerBase::CParameterBase,struct std::default_delete<class CVoiceContainerBase::CParameterBase> >,int> > & __ptr64) __ptr64'::`2'::<lambda_2>,void,class CVoiceContainerStaticAdditiveSynth::CAdditiveSynthInstanceView * __ptr64,int const & __ptr64>: std::_Func_base<void,class CVoiceContainerStaticAdditiveSynth::CAdditiveSynthInstanceView * __ptr64,int const & __ptr64>)
+std::_Func_impl_no_alloc<class `protected: void __cdecl CVoiceContainerRandomSampler::KickOffRenderWork(void) __ptr64'::`2'::<lambda_1>,bool>
+	soundsystem.dll + 0x322c08(hierarchy std::_Func_impl_no_alloc<class `protected: void __cdecl CVoiceContainerRandomSampler::KickOffRenderWork(void) __ptr64'::`2'::<lambda_1>,bool>: std::_Func_base<bool>)
+std::_Func_impl_no_alloc<class `public: bool __cdecl CVMixNestedVoiceGraphFlattener::BuildContainerVoiceTree(class CWeakHandle<struct InfoForResourceTypeCVoiceContainerBase>,int,struct CVMixNestedVoiceGraphFlattener::VMixGraphVoice_t * __ptr64) __ptr64'::`2'::<lambda_1>,int,struct CContainerVoiceTree::GraphEntry_t const * __ptr64,struct CVMixNestedVoiceGraphFlattener::VMixGraphVoice_t * __ptr64>
+	soundsystem.dll + 0x33cef8(hierarchy std::_Func_impl_no_alloc<class `public: bool __cdecl CVMixNestedVoiceGraphFlattener::BuildContainerVoiceTree(class CWeakHandle<struct InfoForResourceTypeCVoiceContainerBase>,int,struct CVMixNestedVoiceGraphFlattener::VMixGraphVoice_t * __ptr64) __ptr64'::`2'::<lambda_1>,int,struct CContainerVoiceTree::GraphEntry_t const * __ptr64,struct CVMixNestedVoiceGraphFlattener::VMixGraphVoice_t * __ptr64>: std::_Func_base<int,struct CContainerVoiceTree::GraphEntry_t const * __ptr64,struct CVMixNestedVoiceGraphFlattener::VMixGraphVoice_t * __ptr64>)
+std::_Func_impl_no_alloc<class `public: int __cdecl CVoiceContainerBase::GenerateCompiledFloatAudioStream(class CUtlBuffer & __ptr64,float,int) __ptr64'::`2'::<lambda_1>,void,class CUtlVector<class CAudioMixBuffer,int,class CUtlMemory<class CAudioMixBuffer,int> > & __ptr64>
+	soundsystem.dll + 0x3212c8(hierarchy std::_Func_impl_no_alloc<class `public: int __cdecl CVoiceContainerBase::GenerateCompiledFloatAudioStream(class CUtlBuffer & __ptr64,float,int) __ptr64'::`2'::<lambda_1>,void,class CUtlVector<class CAudioMixBuffer,int,class CUtlMemory<class CAudioMixBuffer,int> > & __ptr64>: std::_Func_base<void,class CUtlVector<class CAudioMixBuffer,int,class CUtlMemory<class CAudioMixBuffer,int> > & __ptr64>)
+std::_Func_impl_no_alloc<class `public: int __cdecl CVoiceContainerBase::GenerateCompiledFloatAudioStream(class CUtlVector<float,int,class CUtlMemory<float,int> > & __ptr64,class CUtlVector<float,int,class CUtlMemory<float,int> > & __ptr64) __ptr64'::`7'::<lambda_1>,void,class CUtlVector<class CAudioMixBuffer,int,class CUtlMemory<class CAudioMixBuffer,int> > & __ptr64>
+	soundsystem.dll + 0x321258(hierarchy std::_Func_impl_no_alloc<class `public: int __cdecl CVoiceContainerBase::GenerateCompiledFloatAudioStream(class CUtlVector<float,int,class CUtlMemory<float,int> > & __ptr64,class CUtlVector<float,int,class CUtlMemory<float,int> > & __ptr64) __ptr64'::`7'::<lambda_1>,void,class CUtlVector<class CAudioMixBuffer,int,class CUtlMemory<class CAudioMixBuffer,int> > & __ptr64>: std::_Func_base<void,class CUtlVector<class CAudioMixBuffer,int,class CUtlMemory<class CAudioMixBuffer,int> > & __ptr64>)
+std::_Func_impl_no_alloc<class `public: virtual bool __cdecl CAudioSourceCached::CopySamplesAndMixToMono(class CUtlVector<float,int,class CUtlMemory<float,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,float * __ptr64,int,int,int>
+	soundsystem.dll + 0x3386c8(hierarchy std::_Func_impl_no_alloc<class `public: virtual bool __cdecl CAudioSourceCached::CopySamplesAndMixToMono(class CUtlVector<float,int,class CUtlMemory<float,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,float * __ptr64,int,int,int>: std::_Func_base<void,float * __ptr64,int,int,int>)
+std::_Func_impl_no_alloc<class `public: virtual bool __cdecl CAudioSourceCached::CopySamplesFloat(class CUtlVector<float,int,class CUtlMemory<float,int> > & __ptr64,class CUtlVector<float,int,class CUtlMemory<float,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,float * __ptr64,int,int,int>
+	soundsystem.dll + 0x338700(hierarchy std::_Func_impl_no_alloc<class `public: virtual bool __cdecl CAudioSourceCached::CopySamplesFloat(class CUtlVector<float,int,class CUtlMemory<float,int> > & __ptr64,class CUtlVector<float,int,class CUtlMemory<float,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,float * __ptr64,int,int,int>: std::_Func_base<void,float * __ptr64,int,int,int>)
+std::_Func_impl_no_alloc<class `public: virtual bool __cdecl CVoiceContainerGranulator::Finalize_Internal(void) __ptr64'::`5'::<lambda_1>,bool>
+	soundsystem.dll + 0x325018(hierarchy std::_Func_impl_no_alloc<class `public: virtual bool __cdecl CVoiceContainerGranulator::Finalize_Internal(void) __ptr64'::`5'::<lambda_1>,bool>: std::_Func_base<bool>)
+std::_Func_impl_no_alloc<class `public: virtual bool __cdecl CVoiceContainerRandomSampler::Finalize_Internal(void) __ptr64'::`2'::<lambda_1>,bool>
+	soundsystem.dll + 0x322c78(hierarchy std::_Func_impl_no_alloc<class `public: virtual bool __cdecl CVoiceContainerRandomSampler::Finalize_Internal(void) __ptr64'::`2'::<lambda_1>,bool>: std::_Func_base<bool>)
+std::_Func_impl_no_alloc<class `public: virtual bool __cdecl CVoiceContainerStaticAdditiveSynth::Finalize_Internal(void) __ptr64'::`2'::<lambda_1>,bool>
+	soundsystem.dll + 0x324bf0(hierarchy std::_Func_impl_no_alloc<class `public: virtual bool __cdecl CVoiceContainerStaticAdditiveSynth::Finalize_Internal(void) __ptr64'::`2'::<lambda_1>,bool>: std::_Func_base<bool>)
+std::_Func_impl_no_alloc<class `public: virtual void __cdecl CSosOperatorFloat::Execute(void * __ptr64,class CSosOperatorStack * __ptr64,int)const __ptr64'::`4'::<lambda_2>,bool,bool,bool>
+	soundsystem.dll + 0x3437a0(hierarchy std::_Func_impl_no_alloc<class `public: virtual void __cdecl CSosOperatorFloat::Execute(void * __ptr64,class CSosOperatorStack * __ptr64,int)const __ptr64'::`4'::<lambda_2>,bool,bool,bool>: std::_Func_base<bool,bool,bool>)
+std::_Func_impl_no_alloc<class `public: virtual void __cdecl CSosOperatorFloat::Execute(void * __ptr64,class CSosOperatorStack * __ptr64,int)const __ptr64'::`4'::<lambda_3>,bool,bool,bool>
+	soundsystem.dll + 0x343730(hierarchy std::_Func_impl_no_alloc<class `public: virtual void __cdecl CSosOperatorFloat::Execute(void * __ptr64,class CSosOperatorStack * __ptr64,int)const __ptr64'::`4'::<lambda_3>,bool,bool,bool>: std::_Func_base<bool,bool,bool>)
+std::_Func_impl_no_alloc<class `public: virtual void __cdecl CSosOperatorFloat::Execute(void * __ptr64,class CSosOperatorStack * __ptr64,int)const __ptr64'::`4'::<lambda_4>,bool,bool,bool>
+	soundsystem.dll + 0x343768(hierarchy std::_Func_impl_no_alloc<class `public: virtual void __cdecl CSosOperatorFloat::Execute(void * __ptr64,class CSosOperatorStack * __ptr64,int)const __ptr64'::`4'::<lambda_4>,bool,bool,bool>: std::_Func_base<bool,bool,bool>)
+std::_Func_impl_no_alloc<class `public: virtual void __cdecl CSosOperatorFloat::Execute(void * __ptr64,class CSosOperatorStack * __ptr64,int)const __ptr64'::`4'::<lambda_5>,bool,bool,bool>
+	soundsystem.dll + 0x3436f8(hierarchy std::_Func_impl_no_alloc<class `public: virtual void __cdecl CSosOperatorFloat::Execute(void * __ptr64,class CSosOperatorStack * __ptr64,int)const __ptr64'::`4'::<lambda_5>,bool,bool,bool>: std::_Func_base<bool,bool,bool>)
+std::_Func_impl_no_alloc<class `public: virtual void __cdecl CSoundSystem::Update(class CAudioState const * __ptr64,bool) __ptr64'::`25'::<lambda_1>,void>
+	soundsystem.dll + 0x33ab48(hierarchy std::_Func_impl_no_alloc<class `public: virtual void __cdecl CSoundSystem::Update(class CAudioState const * __ptr64,bool) __ptr64'::`25'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CAsyncWaveData::StartAsyncLoading(struct asyncwaveparams_t const & __ptr64) __ptr64'::`2'::<lambda_1>,void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>
+	soundsystem.dll + 0x338180(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CAsyncWaveData::StartAsyncLoading(struct asyncwaveparams_t const & __ptr64) __ptr64'::`2'::<lambda_1>,void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>: std::_Func_base<void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CLibStackFieldsQueue::SetLibraryStackField(unsigned int,class CUtlStringToken,class CSosFieldData const & __ptr64,int) __ptr64'::`2'::<lambda_1>,class CSosEventInfo_t * __ptr64>
+	soundsystem.dll + 0x3523e8(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CLibStackFieldsQueue::SetLibraryStackField(unsigned int,class CUtlStringToken,class CSosFieldData const & __ptr64,int) __ptr64'::`2'::<lambda_1>,class CSosEventInfo_t * __ptr64>: std::_Func_base<class CSosEventInfo_t * __ptr64>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CLibStackFieldsQueue::SetLibraryStackFields(unsigned int,void const * __ptr64,int) __ptr64'::`2'::<lambda_1>,class CSosEventInfo_t * __ptr64>
+	soundsystem.dll + 0x3523a0(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CLibStackFieldsQueue::SetLibraryStackFields(unsigned int,void const * __ptr64,int) __ptr64'::`2'::<lambda_1>,class CSosEventInfo_t * __ptr64>: std::_Func_base<class CSosEventInfo_t * __ptr64>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSoundEventFieldsQueue::SetSoundEventField(class SoundEventGuid_t,class CUtlStringToken,class CSosFieldData const & __ptr64,int) __ptr64'::`2'::<lambda_1>,class CSosEventInfo_t * __ptr64>
+	soundsystem.dll + 0x352468(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSoundEventFieldsQueue::SetSoundEventField(class SoundEventGuid_t,class CUtlStringToken,class CSosFieldData const & __ptr64,int) __ptr64'::`2'::<lambda_1>,class CSosEventInfo_t * __ptr64>: std::_Func_base<class CSosEventInfo_t * __ptr64>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSoundEventFieldsQueue::SetSoundEventFields(class SoundEventGuid_t,void const * __ptr64,int) __ptr64'::`2'::<lambda_1>,class CSosEventInfo_t * __ptr64>
+	soundsystem.dll + 0x352420(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSoundEventFieldsQueue::SetSoundEventFields(class SoundEventGuid_t,void const * __ptr64,int) __ptr64'::`2'::<lambda_1>,class CSosEventInfo_t * __ptr64>: std::_Func_base<class CSosEventInfo_t * __ptr64>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CVMixEngine::UpdateVoices(void) __ptr64'::`2'::<lambda_1>,void>
+	soundsystem.dll + 0x33ce40(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CVMixEngine::UpdateVoices(void) __ptr64'::`2'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CVMixNestedVoiceGraphFlattener::FlattenVoiceTree(void) __ptr64'::`2'::<lambda_1>,int,struct CMixerAssembledContainerGraphExecutionList & __ptr64,struct CVMixNestedVoiceGraphFlattener::VMixGraphVoice_t * __ptr64>
+	soundsystem.dll + 0x33cf30(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CVMixNestedVoiceGraphFlattener::FlattenVoiceTree(void) __ptr64'::`2'::<lambda_1>,int,struct CMixerAssembledContainerGraphExecutionList & __ptr64,struct CVMixNestedVoiceGraphFlattener::VMixGraphVoice_t * __ptr64>: std::_Func_base<int,struct CMixerAssembledContainerGraphExecutionList & __ptr64,struct CVMixNestedVoiceGraphFlattener::VMixGraphVoice_t * __ptr64>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CVoiceContainerBase::GenerateCompiledFloatAudioStream_Mono(class CUtlVector<float,int,class CUtlMemory<float,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CUtlVector<class CAudioMixBuffer,int,class CUtlMemory<class CAudioMixBuffer,int> > & __ptr64>
+	soundsystem.dll + 0x321290(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CVoiceContainerBase::GenerateCompiledFloatAudioStream_Mono(class CUtlVector<float,int,class CUtlMemory<float,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CUtlVector<class CAudioMixBuffer,int,class CUtlMemory<class CAudioMixBuffer,int> > & __ptr64>: std::_Func_base<void,class CUtlVector<class CAudioMixBuffer,int,class CUtlMemory<class CAudioMixBuffer,int> > & __ptr64>)
+std::_Func_impl_no_alloc<class `void __cdecl GenerateArcTan(class CCubicSplineFunction & __ptr64,unsigned int,float,float)'::`2'::<lambda_1>,float,float,float>
+	soundsystem.dll + 0x320b98(hierarchy std::_Func_impl_no_alloc<class `void __cdecl GenerateArcTan(class CCubicSplineFunction & __ptr64,unsigned int,float,float)'::`2'::<lambda_1>,float,float,float>: std::_Func_base<float,float,float>)
+std::_Func_impl_no_alloc<class `void __cdecl GenerateFuzzExp1(class CCubicSplineFunction & __ptr64,unsigned int,float,float)'::`2'::<lambda_1>,float,float,float>
+	soundsystem.dll + 0x320bd0(hierarchy std::_Func_impl_no_alloc<class `void __cdecl GenerateFuzzExp1(class CCubicSplineFunction & __ptr64,unsigned int,float,float)'::`2'::<lambda_1>,float,float,float>: std::_Func_base<float,float,float>)
+std::_Func_impl_no_alloc<class `void __cdecl GenerateSigmoid(class CCubicSplineFunction & __ptr64,unsigned int,float,float)'::`2'::<lambda_1>,float,float,float>
+	soundsystem.dll + 0x320b28(hierarchy std::_Func_impl_no_alloc<class `void __cdecl GenerateSigmoid(class CCubicSplineFunction & __ptr64,unsigned int,float,float)'::`2'::<lambda_1>,float,float,float>: std::_Func_base<float,float,float>)
+std::_Func_impl_no_alloc<class `void __cdecl GenerateSigmoid2(class CCubicSplineFunction & __ptr64,unsigned int,float,float)'::`2'::<lambda_1>,float,float,float>
+	soundsystem.dll + 0x320b60(hierarchy std::_Func_impl_no_alloc<class `void __cdecl GenerateSigmoid2(class CCubicSplineFunction & __ptr64,unsigned int,float,float)'::`2'::<lambda_1>,float,float,float>: std::_Func_base<float,float,float>)
+std::bad_exception
+	soundsystem.dll + 0x327d18(hierarchy std::bad_exception: std::exception)
+std::bad_function_call
+	soundsystem.dll + 0x326b98(hierarchy std::bad_function_call: std::exception)
+std::exception
+	soundsystem.dll + 0x326b68(hierarchy std::exception)
+type_info
+	soundsystem.dll + 0x327bd8(hierarchy type_info)

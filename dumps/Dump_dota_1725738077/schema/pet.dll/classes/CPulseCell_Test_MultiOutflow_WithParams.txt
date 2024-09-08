@@ -1,0 +1,43 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_Test_MultiOutflow_WithParams (size: 0xa8 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xce5820, scope "pet.dll") extends CPulseCell_BaseFlow
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: pet.dll + 0x143020"
+^MCellForDomain "TestDomain"
+^MPulseCellMethodBindings "ptr: pet.dll + 0xce5b50"
+^MPulseCellOutflowHookInfo "ptr: pet.dll + 0xce4770"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseFlow (size: 0x48 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xce9e10, scope "pet.dll") extends CPulseCell_Base
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: pet.dll + 0x159e00"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_Base (size: 0x48 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xceb280, scope "pet.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: pet.dll + 0x159ce0"
+		
+		-----members of class CPulseCell_Base-----
+			uint8_t[8] unaccounted(offset 0x0)
+			PulseDocNodeID_t m_nEditorNodeID(offset 0x8, size 0x4, align 0x0)
+				^MFgdFromSchemaCompletelySkipField
+			uint8_t[60] unaccounted(offset 0xc)
+		
+	
+	-----members of class CPulseCell_BaseFlow-----
+		<no members>
+	
+
+-----members of class CPulseCell_Test_MultiOutflow_WithParams-----
+	SignatureOutflow_Continue m_Out1(offset 0x48, size 0x30, align 0x0)
+		^MPulseCellOutflow_IsDefault
+	SignatureOutflow_Continue m_Out2(offset 0x78, size 0x30, align 0x0)
+

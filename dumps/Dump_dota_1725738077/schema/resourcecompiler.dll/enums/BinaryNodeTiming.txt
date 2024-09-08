@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum BinaryNodeTiming(size: 4 bytes, 3 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x241c770):
+	UseChild1 = 0,
+		^MPropertyFriendlyName "Use Child1"
+	UseChild2 = 1,
+		^MPropertyFriendlyName "Use Child2"
+	SyncChildren = 2,
+		^MPropertyFriendlyName "Synchronize Children"

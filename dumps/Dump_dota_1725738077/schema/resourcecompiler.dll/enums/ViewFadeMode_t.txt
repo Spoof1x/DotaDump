@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ViewFadeMode_t(size: 4 bytes, 3 values, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24eee80):
+	VIEW_FADE_CONSTANT_COLOR = 0,
+	VIEW_FADE_MODULATE = 1,
+	VIEW_FADE_MOD2X = 2,

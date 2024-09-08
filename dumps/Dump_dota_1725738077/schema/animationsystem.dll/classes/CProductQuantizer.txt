@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CProductQuantizer (size: 0x20 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5ad0a0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1be4f0"
+
+-----members of class CProductQuantizer-----
+	CUtlVector< CVectorQuantizer > m_subQuantizers(offset 0x0, size 0x18, align 0x8)
+	int32 m_nDimensions(offset 0x18, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1c)
+

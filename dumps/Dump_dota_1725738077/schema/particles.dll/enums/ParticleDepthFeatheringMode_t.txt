@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleDepthFeatheringMode_t(size: 4 bytes, 3 values, project "particles", binding @ particles.dll + 0x544700):
+	PARTICLE_DEPTH_FEATHERING_OFF = 0,
+		^MPropertyFriendlyName "Off"
+	PARTICLE_DEPTH_FEATHERING_ON_OPTIONAL = 1,
+		^MPropertyFriendlyName "On (If Possible)"
+	PARTICLE_DEPTH_FEATHERING_ON_REQUIRED = 2,
+		^MPropertyFriendlyName "On (Required)"

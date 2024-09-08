@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAttributeManager (size: 0x68 bytes, project "client", binding @ client.dll + 0x48ef5e0, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "m_iReapplyProvisionParity int"
+^MNetworkVarNames "m_hOuter EHANDLE"
+^MNetworkVarNames "m_ProviderType attributeprovidertypes_t"
+
+-----members of class CAttributeManager-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlVector< CHandle< C_BaseEntity > > m_Providers(offset 0x8, size 0x18, align 0x8)
+	CUtlVector< CHandle< C_BaseEntity > > m_Receivers(offset 0x20, size 0x18, align 0x8)
+	int32 m_iReapplyProvisionParity(offset 0x38, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hOuter(offset 0x3c, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bPreventLoopback(offset 0x40, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x41)
+	attributeprovidertypes_t m_ProviderType(offset 0x44, size 0x4, align 0x4)
+		^MNetworkEnable
+	CUtlVector< CAttributeManager::cached_attribute_float_t > m_CachedResults(offset 0x48, size 0x18, align 0x8)
+	uint8_t[8] unaccounted(offset 0x60)
+

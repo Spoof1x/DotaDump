@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EMatchBehaviorScoreVariance(size: 4 bytes, 4 values, project "server", binding @ server.dll + 0x38db1d0):
+	k_EMatchBehaviorScoreVariance_Invalid = 0,
+	k_EMatchBehaviorScoreVariance_Low = 1,
+	k_EMatchBehaviorScoreVariance_Medium = 2,
+	k_EMatchBehaviorScoreVariance_High = 3,

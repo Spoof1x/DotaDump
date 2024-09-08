@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EDOTADraftTriviaAnswerResult(size: 4 bytes, 6 values, project "client", binding @ client.dll + 0x46f3c90):
+	k_EDOTADraftTriviaAnswerResult_Success = 0,
+	k_EDOTADraftTriviaAnswerResult_InvalidMatchID = 1,
+	k_EDOTADraftTriviaAnswerResult_AlreadyAnswered = 2,
+	k_EDOTADraftTriviaAnswerResult_InternalError = 3,
+	k_EDOTADraftTriviaAnswerResult_TriviaDisabled = 4,
+	k_EDOTADraftTriviaAnswerResult_GCDown = 5,

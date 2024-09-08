@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FantasyCraftingGemData_t (size: 0x28 bytes, project "server", binding @ server.dll + 0x3aaa9b0, scope "server.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: server.dll + 0x1713c40"
+^MPropertyAutoExpandSelf
+
+-----members of class FantasyCraftingGemData_t-----
+	Fantasy_Gem_Type m_eType(offset 0x0, size 0x4, align 0x4)
+		^MPropertyDescription "Unique Identifier for the Gem Type"
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlString m_sLocName(offset 0x8, size 0x8, align 0x8)
+		^MPropertyDescription "Localization name of the gem"
+	CUtlVector< Fantasy_Scoring > m_eStats(offset 0x10, size 0x18, align 0x8)
+		^MPropertyDescription "Which stats can this gem roll"
+

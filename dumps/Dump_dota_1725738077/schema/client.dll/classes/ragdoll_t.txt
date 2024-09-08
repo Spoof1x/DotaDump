@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ragdoll_t (size: 0x38 bytes, project "client", binding @ client.dll + 0x46ba690, scope "!GlobalTypes")
+
+-----members of class ragdoll_t-----
+	CUtlVector< ragdollelement_t > list(offset 0x0, size 0x18, align 0x8)
+	CUtlVector< int32 > boneIndex(offset 0x18, size 0x18, align 0x8)
+	bool allowStretch(offset 0x30, size 0x1, align 0x1)
+	bool unused(offset 0x31, size 0x1, align 0x1)
+	uint8_t[6] unaccounted(offset 0x32)
+

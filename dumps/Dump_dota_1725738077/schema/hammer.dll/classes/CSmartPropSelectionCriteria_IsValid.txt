@@ -1,0 +1,33 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropSelectionCriteria_IsValid (size: 0x50 bytes, project "smartprops", binding @ hammer.dll + 0x1dd28e0, scope "hammer.dll") extends CSmartPropSelectionCriteria
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: hammer.dll + 0x1067bc0"
+^MVDataComponentValidGrandParents "CSmartPropElement_PickOne"
+^MPropertyFriendlyName "Is Valid"
+^MPropertyDescription "Specifies if this element is currently valid choice."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropSelectionCriteria (size: 0x48 bytes, project "smartprops", binding @ hammer.dll + 0x1dcd1b0, scope "hammer.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: hammer.dll + 0xd1200"
+	^MVDataBase
+	^MVDataNodeType "1"
+	^MVDataAnonymousNode
+	
+	-----members of class CSmartPropSelectionCriteria-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+			^MVDataEnableKey
+	
+
+-----members of class CSmartPropSelectionCriteria_IsValid-----
+	CUtlString m_Expression(offset 0x48, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Valid When"
+		^MPropertyDescription "Expression to evaluate to determine if this choice is currently valid."
+		^MPropertyAttributeEditor "SmartPropAttributeEditor(expression)"
+

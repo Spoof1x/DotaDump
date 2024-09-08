@@ -1,0 +1,26 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ParticlePreviewState_t (size: 0x68 bytes, project "particles", binding @ particles.dll + 0x519270, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x7aa20"
+
+-----members of class ParticlePreviewState_t-----
+	CUtlString m_previewModel(offset 0x0, size 0x8, align 0x8)
+	uint32 m_nModSpecificData(offset 0x8, size 0x4, align 0x4)
+	PetGroundType_t m_groundType(offset 0xc, size 0x4, align 0x4)
+	CUtlString m_sequenceName(offset 0x10, size 0x8, align 0x8)
+	int32 m_nFireParticleOnSequenceFrame(offset 0x18, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1c)
+	CUtlString m_hitboxSetName(offset 0x20, size 0x8, align 0x8)
+	CUtlString m_materialGroupName(offset 0x28, size 0x8, align 0x8)
+	CUtlVector< ParticlePreviewBodyGroup_t > m_vecBodyGroups(offset 0x30, size 0x18, align 0x8)
+	float32 m_flPlaybackSpeed(offset 0x48, size 0x4, align 0x4)
+	float32 m_flParticleSimulationRate(offset 0x4c, size 0x4, align 0x4)
+	bool m_bShouldDrawHitboxes(offset 0x50, size 0x1, align 0x1)
+	bool m_bShouldDrawAttachments(offset 0x51, size 0x1, align 0x1)
+	bool m_bShouldDrawAttachmentNames(offset 0x52, size 0x1, align 0x1)
+	bool m_bShouldDrawControlPointAxes(offset 0x53, size 0x1, align 0x1)
+	bool m_bAnimationNonLooping(offset 0x54, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x55)
+	Vector m_vecPreviewGravity(offset 0x58, size 0xc, align 0x4)
+	uint8_t[4] unaccounted(offset 0x64)
+

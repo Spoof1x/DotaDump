@@ -1,0 +1,25 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CModelConfigElement_RandomColor (size: 0x60 bytes, project "modellib", binding @ vphysics2.dll + 0x389570, scope "vphysics2.dll") extends CModelConfigElement
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0xa4ae0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CModelConfigElement (size: 0x48 bytes, project "modellib", binding @ vphysics2.dll + 0x389aa0, scope "vphysics2.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: vphysics2.dll + 0xd370"
+	
+	-----members of class CModelConfigElement-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_ElementName(offset 0x8, size 0x8, align 0x8)
+		CUtlVector< CModelConfigElement* > m_NestedElements(offset 0x10, size 0x18, align 0x8)
+		uint8_t[32] unaccounted(offset 0x28)
+	
+
+-----members of class CModelConfigElement_RandomColor-----
+	CColorGradient m_Gradient(offset 0x48, size 0x18, align 0x8)
+

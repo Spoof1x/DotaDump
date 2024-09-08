@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PermEntityLumpData_t (size: 0x38 bytes, project "worldrenderer", binding @ worldrenderer.dll + 0x10ed10, scope "worldrenderer.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: worldrenderer.dll + 0x2d9d0"
+
+-----members of class PermEntityLumpData_t-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+	CUtlVector< CStrongHandleCopyable< InfoForResourceTypeCEntityLump > > m_childLumps(offset 0x10, size 0x18, align 0x8)
+	CUtlLeanVector< EntityKeyValueData_t > m_entityKeyValues(offset 0x28, size 0x10, align 0x8)
+

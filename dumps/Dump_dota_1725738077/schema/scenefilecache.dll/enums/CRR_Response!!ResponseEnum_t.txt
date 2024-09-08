@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CRR_Response::ResponseEnum_t(size: 4 bytes, 2 values, project "scenefilecache", binding @ scenefilecache.dll + 0x6ae40):
+	MAX_RESPONSE_NAME = 192,
+	MAX_RULE_NAME = 128,

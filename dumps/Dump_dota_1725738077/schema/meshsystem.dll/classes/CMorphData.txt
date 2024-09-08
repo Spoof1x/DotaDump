@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMorphData (size: 0x20 bytes, project "modellib", binding @ meshsystem.dll + 0x115e90, scope "meshsystem.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x409a0"
+
+-----members of class CMorphData-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	CUtlVector< CMorphRectData > m_morphRectDatas(offset 0x8, size 0x18, align 0x8)
+

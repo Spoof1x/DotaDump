@@ -1,0 +1,32 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPlayerInputAnimMotorUpdater (size: 0x50 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2431630, scope "resourcecompiler.dll") extends CAnimMotorUpdaterBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x790060"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimMotorUpdaterBase (size: 0x20 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2431230, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimMotorUpdaterBase-----
+		uint8_t[16] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x10, size 0x8, align 0x8)
+		bool m_bDefault(offset 0x18, size 0x1, align 0x1)
+		uint8_t[7] unaccounted(offset 0x19)
+	
+
+-----members of class CPlayerInputAnimMotorUpdater-----
+	CUtlVector< float32 > m_sampleTimes(offset 0x20, size 0x18, align 0x8)
+	uint8_t[4] unaccounted(offset 0x38)
+	float32 m_flSpringConstant(offset 0x3c, size 0x4, align 0x4)
+	float32 m_flAnticipationDistance(offset 0x40, size 0x4, align 0x4)
+	CAnimParamHandle m_hAnticipationPosParam(offset 0x44, size 0x2, align 0x1)
+	CAnimParamHandle m_hAnticipationHeadingParam(offset 0x46, size 0x2, align 0x1)
+	bool m_bUseAcceleration(offset 0x48, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x49)
+

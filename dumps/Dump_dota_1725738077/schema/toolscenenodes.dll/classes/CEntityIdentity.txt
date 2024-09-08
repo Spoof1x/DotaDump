@@ -1,0 +1,28 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CEntityIdentity (size: 0x78 bytes, project "entity2", binding @ toolscenenodes.dll + 0xc13db0, scope "toolscenenodes.dll")
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "m_nameStringableIndex int32"
+
+-----members of class CEntityIdentity-----
+	uint8_t[20] unaccounted(offset 0x0)
+	int32 m_nameStringableIndex(offset 0x14, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "entityIdentityNameChanged"
+	CUtlSymbolLarge m_name(offset 0x18, size 0x8, align 0x8)
+	CUtlSymbolLarge m_designerName(offset 0x20, size 0x8, align 0x8)
+	uint8_t[8] unaccounted(offset 0x28)
+	uint32 m_flags(offset 0x30, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x34)
+	WorldGroupId_t m_worldGroupId(offset 0x38, size 0x4, align 0x4)
+		^MNetworkDisable
+	uint32 m_fDataObjectTypes(offset 0x3c, size 0x4, align 0x4)
+	ChangeAccessorFieldPathIndex_t m_PathIndex(offset 0x40, size 0x4, align 0x0)
+		^MNetworkDisable
+		^MNetworkChangeAccessorFieldPathIndex
+	uint8_t[20] unaccounted(offset 0x44)
+	CEntityIdentity* m_pPrev(offset 0x58, size 0x8, align 0x8)
+	CEntityIdentity* m_pNext(offset 0x60, size 0x8, align 0x8)
+	CEntityIdentity* m_pPrevByClass(offset 0x68, size 0x8, align 0x8)
+	CEntityIdentity* m_pNextByClass(offset 0x70, size 0x8, align 0x8)
+

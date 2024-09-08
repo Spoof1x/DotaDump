@@ -1,0 +1,82 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_CreateRotator (size: 0x260 bytes, project "smartprops", binding @ assetpreview.dll + 0x508db0, scope "!GlobalTypes") extends CSmartPropTransformOperation
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: assetpreview.dll + 0x336e30"
+^MPropertyFriendlyName "Create Rotator"
+^MPropertyDescription "Create a rotator that will be displayed at the current location, allowing the user to manipulate a rotation around an axis. The rotation value can be applied to the current transform as well as saved to a variable."
+^MVDataClassGroup "Manipulators"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropTransformOperation (size: 0x50 bytes, project "smartprops", binding @ assetpreview.dll + 0x507c50, scope "!GlobalTypes") extends CSmartPropOperation
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: assetpreview.dll + 0x159e0"
+	^MVDataNodeTintColor "-4392"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ assetpreview.dll + 0x5056b0, scope "!GlobalTypes") extends CSmartPropModifier
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: assetpreview.dll + 0x159e0"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ assetpreview.dll + 0x506770, scope "!GlobalTypes")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: assetpreview.dll + 0x159e0"
+			^MVDataBase
+			^MVDataNodeType "1"
+			^MVDataAnonymousNode
+			
+			-----members of class CSmartPropModifier-----
+				uint8_t[8] unaccounted(offset 0x0)
+				CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+					^MVDataEnableKey
+				uint8_t[8] unaccounted(offset 0x48)
+			
+		
+		-----members of class CSmartPropOperation-----
+			<no members>
+		
+	
+	-----members of class CSmartPropTransformOperation-----
+		<no members>
+	
+
+-----members of class CSmartPropOperation_CreateRotator-----
+	CUtlString m_Name(offset 0x50, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Name"
+		^MPropertyDescription "Name used to identify the rotator. Must be unique within the parent element."
+	CSmartPropAttributeVector m_vRotationAxis(offset 0x58, size 0x40, align 0x8)
+		^MPropertyDescription "Axis around which the rotation will occur"
+	CSmartPropAttributeCoordinateSpace m_CoordinateSpace(offset 0x98, size 0x40, align 0x0)
+		^MPropertyDescription "Coordinate space the axis of rotation is specified in."
+	CSmartPropAttributeFloat m_flDisplayRadius(offset 0xd8, size 0x40, align 0x8)
+		^MPropertyDescription "Radius at which the rotator handle should be displayed."
+	CSmartPropAttributeBool m_bApplyToCurrentTransform(offset 0x118, size 0x40, align 0x8)
+		^MPropertyDescription "Should the rotation be applied to the current transform."
+	CSmartPropAttributeFloat m_flSnappingIncrement(offset 0x158, size 0x40, align 0x8)
+		^MPropertyDescription "Specifies the number of degrees the rotation should snap to. If set to 0, then the rotation snapping will be controlled by the rotation snapping in Hammer."
+	CSmartPropAttributeBool m_bEnforceLimits(offset 0x198, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Enforce Limits"
+		^MPropertyDescription "If enabled, the minimum and maximum rotation angles will be used to limit the range of the rotation."
+	CSmartPropAttributeFloat m_flMinAngle(offset 0x1d8, size 0x40, align 0x8)
+		^MPropertyReadonlyExpr "m_bEnforceLimits == false"
+		^MPropertyFriendlyName "Minimum Angle"
+		^MPropertyDescription "Specifies the minimum angle limit in degrees"
+	CSmartPropAttributeFloat m_flMaxAngle(offset 0x218, size 0x40, align 0x8)
+		^MPropertyReadonlyExpr "m_bEnforceLimits == false"
+		^MPropertyFriendlyName "Minimum Angle"
+		^MPropertyDescription "Specifies the minimum angle limit in degrees"
+	CUtlString m_OutputVariable(offset 0x258, size 0x8, align 0x8)
+		^MPropertyAttributeEditor "SmartPropItemNameEditor( Variable:Float )"
+		^MPropertyDescription "Specifies a float variable to which the rotation value should be output. The variable only receives the rotation around the axis, the axis of rotation does not affect this output."
+

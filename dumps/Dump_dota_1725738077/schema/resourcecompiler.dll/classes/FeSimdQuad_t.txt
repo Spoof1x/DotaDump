@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeSimdQuad_t (size: 0x130 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a2e10, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1363780"
+
+-----members of class FeSimdQuad_t-----
+	uint16[4][4] nNode(offset 0x0, size 0x20, align 0x2)
+	fltx4 f4Slack(offset 0x20, size 0x10, align 0x10)
+	FourVectors[4] vShape(offset 0x30, size 0xc0, align 0x10)
+	fltx4[4] f4Weights(offset 0xf0, size 0x40, align 0x10)
+

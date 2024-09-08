@@ -1,0 +1,16 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleTextureLayerBlendType_t(size: 4 bytes, 7 values, project "particles", binding @ particles.dll + 0x544550):
+	SPRITECARD_TEXTURE_BLEND_MULTIPLY = 0,
+		^MPropertyFriendlyName "Multiply"
+	SPRITECARD_TEXTURE_BLEND_MOD2X = 1,
+		^MPropertyFriendlyName "Mod2X"
+	SPRITECARD_TEXTURE_BLEND_REPLACE = 2,
+		^MPropertyFriendlyName "Replace"
+	SPRITECARD_TEXTURE_BLEND_ADD = 3,
+		^MPropertyFriendlyName "Add"
+	SPRITECARD_TEXTURE_BLEND_SUBTRACT = 4,
+		^MPropertyFriendlyName "Subtract"
+	SPRITECARD_TEXTURE_BLEND_AVERAGE = 5,
+		^MPropertyFriendlyName "Average"
+	SPRITECARD_TEXTURE_BLEND_LUMINANCE = 6,
+		^MPropertyFriendlyName "Luminance"

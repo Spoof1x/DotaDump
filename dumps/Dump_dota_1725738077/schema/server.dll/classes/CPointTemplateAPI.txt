@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPointTemplateAPI (size: 0x1 bytes, project "server", binding @ server.dll + 0x38959f0, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MPulseProvideFeatureTag "PulseEntities"
+^MPulseLibraryBindings "ptr: server.dll + 0x3899fb8"
+
+-----members of class CPointTemplateAPI-----
+	uint8_t[1] unaccounted(offset 0x0)
+

@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTAUnitMoveCapability_t(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x3a132e0):
+	DOTA_UNIT_CAP_MOVE_NONE = 0,
+	DOTA_UNIT_CAP_MOVE_GROUND = 1,
+	DOTA_UNIT_CAP_MOVE_FLY = 2,

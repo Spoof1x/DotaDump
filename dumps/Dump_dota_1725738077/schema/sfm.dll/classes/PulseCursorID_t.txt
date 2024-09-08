@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PulseCursorID_t (size: 0x4 bytes, project "pulse_runtime_lib", binding @ sfm.dll + 0x9fffd0, scope "sfm.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class PulseCursorID_t-----
+	static bool IS_TYPESAFE_INTEGER(sfm.dll + 0x8221a0)
+
+-----members of class PulseCursorID_t-----
+	int32 m_Value(offset 0x0, size 0x4, align 0x4)
+

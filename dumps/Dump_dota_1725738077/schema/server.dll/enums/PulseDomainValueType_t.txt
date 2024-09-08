@@ -1,0 +1,9 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PulseDomainValueType_t(size: 4 bytes, 4 values, project "pulse_runtime_lib", binding @ server.dll + 0x3b259a0):
+	INVALID = -1,
+		^MPropertyFriendlyName "Invalid"
+	ENTITY_NAME = 0,
+		^MPropertyFriendlyName "Parent Map Entity"
+	PANEL_ID = 1,
+		^MPropertyFriendlyName "Parent XML Panel"
+	COUNT = 2,

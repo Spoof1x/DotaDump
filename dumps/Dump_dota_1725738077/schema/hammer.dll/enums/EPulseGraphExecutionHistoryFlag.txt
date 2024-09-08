@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EPulseGraphExecutionHistoryFlag(size: 4 bytes, 6 values, project "pulse_runtime_lib", binding @ hammer.dll + 0x1db66d0):
+	NO_FLAGS = 0,
+		^MPropertySuppressEnumerator
+		^MEnumeratorIsNotAFlag
+	CURSOR_ADD_TAG = 1,
+	CURSOR_REMOVE_TAG = 2,
+	CURSOR_RETIRED = 4,
+	REQUIREMENT_PASS = 8,
+	REQUIREMENT_FAIL = 16,

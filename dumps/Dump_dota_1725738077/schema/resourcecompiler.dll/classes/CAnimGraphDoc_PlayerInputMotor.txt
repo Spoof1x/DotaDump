@@ -1,0 +1,50 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_PlayerInputMotor (size: 0x78 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ec1e0, scope "!GlobalTypes") extends CAnimGraphDoc_Motor
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x577090"
+^MPropertyFriendlyName "Player Input Motor"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Motor (size: 0x30 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ebcb0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Motor-----
+		uint8_t[32] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		bool m_bDefault(offset 0x28, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Is Default"
+		uint8_t[7] unaccounted(offset 0x29)
+	
+
+-----members of class CAnimGraphDoc_PlayerInputMotor-----
+	CUtlVector< float32 > m_sampleTimes(offset 0x30, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Sample Times"
+	bool m_bUseAcceleration(offset 0x48, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Use Acceleration"
+	uint8_t[3] unaccounted(offset 0x49)
+	float32 m_flSpringConstant(offset 0x4c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Spring Constant"
+	float32 m_flAnticipationDistance(offset 0x50, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Anticipation Distance"
+	uint8_t[4] unaccounted(offset 0x54)
+	CUtlString m_anticipationPosParamName(offset 0x58, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_anticipationPosParam(offset 0x60, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Anticipation Position Parameter"
+		^MPropertyAttributeChoiceName "VectorParameter"
+	uint8_t[4] unaccounted(offset 0x64)
+	CUtlString m_anticipationHeadingParamName(offset 0x68, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_anticipationHeadingParam(offset 0x70, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Anticipation Heading Parameter"
+		^MPropertyAttributeChoiceName "FloatParameter"
+	uint8_t[4] unaccounted(offset 0x74)
+

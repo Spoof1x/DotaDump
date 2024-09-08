@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSceneObjectData (size: 0x60 bytes, project "modellib", binding @ resourcecompiler.dll + 0x2496290, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1160970"
+
+-----members of class CSceneObjectData-----
+	Vector m_vMinBounds(offset 0x0, size 0xc, align 0x4)
+	Vector m_vMaxBounds(offset 0xc, size 0xc, align 0x4)
+	CUtlLeanVector< CMaterialDrawDescriptor > m_drawCalls(offset 0x18, size 0x10, align 0x8)
+	CUtlLeanVector< AABB_t > m_drawBounds(offset 0x28, size 0x10, align 0x8)
+	CUtlLeanVector< CMeshletDescriptor > m_meshlets(offset 0x38, size 0x10, align 0x8)
+	Vector4D m_vTintColor(offset 0x48, size 0x10, align 0x4)
+	uint8_t[8] unaccounted(offset 0x58)
+

@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class MaterialParamFloat_t (size: 0x10 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24ef860, scope "resourcecompiler.dll") extends MaterialParam_t
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x340d90"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class MaterialParam_t (size: 0x8 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24ef590, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x3406b0"
+	
+	-----members of class MaterialParam_t-----
+		CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	
+
+-----members of class MaterialParamFloat_t-----
+	float32 m_flValue(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+

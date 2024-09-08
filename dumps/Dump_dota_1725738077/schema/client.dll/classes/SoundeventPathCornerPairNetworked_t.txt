@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class SoundeventPathCornerPairNetworked_t (size: 0x24 bytes, project "client", binding @ client.dll + 0x46b20b0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class SoundeventPathCornerPairNetworked_t-----
+	Vector vP1(offset 0x0, size 0xc, align 0x4)
+	Vector vP2(offset 0xc, size 0xc, align 0x4)
+	float32 flPathLengthSqr(offset 0x18, size 0x4, align 0x4)
+	float32 flP1Pct(offset 0x1c, size 0x4, align 0x4)
+	float32 flP2Pct(offset 0x20, size 0x4, align 0x4)
+

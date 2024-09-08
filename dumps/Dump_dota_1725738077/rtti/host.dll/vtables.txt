@@ -1,0 +1,285 @@
+CDebugDrawQueueMgr
+	host.dll + 0x11c3b8(hierarchy CDebugDrawQueueMgr: CGameAppSystem<class IDebugDrawQueueMgr,0>, CTier3AppSystem<class IDebugDrawQueueMgr,0>, CTier2AppSystem<class IDebugDrawQueueMgr,0>, CTier1AppSystem<class IDebugDrawQueueMgr,0>, CTier0AppSystem<class IDebugDrawQueueMgr,0>, CBaseAppSystem<class IDebugDrawQueueMgr>, IDebugDrawQueueMgr, IAppSystem)
+CDontUseThisGameSystem
+	host.dll + 0x11ce80(hierarchy CDontUseThisGameSystem: IGameSystem)
+CDotaMapUtils
+	host.dll + 0x11c658(hierarchy CDotaMapUtils: CGameAppSystem<class IDotaMapUtils,0>, CTier3AppSystem<class IDotaMapUtils,0>, CTier2AppSystem<class IDotaMapUtils,0>, CTier1AppSystem<class IDotaMapUtils,0>, CTier0AppSystem<class IDotaMapUtils,0>, CBaseAppSystem<class IDotaMapUtils>, IDotaMapUtils, IAppSystem)
+CEmptySequence
+	host.dll + 0x106650(hierarchy CEmptySequence: ISequence, IBaseSequence)
+CEntityMsg
+	host.dll + 0x119900(hierarchy CEntityMsg: google::protobuf::Message, google::protobuf::MessageLite)
+CFootstepSoundsTable
+	host.dll + 0x11ce30(hierarchy CFootstepSoundsTable: CSurfacePropDataTable<struct footstep_sounds_t>, CSurfacePropDataTableBase, IFootstepSounds)
+	host.dll + 0x11ce50 MI offset 32(hierarchy IFootstepSounds)
+CGameModelInfo
+	host.dll + 0x11c468(hierarchy CGameModelInfo: CTier3AppSystem<class IGameModelInfo,0>, CTier2AppSystem<class IGameModelInfo,0>, CTier1AppSystem<class IGameModelInfo,0>, CTier0AppSystem<class IGameModelInfo,0>, CBaseAppSystem<class IGameModelInfo>, IGameModelInfo, IAppSystem)
+CGameSystem2HostHook
+	host.dll + 0x11c5b0(hierarchy CGameSystem2HostHook: CGameAppSystem<class IGameSystem2HostHook,0>, CTier3AppSystem<class IGameSystem2HostHook,0>, CTier2AppSystem<class IGameSystem2HostHook,0>, CTier1AppSystem<class IGameSystem2HostHook,0>, CTier0AppSystem<class IGameSystem2HostHook,0>, CBaseAppSystem<class IGameSystem2HostHook>, IGameSystem2HostHook, IAppSystem)
+CGameSystemEventDispatcher
+	host.dll + 0x11d258(hierarchy CGameSystemEventDispatcher: IGameSystemEventDispatcher)
+CHostUtils
+	host.dll + 0x11cdb8(hierarchy CHostUtils: CGameAppSystem<class IHostUtils,0>, CTier3AppSystem<class IHostUtils,0>, CTier2AppSystem<class IHostUtils,0>, CTier1AppSystem<class IHostUtils,0>, CTier0AppSystem<class IHostUtils,0>, CBaseAppSystem<class IHostUtils>, IHostUtils, IAppSystem)
+CLoopModeFactory<class CLoopModeGameHostDota>
+	host.dll + 0x11d6d8(hierarchy CLoopModeFactory<class CLoopModeGameHostDota>: ILoopModeFactory)
+CLoopModeGameHostBase
+	host.dll + 0x11d630(hierarchy CLoopModeGameHostBase: ILoopMode)
+CLoopModeGameHostDota
+	host.dll + 0x11d688(hierarchy CLoopModeGameHostDota: CLoopModeGameHostBase, ILoopMode)
+CMsgPlayerInfo
+	host.dll + 0x11b918(hierarchy CMsgPlayerInfo: google::protobuf::Message, google::protobuf::MessageLite)
+CMsgQAngle
+	host.dll + 0x11b608(hierarchy CMsgQAngle: google::protobuf::Message, google::protobuf::MessageLite)
+CMsgQuaternion
+	host.dll + 0x119998(hierarchy CMsgQuaternion: google::protobuf::Message, google::protobuf::MessageLite)
+CMsgRGBA
+	host.dll + 0x11b7c8(hierarchy CMsgRGBA: google::protobuf::Message, google::protobuf::MessageLite)
+CMsgTransform
+	host.dll + 0x11ba58(hierarchy CMsgTransform: google::protobuf::Message, google::protobuf::MessageLite)
+CMsgVector
+	host.dll + 0x11bc28(hierarchy CMsgVector: google::protobuf::Message, google::protobuf::MessageLite)
+CMsgVector2D
+	host.dll + 0x119ae8(hierarchy CMsgVector2D: google::protobuf::Message, google::protobuf::MessageLite)
+CMsg_CVars
+	host.dll + 0x119fd0(hierarchy CMsg_CVars: google::protobuf::Message, google::protobuf::MessageLite)
+CMsg_CVars_CVar
+	host.dll + 0x11a0f0(hierarchy CMsg_CVars_CVar: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_DebugOverlay
+	host.dll + 0x11b728(hierarchy CNETMsg_DebugOverlay: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_NOP
+	host.dll + 0x119a28(hierarchy CNETMsg_NOP: google::protobuf::internal::ZeroFieldsBase, google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SetConVar
+	host.dll + 0x11b3c0(hierarchy CNETMsg_SetConVar: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SignonState
+	host.dll + 0x11b330(hierarchy CNETMsg_SignonState: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SpawnGroup_Load
+	host.dll + 0x11a060(hierarchy CNETMsg_SpawnGroup_Load: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SpawnGroup_LoadCompleted
+	host.dll + 0x11b858(hierarchy CNETMsg_SpawnGroup_LoadCompleted: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SpawnGroup_ManifestUpdate
+	host.dll + 0x119c18(hierarchy CNETMsg_SpawnGroup_ManifestUpdate: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SpawnGroup_SetCreationTick
+	host.dll + 0x11b9a8(hierarchy CNETMsg_SpawnGroup_SetCreationTick: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SpawnGroup_Unload
+	host.dll + 0x11bb78(hierarchy CNETMsg_SpawnGroup_Unload: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SplitScreenUser
+	host.dll + 0x119f40(hierarchy CNETMsg_SplitScreenUser: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_StringCmd
+	host.dll + 0x119b88(hierarchy CNETMsg_StringCmd: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_Tick
+	host.dll + 0x11bae8(hierarchy CNETMsg_Tick: google::protobuf::Message, google::protobuf::MessageLite)
+CPostConnectCallback
+	host.dll + 0x107c40(hierarchy CPostConnectCallback)
+CPredictionDiffMgr
+	host.dll + 0x11d990(hierarchy CPredictionDiffMgr: CGameAppSystem<class IPredictionDiffMgr,0>, CTier3AppSystem<class IPredictionDiffMgr,0>, CTier2AppSystem<class IPredictionDiffMgr,0>, CTier1AppSystem<class IPredictionDiffMgr,0>, CTier0AppSystem<class IPredictionDiffMgr,0>, CBaseAppSystem<class IPredictionDiffMgr>, IPredictionDiffMgr, IAppSystem)
+CSPSharedMemory
+	host.dll + 0x11db78(hierarchy CSPSharedMemory: ISPSharedMemory)
+CSPSharedMemoryManager
+	host.dll + 0x11dba8(hierarchy CSPSharedMemoryManager: CGameAppSystem<class ISinglePlayerSharedMemory,0>, CTier3AppSystem<class ISinglePlayerSharedMemory,0>, CTier2AppSystem<class ISinglePlayerSharedMemory,0>, CTier1AppSystem<class ISinglePlayerSharedMemory,0>, CTier0AppSystem<class ISinglePlayerSharedMemory,0>, CBaseAppSystem<class ISinglePlayerSharedMemory>, ISinglePlayerSharedMemory, IAppSystem)
+CSVCMsgList_GameEvents
+	host.dll + 0x119e90(hierarchy CSVCMsgList_GameEvents: google::protobuf::Message, google::protobuf::MessageLite)
+CSVCMsgList_GameEvents_event_t
+	host.dll + 0x119d08(hierarchy CSVCMsgList_GameEvents_event_t: google::protobuf::Message, google::protobuf::MessageLite)
+CSVCMsg_GameEvent
+	host.dll + 0x11a190(hierarchy CSVCMsg_GameEvent: google::protobuf::Message, google::protobuf::MessageLite)
+CSVCMsg_GameEvent_key_t
+	host.dll + 0x119860(hierarchy CSVCMsg_GameEvent_key_t: google::protobuf::Message, google::protobuf::MessageLite)
+CSVCMsg_GameSessionConfiguration
+	host.dll + 0x11b698(hierarchy CSVCMsg_GameSessionConfiguration: google::protobuf::Message, google::protobuf::MessageLite)
+CSaveRestoreDataMgr
+	host.dll + 0x11da30(hierarchy CSaveRestoreDataMgr: CTier3AppSystem<class ISaveRestoreDataMgr,0>, CTier2AppSystem<class ISaveRestoreDataMgr,0>, CTier1AppSystem<class ISaveRestoreDataMgr,0>, CTier0AppSystem<class ISaveRestoreDataMgr,0>, CBaseAppSystem<class ISaveRestoreDataMgr>, ISaveRestoreDataMgr, IAppSystem)
+CSchemaInstallCallback
+	host.dll + 0x107ee8(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_host
+	host.dll + 0x11dfa0(hierarchy CSchemaRegistration_host: CSchemaRegistration)
+CSource2HostBase
+	host.dll + 0x11dcd0(hierarchy CSource2HostBase: CGameAppSystem<class ISource2Host,0>, CTier3AppSystem<class ISource2Host,0>, CTier2AppSystem<class ISource2Host,0>, CTier1AppSystem<class ISource2Host,0>, CTier0AppSystem<class ISource2Host,0>, CBaseAppSystem<class ISource2Host>, ISource2Host, IAppSystem)
+Concurrency::details::stl_critical_section_win7
+	host.dll + 0x107fb8(hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+IGameModelInfo
+	host.dll + 0x11c508(hierarchy IGameModelInfo: IAppSystem)
+IGameSystem
+	host.dll + 0x11d270(hierarchy IGameSystem)
+ISaveRestoreDataMgr
+	host.dll + 0x11daa8(hierarchy ISaveRestoreDataMgr: IAppSystem)
+IVTableIndexCalculator
+	host.dll + 0x11d048(hierarchy IVTableIndexCalculator)
+google::protobuf::DescriptorBuilder::OptionInterpreter::AggregateOptionFinder
+	host.dll + 0x103760(hierarchy google::protobuf::DescriptorBuilder::OptionInterpreter::AggregateOptionFinder: google::protobuf::TextFormat::Finder)
+google::protobuf::DescriptorDatabase
+	host.dll + 0x106120(hierarchy google::protobuf::DescriptorDatabase)
+google::protobuf::DescriptorProto
+	host.dll + 0xfe220(hierarchy google::protobuf::DescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::DescriptorProto_ExtensionRange
+	host.dll + 0xfe100(hierarchy google::protobuf::DescriptorProto_ExtensionRange: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::DescriptorProto_ReservedRange
+	host.dll + 0xfe190(hierarchy google::protobuf::DescriptorProto_ReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::DynamicMessage
+	host.dll + 0x1063b8(hierarchy google::protobuf::DynamicMessage: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::DynamicMessageFactory
+	host.dll + 0x106338(hierarchy google::protobuf::DynamicMessageFactory: google::protobuf::MessageFactory)
+google::protobuf::EncodedDescriptorDatabase
+	host.dll + 0x106158(hierarchy google::protobuf::EncodedDescriptorDatabase: google::protobuf::DescriptorDatabase)
+google::protobuf::EnumDescriptorProto
+	host.dll + 0xfe4f0(hierarchy google::protobuf::EnumDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::EnumDescriptorProto_EnumReservedRange
+	host.dll + 0xfe460(hierarchy google::protobuf::EnumDescriptorProto_EnumReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::EnumOptions
+	host.dll + 0xfe970(hierarchy google::protobuf::EnumOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::EnumValueDescriptorProto
+	host.dll + 0xfe580(hierarchy google::protobuf::EnumValueDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::EnumValueOptions
+	host.dll + 0xfea00(hierarchy google::protobuf::EnumValueOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::ExtensionRangeOptions
+	host.dll + 0xfe2b0(hierarchy google::protobuf::ExtensionRangeOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FatalException
+	host.dll + 0xff2d8(hierarchy google::protobuf::FatalException: std::exception)
+google::protobuf::FieldDescriptorProto
+	host.dll + 0xfe340(hierarchy google::protobuf::FieldDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FieldOptions
+	host.dll + 0xfe850(hierarchy google::protobuf::FieldOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FileDescriptorProto
+	host.dll + 0xfe070(hierarchy google::protobuf::FileDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FileDescriptorSet
+	host.dll + 0xfdfe0(hierarchy google::protobuf::FileDescriptorSet: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FileOptions
+	host.dll + 0xfe730(hierarchy google::protobuf::FileOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::GeneratedCodeInfo
+	host.dll + 0xfee80(hierarchy google::protobuf::GeneratedCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::GeneratedCodeInfo_Annotation
+	host.dll + 0xfedf0(hierarchy google::protobuf::GeneratedCodeInfo_Annotation: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::MessageFactory
+	host.dll + 0xffd70(hierarchy google::protobuf::MessageFactory)
+google::protobuf::MessageOptions
+	host.dll + 0xfe7c0(hierarchy google::protobuf::MessageOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::MethodDescriptorProto
+	host.dll + 0xfe6a0(hierarchy google::protobuf::MethodDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::MethodOptions
+	host.dll + 0xfeb20(hierarchy google::protobuf::MethodOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::OneofDescriptorProto
+	host.dll + 0xfe3d0(hierarchy google::protobuf::OneofDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::OneofOptions
+	host.dll + 0xfe8e0(hierarchy google::protobuf::OneofOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::ServiceDescriptorProto
+	host.dll + 0xfe610(hierarchy google::protobuf::ServiceDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::ServiceOptions
+	host.dll + 0xfea90(hierarchy google::protobuf::ServiceOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::SourceCodeInfo
+	host.dll + 0xfed60(hierarchy google::protobuf::SourceCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::SourceCodeInfo_Location
+	host.dll + 0xfecd0(hierarchy google::protobuf::SourceCodeInfo_Location: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::TextFormat::BaseTextGenerator
+	host.dll + 0x103dc0(hierarchy google::protobuf::TextFormat::BaseTextGenerator)
+google::protobuf::TextFormat::FastFieldValuePrinter
+	host.dll + 0x103df0(hierarchy google::protobuf::TextFormat::FastFieldValuePrinter)
+google::protobuf::TextFormat::Finder
+	host.dll + 0x100f58(hierarchy google::protobuf::TextFormat::Finder)
+google::protobuf::TextFormat::Parser::ParserImpl::ParserErrorCollector
+	host.dll + 0x103ed0(hierarchy google::protobuf::TextFormat::Parser::ParserImpl::ParserErrorCollector: google::protobuf::io::ErrorCollector)
+google::protobuf::TextFormat::Printer::DebugStringFieldValuePrinter
+	host.dll + 0x104458(hierarchy google::protobuf::TextFormat::Printer::DebugStringFieldValuePrinter: google::protobuf::TextFormat::FastFieldValuePrinter)
+google::protobuf::TextFormat::Printer::TextGenerator
+	host.dll + 0x104400(hierarchy google::protobuf::TextFormat::Printer::TextGenerator: google::protobuf::TextFormat::BaseTextGenerator)
+google::protobuf::UninterpretedOption
+	host.dll + 0xfec40(hierarchy google::protobuf::UninterpretedOption: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::UninterpretedOption_NamePart
+	host.dll + 0xfebb0(hierarchy google::protobuf::UninterpretedOption_NamePart: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::ZeroCopyCodedInputStream
+	host.dll + 0xffd10(hierarchy google::protobuf::ZeroCopyCodedInputStream: google::protobuf::io::ZeroCopyInputStream)
+google::protobuf::`anonymous namespace'::AggregateErrorCollector
+	host.dll + 0x103790(hierarchy google::protobuf::`anonymous namespace'::AggregateErrorCollector: google::protobuf::io::ErrorCollector)
+google::protobuf::`anonymous namespace'::GeneratedMessageFactory
+	host.dll + 0x1000e8(hierarchy google::protobuf::`anonymous namespace'::GeneratedMessageFactory: google::protobuf::MessageFactory)
+google::protobuf::internal::DynamicMapField
+	host.dll + 0x1047d0(hierarchy google::protobuf::internal::DynamicMapField: google::protobuf::internal::TypeDefinedMapFieldBase<class google::protobuf::MapKey,class google::protobuf::MapValueRef>, google::protobuf::internal::MapFieldBase)
+google::protobuf::internal::ImplicitWeakMessage
+	host.dll + 0xff928(hierarchy google::protobuf::internal::ImplicitWeakMessage: google::protobuf::MessageLite)
+google::protobuf::internal::MapFieldAccessor
+	host.dll + 0xffd88(hierarchy google::protobuf::internal::MapFieldAccessor: google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::MapFieldBase
+	host.dll + 0x104730(hierarchy google::protobuf::internal::MapFieldBase)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64>
+	host.dll + 0x1002f8(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64>: google::protobuf::internal::RepeatedFieldWrapper<__int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool>
+	host.dll + 0x100558(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool>: google::protobuf::internal::RepeatedFieldWrapper<bool>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double>
+	host.dll + 0x1004c0(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double>: google::protobuf::internal::RepeatedFieldWrapper<double>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float>
+	host.dll + 0x100428(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float>: google::protobuf::internal::RepeatedFieldWrapper<float>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int>
+	host.dll + 0x1001c8(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int>: google::protobuf::internal::RepeatedFieldWrapper<int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64>
+	host.dll + 0x100390(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64>: google::protobuf::internal::RepeatedFieldWrapper<unsigned __int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int>
+	host.dll + 0x100260(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int>: google::protobuf::internal::RepeatedFieldWrapper<unsigned int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedPtrFieldMessageAccessor
+	host.dll + 0xfff60(hierarchy google::protobuf::internal::RepeatedPtrFieldMessageAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class google::protobuf::Message>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedPtrFieldStringAccessor
+	host.dll + 0xffec0(hierarchy google::protobuf::internal::RepeatedPtrFieldStringAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::ZeroFieldsBase
+	host.dll + 0xff490(hierarchy google::protobuf::internal::ZeroFieldsBase: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::io::ArrayInputStream
+	host.dll + 0x105aa8(hierarchy google::protobuf::io::ArrayInputStream: google::protobuf::io::ZeroCopyInputStream)
+google::protobuf::io::ErrorCollector
+	host.dll + 0x100718(hierarchy google::protobuf::io::ErrorCollector)
+google::protobuf::io::StringOutputStream
+	host.dll + 0x105ad8(hierarchy google::protobuf::io::StringOutputStream: google::protobuf::io::ZeroCopyOutputStream)
+google::protobuf::io::ZeroCopyInputStream
+	host.dll + 0xff458(hierarchy google::protobuf::io::ZeroCopyInputStream)
+google::protobuf::io::ZeroCopyOutputStream
+	host.dll + 0xff528(hierarchy google::protobuf::io::ZeroCopyOutputStream)
+std::_Facet_base
+	host.dll + 0xff1d8(hierarchy std::_Facet_base)
+std::_Generic_error_category
+	host.dll + 0x1080f0(hierarchy std::_Generic_error_category: std::error_category)
+std::_Iostream_error_category2
+	host.dll + 0xff150(hierarchy std::_Iostream_error_category2: std::error_category)
+std::_System_error
+	host.dll + 0xff118(hierarchy std::_System_error: std::runtime_error, std::exception)
+std::bad_alloc
+	host.dll + 0xfad38(hierarchy std::bad_alloc: std::exception)
+std::bad_array_new_length
+	host.dll + 0xfad50(hierarchy std::bad_array_new_length: std::bad_alloc, std::exception)
+std::bad_cast
+	host.dll + 0xff1b0(hierarchy std::bad_cast: std::exception)
+std::bad_exception
+	host.dll + 0x109330(hierarchy std::bad_exception: std::exception)
+std::basic_ios<char,struct std::char_traits<char> >
+	host.dll + 0xff330(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_iostream<char,struct std::char_traits<char> >
+	host.dll + 0x102748 MI offset 32(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>, std::basic_ostream<char,struct std::char_traits<char> >, std::basic_ios<char,struct std::char_traits<char> >, std::ios_base, std::_Iosb<int>)
+std::basic_istream<char,struct std::char_traits<char> >
+	host.dll + 0x102730 MI offset 24(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_ostream<char,struct std::char_traits<char> >
+	host.dll + 0xff340 MI offset 16(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_streambuf<char,struct std::char_traits<char> >
+	host.dll + 0xff350(hierarchy std::basic_streambuf<char,struct std::char_traits<char> >)
+std::basic_stringbuf<char,struct std::char_traits<char>,class std::allocator<char> >
+	host.dll + 0xff3d0(hierarchy std::basic_stringbuf<char,struct std::char_traits<char>,class std::allocator<char> >: std::basic_streambuf<char,struct std::char_traits<char> >)
+std::basic_stringstream<char,struct std::char_traits<char>,class std::allocator<char> >
+	host.dll + 0x102758 MI offset 152(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>, std::basic_ostream<char,struct std::char_traits<char> >, std::basic_ios<char,struct std::char_traits<char> >, std::ios_base, std::_Iosb<int>)
+std::ctype<char>
+	host.dll + 0xff208(hierarchy std::ctype<char>: std::ctype_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::exception
+	host.dll + 0xfad20(hierarchy std::exception)
+std::ios_base
+	host.dll + 0xff280(hierarchy std::ios_base: std::_Iosb<int>)
+std::ios_base::failure
+	host.dll + 0xff268(hierarchy std::ios_base::failure: std::system_error, std::_System_error, std::runtime_error, std::exception)
+std::length_error
+	host.dll + 0x107f78(hierarchy std::length_error: std::logic_error, std::exception)
+std::locale::_Locimp
+	host.dll + 0x108ed0(hierarchy std::locale::_Locimp: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::logic_error
+	host.dll + 0x107f60(hierarchy std::logic_error: std::exception)
+std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >
+	host.dll + 0x103b68(hierarchy std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::numpunct<char>
+	host.dll + 0x103c10(hierarchy std::numpunct<char>: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::out_of_range
+	host.dll + 0x107f90(hierarchy std::out_of_range: std::logic_error, std::exception)
+std::runtime_error
+	host.dll + 0xff100(hierarchy std::runtime_error: std::exception)
+std::system_error
+	host.dll + 0xff138(hierarchy std::system_error: std::_System_error, std::runtime_error, std::exception)
+type_info
+	host.dll + 0x109120(hierarchy type_info)

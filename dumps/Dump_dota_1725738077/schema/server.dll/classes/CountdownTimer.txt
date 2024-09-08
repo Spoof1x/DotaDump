@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CountdownTimer (size: 0x18 bytes, project "server", binding @ server.dll + 0x38d2f40, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+| SCHEMA_CF1_INFO_TAG_MNetworkNoBase
+^MNetworkVarNames "m_duration float32"
+^MNetworkVarNames "m_timestamp GameTime_t"
+^MNetworkVarNames "m_timescale float32"
+^MNetworkVarNames "m_nWorldGroupId WorldGroupId_t"
+
+-----members of class CountdownTimer-----
+	uint8_t[8] unaccounted(offset 0x0)
+	float32 m_duration(offset 0x8, size 0x4, align 0x4)
+		^MNetworkEnable
+	GameTime_t m_timestamp(offset 0xc, size 0x4, align 0x0)
+		^MNetworkEnable
+	float32 m_timescale(offset 0x10, size 0x4, align 0x4)
+		^MNetworkEnable
+	WorldGroupId_t m_nWorldGroupId(offset 0x14, size 0x4, align 0x4)
+		^MNetworkEnable
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootStride (size: 0x58 bytes, project "modellib", binding @ workshopmanager.dll + 0xe92850, scope "workshopmanager.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x53dda0"
+
+-----members of class CFootStride-----
+	CFootCycleDefinition m_definition(offset 0x0, size 0x3c, align 0x4)
+	uint8_t[4] unaccounted(offset 0x3c)
+	CFootTrajectories m_trajectories(offset 0x40, size 0x18, align 0x8)
+

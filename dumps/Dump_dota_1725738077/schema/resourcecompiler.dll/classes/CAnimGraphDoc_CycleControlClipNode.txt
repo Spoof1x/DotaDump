@@ -1,0 +1,53 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_CycleControlClipNode (size: 0x90 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ef0a0, scope "!GlobalTypes") extends CAnimGraphDoc_Node
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x58ec10"
+^MPropertyFriendlyName "Cycle Control Clip"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Node (size: 0x40 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ec330, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Node-----
+		uint8_t[32] unaccounted(offset 0x0)
+		CUtlString m_sName(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		Vector2D m_vecPosition(offset 0x28, size 0x8, align 0x4)
+			^MPropertyGroupName "Debug"
+		AnimNodeID m_nNodeID(offset 0x30, size 0x4, align 0x4)
+			^MPropertyGroupName "Debug"
+		bool m_bDebugThisNode(offset 0x34, size 0x1, align 0x1)
+			^MPropertyGroupName "Debug"
+			^MPropertyFriendlyName "Debug This Node"
+		uint8_t[3] unaccounted(offset 0x35)
+		AnimNodeNetworkMode m_networkMode(offset 0x38, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Network Mode"
+		uint8_t[4] unaccounted(offset 0x3c)
+	
+
+-----members of class CAnimGraphDoc_CycleControlClipNode-----
+	uint8_t[24] unaccounted(offset 0x40)
+	CUtlVector< CSmartPtr< CAnimGraphDoc_TagSpan > > m_tagSpans(offset 0x58, size 0x18, align 0x8)
+		^MPropertyHideField
+	CUtlString m_sequenceName(offset 0x70, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Sequence"
+		^MPropertyAttributeChoiceName "Sequence"
+	AnimValueSource m_valueSource(offset 0x78, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Blend Source"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x58ec80"
+	uint8_t[4] unaccounted(offset 0x7c)
+	CUtlString m_paramName(offset 0x80, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_param(offset 0x88, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Parameter"
+		^MPropertyAttributeChoiceName "FloatParameter"
+	uint8_t[4] unaccounted(offset 0x8c)
+

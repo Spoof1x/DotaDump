@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ThreeState_t(size: 4 bytes, 3 values, project "schemasystem", binding @ schemasystem.dll + 0x540a0):
+	TRS_FALSE = 0,
+	TRS_TRUE = 1,
+	TRS_NONE = 2,

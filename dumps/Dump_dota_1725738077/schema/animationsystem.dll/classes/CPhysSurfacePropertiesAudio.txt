@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPhysSurfacePropertiesAudio (size: 0x20 bytes, project "modellib", binding @ animationsystem.dll + 0x5e8800, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x3f7e90"
+
+-----members of class CPhysSurfacePropertiesAudio-----
+	float32 m_reflectivity(offset 0x0, size 0x4, align 0x4)
+		^MKV3TransferName "audioreflectivity"
+	float32 m_hardnessFactor(offset 0x4, size 0x4, align 0x4)
+		^MKV3TransferName "audiohardnessfactor"
+	float32 m_roughnessFactor(offset 0x8, size 0x4, align 0x4)
+		^MKV3TransferName "audioroughnessfactor"
+	float32 m_roughThreshold(offset 0xc, size 0x4, align 0x4)
+		^MKV3TransferName "scrapeRoughThreshold"
+	float32 m_hardThreshold(offset 0x10, size 0x4, align 0x4)
+		^MKV3TransferName "impactHardThreshold"
+	float32 m_hardVelocityThreshold(offset 0x14, size 0x4, align 0x4)
+		^MKV3TransferName "audioHardMinVelocity"
+	float32 m_flStaticImpactVolume(offset 0x18, size 0x4, align 0x4)
+		^MKV3TransferName "staticImpactVolume"
+	float32 m_flOcclusionFactor(offset 0x1c, size 0x4, align 0x4)
+		^MKV3TransferName "occlusionFactor"
+

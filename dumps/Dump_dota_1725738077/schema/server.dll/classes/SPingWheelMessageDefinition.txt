@@ -1,0 +1,38 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class SPingWheelMessageDefinition (size: 0x210 bytes, project "server", binding @ server.dll + 0x3ab4420, scope "server.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: server.dll + 0x17dc860"
+^MVDataRoot
+
+-----members of class SPingWheelMessageDefinition-----
+	uint8_t[12] unaccounted(offset 0x0)
+	PingWheelMessageID_t nID(offset 0xc, size 0x4, align 0x0)
+		^MPropertyDescription "unique integer ID of this ping wheel message"
+		^MVDataUniqueMonotonicInt "_editor/next_ping_wheel_id"
+		^MPropertyAttributeEditor "locked_int()"
+	CUtlString sLocName(offset 0x10, size 0x8, align 0x8)
+		^MPropertyDescription "localization string ID for name of ping"
+	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > sParticle(offset 0x18, size 0xe0, align 0x8)
+		^MPropertyDescription "Particle system of ping effect"
+	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > sParticleTarget(offset 0xf8, size 0xe0, align 0x8)
+		^MPropertyDescription "Particle system of ping effect when targetting an npc (optional)"
+	Color color(offset 0x1d8, size 0x4, align 0x1)
+		^MPropertyDescription "Color of ping effect. Leave default to use pinging player color."
+		^MPropertyColorPlusAlpha
+	uint8_t[4] unaccounted(offset 0x1dc)
+	CPanoramaImageName sImage(offset 0x1e0, size 0x10, align 0x8)
+		^MPropertyDescription "Image shown while customizing ping wheel"
+	CUtlString sSound(offset 0x1f0, size 0x8, align 0x8)
+		^MPropertyDescription "Sound played when pinging"
+		^MPropertyCustomFGDType "sound"
+	CUtlString sChat(offset 0x1f8, size 0x8, align 0x8)
+		^MPropertyDescription "localization string ID for chat message when pinging"
+	float32 fDurationMultiplier(offset 0x200, size 0x4, align 0x4)
+		^MPropertyDescription "Multiplier to apply to 3 second base duration (dota_minimap_ping_duration)"
+	EEvent eUnlockEvent(offset 0x204, size 0x4, align 0x4)
+		^MPropertyDescription "Event for tracking expiration. See EEvent enum"
+	uint32 nUnlockEventActionID(offset 0x208, size 0x4, align 0x4)
+		^MPropertyDescription "Action of the unlock event which awards this ping wheel"
+	int32 nMinimapIcon(offset 0x20c, size 0x4, align 0x4)
+		^MPropertyDescription "ID of icon to show on minimap. See scripts/minimap_icons.txt"
+

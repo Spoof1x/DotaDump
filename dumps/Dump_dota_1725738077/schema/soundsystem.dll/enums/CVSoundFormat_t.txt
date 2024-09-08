@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CVSoundFormat_t(size: 1 bytes, 4 values, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39ab20):
+	PCM16 = 0,
+	PCM8 = 1,
+	MP3 = 2,
+	ADPCM = 3,

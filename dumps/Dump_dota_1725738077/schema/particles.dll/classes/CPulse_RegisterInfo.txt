@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulse_RegisterInfo (size: 0x58 bytes, project "pulse_runtime_lib", binding @ particles.dll + 0x50eb10, scope "particles.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x37f560"
+
+-----members of class CPulse_RegisterInfo-----
+	PulseRuntimeRegisterIndex_t m_nReg(offset 0x0, size 0x2, align 0x0)
+	uint8_t[6] unaccounted(offset 0x2)
+	CPulseValueFullType m_Type(offset 0x8, size 0x10, align 0x8)
+	CKV3MemberNameWithStorage m_OriginName(offset 0x18, size 0x38, align 0x8)
+	int32 m_nWrittenByInstruction(offset 0x50, size 0x4, align 0x4)
+	int32 m_nLastReadByInstruction(offset 0x54, size 0x4, align 0x4)
+

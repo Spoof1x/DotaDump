@@ -1,0 +1,81 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMixDelay (size: 0x58 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bd7b0, scope "!GlobalTypes") extends CMixPropertyBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x15b13f0"
+^MPropertyFriendlyName "VMix Delay Audio Node"
+^MPropertyDescription "Stereo delay with resonant filter on feedback."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMixPropertyBase (size: 0x20 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bbaa0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x157f160"
+	
+	-----members of class CMixPropertyBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+			^MPropertyDescription "Node name"
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "1"
+		CUtlString m_Comment(offset 0x10, size 0x8, align 0x8)
+			^MPropertyDescription "Description of how this is used  the graph for people reading the graph"
+			^MPropertySortPriority "-2"
+		bool m_bActive(offset 0x18, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bSolo(offset 0x19, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bEditProperties(offset 0x1a, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		uint8_t[5] unaccounted(offset 0x1b)
+	
+
+-----members of class CMixDelay-----
+	int32 m_nChannels(offset 0x20, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Channels"
+		^MPropertyAttributeChoiceName "processor_channels"
+	float32 m_flDelay(offset 0x24, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Delay (ms)"
+		^MPropertyGroupName "+Delay"
+		^MPropertyAttributeRange "0 2000"
+	float32 m_fldbDirectGain(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "DirectGain (dB)"
+		^MPropertyGroupName "Delay"
+		^MPropertyAttributeRange "-24 24"
+	float32 m_fldbDelayGain(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "DelayGain (dB)"
+		^MPropertyGroupName "Delay"
+		^MPropertyAttributeRange "-24 24"
+	float32 m_fldbFeedbackGain(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "FeedbackGain (dB)"
+		^MPropertyGroupName "Delay"
+		^MPropertyAttributeRange "-60 12"
+	float32 m_flWidth(offset 0x34, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Width"
+		^MPropertyAttributeRange "0 1.0"
+	bool m_bEnableFilter(offset 0x38, size 0x1, align 0x1)
+		^MPropertyFriendlyName "EnableFilter"
+		^MPropertyGroupName "+Filter"
+	uint8_t[7] unaccounted(offset 0x39)
+	CUtlString m_filterType(offset 0x40, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Filter Type"
+		^MPropertyGroupName "Filter"
+		^MPropertyAttributeChoiceName "filter_type"
+	float32 m_flFrequency(offset 0x48, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Center Frequency (Hz)"
+		^MPropertyGroupName "Filter"
+		^MPropertyAttributeRange "biased 20 22000"
+	float32 m_flQ(offset 0x4c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Q"
+		^MPropertyGroupName "Filter"
+		^MPropertyAttributeRange "0.1 12"
+	float32 m_fldbGain(offset 0x50, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Filter Gain (dB)"
+		^MPropertyAttributeRange "-24 24"
+	uint8_t[4] unaccounted(offset 0x54)
+

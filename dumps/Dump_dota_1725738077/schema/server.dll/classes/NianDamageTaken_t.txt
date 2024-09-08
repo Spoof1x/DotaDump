@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class NianDamageTaken_t (size: 0x14 bytes, project "server", binding @ server.dll + 0x392ff80, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class NianDamageTaken_t-----
+	int32 nDamage(offset 0x0, size 0x4, align 0x4)
+	PlayerID_t nPlayerID(offset 0x4, size 0x4, align 0x0)
+	Vector vPos(offset 0x8, size 0xc, align 0x4)
+

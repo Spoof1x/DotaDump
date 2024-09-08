@@ -1,0 +1,21 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSprayedDataSettingsBlock (size: 0x5c bytes, project "mapdoclib", binding @ hammer.dll + 0x1da7490, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: hammer.dll + 0x9a18b0"
+
+-----members of class CSprayedDataSettingsBlock-----
+	float32 m_flMinDensity(offset 0x0, size 0x4, align 0x4)
+	float32 m_flMaxDensity(offset 0x4, size 0x4, align 0x4)
+	float32 m_flMinScale(offset 0x8, size 0x4, align 0x4)
+	float32 m_flMaxScale(offset 0xc, size 0x4, align 0x4)
+	QAngle m_vMinAngle(offset 0x10, size 0xc, align 0x4)
+	QAngle m_vMaxAngle(offset 0x1c, size 0xc, align 0x4)
+	Vector m_vMinColor(offset 0x28, size 0xc, align 0x4)
+	Vector m_vMaxColor(offset 0x34, size 0xc, align 0x4)
+	float32 m_flSpacingMul(offset 0x40, size 0x4, align 0x4)
+	float32 m_flSlopeThreshold(offset 0x44, size 0x4, align 0x4)
+	Vector m_vMasterDirection(offset 0x48, size 0xc, align 0x4)
+	float32 m_flMasterDirectionInfluence(offset 0x54, size 0x4, align 0x4)
+	bool m_bEnabled(offset 0x58, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x59)
+

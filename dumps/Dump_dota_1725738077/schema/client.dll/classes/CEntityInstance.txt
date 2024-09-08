@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CEntityInstance (size: 0x38 bytes, project "entity2", binding @ client.dll + 0x48fae50, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_DISALLOWED
+| SCHEMA_CLASS_UNIDENTIFIED17
+^MNetworkVarNames "m_pEntity CEntityIdentity *"
+^MNetworkVarNames "m_CScriptComponent CScriptComponent::Storage_t"
+
+-----members of class CEntityInstance-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlSymbolLarge m_iszPrivateVScripts(offset 0x8, size 0x8, align 0x8)
+		^MNetworkDisable
+	CEntityIdentity* m_pEntity(offset 0x10, size 0x8, align 0x8)
+		^MNetworkEnable
+		^MNetworkPriority "56"
+	uint8_t[16] unaccounted(offset 0x18)
+	CScriptComponent* m_CScriptComponent(offset 0x28, size 0x8, align 0x8)
+		^MNetworkEnable
+		^MNetworkDisable
+	bool m_bVisibleinPVS(offset 0x30, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x31)
+

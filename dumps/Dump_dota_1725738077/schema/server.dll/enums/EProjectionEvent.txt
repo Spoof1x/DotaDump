@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EProjectionEvent(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x38e23a0):
+	ePE_FirstBlood = 0,
+	ePE_Killstreak_godlike = 1,

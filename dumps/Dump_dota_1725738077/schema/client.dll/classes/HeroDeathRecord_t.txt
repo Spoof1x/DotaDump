@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class HeroDeathRecord_t (size: 0x10 bytes, project "client", binding @ client.dll + 0x4821020, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class HeroDeathRecord_t-----
+	PlayerID_t nKillerPlayerID(offset 0x0, size 0x4, align 0x0)
+	PlayerID_t nVictimPlayerID(offset 0x4, size 0x4, align 0x0)
+	float32 fTime(offset 0x8, size 0x4, align 0x4)
+	float32 fTimeRespawn(offset 0xc, size 0x4, align 0x4)
+

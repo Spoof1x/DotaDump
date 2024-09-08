@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootCycle (size: 0x4 bytes, project "modellib", binding @ vphysics2.dll + 0x38cc50, scope "vphysics2.dll") extends CCycleBase
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0xd1ac0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CCycleBase (size: 0x4 bytes, project "modellib", binding @ vphysics2.dll + 0x38cb30, scope "vphysics2.dll")
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: vphysics2.dll + 0xd1730"
+	
+	-----members of class CCycleBase-----
+		float32 m_flCycle(offset 0x0, size 0x4, align 0x4)
+	
+
+-----members of class CFootCycle-----
+	<no members>
+

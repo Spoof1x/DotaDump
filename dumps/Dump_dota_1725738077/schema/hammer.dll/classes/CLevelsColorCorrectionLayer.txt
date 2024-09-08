@@ -1,0 +1,47 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CLevelsColorCorrectionLayer (size: 0x78 bytes, project "vmf_to_vmap", binding @ hammer.dll + 0x1de6fe0, scope "!GlobalTypes") extends CColorCorrectionLayer
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: hammer.dll + 0x11a65c0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CColorCorrectionLayer (size: 0x28 bytes, project "vmf_to_vmap", binding @ hammer.dll + 0x1de6cd0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: hammer.dll + 0xd1200"
+	
+	-----members of class CColorCorrectionLayer-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+		int32 m_nOpacityPercent(offset 0x10, size 0x4, align 0x4)
+		bool m_bVisible(offset 0x14, size 0x1, align 0x1)
+		uint8_t[3] unaccounted(offset 0x15)
+		CLayerMask* m_pLayerMask(offset 0x18, size 0x8, align 0x8)
+		uint8_t[8] unaccounted(offset 0x20)
+	
+
+-----members of class CLevelsColorCorrectionLayer-----
+	int32 m_nInputBlackPointRGB(offset 0x28, size 0x4, align 0x4)
+	int32 m_nInputBlackPointR(offset 0x2c, size 0x4, align 0x4)
+	int32 m_nInputBlackPointG(offset 0x30, size 0x4, align 0x4)
+	int32 m_nInputBlackPointB(offset 0x34, size 0x4, align 0x4)
+	int32 m_nInputWhitePointRGB(offset 0x38, size 0x4, align 0x4)
+	int32 m_nInputWhitePointR(offset 0x3c, size 0x4, align 0x4)
+	int32 m_nInputWhitePointG(offset 0x40, size 0x4, align 0x4)
+	int32 m_nInputWhitePointB(offset 0x44, size 0x4, align 0x4)
+	int32 m_nOutputBlackPointRGB(offset 0x48, size 0x4, align 0x4)
+	int32 m_nOutputBlackPointR(offset 0x4c, size 0x4, align 0x4)
+	int32 m_nOutputBlackPointG(offset 0x50, size 0x4, align 0x4)
+	int32 m_nOutputBlackPointB(offset 0x54, size 0x4, align 0x4)
+	int32 m_nOutputWhitePointRGB(offset 0x58, size 0x4, align 0x4)
+	int32 m_nOutputWhitePointR(offset 0x5c, size 0x4, align 0x4)
+	int32 m_nOutputWhitePointG(offset 0x60, size 0x4, align 0x4)
+	int32 m_nOutputWhitePointB(offset 0x64, size 0x4, align 0x4)
+	float32 m_flGammaRGB(offset 0x68, size 0x4, align 0x4)
+	float32 m_flGammaR(offset 0x6c, size 0x4, align 0x4)
+	float32 m_flGammaG(offset 0x70, size 0x4, align 0x4)
+	float32 m_flGammaB(offset 0x74, size 0x4, align 0x4)
+

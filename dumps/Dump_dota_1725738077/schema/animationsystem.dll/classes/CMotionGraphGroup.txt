@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMotionGraphGroup (size: 0x108 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5acdc0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1bc390"
+
+-----members of class CMotionGraphGroup-----
+	CMotionSearchDB m_searchDB(offset 0x0, size 0xb8, align 0x8)
+	CUtlVector< CSmartPtr< CMotionGraph > > m_motionGraphs(offset 0xb8, size 0x18, align 0x8)
+	CUtlVector< CMotionGraphConfig > m_motionGraphConfigs(offset 0xd0, size 0x18, align 0x8)
+	CUtlVector< int32 > m_sampleToConfig(offset 0xe8, size 0x18, align 0x8)
+	AnimScriptHandle m_hIsActiveScript(offset 0x100, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x104)
+

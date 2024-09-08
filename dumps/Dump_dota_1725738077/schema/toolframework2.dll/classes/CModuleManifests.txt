@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CModuleManifests (size: 0x18 bytes, project "toolutils2", binding @ toolframework2.dll + 0x9361f0, scope "toolframework2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x487980"
+
+-----members of class CModuleManifests-----
+	CUtlVector< CManifestInfo > m_Manifests(offset 0x0, size 0x18, align 0x8)
+

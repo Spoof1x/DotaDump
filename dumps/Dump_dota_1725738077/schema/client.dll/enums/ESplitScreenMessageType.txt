@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ESplitScreenMessageType(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x4703610):
+	MSG_SPLITSCREEN_ADDUSER = 0,
+	MSG_SPLITSCREEN_REMOVEUSER = 1,

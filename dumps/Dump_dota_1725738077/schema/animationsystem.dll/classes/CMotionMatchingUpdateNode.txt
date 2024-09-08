@@ -1,0 +1,67 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMotionMatchingUpdateNode (size: 0x140 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b6d60, scope "!GlobalTypes") extends CLeafUpdateNode
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1fde20"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CLeafUpdateNode (size: 0x58 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b5fa0, scope "!GlobalTypes") extends CAnimUpdateNodeBase
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimUpdateNodeBase (size: 0x58 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b28c0, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+		
+		-----members of class CAnimUpdateNodeBase-----
+			uint8_t[24] unaccounted(offset 0x0)
+			CAnimNodePath m_nodePath(offset 0x18, size 0x30, align 0x4)
+			AnimNodeNetworkMode m_networkMode(offset 0x48, size 0x4, align 0x4)
+			uint8_t[4] unaccounted(offset 0x4c)
+			CUtlString m_name(offset 0x50, size 0x8, align 0x8)
+		
+	
+	-----members of class CLeafUpdateNode-----
+		<no members>
+	
+
+-----members of class CMotionMatchingUpdateNode-----
+	CMotionDataSet m_dataSet(offset 0x58, size 0x20, align 0x8)
+	CUtlVector< CSmartPtr< CMotionMetricEvaluator > > m_metrics(offset 0x78, size 0x18, align 0x8)
+	CUtlVector< float32 > m_weights(offset 0x90, size 0x18, align 0x8)
+	uint8_t[56] unaccounted(offset 0xa8)
+	bool m_bSearchEveryTick(offset 0xe0, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0xe1)
+	float32 m_flSearchInterval(offset 0xe4, size 0x4, align 0x4)
+	bool m_bSearchWhenClipEnds(offset 0xe8, size 0x1, align 0x1)
+	bool m_bSearchWhenGoalChanges(offset 0xe9, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0xea)
+	CBlendCurve m_blendCurve(offset 0xec, size 0x8, align 0x4)
+	float32 m_flSampleRate(offset 0xf4, size 0x4, align 0x4)
+	float32 m_flBlendTime(offset 0xf8, size 0x4, align 0x4)
+	bool m_bLockClipWhenWaning(offset 0xfc, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0xfd)
+	float32 m_flSelectionThreshold(offset 0x100, size 0x4, align 0x4)
+	float32 m_flReselectionTimeWindow(offset 0x104, size 0x4, align 0x4)
+	bool m_bEnableRotationCorrection(offset 0x108, size 0x1, align 0x1)
+	bool m_bGoalAssist(offset 0x109, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x10a)
+	float32 m_flGoalAssistDistance(offset 0x10c, size 0x4, align 0x4)
+	float32 m_flGoalAssistTolerance(offset 0x110, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x114)
+	CAnimInputDamping m_distanceScale_Damping(offset 0x118, size 0x10, align 0x8)
+	float32 m_flDistanceScale_OuterRadius(offset 0x128, size 0x4, align 0x4)
+	float32 m_flDistanceScale_InnerRadius(offset 0x12c, size 0x4, align 0x4)
+	float32 m_flDistanceScale_MaxScale(offset 0x130, size 0x4, align 0x4)
+	float32 m_flDistanceScale_MinScale(offset 0x134, size 0x4, align 0x4)
+	bool m_bEnableDistanceScaling(offset 0x138, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x139)
+

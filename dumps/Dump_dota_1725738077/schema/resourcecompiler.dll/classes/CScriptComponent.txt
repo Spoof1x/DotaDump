@@ -1,0 +1,26 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CScriptComponent (size: 0x38 bytes, project "entity2", binding @ resourcecompiler.dll + 0x2452900, scope "resourcecompiler.dll") extends CEntityComponent
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+| SCHEMA_CF1_INFO_TAG_MClassHasEntityLimitedDataDesc
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CEntityComponent (size: 0x8 bytes, project "entity2", binding @ resourcecompiler.dll + 0x2452350, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+	
+	-----members of class CEntityComponent-----
+		uint8_t[8] unaccounted(offset 0x0)
+	
+
+-----static members of class CScriptComponent-----
+	static EntComponentInfo_t s_EntComponentInfo(resourcecompiler.dll + 0x2453290)
+	static int32 entity_component_error_class_decl_says_contained_but_impl_is_referenced(resourcecompiler.dll + 0x27b34f0)
+
+-----members of class CScriptComponent-----
+	uint8_t[40] unaccounted(offset 0x8)
+	CUtlSymbolLarge m_scriptClassName(offset 0x30, size 0x8, align 0x8)
+

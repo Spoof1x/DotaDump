@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDirectPlaybackTagData (size: 0x20 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x24332f0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x7a2cd0"
+
+-----members of class CDirectPlaybackTagData-----
+	CUtlString m_sequenceName(offset 0x0, size 0x8, align 0x8)
+	CUtlVector< TagSpan_t > m_tags(offset 0x8, size 0x18, align 0x8)
+

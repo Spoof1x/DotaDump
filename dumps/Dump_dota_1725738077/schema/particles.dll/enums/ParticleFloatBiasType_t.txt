@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleFloatBiasType_t(size: 4 bytes, 5 values, project "particleslib", binding @ particles.dll + 0x5045e0):
+	PF_BIAS_TYPE_INVALID = -1,
+	PF_BIAS_TYPE_STANDARD = 0,
+	PF_BIAS_TYPE_GAIN = 1,
+	PF_BIAS_TYPE_EXPONENTIAL = 2,
+	PF_BIAS_TYPE_COUNT = 3,

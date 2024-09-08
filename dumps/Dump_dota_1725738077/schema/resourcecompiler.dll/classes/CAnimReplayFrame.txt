@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimReplayFrame (size: 0x90 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242c390, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x756040"
+
+-----members of class CAnimReplayFrame-----
+	uint8_t[16] unaccounted(offset 0x0)
+	CUtlVector< CUtlBinaryBlock > m_inputDataBlocks(offset 0x10, size 0x18, align 0x8)
+	CUtlBinaryBlock m_instanceData(offset 0x28, size 0x18, align 0x8)
+	CTransform m_startingLocalToWorldTransform(offset 0x40, size 0x20, align 0x10)
+	CTransform m_localToWorldTransform(offset 0x60, size 0x20, align 0x10)
+	float32 m_timeStamp(offset 0x80, size 0x4, align 0x4)
+	uint8_t[12] unaccounted(offset 0x84)
+

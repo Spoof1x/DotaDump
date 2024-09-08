@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EShowcaseItemFlag(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x46f8b10):
+	k_eShowcaseItemFlag_None = 0,
+	k_eShowcaseItemFlag_FlipHorizontally = 1,

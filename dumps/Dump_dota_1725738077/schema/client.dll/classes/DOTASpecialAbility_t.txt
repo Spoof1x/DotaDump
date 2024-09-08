@@ -1,0 +1,27 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class DOTASpecialAbility_t (size: 0x150 bytes, project "client", binding @ client.dll + 0x4810ab0, scope "!GlobalTypes")
+
+-----members of class DOTASpecialAbility_t-----
+	char* m_pszName(offset 0x0, size 0x8, align 0x8)
+	char* m_pszValue(offset 0x8, size 0x8, align 0x8)
+	char* m_pszLevelKey(offset 0x10, size 0x8, align 0x8)
+	char* m_pszSpecialBonusAbility(offset 0x18, size 0x8, align 0x8)
+	char* m_pszSpecialBonusField(offset 0x20, size 0x8, align 0x8)
+	char* m_pszSpecialBonusADLinkedAbilities(offset 0x28, size 0x8, align 0x8)
+	int32 m_nCount(offset 0x30, size 0x4, align 0x4)
+	float32[20] m_Values(offset 0x34, size 0x50, align 0x4)
+	int32 m_nBonusesCount(offset 0x84, size 0x4, align 0x4)
+	DOTASpecialAbilityBonus_t[4] m_Bonuses(offset 0x88, size 0x40, align 0x8)
+	DOTALevelingAbilityBonus_t m_ScepterBonus(offset 0xc8, size 0x28, align 0x0)
+	DOTALevelingAbilityBonus_t m_ShardBonus(offset 0xf0, size 0x28, align 0x0)
+	DOTAFacetAbilityBonus_t m_FacetBonus(offset 0x118, size 0x28, align 0x0)
+	CUtlStringToken m_strRequiredFacet(offset 0x140, size 0x4, align 0x4)
+	int32 m_nDamageTypeField(offset 0x144, size 0x4, align 0x4)
+	bool m_bSpellDamageField(offset 0x148, size 0x1, align 0x1)
+	bool m_bScepterField(offset 0x149, size 0x1, align 0x1)
+	bool m_bShardField(offset 0x14a, size 0x1, align 0x1)
+	bool m_bAffectedByAoEIncrease(offset 0x14b, size 0x1, align 0x1)
+	bool m_bDynamicValue(offset 0x14c, size 0x1, align 0x1)
+	EDOTASpecialBonusOperation m_eSpecialBonusOperation(offset 0x14d, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x14e)
+

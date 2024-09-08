@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AnimStateID (size: 0x4 bytes, project "modellib", binding @ toolframework2.dll + 0x929890, scope "toolframework2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x3a3600"
+^MPropertyEditClassAsString "func: toolframework2.dll + 0x3a3970"
+
+-----members of class AnimStateID-----
+	uint32 m_id(offset 0x0, size 0x4, align 0x4)
+

@@ -1,0 +1,11 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NmGraphValueType_t(size: 1 bytes, 9 values, project "animlib", binding @ resourcecompiler.dll + 0x244c530):
+	Unknown = 0,
+	Bool = 1,
+	ID = 2,
+	Float = 3,
+	Vector = 4,
+	Target = 5,
+	BoneMask = 6,
+	Pose = 7,
+	Special = 8,

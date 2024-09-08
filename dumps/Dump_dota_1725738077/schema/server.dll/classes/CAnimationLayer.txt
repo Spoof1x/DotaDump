@@ -1,0 +1,59 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimationLayer (size: 0xa8 bytes, project "server", binding @ server.dll + 0x38819e0, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_op CNetworkedSequenceOperation"
+^MNetworkVarNames "m_nOrder int"
+^MNetworkVarNames "m_nSeqLoopMode AnimLoopMode_t"
+^MNetworkVarNames "m_nNewSequenceParity int"
+^MNetworkReplayCompatField "m_bLooping OnLoopingChangedCompat"
+
+-----members of class CAnimationLayer-----
+	uint8_t[48] unaccounted(offset 0x0)
+	CNetworkedSequenceOperation m_op(offset 0x30, size 0x28, align 0x0)
+		^MNetworkEnable
+		^MNetworkChangeCallback "animationLayerOpChanged"
+	int32 m_nOrder(offset 0x58, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "animationLayerOrderChanged"
+	CNetworkedQuantizedFloat m_flPlaybackRate(offset 0x5c, size 0x8, align 0x4)
+		^MNetworkEnable
+		^MNetworkBitCount "10"
+		^MNetworkMinValue "0"
+		^MNetworkMaxValue "5"
+		^MNetworkEncodeFlags "8"
+	AnimLoopMode_t m_nSeqLoopMode(offset 0x64, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nNewSequenceParity(offset 0x68, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkPriority "32"
+		^MNetworkChangeCallback "animationLayerCycleReset"
+	GameTime_t m_flSeqStartTime(offset 0x6c, size 0x4, align 0x0)
+		^MNetworkDisable
+	float32 m_flCachedSequenceCycleRate(offset 0x70, size 0x4, align 0x4)
+		^MNetworkDisable
+	int32 m_nFlags(offset 0x74, size 0x4, align 0x4)
+		^MNetworkDisable
+	bool m_bSequenceFinished(offset 0x78, size 0x1, align 0x1)
+		^MNetworkDisable
+	uint8_t[3] unaccounted(offset 0x79)
+	GameTime_t m_flKillStartTime(offset 0x7c, size 0x4, align 0x0)
+		^MNetworkDisable
+	float32 m_flKillRate(offset 0x80, size 0x4, align 0x4)
+		^MNetworkDisable
+	GameTime_t m_flLayerSuppressChangeTime(offset 0x84, size 0x4, align 0x0)
+		^MNetworkDisable
+	int32 m_nActivity(offset 0x88, size 0x4, align 0x4)
+		^MNetworkDisable
+	int32 m_nPriority(offset 0x8c, size 0x4, align 0x4)
+		^MNetworkDisable
+	float32 m_flLastEventCycle(offset 0x90, size 0x4, align 0x4)
+		^MNetworkDisable
+	float32 m_flFadeInFraction(offset 0x94, size 0x4, align 0x4)
+		^MNetworkDisable
+	float32 m_flFadeOutFraction(offset 0x98, size 0x4, align 0x4)
+		^MNetworkDisable
+	bool m_bHasFadedIn(offset 0x9c, size 0x1, align 0x1)
+		^MNetworkDisable
+	uint8_t[11] unaccounted(offset 0x9d)
+

@@ -1,0 +1,95 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_LookAtNode (size: 0xa8 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f1ff0, scope "!GlobalTypes") extends CAnimGraphDoc_Node
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5a91c0"
+^MPropertyFriendlyName "Look At"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Node (size: 0x40 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ec330, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Node-----
+		uint8_t[32] unaccounted(offset 0x0)
+		CUtlString m_sName(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		Vector2D m_vecPosition(offset 0x28, size 0x8, align 0x4)
+			^MPropertyGroupName "Debug"
+		AnimNodeID m_nNodeID(offset 0x30, size 0x4, align 0x4)
+			^MPropertyGroupName "Debug"
+		bool m_bDebugThisNode(offset 0x34, size 0x1, align 0x1)
+			^MPropertyGroupName "Debug"
+			^MPropertyFriendlyName "Debug This Node"
+		uint8_t[3] unaccounted(offset 0x35)
+		AnimNodeNetworkMode m_networkMode(offset 0x38, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Network Mode"
+		uint8_t[4] unaccounted(offset 0x3c)
+	
+
+-----members of class CAnimGraphDoc_LookAtNode-----
+	CAnimGraphDoc_NodeConnection m_inputConnection(offset 0x40, size 0x8, align 0x4)
+		^MPropertyHideField
+	AnimVectorSource m_target(offset 0x48, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Target"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[4] unaccounted(offset 0x4c)
+	CUtlString m_paramName(offset 0x50, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_param(offset 0x58, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Target Parameter"
+		^MPropertyAttributeChoiceName "VectorParameter"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5a9230"
+	bool m_bIsPosition(offset 0x5c, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Parameter is a Position"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5a9230"
+	uint8_t[3] unaccounted(offset 0x5d)
+	CUtlString m_weightParamName(offset 0x60, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_weightParam(offset 0x68, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Weight Parameter"
+		^MPropertyAttributeChoiceName "FloatParameter"
+	uint8_t[4] unaccounted(offset 0x6c)
+	CUtlString m_lookatChainName(offset 0x70, size 0x8, align 0x8)
+		^MPropertyFriendlyName "LookAt Chain"
+		^MPropertyAttributeChoiceName "LookAtChain"
+	CUtlString m_attachmentName(offset 0x78, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Aim Attachment"
+		^MPropertyAttributeChoiceName "Attachment"
+	bool m_bRotateYawForward(offset 0x80, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Rotate Through Forward"
+		^MPropertyGroupName "Rotation Limits"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[3] unaccounted(offset 0x81)
+	float32 m_flYawLimit(offset 0x84, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Yaw Limit"
+		^MPropertyAttributeRange "0 180"
+		^MPropertyGroupName "Rotation Limits"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5a9240"
+	float32 m_flPitchLimit(offset 0x88, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Pitch Limit"
+		^MPropertyAttributeRange "0 90"
+		^MPropertyGroupName "Rotation Limits"
+	bool m_bMaintainUpDirection(offset 0x8c, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Maintain Up Direction"
+	bool m_bResetBase(offset 0x8d, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Reset Child"
+	bool m_bLockWhenWaning(offset 0x8e, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Lock Blend When Waning"
+	bool m_bUseHysteresis(offset 0x8f, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Use Hysteresis"
+		^MPropertyGroupName "Hysteresis"
+	float32 m_flHysteresisInnerAngle(offset 0x90, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Inner Angle"
+		^MPropertyGroupName "Hysteresis"
+	float32 m_flHysteresisOuterAngle(offset 0x94, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Outer Angle"
+		^MPropertyGroupName "Hysteresis"
+	CAnimInputDamping m_damping(offset 0x98, size 0x10, align 0x8)
+		^MPropertyFriendlyName "Damping"
+

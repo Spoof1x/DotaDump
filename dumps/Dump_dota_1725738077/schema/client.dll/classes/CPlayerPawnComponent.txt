@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPlayerPawnComponent (size: 0x40 bytes, project "client", binding @ client.dll + 0x484cc30, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+-----members of class CPlayerPawnComponent-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CNetworkVarChainer __m_pChainEntity(offset 0x8, size 0x28, align 0x0)
+		^MNetworkDisable
+		^MNetworkChangeAccessorFieldPathIndex
+	uint8_t[16] unaccounted(offset 0x30)
+

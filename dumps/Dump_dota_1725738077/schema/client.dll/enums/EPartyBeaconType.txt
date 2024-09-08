@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EPartyBeaconType(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x46ec3f0):
+	k_EPartyBeaconType_Available = 0,
+	k_EPartyBeaconType_Joinable = 1,

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class WearableData_t (size: 0x10 bytes, project "server", binding @ server.dll + 0x3ae60b0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class WearableData_t-----
+	item_definition_index_t nItemDef(offset 0x0, size 0x4, align 0x0)
+	int32 nSkin(offset 0x4, size 0x4, align 0x4)
+	int32 nGroup(offset 0x8, size 0x4, align 0x4)
+	CHandle< CBaseEntity > hWearable(offset 0xc, size 0x4, align 0x4)
+

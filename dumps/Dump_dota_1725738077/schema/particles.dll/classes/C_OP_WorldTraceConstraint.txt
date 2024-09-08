@@ -1,0 +1,172 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_OP_WorldTraceConstraint (size: 0x970 bytes, project "particles", binding @ particles.dll + 0x51c9d0, scope "!GlobalTypes") extends CParticleFunctionConstraint
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: particles.dll + 0x9c020"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunctionConstraint (size: 0x1c0 bytes, project "particles", binding @ particles.dll + 0x518340, scope "!GlobalTypes") extends CParticleFunction
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunction (size: 0x1c0 bytes, project "particles", binding @ particles.dll + 0x518010, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+		
+		-----members of class CParticleFunction-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CParticleCollectionFloatInput m_flOpStrength(offset 0x8, size 0x160, align 0x8)
+				^MPropertyFriendlyName "operator strength"
+				^MPropertySortPriority "-100"
+			ParticleEndcapMode_t m_nOpEndCapState(offset 0x168, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end cap state"
+				^MPropertySortPriority "-100"
+			float32 m_flOpStartFadeInTime(offset 0x16c, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade"
+				^MPropertyFriendlyName "operator start fadein"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpEndFadeInTime(offset 0x170, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end fadein"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpStartFadeOutTime(offset 0x174, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator start fadeout"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpEndFadeOutTime(offset 0x178, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end fadeout"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpFadeOscillatePeriod(offset 0x17c, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade oscillate"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			bool m_bNormalizeToStopTime(offset 0x180, size 0x1, align 0x1)
+				^MPropertyFriendlyName "normalize fade times to endcap"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[3] unaccounted(offset 0x181)
+			float32 m_flOpTimeOffsetMin(offset 0x184, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade Time Offset"
+				^MPropertyFriendlyName "operator fade time offset min"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeOffsetMax(offset 0x188, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time offset max"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			int32 m_nOpTimeOffsetSeed(offset 0x18c, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time offset seed"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			int32 m_nOpTimeScaleSeed(offset 0x190, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade Timescale Modifiers"
+				^MPropertyFriendlyName "operator fade time scale seed"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeScaleMin(offset 0x194, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time scale min"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeScaleMax(offset 0x198, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time scale max"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[2] unaccounted(offset 0x19c)
+			bool m_bDisableOperator(offset 0x19e, size 0x1, align 0x1)
+				^MPropertyStartGroup
+				^MPropertySuppressField
+			uint8_t[1] unaccounted(offset 0x19f)
+			CUtlString m_Notes(offset 0x1a0, size 0x8, align 0x8)
+				^MPropertyFriendlyName "operator help and notes"
+				^MParticleHelpField
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[24] unaccounted(offset 0x1a8)
+		
+	
+	-----members of class CParticleFunctionConstraint-----
+		<no members>
+	
+
+-----members of class C_OP_WorldTraceConstraint-----
+	int32 m_nCP(offset 0x1c0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "control point for fast collision tests"
+	Vector m_vecCpOffset(offset 0x1c4, size 0xc, align 0x4)
+		^MPropertyFriendlyName "control point offset for fast collisions"
+		^MVectorIsCoordinate
+	ParticleCollisionMode_t m_nCollisionMode(offset 0x1d0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "collision mode"
+	ParticleCollisionMode_t m_nCollisionModeMin(offset 0x1d4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "minimum detail collision mode"
+	ParticleTraceSet_t m_nTraceSet(offset 0x1d8, size 0x4, align 0x4)
+		^MPropertyStartGroup "Collision Options"
+		^MPropertyFriendlyName "Trace Set"
+	char[128] m_CollisionGroupName(offset 0x1dc, size 0x80, align 0x1)
+		^MPropertyFriendlyName "collision group"
+	bool m_bWorldOnly(offset 0x25c, size 0x1, align 0x1)
+		^MPropertyFriendlyName "World Only"
+	bool m_bBrushOnly(offset 0x25d, size 0x1, align 0x1)
+		^MPropertyFriendlyName "brush only"
+	bool m_bIncludeWater(offset 0x25e, size 0x1, align 0x1)
+		^MPropertyFriendlyName "include water"
+		^MPropertySuppressExpr "m_nTraceSet == PARTICLE_TRACE_SET_STATIC"
+	uint8_t[1] unaccounted(offset 0x25f)
+	int32 m_nIgnoreCP(offset 0x260, size 0x4, align 0x4)
+		^MPropertyFriendlyName "CP Entity to Ignore for Collisions"
+		^MPropertySuppressExpr "m_nTraceSet == PARTICLE_TRACE_SET_STATIC"
+	float32 m_flCpMovementTolerance(offset 0x264, size 0x4, align 0x4)
+		^MPropertyFriendlyName "control point movement distance tolerance"
+		^MPropertySuppressExpr "m_nCollisionMode == COLLISION_MODE_PER_PARTICLE_TRACE"
+	float32 m_flRetestRate(offset 0x268, size 0x4, align 0x4)
+		^MPropertyFriendlyName "plane cache retest rate"
+		^MPropertySuppressExpr "m_nCollisionMode != COLLISION_MODE_PER_FRAME_PLANESET"
+	float32 m_flTraceTolerance(offset 0x26c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "trace accuracy tolerance"
+		^MPropertySuppressExpr "m_nCollisionMode != COLLISION_MODE_USE_NEAREST_TRACE"
+	float32 m_flCollisionConfirmationSpeed(offset 0x270, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Confirm Collision Speed Threshold"
+		^MPropertySuppressExpr "m_nCollisionMode == COLLISION_MODE_PER_PARTICLE_TRACE"
+	float32 m_nMaxTracesPerFrame(offset 0x274, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Confirmation Traces Per Fame"
+		^MPropertySuppressExpr "m_nCollisionMode == COLLISION_MODE_PER_PARTICLE_TRACE"
+	CPerParticleFloatInput m_flRadiusScale(offset 0x278, size 0x160, align 0x8)
+		^MPropertyStartGroup "Impact Options"
+		^MPropertyFriendlyName "radius scale"
+	CPerParticleFloatInput m_flBounceAmount(offset 0x3d8, size 0x160, align 0x8)
+		^MPropertyFriendlyName "amount of bounce"
+	CPerParticleFloatInput m_flSlideAmount(offset 0x538, size 0x160, align 0x8)
+		^MPropertyFriendlyName "amount of slide"
+	CPerParticleFloatInput m_flRandomDirScale(offset 0x698, size 0x160, align 0x8)
+		^MPropertyFriendlyName "Random Direction scale"
+	bool m_bDecayBounce(offset 0x7f8, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Add Decay to Bounce"
+	bool m_bKillonContact(offset 0x7f9, size 0x1, align 0x1)
+		^MPropertyFriendlyName "kill particle on collision"
+	uint8_t[2] unaccounted(offset 0x7fa)
+	float32 m_flMinSpeed(offset 0x7fc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "minimum speed to kill on collision"
+	bool m_bSetNormal(offset 0x800, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Set Normal"
+	uint8_t[3] unaccounted(offset 0x801)
+	ParticleAttributeIndex_t m_nStickOnCollisionField(offset 0x804, size 0x4, align 0x0)
+		^MPropertyFriendlyName "Stick On Collision Cache Field"
+		^MPropertyAttributeChoiceName "particlefield_vector"
+	CPerParticleFloatInput m_flStopSpeed(offset 0x808, size 0x160, align 0x8)
+		^MPropertyFriendlyName "Speed to stop when sticking"
+	ParticleAttributeIndex_t m_nEntityStickDataField(offset 0x968, size 0x4, align 0x0)
+		^MPropertyFriendlyName "Entity Hitbox Cache Field (Requires Stick on Collision)"
+		^MPropertyAttributeChoiceName "particlefield_vector"
+	ParticleAttributeIndex_t m_nEntityStickNormalField(offset 0x96c, size 0x4, align 0x0)
+		^MPropertyFriendlyName "Entity Normal Cache Field (Requires Stick on Collision)"
+		^MPropertyAttributeChoiceName "particlefield_vector"
+

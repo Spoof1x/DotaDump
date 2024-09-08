@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmTarget (size: 0x30 bytes, project "animlib", binding @ animationsystem.dll + 0x5dd990, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x3220b0"
+
+-----members of class CNmTarget-----
+	CTransform m_transform(offset 0x0, size 0x20, align 0x10)
+	CGlobalSymbol m_boneID(offset 0x20, size 0x8, align 0x8)
+	bool m_bIsBoneTarget(offset 0x28, size 0x1, align 0x1)
+	bool m_bIsUsingBoneSpaceOffsets(offset 0x29, size 0x1, align 0x1)
+	bool m_bHasOffsets(offset 0x2a, size 0x1, align 0x1)
+	bool m_bIsSet(offset 0x2b, size 0x1, align 0x1)
+	uint8_t[4] unaccounted(offset 0x2c)
+

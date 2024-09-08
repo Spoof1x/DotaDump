@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EOverworldNodeState(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x4700480):
+	k_eOverworldNodeState_Invalid = 0,
+	k_eOverworldNodeState_Locked = 1,
+	k_eOverworldNodeState_Unlocked = 2,

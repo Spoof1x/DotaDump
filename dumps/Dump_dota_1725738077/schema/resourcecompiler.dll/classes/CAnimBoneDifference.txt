@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimBoneDifference (size: 0x30 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24ee3c0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x32da50"
+
+-----members of class CAnimBoneDifference-----
+	CBufferString m_name(offset 0x0, size 0x10, align 0x8)
+	CBufferString m_parent(offset 0x10, size 0x10, align 0x8)
+	Vector m_posError(offset 0x20, size 0xc, align 0x4)
+	bool m_bHasRotation(offset 0x2c, size 0x1, align 0x1)
+	bool m_bHasMovement(offset 0x2d, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x2e)
+

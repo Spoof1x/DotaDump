@@ -1,0 +1,63 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMixTrack (size: 0x50 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bfb30, scope "!GlobalTypes") extends CMixPropertyBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x15ed0e0"
+^MPropertyFriendlyName "VMix Track Node"
+^MPropertyDescription "This node creates a track.Voices can be played on a track.  This is the source of audio for your graph."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMixPropertyBase (size: 0x20 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bbaa0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x157f160"
+	
+	-----members of class CMixPropertyBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+			^MPropertyDescription "Node name"
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "1"
+		CUtlString m_Comment(offset 0x10, size 0x8, align 0x8)
+			^MPropertyDescription "Description of how this is used  the graph for people reading the graph"
+			^MPropertySortPriority "-2"
+		bool m_bActive(offset 0x18, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bSolo(offset 0x19, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bEditProperties(offset 0x1a, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		uint8_t[5] unaccounted(offset 0x1b)
+	
+
+-----members of class CMixTrack-----
+	int32 m_nChannels(offset 0x20, size 0x4, align 0x4)
+		^MPropertyDescription "Leave this as "Automatic" unless you are forcing mono/stereo for some reason.  That way each graph will get configured to match the incoming vsnd (for a voice graph) or the audio device (main mix graph)"
+		^MPropertyAttributeChoiceName "channel_count"
+	int32 m_nMixDownRule(offset 0x24, size 0x4, align 0x4)
+		^MPropertyDescription "This determines what happens when your incoming audio doesn't match the channel count for the track.  e.g. for a mono track, this is the rule for what happens to stereo audio"
+		^MPropertyFriendlyName "Mix Down Rule"
+		^MPropertyAttributeChoiceName "mix_down_rule"
+	CUtlString m_sendOperator(offset 0x28, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Send These Voices"
+		^MPropertyAttributeChoiceName "send_operator"
+		^MPropertyDescription "<b>Main Graph Only</b><br>This refers to a piece of code in the sound engine that will select specific voices to be mixed into this track and at what mix level each voice will be mixed.<br>If you want to drive that with data, choose "By Named Send" and author a list of send names for this track.  Then any sound event can send to one of those names and the audio will be mixed here."
+		^MPropertyGroupName "MainGraph"
+	CUtlString m_Send1(offset 0x30, size 0x8, align 0x8)
+		^MPropertyGroupName "MainGraph"
+		^MPropertyFriendlyName "Send Name 1"
+	CUtlString m_Send2(offset 0x38, size 0x8, align 0x8)
+		^MPropertyGroupName "MainGraph"
+		^MPropertyFriendlyName "Send Name 2"
+	CUtlString m_Send3(offset 0x40, size 0x8, align 0x8)
+		^MPropertyGroupName "MainGraph"
+		^MPropertyFriendlyName "Send Name 3"
+	CUtlString m_Send4(offset 0x48, size 0x8, align 0x8)
+		^MPropertyGroupName "MainGraph"
+		^MPropertyFriendlyName "Send Name 4"
+

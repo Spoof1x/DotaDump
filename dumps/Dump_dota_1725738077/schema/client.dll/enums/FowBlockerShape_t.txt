@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum FowBlockerShape_t(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x48944f0):
+	FOW_BLOCKER_SHAPE_RECTANGLE = 0,
+	FOW_BLOCKER_SHAPE_RECTANGLE_OUTLINE = 1,

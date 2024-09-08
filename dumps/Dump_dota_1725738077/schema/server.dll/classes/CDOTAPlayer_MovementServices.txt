@@ -1,0 +1,60 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTAPlayer_MovementServices (size: 0x1d8 bytes, project "server", binding @ server.dll + 0x3ab2ba0, scope "server.dll") extends CPlayer_MovementServices
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPlayer_MovementServices (size: 0x1d8 bytes, project "server", binding @ server.dll + 0x3a30790, scope "server.dll") extends CPlayerPawnComponent
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+	| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+	^MNetworkVarNames "m_nToggleButtonDownMask ButtonBitMask_t"
+	^MNetworkVarNames "m_flMaxspeed float32"
+	^MNetworkVarNames "m_arrForceSubtickMoveWhen float32"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPlayerPawnComponent (size: 0x40 bytes, project "server", binding @ server.dll + 0x3a34b90, scope "server.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		
+		-----members of class CPlayerPawnComponent-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CNetworkVarChainer __m_pChainEntity(offset 0x8, size 0x28, align 0x0)
+				^MNetworkDisable
+				^MNetworkChangeAccessorFieldPathIndex
+			uint8_t[16] unaccounted(offset 0x30)
+		
+	
+	-----members of class CPlayer_MovementServices-----
+		int32 m_nImpulse(offset 0x40, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x44)
+		CInButtonState m_nButtons(offset 0x48, size 0x20, align 0x0)
+		uint64 m_nQueuedButtonDownMask(offset 0x68, size 0x8, align 0x8)
+		uint64 m_nQueuedButtonChangeMask(offset 0x70, size 0x8, align 0x8)
+		uint64 m_nButtonDoublePressed(offset 0x78, size 0x8, align 0x8)
+		uint32[64] m_pButtonPressedCmdNumber(offset 0x80, size 0x100, align 0x4)
+		uint32 m_nLastCommandNumberProcessed(offset 0x180, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x184)
+		uint64 m_nToggleButtonDownMask(offset 0x188, size 0x8, align 0x8)
+			^MNetworkEnable
+			^MNetworkUserGroup "LocalPlayerExclusive"
+		uint8_t[8] unaccounted(offset 0x190)
+		float32 m_flMaxspeed(offset 0x198, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkBitCount "12"
+			^MNetworkMinValue "0"
+			^MNetworkMaxValue "2048"
+			^MNetworkEncodeFlags "1"
+		float32[4] m_arrForceSubtickMoveWhen(offset 0x19c, size 0x10, align 0x4)
+			^MNetworkEnable
+		float32 m_flForwardMove(offset 0x1ac, size 0x4, align 0x4)
+		float32 m_flLeftMove(offset 0x1b0, size 0x4, align 0x4)
+		float32 m_flUpMove(offset 0x1b4, size 0x4, align 0x4)
+		Vector m_vecLastMovementImpulses(offset 0x1b8, size 0xc, align 0x4)
+		QAngle m_vecOldViewAngles(offset 0x1c4, size 0xc, align 0x4)
+		uint8_t[8] unaccounted(offset 0x1d0)
+	
+
+-----members of class CDOTAPlayer_MovementServices-----
+	<no members>
+

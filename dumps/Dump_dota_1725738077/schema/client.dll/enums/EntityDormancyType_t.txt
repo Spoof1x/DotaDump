@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EntityDormancyType_t(size: 4 bytes, 3 values, project "entity2", binding @ client.dll + 0x48f9fd0):
+	ENTITY_NOT_DORMANT = 0,
+	ENTITY_DORMANT = 1,
+	ENTITY_SUSPENDED = 2,

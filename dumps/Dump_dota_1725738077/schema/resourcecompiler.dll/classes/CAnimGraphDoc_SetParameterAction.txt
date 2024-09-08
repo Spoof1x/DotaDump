@@ -1,0 +1,29 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_SetParameterAction (size: 0x48 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23eb610, scope "!GlobalTypes") extends CAnimGraphDoc_Action
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x573300"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Action (size: 0x28 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23eb450, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Action-----
+		uint8_t[40] unaccounted(offset 0x0)
+	
+
+-----members of class CAnimGraphDoc_SetParameterAction-----
+	CUtlString m_paramName(offset 0x28, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_param(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Parameter"
+		^MPropertyAttributeChoiceName "Parameter"
+	CAnimVariant m_value(offset 0x34, size 0x11, align 0x1)
+		^MPropertyFriendlyName "Value"
+	uint8_t[3] unaccounted(offset 0x45)
+

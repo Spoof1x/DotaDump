@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimMotorUpdaterBase (size: 0x20 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b05b0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+
+-----members of class CAnimMotorUpdaterBase-----
+	uint8_t[16] unaccounted(offset 0x0)
+	CUtlString m_name(offset 0x10, size 0x8, align 0x8)
+	bool m_bDefault(offset 0x18, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x19)
+

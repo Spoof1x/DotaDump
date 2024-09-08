@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum GraphCanvasBorderDrawBehavior_t(size: 4 bytes, 3 values, project "qcontrols", binding @ assetbrowser.dll + 0x1d4690):
+	Centered = 0,
+	Inside = 1,
+	Outside = 2,

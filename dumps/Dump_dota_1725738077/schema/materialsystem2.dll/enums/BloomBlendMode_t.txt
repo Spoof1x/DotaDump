@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum BloomBlendMode_t(size: 4 bytes, 3 values, project "materialsystem2", binding @ materialsystem2.dll + 0x10c850):
+	BLOOM_BLEND_ADD = 0,
+	BLOOM_BLEND_SCREEN = 1,
+	BLOOM_BLEND_BLUR = 2,

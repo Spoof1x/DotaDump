@@ -1,0 +1,164 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_OP_RenderProjected (size: 0xe78 bytes, project "particles", binding @ particles.dll + 0x5429a0, scope "!GlobalTypes") extends CParticleFunctionRenderer
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: particles.dll + 0x2bdf50"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunctionRenderer (size: 0x210 bytes, project "particles", binding @ particles.dll + 0x518470, scope "!GlobalTypes") extends CParticleFunction
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunction (size: 0x1c0 bytes, project "particles", binding @ particles.dll + 0x518010, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+		
+		-----members of class CParticleFunction-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CParticleCollectionFloatInput m_flOpStrength(offset 0x8, size 0x160, align 0x8)
+				^MPropertyFriendlyName "operator strength"
+				^MPropertySortPriority "-100"
+			ParticleEndcapMode_t m_nOpEndCapState(offset 0x168, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end cap state"
+				^MPropertySortPriority "-100"
+			float32 m_flOpStartFadeInTime(offset 0x16c, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade"
+				^MPropertyFriendlyName "operator start fadein"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpEndFadeInTime(offset 0x170, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end fadein"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpStartFadeOutTime(offset 0x174, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator start fadeout"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpEndFadeOutTime(offset 0x178, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end fadeout"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpFadeOscillatePeriod(offset 0x17c, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade oscillate"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			bool m_bNormalizeToStopTime(offset 0x180, size 0x1, align 0x1)
+				^MPropertyFriendlyName "normalize fade times to endcap"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[3] unaccounted(offset 0x181)
+			float32 m_flOpTimeOffsetMin(offset 0x184, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade Time Offset"
+				^MPropertyFriendlyName "operator fade time offset min"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeOffsetMax(offset 0x188, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time offset max"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			int32 m_nOpTimeOffsetSeed(offset 0x18c, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time offset seed"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			int32 m_nOpTimeScaleSeed(offset 0x190, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade Timescale Modifiers"
+				^MPropertyFriendlyName "operator fade time scale seed"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeScaleMin(offset 0x194, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time scale min"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeScaleMax(offset 0x198, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time scale max"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[2] unaccounted(offset 0x19c)
+			bool m_bDisableOperator(offset 0x19e, size 0x1, align 0x1)
+				^MPropertyStartGroup
+				^MPropertySuppressField
+			uint8_t[1] unaccounted(offset 0x19f)
+			CUtlString m_Notes(offset 0x1a0, size 0x8, align 0x8)
+				^MPropertyFriendlyName "operator help and notes"
+				^MParticleHelpField
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[24] unaccounted(offset 0x1a8)
+		
+	
+	-----members of class CParticleFunctionRenderer-----
+		CParticleVisibilityInputs VisibilityInputs(offset 0x1c0, size 0x48, align 0x4)
+			^MPropertySortPriority "-1"
+		bool m_bCannotBeRefracted(offset 0x208, size 0x1, align 0x1)
+			^MPropertyStartGroup "Rendering filter"
+			^MPropertyFriendlyName "I cannot be refracted through refracting objects like water"
+			^MPropertySortPriority "-1"
+		bool m_bSkipRenderingOnMobile(offset 0x209, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Skip rendering on mobile"
+			^MPropertySortPriority "-1"
+		uint8_t[6] unaccounted(offset 0x20a)
+	
+
+-----members of class C_OP_RenderProjected-----
+	bool m_bProjectCharacter(offset 0x210, size 0x1, align 0x1)
+		^MPropertyFriendlyName "project on characters"
+	bool m_bProjectWorld(offset 0x211, size 0x1, align 0x1)
+		^MPropertyFriendlyName "project on world"
+	bool m_bProjectWater(offset 0x212, size 0x1, align 0x1)
+		^MPropertyFriendlyName "project on water"
+	bool m_bFlipHorizontal(offset 0x213, size 0x1, align 0x1)
+		^MPropertyFriendlyName "flip horizontal"
+	bool m_bEnableProjectedDepthControls(offset 0x214, size 0x1, align 0x1)
+		^MPropertyFriendlyName "enable projected depth controls"
+	uint8_t[3] unaccounted(offset 0x215)
+	float32 m_flMinProjectionDepth(offset 0x218, size 0x4, align 0x4)
+		^MPropertyFriendlyName "min projection depth"
+		^MPropertySuppressExpr "!m_bEnableProjectedDepthControls"
+	float32 m_flMaxProjectionDepth(offset 0x21c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "max projection depth"
+		^MPropertySuppressExpr "!m_bEnableProjectedDepthControls"
+	CUtlVector< RenderProjectedMaterial_t > m_vecProjectedMaterials(offset 0x220, size 0x18, align 0x8)
+		^MPropertyFriendlyName "materials"
+		^MParticleRequireDefaultArrayEntry
+		^MPropertyAutoExpandSelf
+	CPerParticleFloatInput m_flMaterialSelection(offset 0x238, size 0x160, align 0x8)
+		^MPropertyFriendlyName "material selection"
+	float32 m_flAnimationTimeScale(offset 0x398, size 0x4, align 0x4)
+		^MPropertyFriendlyName "sheet animation time scale"
+	bool m_bOrientToNormal(offset 0x39c, size 0x1, align 0x1)
+		^MPropertyFriendlyName "orient to normal"
+	uint8_t[3] unaccounted(offset 0x39d)
+	CUtlVector< MaterialVariable_t > m_MaterialVars(offset 0x3a0, size 0x18, align 0x8)
+		^MPropertyFriendlyName "material variables"
+		^MPropertyAutoExpandSelf
+	CParticleCollectionFloatInput m_flRadiusScale(offset 0x3b8, size 0x160, align 0x8)
+		^MPropertyStartGroup "+Renderer Modifiers"
+		^MPropertyFriendlyName "Radius Scale"
+		^MPropertySortPriority "700"
+	CParticleCollectionFloatInput m_flAlphaScale(offset 0x518, size 0x160, align 0x8)
+		^MPropertyFriendlyName "alpha scale"
+		^MPropertySortPriority "700"
+	CParticleCollectionFloatInput m_flRollScale(offset 0x678, size 0x160, align 0x8)
+		^MPropertyFriendlyName "rotation roll scale"
+		^MPropertySortPriority "700"
+	ParticleAttributeIndex_t m_nAlpha2Field(offset 0x7d8, size 0x4, align 0x0)
+		^MPropertyFriendlyName "per-particle alpha scale attribute"
+		^MPropertyAttributeChoiceName "particlefield_scalar"
+		^MPropertySortPriority "700"
+	uint8_t[4] unaccounted(offset 0x7dc)
+	CParticleCollectionVecInput m_vecColorScale(offset 0x7e0, size 0x678, align 0x8)
+		^MPropertyFriendlyName "color blend"
+		^MPropertySortPriority "700"
+	ParticleColorBlendType_t m_nColorBlendType(offset 0xe58, size 0x4, align 0x4)
+		^MPropertyFriendlyName "color blend type"
+		^MPropertySortPriority "700"
+	uint8_t[28] unaccounted(offset 0xe5c)
+

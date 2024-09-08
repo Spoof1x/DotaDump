@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum MissingParentInheritBehavior_t(size: 4 bytes, 4 values, project "particles", binding @ particles.dll + 0x518580):
+	MISSING_PARENT_DO_NOTHING = -1,
+		^MPropertyFriendlyName "Do Nothing"
+	MISSING_PARENT_KILL = 0,
+		^MPropertyFriendlyName "Kill Particle"
+	MISSING_PARENT_FIND_NEW = 1,
+		^MPropertyFriendlyName "Use Next Parent Particle"
+	MISSING_PARENT_SAME_INDEX = 2,
+		^MPropertyFriendlyName "Use New Particle at Same Index if Possible"

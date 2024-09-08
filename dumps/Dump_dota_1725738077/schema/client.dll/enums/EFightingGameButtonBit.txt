@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EFightingGameButtonBit(size: 4 bytes, 7 values, project "client", binding @ client.dll + 0x4891c20):
+	kNONE_BIT = 0,
+		^MEnumeratorIsNotAFlag
+	kBUTTON_FORWARD_BIT = 1,
+	kBUTTON_BACK_BIT = 2,
+	kBUTTON_DOWN_BIT = 4,
+	kBUTTON_UP_BIT = 8,
+	kBUTTON_ATTACK_BIT = 16,
+	kBUTTON_SPECIAL_BIT = 32,

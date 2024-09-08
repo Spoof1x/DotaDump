@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeNodeReverseOffset_t (size: 0x10 bytes, project "physicslib", binding @ vphysics2.dll + 0x392f40, scope "vphysics2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0x12d510"
+
+-----members of class FeNodeReverseOffset_t-----
+	Vector vOffset(offset 0x0, size 0xc, align 0x4)
+	uint16 nBoneCtrl(offset 0xc, size 0x2, align 0x2)
+	uint16 nTargetNode(offset 0xe, size 0x2, align 0x2)
+

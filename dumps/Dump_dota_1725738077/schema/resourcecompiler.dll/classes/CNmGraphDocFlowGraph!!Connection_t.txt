@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphDocFlowGraph::Connection_t (size: 0x50 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23df750, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x4e2cb0"
+
+-----members of class CNmGraphDocFlowGraph::Connection_t-----
+	V_uuid_t m_ID(offset 0x0, size 0x10, align 0x4)
+	V_uuid_t m_fromNodeID(offset 0x10, size 0x10, align 0x4)
+	V_uuid_t m_outputPinID(offset 0x20, size 0x10, align 0x4)
+	V_uuid_t m_toNodeID(offset 0x30, size 0x10, align 0x4)
+	V_uuid_t m_inputPinID(offset 0x40, size 0x10, align 0x4)
+

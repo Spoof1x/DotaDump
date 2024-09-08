@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class IKSolverSettings_t (size: 0x8 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2434730, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class IKSolverSettings_t-----
+	IKSolverType m_SolverType(offset 0x0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Solver Type"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	int32 m_nNumIterations(offset 0x4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Num Iterations "
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x11ae3a0"
+

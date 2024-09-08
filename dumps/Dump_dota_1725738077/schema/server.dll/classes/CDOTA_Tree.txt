@@ -1,0 +1,28 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTA_Tree (size: 0x20 bytes, project "server", binding @ server.dll + 0x3a16f30, scope "!GlobalTypes") extends CObstructionObject
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CObstructionObject (size: 0x18 bytes, project "server", binding @ server.dll + 0x3ab0020, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	
+	-----members of class CObstructionObject-----
+		uint8_t[16] unaccounted(offset 0x0)
+		int32 m_nObstructionProperties(offset 0x10, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x14)
+	
+
+-----static members of class CDOTA_Tree-----
+	static int32 s_nNextChangeToken(server.dll + 0x3a18120)
+
+-----members of class CDOTA_Tree-----
+	bool m_bStanding(offset 0x18, size 0x1, align 0x1)
+	bool m_bSpecialConsume(offset 0x19, size 0x1, align 0x1)
+	bool m_bSpecialToxic(offset 0x1a, size 0x1, align 0x1)
+	bool m_bSpecialPathing(offset 0x1b, size 0x1, align 0x1)
+	uint32 m_unOccluderID(offset 0x1c, size 0x4, align 0x4)
+

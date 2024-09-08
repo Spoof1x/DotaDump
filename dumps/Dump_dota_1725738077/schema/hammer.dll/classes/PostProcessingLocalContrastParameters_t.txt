@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PostProcessingLocalContrastParameters_t (size: 0x14 bytes, project "vmf_to_vmap", binding @ hammer.dll + 0x1de83c0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: hammer.dll + 0x11bc450"
+
+-----members of class PostProcessingLocalContrastParameters_t-----
+	float32 m_flLocalContrastStrength(offset 0x0, size 0x4, align 0x4)
+	float32 m_flLocalContrastEdgeStrength(offset 0x4, size 0x4, align 0x4)
+	float32 m_flLocalContrastVignetteStart(offset 0x8, size 0x4, align 0x4)
+	float32 m_flLocalContrastVignetteEnd(offset 0xc, size 0x4, align 0x4)
+	float32 m_flLocalContrastVignetteBlur(offset 0x10, size 0x4, align 0x4)
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootStride (size: 0x58 bytes, project "modellib", binding @ vphysics2.dll + 0x38d030, scope "vphysics2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0xd28c0"
+
+-----members of class CFootStride-----
+	CFootCycleDefinition m_definition(offset 0x0, size 0x3c, align 0x4)
+	uint8_t[4] unaccounted(offset 0x3c)
+	CFootTrajectories m_trajectories(offset 0x40, size 0x18, align 0x8)
+

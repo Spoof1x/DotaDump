@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class GameTick_t (size: 0x4 bytes, project "entity2", binding @ hammer.dll + 0x1d6a8f0, scope "hammer.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class GameTick_t-----
+	static bool IS_TYPESAFE_INTEGER(hammer.dll + 0x135566b)
+	static GameTick_t Zero(hammer.dll + 0x135566c)
+
+-----members of class GameTick_t-----
+	int32 m_Value(offset 0x0, size 0x4, align 0x4)
+

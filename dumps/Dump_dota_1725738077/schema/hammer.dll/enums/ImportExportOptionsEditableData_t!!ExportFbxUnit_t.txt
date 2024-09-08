@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ImportExportOptionsEditableData_t::ExportFbxUnit_t(size: 4 bytes, 2 values, project "hammer", binding @ hammer.dll + 0x1e0a1a0):
+	FBX_UNIT_CENTIMETERS = 0,
+		^MPropertyFriendlyName "Centimeters"
+	FBX_UNIT_INCHES = 1,
+		^MPropertyFriendlyName "Inches"

@@ -1,0 +1,17 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CFontManager (hierarchy CFontManager: CTier2AppSystem<class IFontManager,0>, CTier1AppSystem<class IFontManager,0>, CTier0AppSystem<class IFontManager,0>, CBaseAppSystem<class IFontManager>, IFontManager, IAppSystem)
+	materialsystem2.dll + 0x112340
+CMaterialSystem2 (hierarchy CMaterialSystem2: CTier2AppSystem<class IMaterialSystem2,0>, CTier1AppSystem<class IMaterialSystem2,0>, CTier0AppSystem<class IMaterialSystem2,0>, CBaseAppSystem<class IMaterialSystem2>, IMaterialSystem2, IAppSystem)
+	materialsystem2.dll + 0x111920
+CMaterialSystem2Utils (hierarchy CMaterialSystem2Utils: CTier2AppSystem<class IMaterialSystem2Utils,0>, CTier1AppSystem<class IMaterialSystem2Utils,0>, CTier0AppSystem<class IMaterialSystem2Utils,0>, CBaseAppSystem<class IMaterialSystem2Utils>, IMaterialSystem2Utils, IAppSystem)
+	materialsystem2.dll + 0x10d4d0
+CPostProcessingSystem (hierarchy CPostProcessingSystem: CTier2AppSystem<class IPostProcessingSystem,0>, CTier1AppSystem<class IPostProcessingSystem,0>, CTier0AppSystem<class IPostProcessingSystem,0>, CBaseAppSystem<class IPostProcessingSystem>, IPostProcessingSystem, IAppSystem)
+	materialsystem2.dll + 0x10d3e0
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	materialsystem2.dll + 0x1103f0
+CSchemaRegistration_materialsystem2 (hierarchy CSchemaRegistration_materialsystem2: CSchemaRegistration)
+	materialsystem2.dll + 0x10d5f0
+CTextLayout (hierarchy CTextLayout: CTier2AppSystem<class ITextLayout,0>, CTier1AppSystem<class ITextLayout,0>, CTier0AppSystem<class ITextLayout,0>, CBaseAppSystem<class ITextLayout>, ITextLayout, IAppSystem)
+	materialsystem2.dll + 0x10d460
+CTextureDictionary (hierarchy CTextureDictionary: ITextureDictionary)
+	materialsystem2.dll + 0x1098c0

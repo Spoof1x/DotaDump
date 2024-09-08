@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ChoreoLookAtMode_t(size: 4 bytes, 4 values, project "server", binding @ server.dll + 0x38f0850):
+	eInvalid = -1,
+		^MPropertySuppressEnumerator
+	eChest = 0,
+		^MPropertyFriendlyName "Chest"
+	eHead = 1,
+		^MPropertyFriendlyName "Head"
+	eEyesOnly = 2,
+		^MPropertyFriendlyName "Eyes"

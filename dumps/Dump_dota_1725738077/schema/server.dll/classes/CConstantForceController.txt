@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CConstantForceController (size: 0x40 bytes, project "server", binding @ server.dll + 0x3a607c0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class CConstantForceController-----
+	uint8_t[12] unaccounted(offset 0x0)
+	Vector m_linear(offset 0xc, size 0xc, align 0x4)
+	RotationVector m_angular(offset 0x18, size 0xc, align 0x4)
+	Vector m_linearSave(offset 0x24, size 0xc, align 0x4)
+	RotationVector m_angularSave(offset 0x30, size 0xc, align 0x4)
+	uint8_t[4] unaccounted(offset 0x3c)
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EventSimpleLoopFrameUpdate_t (size: 0x30 bytes, project "engine2", binding @ engine2.dll + 0x534280, scope "engine2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+-----members of class EventSimpleLoopFrameUpdate_t-----
+	EngineLoopState_t m_LoopState(offset 0x0, size 0x28, align 0x0)
+	float32 m_flRealTime(offset 0x28, size 0x4, align 0x4)
+	float32 m_flFrameTime(offset 0x2c, size 0x4, align 0x4)
+

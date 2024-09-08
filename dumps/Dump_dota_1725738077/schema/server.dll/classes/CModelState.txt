@@ -1,0 +1,33 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CModelState (size: 0x230 bytes, project "server", binding @ server.dll + 0x38d1580, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_hModel HModelStrong"
+^MNetworkVarNames "m_bClientClothCreationSuppressed bool"
+^MNetworkVarNames "m_MeshGroupMask MeshGroupMask_t"
+^MNetworkVarNames "m_nIdealMotionType int8"
+
+-----members of class CModelState-----
+	uint8_t[160] unaccounted(offset 0x0)
+	CStrongHandle< InfoForResourceTypeCModel > m_hModel(offset 0xa0, size 0x8, align 0x8)
+		^MNetworkEnable
+		^MNetworkChangeCallback "skeletonModelChanged"
+	CUtlSymbolLarge m_ModelName(offset 0xa8, size 0x8, align 0x8)
+		^MNetworkDisable
+	uint8_t[56] unaccounted(offset 0xb0)
+	bool m_bClientClothCreationSuppressed(offset 0xe8, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[175] unaccounted(offset 0xe9)
+	uint64 m_MeshGroupMask(offset 0x198, size 0x8, align 0x8)
+		^MNetworkEnable
+		^MNetworkChangeCallback "skeletonMeshGroupMaskChanged"
+	uint8_t[122] unaccounted(offset 0x1a0)
+	int8 m_nIdealMotionType(offset 0x21a, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "skeletonMotionTypeChanged"
+	int8 m_nForceLOD(offset 0x21b, size 0x1, align 0x1)
+		^MNetworkDisable
+	int8 m_nClothUpdateFlags(offset 0x21c, size 0x1, align 0x1)
+		^MNetworkDisable
+	uint8_t[19] unaccounted(offset 0x21d)
+

@@ -1,0 +1,20 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ActiveModelConfig_t (size: 0x68 bytes, project "server", binding @ server.dll + 0x38c8580, scope "server.dll")
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_Handle ModelConfigHandle_t"
+^MNetworkVarNames "m_Name string_t"
+^MNetworkVarNames "m_AssociatedEntities CHandle< CBaseModelEntity >"
+^MNetworkVarNames "m_AssociatedEntityNames string_t"
+
+-----members of class ActiveModelConfig_t-----
+	uint8_t[40] unaccounted(offset 0x0)
+	ModelConfigHandle_t m_Handle(offset 0x28, size 0x4, align 0x0)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x2c)
+	CUtlSymbolLarge m_Name(offset 0x30, size 0x8, align 0x8)
+		^MNetworkEnable
+	CNetworkUtlVectorBase< CHandle< CBaseModelEntity > > m_AssociatedEntities(offset 0x38, size 0x18, align 0x8)
+		^MNetworkEnable
+	CNetworkUtlVectorBase< CUtlSymbolLarge > m_AssociatedEntityNames(offset 0x50, size 0x18, align 0x8)
+		^MNetworkEnable
+

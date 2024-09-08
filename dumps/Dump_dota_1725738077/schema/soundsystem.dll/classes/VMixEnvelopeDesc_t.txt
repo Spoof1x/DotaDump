@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VMixEnvelopeDesc_t (size: 0xc bytes, project "soundsystem_lowlevel", binding @ soundsystem.dll + 0x399d70, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x22dab0"
+
+-----members of class VMixEnvelopeDesc_t-----
+	float32 m_flAttackTimeMS(offset 0x0, size 0x4, align 0x4)
+	float32 m_flHoldTimeMS(offset 0x4, size 0x4, align 0x4)
+	float32 m_flReleaseTimeMS(offset 0x8, size 0x4, align 0x4)
+

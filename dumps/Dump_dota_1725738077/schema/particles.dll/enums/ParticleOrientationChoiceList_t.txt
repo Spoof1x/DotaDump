@@ -1,0 +1,14 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleOrientationChoiceList_t(size: 4 bytes, 6 values, project "particles", binding @ particles.dll + 0x5446b0):
+	PARTICLE_ORIENTATION_SCREEN_ALIGNED = 0,
+		^MPropertyFriendlyName "Screen Align"
+	PARTICLE_ORIENTATION_SCREEN_Z_ALIGNED = 1,
+		^MPropertyFriendlyName "Screen-Z Align"
+	PARTICLE_ORIENTATION_WORLD_Z_ALIGNED = 2,
+		^MPropertyFriendlyName "World-Z Align"
+	PARTICLE_ORIENTATION_ALIGN_TO_PARTICLE_NORMAL = 3,
+		^MPropertyFriendlyName "Particle Normal Align"
+	PARTICLE_ORIENTATION_SCREENALIGN_TO_PARTICLE_NORMAL = 4,
+		^MPropertyFriendlyName "Screen & Particle Normal Align"
+	PARTICLE_ORIENTATION_FULL_3AXIS_ROTATION = 5,
+		^MPropertyFriendlyName "Full 3-Axis Rotation"

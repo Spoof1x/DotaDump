@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum filter_t(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x38cc470):
+	FILTER_AND = 0,
+	FILTER_OR = 1,

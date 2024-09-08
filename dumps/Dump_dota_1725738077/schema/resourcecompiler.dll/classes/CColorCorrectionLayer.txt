@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CColorCorrectionLayer (size: 0x28 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24f0ac0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+
+-----members of class CColorCorrectionLayer-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+	int32 m_nOpacityPercent(offset 0x10, size 0x4, align 0x4)
+	bool m_bVisible(offset 0x14, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x15)
+	CLayerMask* m_pLayerMask(offset 0x18, size 0x8, align 0x8)
+	uint8_t[8] unaccounted(offset 0x20)
+

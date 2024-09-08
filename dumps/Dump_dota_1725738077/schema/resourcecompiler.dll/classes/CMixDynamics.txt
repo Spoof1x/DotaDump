@@ -1,0 +1,68 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMixDynamics (size: 0x58 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bdee0, scope "!GlobalTypes") extends CMixPropertyBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x15bad40"
+^MPropertyFriendlyName "VMix Dynamics Audio Node"
+^MPropertyDescription "A dynamics multiprocessor.  This is a single unit that switches between being a noise gate, compressor, or limiter as the signal moves through its dynamic range.  Useful in some specific cases, e.g. gate+compress or gate+limit usually.  Other cases may be more suited to using multiple compressors in series."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMixPropertyBase (size: 0x20 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bbaa0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x157f160"
+	
+	-----members of class CMixPropertyBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+			^MPropertyDescription "Node name"
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "1"
+		CUtlString m_Comment(offset 0x10, size 0x8, align 0x8)
+			^MPropertyDescription "Description of how this is used  the graph for people reading the graph"
+			^MPropertySortPriority "-2"
+		bool m_bActive(offset 0x18, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bSolo(offset 0x19, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bEditProperties(offset 0x1a, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		uint8_t[5] unaccounted(offset 0x1b)
+	
+
+-----members of class CMixDynamics-----
+	int32 m_nChannels(offset 0x20, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Channels"
+		^MPropertyAttributeChoiceName "processor_channels"
+	float32 m_fldbNoiseGateThreshold(offset 0x24, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Noise Gate Threshold(dB)"
+	float32 m_fldbGain(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Gain (dB)"
+	float32 m_fldbCompressionThreshold(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Compression Threshold(dB)"
+	float32 m_fldbLimiterThreshold(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Limiter Threshold(dB)"
+	float32 m_fldbKneeWidth(offset 0x34, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Knee width (dB) 0 = hard knee"
+	float32 m_flRatio(offset 0x38, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Compression Ratio"
+	float32 m_flLimiterRatio(offset 0x3c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Limiter Ratio"
+	float32 m_flAttackTime(offset 0x40, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Attack time (ms)"
+	float32 m_flReleaseTime(offset 0x44, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Release time (ms)"
+	float32 m_flRMSTime(offset 0x48, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Threshold detection time (ms)"
+	float32 m_flWetMix(offset 0x4c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Dry/Wet"
+	bool m_bPeakMode(offset 0x50, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Peak Mode"
+	uint8_t[3] unaccounted(offset 0x51)
+	int32 m_nUIPage(offset 0x54, size 0x4, align 0x4)
+

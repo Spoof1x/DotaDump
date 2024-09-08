@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CStateNodeTransitionData (size: 0x1c bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242b460, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x74dde0"
+
+-----members of class CStateNodeTransitionData-----
+	CBlendCurve m_curve(offset 0x0, size 0x8, align 0x4)
+	CAnimValue< float32 > m_blendDuration(offset 0x8, size 0x8, align 0x4)
+	CAnimValue< float32 > m_resetCycleValue(offset 0x10, size 0x8, align 0x4)
+	bitfield {
+		uint8_t m_bReset : 1(offset 0x18, mask = 0x1)
+		uint8_t m_resetCycleOption : 3(offset 0x18, mask = 0xe)
+	}
+	uint8_t[3] unaccounted(offset 0x19)
+

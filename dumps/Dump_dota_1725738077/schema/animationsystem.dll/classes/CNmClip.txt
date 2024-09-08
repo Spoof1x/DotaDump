@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmClip (size: 0x1b0 bytes, project "animlib", binding @ animationsystem.dll + 0x5dcea0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x319b70"
+
+-----members of class CNmClip-----
+	CStrongHandle< InfoForResourceTypeCNmSkeleton > m_skeleton(offset 0x0, size 0x8, align 0x8)
+	uint32 m_nNumFrames(offset 0x8, size 0x4, align 0x4)
+	float32 m_flDuration(offset 0xc, size 0x4, align 0x4)
+	CUtlBinaryBlock m_compressedPoseData(offset 0x10, size 0x18, align 0x8)
+	CUtlVector< NmCompressionSettings_t > m_trackCompressionSettings(offset 0x28, size 0x18, align 0x8)
+	CUtlVector< uint32 > m_compressedPoseOffsets(offset 0x40, size 0x18, align 0x8)
+	uint8_t[72] unaccounted(offset 0x58)
+	CNmSyncTrack m_syncTrack(offset 0xa0, size 0xb0, align 0x8)
+	CNmRootMotionData m_rootMotion(offset 0x150, size 0x50, align 0x10)
+	bool m_bIsAdditive(offset 0x1a0, size 0x1, align 0x1)
+	uint8_t[15] unaccounted(offset 0x1a1)
+

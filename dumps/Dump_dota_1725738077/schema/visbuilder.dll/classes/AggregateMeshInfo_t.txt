@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AggregateMeshInfo_t (size: 0x18 bytes, project "visbuilder", binding @ visbuilder.dll + 0x1879c0, scope "visbuilder.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: visbuilder.dll + 0x44a20"
+
+-----members of class AggregateMeshInfo_t-----
+	uint32 m_nVisClusterMemberOffset(offset 0x0, size 0x4, align 0x4)
+	uint8 m_nVisClusterMemberCount(offset 0x4, size 0x1, align 0x1)
+	bool m_bHasTransform(offset 0x5, size 0x1, align 0x1)
+	int16 m_nDrawCallIndex(offset 0x6, size 0x2, align 0x2)
+	int16 m_nLODSetupIndex(offset 0x8, size 0x2, align 0x2)
+	uint8 m_nLODGroupMask(offset 0xa, size 0x1, align 0x1)
+	Color m_vTintColor(offset 0xb, size 0x4, align 0x1)
+	uint8_t[1] unaccounted(offset 0xf)
+	ObjectTypeFlags_t m_objectFlags(offset 0x10, size 0x4, align 0x4)
+	int32 m_nLightProbeVolumePrecomputedHandshake(offset 0x14, size 0x4, align 0x4)
+

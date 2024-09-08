@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ImportExportOptionsEditableData_t::ExportEncoding_t(size: 4 bytes, 2 values, project "hammer", binding @ hammer.dll + 0x1e0a1f0):
+	EXPORT_ENCODING_TEXT = 0,
+		^MPropertyFriendlyName "Text"
+	EXPORT_ENCODING_BINARY = 1,
+		^MPropertyFriendlyName "Binary"

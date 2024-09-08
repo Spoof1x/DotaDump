@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropParameter (size: 0x10 bytes, project "smartprops", binding @ resourcecompiler.dll + 0x24b51c0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+^MVDataRoot
+^MVDataNodeType "1"
+^MVDataAnonymousNode
+
+-----members of class CSmartPropParameter-----
+	uint8_t[8] unaccounted(offset 0x0)
+	int32 m_nElementID(offset 0x8, size 0x4, align 0x4)
+		^MPropertySuppressField
+		^MVDataUniqueMonotonicInt "_editor/next_element_id"
+	uint8_t[4] unaccounted(offset 0xc)
+

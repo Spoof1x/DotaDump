@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimTagManagerUpdater (size: 0x78 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242d380, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x7695f0"
+
+-----members of class CAnimTagManagerUpdater-----
+	uint8_t[56] unaccounted(offset 0x0)
+	CUtlVector< CSmartPtr< CAnimTagBase > > m_tags(offset 0x38, size 0x18, align 0x8)
+	uint8_t[40] unaccounted(offset 0x50)
+

@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmBlendSpace1D::Point_t (size: 0x20 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23da5b0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x454a50"
+
+-----members of class CNmBlendSpace1D::Point_t-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	float32 m_flValue(offset 0x8, size 0x4, align 0x4)
+	V_uuid_t m_pinID(offset 0xc, size 0x10, align 0x4)
+		^MPropertySuppressField
+	uint8_t[4] unaccounted(offset 0x1c)
+

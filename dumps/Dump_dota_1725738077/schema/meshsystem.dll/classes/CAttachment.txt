@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAttachment (size: 0x90 bytes, project "modellib", binding @ meshsystem.dll + 0x118f70, scope "meshsystem.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x65280"
+
+-----members of class CAttachment-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	CUtlString[3] m_influenceNames(offset 0x8, size 0x18, align 0x8)
+	Quaternion[3] m_vInfluenceRotations(offset 0x20, size 0x30, align 0x10)
+	Vector[3] m_vInfluenceOffsets(offset 0x50, size 0x24, align 0x4)
+	float32[3] m_influenceWeights(offset 0x74, size 0xc, align 0x4)
+	bool[3] m_bInfluenceRootTransform(offset 0x80, size 0x3, align 0x1)
+	uint8 m_nInfluences(offset 0x83, size 0x1, align 0x1)
+	bool m_bIgnoreRotation(offset 0x84, size 0x1, align 0x1)
+	uint8_t[11] unaccounted(offset 0x85)
+

@@ -1,0 +1,9 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EOverworldNodeFlags(size: 4 bytes, 7 values, project "client", binding @ client.dll + 0x48987e0):
+	Premium = 1,
+	MainQuest = 2,
+	SideQuest = 4,
+	DelayStyles = 8,
+	Shortcut = 16,
+	InvisibleUntilNearby = 32,
+	Secret = 64,

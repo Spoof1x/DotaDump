@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SolveIKChainAnimNodeSettingSource(size: 4 bytes, 2 values, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e7ef0):
+	SOLVEIKCHAINANIMNODESETTINGSOURCE_Default = 0,
+		^MPropertyFriendlyName "Default"
+	SOLVEIKCHAINANIMNODESETTINGSOURCE_Override = 1,
+		^MPropertyFriendlyName "Override"

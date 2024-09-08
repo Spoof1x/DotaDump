@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ConstantInfo_t (size: 0x10 bytes, project "mathlib_extended", binding @ server.dll + 0x3b23060, scope "server.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: server.dll + 0x1f443c0"
+
+-----members of class ConstantInfo_t-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	CUtlStringToken m_nameToken(offset 0x8, size 0x4, align 0x4)
+	float32 m_flValue(offset 0xc, size 0x4, align 0x4)
+

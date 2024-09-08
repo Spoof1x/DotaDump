@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ChoiceMethod(size: 4 bytes, 4 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x242a3c0):
+	WeightedRandom = 0,
+	WeightedRandomNoRepeat = 1,
+	Iterate = 2,
+	IterateRandom = 3,

@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ModifyDamageReturn_t(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x46bb7f0):
+	CONTINUE_TO_APPLY_DAMAGE = 0,
+	ABORT_DO_NOT_APPLY_DAMAGE = 1,

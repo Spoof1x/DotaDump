@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDampedValueUpdateItem (size: 0x20 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5aaf40, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1afe70"
+
+-----members of class CDampedValueUpdateItem-----
+	CAnimInputDamping m_damping(offset 0x0, size 0x10, align 0x8)
+	uint8_t[8] unaccounted(offset 0x10)
+	CAnimParamHandle m_hParamIn(offset 0x18, size 0x2, align 0x1)
+	CAnimParamHandle m_hParamOut(offset 0x1a, size 0x2, align 0x1)
+	uint8_t[4] unaccounted(offset 0x1c)
+

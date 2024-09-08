@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleLightTypeChoiceList_t(size: 4 bytes, 4 values, project "particles", binding @ particles.dll + 0x5444b0):
+	PARTICLE_LIGHT_TYPE_POINT = 0,
+		^MPropertyFriendlyName "Omni Light"
+	PARTICLE_LIGHT_TYPE_SPOT = 1,
+		^MPropertyFriendlyName "Spot Light"
+	PARTICLE_LIGHT_TYPE_FX = 2,
+		^MPropertyFriendlyName "FX Light"
+	PARTICLE_LIGHT_TYPE_CAPSULE = 3,
+		^MPropertyFriendlyName "Capsule Light"

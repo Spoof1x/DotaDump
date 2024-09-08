@@ -1,0 +1,10 @@
+CSprayedDataPreset
+CSprayedDataPresetElement
+CSprayedDataSettingsBlock
+ColorOptionsEditableData_t
+GeneralOptionsEditableData_t
+ImportExportOptionsEditableData_t
+TexturesOptionsEditableData_t
+ToolsOptionsEditableData_t
+View2DOptionsEditableData_t
+View3DOptionsEditableData_t

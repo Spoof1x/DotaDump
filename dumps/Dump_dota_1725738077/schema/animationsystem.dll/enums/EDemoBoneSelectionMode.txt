@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EDemoBoneSelectionMode(size: 4 bytes, 2 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a0fb0):
+	CaptureAllBones = 0,
+		^MPropertyFriendlyName "Capture All Bones"
+	CaptureSelectedBones = 1,
+		^MPropertyFriendlyName "Capture Selected Bones"

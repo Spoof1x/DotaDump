@@ -1,0 +1,7 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CEmptySequence (hierarchy CEmptySequence: ISequence, IBaseSequence)
+	vphysics2.dll + 0x3861b8
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	vphysics2.dll + 0x3e3e20
+CSchemaRegistration_modellib (hierarchy CSchemaRegistration_modellib: CSchemaRegistration)
+	vphysics2.dll + 0x3861d8

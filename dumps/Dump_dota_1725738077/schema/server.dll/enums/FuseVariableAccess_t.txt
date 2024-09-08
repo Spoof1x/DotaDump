@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum FuseVariableAccess_t(size: 1 bytes, 2 values, project "mathlib_extended", binding @ server.dll + 0x3b22e30):
+	WRITABLE = 0,
+	READ_ONLY = 1,

@@ -1,0 +1,20 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum VectorExpressionType_t(size: 4 bytes, 9 values, project "particles", binding @ particles.dll + 0x519040):
+	VECTOR_EXPRESSION_UNINITIALIZED = -1,
+		^MPropertyFriendlyName "Uninitialized"
+	VECTOR_EXPRESSION_ADD = 0,
+		^MPropertyFriendlyName "Add"
+	VECTOR_EXPRESSION_SUBTRACT = 1,
+		^MPropertyFriendlyName "Subtract"
+	VECTOR_EXPRESSION_MUL = 2,
+		^MPropertyFriendlyName "Multiply"
+	VECTOR_EXPRESSION_DIVIDE = 3,
+		^MPropertyFriendlyName "Divide"
+	VECTOR_EXPRESSION_INPUT_1 = 4,
+		^MPropertyFriendlyName "Input 1"
+	VECTOR_EXPRESSION_MIN = 5,
+		^MPropertyFriendlyName "Min"
+	VECTOR_EXPRESSION_MAX = 6,
+		^MPropertyFriendlyName "Max"
+	VECTOR_EXPRESSION_CROSSPRODUCT = 7,
+		^MPropertyFriendlyName "Cross Product"

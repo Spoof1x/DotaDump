@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum modifierremove(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x39f3bf0):
+	DOTA_BUFF_REMOVE_ALL = 0,
+	DOTA_BUFF_REMOVE_ENEMY = 1,
+	DOTA_BUFF_REMOVE_ALLY = 2,

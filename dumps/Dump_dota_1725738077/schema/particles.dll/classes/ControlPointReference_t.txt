@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ControlPointReference_t (size: 0x14 bytes, project "particles", binding @ particles.dll + 0x51a910, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x80fb0"
+
+-----members of class ControlPointReference_t-----
+	int32 m_controlPointNameString(offset 0x0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Control point"
+	Vector m_vOffsetFromControlPoint(offset 0x4, size 0xc, align 0x4)
+		^MPropertyFriendlyName "Offset from control point"
+	bool m_bOffsetInLocalSpace(offset 0x10, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Use local space offset"
+	uint8_t[3] unaccounted(offset 0x11)
+

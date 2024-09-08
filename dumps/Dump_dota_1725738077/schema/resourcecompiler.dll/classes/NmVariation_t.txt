@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class NmVariation_t (size: 0xf0 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23df970, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x4e6af0"
+
+-----static members of class NmVariation_t-----
+	static CGlobalSymbol s_defaultVariationID(resourcecompiler.dll + 0x264b028)
+
+-----members of class NmVariation_t-----
+	CGlobalSymbol m_ID(offset 0x0, size 0x8, align 0x8)
+	CGlobalSymbol m_parentID(offset 0x8, size 0x8, align 0x8)
+	CResourceName m_skeleton(offset 0x10, size 0xe0, align 0x8)
+

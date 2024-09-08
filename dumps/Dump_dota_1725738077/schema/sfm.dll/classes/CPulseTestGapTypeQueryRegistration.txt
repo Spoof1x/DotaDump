@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseTestGapTypeQueryRegistration (size: 0x8 bytes, project "pulse_runtime_lib", binding @ sfm.dll + 0xa03730, scope "sfm.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MGapTypeQueriesForScopeSingleton "ptr: sfm.dll + 0xa037a0"
+
+-----static members of class CPulseTestGapTypeQueryRegistration-----
+	static CPulseTestGapTypeQueryRegistration s_Instance(sfm.dll + 0xa037a0)
+
+-----members of class CPulseTestGapTypeQueryRegistration-----
+	uint8_t[8] unaccounted(offset 0x0)
+

@@ -1,0 +1,3 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SVC_Messages_LowFrequency(size: 4 bytes, 1 values, project "client", binding @ client.dll + 0x4703700):
+	svc_dummy = 600,

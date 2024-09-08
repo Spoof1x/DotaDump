@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ECustomGameWhitelistState(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x38d4ff0):
+	CUSTOM_GAME_WHITELIST_STATE_UNKNOWN = 0,
+	CUSTOM_GAME_WHITELIST_STATE_APPROVED = 1,
+	CUSTOM_GAME_WHITELIST_STATE_REJECTED = 2,

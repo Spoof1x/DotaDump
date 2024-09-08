@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseTestFuncs_LibraryA (size: 0x1 bytes, project "pulse_system", binding @ pulse_system.dll + 0x127e70, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MPulseLibraryBindings "ptr: pulse_system.dll + 0x129ce0"
+^MPropertyDescription "Library for interacting with a few global test values."
+
+-----members of class CPulseTestFuncs_LibraryA-----
+	uint8_t[1] unaccounted(offset 0x0)
+

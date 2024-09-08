@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmoothFunc (size: 0x20 bytes, project "server", binding @ server.dll + 0x38ce760, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class CSmoothFunc-----
+	uint8_t[8] unaccounted(offset 0x0)
+	float32 m_flSmoothAmplitude(offset 0x8, size 0x4, align 0x4)
+	float32 m_flSmoothBias(offset 0xc, size 0x4, align 0x4)
+	float32 m_flSmoothDuration(offset 0x10, size 0x4, align 0x4)
+	float32 m_flSmoothRemainingTime(offset 0x14, size 0x4, align 0x4)
+	int32 m_nSmoothDir(offset 0x18, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1c)
+

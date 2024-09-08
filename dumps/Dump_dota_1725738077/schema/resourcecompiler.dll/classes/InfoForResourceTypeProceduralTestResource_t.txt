@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class InfoForResourceTypeProceduralTestResource_t (size: 0x1 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24f0d60, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MResourceTypeForInfoType "vptest"
+
+-----members of class InfoForResourceTypeProceduralTestResource_t-----
+	uint8_t[1] unaccounted(offset 0x0)
+

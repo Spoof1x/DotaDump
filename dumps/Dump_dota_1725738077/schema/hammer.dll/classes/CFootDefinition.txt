@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootDefinition (size: 0x40 bytes, project "modellib", binding @ hammer.dll + 0x1dada90, scope "hammer.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: hammer.dll + 0xd76d10"
+
+-----members of class CFootDefinition-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	CUtlString m_ankleBoneName(offset 0x8, size 0x8, align 0x8)
+	CUtlString m_toeBoneName(offset 0x10, size 0x8, align 0x8)
+	Vector m_vBallOffset(offset 0x18, size 0xc, align 0x4)
+	Vector m_vHeelOffset(offset 0x24, size 0xc, align 0x4)
+	float32 m_flFootLength(offset 0x30, size 0x4, align 0x4)
+	float32 m_flBindPoseDirectionMS(offset 0x34, size 0x4, align 0x4)
+	float32 m_flTraceHeight(offset 0x38, size 0x4, align 0x4)
+	float32 m_flTraceRadius(offset 0x3c, size 0x4, align 0x4)
+

@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PhysicsRagdollPose_t (size: 0x48 bytes, project "client", binding @ client.dll + 0x46ba9d0, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MNetworkVarNames "m_Transforms CTransform"
+^MNetworkVarNames "m_hOwner EHANDLE"
+
+-----members of class PhysicsRagdollPose_t-----
+	uint8_t[8] unaccounted(offset 0x0)
+	C_NetworkUtlVectorBase< CTransform > m_Transforms(offset 0x8, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnTransformChanged"
+	CHandle< C_BaseEntity > m_hOwner(offset 0x20, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[36] unaccounted(offset 0x24)
+

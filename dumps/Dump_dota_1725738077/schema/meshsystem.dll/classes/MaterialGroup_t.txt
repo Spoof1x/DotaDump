@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class MaterialGroup_t (size: 0x20 bytes, project "modellib", binding @ meshsystem.dll + 0x116c60, scope "meshsystem.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x48b60"
+
+-----members of class MaterialGroup_t-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	CUtlVector< CStrongHandle< InfoForResourceTypeIMaterial2 > > m_materials(offset 0x8, size 0x18, align 0x8)
+

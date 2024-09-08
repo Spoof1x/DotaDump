@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum Fantasy_Gem_Type(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x46ffbc0):
+	FANTASY_GEM_TYPE_RUBY = 0,
+	FANTASY_GEM_TYPE_SAPPHIRE = 1,
+	FANTASY_GEM_TYPE_EMERALD = 2,

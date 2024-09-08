@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ragdollelement_t (size: 0x28 bytes, project "client", binding @ client.dll + 0x46ba500, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class ragdollelement_t-----
+	Vector originParentSpace(offset 0x0, size 0xc, align 0x4)
+	uint8_t[20] unaccounted(offset 0xc)
+	int32 parentIndex(offset 0x20, size 0x4, align 0x4)
+	float32 m_flRadius(offset 0x24, size 0x4, align 0x4)
+

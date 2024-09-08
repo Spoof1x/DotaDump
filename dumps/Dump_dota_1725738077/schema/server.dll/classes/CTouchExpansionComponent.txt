@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CTouchExpansionComponent (size: 0x50 bytes, project "server", binding @ server.dll + 0x3af6aa0, scope "server.dll") extends CEntityComponent
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CEntityComponent (size: 0x8 bytes, project "entity2", binding @ server.dll + 0x3afbff0, scope "server.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+	
+	-----members of class CEntityComponent-----
+		uint8_t[8] unaccounted(offset 0x0)
+	
+
+-----static members of class CTouchExpansionComponent-----
+	static EntComponentInfo_t s_EntComponentInfo(server.dll + 0x3af6b10)
+	static int32 entity_component_error_class_decl_says_referenced_but_impl_is_contained(server.dll + 0x3f0a39c)
+
+-----members of class CTouchExpansionComponent-----
+	uint8_t[72] unaccounted(offset 0x8)
+

@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CommandToolCommand_t (size: 0x50 bytes, project "server", binding @ server.dll + 0x3a2ab90, scope "server.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: server.dll + 0x13733c0"
+
+-----members of class CommandToolCommand_t-----
+	bool m_bEnabled(offset 0x0, size 0x1, align 0x1)
+	bool m_bOpened(offset 0x1, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x2)
+	uint32 m_InternalId(offset 0x4, size 0x4, align 0x4)
+	CUtlString m_ShortName(offset 0x8, size 0x8, align 0x8)
+	CommandExecMode_t m_ExecMode(offset 0x10, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x14)
+	CUtlString m_SpawnGroup(offset 0x18, size 0x8, align 0x8)
+	float32 m_PeriodicExecDelay(offset 0x20, size 0x4, align 0x4)
+	CommandEntitySpecType_t m_SpecType(offset 0x24, size 0x4, align 0x4)
+	CUtlString m_EntitySpec(offset 0x28, size 0x8, align 0x8)
+	CUtlString m_Commands(offset 0x30, size 0x8, align 0x8)
+	DebugOverlayBits_t m_SetDebugBits(offset 0x38, size 0x8, align 0x8)
+	DebugOverlayBits_t m_ClearDebugBits(offset 0x40, size 0x8, align 0x8)
+	uint8_t[8] unaccounted(offset 0x48)
+

@@ -1,0 +1,63 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMixVocoder (size: 0x48 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24c02e0, scope "!GlobalTypes") extends CMixPropertyBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x15f8a50"
+^MPropertyFriendlyName "VMix Vocoder Audio Node"
+^MPropertyDescription "Applies multi-band modulation to a carrier signal, based on the multi-band envelope of a modulator signal.  Modulation bands can be configured to a certain number of bands or range of frequencies."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMixPropertyBase (size: 0x20 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bbaa0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x157f160"
+	
+	-----members of class CMixPropertyBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+			^MPropertyDescription "Node name"
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "1"
+		CUtlString m_Comment(offset 0x10, size 0x8, align 0x8)
+			^MPropertyDescription "Description of how this is used  the graph for people reading the graph"
+			^MPropertySortPriority "-2"
+		bool m_bActive(offset 0x18, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bSolo(offset 0x19, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bEditProperties(offset 0x1a, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		uint8_t[5] unaccounted(offset 0x1b)
+	
+
+-----members of class CMixVocoder-----
+	int32 m_nBandCount(offset 0x20, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Vocoder Band Count"
+	float32 m_flBandwidth(offset 0x24, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Bandwidth"
+		^MPropertyAttributeRange "0.1 3.0"
+	float32 m_fldBModGain(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "dB gain for modulation signal"
+		^MPropertyAttributeRange "-12 12"
+	float32 m_flAttackTime(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Attack time (ms)"
+	float32 m_flReleaseTime(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Release time (ms)"
+	float32 m_flFreqRangeStart(offset 0x34, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Frequency Start"
+		^MPropertyAttributeRange "0 11025"
+	float32 m_flFreqRangeEnd(offset 0x38, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Frequency End"
+		^MPropertyAttributeRange "100 22050"
+	float32 m_fldBUnvoicedGain(offset 0x3c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Gain of Unvoiced"
+		^MPropertyAttributeRange "-12 12"
+	int32 m_nDebugBand(offset 0x40, size 0x4, align 0x4)
+	bool m_bPeakMode(offset 0x44, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x45)
+

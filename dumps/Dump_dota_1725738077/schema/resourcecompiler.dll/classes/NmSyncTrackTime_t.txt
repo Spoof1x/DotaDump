@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class NmSyncTrackTime_t (size: 0x8 bytes, project "animlib", binding @ resourcecompiler.dll + 0x244ccc0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x87cdd0"
+
+-----members of class NmSyncTrackTime_t-----
+	int32 m_nEventIdx(offset 0x0, size 0x4, align 0x4)
+	NmPercent_t m_percentageThrough(offset 0x4, size 0x4, align 0x4)
+

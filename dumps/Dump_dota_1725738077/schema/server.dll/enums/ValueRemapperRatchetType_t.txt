@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ValueRemapperRatchetType_t(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x3a70c90):
+	RatchetType_Absolute = 0,
+	RatchetType_EachEngage = 1,

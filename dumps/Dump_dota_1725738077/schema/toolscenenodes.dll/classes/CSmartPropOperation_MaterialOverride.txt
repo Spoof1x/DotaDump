@@ -1,0 +1,49 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_MaterialOverride (size: 0xa8 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfddb0, scope "toolscenenodes.dll") extends CSmartPropOperation
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x6a2090"
+^MPropertyFriendlyName "Material Override"
+^MPropertyDescription "Specifies a table of material replacements to apply to all following models. Mapping goes from the material specified by the model (including material group selection) to the replacement material. Previous material overrides are not considered when determining the base material."
+^MVDataClassGroup "Material"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbf9bc0, scope "toolscenenodes.dll") extends CSmartPropModifier
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfac80, scope "toolscenenodes.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+		^MVDataBase
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		
+		-----members of class CSmartPropModifier-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+				^MVDataEnableKey
+			uint8_t[8] unaccounted(offset 0x48)
+		
+	
+	-----members of class CSmartPropOperation-----
+		<no members>
+	
+
+-----members of class CSmartPropOperation_MaterialOverride-----
+	CSmartPropAttributeBool m_bClearCurrentOverrides(offset 0x50, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Clear Active Overrides"
+		^MPropertyDescription "If enabled, clear any previous material overrides, so that only the material replacements specified in this table will be active."
+	CUtlVector< CSmartPropMaterialReplacement > m_MaterialReplacements(offset 0x90, size 0x18, align 0x8)
+		^MPropertyAutoExpandSelf
+		^MPropertyFriendlyName "Material Replacements"
+		^MPropertyDescription "Table specifying pairs of existing materials and the material to replace them with."
+

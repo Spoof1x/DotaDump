@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class IKTargetSettings_t (size: 0x28 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a75c0, scope "!GlobalTypes")
+
+-----members of class IKTargetSettings_t-----
+	IKTargetSource m_TargetSource(offset 0x0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Target Source"
+		^MPropertyAttrChangeCallback "func: animationsystem.dll + 0x90eb0"
+	uint8_t[4] unaccounted(offset 0x4)
+	IKBoneNameAndIndex_t m_Bone(offset 0x8, size 0x10, align 0x0)
+		^MPropertyFriendlyName "Bone"
+		^MPropertyAttrStateCallback "func: animationsystem.dll + 0x3cbc90"
+	AnimParamID m_AnimgraphParameterNamePosition(offset 0x18, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Animgraph Position Parameter"
+		^MPropertyAttributeChoiceName "VectorParameter"
+		^MPropertyAttrStateCallback "func: animationsystem.dll + 0x3cbc80"
+	AnimParamID m_AnimgraphParameterNameOrientation(offset 0x1c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Animgraph Orientation Parameter"
+		^MPropertyAttributeChoiceName "QuaternionParameter"
+		^MPropertyAttrStateCallback "func: animationsystem.dll + 0x3cbc80"
+	IKTargetCoordinateSystem m_TargetCoordSystem(offset 0x20, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Target Coords"
+		^MPropertyAttrStateCallback "func: animationsystem.dll + 0x3cbc80"
+	uint8_t[4] unaccounted(offset 0x24)
+

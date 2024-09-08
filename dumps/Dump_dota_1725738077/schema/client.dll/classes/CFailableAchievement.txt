@@ -1,0 +1,51 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFailableAchievement (size: 0xc8 bytes, project "client", binding @ client.dll + 0x469a4a0, scope "!GlobalTypes") extends CBaseAchievement
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBaseAchievement (size: 0xc0 bytes, project "client", binding @ client.dll + 0x469a3e0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	
+	-----members of class CBaseAchievement-----
+		uint8_t[24] unaccounted(offset 0x0)
+		char* m_pszName(offset 0x18, size 0x8, align 0x8)
+		int32 m_iAchievementID(offset 0x20, size 0x4, align 0x4)
+		int32 m_iFlags(offset 0x24, size 0x4, align 0x4)
+		int32 m_iGoal(offset 0x28, size 0x4, align 0x4)
+		int32 m_iProgressMsgIncrement(offset 0x2c, size 0x4, align 0x4)
+		int32 m_iProgressMsgMinimum(offset 0x30, size 0x4, align 0x4)
+		int32 m_iPointValue(offset 0x34, size 0x4, align 0x4)
+		bool m_bHideUntilAchieved(offset 0x38, size 0x1, align 0x1)
+		bool m_bStoreProgressInSteam(offset 0x39, size 0x1, align 0x1)
+		uint8_t[6] unaccounted(offset 0x3a)
+		char* m_pInflictorClassNameFilter(offset 0x40, size 0x8, align 0x8)
+		char* m_pInflictorEntityNameFilter(offset 0x48, size 0x8, align 0x8)
+		char* m_pVictimClassNameFilter(offset 0x50, size 0x8, align 0x8)
+		char* m_pAttackerClassNameFilter(offset 0x58, size 0x8, align 0x8)
+		char* m_pMapNameFilter(offset 0x60, size 0x8, align 0x8)
+		char* m_pGameDirFilter(offset 0x68, size 0x8, align 0x8)
+		char** m_pszComponentNames(offset 0x70, size 0x8, align 0x8)
+		char** m_pszComponentDisplayNames(offset 0x78, size 0x8, align 0x8)
+		int32 m_iNumComponents(offset 0x80, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x84)
+		char* m_pszComponentPrefix(offset 0x88, size 0x8, align 0x8)
+		int32 m_iComponentPrefixLen(offset 0x90, size 0x4, align 0x4)
+		bool m_bAchieved(offset 0x94, size 0x1, align 0x1)
+		uint8_t[3] unaccounted(offset 0x95)
+		int32 m_iCount(offset 0x98, size 0x4, align 0x4)
+		int32 m_iProgressShown(offset 0x9c, size 0x4, align 0x4)
+		uint64 m_iComponentBits(offset 0xa0, size 0x8, align 0x8)
+		uint8_t[8] unaccounted(offset 0xa8)
+		int32 m_nUserSlot(offset 0xb0, size 0x4, align 0x4)
+		int32 m_iDisplayOrder(offset 0xb4, size 0x4, align 0x4)
+		bool m_bShowOnHUD(offset 0xb8, size 0x1, align 0x1)
+		uint8_t[3] unaccounted(offset 0xb9)
+		int32 m_iAssetAwardID(offset 0xbc, size 0x4, align 0x4)
+	
+
+-----members of class CFailableAchievement-----
+	bool m_bActivated(offset 0xc0, size 0x1, align 0x1)
+	bool m_bFailed(offset 0xc1, size 0x1, align 0x1)
+	uint8_t[6] unaccounted(offset 0xc2)
+

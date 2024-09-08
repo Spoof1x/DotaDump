@@ -1,0 +1,55 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMixSplitter (size: 0x40 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bfdd0, scope "!GlobalTypes") extends CMixPropertyBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x15f11a0"
+^MPropertyFriendlyName "VMix Splitter Audio Node"
+^MPropertyDescription "Create multiple copies of a track at different volumes for processing or mixing separately."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMixPropertyBase (size: 0x20 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bbaa0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x157f160"
+	
+	-----members of class CMixPropertyBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+			^MPropertyDescription "Node name"
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "1"
+		CUtlString m_Comment(offset 0x10, size 0x8, align 0x8)
+			^MPropertyDescription "Description of how this is used  the graph for people reading the graph"
+			^MPropertySortPriority "-2"
+		bool m_bActive(offset 0x18, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bSolo(offset 0x19, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bEditProperties(offset 0x1a, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		uint8_t[5] unaccounted(offset 0x1b)
+	
+
+-----members of class CMixSplitter-----
+	float32 m_flVolume1(offset 0x20, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Volume1"
+	float32 m_flVolume2(offset 0x24, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Volume2"
+	float32 m_flVolume3(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Volume3"
+	float32 m_flVolume4(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Volume4"
+	float32 m_flVolume5(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Volume5"
+	float32 m_flVolume6(offset 0x34, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Volume6"
+	float32 m_flVolume7(offset 0x38, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Volume7"
+	float32 m_flVolume8(offset 0x3c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Volume8"
+

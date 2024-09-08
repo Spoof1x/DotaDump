@@ -1,0 +1,44 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_Value_RandomInt (size: 0x48 bytes, project "pulse_runtime_lib", binding @ hammer.dll + 0x1dbeeb0, scope "hammer.dll") extends CPulseCell_BaseValue
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: hammer.dll + 0xf12090"
+^MCellForDomain "BaseDomain"
+^MPulseCellMethodBindings "ptr: hammer.dll + 0x1dbf480"
+^MPulseCellOutflowHookInfo "ptr: hammer.dll + 0x20efbc8"
+^MPropertyFriendlyName "Random Integer"
+^MPropertyDescription "Generate a random integer between min and max (inclusive)"
+^MPulseEditorHeaderIcon "tools/images/pulse_editor/exit_cycle_random.png"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseValue (size: 0x48 bytes, project "pulse_runtime_lib", binding @ hammer.dll + 0x1dbe1e0, scope "hammer.dll") extends CPulseCell_Base
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: hammer.dll + 0xf10570"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_Base (size: 0x48 bytes, project "pulse_runtime_lib", binding @ hammer.dll + 0x1dbece0, scope "hammer.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: hammer.dll + 0xf0f100"
+		
+		-----members of class CPulseCell_Base-----
+			uint8_t[8] unaccounted(offset 0x0)
+			PulseDocNodeID_t m_nEditorNodeID(offset 0x8, size 0x4, align 0x0)
+				^MFgdFromSchemaCompletelySkipField
+			uint8_t[60] unaccounted(offset 0xc)
+		
+	
+	-----members of class CPulseCell_BaseValue-----
+		<no members>
+	
+
+-----members of class CPulseCell_Value_RandomInt-----
+	<no members>
+

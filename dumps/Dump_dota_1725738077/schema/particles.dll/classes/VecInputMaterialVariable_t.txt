@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VecInputMaterialVariable_t (size: 0x680 bytes, project "particles", binding @ particles.dll + 0x53cab0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x263b60"
+
+-----members of class VecInputMaterialVariable_t-----
+	CUtlString m_strVariable(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "material variable"
+	CParticleCollectionVecInput m_vecInput(offset 0x8, size 0x678, align 0x8)
+		^MPropertyFriendlyName "input"
+

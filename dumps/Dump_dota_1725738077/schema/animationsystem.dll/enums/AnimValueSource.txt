@@ -1,0 +1,74 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum AnimValueSource(size: 4 bytes, 36 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a1390):
+	MoveHeading = 0,
+		^MPropertyFriendlyName "Move Heading"
+	MoveSpeed = 1,
+		^MPropertyFriendlyName "Move Speed"
+	ForwardSpeed = 2,
+		^MPropertyFriendlyName "Forward Speed"
+	StrafeSpeed = 3,
+		^MPropertyFriendlyName "Strafe Speed"
+	FacingHeading = 4,
+		^MPropertyFriendlyName "Facing Heading"
+	LookHeading = 5,
+		^MPropertyFriendlyName "Look Heading"
+	LookPitch = 6,
+		^MPropertyFriendlyName "Look Pitch"
+	LookDistance = 7,
+		^MPropertyFriendlyName "Look Distance"
+	Parameter = 8,
+		^MPropertyFriendlyName "Parameter"
+	WayPointHeading = 9,
+		^MPropertyFriendlyName "Waypoint Heading"
+	WayPointDistance = 10,
+		^MPropertyFriendlyName "Waypoint Distance"
+	BoundaryRadius = 11,
+		^MPropertyFriendlyName "Boundary Radius"
+	TargetMoveHeading = 12,
+		^MPropertyFriendlyName "Target Move Heading"
+	TargetMoveSpeed = 13,
+		^MPropertyFriendlyName "Target Move Speed"
+	AccelerationHeading = 14,
+		^MPropertyFriendlyName "Acceleration Heading"
+	AccelerationSpeed = 15,
+		^MPropertyFriendlyName "Acceleration Speed"
+	SlopeHeading = 16,
+		^MPropertyFriendlyName "Slope Heading"
+	SlopeAngle = 17,
+		^MPropertyFriendlyName "Slope Angle"
+	SlopePitch = 18,
+		^MPropertyFriendlyName "Slope Pitch"
+	SlopeYaw = 19,
+		^MPropertyFriendlyName "Slope Yaw"
+	GoalDistance = 20,
+		^MPropertyFriendlyName "Goal Distance"
+	AccelerationLeftRight = 21,
+		^MPropertyFriendlyName "Acceleration Left-Right"
+	AccelerationFrontBack = 22,
+		^MPropertyFriendlyName "Acceleration Forward-Back"
+	RootMotionSpeed = 23,
+		^MPropertyFriendlyName "Root Motion Speed"
+	RootMotionTurnSpeed = 24,
+		^MPropertyFriendlyName "Root Motion Turn Speed"
+	MoveHeadingRelativeToLookHeading = 25,
+		^MPropertyFriendlyName "Move Heading Relative to Look Heading"
+	MaxMoveSpeed = 26,
+		^MPropertyFriendlyName "Max Move Speed"
+	FingerCurl_Thumb = 27,
+		^MPropertyFriendlyName "Finger Curl - Thumb"
+	FingerCurl_Index = 28,
+		^MPropertyFriendlyName "Finger Curl - Index"
+	FingerCurl_Middle = 29,
+		^MPropertyFriendlyName "Finger Curl - Middle"
+	FingerCurl_Ring = 30,
+		^MPropertyFriendlyName "Finger Curl - Ring"
+	FingerCurl_Pinky = 31,
+		^MPropertyFriendlyName "Finger Curl - Pinky"
+	FingerSplay_Thumb_Index = 32,
+		^MPropertyFriendlyName "Finger Splay - Thumb:Index"
+	FingerSplay_Index_Middle = 33,
+		^MPropertyFriendlyName "Finger Splay - Index:Middle"
+	FingerSplay_Middle_Ring = 34,
+		^MPropertyFriendlyName "Finger Splay - Middle:Ring"
+	FingerSplay_Ring_Pinky = 35,
+		^MPropertyFriendlyName "Finger Splay - Ring:Pinky"

@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum eSplinePushType(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x3a86f70):
+	k_eSplinePushAlong = 0,
+		^MPropertyFriendlyName "Along Spline Direction"
+	k_eSplinePushAway = 1,
+		^MPropertyFriendlyName "Away from closest point"
+	k_eSplinePushTowards = 2,
+		^MPropertyFriendlyName "Towards closest point"

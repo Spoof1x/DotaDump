@@ -1,0 +1,581 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABaseGameMode (size: 0x7d8 bytes, project "server", binding @ server.dll + 0x39f8130, scope "server.dll") extends CBaseEntity
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+| SCHEMA_CF1_INFO_TAG_MNetworkNoBase
+| SCHEMA_CF1_INFO_TAG_MClassHasEntityLimitedDataDesc
+^MNetworkVarNames "m_ForcedHUDSkin CUtlString"
+^MNetworkVarNames "m_nCustomGameForceHeroSelectionId HeroID_t"
+^MNetworkVarNames "m_nCustomGameForceHeroVariant HeroFacetID_t"
+^MNetworkVarNames "m_bAlwaysShowPlayerInventory bool"
+^MNetworkVarNames "m_bGoldSoundDisabled bool"
+^MNetworkVarNames "m_bRecommendedItemsDisabled bool"
+^MNetworkVarNames "m_bStickyItemDisabled bool"
+^MNetworkVarNames "m_bStashPurchasingDisabled bool"
+^MNetworkVarNames "m_bFogOfWarDisabled bool"
+^MNetworkVarNames "m_bUseUnseenFOW bool"
+^MNetworkVarNames "m_bUseCustomBuybackCost bool"
+^MNetworkVarNames "m_bUseCustomBuybackCooldown bool"
+^MNetworkVarNames "m_bBuybackEnabled bool"
+^MNetworkVarNames "m_bUseTurboCouriers bool"
+^MNetworkVarNames "m_flCameraDistanceOverride float"
+^MNetworkVarNames "m_nCameraSmoothCountOverride int"
+^MNetworkVarNames "m_hOverrideSelectionEntity CHandle<CDOTA_BaseNPC>"
+^MNetworkVarNames "m_bTopBarTeamValuesOverride bool"
+^MNetworkVarNames "m_bTopBarTeamValuesVisible bool"
+^MNetworkVarNames "m_nTeamGoodGuysTopBarValue int"
+^MNetworkVarNames "m_nTeamBadGuysTopBarValue int"
+^MNetworkVarNames "m_bAlwaysShowPlayerNames bool"
+^MNetworkVarNames "m_bUseCustomHeroLevels bool"
+^MNetworkVarNames "m_nCustomXPRequiredToReachNextLevel int"
+^MNetworkVarNames "m_bTowerBackdoorProtectionEnabled bool"
+^MNetworkVarNames "m_bBotThinkingEnabled bool"
+^MNetworkVarNames "m_bAnnouncerDisabled bool"
+^MNetworkVarNames "m_bAnnouncerGameModeAnnounceDisabled bool"
+^MNetworkVarNames "m_bDeathTipsDisabled bool"
+^MNetworkVarNames "m_bFilterPlayerHeroAvailability bool"
+^MNetworkVarNames "m_bKillingSpreeAnnouncerDisabled bool"
+^MNetworkVarNames "m_flFixedRespawnTime float"
+^MNetworkVarNames "m_flBuybackCostScale float"
+^MNetworkVarNames "m_flRespawnTimeScale float"
+^MNetworkVarNames "m_bLoseGoldOnDeath bool"
+^MNetworkVarNames "m_bKillableTombstones bool"
+^MNetworkVarNames "m_nHUDVisibilityBits uint32"
+^MNetworkVarNames "m_flMinimumAttackSpeed float"
+^MNetworkVarNames "m_flMaximumAttackSpeed float"
+^MNetworkVarNames "m_bIsDaynightCycleDisabled bool"
+^MNetworkVarNames "m_flDaynightCycleAdvanceRate float"
+^MNetworkVarNames "m_bAreWeatherEffectsDisabled bool"
+^MNetworkVarNames "m_bDisableHudFlip bool"
+^MNetworkVarNames "m_bEnableFriendlyBuildingMoveTo bool"
+^MNetworkVarNames "m_bIsDeathOverlayDisabled bool"
+^MNetworkVarNames "m_bIsHudCombatEventsDisabled bool"
+^MNetworkVarNames "m_strDefaultStickyItem CUtlString"
+^MNetworkVarNames "m_sCustomTerrainWeatherEffect CUtlString"
+^MNetworkVarNames "m_strTPScrollSlotItemOverride CUtlString"
+^MNetworkVarNames "m_flStrengthDamage float"
+^MNetworkVarNames "m_flStrengthHP float"
+^MNetworkVarNames "m_flStrengthHPRegen float"
+^MNetworkVarNames "m_flAgilityDamage float"
+^MNetworkVarNames "m_flAgilityArmor float"
+^MNetworkVarNames "m_flAgilityAttackSpeed float"
+^MNetworkVarNames "m_flAgilityMovementSpeedPercent float"
+^MNetworkVarNames "m_flIntelligenceDamage float"
+^MNetworkVarNames "m_flIntelligenceMana float"
+^MNetworkVarNames "m_flIntelligenceManaRegen float"
+^MNetworkVarNames "m_flIntelligenceMres float"
+^MNetworkVarNames "m_flIntelligenceSpellAmpPercent float"
+^MNetworkVarNames "m_flStrengthMagicResistancePercent float"
+^MNetworkVarNames "m_flAttributeAllDamage float"
+^MNetworkVarNames "m_flDraftingHeroPickSelectTimeOverride float"
+^MNetworkVarNames "m_flDraftingBanningTimeOverride float"
+^MNetworkVarNames "m_bPauseEnabled bool"
+^MNetworkVarNames "m_iCustomScanMaxCharges int"
+^MNetworkVarNames "m_flCustomScanCooldown float"
+^MNetworkVarNames "m_flCustomGlyphCooldown float"
+^MNetworkVarNames "m_flCustomBackpackSwapCooldown float"
+^MNetworkVarNames "m_flCustomBackpackCooldownPercent float"
+^MNetworkVarNames "m_bDefaultRuneSpawnLogic bool"
+^MNetworkVarNames "m_bEnableFreeCourierMode bool"
+^MNetworkVarNames "m_bAllowNeutralItemDrops bool"
+^MNetworkVarNames "m_bEnableNeutralStash bool"
+^MNetworkVarNames "m_bEnableNeutralStashTeamViewOnly bool"
+^MNetworkVarNames "m_bEnableNeutralItemHideUndiscovered bool"
+^MNetworkVarNames "m_bEnableSendToStash bool"
+^MNetworkVarNames "m_bForceRightClickAttackDisabled bool"
+^MNetworkVarNames "m_vecCustomShopInfo CDOTACustomShopInfo"
+^MNetworkVarNames "m_bCanSellAnywhere bool"
+^MNetworkVarNames "m_flCameraNearZ float"
+^MNetworkVarNames "m_flCameraFarZ float"
+^MNetworkVarNames "m_nCustomRadiantScore int"
+^MNetworkVarNames "m_nCustomDireScore int"
+^MNetworkVarNames "m_bAbilityUpgradeWhitelistEnabled bool"
+^MNetworkVarNames "m_vecAbilityUpgradeWhitelist AbilityID_t"
+^MNetworkVarNames "m_bGiveFreeTPOnDeath bool"
+^MNetworkVarNames "m_nInnateMeleeDamageBlockPct int"
+^MNetworkVarNames "m_nInnateMeleeDamageBlockAmount int"
+^MNetworkVarNames "m_nInnateMeleeDamageBlockPerLevelAmount int"
+^MNetworkVarNames "m_flWaterRuneSpawnInterval float"
+^MNetworkVarNames "m_vecBigHealthBarUnits CHandle< CDOTA_BaseNPC >"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBaseEntity (size: 0x4b8 bytes, project "server", binding @ server.dll + 0x38c6a40, scope "server.dll") extends CEntityInstance
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+	^MNetworkExcludeByName "m_bClientSideRagdoll"
+	^MNetworkExcludeByName "m_iMaxHealth"
+	^MNetworkExcludeByUserGroup "Water"
+	^MNetworkExcludeByUserGroup "Player"
+	^MNetworkExcludeByUserGroup "LocalPlayerExclusive"
+	^MNetworkExcludeByName "m_spawnflags"
+	^MNetworkExcludeByName "m_bTakesDamage"
+	^MNetworkExcludeByName "m_nTakeDamageFlags"
+	^MNetworkExcludeByName "m_flSpeed"
+	^MNetworkVarNames "m_CBodyComponent CBodyComponent::Storage_t"
+	^MNetworkVarNames "m_iHealth int32"
+	^MNetworkVarNames "m_iMaxHealth int32"
+	^MNetworkVarNames "m_lifeState uint8"
+	^MNetworkVarNames "m_takedamage DamageOptions_t"
+	^MNetworkVarNames "m_bTakesDamage bool"
+	^MNetworkVarNames "m_nTakeDamageFlags TakeDamageFlags_t"
+	^MNetworkVarNames "m_nPlatformType EntityPlatformTypes_t"
+	^MNetworkVarNames "m_MoveCollide MoveCollide_t"
+	^MNetworkVarNames "m_MoveType MoveType_t"
+	^MNetworkVarNames "m_nSubclassID EntitySubclassID_t"
+	^MNetworkVarNames "m_flAnimTime float32"
+	^MNetworkVarNames "m_flSimulationTime float32"
+	^MNetworkVarNames "m_flCreateTime GameTime_t"
+	^MNetworkVarNames "m_bClientSideRagdoll bool"
+	^MNetworkVarNames "m_ubInterpolationFrame uint8"
+	^MNetworkVarNames "m_iTeamNum uint8"
+	^MNetworkVarNames "m_flSpeed float"
+	^MNetworkVarNames "m_spawnflags uint32"
+	^MNetworkVarNames "m_nNextThinkTick GameTick_t"
+	^MNetworkVarNames "m_fFlags uint32"
+	^MNetworkVarNames "m_vecVelocity CNetworkVelocityVector"
+	^MNetworkVarNames "m_hEffectEntity CHandle< CBaseEntity>"
+	^MNetworkVarNames "m_hOwnerEntity CHandle< CBaseEntity>"
+	^MNetworkVarNames "m_fEffects uint32"
+	^MNetworkVarNames "m_hGroundEntity CHandle< CBaseEntity>"
+	^MNetworkVarNames "m_nGroundBodyIndex int"
+	^MNetworkVarNames "m_flFriction float32"
+	^MNetworkVarNames "m_flElasticity float32"
+	^MNetworkVarNames "m_flGravityScale float32"
+	^MNetworkVarNames "m_flTimeScale float32"
+	^MNetworkVarNames "m_flWaterLevel float"
+	^MNetworkVarNames "m_bAnimatedEveryTick bool"
+	^MNetworkVarNames "m_flNavIgnoreUntilTime GameTime_t"
+	^MNetworkVarNames "m_nBloodType BloodType"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CEntityInstance (size: 0x38 bytes, project "entity2", binding @ server.dll + 0x3afd630, scope "server.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_DISALLOWED
+		| SCHEMA_CLASS_UNIDENTIFIED17
+		^MNetworkVarNames "m_pEntity CEntityIdentity *"
+		^MNetworkVarNames "m_CScriptComponent CScriptComponent::Storage_t"
+		
+		-----members of class CEntityInstance-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CUtlSymbolLarge m_iszPrivateVScripts(offset 0x8, size 0x8, align 0x8)
+				^MNetworkDisable
+			CEntityIdentity* m_pEntity(offset 0x10, size 0x8, align 0x8)
+				^MNetworkEnable
+				^MNetworkPriority "56"
+			uint8_t[16] unaccounted(offset 0x18)
+			CScriptComponent* m_CScriptComponent(offset 0x28, size 0x8, align 0x8)
+				^MNetworkEnable
+				^MNetworkDisable
+			bool m_bVisibleinPVS(offset 0x30, size 0x1, align 0x1)
+			uint8_t[7] unaccounted(offset 0x31)
+		
+	
+	-----static members of class CBaseEntity-----
+		static Relationship_t** sm_DefaultRelationship(server.dll + 0x3e50768)
+		static bool sm_bAccurateTriggerBboxChecks(server.dll + 0x388b1d0)
+		static bool sm_bDisableTouchFuncs(server.dll + 0x3e50ea4)
+		static bool m_bAllowPrecache(server.dll + 0x3c6cf74)
+		static bool s_bAbsQueriesValid(server.dll + 0x3a38c68)
+		static bool s_bPreventingSetAnimRunAnimEvents(server.dll + 0x3e51024)
+		static int32 m_nPredictionRandomSeed(server.dll + 0x388bf00)
+		static int32 m_nPredictionRandomSeedServer(server.dll + 0x388bf04)
+		static CBasePlayerController* m_pPredictionPlayerController(server.dll + 0x3c6d4e8)
+		static bool sm_bDatadescValidating(server.dll + 0x3c6d4f0)
+	
+	-----members of class CBaseEntity-----
+		CBodyComponent* m_CBodyComponent(offset 0x38, size 0x8, align 0x8)
+			^MNetworkEnable
+			^MNetworkUserGroup "CBodyComponent"
+			^MNetworkAlias "CBodyComponent"
+			^MNetworkTypeAlias "CBodyComponent"
+			^MNetworkPriority "48"
+		CNetworkTransmitComponent m_NetworkTransmitComponent(offset 0x40, size 0x1a0, align 0x0)
+		uint8_t[64] unaccounted(offset 0x1e0)
+		CUtlVector< thinkfunc_t > m_aThinkFunctions(offset 0x220, size 0x18, align 0x8)
+		int32 m_iCurrentThinkContext(offset 0x238, size 0x4, align 0x4)
+		GameTick_t m_nLastThinkTick(offset 0x23c, size 0x4, align 0x0)
+		bool m_bDisabledContextThinks(offset 0x240, size 0x1, align 0x1)
+		uint8_t[15] unaccounted(offset 0x241)
+		CBitVec< 64 > m_isSteadyState(offset 0x250, size 0x8, align 0x4)
+		float32 m_lastNetworkChange(offset 0x258, size 0x4, align 0x4)
+		uint8_t[12] unaccounted(offset 0x25c)
+		CUtlVector< ResponseContext_t > m_ResponseContexts(offset 0x268, size 0x18, align 0x8)
+		CUtlSymbolLarge m_iszResponseContext(offset 0x280, size 0x8, align 0x8)
+		uint8_t[32] unaccounted(offset 0x288)
+		int32 m_iHealth(offset 0x2a8, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkSerializer "ClampHealth"
+			^MNetworkUserGroup "Player"
+			^MNetworkPriority "32"
+		int32 m_iMaxHealth(offset 0x2ac, size 0x4, align 0x4)
+			^MNetworkEnable
+		uint8 m_lifeState(offset 0x2b0, size 0x1, align 0x1)
+			^MNetworkEnable
+			^MNetworkUserGroup "Player"
+			^MNetworkPriority "32"
+		uint8_t[3] unaccounted(offset 0x2b1)
+		float32 m_flDamageAccumulator(offset 0x2b4, size 0x4, align 0x4)
+		DamageOptions_t m_takedamage(offset 0x2b8, size 0x1, align 0x1)
+			^MNetworkEnable
+		bool m_bTakesDamage(offset 0x2b9, size 0x1, align 0x1)
+			^MNetworkEnable
+		uint8_t[6] unaccounted(offset 0x2ba)
+		TakeDamageFlags_t m_nTakeDamageFlags(offset 0x2c0, size 0x8, align 0x8)
+			^MNetworkEnable
+		EntityPlatformTypes_t m_nPlatformType(offset 0x2c8, size 0x1, align 0x1)
+			^MNetworkEnable
+		uint8_t[1] unaccounted(offset 0x2c9)
+		MoveCollide_t m_MoveCollide(offset 0x2ca, size 0x1, align 0x1)
+			^MNetworkEnable
+		MoveType_t m_MoveType(offset 0x2cb, size 0x1, align 0x1)
+			^MNetworkEnable
+		MoveType_t m_nActualMoveType(offset 0x2cc, size 0x1, align 0x1)
+		uint8 m_nWaterTouch(offset 0x2cd, size 0x1, align 0x1)
+		uint8 m_nSlimeTouch(offset 0x2ce, size 0x1, align 0x1)
+		bool m_bRestoreInHierarchy(offset 0x2cf, size 0x1, align 0x1)
+		CUtlSymbolLarge m_target(offset 0x2d0, size 0x8, align 0x8)
+		CHandle< CBaseFilter > m_hDamageFilter(offset 0x2d8, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x2dc)
+		CUtlSymbolLarge m_iszDamageFilterName(offset 0x2e0, size 0x8, align 0x8)
+		float32 m_flMoveDoneTime(offset 0x2e8, size 0x4, align 0x4)
+		CUtlStringToken m_nSubclassID(offset 0x2ec, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkSendProxyRecipientsFilter "func: nullptr"
+		uint8_t[8] unaccounted(offset 0x2f0)
+		float32 m_flAnimTime(offset 0x2f8, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkPriority "0"
+			^MNetworkSerializer "animTimeSerializer"
+			^MNetworkSendProxyRecipientsFilter "func: nullptr"
+		float32 m_flSimulationTime(offset 0x2fc, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkPriority "1"
+			^MNetworkSerializer "simulationTimeSerializer"
+			^MNetworkSendProxyRecipientsFilter "func: nullptr"
+		GameTime_t m_flCreateTime(offset 0x300, size 0x4, align 0x0)
+			^MNetworkEnable
+		bool m_bClientSideRagdoll(offset 0x304, size 0x1, align 0x1)
+			^MNetworkEnable
+		uint8 m_ubInterpolationFrame(offset 0x305, size 0x1, align 0x1)
+			^MNetworkEnable
+		uint8_t[2] unaccounted(offset 0x306)
+		Vector m_vPrevVPhysicsUpdatePos(offset 0x308, size 0xc, align 0x4)
+		uint8 m_iTeamNum(offset 0x314, size 0x1, align 0x1)
+			^MNetworkEnable
+		uint8_t[3] unaccounted(offset 0x315)
+		CUtlSymbolLarge m_iGlobalname(offset 0x318, size 0x8, align 0x8)
+		int32 m_iSentToClients(offset 0x320, size 0x4, align 0x4)
+		float32 m_flSpeed(offset 0x324, size 0x4, align 0x4)
+			^MNetworkEnable
+		CUtlString m_sUniqueHammerID(offset 0x328, size 0x8, align 0x8)
+		uint32 m_spawnflags(offset 0x330, size 0x4, align 0x4)
+			^MNetworkEnable
+		GameTick_t m_nNextThinkTick(offset 0x334, size 0x4, align 0x0)
+			^MNetworkEnable
+			^MNetworkUserGroup "LocalPlayerExclusive"
+		int32 m_nSimulationTick(offset 0x338, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x33c)
+		CEntityIOOutput m_OnKilled(offset 0x340, size 0x28, align 0x0)
+		uint32 m_fFlags(offset 0x368, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkPriority "32"
+			^MNetworkUserGroup "Player"
+		Vector m_vecAbsVelocity(offset 0x36c, size 0xc, align 0x4)
+		CNetworkVelocityVector m_vecVelocity(offset 0x378, size 0x28, align 0x0)
+			^MNetworkEnable
+			^MNetworkUserGroup "LocalPlayerExclusive"
+			^MNetworkPriority "32"
+		uint8_t[8] unaccounted(offset 0x3a0)
+		int32 m_nPushEnumCount(offset 0x3a8, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x3ac)
+		CCollisionProperty* m_pCollision(offset 0x3b0, size 0x8, align 0x8)
+		CHandle< CBaseEntity > m_hEffectEntity(offset 0x3b8, size 0x4, align 0x4)
+			^MNetworkEnable
+		CHandle< CBaseEntity > m_hOwnerEntity(offset 0x3bc, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkPriority "32"
+		uint32 m_fEffects(offset 0x3c0, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkChangeCallback "OnEffectsChanged"
+		CHandle< CBaseEntity > m_hGroundEntity(offset 0x3c4, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkPriority "32"
+			^MNetworkUserGroup "Player"
+		int32 m_nGroundBodyIndex(offset 0x3c8, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkPriority "32"
+			^MNetworkUserGroup "Player"
+		float32 m_flFriction(offset 0x3cc, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkBitCount "8"
+			^MNetworkMinValue "0"
+			^MNetworkMaxValue "4"
+			^MNetworkEncodeFlags "1"
+			^MNetworkUserGroup "LocalPlayerExclusive"
+		float32 m_flElasticity(offset 0x3d0, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkEncoder "coord"
+		float32 m_flGravityScale(offset 0x3d4, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkUserGroup "LocalPlayerExclusive"
+		float32 m_flTimeScale(offset 0x3d8, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkUserGroup "LocalPlayerExclusive"
+		float32 m_flWaterLevel(offset 0x3dc, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkUserGroup "Water"
+			^MNetworkBitCount "8"
+			^MNetworkMinValue "0"
+			^MNetworkMaxValue "1"
+			^MNetworkEncodeFlags "8"
+		bool m_bAnimatedEveryTick(offset 0x3e0, size 0x1, align 0x1)
+			^MNetworkEnable
+		bool m_bDisableLowViolence(offset 0x3e1, size 0x1, align 0x1)
+		uint8 m_nWaterType(offset 0x3e2, size 0x1, align 0x1)
+		uint8_t[1] unaccounted(offset 0x3e3)
+		int32 m_iEFlags(offset 0x3e4, size 0x4, align 0x4)
+		CEntityIOOutput m_OnUser1(offset 0x3e8, size 0x28, align 0x0)
+		CEntityIOOutput m_OnUser2(offset 0x410, size 0x28, align 0x0)
+		CEntityIOOutput m_OnUser3(offset 0x438, size 0x28, align 0x0)
+		CEntityIOOutput m_OnUser4(offset 0x460, size 0x28, align 0x0)
+		int32 m_iInitialTeamNum(offset 0x488, size 0x4, align 0x4)
+		GameTime_t m_flNavIgnoreUntilTime(offset 0x48c, size 0x4, align 0x0)
+			^MNetworkEnable
+		QAngle m_vecAngVelocity(offset 0x490, size 0xc, align 0x4)
+		bool m_bNetworkQuantizeOriginAndAngles(offset 0x49c, size 0x1, align 0x1)
+		bool m_bLagCompensate(offset 0x49d, size 0x1, align 0x1)
+		uint8_t[2] unaccounted(offset 0x49e)
+		float32 m_flOverriddenFriction(offset 0x4a0, size 0x4, align 0x4)
+		CHandle< CBaseEntity > m_pBlocker(offset 0x4a4, size 0x4, align 0x4)
+		float32 m_flLocalTime(offset 0x4a8, size 0x4, align 0x4)
+		float32 m_flVPhysicsUpdateLocalTime(offset 0x4ac, size 0x4, align 0x4)
+		BloodType m_nBloodType(offset 0x4b0, size 0x4, align 0x4)
+			^MNetworkEnable
+		uint8_t[4] unaccounted(offset 0x4b4)
+	
+
+-----members of class CDOTABaseGameMode-----
+	uint8_t[24] unaccounted(offset 0x4b8)
+	CUtlString m_ForcedHUDSkin(offset 0x4d0, size 0x8, align 0x8)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnForcedHUDSkinChanged"
+	HeroID_t m_nCustomGameForceHeroSelectionId(offset 0x4d8, size 0x4, align 0x0)
+		^MNetworkEnable
+	HeroFacetID_t m_nCustomGameForceHeroVariant(offset 0x4dc, size 0x4, align 0x0)
+		^MNetworkEnable
+	bool m_bAlwaysShowPlayerInventory(offset 0x4e0, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bGoldSoundDisabled(offset 0x4e1, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bRecommendedItemsDisabled(offset 0x4e2, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bStickyItemDisabled(offset 0x4e3, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bStashPurchasingDisabled(offset 0x4e4, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bFogOfWarDisabled(offset 0x4e5, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bUseUnseenFOW(offset 0x4e6, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bUseCustomBuybackCost(offset 0x4e7, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bUseCustomBuybackCooldown(offset 0x4e8, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bBuybackEnabled(offset 0x4e9, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bUseTurboCouriers(offset 0x4ea, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[1] unaccounted(offset 0x4eb)
+	float32 m_flCameraDistanceOverride(offset 0x4ec, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nCameraSmoothCountOverride(offset 0x4f0, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< CDOTA_BaseNPC > m_hOverrideSelectionEntity(offset 0x4f4, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bTopBarTeamValuesOverride(offset 0x4f8, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bTopBarTeamValuesVisible(offset 0x4f9, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0x4fa)
+	int32 m_nTeamGoodGuysTopBarValue(offset 0x4fc, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nTeamBadGuysTopBarValue(offset 0x500, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bAlwaysShowPlayerNames(offset 0x504, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bUseCustomHeroLevels(offset 0x505, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0x506)
+	CNetworkUtlVectorBase< int32 > m_nCustomXPRequiredToReachNextLevel(offset 0x508, size 0x18, align 0x8)
+		^MNetworkEnable
+	bool m_bTowerBackdoorProtectionEnabled(offset 0x520, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bBotThinkingEnabled(offset 0x521, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bAnnouncerDisabled(offset 0x522, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bAnnouncerGameModeAnnounceDisabled(offset 0x523, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bDeathTipsDisabled(offset 0x524, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bFilterPlayerHeroAvailability(offset 0x525, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bKillingSpreeAnnouncerDisabled(offset 0x526, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[1] unaccounted(offset 0x527)
+	float32 m_flFixedRespawnTime(offset 0x528, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flBuybackCostScale(offset 0x52c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flRespawnTimeScale(offset 0x530, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bLoseGoldOnDeath(offset 0x534, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bKillableTombstones(offset 0x535, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0x536)
+	uint32 m_nHUDVisibilityBits(offset 0x538, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flMinimumAttackSpeed(offset 0x53c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flMaximumAttackSpeed(offset 0x540, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bIsDaynightCycleDisabled(offset 0x544, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x545)
+	float32 m_flDaynightCycleAdvanceRate(offset 0x548, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bAreWeatherEffectsDisabled(offset 0x54c, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bDisableHudFlip(offset 0x54d, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bEnableFriendlyBuildingMoveTo(offset 0x54e, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bIsDeathOverlayDisabled(offset 0x54f, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bIsHudCombatEventsDisabled(offset 0x550, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[7] unaccounted(offset 0x551)
+	CUtlString m_strDefaultStickyItem(offset 0x558, size 0x8, align 0x8)
+		^MNetworkEnable
+	CUtlString m_sCustomTerrainWeatherEffect(offset 0x560, size 0x8, align 0x8)
+		^MNetworkEnable
+	CUtlString m_strTPScrollSlotItemOverride(offset 0x568, size 0x8, align 0x8)
+		^MNetworkEnable
+	float32 m_flStrengthDamage(offset 0x570, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flStrengthHP(offset 0x574, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flStrengthHPRegen(offset 0x578, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flAgilityDamage(offset 0x57c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flAgilityArmor(offset 0x580, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flAgilityAttackSpeed(offset 0x584, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flAgilityMovementSpeedPercent(offset 0x588, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flIntelligenceDamage(offset 0x58c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flIntelligenceMana(offset 0x590, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flIntelligenceManaRegen(offset 0x594, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flIntelligenceMres(offset 0x598, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flIntelligenceSpellAmpPercent(offset 0x59c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flStrengthMagicResistancePercent(offset 0x5a0, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flAttributeAllDamage(offset 0x5a4, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flDraftingHeroPickSelectTimeOverride(offset 0x5a8, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flDraftingBanningTimeOverride(offset 0x5ac, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bPauseEnabled(offset 0x5b0, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x5b1)
+	int32 m_iCustomScanMaxCharges(offset 0x5b4, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flCustomScanCooldown(offset 0x5b8, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flCustomGlyphCooldown(offset 0x5bc, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flCustomBackpackSwapCooldown(offset 0x5c0, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flCustomBackpackCooldownPercent(offset 0x5c4, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bDefaultRuneSpawnLogic(offset 0x5c8, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bEnableFreeCourierMode(offset 0x5c9, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bAllowNeutralItemDrops(offset 0x5ca, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bEnableNeutralStash(offset 0x5cb, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bEnableNeutralStashTeamViewOnly(offset 0x5cc, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bEnableNeutralItemHideUndiscovered(offset 0x5cd, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bEnableSendToStash(offset 0x5ce, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bForceRightClickAttackDisabled(offset 0x5cf, size 0x1, align 0x1)
+		^MNetworkEnable
+	CUtlVectorEmbeddedNetworkVar< CDOTACustomShopInfo > m_vecCustomShopInfo(offset 0x5d0, size 0x50, align 0x8)
+		^MNetworkEnable
+	bool m_bCanSellAnywhere(offset 0x620, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x621)
+	float32 m_flCameraNearZ(offset 0x624, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flCameraFarZ(offset 0x628, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nCustomRadiantScore(offset 0x62c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nCustomDireScore(offset 0x630, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bAbilityUpgradeWhitelistEnabled(offset 0x634, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x635)
+	CNetworkUtlVectorBase< AbilityID_t > m_vecAbilityUpgradeWhitelist(offset 0x638, size 0x18, align 0x8)
+		^MNetworkEnable
+	bool m_bGiveFreeTPOnDeath(offset 0x650, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x651)
+	int32 m_nInnateMeleeDamageBlockPct(offset 0x654, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nInnateMeleeDamageBlockAmount(offset 0x658, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nInnateMeleeDamageBlockPerLevelAmount(offset 0x65c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flWaterRuneSpawnInterval(offset 0x660, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x664)
+	CNetworkUtlVectorBase< CHandle< CDOTA_BaseNPC > > m_vecBigHealthBarUnits(offset 0x668, size 0x18, align 0x8)
+		^MNetworkEnable
+	uint8_t[32] unaccounted(offset 0x680)
+	bool m_bSelectionGoldPenaltyEnabled(offset 0x6a0, size 0x1, align 0x1)
+	bool m_bRemoveIllusionsOnDeath(offset 0x6a1, size 0x1, align 0x1)
+	bool m_bRandomHeroBonusItemGrantDisabled(offset 0x6a2, size 0x1, align 0x1)
+	bool m_bDisableClumpingBehaviorByDefault(offset 0x6a3, size 0x1, align 0x1)
+	bool[10] m_bRuneTypeEnabled(offset 0x6a4, size 0xa, align 0x1)
+	bool m_bOverrideBotLateGame(offset 0x6ae, size 0x1, align 0x1)
+	bool m_bBotsAlwaysPushWithHuman(offset 0x6af, size 0x1, align 0x1)
+	bool m_bBotsInLateGame(offset 0x6b0, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x6b1)
+	int32 m_nBotMaxPushTier(offset 0x6b4, size 0x4, align 0x4)
+	float32 m_flFountainPercentageHealthRegen(offset 0x6b8, size 0x4, align 0x4)
+	float32 m_flFountainPercentageManaRegen(offset 0x6bc, size 0x4, align 0x4)
+	float32 m_flFountainConstantManaRegen(offset 0x6c0, size 0x4, align 0x4)
+	float32 m_flPowerRuneSpawnInterval(offset 0x6c4, size 0x4, align 0x4)
+	float32 m_flBountyRuneSpawnInterval(offset 0x6c8, size 0x4, align 0x4)
+	float32 m_flXPRuneSpawnInterval(offset 0x6cc, size 0x4, align 0x4)
+	uint8_t[264] unaccounted(offset 0x6d0)
+

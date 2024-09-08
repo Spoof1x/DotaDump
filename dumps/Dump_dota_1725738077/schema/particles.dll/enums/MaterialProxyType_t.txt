@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum MaterialProxyType_t(size: 4 bytes, 2 values, project "particles", binding @ particles.dll + 0x518d80):
+	MATERIAL_PROXY_STATUS_EFFECT = 0,
+		^MPropertyFriendlyName "Status Effect"
+	MATERIAL_PROXY_TINT = 1,
+		^MPropertyFriendlyName "Tint Only"

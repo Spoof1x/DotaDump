@@ -1,0 +1,26 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CRandStopwatch (size: 0x14 bytes, project "server", binding @ server.dll + 0x38a12f0, scope "server.dll") extends CStopwatchBase
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CStopwatchBase (size: 0xc bytes, project "server", binding @ server.dll + 0x38a1060, scope "server.dll") extends CSimpleSimTimer
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSimpleSimTimer (size: 0x8 bytes, project "server", binding @ server.dll + 0x38a0c90, scope "server.dll")
+		| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+		
+		-----members of class CSimpleSimTimer-----
+			GameTime_t m_next(offset 0x0, size 0x4, align 0x0)
+			WorldGroupId_t m_nWorldGroupId(offset 0x4, size 0x4, align 0x4)
+		
+	
+	-----members of class CStopwatchBase-----
+		bool m_fIsRunning(offset 0x8, size 0x1, align 0x1)
+		uint8_t[3] unaccounted(offset 0x9)
+	
+
+-----members of class CRandStopwatch-----
+	float32 m_minInterval(offset 0xc, size 0x4, align 0x4)
+	float32 m_maxInterval(offset 0x10, size 0x4, align 0x4)
+

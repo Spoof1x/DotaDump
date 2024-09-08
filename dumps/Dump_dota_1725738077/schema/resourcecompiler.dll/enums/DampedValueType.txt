@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DampedValueType(size: 4 bytes, 2 values, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e7200):
+	FloatParameter = 0,
+		^MPropertyFriendlyName "Float"
+	VectorParameter = 1,
+		^MPropertyFriendlyName "Vector"

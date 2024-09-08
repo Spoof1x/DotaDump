@@ -1,0 +1,48 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootstepLandedAnimTag (size: 0x78 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242dda0, scope "resourcecompiler.dll") extends CAnimTagBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x76ce00"
+^MPropertyFriendlyName "FootstepLanded Tag"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimTagBase (size: 0x50 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2414f70, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x688a10"
+	
+	-----members of class CAnimTagBase-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CGlobalSymbol m_name(offset 0x18, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		CUtlString m_sComment(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Comment"
+			^MPropertyAttributeEditor "TextBlock()"
+			^MPropertySortPriority "-100"
+		CGlobalSymbol m_group(offset 0x28, size 0x8, align 0x8)
+			^MPropertyHideField
+		AnimTagID m_tagID(offset 0x30, size 0x4, align 0x4)
+			^MPropertyHideField
+		uint8_t[20] unaccounted(offset 0x34)
+		bool m_bIsReferenced(offset 0x48, size 0x1, align 0x1)
+			^MPropertyHideField
+		uint8_t[7] unaccounted(offset 0x49)
+	
+
+-----members of class CFootstepLandedAnimTag-----
+	uint8_t[8] unaccounted(offset 0x50)
+	FootstepLandedFootSoundType_t m_FootstepType(offset 0x58, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Footstep Type"
+	uint8_t[4] unaccounted(offset 0x5c)
+	CUtlString m_OverrideSoundName(offset 0x60, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Override Sound"
+		^MPropertyAttributeChoiceName "Sound"
+	CUtlString m_DebugAnimSourceString(offset 0x68, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Debug Name"
+	CUtlString m_BoneName(offset 0x70, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Bone Name"
+		^MPropertyAttributeChoiceName "Bone"
+

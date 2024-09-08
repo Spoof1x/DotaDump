@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class MaterialParam_t (size: 0x8 bytes, project "materialsystem2", binding @ materialsystem2.dll + 0x10cda0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: materialsystem2.dll + 0x659c0"
+
+-----members of class MaterialParam_t-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+

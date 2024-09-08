@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum StateActionBehavior(size: 4 bytes, 4 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x2428980):
+	STATETAGBEHAVIOR_ACTIVE_WHILE_CURRENT = 0,
+	STATETAGBEHAVIOR_FIRE_ON_ENTER = 1,
+	STATETAGBEHAVIOR_FIRE_ON_EXIT = 2,
+	STATETAGBEHAVIOR_FIRE_ON_ENTER_AND_EXIT = 3,

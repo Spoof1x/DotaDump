@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ShopItemViewMode_t(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x3a10340):
+	SHOP_VIEW_MODE_LIST = 0,
+	SHOP_VIEW_MODE_GRID = 1,

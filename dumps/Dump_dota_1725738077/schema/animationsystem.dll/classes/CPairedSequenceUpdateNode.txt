@@ -1,0 +1,54 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPairedSequenceUpdateNode (size: 0x80 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b74a0, scope "!GlobalTypes") extends CSequenceUpdateNodeBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x202250"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSequenceUpdateNodeBase (size: 0x70 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b7fa0, scope "!GlobalTypes") extends CLeafUpdateNode
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CLeafUpdateNode (size: 0x58 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b5fa0, scope "!GlobalTypes") extends CAnimUpdateNodeBase
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimUpdateNodeBase (size: 0x58 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b28c0, scope "!GlobalTypes")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+			
+			-----members of class CAnimUpdateNodeBase-----
+				uint8_t[24] unaccounted(offset 0x0)
+				CAnimNodePath m_nodePath(offset 0x18, size 0x30, align 0x4)
+				AnimNodeNetworkMode m_networkMode(offset 0x48, size 0x4, align 0x4)
+				uint8_t[4] unaccounted(offset 0x4c)
+				CUtlString m_name(offset 0x50, size 0x8, align 0x8)
+			
+		
+		-----members of class CLeafUpdateNode-----
+			<no members>
+		
+	
+	-----members of class CSequenceUpdateNodeBase-----
+		uint8_t[12] unaccounted(offset 0x58)
+		float32 m_playbackSpeed(offset 0x64, size 0x4, align 0x4)
+		bool m_bLoop(offset 0x68, size 0x1, align 0x1)
+		uint8_t[7] unaccounted(offset 0x69)
+	
+
+-----members of class CPairedSequenceUpdateNode-----
+	CGlobalSymbol m_sPairedSequenceRole(offset 0x70, size 0x8, align 0x8)
+	uint8_t[8] unaccounted(offset 0x78)
+

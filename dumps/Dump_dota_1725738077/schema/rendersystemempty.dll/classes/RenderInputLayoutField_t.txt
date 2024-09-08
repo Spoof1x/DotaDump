@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RenderInputLayoutField_t (size: 0x38 bytes, project "rendersystemempty", binding @ rendersystemempty.dll + 0x138d50, scope "rendersystemempty.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class RenderInputLayoutField_t-----
+	uint8[32] m_pSemanticName(offset 0x0, size 0x20, align 0x1)
+	int32 m_nSemanticIndex(offset 0x20, size 0x4, align 0x4)
+	uint32 m_Format(offset 0x24, size 0x4, align 0x4)
+	int32 m_nOffset(offset 0x28, size 0x4, align 0x4)
+	int32 m_nSlot(offset 0x2c, size 0x4, align 0x4)
+	RenderSlotType_t m_nSlotType(offset 0x30, size 0x4, align 0x4)
+	int32 m_nInstanceStepRate(offset 0x34, size 0x4, align 0x4)
+

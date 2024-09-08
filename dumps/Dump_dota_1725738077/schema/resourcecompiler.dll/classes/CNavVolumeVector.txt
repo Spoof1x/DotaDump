@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNavVolumeVector (size: 0x98 bytes, project "navlib", binding @ resourcecompiler.dll + 0x249f480, scope "!GlobalTypes") extends CNavVolume
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNavVolume (size: 0x70 bytes, project "navlib", binding @ resourcecompiler.dll + 0x249f3e0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	
+	-----members of class CNavVolume-----
+		uint8_t[112] unaccounted(offset 0x0)
+	
+
+-----members of class CNavVolumeVector-----
+	uint8_t[8] unaccounted(offset 0x70)
+	bool m_bHasBeenPreFiltered(offset 0x78, size 0x1, align 0x1)
+	uint8_t[31] unaccounted(offset 0x79)
+

@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CEntitySubclassVDataBase (size: 0x28 bytes, project "server", binding @ server.dll + 0x38a0860, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: server.dll + 0x1f4840"
+^MVDataRoot
+^MVDataNodeType "1"
+^MVDataOverlayType "1"
+^MVDataUseLinkedEntityClasses
+
+-----members of class CEntitySubclassVDataBase-----
+	uint8_t[40] unaccounted(offset 0x0)
+

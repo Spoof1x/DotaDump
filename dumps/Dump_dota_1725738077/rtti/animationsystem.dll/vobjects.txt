@@ -1,0 +1,785 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CAnimNetVarDataOps<class CAnimNetVar<bool>,6> (hierarchy CAnimNetVarDataOps<class CAnimNetVar<bool>,6>: CDefSaveRestoreOps, ISaveRestoreOps)
+	animationsystem.dll + 0x66a530
+CAnimNetVarDataOps<class CAnimNetVar<class Vec3D<float> >,14> (hierarchy CAnimNetVarDataOps<class CAnimNetVar<class Vec3D<float> >,14>: CDefSaveRestoreOps, ISaveRestoreOps)
+	animationsystem.dll + 0x66a520
+CAnimNetVarDataOps<class CAnimNetVar<class Vec3D<float> >,3> (hierarchy CAnimNetVarDataOps<class CAnimNetVar<class Vec3D<float> >,3>: CDefSaveRestoreOps, ISaveRestoreOps)
+	animationsystem.dll + 0x66a3c0
+CAnimNetVarDataOps<class CAnimNetVar<class Vec3D<float> >,45> (hierarchy CAnimNetVarDataOps<class CAnimNetVar<class Vec3D<float> >,45>: CDefSaveRestoreOps, ISaveRestoreOps)
+	animationsystem.dll + 0x66a510
+CAnimNetVarDataOps<class CAnimNetVar<float>,15> (hierarchy CAnimNetVarDataOps<class CAnimNetVar<float>,15>: CDefSaveRestoreOps, ISaveRestoreOps)
+	animationsystem.dll + 0x665dc8
+CAnimNetVarDataOps<class CAnimNetVar<float>,1> (hierarchy CAnimNetVarDataOps<class CAnimNetVar<float>,1>: CDefSaveRestoreOps, ISaveRestoreOps)
+	animationsystem.dll + 0x665f40
+CAnimNetVarDataOps<class CAnimNetVar<int>,5> (hierarchy CAnimNetVarDataOps<class CAnimNetVar<int>,5>: CDefSaveRestoreOps, ISaveRestoreOps)
+	animationsystem.dll + 0x666f80
+CAnimNetVarDataOps<class CAnimNetVar<unsigned __int64>,33> (hierarchy CAnimNetVarDataOps<class CAnimNetVar<unsigned __int64>,33>: CDefSaveRestoreOps, ISaveRestoreOps)
+	animationsystem.dll + 0x665f30
+CAnimNetVarDataOps<class CAnimNetVar<unsigned char>,57> (hierarchy CAnimNetVarDataOps<class CAnimNetVar<unsigned char>,57>: CDefSaveRestoreOps, ISaveRestoreOps)
+	animationsystem.dll + 0x665dd8
+CAnimNetVarDataOps<class CAnimNetVar<unsigned int>,37> (hierarchy CAnimNetVarDataOps<class CAnimNetVar<unsigned int>,37>: CDefSaveRestoreOps, ISaveRestoreOps)
+	animationsystem.dll + 0x66a680
+CAnimationGraphTypeManager (hierarchy CAnimationGraphTypeManager: CKV3ResourceTypeManager<7525640765879247222>, IResourceTypeManager)
+	animationsystem.dll + 0x5f3a40
+CAnimationGraphVisualizationRegistry (hierarchy CAnimationGraphVisualizationRegistry: IAnimationGraphVisualizerRegistry)
+	animationsystem.dll + 0x59de58
+CAnimationGroupTypeManagerV0 (hierarchy CAnimationGroupTypeManagerV0: CTypesafeIntrospectedToKV3TypeManager<482955714934,struct CAnimationGroup>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager)
+	animationsystem.dll + 0x6df878
+CAnimationSystem (hierarchy CAnimationSystem: CTier3AppSystem<class IAnimationSystem,0>, CTier2AppSystem<class IAnimationSystem,0>, CTier1AppSystem<class IAnimationSystem,0>, CTier0AppSystem<class IAnimationSystem,0>, CBaseAppSystem<class IAnimationSystem>, IAnimationSystem, IAppSystem)
+	animationsystem.dll + 0x5f3a70
+CAnimationSystemUtils (hierarchy CAnimationSystemUtils: IAnimationSystemUtils)
+	animationsystem.dll + 0x5fbb48
+CAnimationTypeManagerV0 (hierarchy CAnimationTypeManagerV0: CTypesafeIntrospectedToKV3TypeManager<469920276854,struct CAnimData>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager)
+	animationsystem.dll + 0x6df858
+CCompressedAnimQuaternion (hierarchy CCompressedAnimQuaternion: CCompressedAnim<class QuaternionStorage>, ICompressorService)
+	animationsystem.dll + 0x5e2bd0
+CCompressedAnimVector3 (hierarchy CCompressedAnimVector3: CCompressedAnim<class Vec3D<float> >, ICompressorService)
+	animationsystem.dll + 0x5e2a90
+CCompressedDeltaVector3 (hierarchy CCompressedDeltaVector3: CCompressedAnim<class Vec3D<float> >, ICompressorService)
+	animationsystem.dll + 0x5e2ae0
+CCompressedFullBool (hierarchy CCompressedFullBool: CCompressedList<bool,bool>, CCompressedAnim<bool>, ICompressorService)
+	animationsystem.dll + 0x5e2ea0
+CCompressedFullChar (hierarchy CCompressedFullChar: CCompressedList<int,char>, CCompressedAnim<int>, ICompressorService)
+	animationsystem.dll + 0x5e2cc0
+CCompressedFullColor32 (hierarchy CCompressedFullColor32: CCompressedList<class Color,class Color>, CCompressedAnim<class Color>, ICompressorService)
+	animationsystem.dll + 0x5e2f40
+CCompressedFullFloat (hierarchy CCompressedFullFloat: CCompressedList<float,float>, CCompressedAnim<float>, ICompressorService)
+	animationsystem.dll + 0x5e29a0
+CCompressedFullInt (hierarchy CCompressedFullInt: CCompressedList<int,int>, CCompressedAnim<int>, ICompressorService)
+	animationsystem.dll + 0x5e2e00
+CCompressedFullQuaternion (hierarchy CCompressedFullQuaternion: CCompressedAnim<class QuaternionStorage>, ICompressorService)
+	animationsystem.dll + 0x5e2c20
+CCompressedFullShort (hierarchy CCompressedFullShort: CCompressedList<int,short>, CCompressedAnim<int>, ICompressorService)
+	animationsystem.dll + 0x5e2d60
+CCompressedFullVector2D (hierarchy CCompressedFullVector2D: CCompressedList<class Vec2D<float>,class Vec2D<float> >, CCompressedAnim<class Vec2D<float> >, ICompressorService)
+	animationsystem.dll + 0x5e2fe0
+CCompressedFullVector3 (hierarchy CCompressedFullVector3: CCompressedAnim<class Vec3D<float> >, ICompressorService)
+	animationsystem.dll + 0x5e2b30
+CCompressedFullVector4D (hierarchy CCompressedFullVector4D: CCompressedList<class Vec4D<float>,class Vec4D<float> >, CCompressedAnim<class Vec4D<float> >, ICompressorService)
+	animationsystem.dll + 0x5e3080
+CCompressedStaticBool (hierarchy CCompressedStaticBool: CCompressedStatic<bool,bool>, CCompressedAnim<bool>, ICompressorService)
+	animationsystem.dll + 0x5e2e50
+CCompressedStaticChar (hierarchy CCompressedStaticChar: CCompressedStatic<int,char>, CCompressedAnim<int>, ICompressorService)
+	animationsystem.dll + 0x5e2c70
+CCompressedStaticColor32 (hierarchy CCompressedStaticColor32: CCompressedStatic<class Color,class Color>, CCompressedAnim<class Color>, ICompressorService)
+	animationsystem.dll + 0x5e2ef0
+CCompressedStaticFloat (hierarchy CCompressedStaticFloat: CCompressedStatic<float,float>, CCompressedAnim<float>, ICompressorService)
+	animationsystem.dll + 0x5e2950
+CCompressedStaticFullVector3 (hierarchy CCompressedStaticFullVector3: CCompressedAnim<class Vec3D<float> >, ICompressorService)
+	animationsystem.dll + 0x5e2a40
+CCompressedStaticInt (hierarchy CCompressedStaticInt: CCompressedStatic<int,int>, CCompressedAnim<int>, ICompressorService)
+	animationsystem.dll + 0x5e2db0
+CCompressedStaticQuaternion (hierarchy CCompressedStaticQuaternion: CCompressedAnim<class QuaternionStorage>, ICompressorService)
+	animationsystem.dll + 0x5e2b80
+CCompressedStaticShort (hierarchy CCompressedStaticShort: CCompressedStatic<int,short>, CCompressedAnim<int>, ICompressorService)
+	animationsystem.dll + 0x5e2d10
+CCompressedStaticVector2D (hierarchy CCompressedStaticVector2D: CCompressedStatic<class Vec2D<float>,class Vec2D<float> >, CCompressedAnim<class Vec2D<float> >, ICompressorService)
+	animationsystem.dll + 0x5e2f90
+CCompressedStaticVector3 (hierarchy CCompressedStaticVector3: CCompressedAnim<class Vec3D<float> >, ICompressorService)
+	animationsystem.dll + 0x5e29f0
+CCompressedStaticVector4D (hierarchy CCompressedStaticVector4D: CCompressedStatic<class Vec4D<float>,class Vec4D<float> >, CCompressedAnim<class Vec4D<float> >, ICompressorService)
+	animationsystem.dll + 0x5e3030
+CDemoAnimationData (hierarchy CDemoAnimationData: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f37d0
+CDemoAnimationHeader (hierarchy CDemoAnimationHeader: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f37a8
+CDemoClassInfo (hierarchy CDemoClassInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f3720
+CDemoClassInfo_class_t (hierarchy CDemoClassInfo_class_t: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f36f0
+CDemoConsoleCmd (hierarchy CDemoConsoleCmd: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f36b0
+CDemoCustomData (hierarchy CDemoCustomData: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f3750
+CDemoCustomDataCallbacks (hierarchy CDemoCustomDataCallbacks: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f3778
+CDemoFileHeader (hierarchy CDemoFileHeader: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f3440
+CDemoFileInfo (hierarchy CDemoFileInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f35e8
+CDemoFullPacket (hierarchy CDemoFullPacket: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f3638
+CDemoPacket (hierarchy CDemoPacket: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f3618
+CDemoSaveGame (hierarchy CDemoSaveGame: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f3660
+CDemoSendTables (hierarchy CDemoSendTables: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f36d0
+CDemoSpawnGroups (hierarchy CDemoSpawnGroups: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f38f8
+CDemoStop (hierarchy CDemoStop: google::protobuf::internal::ZeroFieldsBase, google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f38b8
+CDemoStringTables (hierarchy CDemoStringTables: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f3888
+CDemoStringTables_items_t (hierarchy CDemoStringTables_items_t: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f3808
+CDemoStringTables_table_t (hierarchy CDemoStringTables_table_t: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f3830
+CDemoSyncTick (hierarchy CDemoSyncTick: google::protobuf::internal::ZeroFieldsBase, google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f3698
+CDemoUserCmd (hierarchy CDemoUserCmd: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f38d0
+CEmptySequence (hierarchy CEmptySequence: ISequence, IBaseSequence)
+	animationsystem.dll + 0x5e43c8
+CFootLockAnimationGraphVisualizerInfo (hierarchy CFootLockAnimationGraphVisualizerInfo: IAnimationGraphVisualizerInfo)
+	animationsystem.dll + 0x6671c0
+CGameInfo (hierarchy CGameInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f35c0
+CGameInfo_CCSGameInfo (hierarchy CGameInfo_CCSGameInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f3598
+CGameInfo_CDotaGameInfo (hierarchy CGameInfo_CDotaGameInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f3520
+CGameInfo_CDotaGameInfo_CHeroSelectEvent (hierarchy CGameInfo_CDotaGameInfo_CHeroSelectEvent: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f34f0
+CGameInfo_CDotaGameInfo_CPlayerInfo (hierarchy CGameInfo_CDotaGameInfo_CPlayerInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x5f34b8
+CRelativeOffsetArrayDataOps<class CRelativeArray<float>,1> (hierarchy CRelativeOffsetArrayDataOps<class CRelativeArray<float>,1>: CDefSaveRestoreOps, ISaveRestoreOps)
+	animationsystem.dll + 0x665db8
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	animationsystem.dll + 0x6dd6f8
+CSchemaRegistration_animationsystem (hierarchy CSchemaRegistration_animationsystem: CSchemaRegistration)
+	animationsystem.dll + 0x5fbb78
+CSchemaRegistration_animgraphlib (hierarchy CSchemaRegistration_animgraphlib: CSchemaRegistration)
+	animationsystem.dll + 0x59ddd0
+CSchemaRegistration_animlib (hierarchy CSchemaRegistration_animlib: CSchemaRegistration)
+	animationsystem.dll + 0x5d9228
+CSchemaRegistration_modellib (hierarchy CSchemaRegistration_modellib: CSchemaRegistration)
+	animationsystem.dll + 0x5e43e8
+CSequenceGroupTypeManagerV0 (hierarchy CSequenceGroupTypeManagerV0: CTypesafeIntrospectedToKV3TypeManager<1902474102,struct CSequenceGroupData>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager)
+	animationsystem.dll + 0x6df898
+CSolveIKChainAnimationGraphVisualizerInfo (hierarchy CSolveIKChainAnimationGraphVisualizerInfo: IAnimationGraphVisualizerInfo)
+	animationsystem.dll + 0x66eee0
+CVConCommandMessageAnim (hierarchy CVConCommandMessageAnim: IVConCommDataReceived)
+	animationsystem.dll + 0x5f3420
+Reflection::Detail::CTypeInfoMaker<bool> (hierarchy Reflection::Detail::CTypeInfoMaker<bool>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66aad0
+Reflection::Detail::CTypeInfoMaker<class Attribute::AnimGraph::ParamType> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::AnimGraph::ParamType>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66f9e0
+Reflection::Detail::CTypeInfoMaker<class Attribute::AnimGraph::ReplayInputProvider> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::AnimGraph::ReplayInputProvider>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66fb40
+Reflection::Detail::CTypeInfoMaker<class Attribute::AnimGraph::UseReflectionEditor> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::AnimGraph::UseReflectionEditor>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66fa90
+Reflection::Detail::CTypeInfoMaker<class Attribute::Array::BeforeElementRemoved> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::Array::BeforeElementRemoved>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dc7c0
+Reflection::Detail::CTypeInfoMaker<class Attribute::Array::OnElementAdded> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::Array::OnElementAdded>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dc710
+Reflection::Detail::CTypeInfoMaker<class Attribute::ArrayOperator> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::ArrayOperator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dc5b0
+Reflection::Detail::CTypeInfoMaker<class Attribute::Color> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::Color>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dbf80
+Reflection::Detail::CTypeInfoMaker<class Attribute::Deprecated> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::Deprecated>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dc0e0
+Reflection::Detail::CTypeInfoMaker<class Attribute::Description> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::Description>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dc190
+Reflection::Detail::CTypeInfoMaker<class Attribute::FriendlyName> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::FriendlyName>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dc240
+Reflection::Detail::CTypeInfoMaker<class Attribute::Group> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::Group>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dc2f0
+Reflection::Detail::CTypeInfoMaker<class Attribute::Icon> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::Icon>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dc3a0
+Reflection::Detail::CTypeInfoMaker<class Attribute::IsEnabled> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::IsEnabled>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dc500
+Reflection::Detail::CTypeInfoMaker<class Attribute::MotionMatching::UsesCustomCurrentValue> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::MotionMatching::UsesCustomCurrentValue>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x666590
+Reflection::Detail::CTypeInfoMaker<class Attribute::MotionMatching::UsesCustomSampleInterpolation> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::MotionMatching::UsesCustomSampleInterpolation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6664e0
+Reflection::Detail::CTypeInfoMaker<class Attribute::ObjectColor> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::ObjectColor>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dc030
+Reflection::Detail::CTypeInfoMaker<class Attribute::ObjectIcon> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::ObjectIcon>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dc450
+Reflection::Detail::CTypeInfoMaker<class Attribute::TypeFactory> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::TypeFactory>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dc660
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::AnimGraph::EditExpression> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::AnimGraph::EditExpression>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66fca0
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::AnimGraph::EditParameterValue> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::AnimGraph::EditParameterValue>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66fbf0
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::AutoExpand> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::AutoExpand>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dcae0
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::AutoRefresh> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::AutoRefresh>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dcb90
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::Edit> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::Edit>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66fd50
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditBinaryChoice> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditBinaryChoice>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dd270
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditCheckBox> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditCheckBox>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dd1c0
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditComboBox> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditComboBox>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dd3d0
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditEnum> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditEnum>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dd320
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditLabel> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditLabel>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dd110
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditMultilineTextBox> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditMultilineTextBox>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dd060
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditSlider> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditSlider>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dd480
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditTextBox> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::EditTextBox>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dcfb0
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::Embed> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::Embed>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dcda0
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::Font> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::Font>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dce50
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::Hidden> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::Hidden>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dc980
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::HideAddRemoveButtons> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::HideAddRemoveButtons>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dcf00
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::ReadOnly> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::ReadOnly>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dca30
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::RefreshObjectOnChange> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::RefreshObjectOnChange>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dccf0
+Reflection::Detail::CTypeInfoMaker<class Attribute::UI::SortPriority> (hierarchy Reflection::Detail::CTypeInfoMaker<class Attribute::UI::SortPriority>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6dcc40
+Reflection::Detail::CTypeInfoMaker<class CActionComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CActionComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x669570
+Reflection::Detail::CTypeInfoMaker<class CActionComponentUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CActionComponentUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6694c0
+Reflection::Detail::CTypeInfoMaker<class CAddPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAddPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6727e0
+Reflection::Detail::CTypeInfoMaker<class CAddUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAddUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66c9d0
+Reflection::Detail::CTypeInfoMaker<class CAimCameraOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAimCameraOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x672910
+Reflection::Detail::CTypeInfoMaker<class CAimCameraUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAimCameraUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66cb00
+Reflection::Detail::CTypeInfoMaker<class CAimMatrixPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAimMatrixPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x672a50
+Reflection::Detail::CTypeInfoMaker<class CAimMatrixUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAimMatrixUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66cc30
+Reflection::Detail::CTypeInfoMaker<class CAnimActionUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimActionUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667da0
+Reflection::Detail::CTypeInfoMaker<class CAnimComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x665750
+Reflection::Detail::CTypeInfoMaker<class CAnimComponentManagerInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimComponentManagerInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6659c0
+Reflection::Detail::CTypeInfoMaker<class CAnimComponentUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimComponentUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x669360
+Reflection::Detail::CTypeInfoMaker<class CAnimGraphNetworkSettings> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimGraphNetworkSettings>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x619520
+Reflection::Detail::CTypeInfoMaker<class CAnimGraphSettingsGroup> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimGraphSettingsGroup>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6195e0
+Reflection::Detail::CTypeInfoMaker<class CAnimInputDamping> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimInputDamping>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6668d0
+Reflection::Detail::CTypeInfoMaker<class CAnimMotorInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimMotorInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x671c00
+Reflection::Detail::CTypeInfoMaker<class CAnimNodeInstanceBase> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimNodeInstanceBase>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66e110
+Reflection::Detail::CTypeInfoMaker<class CAnimParameterBase> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimParameterBase>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x663b10
+Reflection::Detail::CTypeInfoMaker<class CAnimParameterInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimParameterInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x663f20
+Reflection::Detail::CTypeInfoMaker<class CAnimParameterListInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimParameterListInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x664080
+Reflection::Detail::CTypeInfoMaker<class CAnimParameterManagerUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimParameterManagerUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x618f10
+Reflection::Detail::CTypeInfoMaker<class CAnimScriptComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimScriptComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x669790
+Reflection::Detail::CTypeInfoMaker<class CAnimScriptComponentUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimScriptComponentUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6696e0
+Reflection::Detail::CTypeInfoMaker<class CAnimTagBase> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimTagBase>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6647e0
+Reflection::Detail::CTypeInfoMaker<class CAnimTagManagerInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimTagManagerInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x664960
+Reflection::Detail::CTypeInfoMaker<class CAnimTagManagerUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimTagManagerUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6190c0
+Reflection::Detail::CTypeInfoMaker<class CAnimUpdateNodeBase> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimUpdateNodeBase>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x664b90
+Reflection::Detail::CTypeInfoMaker<class CAnimVariant> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimVariant>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x664230
+Reflection::Detail::CTypeInfoMaker<class CAnimationGraphInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAnimationGraphInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x619370
+Reflection::Detail::CTypeInfoMaker<class CAudioAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class CAudioAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x668400
+Reflection::Detail::CTypeInfoMaker<class CBindPosePoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CBindPosePoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66ce30
+Reflection::Detail::CTypeInfoMaker<class CBindPoseUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CBindPoseUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66cd80
+Reflection::Detail::CTypeInfoMaker<class CBlend2DAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CBlend2DAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x664fb0
+Reflection::Detail::CTypeInfoMaker<class CBlend2DUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CBlend2DUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x666d10
+Reflection::Detail::CTypeInfoMaker<class CBlendPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CBlendPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x670e10
+Reflection::Detail::CTypeInfoMaker<class CBlendUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CBlendUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x666bc0
+Reflection::Detail::CTypeInfoMaker<class CBlockSelectionMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CBlockSelectionMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66b2f0
+Reflection::Detail::CTypeInfoMaker<class CBodyGroupAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class CBodyGroupAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6685a0
+Reflection::Detail::CTypeInfoMaker<class CBoneMaskPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CBoneMaskPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x672bb0
+Reflection::Detail::CTypeInfoMaker<class CBoneMaskUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CBoneMaskUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66cf70
+Reflection::Detail::CTypeInfoMaker<class CBonePositionMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CBonePositionMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66b420
+Reflection::Detail::CTypeInfoMaker<class CBoneVelocityMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CBoneVelocityMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66b550
+Reflection::Detail::CTypeInfoMaker<class CBoolAnimParameter> (hierarchy Reflection::Detail::CTypeInfoMaker<class CBoolAnimParameter>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66c470
+Reflection::Detail::CTypeInfoMaker<class CCPPScriptComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CCPPScriptComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x669a60
+Reflection::Detail::CTypeInfoMaker<class CCPPScriptComponentUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CCPPScriptComponentUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6699b0
+Reflection::Detail::CTypeInfoMaker<class CChoiceUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CChoiceUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x666e40
+Reflection::Detail::CTypeInfoMaker<class CChoreoAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CChoreoAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6655e0
+Reflection::Detail::CTypeInfoMaker<class CChoreoPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CChoreoPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x672ce0
+Reflection::Detail::CTypeInfoMaker<class CChoreoUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CChoreoUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66d0a0
+Reflection::Detail::CTypeInfoMaker<class CClothSettingsAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class CClothSettingsAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x668710
+Reflection::Detail::CTypeInfoMaker<class CConcreteAnimParameter> (hierarchy Reflection::Detail::CTypeInfoMaker<class CConcreteAnimParameter>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6645b0
+Reflection::Detail::CTypeInfoMaker<class CCurrentRotationVelocityMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CCurrentRotationVelocityMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66b680
+Reflection::Detail::CTypeInfoMaker<class CCurrentVelocityMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CCurrentVelocityMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66b7b0
+Reflection::Detail::CTypeInfoMaker<class CCycleControlClipUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CCycleControlClipUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66d310
+Reflection::Detail::CTypeInfoMaker<class CCycleControlUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CCycleControlUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66d1e0
+Reflection::Detail::CTypeInfoMaker<class CDampedValueComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CDampedValueComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x669c60
+Reflection::Detail::CTypeInfoMaker<class CDampedValueComponentUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CDampedValueComponentUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x669bb0
+Reflection::Detail::CTypeInfoMaker<class CDemoSettingsComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CDemoSettingsComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x669e60
+Reflection::Detail::CTypeInfoMaker<class CDemoSettingsComponentUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CDemoSettingsComponentUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x669db0
+Reflection::Detail::CTypeInfoMaker<class CDifferenceBlendPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CDifferenceBlendPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6737d0
+Reflection::Detail::CTypeInfoMaker<class CDirectPlaybackAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CDirectPlaybackAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x665530
+Reflection::Detail::CTypeInfoMaker<class CDirectPlaybackUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CDirectPlaybackUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x665df0
+Reflection::Detail::CTypeInfoMaker<class CDirectionalBlendUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CDirectionalBlendUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66d450
+Reflection::Detail::CTypeInfoMaker<class CDistanceRemainingMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CDistanceRemainingMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66b8e0
+Reflection::Detail::CTypeInfoMaker<class CEmitTagActionUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CEmitTagActionUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667e60
+Reflection::Detail::CTypeInfoMaker<class CEnumAnimParameter> (hierarchy Reflection::Detail::CTypeInfoMaker<class CEnumAnimParameter>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6644f0
+Reflection::Detail::CTypeInfoMaker<class CEnumAnimParameterInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CEnumAnimParameterInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x663e70
+Reflection::Detail::CTypeInfoMaker<class CExpressionActionUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CExpressionActionUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x668220
+Reflection::Detail::CTypeInfoMaker<class CFetchCyclePoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFetchCyclePoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66fef0
+Reflection::Detail::CTypeInfoMaker<class CFloatAnimParameter> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFloatAnimParameter>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66c610
+Reflection::Detail::CTypeInfoMaker<class CFollowAttachmentPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFollowAttachmentPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x672e40
+Reflection::Detail::CTypeInfoMaker<class CFollowAttachmentUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFollowAttachmentUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66d6d0
+Reflection::Detail::CTypeInfoMaker<class CFollowPathUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFollowPathUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66d590
+Reflection::Detail::CTypeInfoMaker<class CFollowTargetPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFollowTargetPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x672f90
+Reflection::Detail::CTypeInfoMaker<class CFollowTargetUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFollowTargetUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66d800
+Reflection::Detail::CTypeInfoMaker<class CFootAdjustmentUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFootAdjustmentUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66d930
+Reflection::Detail::CTypeInfoMaker<class CFootCycleMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFootCycleMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66ba10
+Reflection::Detail::CTypeInfoMaker<class CFootFallAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFootFallAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6661a0
+Reflection::Detail::CTypeInfoMaker<class CFootLockAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFootLockAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x665320
+Reflection::Detail::CTypeInfoMaker<class CFootLockPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFootLockPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x671220
+Reflection::Detail::CTypeInfoMaker<class CFootLockUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFootLockUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667020
+Reflection::Detail::CTypeInfoMaker<class CFootPinningAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFootPinningAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x665270
+Reflection::Detail::CTypeInfoMaker<class CFootPinningPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFootPinningPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6713b0
+Reflection::Detail::CTypeInfoMaker<class CFootPinningUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFootPinningUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6671f0
+Reflection::Detail::CTypeInfoMaker<class CFootPositionMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFootPositionMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66bb40
+Reflection::Detail::CTypeInfoMaker<class CFootStepTriggerUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFootStepTriggerUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667320
+Reflection::Detail::CTypeInfoMaker<class CFootstepLandedAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFootstepLandedAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6688b0
+Reflection::Detail::CTypeInfoMaker<class CFutureFacingMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFutureFacingMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66bc70
+Reflection::Detail::CTypeInfoMaker<class CFutureVelocityMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CFutureVelocityMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x666780
+Reflection::Detail::CTypeInfoMaker<class CGlobalSymbol> (hierarchy Reflection::Detail::CTypeInfoMaker<class CGlobalSymbol>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x663850
+Reflection::Detail::CTypeInfoMaker<class CHandshakeAnimTagBase> (hierarchy Reflection::Detail::CTypeInfoMaker<class CHandshakeAnimTagBase>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6689a0
+Reflection::Detail::CTypeInfoMaker<class CHitReactPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CHitReactPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x673230
+Reflection::Detail::CTypeInfoMaker<class CHitReactUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CHitReactUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66da70
+Reflection::Detail::CTypeInfoMaker<class CInputStreamAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CInputStreamAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x665060
+Reflection::Detail::CTypeInfoMaker<class CInputStreamPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CInputStreamPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x673380
+Reflection::Detail::CTypeInfoMaker<class CInputStreamUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CInputStreamUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66dba0
+Reflection::Detail::CTypeInfoMaker<class CIntAnimParameter> (hierarchy Reflection::Detail::CTypeInfoMaker<class CIntAnimParameter>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66c540
+Reflection::Detail::CTypeInfoMaker<class CJiggleBonePoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CJiggleBonePoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6734b0
+Reflection::Detail::CTypeInfoMaker<class CJiggleBoneUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CJiggleBoneUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66dcd0
+Reflection::Detail::CTypeInfoMaker<class CJumpHelperUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CJumpHelperUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667640
+Reflection::Detail::CTypeInfoMaker<class CLODComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CLODComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66a090
+Reflection::Detail::CTypeInfoMaker<class CLODComponentUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CLODComponentUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x669fe0
+Reflection::Detail::CTypeInfoMaker<class CLeafUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CLeafUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66e060
+Reflection::Detail::CTypeInfoMaker<class CLeanMatrixUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CLeanMatrixUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66de00
+Reflection::Detail::CTypeInfoMaker<class CLookAtPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CLookAtPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6735f0
+Reflection::Detail::CTypeInfoMaker<class CLookAtUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CLookAtUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66df30
+Reflection::Detail::CTypeInfoMaker<class CLookComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CLookComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x671730
+Reflection::Detail::CTypeInfoMaker<class CLookComponentUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CLookComponentUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66a280
+Reflection::Detail::CTypeInfoMaker<class CMaterialAttributeAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMaterialAttributeAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x666340
+Reflection::Detail::CTypeInfoMaker<class CMotionGraphPreviewNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMotionGraphPreviewNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x664f00
+Reflection::Detail::CTypeInfoMaker<class CMotionGraphUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMotionGraphUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66e2a0
+Reflection::Detail::CTypeInfoMaker<class CMotionMatchingAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMotionMatchingAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6651c0
+Reflection::Detail::CTypeInfoMaker<class CMotionMatchingUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMotionMatchingUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66e410
+Reflection::Detail::CTypeInfoMaker<class CMotionMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMotionMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x666640
+Reflection::Detail::CTypeInfoMaker<class CMotionMetricInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMotionMetricInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x673cf0
+Reflection::Detail::CTypeInfoMaker<class CMotionNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMotionNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66b040
+Reflection::Detail::CTypeInfoMaker<class CMotionNodeBlend1D> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMotionNodeBlend1D>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66b220
+Reflection::Detail::CTypeInfoMaker<class CMotionNodeSequence> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMotionNodeSequence>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66b0f0
+Reflection::Detail::CTypeInfoMaker<class CMovementComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMovementComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6719e0
+Reflection::Detail::CTypeInfoMaker<class CMovementComponentUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMovementComponentUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66a3d0
+Reflection::Detail::CTypeInfoMaker<class CMovementHandshakeAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMovementHandshakeAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x668b00
+Reflection::Detail::CTypeInfoMaker<class CMoverUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CMoverUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66e540
+Reflection::Detail::CTypeInfoMaker<class CPairedSequenceComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CPairedSequenceComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x671e60
+Reflection::Detail::CTypeInfoMaker<class CPairedSequenceComponentUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CPairedSequenceComponentUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66a540
+Reflection::Detail::CTypeInfoMaker<class CPairedSequenceUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CPairedSequenceUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66e670
+Reflection::Detail::CTypeInfoMaker<class CParticleAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class CParticleAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x668cc0
+Reflection::Detail::CTypeInfoMaker<class CPathAnimMotorInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CPathAnimMotorInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x672320
+Reflection::Detail::CTypeInfoMaker<class CPathHelperUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CPathHelperUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66e7b0
+Reflection::Detail::CTypeInfoMaker<class CPathMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CPathMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66bda0
+Reflection::Detail::CTypeInfoMaker<class CPlayerInputAnimMotorInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CPlayerInputAnimMotorInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x672690
+Reflection::Detail::CTypeInfoMaker<class CPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667c20
+Reflection::Detail::CTypeInfoMaker<class CQuaternionAnimParameter> (hierarchy Reflection::Detail::CTypeInfoMaker<class CQuaternionAnimParameter>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66c7b0
+Reflection::Detail::CTypeInfoMaker<class CRagdollAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class CRagdollAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x668e60
+Reflection::Detail::CTypeInfoMaker<class CRagdollComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CRagdollComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66aa20
+Reflection::Detail::CTypeInfoMaker<class CRagdollComponentUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CRagdollComponentUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66a8c0
+Reflection::Detail::CTypeInfoMaker<class CRagdollUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CRagdollUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66e8e0
+Reflection::Detail::CTypeInfoMaker<class CRootUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CRootUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66ea10
+Reflection::Detail::CTypeInfoMaker<class CSelectorUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSelectorUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667840
+Reflection::Detail::CTypeInfoMaker<class CSequenceAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSequenceAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x665480
+Reflection::Detail::CTypeInfoMaker<class CSequenceFinishedAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSequenceFinishedAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x669000
+Reflection::Detail::CTypeInfoMaker<class CSequenceUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSequenceUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667500
+Reflection::Detail::CTypeInfoMaker<class CSequenceUpdateNodeBase> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSequenceUpdateNodeBase>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667450
+Reflection::Detail::CTypeInfoMaker<class CSetParameterActionUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSetParameterActionUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667fa0
+Reflection::Detail::CTypeInfoMaker<class CSingleFramePoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSingleFramePoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x673920
+Reflection::Detail::CTypeInfoMaker<class CSingleFrameUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSingleFrameUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66eb40
+Reflection::Detail::CTypeInfoMaker<class CSlopeComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSlopeComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x672080
+Reflection::Detail::CTypeInfoMaker<class CSlopeComponentUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSlopeComponentUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66ac30
+Reflection::Detail::CTypeInfoMaker<class CSlowDownOnSlopesUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSlowDownOnSlopesUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66ec70
+Reflection::Detail::CTypeInfoMaker<class CSolveIKChainAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSolveIKChainAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x665110
+Reflection::Detail::CTypeInfoMaker<class CSolveIKChainPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSolveIKChainPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x673a50
+Reflection::Detail::CTypeInfoMaker<class CSolveIKChainUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSolveIKChainUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66edb0
+Reflection::Detail::CTypeInfoMaker<class CSpeedScaleUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSpeedScaleUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66ef10
+Reflection::Detail::CTypeInfoMaker<class CStanceOverrideUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CStanceOverrideUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667990
+Reflection::Detail::CTypeInfoMaker<class CStanceScaleUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CStanceScaleUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66f040
+Reflection::Detail::CTypeInfoMaker<class CStateMachineAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CStateMachineAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6653d0
+Reflection::Detail::CTypeInfoMaker<class CStateMachineComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class CStateMachineComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66ae10
+Reflection::Detail::CTypeInfoMaker<class CStateMachineComponentUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CStateMachineComponentUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66ad60
+Reflection::Detail::CTypeInfoMaker<class CStateMachineUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CStateMachineUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x665c60
+Reflection::Detail::CTypeInfoMaker<class CStepsRemainingMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CStepsRemainingMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66bed0
+Reflection::Detail::CTypeInfoMaker<class CStopAtGoalUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CStopAtGoalUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66f170
+Reflection::Detail::CTypeInfoMaker<class CStringAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class CStringAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6690f0
+Reflection::Detail::CTypeInfoMaker<class CSubtractPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSubtractPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6730e0
+Reflection::Detail::CTypeInfoMaker<class CSubtractUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSubtractUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66f2a0
+Reflection::Detail::CTypeInfoMaker<class CSymbolAnimParameter> (hierarchy Reflection::Detail::CTypeInfoMaker<class CSymbolAnimParameter>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66c880
+Reflection::Detail::CTypeInfoMaker<class CTaskHandshakeAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class CTaskHandshakeAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x668a50
+Reflection::Detail::CTypeInfoMaker<class CTaskStatusAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class CTaskStatusAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x669270
+Reflection::Detail::CTypeInfoMaker<class CTimeRemainingMetricEvaluator> (hierarchy Reflection::Detail::CTypeInfoMaker<class CTimeRemainingMetricEvaluator>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66c000
+Reflection::Detail::CTypeInfoMaker<class CToggleComponentActionUpdater> (hierarchy Reflection::Detail::CTypeInfoMaker<class CToggleComponentActionUpdater>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6680f0
+Reflection::Detail::CTypeInfoMaker<class CTurnHelperUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CTurnHelperUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66f3d0
+Reflection::Detail::CTypeInfoMaker<class CTwoBoneIKPoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CTwoBoneIKPoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667ac0
+Reflection::Detail::CTypeInfoMaker<class CTwoBoneIKUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CTwoBoneIKUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667b70
+Reflection::Detail::CTypeInfoMaker<class CUtlString> (hierarchy Reflection::Detail::CTypeInfoMaker<class CUtlString>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x663900
+Reflection::Detail::CTypeInfoMaker<class CUtlVector<class CGlobalSymbol,int,class CUtlMemory<class CGlobalSymbol,int> > > (hierarchy Reflection::Detail::CTypeInfoMaker<class CUtlVector<class CGlobalSymbol,int,class CUtlMemory<class CGlobalSymbol,int> > >: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x669900
+Reflection::Detail::CTypeInfoMaker<class CUtlVector<class CSmartPtr<class CAnimComponentInstance,class CRefCountAccessor>,int,class CUtlMemory<class CSmartPtr<class CAnimComponentInstance,class CRefCountAccessor>,int> > > (hierarchy Reflection::Detail::CTypeInfoMaker<class CUtlVector<class CSmartPtr<class CAnimComponentInstance,class CRefCountAccessor>,int,class CUtlMemory<class CSmartPtr<class CAnimComponentInstance,class CRefCountAccessor>,int> > >: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x665830
+Reflection::Detail::CTypeInfoMaker<class CUtlVector<class CSmartPtr<class CAnimMotorInstance,class CRefCountAccessor>,int,class CUtlMemory<class CSmartPtr<class CAnimMotorInstance,class CRefCountAccessor>,int> > > (hierarchy Reflection::Detail::CTypeInfoMaker<class CUtlVector<class CSmartPtr<class CAnimMotorInstance,class CRefCountAccessor>,int,class CUtlMemory<class CSmartPtr<class CAnimMotorInstance,class CRefCountAccessor>,int> > >: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x671a90
+Reflection::Detail::CTypeInfoMaker<class CUtlVector<class CSmartPtr<class CAnimParameterInstance,class CRefCountAccessor>,int,class CUtlMemory<class CSmartPtr<class CAnimParameterInstance,class CRefCountAccessor>,int> > > (hierarchy Reflection::Detail::CTypeInfoMaker<class CUtlVector<class CSmartPtr<class CAnimParameterInstance,class CRefCountAccessor>,int,class CUtlMemory<class CSmartPtr<class CAnimParameterInstance,class CRefCountAccessor>,int> > >: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6642e0
+Reflection::Detail::CTypeInfoMaker<class CUtlVector<struct CWeightPreview,int,class CUtlMemory<struct CWeightPreview,int> > > (hierarchy Reflection::Detail::CTypeInfoMaker<class CUtlVector<struct CWeightPreview,int,class CUtlMemory<struct CWeightPreview,int> > >: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66a690
+Reflection::Detail::CTypeInfoMaker<class CVectorAnimParameter> (hierarchy Reflection::Detail::CTypeInfoMaker<class CVectorAnimParameter>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66c6e0
+Reflection::Detail::CTypeInfoMaker<class CVirtualAnimParameter> (hierarchy Reflection::Detail::CTypeInfoMaker<class CVirtualAnimParameter>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66c3c0
+Reflection::Detail::CTypeInfoMaker<class CWayPointHelperUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CWayPointHelperUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66f500
+Reflection::Detail::CTypeInfoMaker<class CZeroPosePoseOperation> (hierarchy Reflection::Detail::CTypeInfoMaker<class CZeroPosePoseOperation>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66f700
+Reflection::Detail::CTypeInfoMaker<class CZeroPoseUpdateNode> (hierarchy Reflection::Detail::CTypeInfoMaker<class CZeroPoseUpdateNode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66f650
+Reflection::Detail::CTypeInfoMaker<class HSequence> (hierarchy Reflection::Detail::CTypeInfoMaker<class HSequence>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66fe40
+Reflection::Detail::CTypeInfoMaker<class IAnimComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IAnimComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x671510
+Reflection::Detail::CTypeInfoMaker<class IAnimComponentManagerInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IAnimComponentManagerInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x665910
+Reflection::Detail::CTypeInfoMaker<class IAnimGraphSettingsGroup> (hierarchy Reflection::Detail::CTypeInfoMaker<class IAnimGraphSettingsGroup>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x665f50
+Reflection::Detail::CTypeInfoMaker<class IAnimMotorInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IAnimMotorInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x672470
+Reflection::Detail::CTypeInfoMaker<class IAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x670030
+Reflection::Detail::CTypeInfoMaker<class IAnimParameter> (hierarchy Reflection::Detail::CTypeInfoMaker<class IAnimParameter>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x663a60
+Reflection::Detail::CTypeInfoMaker<class IAnimParameterInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IAnimParameterInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x663d10
+Reflection::Detail::CTypeInfoMaker<class IAnimParameterListInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IAnimParameterListInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x663fd0
+Reflection::Detail::CTypeInfoMaker<class IAnimStateMachineInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IAnimStateMachineInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66aec0
+Reflection::Detail::CTypeInfoMaker<class IAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class IAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x664730
+Reflection::Detail::CTypeInfoMaker<class IAnimTagManagerInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IAnimTagManagerInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6648b0
+Reflection::Detail::CTypeInfoMaker<class IAnimationGraphInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IAnimationGraphInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6192c0
+Reflection::Detail::CTypeInfoMaker<class IAudioAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class IAudioAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x668350
+Reflection::Detail::CTypeInfoMaker<class IBlend2DAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IBlend2DAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x670cb0
+Reflection::Detail::CTypeInfoMaker<class IBodyGroupAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class IBodyGroupAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6684f0
+Reflection::Detail::CTypeInfoMaker<class IChoreoAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IChoreoAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x670180
+Reflection::Detail::CTypeInfoMaker<class IClothSettingsAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class IClothSettingsAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x668660
+Reflection::Detail::CTypeInfoMaker<class IDirectPlaybackAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IDirectPlaybackAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6702c0
+Reflection::Detail::CTypeInfoMaker<class IEnumAnimParameter> (hierarchy Reflection::Detail::CTypeInfoMaker<class IEnumAnimParameter>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x664440
+Reflection::Detail::CTypeInfoMaker<class IEnumAnimParameterInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IEnumAnimParameterInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x663dc0
+Reflection::Detail::CTypeInfoMaker<class IFootFallAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class IFootFallAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6660f0
+Reflection::Detail::CTypeInfoMaker<class IFootLockAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IFootLockAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6705f0
+Reflection::Detail::CTypeInfoMaker<class IFootPinningAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IFootPinningAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x670750
+Reflection::Detail::CTypeInfoMaker<class IFootstepLandedAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class IFootstepLandedAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x668800
+Reflection::Detail::CTypeInfoMaker<class IInputStreamAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IInputStreamAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x670b70
+Reflection::Detail::CTypeInfoMaker<class ILookComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class ILookComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x671680
+Reflection::Detail::CTypeInfoMaker<class IMaterialAttributeAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class IMaterialAttributeAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x666290
+Reflection::Detail::CTypeInfoMaker<class IMotionGraphPreviewNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IMotionGraphPreviewNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66e1f0
+Reflection::Detail::CTypeInfoMaker<class IMotionMatchingAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IMotionMatchingAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6708a0
+Reflection::Detail::CTypeInfoMaker<class IMotionMetricInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IMotionMetricInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x673c40
+Reflection::Detail::CTypeInfoMaker<class IMovementComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IMovementComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x671930
+Reflection::Detail::CTypeInfoMaker<class IPairedSequenceComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IPairedSequenceComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x671db0
+Reflection::Detail::CTypeInfoMaker<class IParticleAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class IParticleAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x668c10
+Reflection::Detail::CTypeInfoMaker<class IPathAnimMotorInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IPathAnimMotorInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x672270
+Reflection::Detail::CTypeInfoMaker<class IPlayerInputAnimMotorInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IPlayerInputAnimMotorInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6725e0
+Reflection::Detail::CTypeInfoMaker<class IRagdollAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class IRagdollAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x668db0
+Reflection::Detail::CTypeInfoMaker<class IRagdollComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class IRagdollComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66a810
+Reflection::Detail::CTypeInfoMaker<class ISequenceAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class ISequenceAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x670410
+Reflection::Detail::CTypeInfoMaker<class ISequenceFinishedAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class ISequenceFinishedAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x668f50
+Reflection::Detail::CTypeInfoMaker<class ISlopeComponentInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class ISlopeComponentInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x671fd0
+Reflection::Detail::CTypeInfoMaker<class ISlopeSettings> (hierarchy Reflection::Detail::CTypeInfoMaker<class ISlopeSettings>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x666000
+Reflection::Detail::CTypeInfoMaker<class ISolveIKChainAnimNodeInstance> (hierarchy Reflection::Detail::CTypeInfoMaker<class ISolveIKChainAnimNodeInstance>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x670a20
+Reflection::Detail::CTypeInfoMaker<class IStatusAnimTag> (hierarchy Reflection::Detail::CTypeInfoMaker<class IStatusAnimTag>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6691c0
+Reflection::Detail::CTypeInfoMaker<class Reflection::CAttribute> (hierarchy Reflection::Detail::CTypeInfoMaker<class Reflection::CAttribute>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x666400
+Reflection::Detail::CTypeInfoMaker<class Reflection::Object> (hierarchy Reflection::Detail::CTypeInfoMaker<class Reflection::Object>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x618e50
+Reflection::Detail::CTypeInfoMaker<enum AnimParamType_t> (hierarchy Reflection::Detail::CTypeInfoMaker<enum AnimParamType_t>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x6639b0
+Reflection::Detail::CTypeInfoMaker<enum BlendKeyType> (hierarchy Reflection::Detail::CTypeInfoMaker<enum BlendKeyType>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x666b10
+Reflection::Detail::CTypeInfoMaker<enum DampingSpeedFunction> (hierarchy Reflection::Detail::CTypeInfoMaker<enum DampingSpeedFunction>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x666980
+Reflection::Detail::CTypeInfoMaker<enum FacingMode> (hierarchy Reflection::Detail::CTypeInfoMaker<enum FacingMode>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x671880
+Reflection::Detail::CTypeInfoMaker<enum ResetCycleOption> (hierarchy Reflection::Detail::CTypeInfoMaker<enum ResetCycleOption>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x665bb0
+Reflection::Detail::CTypeInfoMaker<enum SelectorTagBehavior_t> (hierarchy Reflection::Detail::CTypeInfoMaker<enum SelectorTagBehavior_t>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x667790
+Reflection::Detail::CTypeInfoMaker<float> (hierarchy Reflection::Detail::CTypeInfoMaker<float>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x666a40
+Reflection::Detail::CTypeInfoMaker<int> (hierarchy Reflection::Detail::CTypeInfoMaker<int>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66a140
+Reflection::Detail::CTypeInfoMaker<struct CWeightPreview> (hierarchy Reflection::Detail::CTypeInfoMaker<struct CWeightPreview>: Reflection::CTypeInfo, Reflection::CAttributeContainer)
+	animationsystem.dll + 0x66a970
+google::protobuf::DescriptorProto (hierarchy google::protobuf::DescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d150
+google::protobuf::DescriptorProto_ExtensionRange (hierarchy google::protobuf::DescriptorProto_ExtensionRange: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d238
+google::protobuf::DescriptorProto_ReservedRange (hierarchy google::protobuf::DescriptorProto_ReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d260
+google::protobuf::EnumDescriptorProto (hierarchy google::protobuf::EnumDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d280
+google::protobuf::EnumDescriptorProto_EnumReservedRange (hierarchy google::protobuf::EnumDescriptorProto_EnumReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d2f0
+google::protobuf::EnumOptions (hierarchy google::protobuf::EnumOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d310
+google::protobuf::EnumValueDescriptorProto (hierarchy google::protobuf::EnumValueDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d360
+google::protobuf::EnumValueOptions (hierarchy google::protobuf::EnumValueOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d390
+google::protobuf::ExtensionRangeOptions (hierarchy google::protobuf::ExtensionRangeOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d3e0
+google::protobuf::FieldDescriptorProto (hierarchy google::protobuf::FieldDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d450
+google::protobuf::FieldOptions (hierarchy google::protobuf::FieldOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d4b0
+google::protobuf::FileDescriptorProto (hierarchy google::protobuf::FileDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d540
+google::protobuf::FileDescriptorSet (hierarchy google::protobuf::FileDescriptorSet: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d618
+google::protobuf::FileOptions (hierarchy google::protobuf::FileOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d650
+google::protobuf::GeneratedCodeInfo (hierarchy google::protobuf::GeneratedCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d710
+google::protobuf::GeneratedCodeInfo_Annotation (hierarchy google::protobuf::GeneratedCodeInfo_Annotation: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d740
+google::protobuf::MessageOptions (hierarchy google::protobuf::MessageOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d780
+google::protobuf::MethodDescriptorProto (hierarchy google::protobuf::MethodDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d7d0
+google::protobuf::MethodOptions (hierarchy google::protobuf::MethodOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d810
+google::protobuf::OneofDescriptorProto (hierarchy google::protobuf::OneofDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d428
+google::protobuf::OneofOptions (hierarchy google::protobuf::OneofOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d860
+google::protobuf::ServiceDescriptorProto (hierarchy google::protobuf::ServiceDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d8b0
+google::protobuf::ServiceOptions (hierarchy google::protobuf::ServiceOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d8f0
+google::protobuf::SourceCodeInfo (hierarchy google::protobuf::SourceCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d940
+google::protobuf::SourceCodeInfo_Location (hierarchy google::protobuf::SourceCodeInfo_Location: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d970
+google::protobuf::UninterpretedOption (hierarchy google::protobuf::UninterpretedOption: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d9e0
+google::protobuf::UninterpretedOption_NamePart (hierarchy google::protobuf::UninterpretedOption_NamePart: google::protobuf::Message, google::protobuf::MessageLite)
+	animationsystem.dll + 0x59d518
+google::protobuf::internal::ImplicitWeakMessage (hierarchy google::protobuf::internal::ImplicitWeakMessage: google::protobuf::MessageLite)
+	animationsystem.dll + 0x59db40
+google::protobuf::internal::MapFieldAccessor (hierarchy google::protobuf::internal::MapFieldAccessor: google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	animationsystem.dll + 0x59d080
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64>: google::protobuf::internal::RepeatedFieldWrapper<__int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	animationsystem.dll + 0x59d050
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool>: google::protobuf::internal::RepeatedFieldWrapper<bool>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	animationsystem.dll + 0x59d070
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double>: google::protobuf::internal::RepeatedFieldWrapper<double>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	animationsystem.dll + 0x59d068
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float>: google::protobuf::internal::RepeatedFieldWrapper<float>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	animationsystem.dll + 0x59d060
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int>: google::protobuf::internal::RepeatedFieldWrapper<int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	animationsystem.dll + 0x59d040
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64>: google::protobuf::internal::RepeatedFieldWrapper<unsigned __int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	animationsystem.dll + 0x59d058
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int>: google::protobuf::internal::RepeatedFieldWrapper<unsigned int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	animationsystem.dll + 0x59d048
+google::protobuf::internal::RepeatedPtrFieldMessageAccessor (hierarchy google::protobuf::internal::RepeatedPtrFieldMessageAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class google::protobuf::Message>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	animationsystem.dll + 0x59d088
+google::protobuf::internal::RepeatedPtrFieldStringAccessor (hierarchy google::protobuf::internal::RepeatedPtrFieldStringAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	animationsystem.dll + 0x59d078
+std::_Generic_error_category (hierarchy std::_Generic_error_category: std::error_category)
+	animationsystem.dll + 0x5edef8
+std::_Iostream_error_category2 (hierarchy std::_Iostream_error_category2: std::error_category)
+	animationsystem.dll + 0x59d030

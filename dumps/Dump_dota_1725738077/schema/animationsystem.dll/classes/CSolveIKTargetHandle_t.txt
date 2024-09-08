@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSolveIKTargetHandle_t (size: 0x4 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b8800, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x2075f0"
+
+-----members of class CSolveIKTargetHandle_t-----
+	CAnimParamHandle m_positionHandle(offset 0x0, size 0x2, align 0x1)
+	CAnimParamHandle m_orientationHandle(offset 0x2, size 0x2, align 0x1)
+

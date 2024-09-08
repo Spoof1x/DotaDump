@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseRuntimeMethodArg (size: 0x50 bytes, project "pulse_runtime_lib", binding @ sfm.dll + 0xa06730, scope "sfm.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: sfm.dll + 0x5d06c0"
+
+-----members of class CPulseRuntimeMethodArg-----
+	CKV3MemberNameWithStorage m_Name(offset 0x0, size 0x38, align 0x8)
+	CUtlString m_Description(offset 0x38, size 0x8, align 0x8)
+	CPulseValueFullType m_Type(offset 0x40, size 0x10, align 0x8)
+

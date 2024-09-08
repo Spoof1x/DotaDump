@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleSortingChoiceList_t(size: 4 bytes, 2 values, project "particles", binding @ particles.dll + 0x544840):
+	PARTICLE_SORTING_NEAREST = 0,
+		^MPropertyFriendlyName "Distance - Nearest"
+	PARTICLE_SORTING_CREATION_TIME = 1,
+		^MPropertyFriendlyName "Age - Oldest"

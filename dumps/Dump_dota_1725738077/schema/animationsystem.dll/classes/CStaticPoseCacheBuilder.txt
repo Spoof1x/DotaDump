@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CStaticPoseCacheBuilder (size: 0x38 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a8380, scope "!GlobalTypes") extends CStaticPoseCache
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x19c500"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CStaticPoseCache (size: 0x30 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a82f0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x19c3c0"
+	
+	-----members of class CStaticPoseCache-----
+		uint8_t[16] unaccounted(offset 0x0)
+		CUtlVector< CCachedPose > m_poses(offset 0x10, size 0x18, align 0x8)
+		int32 m_nBoneCount(offset 0x28, size 0x4, align 0x4)
+		int32 m_nMorphCount(offset 0x2c, size 0x4, align 0x4)
+	
+
+-----members of class CStaticPoseCacheBuilder-----
+	uint8_t[8] unaccounted(offset 0x30)
+

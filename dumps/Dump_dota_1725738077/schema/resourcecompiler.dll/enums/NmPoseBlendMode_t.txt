@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NmPoseBlendMode_t(size: 1 bytes, 3 values, project "animlib", binding @ resourcecompiler.dll + 0x24494a0):
+	Overlay = 0,
+	Additive = 1,
+	GlobalSpace = 2,

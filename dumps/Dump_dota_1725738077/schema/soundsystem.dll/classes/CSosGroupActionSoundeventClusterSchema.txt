@@ -1,0 +1,41 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSosGroupActionSoundeventClusterSchema (size: 0x48 bytes, project "soundsystem", binding @ soundsystem.dll + 0x39f770, scope "!GlobalTypes") extends CSosGroupActionSchema
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x196270"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSosGroupActionSchema (size: 0x18 bytes, project "soundsystem", binding @ soundsystem.dll + 0x39fd00, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: soundsystem.dll + 0x193430"
+	^MPropertyElementNameFn "func: soundsystem.dll + 0x19f5e0"
+	
+	-----members of class CSosGroupActionSchema-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+		ActionType_t m_actionType(offset 0x10, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Action Type"
+		ActionType_t m_actionInstanceType(offset 0x14, size 0x4, align 0x4)
+			^MPropertySuppressField
+	
+
+-----members of class CSosGroupActionSoundeventClusterSchema-----
+	int32 m_nMinNearby(offset 0x18, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Minimum Nearby Soundevents"
+	float32 m_flClusterEpsilon(offset 0x1c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Search Radius to Cluster Soundevents"
+	CUtlString m_shouldPlayOpvar(offset 0x20, size 0x8, align 0x8)
+		^MPropertyFriendlyName "'Should Play' Opvar Name"
+	CUtlString m_shouldPlayClusterChild(offset 0x28, size 0x8, align 0x8)
+		^MPropertyFriendlyName "'Should Play Cluster Child' Opvar Name"
+	CUtlString m_clusterSizeOpvar(offset 0x30, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Cluster Size Opvar Name"
+	CUtlString m_groupBoundingBoxMinsOpvar(offset 0x38, size 0x8, align 0x8)
+		^MPropertyFriendlyName "'Group Box Mins' Opvar Name"
+	CUtlString m_groupBoundingBoxMaxsOpvar(offset 0x40, size 0x8, align 0x8)
+		^MPropertyFriendlyName "'Group Box Maxs' Opvar Name"
+

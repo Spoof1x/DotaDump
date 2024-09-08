@@ -1,0 +1,95 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTA_Modifier_Item_Urn_Of_Shadows (size: 0x16f8 bytes, project "server", binding @ server.dll + 0x39cfcd0, scope "server.dll") extends CDOTA_Buff_Item
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CDOTA_Buff_Item (size: 0x16e8 bytes, project "server", binding @ server.dll + 0x39f2500, scope "server.dll") extends CDOTA_Buff
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+	| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CDOTA_Buff (size: 0x16e8 bytes, project "server", binding @ server.dll + 0x39f1ae0, scope "server.dll") extends CHorizontalMotionController, CVerticalMotionController(MI offset 0x10)
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CHorizontalMotionController (size: 0x10 bytes, project "server", binding @ server.dll + 0x3ae3030, scope "!GlobalTypes")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+			
+			-----members of class CHorizontalMotionController-----
+				uint8_t[16] unaccounted(offset 0x0)
+			
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CVerticalMotionController (size: 0x10 bytes, project "server", binding @ server.dll + 0x3ae30a0, MI offset 0x10, scope "!GlobalTypes")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+			
+			-----members of class CVerticalMotionController-----
+				uint8_t[16] unaccounted(offset 0x10)
+			
+		
+		-----members of class CDOTA_Buff-----
+			uint8_t[8] unaccounted(offset 0x20)
+			CUtlSymbolLarge m_name(offset 0x28, size 0x8, align 0x8)
+			uint8_t[8] unaccounted(offset 0x30)
+			CUtlSymbolLarge m_iszModifierAura(offset 0x38, size 0x8, align 0x8)
+			uint8_t[8] unaccounted(offset 0x40)
+			int32 m_iSerialNumber(offset 0x48, size 0x4, align 0x4)
+			int32 m_iStringIndex(offset 0x4c, size 0x4, align 0x4)
+				^MFieldVerificationName "m_iStringIndex"
+			int32 m_iIndex(offset 0x50, size 0x4, align 0x4)
+			GameTime_t m_flCreationTime(offset 0x54, size 0x4, align 0x0)
+			int32 m_iCreationFrame(offset 0x58, size 0x4, align 0x4)
+			GameTime_t m_flLastAppliedTime(offset 0x5c, size 0x4, align 0x0)
+			float32 m_flDuration(offset 0x60, size 0x4, align 0x4)
+			GameTime_t m_flDieTime(offset 0x64, size 0x4, align 0x0)
+			CHandle< CBaseEntity > m_hCaster(offset 0x68, size 0x4, align 0x4)
+			CHandle< CBaseEntity > m_hAbility(offset 0x6c, size 0x4, align 0x4)
+			CHandle< CBaseEntity > m_hParent(offset 0x70, size 0x4, align 0x4)
+			CHandle< CBaseEntity > m_hAuraOwner(offset 0x74, size 0x4, align 0x4)
+			int32 m_iStackCount(offset 0x78, size 0x4, align 0x4)
+			int16 m_iAuraSearchTeam(offset 0x7c, size 0x2, align 0x2)
+			int16 m_iAuraSearchType(offset 0x7e, size 0x2, align 0x2)
+			int32 m_iAuraSearchFlags(offset 0x80, size 0x4, align 0x4)
+			int32 m_iAuraRadius(offset 0x84, size 0x4, align 0x4)
+			int32 m_iTeam(offset 0x88, size 0x4, align 0x4)
+			int32 m_iAttributes(offset 0x8c, size 0x4, align 0x4)
+			int16 m_iPaddingToMakeSchemaHappy2(offset 0x90, size 0x2, align 0x2)
+				^MFieldVerificationName "m_iTooltipParity"
+			bitfield {
+				uint8_t m_bIsAura : 1(offset 0x92, mask = 0x1)
+				uint8_t m_bIsAuraActiveOnDeath : 1(offset 0x92, mask = 0x2)
+				uint8_t m_bMarkedForDeletion : 1(offset 0x92, mask = 0x4)
+				uint8_t m_bAuraIsHeal : 1(offset 0x92, mask = 0x8)
+				uint8_t m_bProvidedByAura : 1(offset 0x92, mask = 0x10)
+				uint8_t m_bCurrentlyInAuraRange : 1(offset 0x92, mask = 0x20)
+			}
+			bool m_bPurgedDestroy(offset 0x93, size 0x1, align 0x1)
+			GameTime_t m_flPreviousTick(offset 0x94, size 0x4, align 0x0)
+			float32 m_flThinkInterval(offset 0x98, size 0x4, align 0x4)
+			float32 m_flThinkTimeAccumulator(offset 0x9c, size 0x4, align 0x4)
+			CUtlVector< CDOTA_BuffParticle > m_iParticles(offset 0xa0, size 0x18, align 0x8)
+			CUtlVector< CHandle< CBaseEntity > > m_hAuraUnits(offset 0xb8, size 0x18, align 0x8)
+			uint8_t[5648] unaccounted(offset 0xd0)
+			HSCRIPT m_hScriptScope(offset 0x16e0, size 0x8, align 0x8)
+		
+	
+	-----members of class CDOTA_Buff_Item-----
+		<no members>
+	
+
+-----members of class CDOTA_Modifier_Item_Urn_Of_Shadows-----
+	float32 mana_regen(offset 0x16e8, size 0x4, align 0x4)
+	int32 bonus_all_stats(offset 0x16ec, size 0x4, align 0x4)
+	float32 bonus_armor(offset 0x16f0, size 0x4, align 0x4)
+	int32 bonus_health(offset 0x16f4, size 0x4, align 0x4)
+

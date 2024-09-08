@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CNmGraphDocStateNode::StateType_t(size: 4 bytes, 3 values, project "animdoclib", binding @ resourcecompiler.dll + 0x23d9dc0):
+	OffState = 0,
+	BlendTreeState = 1,
+	StateMachineState = 2,

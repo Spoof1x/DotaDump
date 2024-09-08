@@ -1,0 +1,12 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleColorBlendMode_t(size: 4 bytes, 5 values, project "particles", binding @ particles.dll + 0x51aa40):
+	PARTICLEBLEND_DEFAULT = 0,
+		^MPropertyFriendlyName "Replace"
+	PARTICLEBLEND_OVERLAY = 1,
+		^MPropertyFriendlyName "Overlay"
+	PARTICLEBLEND_DARKEN = 2,
+		^MPropertyFriendlyName "Darken"
+	PARTICLEBLEND_LIGHTEN = 3,
+		^MPropertyFriendlyName "Lighten"
+	PARTICLEBLEND_MULTIPLY = 4,
+		^MPropertyFriendlyName "Multiply"

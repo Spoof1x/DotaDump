@@ -1,0 +1,40 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CTiltTwistConstraint (size: 0xa0 bytes, project "modellib", binding @ animationsystem.dll + 0x5ea800, scope "!GlobalTypes") extends CBaseConstraint
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x40d090"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBaseConstraint (size: 0x68 bytes, project "modellib", binding @ animationsystem.dll + 0x5ea450, scope "!GlobalTypes") extends CBoneConstraintBase
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBoneConstraintBase (size: 0x28 bytes, project "modellib", binding @ animationsystem.dll + 0x5ea340, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+		
+		-----members of class CBoneConstraintBase-----
+			uint8_t[40] unaccounted(offset 0x0)
+		
+	
+	-----members of class CBaseConstraint-----
+		CUtlString m_name(offset 0x28, size 0x8, align 0x8)
+		Vector m_vUpVector(offset 0x30, size 0xc, align 0x4)
+		uint8_t[4] unaccounted(offset 0x3c)
+		CUtlLeanVector< CConstraintSlave > m_slaves(offset 0x40, size 0x10, align 0x8)
+		CUtlVector< CConstraintTarget > m_targets(offset 0x50, size 0x18, align 0x8)
+	
+
+-----members of class CTiltTwistConstraint-----
+	int32 m_nTargetAxis(offset 0x68, size 0x4, align 0x4)
+	int32 m_nSlaveAxis(offset 0x6c, size 0x4, align 0x4)
+	uint8_t[48] unaccounted(offset 0x70)
+

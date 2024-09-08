@@ -1,0 +1,32 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class sky3dparams_t (size: 0x90 bytes, project "client", binding @ client.dll + 0x46b8780, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "scale int16"
+^MNetworkVarNames "origin Vector"
+^MNetworkVarNames "bClip3DSkyBoxNearToWorldFar bool"
+^MNetworkVarNames "flClip3DSkyBoxNearToWorldFarOffset float32"
+^MNetworkVarNames "fog fogparams_t"
+^MNetworkVarNames "m_nWorldGroupID WorldGroupId_t"
+
+-----members of class sky3dparams_t-----
+	uint8_t[8] unaccounted(offset 0x0)
+	int16 scale(offset 0x8, size 0x2, align 0x2)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0xa)
+	Vector origin(offset 0xc, size 0xc, align 0x4)
+		^MNetworkEnable
+		^MNetworkEncoder "coord"
+	bool bClip3DSkyBoxNearToWorldFar(offset 0x18, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x19)
+	float32 flClip3DSkyBoxNearToWorldFarOffset(offset 0x1c, size 0x4, align 0x4)
+		^MNetworkEnable
+	fogparams_t fog(offset 0x20, size 0x68, align 0x0)
+		^MNetworkEnable
+	WorldGroupId_t m_nWorldGroupID(offset 0x88, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x8c)
+

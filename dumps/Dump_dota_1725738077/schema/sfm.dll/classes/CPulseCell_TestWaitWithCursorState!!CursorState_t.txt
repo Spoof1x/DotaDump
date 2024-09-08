@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_TestWaitWithCursorState::CursorState_t (size: 0x8 bytes, project "pulse_runtime_lib", binding @ sfm.dll + 0xa01780, scope "sfm.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: sfm.dll + 0x5b91a0"
+
+-----members of class CPulseCell_TestWaitWithCursorState::CursorState_t-----
+	float32 flWaitValue(offset 0x0, size 0x4, align 0x4)
+	bool bFailOnCancel(offset 0x4, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x5)
+

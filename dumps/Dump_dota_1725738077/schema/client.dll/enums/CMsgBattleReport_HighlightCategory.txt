@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CMsgBattleReport_HighlightCategory(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x46f4130):
+	k_eHighlightGeneral = 0,
+		^MPropertyFriendlyName "General"
+	k_eHighlightHero = 1,
+		^MPropertyFriendlyName "Hero"
+	k_eHighlightRole = 2,
+		^MPropertyFriendlyName "Role"

@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootTrajectory (size: 0x14 bytes, project "modellib", binding @ vphysics2.dll + 0x38ced0, scope "vphysics2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0xd2030"
+
+-----static members of class CFootTrajectory-----
+	static CFootTrajectory Identity(vphysics2.dll + 0x38d988)
+
+-----members of class CFootTrajectory-----
+	Vector m_vOffset(offset 0x0, size 0xc, align 0x4)
+	float32 m_flRotationOffset(offset 0xc, size 0x4, align 0x4)
+	float32 m_flProgression(offset 0x10, size 0x4, align 0x4)
+

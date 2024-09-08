@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_ComponentManager (size: 0x28 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e6580, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x546d60"
+
+-----members of class CAnimGraphDoc_ComponentManager-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlVector< CSmartPtr< CAnimGraphDoc_Component > > m_components(offset 0x8, size 0x18, align 0x8)
+	uint8_t[8] unaccounted(offset 0x20)
+

@@ -1,0 +1,35 @@
+CConCommandMemberAccessor<class CVConComm>
+	vconcomm.dll + 0x253b8(hierarchy CConCommandMemberAccessor<class CVConComm>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+	vconcomm.dll + 0x25510 MI offset 8(hierarchy ICommandCompletionCallback)
+CPostConnectCallback
+	vconcomm.dll + 0x1da88(hierarchy CPostConnectCallback)
+CSchemaInstallCallback
+	vconcomm.dll + 0x1dcb0(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CServicePollThread
+	vconcomm.dll + 0x25548(hierarchy CServicePollThread: CThread)
+CVConActiveStateMessage
+	vconcomm.dll + 0x253a8(hierarchy CVConActiveStateMessage: IVConCommDataReceived)
+CVConChannelPokeMessage
+	vconcomm.dll + 0x25538(hierarchy CVConChannelPokeMessage: IVConCommDataReceived)
+CVConComm
+	vconcomm.dll + 0x253f8(hierarchy CVConComm: CTier2AppSystem<class IVConComm,0>, CTier1AppSystem<class IVConComm,0>, CTier0AppSystem<class IVConComm,0>, CBaseAppSystem<class IVConComm>, IVConComm, CBaseAppSystem<class IAppSystem>, IAppSystem)
+CVConCommThread
+	vconcomm.dll + 0x25258(hierarchy CVConCommThread: CThread)
+CVConCommThread_PC
+	vconcomm.dll + 0x252d8(hierarchy CVConCommThread_PC: CVConCommThread, CThread)
+CVConPingMessage
+	vconcomm.dll + 0x25588(hierarchy CVConPingMessage: IVConCommDataReceived)
+CVConUserNameMessage
+	vconcomm.dll + 0x25398(hierarchy CVConUserNameMessage: IVConCommDataReceived)
+CVConsoleConVarListener
+	vconcomm.dll + 0x25520(hierarchy CVConsoleConVarListener: IConVarListener)
+CVConsoleLoggingListener
+	vconcomm.dll + 0x253c8(hierarchy CVConsoleLoggingListener: ILoggingListener)
+CVConsoleModuleMappingListener
+	vconcomm.dll + 0x254f0(hierarchy CVConsoleModuleMappingListener: IModuleMappingListener)
+std::bad_exception
+	vconcomm.dll + 0x1eca0(hierarchy std::bad_exception: std::exception)
+std::exception
+	vconcomm.dll + 0x1ec70(hierarchy std::exception)
+type_info
+	vconcomm.dll + 0x1dd10(hierarchy type_info)

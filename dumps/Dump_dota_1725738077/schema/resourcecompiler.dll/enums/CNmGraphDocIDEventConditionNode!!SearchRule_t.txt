@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CNmGraphDocIDEventConditionNode::SearchRule_t(size: 1 bytes, 3 values, project "animdoclib", binding @ resourcecompiler.dll + 0x23d98b0):
+	SearchAll = 0,
+	OnlySearchStateEvents = 1,
+	OnlySearchAnimEvents = 2,

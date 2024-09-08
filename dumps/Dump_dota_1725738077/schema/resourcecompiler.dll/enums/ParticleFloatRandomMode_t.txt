@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleFloatRandomMode_t(size: 4 bytes, 4 values, project "particleslib", binding @ resourcecompiler.dll + 0x24e9720):
+	PF_RANDOM_MODE_INVALID = -1,
+	PF_RANDOM_MODE_CONSTANT = 0,
+	PF_RANDOM_MODE_VARYING = 1,
+	PF_RANDOM_MODE_COUNT = 2,

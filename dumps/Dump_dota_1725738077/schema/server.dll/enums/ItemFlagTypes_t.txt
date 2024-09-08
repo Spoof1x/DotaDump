@@ -1,0 +1,11 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ItemFlagTypes_t(size: 1 bytes, 9 values, project "server", binding @ server.dll + 0x38a0290):
+	ITEM_FLAG_NONE = 0,
+	ITEM_FLAG_CAN_SELECT_WITHOUT_AMMO = 1,
+	ITEM_FLAG_NOAUTORELOAD = 2,
+	ITEM_FLAG_NOAUTOSWITCHEMPTY = 4,
+	ITEM_FLAG_LIMITINWORLD = 8,
+	ITEM_FLAG_EXHAUSTIBLE = 16,
+	ITEM_FLAG_DOHITLOCATIONDMG = 32,
+	ITEM_FLAG_NOAMMOPICKUPS = 64,
+	ITEM_FLAG_NOITEMPICKUP = -128,

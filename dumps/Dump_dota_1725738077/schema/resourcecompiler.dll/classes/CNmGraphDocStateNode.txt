@@ -1,0 +1,63 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphDocStateNode (size: 0xe0 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23d9fd0, scope "!GlobalTypes") extends CNmGraphDocStateMachineGraphNode
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x440710"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmGraphDocStateMachineGraphNode (size: 0x48 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23df7e0, scope "!GlobalTypes") extends CNmGraphDocNode
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmGraphDocNode (size: 0x48 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23da3b0, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+		
+		-----members of class CNmGraphDocNode-----
+			uint8_t[8] unaccounted(offset 0x0)
+			V_uuid_t m_ID(offset 0x8, size 0x10, align 0x4)
+				^MPropertySuppressField
+			CUtlString m_name(offset 0x18, size 0x8, align 0x8)
+				^MPropertyHideField
+			CUtlString m_floatingComment(offset 0x20, size 0x8, align 0x8)
+			Vector2D m_position(offset 0x28, size 0x8, align 0x4)
+				^MPropertySuppressField
+			uint8_t[8] unaccounted(offset 0x30)
+			CNmGraphDocGraph* m_pChildGraph(offset 0x38, size 0x8, align 0x8)
+				^MPropertySuppressField
+			CNmGraphDocGraph* m_pSecondaryGraph(offset 0x40, size 0x8, align 0x8)
+				^MPropertySuppressField
+		
+	
+	-----members of class CNmGraphDocStateMachineGraphNode-----
+		<no members>
+	
+
+-----members of class CNmGraphDocStateNode-----
+	CNmGraphDocStateNode::StateType_t m_type(offset 0x48, size 0x4, align 0x4)
+		^MPropertyHideField
+	uint8_t[4] unaccounted(offset 0x4c)
+	CUtlVector< CGlobalSymbol > m_events(offset 0x50, size 0x18, align 0x8)
+		^MPropertyAttributeEditor "AnimGraphID()"
+	CUtlVector< CGlobalSymbol > m_entryEvents(offset 0x68, size 0x18, align 0x8)
+		^MPropertyGroupName "+Phase Events"
+		^MPropertyAttributeEditor "AnimGraphID()"
+	CUtlVector< CGlobalSymbol > m_executeEvents(offset 0x80, size 0x18, align 0x8)
+		^MPropertyGroupName "+Phase Events"
+		^MPropertyAttributeEditor "AnimGraphID()"
+	CUtlVector< CGlobalSymbol > m_exitEvents(offset 0x98, size 0x18, align 0x8)
+		^MPropertyGroupName "+Phase Events"
+		^MPropertyAttributeEditor "AnimGraphID()"
+	CUtlVector< CNmGraphDocStateNode::TimedStateEvent_t > m_timeRemainingEvents(offset 0xb0, size 0x18, align 0x8)
+		^MPropertyGroupName "+Timed Events"
+	CUtlVector< CNmGraphDocStateNode::TimedStateEvent_t > m_timeElapsedEvents(offset 0xc8, size 0x18, align 0x8)
+		^MPropertyGroupName "+Timed Events"
+

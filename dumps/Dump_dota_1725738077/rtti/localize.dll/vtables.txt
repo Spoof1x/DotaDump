@@ -1,0 +1,14 @@
+CLocalize
+	localize.dll + 0x324f8(hierarchy CLocalize: CTier2AppSystem<class ILocalize,0>, CTier1AppSystem<class ILocalize,0>, CTier0AppSystem<class ILocalize,0>, CBaseAppSystem<class ILocalize>, ILocalize, IAppSystem)
+CPostConnectCallback
+	localize.dll + 0x28780(hierarchy CPostConnectCallback)
+CSchemaInstallCallback
+	localize.dll + 0x28930(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+ILocalize
+	localize.dll + 0x329e8(hierarchy ILocalize: IAppSystem)
+std::bad_exception
+	localize.dll + 0x29910(hierarchy std::bad_exception: std::exception)
+std::exception
+	localize.dll + 0x298e0(hierarchy std::exception)
+type_info
+	localize.dll + 0x28a40(hierarchy type_info)

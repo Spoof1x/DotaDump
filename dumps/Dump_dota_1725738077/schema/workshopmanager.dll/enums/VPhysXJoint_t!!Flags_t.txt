@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum VPhysXJoint_t::Flags_t(size: 4 bytes, 3 values, project "modellib", binding @ workshopmanager.dll + 0xe8da80):
+	JOINT_FLAGS_NONE = 0,
+	JOINT_FLAGS_BODY1_FIXED = 1,
+	JOINT_FLAGS_USE_BLOCK_SOLVER = 2,

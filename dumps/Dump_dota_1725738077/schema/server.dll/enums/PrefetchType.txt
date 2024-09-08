@@ -1,0 +1,3 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PrefetchType(size: 4 bytes, 1 values, project "server", binding @ server.dll + 0x38e84f0):
+	PFT_SOUND = 0,

@@ -1,0 +1,44 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAssetTagInfo (size: 0x1e0 bytes, project "toolutils2", binding @ toolframework2.dll + 0x936030, scope "toolframework2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x4860d0"
+^MVDataRoot
+^MVDataOutlinerDetailExpr "m_TagName"
+^MVDataOutlinerIconExpr "m_TagIcon"
+
+-----members of class CAssetTagInfo-----
+	uint8_t[48] unaccounted(offset 0x0)
+	CUtlString m_TagName(offset 0x30, size 0x8, align 0x8)
+		^MPropertyDescription "User-facing tag name"
+	CUtlString m_TagDescription(offset 0x38, size 0x8, align 0x8)
+		^MPropertyDescription "User-facing description of the tag"
+		^MPropertyAttributeEditor "TextBlock()"
+	CUtlString m_TagIcon(offset 0x40, size 0x8, align 0x8)
+		^MPropertyDescription "Icon associated with the tag"
+		^MPropertyAttributeEditor "ToolImage( 16 )"
+	Color m_TagColor(offset 0x48, size 0x4, align 0x1)
+		^MPropertyDescription "Color for the tag badge"
+	uint8_t[4] unaccounted(offset 0x4c)
+	CUtlVector< CUtlString > m_TagAliases(offset 0x50, size 0x18, align 0x8)
+		^MPropertyDescription "Alternate strings this tag will match when searching for assets by name."
+		^MPropertyAutoExpandSelf
+	CUtlString m_ThumbnailOverlayImage(offset 0x68, size 0x8, align 0x8)
+		^MPropertyDescription "If set, draw this as an overlay image on the asset preview"
+		^MPropertyAttributeEditor "ToolImage( 64 )"
+	bool m_bTagIndicatesRejectedAsset(offset 0x70, size 0x1, align 0x1)
+		^MPropertyDescription "If set, the presence of this tag will cause the tools to suppress or dissuade use in several ways (and draw a red X over the asset preview)"
+	bool m_bTagHidesAssetByDefault(offset 0x71, size 0x1, align 0x1)
+		^MPropertyDescription "If set, the presence of this tag will cause the tools to hide the asset from users by default. NOTE: This means if an asset gets tagged with this it might 'dissapear' from the UI!"
+	uint8_t[6] unaccounted(offset 0x72)
+	CUtlString m_RestrictAutoTagToAssetType(offset 0x78, size 0x8, align 0x8)
+		^MPropertyStartGroup "+Auto Tags"
+		^MPropertyDescription "Required for any auto-tag. Restricts the auto-application of this tag to a specific asset type (string from assettypes_common.txt like 'material_asset' or 'model_asset')"
+	CUtlString m_AutoFilterTag(offset 0x80, size 0x8, align 0x8)
+		^MPropertyDescription "Set this to automatically apply this tag based on an asset filter string. (NOTE: Auto tag names MUST start with an '@' character!)"
+		^MPropertyAutoExpandSelf
+		^MPropertySuppressExpr "m_RestrictAutoTagToAssetType == """
+	AutoTagVDataCondition_t m_AutoDataTag(offset 0x88, size 0x158, align 0x8)
+		^MPropertyDescription "Set this to automatically apply this tag to assets based on references from a VData file. (NOTE: Auto tag names MUST start with an '@' character!)"
+		^MPropertyAutoExpandSelf
+		^MPropertySuppressExpr "m_RestrictAutoTagToAssetType == """
+

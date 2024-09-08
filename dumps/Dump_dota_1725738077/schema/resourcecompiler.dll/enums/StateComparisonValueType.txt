@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum StateComparisonValueType(size: 4 bytes, 3 values, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e8710):
+	StateComparisonValue_FixedValue = 0,
+	StateComparisonValue_StateValue = 1,
+	StateComparisonValue_Parameter = 2,

@@ -1,0 +1,21 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulse_ResumePoint (size: 0x30 bytes, project "pulse_runtime_lib", binding @ met.dll + 0x401110, scope "met.dll") extends CPulse_OutflowConnection
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulse_OutflowConnection (size: 0x30 bytes, project "pulse_runtime_lib", binding @ met.dll + 0x401090, scope "met.dll")
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	
+	-----members of class CPulse_OutflowConnection-----
+		CUtlSymbolLarge m_SourceOutflowName(offset 0x0, size 0x8, align 0x8)
+		PulseRuntimeChunkIndex_t m_nDestChunk(offset 0x8, size 0x4, align 0x0)
+		int32 m_nInstruction(offset 0xc, size 0x4, align 0x4)
+		PulseRegisterMap_t m_OutflowRegisterMap(offset 0x10, size 0x20, align 0x8)
+	
+
+-----static members of class CPulse_ResumePoint-----
+	static CPulse_ResumePoint Invalid(met.dll + 0x40a5b0)
+
+-----members of class CPulse_ResumePoint-----
+	<no members>
+

@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDotaCollectionWorkshopFileFilter (size: 0x10 bytes, project "workshoptoolutils", binding @ workshopmanager.dll + 0xea46c0, scope "!GlobalTypes") extends IWorkshopFileListerFilter
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x6299b0"
+^MPropertyFriendlyName "Collection"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IWorkshopFileListerFilter (size: 0x8 bytes, project "workshoptoolutils", binding @ workshopmanager.dll + 0xea4090, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x625fd0"
+	
+	-----members of class IWorkshopFileListerFilter-----
+		uint8_t[8] unaccounted(offset 0x0)
+	
+
+-----members of class CDotaCollectionWorkshopFileFilter-----
+	bool m_bSameCreator(offset 0x8, size 0x1, align 0x1)
+	bool m_bSingleHero(offset 0x9, size 0x1, align 0x1)
+	uint8_t[6] unaccounted(offset 0xa)
+

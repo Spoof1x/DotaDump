@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_SubGraph (size: 0xe0 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e66c0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x547e90"
+
+-----members of class CAnimGraphDoc_SubGraph-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CAnimGraphDoc_NodeManager m_nodeManager(offset 0x8, size 0x48, align 0x8)
+	CAnimGraphDoc_ComponentManager m_componentManager(offset 0x50, size 0x28, align 0x8)
+	CUtlVector< CSmartPtr< CAnimParameterBase > > m_localParameters(offset 0x78, size 0x18, align 0x8)
+	CUtlVector< CSmartPtr< CAnimTagBase > > m_localTags(offset 0x90, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_referencedParamGroups(offset 0xa8, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_referencedTagGroups(offset 0xc0, size 0x18, align 0x8)
+	uint8_t[8] unaccounted(offset 0xd8)
+

@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EventClientAdvanceNonRenderedFrame_t (size: 0x1 bytes, project "sfm", binding @ sfm.dll + 0xa23ec0, scope "sfm.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+-----members of class EventClientAdvanceNonRenderedFrame_t-----
+	uint8_t[1] unaccounted(offset 0x0)
+

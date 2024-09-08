@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FootPinningPoseOpFixedData_t (size: 0x30 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b1150, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1d77c0"
+
+-----members of class FootPinningPoseOpFixedData_t-----
+	CUtlVector< FootFixedData_t > m_footInfo(offset 0x0, size 0x18, align 0x8)
+	float32 m_flBlendTime(offset 0x18, size 0x4, align 0x4)
+	float32 m_flLockBreakDistance(offset 0x1c, size 0x4, align 0x4)
+	float32 m_flMaxLegTwist(offset 0x20, size 0x4, align 0x4)
+	int32 m_nHipBoneIndex(offset 0x24, size 0x4, align 0x4)
+	bool m_bApplyLegTwistLimits(offset 0x28, size 0x1, align 0x1)
+	bool m_bApplyFootRotationLimits(offset 0x29, size 0x1, align 0x1)
+	uint8_t[6] unaccounted(offset 0x2a)
+

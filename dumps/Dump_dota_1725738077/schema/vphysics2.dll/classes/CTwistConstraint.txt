@@ -1,0 +1,41 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CTwistConstraint (size: 0x90 bytes, project "modellib", binding @ vphysics2.dll + 0x38c290, scope "vphysics2.dll") extends CBaseConstraint
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0xc8360"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBaseConstraint (size: 0x68 bytes, project "modellib", binding @ vphysics2.dll + 0x38bfb0, scope "vphysics2.dll") extends CBoneConstraintBase
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: vphysics2.dll + 0xd370"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBoneConstraintBase (size: 0x28 bytes, project "modellib", binding @ vphysics2.dll + 0x38bea0, scope "vphysics2.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: vphysics2.dll + 0xd370"
+		
+		-----members of class CBoneConstraintBase-----
+			uint8_t[40] unaccounted(offset 0x0)
+		
+	
+	-----members of class CBaseConstraint-----
+		CUtlString m_name(offset 0x28, size 0x8, align 0x8)
+		Vector m_vUpVector(offset 0x30, size 0xc, align 0x4)
+		uint8_t[4] unaccounted(offset 0x3c)
+		CUtlLeanVector< CConstraintSlave > m_slaves(offset 0x40, size 0x10, align 0x8)
+		CUtlVector< CConstraintTarget > m_targets(offset 0x50, size 0x18, align 0x8)
+	
+
+-----members of class CTwistConstraint-----
+	bool m_bInverse(offset 0x68, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x69)
+	Quaternion m_qParentBindRotation(offset 0x70, size 0x10, align 0x10)
+	Quaternion m_qChildBindRotation(offset 0x80, size 0x10, align 0x10)
+

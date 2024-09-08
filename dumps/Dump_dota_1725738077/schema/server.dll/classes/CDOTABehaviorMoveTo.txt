@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABehaviorMoveTo (size: 0xe0 bytes, project "server", binding @ server.dll + 0x3ae4a00, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CDOTABehaviorMoveTo-----
+	uint8_t[184] unaccounted(offset 0x0)
+	CountdownTimer m_repathTimer(offset 0xb8, size 0x18, align 0x0)
+	bool m_bSetAnimation(offset 0xd0, size 0x1, align 0x1)
+	bool m_bUseSwimAnimations(offset 0xd1, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0xd2)
+	int32 m_nRunActivity(offset 0xd4, size 0x4, align 0x4)
+	float32 m_flTargetDist(offset 0xd8, size 0x4, align 0x4)
+	bool m_bIsDirectional(offset 0xdc, size 0x1, align 0x1)
+	bool m_bIsRelative(offset 0xdd, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0xde)
+

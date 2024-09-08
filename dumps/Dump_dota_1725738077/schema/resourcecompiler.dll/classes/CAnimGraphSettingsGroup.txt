@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphSettingsGroup (size: 0x20 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242ccd0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x765240"
+
+-----members of class CAnimGraphSettingsGroup-----
+	uint8_t[32] unaccounted(offset 0x0)
+

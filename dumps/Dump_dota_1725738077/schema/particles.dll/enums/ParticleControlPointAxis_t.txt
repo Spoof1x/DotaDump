@@ -1,0 +1,14 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleControlPointAxis_t(size: 4 bytes, 6 values, project "particles", binding @ particles.dll + 0x526600):
+	PARTICLE_CP_AXIS_X = 0,
+		^MPropertyFriendlyName "X Axis"
+	PARTICLE_CP_AXIS_Y = 1,
+		^MPropertyFriendlyName "Y Axis"
+	PARTICLE_CP_AXIS_Z = 2,
+		^MPropertyFriendlyName "Z Axis"
+	PARTICLE_CP_AXIS_NEGATIVE_X = 3,
+		^MPropertyFriendlyName "Negative X Axis"
+	PARTICLE_CP_AXIS_NEGATIVE_Y = 4,
+		^MPropertyFriendlyName "Negative Y Axis"
+	PARTICLE_CP_AXIS_NEGATIVE_Z = 5,
+		^MPropertyFriendlyName "Negative Z Axis"

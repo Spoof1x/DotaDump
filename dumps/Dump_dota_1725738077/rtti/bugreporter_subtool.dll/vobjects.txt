@@ -1,0 +1,16 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CBugReporterTool
+	(hierarchy CBugReporterTool: IExternalVConsoleSubTool, CTier3AppSystem<class IExternalSubTool,0>, CTier2AppSystem<class IExternalSubTool,0>, CTier1AppSystem<class IExternalSubTool,0>, CTier0AppSystem<class IExternalSubTool,0>, CBaseAppSystem<class IExternalSubTool>, IExternalSubTool, IAppSystem, IVConsoleSubTool, IVConsoleDataReceived)
+		bugreporter_subtool.dll + 0x63280
+	MI offset 8 (hierarchy IVConsoleSubTool: IVConsoleDataReceived)
+		bugreporter_subtool.dll + 0x63288
+	MI offset 48 (hierarchy IVConsoleDataReceived)
+		bugreporter_subtool.dll + 0x632b0
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	bugreporter_subtool.dll + 0xa5bb0
+Concurrency::details::stl_condition_variable_win7 (hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+	bugreporter_subtool.dll + 0xa61c0
+Concurrency::details::stl_critical_section_win7 (hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+	bugreporter_subtool.dll + 0xa6168
+std::_Generic_error_category (hierarchy std::_Generic_error_category: std::error_category)
+	bugreporter_subtool.dll + 0x61a00

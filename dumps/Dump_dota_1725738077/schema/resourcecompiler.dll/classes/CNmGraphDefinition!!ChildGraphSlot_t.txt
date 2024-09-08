@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphDefinition::ChildGraphSlot_t (size: 0x4 bytes, project "animlib", binding @ resourcecompiler.dll + 0x24452e0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x817250"
+
+-----members of class CNmGraphDefinition::ChildGraphSlot_t-----
+	int16 m_nNodeIdx(offset 0x0, size 0x2, align 0x2)
+	int16 m_dataSlotIdx(offset 0x2, size 0x2, align 0x2)
+

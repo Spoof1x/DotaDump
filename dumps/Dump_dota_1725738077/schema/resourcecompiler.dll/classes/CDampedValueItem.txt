@@ -1,0 +1,38 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDampedValueItem (size: 0x48 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e7410, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x54e7c0"
+^MPropertyFriendlyName "Damped Value"
+
+-----members of class CDampedValueItem-----
+	DampedValueType m_valueType(offset 0x0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Value Type"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlString m_floatParamNameIn(offset 0x8, size 0x8, align 0x8)
+		^MPropertyHideField
+	CUtlString m_floatParamNameOut(offset 0x10, size 0x8, align 0x8)
+		^MPropertyHideField
+	CUtlString m_vectorParamNameIn(offset 0x18, size 0x8, align 0x8)
+		^MPropertyHideField
+	CUtlString m_vectorParamNameOut(offset 0x20, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_floatParamIn(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Parameter In"
+		^MPropertyAttributeChoiceName "FloatParameter"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5e29a0"
+	AnimParamID m_floatParamOut(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Parameter Out"
+		^MPropertyAttributeChoiceName "PrivateFloatParameter"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5e29a0"
+	AnimParamID m_vectorParamIn(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Parameter In"
+		^MPropertyAttributeChoiceName "VectorParameter"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5e29b0"
+	AnimParamID m_vectorParamOut(offset 0x34, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Parameter Out"
+		^MPropertyAttributeChoiceName "PrivateVectorParameter"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5e29b0"
+	CAnimInputDamping m_damping(offset 0x38, size 0x10, align 0x8)
+		^MPropertyFriendlyName "Damping"
+

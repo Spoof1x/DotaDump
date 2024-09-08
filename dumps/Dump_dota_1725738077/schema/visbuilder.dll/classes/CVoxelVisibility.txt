@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVoxelVisibility (size: 0xa0 bytes, project "visbuilder", binding @ visbuilder.dll + 0x1889f0, scope "visbuilder.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: visbuilder.dll + 0x51dc0"
+
+-----members of class CVoxelVisibility-----
+	uint8_t[64] unaccounted(offset 0x0)
+	uint32 m_nBaseClusterCount(offset 0x40, size 0x4, align 0x4)
+	uint32 m_nPVSBytesPerCluster(offset 0x44, size 0x4, align 0x4)
+	Vector m_vMinBounds(offset 0x48, size 0xc, align 0x4)
+	Vector m_vMaxBounds(offset 0x54, size 0xc, align 0x4)
+	float32 m_flGridSize(offset 0x60, size 0x4, align 0x4)
+	uint32 m_nSkyVisibilityCluster(offset 0x64, size 0x4, align 0x4)
+	uint32 m_nSunVisibilityCluster(offset 0x68, size 0x4, align 0x4)
+	VoxelVisBlockOffset_t m_NodeBlock(offset 0x6c, size 0x8, align 0x4)
+	VoxelVisBlockOffset_t m_RegionBlock(offset 0x74, size 0x8, align 0x4)
+	VoxelVisBlockOffset_t m_EnclosedClusterListBlock(offset 0x7c, size 0x8, align 0x4)
+	VoxelVisBlockOffset_t m_EnclosedClustersBlock(offset 0x84, size 0x8, align 0x4)
+	VoxelVisBlockOffset_t m_MasksBlock(offset 0x8c, size 0x8, align 0x4)
+	VoxelVisBlockOffset_t m_nVisBlocks(offset 0x94, size 0x8, align 0x4)
+	uint8_t[4] unaccounted(offset 0x9c)
+

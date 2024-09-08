@@ -1,0 +1,13 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PulseCursorCancelPriority_t(size: 4 bytes, 4 values, project "pulse_runtime_lib", binding @ pet.dll + 0xce2ac0):
+	None = 0,
+		^MPropertyFriendlyName "Keep running normally."
+	CancelOnSucceeded = 1,
+		^MPropertyFriendlyName "Kill after current node."
+		^MPropertyDescription "Do not stop the current yielding node, but do not continue to the next node afterwards."
+	SoftCancel = 2,
+		^MPropertyFriendlyName "Kill elegantly."
+		^MPropertyDescription "Request elegant wind-down of any associated work (e.g. vcd interrupt)."
+	HardCancel = 3,
+		^MPropertyFriendlyName "Kill immediately."
+		^MPropertyDescription "Stop without any wind-down."

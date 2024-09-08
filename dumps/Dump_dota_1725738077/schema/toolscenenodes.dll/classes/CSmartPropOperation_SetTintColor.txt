@@ -1,0 +1,54 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_SetTintColor (size: 0x128 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfbb80, scope "toolscenenodes.dll") extends CSmartPropOperation
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x69ffb0"
+^MPropertyFriendlyName "Tint Color Choice"
+^MPropertyDescription "Set the color tint to one color out of a pre-selected set of colors."
+^MVDataClassGroup "Color"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbf9bc0, scope "toolscenenodes.dll") extends CSmartPropModifier
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfac80, scope "toolscenenodes.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+		^MVDataBase
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		
+		-----members of class CSmartPropModifier-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+				^MVDataEnableKey
+			uint8_t[8] unaccounted(offset 0x48)
+		
+	
+	-----members of class CSmartPropOperation-----
+		<no members>
+	
+
+-----members of class CSmartPropOperation_SetTintColor-----
+	CSmartPropAttributeChoiceSelectionMode m_SelectionMode(offset 0x50, size 0x40, align 0x0)
+		^MPropertyFriendlyName "Selection Mode"
+		^MPropertyDescription "Specifies how the color is to be selected from the authored set of choices"
+	CSmartPropAttributeInt m_ColorSelection(offset 0x90, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Color Selection"
+		^MPropertyDescription "Specifies the index of the color to pick"
+		^MPropertySuppressExpr "( m_SelectionMode != SPECIFIC )"
+	CSmartPropAttributeApplyColorMode m_Mode(offset 0xd0, size 0x40, align 0x0)
+		^MPropertyFriendlyName "Application Mode"
+		^MPropertyDescription "Specifies how the selected color should be applied to the current color."
+	CUtlVector< ColorChoice_t > m_ColorChoices(offset 0x110, size 0x18, align 0x8)
+		^MPropertyDescription "List of possible colors which may be selected"
+

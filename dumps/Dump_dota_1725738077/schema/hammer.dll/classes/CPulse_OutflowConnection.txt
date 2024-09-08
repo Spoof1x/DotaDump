@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulse_OutflowConnection (size: 0x30 bytes, project "pulse_runtime_lib", binding @ hammer.dll + 0x1db7790, scope "hammer.dll")
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+-----members of class CPulse_OutflowConnection-----
+	CUtlSymbolLarge m_SourceOutflowName(offset 0x0, size 0x8, align 0x8)
+	PulseRuntimeChunkIndex_t m_nDestChunk(offset 0x8, size 0x4, align 0x0)
+	int32 m_nInstruction(offset 0xc, size 0x4, align 0x4)
+	PulseRegisterMap_t m_OutflowRegisterMap(offset 0x10, size 0x20, align 0x8)
+

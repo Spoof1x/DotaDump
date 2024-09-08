@@ -1,0 +1,49 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSosGroupActionSoundeventMinMaxValuesSchema (size: 0x48 bytes, project "soundsystem", binding @ soundsystem.dll + 0x39f170, scope "!GlobalTypes") extends CSosGroupActionSchema
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x199360"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSosGroupActionSchema (size: 0x18 bytes, project "soundsystem", binding @ soundsystem.dll + 0x39fd00, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: soundsystem.dll + 0x193430"
+	^MPropertyElementNameFn "func: soundsystem.dll + 0x19f5e0"
+	
+	-----members of class CSosGroupActionSchema-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+		ActionType_t m_actionType(offset 0x10, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Action Type"
+		ActionType_t m_actionInstanceType(offset 0x14, size 0x4, align 0x4)
+			^MPropertySuppressField
+	
+
+-----members of class CSosGroupActionSoundeventMinMaxValuesSchema-----
+	CUtlString m_strQueryPublicFieldName(offset 0x18, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Public field name to query."
+	CUtlString m_strDelayPublicFieldName(offset 0x20, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Public field 'delay' name."
+	bool m_bExcludeStoppedSounds(offset 0x28, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Exclude stopped sounds from evaluation"
+	bool m_bExcludeDelayedSounds(offset 0x29, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Exclude delayed sounds from evaluation"
+	bool m_bExcludeSoundsBelowThreshold(offset 0x2a, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Exclude sounds from evaluation less than or equal to a min value threshold."
+	uint8_t[1] unaccounted(offset 0x2b)
+	float32 m_flExcludeSoundsMinThresholdValue(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "The minimum threshold value to exclude sounds."
+	bool m_bExcludSoundsAboveThreshold(offset 0x30, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Exclude sounds from evaluation greater than or equal to a max value threshold."
+	uint8_t[3] unaccounted(offset 0x31)
+	float32 m_flExcludeSoundsMaxThresholdValue(offset 0x34, size 0x4, align 0x4)
+		^MPropertyFriendlyName "The maximum threshold value to exclude sounds."
+	CUtlString m_strMinValueName(offset 0x38, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Min value property name"
+	CUtlString m_strMaxValueName(offset 0x40, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Max value property name"
+

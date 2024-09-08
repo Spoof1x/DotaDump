@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class DOTAThreatLevelInfo_t (size: 0x38 bytes, project "client", binding @ client.dll + 0x489d430, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_flKillability float"
+^MNetworkVarNames "m_nEntIndex int32"
+
+-----members of class DOTAThreatLevelInfo_t-----
+	uint8_t[48] unaccounted(offset 0x0)
+	float32 m_flKillability(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nEntIndex(offset 0x34, size 0x4, align 0x4)
+		^MNetworkEnable
+

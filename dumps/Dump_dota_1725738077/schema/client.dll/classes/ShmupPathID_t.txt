@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ShmupPathID_t (size: 0x4 bytes, project "client", binding @ client.dll + 0x48e4120, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class ShmupPathID_t-----
+	static bool IS_TYPESAFE_INTEGER(client.dll + 0x3dbb65f)
+
+-----members of class ShmupPathID_t-----
+	uint32 m_Value(offset 0x0, size 0x4, align 0x4)
+

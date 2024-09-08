@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTA_BaseNPC_Hero::KillInfo_t (size: 0x20 bytes, project "server", binding @ server.dll + 0x3aeea30, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CDOTA_BaseNPC_Hero::KillInfo_t-----
+	CUtlSymbolLarge m_victimname(offset 0x0, size 0x8, align 0x8)
+	CUtlSymbolLarge m_inflictorname(offset 0x8, size 0x8, align 0x8)
+	bool m_bEnemyInFOW(offset 0x10, size 0x1, align 0x1)
+	bool m_bWasFirstBlood(offset 0x11, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x12)
+	int32 m_iKillCount(offset 0x14, size 0x4, align 0x4)
+	float32 m_flBlinkTime(offset 0x18, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1c)
+

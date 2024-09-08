@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NmFootPhase_t(size: 1 bytes, 4 values, project "animlib", binding @ animationsystem.dll + 0x5d9720):
+	LeftFootDown = 0,
+	RightFootPassing = 1,
+	RightFootDown = 2,
+	LeftFootPassing = 3,

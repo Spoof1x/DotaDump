@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmIKRig (size: 0x8 bytes, project "animlib", binding @ animationsystem.dll + 0x5e18d0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x34a640"
+
+-----members of class CNmIKRig-----
+	CStrongHandle< InfoForResourceTypeCNmSkeleton > m_skeleton(offset 0x0, size 0x8, align 0x8)
+

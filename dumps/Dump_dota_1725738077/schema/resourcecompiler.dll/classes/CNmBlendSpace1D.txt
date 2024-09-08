@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmBlendSpace1D (size: 0x18 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23da720, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x454750"
+
+-----members of class CNmBlendSpace1D-----
+	CUtlVector< CNmBlendSpace1D::Point_t > m_points(offset 0x0, size 0x18, align 0x8)
+		^MPropertyResizable "<unidentified non-null meta: resourcecompiler.dll + 0x18c91d0>"
+

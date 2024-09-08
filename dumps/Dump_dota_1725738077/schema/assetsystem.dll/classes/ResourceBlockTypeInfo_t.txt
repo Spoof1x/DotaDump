@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ResourceBlockTypeInfo_t (size: 0x20 bytes, project "toolutils2", binding @ assetsystem.dll + 0x4d6a80, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: assetsystem.dll + 0x2f32a0"
+
+-----members of class ResourceBlockTypeInfo_t-----
+	ResourceDataEncodingType_t m_Encoding(offset 0x0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlString m_BlockID(offset 0x8, size 0x8, align 0x8)
+	CUtlString m_IntrospectedRootStruct(offset 0x10, size 0x8, align 0x8)
+	int32 m_ResourceVersion(offset 0x18, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1c)
+

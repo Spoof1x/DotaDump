@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FantasyRoleData_t (size: 0x20 bytes, project "client", binding @ client.dll + 0x4893240, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x1674150"
+^MPropertyAutoExpandSelf
+
+-----members of class FantasyRoleData_t-----
+	Fantasy_Roles m_eRole(offset 0x0, size 0x4, align 0x4)
+		^MPropertyDescription "What role are these players for"
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlVector< FantasyPlayerData_t > m_vecPlayers(offset 0x8, size 0x18, align 0x8)
+		^MPropertyDescription "List of Pro Players for the role"
+

@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTA_BuffParticle (size: 0xc bytes, project "client", binding @ client.dll + 0x480b5c0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+
+-----members of class CDOTA_BuffParticle-----
+	ParticleIndex_t m_iIndex(offset 0x0, size 0x4, align 0x0)
+	int32 m_iPriority(offset 0x4, size 0x4, align 0x4)
+	bool m_bDestroyImmediatly(offset 0x8, size 0x1, align 0x1)
+	bool m_bStatusEffect(offset 0x9, size 0x1, align 0x1)
+	bool m_bHeroEffect(offset 0xa, size 0x1, align 0x1)
+	bool m_bOverheadEffectOffset(offset 0xb, size 0x1, align 0x1)
+

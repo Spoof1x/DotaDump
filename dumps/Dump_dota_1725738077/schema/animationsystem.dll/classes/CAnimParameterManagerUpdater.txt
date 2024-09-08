@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimParameterManagerUpdater (size: 0x100 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a7af0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x18c580"
+
+-----members of class CAnimParameterManagerUpdater-----
+	uint8_t[24] unaccounted(offset 0x0)
+	CUtlVector< CSmartPtr< CAnimParameterBase > > m_parameters(offset 0x18, size 0x18, align 0x8)
+	CUtlHashtable< AnimParamID, int32 > m_idToIndexMap(offset 0x30, size 0x20, align 0x8)
+	CUtlHashtable< CUtlString, int32 > m_nameToIndexMap(offset 0x50, size 0x20, align 0x8)
+	CUtlVector< CAnimParamHandle > m_indexToHandle(offset 0x70, size 0x18, align 0x8)
+	CUtlVector< CUtlPair< CAnimParamHandle, CAnimVariant > > m_autoResetParams(offset 0x88, size 0x18, align 0x8)
+	CUtlHashtable< CAnimParamHandle, int16 > m_autoResetMap(offset 0xa0, size 0x20, align 0x8)
+	uint8_t[64] unaccounted(offset 0xc0)
+

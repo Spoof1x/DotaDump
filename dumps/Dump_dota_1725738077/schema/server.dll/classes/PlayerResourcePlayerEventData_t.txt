@@ -1,0 +1,95 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PlayerResourcePlayerEventData_t (size: 0xe8 bytes, project "server", binding @ server.dll + 0x3ab5d00, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_iEventID uint32"
+^MNetworkVarNames "m_iEventLevel uint32"
+^MNetworkVarNames "m_iEventPoints uint32"
+^MNetworkVarNames "m_iEventPremiumPoints uint32"
+^MNetworkVarNames "m_iEventEffectsMask uint32"
+^MNetworkVarNames "m_bIsEventOwned bool"
+^MNetworkVarNames "m_iFavoriteTeam TeamID_t"
+^MNetworkVarNames "m_iFavoriteTeamQuality uint16"
+^MNetworkVarNames "m_iAvailableSalutes uint8"
+^MNetworkVarNames "m_iSaluteAmountIndex uint8"
+^MNetworkVarNames "m_iEventWagerStreak uint32"
+^MNetworkVarNames "m_iEventTeleportFXLevel uint8"
+^MNetworkVarNames "m_nCandyPointsReason int"
+^MNetworkVarNames "m_vecPeriodicResources PlayerResourcePlayerPeriodicResourceData_t"
+^MNetworkVarNames "m_iObsoleteSaluteAmounts uint8"
+^MNetworkVarNames "m_iObsoleteEventArcanaPeriodicResourceRemaining uint32"
+^MNetworkVarNames "m_iObsoleteEventArcanaPeriodicResourceMax uint32"
+^MNetworkVarNames "m_iObsoleteEventWagerTokensRemaining uint32"
+^MNetworkVarNames "m_iObsoleteEventWagerTokensMax uint32"
+^MNetworkVarNames "m_iObsoleteEventBountiesRemaining uint32"
+^MNetworkVarNames "m_iObsoleteRankWagersAvailable uint32"
+^MNetworkVarNames "m_iObsoleteRankWagersMax uint32"
+^MNetworkVarNames "m_iObsoleteEventPointAdjustmentsRemaining uint32"
+^MNetworkVarNames "m_iObsoleteEventRanks uint16"
+
+-----members of class PlayerResourcePlayerEventData_t-----
+	uint8_t[48] unaccounted(offset 0x0)
+	uint32 m_iEventID(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint32 m_iEventLevel(offset 0x34, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint32 m_iEventPoints(offset 0x38, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint32 m_iEventPremiumPoints(offset 0x3c, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint32 m_iEventEffectsMask(offset 0x40, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bIsEventOwned(offset 0x44, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x45)
+	uint32 m_iFavoriteTeam(offset 0x48, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint16 m_iFavoriteTeamQuality(offset 0x4c, size 0x2, align 0x2)
+		^MNetworkEnable
+	uint8 m_iAvailableSalutes(offset 0x4e, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8 m_iSaluteAmountIndex(offset 0x4f, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint32 m_iEventWagerStreak(offset 0x50, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8 m_iEventTeleportFXLevel(offset 0x54, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x55)
+	int32[5] m_nCandyPointsReason(offset 0x58, size 0x14, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x6c)
+	CUtlVectorEmbeddedNetworkVar< PlayerResourcePlayerPeriodicResourceData_t > m_vecPeriodicResources(offset 0x70, size 0x50, align 0x8)
+		^MNetworkEnable
+	uint8 m_iObsoleteSaluteAmounts(offset 0xc0, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkAlias "m_iSaluteAmounts"
+	uint8_t[3] unaccounted(offset 0xc1)
+	uint32 m_iObsoleteEventArcanaPeriodicResourceRemaining(offset 0xc4, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkAlias "m_iEventArcanaPeriodicResourceRemaining"
+	uint32 m_iObsoleteEventArcanaPeriodicResourceMax(offset 0xc8, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkAlias "m_iEventArcanaPeriodicResourceMax"
+	uint32 m_iObsoleteEventWagerTokensRemaining(offset 0xcc, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkAlias "m_iEventWagerTokensRemaining"
+	uint32 m_iObsoleteEventWagerTokensMax(offset 0xd0, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkAlias "m_iEventWagerTokensMax"
+	uint32 m_iObsoleteEventBountiesRemaining(offset 0xd4, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkAlias "m_iEventBountiesRemaining"
+	uint32 m_iObsoleteRankWagersAvailable(offset 0xd8, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkAlias "m_iRankWagersAvailable"
+	uint32 m_iObsoleteRankWagersMax(offset 0xdc, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkAlias "m_iRankWagersMax"
+	uint32 m_iObsoleteEventPointAdjustmentsRemaining(offset 0xe0, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkAlias "m_iEventPointAdjustmentsRemaining"
+	uint16 m_iObsoleteEventRanks(offset 0xe4, size 0x2, align 0x2)
+		^MNetworkEnable
+		^MNetworkAlias "m_iEventRanks"
+	uint8_t[2] unaccounted(offset 0xe6)
+

@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum GraphCanvasItemHoverBehavior_t(size: 4 bytes, 2 values, project "qcontrols", binding @ assetbrowser.dll + 0x1d4780):
+	HOVER_PROPAGATE = 0,
+	HOVER_STOP_PROPAGATION = 1,

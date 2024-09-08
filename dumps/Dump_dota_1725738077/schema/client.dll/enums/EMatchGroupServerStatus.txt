@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EMatchGroupServerStatus(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x46ffdf0):
+	k_EMatchGroupServerStatus_OK = 0,
+	k_EMatchGroupServerStatus_LimitedAvailability = 1,
+	k_EMatchGroupServerStatus_Offline = 2,

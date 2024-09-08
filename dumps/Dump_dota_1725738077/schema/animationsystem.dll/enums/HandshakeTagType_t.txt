@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum HandshakeTagType_t(size: 4 bytes, 4 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a6c70):
+	eInvalid = -1,
+	eTask = 0,
+	eMovement = 1,
+	eCount = 2,

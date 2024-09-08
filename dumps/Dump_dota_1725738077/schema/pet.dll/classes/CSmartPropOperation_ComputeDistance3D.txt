@@ -1,0 +1,59 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_ComputeDistance3D (size: 0x198 bytes, project "smartprops", binding @ pet.dll + 0xd1e040, scope "pet.dll") extends CSmartPropOperation
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: pet.dll + 0x940bb0"
+^MPropertyFriendlyName "Distance"
+^MPropertyDescription "Compute the distance between two 3D points"
+^MVDataClassGroup "Compute"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ pet.dll + 0xd1aa80, scope "pet.dll") extends CSmartPropModifier
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: pet.dll + 0x623c0"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ pet.dll + 0xd1bb40, scope "pet.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: pet.dll + 0x623c0"
+		^MVDataBase
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		
+		-----members of class CSmartPropModifier-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+				^MVDataEnableKey
+			uint8_t[8] unaccounted(offset 0x48)
+		
+	
+	-----members of class CSmartPropOperation-----
+		<no members>
+	
+
+-----members of class CSmartPropOperation_ComputeDistance3D-----
+	CUtlString m_OutputVariableName(offset 0x50, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Output Variable"
+		^MPropertyAttributeEditor "SmartPropItemNameEditor( Variable:Float )"
+	CSmartPropAttributeCoordinateSpace m_OutputCoordinateSpace(offset 0x58, size 0x40, align 0x0)
+		^MPropertyDescription "Specifies the coordinate space the distance should be computed in. The scale of the coordinate space may affect the distance value."
+	CSmartPropAttributeVector m_InputPositionA(offset 0x98, size 0x40, align 0x8)
+		^MPropertyGroupName "+Position A"
+		^MPropertyFriendlyName "Position A"
+	CSmartPropAttributeCoordinateSpace m_CoordinateSpaceA(offset 0xd8, size 0x40, align 0x0)
+		^MPropertyGroupName "+Position A"
+		^MPropertyDescription "Specifies the coordinate space of position A."
+	CSmartPropAttributeVector m_InputPositionB(offset 0x118, size 0x40, align 0x8)
+		^MPropertyGroupName "+Position B"
+		^MPropertyFriendlyName "Position B"
+	CSmartPropAttributeCoordinateSpace m_CoordinateSpaceB(offset 0x158, size 0x40, align 0x0)
+		^MPropertyGroupName "+Position B"
+		^MPropertyDescription "Specifies the coordinate space of position B."
+

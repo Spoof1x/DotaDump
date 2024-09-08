@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulse_OutputConnection (size: 0x20 bytes, project "pulse_runtime_lib", binding @ workshopmanager.dll + 0xecfc60, scope "workshopmanager.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x911d90"
+
+-----members of class CPulse_OutputConnection-----
+	CUtlSymbolLarge m_SourceOutput(offset 0x0, size 0x8, align 0x8)
+	CUtlSymbolLarge m_TargetEntity(offset 0x8, size 0x8, align 0x8)
+	CUtlSymbolLarge m_TargetInput(offset 0x10, size 0x8, align 0x8)
+	CUtlSymbolLarge m_Param(offset 0x18, size 0x8, align 0x8)
+

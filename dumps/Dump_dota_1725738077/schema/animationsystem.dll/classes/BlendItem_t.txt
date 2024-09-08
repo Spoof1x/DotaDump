@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class BlendItem_t (size: 0x40 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a38c0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x16ab20"
+
+-----members of class BlendItem_t-----
+	CUtlVector< TagSpan_t > m_tags(offset 0x0, size 0x18, align 0x8)
+	CAnimUpdateNodeRef m_pChild(offset 0x18, size 0x10, align 0x8)
+	HSequence m_hSequence(offset 0x28, size 0x4, align 0x0)
+	Vector2D m_vPos(offset 0x2c, size 0x8, align 0x4)
+	float32 m_flDuration(offset 0x34, size 0x4, align 0x4)
+	bool m_bUseCustomDuration(offset 0x38, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x39)
+

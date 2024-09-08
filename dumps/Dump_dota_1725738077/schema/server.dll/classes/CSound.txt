@@ -1,0 +1,20 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSound (size: 0x34 bytes, project "server", binding @ server.dll + 0x38d2680, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class CSound-----
+	CHandle< CBaseEntity > m_hOwner(offset 0x0, size 0x4, align 0x4)
+	CHandle< CBaseEntity > m_hTarget(offset 0x4, size 0x4, align 0x4)
+	int32 m_iVolume(offset 0x8, size 0x4, align 0x4)
+	float32 m_flOcclusionScale(offset 0xc, size 0x4, align 0x4)
+	AISound_t m_Sound(offset 0x10, size 0x4, align 0x0)
+	int32 m_iNextAudible(offset 0x14, size 0x4, align 0x4)
+	GameTime_t m_flExpireTime(offset 0x18, size 0x4, align 0x0)
+	int16 m_iNext(offset 0x1c, size 0x2, align 0x2)
+	bool m_bNoExpirationTime(offset 0x1e, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x1f)
+	int32 m_ownerChannelIndex(offset 0x20, size 0x4, align 0x4)
+	Vector m_vecOrigin(offset 0x24, size 0xc, align 0x4)
+	bool m_bHasOwner(offset 0x30, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x31)
+

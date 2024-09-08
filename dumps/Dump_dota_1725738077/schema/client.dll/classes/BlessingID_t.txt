@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class BlessingID_t (size: 0x4 bytes, project "client", binding @ client.dll + 0x4897da0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class BlessingID_t-----
+	static bool IS_TYPESAFE_INTEGER(client.dll + 0x39f7473)
+
+-----members of class BlessingID_t-----
+	int32 m_Value(offset 0x0, size 0x4, align 0x4)
+

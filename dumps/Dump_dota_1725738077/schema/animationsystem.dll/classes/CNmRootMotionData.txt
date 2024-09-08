@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmRootMotionData (size: 0x50 bytes, project "animlib", binding @ animationsystem.dll + 0x5d9630, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x2f1560"
+
+-----members of class CNmRootMotionData-----
+	CUtlVector< CTransform > m_transforms(offset 0x0, size 0x18, align 0x8)
+	int32 m_nNumFrames(offset 0x18, size 0x4, align 0x4)
+	float32 m_flAverageLinearVelocity(offset 0x1c, size 0x4, align 0x4)
+	float32 m_flAverageAngularVelocityRadians(offset 0x20, size 0x4, align 0x4)
+	uint8_t[12] unaccounted(offset 0x24)
+	CTransform m_totalDelta(offset 0x30, size 0x20, align 0x10)
+

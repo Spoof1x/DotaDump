@@ -1,0 +1,164 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseEditorSettings (size: 0x1f0 bytes, project "pulsedoc_lib", binding @ resourcecompiler.dll + 0x24b2890, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x142b3c0"
+
+-----members of class CPulseEditorSettings-----
+	Color m_colCanvasBackground(offset 0x0, size 0x4, align 0x1)
+	Color m_colCanvasBackgroundWhenDebugging(offset 0x4, size 0x4, align 0x1)
+	float32 m_flGridSnapV2(offset 0x8, size 0x4, align 0x4)
+		^MPropertyStartGroup "+Grid"
+	bool m_bSnapAbsToGrid(offset 0xc, size 0x1, align 0x1)
+	bool m_bSnapSizeToGrid(offset 0xd, size 0x1, align 0x1)
+	bool m_bGridMinorPoints(offset 0xe, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0xf)
+	float32 m_flGridMinorSpacingV2(offset 0x10, size 0x4, align 0x4)
+	float32 m_flSuppressMinorGridFurtherThan(offset 0x14, size 0x4, align 0x4)
+	Color m_colGridMinorColor(offset 0x18, size 0x4, align 0x1)
+	float32 m_flGridMinorWidth(offset 0x1c, size 0x4, align 0x4)
+	int32 m_nGridMajorMultiple(offset 0x20, size 0x4, align 0x4)
+		^MPropertyAttributeRange "1 25"
+	Color m_colGridMajorColor(offset 0x24, size 0x4, align 0x1)
+	float32 m_flGridMajorWidth(offset 0x28, size 0x4, align 0x4)
+	Color m_colGridOriginColor(offset 0x2c, size 0x4, align 0x1)
+	float32 m_flGridOriginWidth(offset 0x30, size 0x4, align 0x4)
+	float32 m_nFlowTooltipBoxMargin(offset 0x34, size 0x4, align 0x4)
+		^MPropertyStartGroup "+Ports"
+		^MPropertyAttributeRange "0 32"
+	CUtlString m_FontSequencePoint(offset 0x38, size 0x8, align 0x8)
+		^MPropertyAttributeEditor "Font()"
+	float32 m_flSequencePointRadius(offset 0x40, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	float32 m_flSequencePointLinkWidth(offset 0x44, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	Color m_colSequencePointFadeOverlay(offset 0x48, size 0x4, align 0x1)
+		^MPropertyColorPlusAlpha
+	Color m_colSequencePointSpontaneous(offset 0x4c, size 0x4, align 0x1)
+	Color m_colSequencePointYield(offset 0x50, size 0x4, align 0x1)
+	Color m_colSequencePoint(offset 0x54, size 0x4, align 0x1)
+	Color m_colSequencePointLink(offset 0x58, size 0x4, align 0x1)
+	Color m_colSequencePointLinkYield(offset 0x5c, size 0x4, align 0x1)
+	Color m_colSequencePointName(offset 0x60, size 0x4, align 0x1)
+	Color m_colFlowTooltipBorder(offset 0x64, size 0x4, align 0x1)
+	Color m_colFlowTooltipBackground(offset 0x68, size 0x4, align 0x1)
+	Color m_colFlowTooltipForeground(offset 0x6c, size 0x4, align 0x1)
+	CUtlString m_SetValueIconImg(offset 0x70, size 0x8, align 0x8)
+	CUtlString m_GetValueIconImg(offset 0x78, size 0x8, align 0x8)
+	float32 m_flPortDragOffCreateThreshold(offset 0x80, size 0x4, align 0x4)
+		^MPropertyAttributeRange "-1 128"
+	Color m_colBool(offset 0x84, size 0x4, align 0x1)
+		^MPropertyStartGroup "+Types"
+	Color m_colNumber(offset 0x88, size 0x4, align 0x1)
+	Color m_colString(offset 0x8c, size 0x4, align 0x1)
+	Color m_colOther(offset 0x90, size 0x4, align 0x1)
+	Color m_colCursorFlow(offset 0x94, size 0x4, align 0x1)
+	CUtlString m_FontFlowTooltip(offset 0x98, size 0x8, align 0x8)
+		^MPropertyStartGroup "+Fonts"
+		^MPropertyAttributeEditor "Font()"
+	CUtlString m_FontLiteral(offset 0xa0, size 0x8, align 0x8)
+		^MPropertyAttributeEditor "Font()"
+	CUtlString m_FontDomainName(offset 0xa8, size 0x8, align 0x8)
+		^MPropertyAttributeEditor "Font()"
+	Vector2D m_vDomainNameOffsetPX(offset 0xb0, size 0x8, align 0x4)
+	Color m_colDomainName(offset 0xb8, size 0x4, align 0x1)
+	Color m_colDomainNameWhenDebugging(offset 0xbc, size 0x4, align 0x1)
+	CUtlString m_FontParentAssets(offset 0xc0, size 0x8, align 0x8)
+		^MPropertyAttributeEditor "Font()"
+	Color m_colParentAssets(offset 0xc8, size 0x4, align 0x1)
+	float32 m_flLiteralLabelSpacing(offset 0xcc, size 0x4, align 0x4)
+		^MPropertyStartGroup "+Literals"
+		^MPropertyAttributeRange "0 32"
+	Color m_colDebuggerBrokenBorder(offset 0xd0, size 0x4, align 0x1)
+		^MPropertyStartGroup "+Debugger"
+	uint8_t[4] unaccounted(offset 0xd4)
+	CUtlString m_DebuggerBrokenImg(offset 0xd8, size 0x8, align 0x8)
+	CUtlString m_DebuggerBrokenOtherImg(offset 0xe0, size 0x8, align 0x8)
+	float32 m_flDebuggerBrokenMarkerOffset(offset 0xe8, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	float32 m_flDebuggerBrokenMarkerSize(offset 0xec, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	CUtlString m_DebuggerBreakpointImg(offset 0xf0, size 0x8, align 0x8)
+	CUtlString m_DebuggerBreakpointDisabledImg(offset 0xf8, size 0x8, align 0x8)
+	float32 m_flDebuggerBreakpointOffset(offset 0x100, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	float32 m_flDebuggerBreakpointSize(offset 0x104, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	float32 m_flYieldedCursorStackOffset(offset 0x108, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	uint8_t[4] unaccounted(offset 0x10c)
+	CUtlString m_GraphInstanceImg(offset 0x110, size 0x8, align 0x8)
+	float32 m_flRecentExecTimeoutSec(offset 0x118, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	float32 m_flRecentExecStartOffset(offset 0x11c, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	float32 m_flRecentExecEndOffset(offset 0x120, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 64"
+	float32 m_flRecentExecLineWidth(offset 0x124, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 8"
+	Color m_colRecentExecStartColor(offset 0x128, size 0x4, align 0x1)
+		^MPropertyColorPlusAlpha
+	Color m_colRecentExecEndColor(offset 0x12c, size 0x4, align 0x1)
+		^MPropertyColorPlusAlpha
+	Color m_colRecentExecRequirementFailStartColor(offset 0x130, size 0x4, align 0x1)
+		^MPropertyColorPlusAlpha
+	Color m_colRecentExecRequirementFailEndColor(offset 0x134, size 0x4, align 0x1)
+		^MPropertyColorPlusAlpha
+	bool m_bBreakOnExceptions(offset 0x138, size 0x1, align 0x1)
+	bool m_bShowExecutionHistory(offset 0x139, size 0x1, align 0x1)
+	bool m_bBoxSelectRequiresFullyContained(offset 0x13a, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x13b)
+	float32 m_flFlowMinWidth(offset 0x13c, size 0x4, align 0x4)
+		^MPropertyStartGroup "+Group Layout"
+	Color m_colSelectedBorder(offset 0x140, size 0x4, align 0x1)
+	float32 m_flAppendButtonSize(offset 0x144, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 64"
+	Color m_colAppendHover(offset 0x148, size 0x4, align 0x1)
+	uint8_t[4] unaccounted(offset 0x14c)
+	CUtlString m_AppendImg(offset 0x150, size 0x8, align 0x8)
+	float32 m_flMoveChildArrowOffset(offset 0x158, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	float32 m_flMoveChildArrowSize(offset 0x15c, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	CUtlString m_MoveChildArrowImg(offset 0x160, size 0x8, align 0x8)
+	Color m_colMoveChildArrow(offset 0x168, size 0x4, align 0x1)
+	float32 m_flConnectionTangentStrength(offset 0x16c, size 0x4, align 0x4)
+		^MPropertyStartGroup "+Connections"
+		^MPropertyAttributeRange "0 500"
+	float32 m_flConnectionCurveSpacing(offset 0x170, size 0x4, align 0x4)
+		^MPropertyAttributeRange "1 50"
+	float32 m_flConnectionDeltaLimitScale(offset 0x174, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 2"
+	bool m_bLimitByDelta(offset 0x178, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x179)
+	float32 m_flBrokenConnectionOffset(offset 0x17c, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	float32 m_flConnectionInflowOffset(offset 0x180, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	float32 m_flConnectionInparamOffset(offset 0x184, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	float32 m_flConnectionCapBrokenSize(offset 0x188, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 32"
+	uint8_t[4] unaccounted(offset 0x18c)
+	CUtlString m_ConnectionCapBrokenImg(offset 0x190, size 0x8, align 0x8)
+	float32 m_flConnectionColorLerpPercentageStart(offset 0x198, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 1"
+	Vector2D m_vecBlockCommentDefaultSize(offset 0x19c, size 0x8, align 0x4)
+		^MPropertyStartGroup "+Notes"
+	Vector2D m_vecBlockCommentMinSize(offset 0x1a4, size 0x8, align 0x4)
+	Color m_colBlockCommentDefault(offset 0x1ac, size 0x4, align 0x1)
+	Color m_colBlockCommentTextLight(offset 0x1b0, size 0x4, align 0x1)
+	Color m_colBlockCommentTextDark(offset 0x1b4, size 0x4, align 0x1)
+	float32 m_flBlockCommentRegionAlpha(offset 0x1b8, size 0x4, align 0x4)
+	float32 m_flTimelineSeekBarHeight(offset 0x1bc, size 0x4, align 0x4)
+		^MPropertyStartGroup "+Timelines"
+	float32 m_flTimelinePauseIconSize(offset 0x1c0, size 0x4, align 0x4)
+	float32 m_flTimelineCallModeIconSize(offset 0x1c4, size 0x4, align 0x4)
+	CUtlString m_FontTimelineTime(offset 0x1c8, size 0x8, align 0x8)
+		^MPropertyAttributeEditor "Font()"
+	Color m_colTimelineLabel(offset 0x1d0, size 0x4, align 0x1)
+	Vector2D m_vecTimelineIconFromPort(offset 0x1d4, size 0x8, align 0x4)
+	Vector2D m_vecTimelinePauseIconOffset(offset 0x1dc, size 0x8, align 0x4)
+	float32 m_flTimelineCursorHeight(offset 0x1e4, size 0x4, align 0x4)
+	float32 m_flTimelineCursorTextHeight(offset 0x1e8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1ec)
+

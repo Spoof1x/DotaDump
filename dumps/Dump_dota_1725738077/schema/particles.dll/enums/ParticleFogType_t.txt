@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleFogType_t(size: 4 bytes, 3 values, project "particles", binding @ particles.dll + 0x544500):
+	PARTICLE_FOG_GAME_DEFAULT = 0,
+		^MPropertyFriendlyName "Use Game Default"
+	PARTICLE_FOG_ENABLED = 1,
+		^MPropertyFriendlyName "Enabled"
+	PARTICLE_FOG_DISABLED = 2,
+		^MPropertyFriendlyName "Disabled"

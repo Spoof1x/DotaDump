@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CParticleProperty (size: 0x28 bytes, project "particleslib", binding @ pet.dll + 0xd1a3e0, scope "pet.dll")
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkNoBase
+
+-----members of class CParticleProperty-----
+	uint8_t[40] unaccounted(offset 0x0)
+

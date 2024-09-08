@@ -1,0 +1,38 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSolveIKChainAnimNodeChainData (size: 0x60 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e80d0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5560a0"
+^MPropertyElementNameFn "func: resourcecompiler.dll + 0x5ebfb0"
+
+-----members of class CSolveIKChainAnimNodeChainData-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlString m_IkChain(offset 0x8, size 0x8, align 0x8)
+		^MPropertyFriendlyName "IK Chain"
+		^MPropertyAttributeChoiceName "IKChain"
+	SolveIKChainAnimNodeSettingSource m_SolverSettingSource(offset 0x10, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Solver Setting Source"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	IKSolverSettings_t m_OverrideSolverSettings(offset 0x14, size 0x8, align 0x0)
+		^MPropertyFriendlyName "Override Solver Settings"
+		^MPropertyAutoExpandSelf
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x556120"
+	SolveIKChainAnimNodeSettingSource m_TargetSettingSource(offset 0x1c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Target Setting Source"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	IKTargetSettings_t m_OverrideTargetSettings(offset 0x20, size 0x28, align 0x0)
+		^MPropertyFriendlyName "Override Target Settings"
+		^MPropertyAutoExpandSelf
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x556110"
+	SolveIKChainAnimNodeDebugSetting m_DebugSetting(offset 0x48, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Debug Setting"
+		^MPropertyGroupName "Debug"
+	float32 m_flDebugNormalizedLength(offset 0x4c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Debug Normalized Length"
+		^MPropertyGroupName "Debug"
+	Vector m_vDebugOffset(offset 0x50, size 0xc, align 0x4)
+		^MPropertyFriendlyName "Debug Offset"
+		^MPropertyGroupName "Debug"
+	uint8_t[4] unaccounted(offset 0x5c)
+

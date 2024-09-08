@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VPhysXCollisionAttributes_t (size: 0xa0 bytes, project "modellib", binding @ toolframework2.dll + 0x92af70, scope "toolframework2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x3b5e90"
+
+-----members of class VPhysXCollisionAttributes_t-----
+	uint32 m_CollisionGroup(offset 0x0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlVector< uint32 > m_InteractAs(offset 0x8, size 0x18, align 0x8)
+	CUtlVector< uint32 > m_InteractWith(offset 0x20, size 0x18, align 0x8)
+	CUtlVector< uint32 > m_InteractExclude(offset 0x38, size 0x18, align 0x8)
+	CUtlString m_CollisionGroupString(offset 0x50, size 0x8, align 0x8)
+	CUtlVector< CUtlString > m_InteractAsStrings(offset 0x58, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_InteractWithStrings(offset 0x70, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_InteractExcludeStrings(offset 0x88, size 0x18, align 0x8)
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FourVectors2D (size: 0x20 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a0b60, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x13612c0"
+
+-----members of class FourVectors2D-----
+	fltx4 x(offset 0x0, size 0x10, align 0x10)
+	fltx4 y(offset 0x10, size 0x10, align 0x10)
+

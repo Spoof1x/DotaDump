@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimCycle (size: 0x4 bytes, project "modellib", binding @ meshsystem.dll + 0x11c670, scope "meshsystem.dll") extends CCycleBase
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x96ff0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CCycleBase (size: 0x4 bytes, project "modellib", binding @ meshsystem.dll + 0x11c5e0, scope "meshsystem.dll")
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: meshsystem.dll + 0x96ef0"
+	
+	-----members of class CCycleBase-----
+		float32 m_flCycle(offset 0x0, size 0x4, align 0x4)
+	
+
+-----members of class CAnimCycle-----
+	<no members>
+

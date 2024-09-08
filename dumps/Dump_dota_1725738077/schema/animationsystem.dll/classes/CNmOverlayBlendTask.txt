@@ -1,0 +1,26 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmOverlayBlendTask (size: 0xc0 bytes, project "animlib", binding @ animationsystem.dll + 0x5ddbb0, scope "!GlobalTypes") extends CNmBlendTaskBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmBlendTaskBase (size: 0xc0 bytes, project "animlib", binding @ animationsystem.dll + 0x5ddab0, scope "!GlobalTypes") extends CNmTask
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmTask (size: 0x30 bytes, project "animlib", binding @ animationsystem.dll + 0x5de1a0, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		
+		-----members of class CNmTask-----
+			uint8_t[48] unaccounted(offset 0x0)
+		
+	
+	-----members of class CNmBlendTaskBase-----
+		uint8_t[144] unaccounted(offset 0x30)
+	
+
+-----members of class CNmOverlayBlendTask-----
+	<no members>
+

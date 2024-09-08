@@ -1,0 +1,96 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_BaseAnimatingController (size: 0x5d8 bytes, project "client", binding @ client.dll + 0x469b150, scope "client.dll") extends CSkeletonAnimationController
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkOverride "m_baseLayer.m_hSequence"
+^MNetworkVarNames "m_baseLayer CNetworkedSequenceOperation"
+^MNetworkVarNames "m_flPoseParameter float"
+^MNetworkVarNames "m_nNewSequenceParity int"
+^MNetworkVarNames "m_nResetEventsParity int"
+^MNetworkVarNames "m_nAnimLoopMode AnimLoopMode_t"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSkeletonAnimationController (size: 0x10 bytes, project "client", binding @ client.dll + 0x46e8800, scope "!GlobalTypes") extends ISkeletonAnimationController
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class ISkeletonAnimationController (size: 0x8 bytes, project "client", binding @ client.dll + 0x46e8760, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+		
+		-----members of class ISkeletonAnimationController-----
+			uint8_t[8] unaccounted(offset 0x0)
+		
+	
+	-----members of class CSkeletonAnimationController-----
+		CSkeletonInstance* m_pSkeletonInstance(offset 0x8, size 0x8, align 0x8)
+			^MNetworkDisable
+	
+
+-----members of class C_BaseAnimatingController-----
+	CNetworkedSequenceOperation m_baseLayer(offset 0x10, size 0x28, align 0x0)
+		^MNetworkEnable
+		^MNetworkChangeCallback "baseAnimBaseLayerChanged"
+	bool m_bSequenceFinished(offset 0x38, size 0x1, align 0x1)
+		^MNetworkDisable
+	uint8_t[3] unaccounted(offset 0x39)
+	float32 m_flGroundSpeed(offset 0x3c, size 0x4, align 0x4)
+		^MNetworkDisable
+	float32 m_flLastEventCycle(offset 0x40, size 0x4, align 0x4)
+		^MNetworkDisable
+	GameTime_t m_flLastEventAnimTime(offset 0x44, size 0x4, align 0x0)
+		^MNetworkDisable
+	float32 m_flSoundSyncTime(offset 0x48, size 0x4, align 0x4)
+		^MNetworkDisable
+	CNetworkedQuantizedFloat m_flPlaybackRate(offset 0x4c, size 0x8, align 0x4)
+		^MNetworkEnable
+		^MNetworkBitCount "10"
+		^MNetworkMinValue "0"
+		^MNetworkMaxValue "5"
+		^MNetworkEncodeFlags "8"
+		^MNetworkPriority "32"
+		^MNetworkChangeCallback "playbackRateChanged"
+	GameTime_t m_flPrevAnimTime(offset 0x54, size 0x4, align 0x0)
+		^MNetworkDisable
+	GameTime_t m_flSeqStartTime(offset 0x58, size 0x4, align 0x0)
+		^MNetworkDisable
+	float32[24] m_flPoseParameter(offset 0x5c, size 0x60, align 0x4)
+		^MNetworkEnable
+		^MNetworkBitCount "11"
+		^MNetworkMinValue "0"
+		^MNetworkMaxValue "1"
+		^MNetworkUserGroup "m_flPoseParameter"
+		^MNetworkChangeCallback "poseParametersChanged"
+	bool m_bNetworkedAnimationInputsChanged(offset 0xbc, size 0x1, align 0x1)
+		^MNetworkDisable
+	uint8 m_nPrevNewSequenceParity(offset 0xbd, size 0x1, align 0x1)
+		^MNetworkDisable
+	uint8 m_nPrevResetEventsParity(offset 0xbe, size 0x1, align 0x1)
+		^MNetworkDisable
+	uint8_t[1] unaccounted(offset 0xbf)
+	int32 m_nNewSequenceParity(offset 0xc0, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkPriority "32"
+		^MNetworkChangeCallback "clientSideAnimCycleReset"
+	int32 m_nResetEventsParity(offset 0xc4, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkPriority "32"
+	AnimLoopMode_t m_nAnimLoopMode(offset 0xc8, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flCachedSequenceCycleRate(offset 0xcc, size 0x4, align 0x4)
+		^MNetworkDisable
+	float32 m_flCachedGroundSpeed(offset 0xd0, size 0x4, align 0x4)
+		^MNetworkDisable
+	SequenceFinishNotifyState_t m_nNotifyState(offset 0xd4, size 0x1, align 0x1)
+		^MNetworkDisable
+	bool m_bHasEverDispatchedAnimEvents(offset 0xd5, size 0x1, align 0x1)
+		^MNetworkDisable
+	uint8_t[666] unaccounted(offset 0xd6)
+	C_CSequenceTransitioner2 m_SequenceTransitioner(offset 0x370, size 0x1b8, align 0x0)
+		^MNetworkDisable
+	HSequence m_hLastAnimEventSequence(offset 0x528, size 0x4, align 0x0)
+		^MNetworkDisable
+	uint8_t[172] unaccounted(offset 0x52c)
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulsePanoramaFuncs (size: 0x1 bytes, project "client", binding @ client.dll + 0x48eaf40, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+^MPulseProvideFeatureTag "Panorama"
+^MPulseLibraryBindings "ptr: client.dll + 0x48ebc90"
+
+-----members of class CPulsePanoramaFuncs-----
+	uint8_t[1] unaccounted(offset 0x0)
+

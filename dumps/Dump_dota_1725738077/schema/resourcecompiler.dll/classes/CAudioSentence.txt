@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAudioSentence (size: 0xa0 bytes, project "soundsystem_voicecontainers", binding @ resourcecompiler.dll + 0x24c2750, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1664bb0"
+
+-----members of class CAudioSentence-----
+	bool m_bShouldVoiceDuck(offset 0x0, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x1)
+	CUtlVector< CAudioPhonemeTag > m_RunTimePhonemes(offset 0x8, size 0x18, align 0x8)
+	CUtlVector< CAudioEmphasisSample > m_EmphasisSamples(offset 0x20, size 0x18, align 0x8)
+	CAudioMorphData m_morphData(offset 0x38, size 0x68, align 0x8)
+

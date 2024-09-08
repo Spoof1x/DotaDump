@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SequenceFinishNotifyState_t(size: 1 bytes, 3 values, project "server", binding @ server.dll + 0x388b940):
+	eDoNotNotify = 0,
+	eNotifyWhenFinished = 1,
+	eNotifyTriggered = 2,

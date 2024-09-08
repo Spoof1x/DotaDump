@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VoxelVisBlockOffset_t (size: 0x8 bytes, project "visbuilder", binding @ visbuilder.dll + 0x188980, scope "visbuilder.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: visbuilder.dll + 0x51280"
+
+-----members of class VoxelVisBlockOffset_t-----
+	uint32 m_nOffset(offset 0x0, size 0x4, align 0x4)
+	uint32 m_nElementCount(offset 0x4, size 0x4, align 0x4)
+

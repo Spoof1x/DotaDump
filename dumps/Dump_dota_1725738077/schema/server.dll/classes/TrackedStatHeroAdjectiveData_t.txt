@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TrackedStatHeroAdjectiveData_t (size: 0x8 bytes, project "server", binding @ server.dll + 0x3add040, scope "server.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: server.dll + 0x194fac0"
+^MPropertyAutoExpandSelf
+
+-----members of class TrackedStatHeroAdjectiveData_t-----
+	CUtlString m_strAdjective(offset 0x0, size 0x8, align 0x8)
+		^MPropertyDescription "The adjective"
+

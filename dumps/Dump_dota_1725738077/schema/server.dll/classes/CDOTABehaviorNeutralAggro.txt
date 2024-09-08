@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABehaviorNeutralAggro (size: 0xa0 bytes, project "server", binding @ server.dll + 0x3ae4d20, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CDOTABehaviorNeutralAggro-----
+	uint8_t[96] unaccounted(offset 0x0)
+	Vector m_vHomePosition(offset 0x60, size 0xc, align 0x4)
+	bool m_bNoLeashTime(offset 0x6c, size 0x1, align 0x1)
+	bool m_bShortLeashTime(offset 0x6d, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x6e)
+	CountdownTimer m_LeashTimer(offset 0x70, size 0x18, align 0x0)
+	CountdownTimer m_FleeAgainTimer(offset 0x88, size 0x18, align 0x0)
+

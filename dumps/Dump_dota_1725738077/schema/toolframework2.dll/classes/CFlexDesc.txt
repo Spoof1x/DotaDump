@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFlexDesc (size: 0x8 bytes, project "modellib", binding @ toolframework2.dll + 0x92d200, scope "toolframework2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x3ce610"
+
+-----members of class CFlexDesc-----
+	CUtlString m_szFacs(offset 0x0, size 0x8, align 0x8)
+

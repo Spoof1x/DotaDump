@@ -1,0 +1,28 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CGameScriptedMoveData (size: 0x6c bytes, project "server", binding @ server.dll + 0x3a4e370, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: server.dll + 0x14afee0"
+
+-----members of class CGameScriptedMoveData-----
+	Vector m_vAccumulatedRootMotion(offset 0x0, size 0xc, align 0x4)
+	Vector m_vDest(offset 0xc, size 0xc, align 0x4)
+	Vector m_vSrc(offset 0x18, size 0xc, align 0x4)
+	QAngle m_angSrc(offset 0x24, size 0xc, align 0x4)
+	QAngle m_angDst(offset 0x30, size 0xc, align 0x4)
+	QAngle m_angCurrent(offset 0x3c, size 0xc, align 0x4)
+	float32 m_flLockedSpeed(offset 0x48, size 0x4, align 0x4)
+	float32 m_flAngRate(offset 0x4c, size 0x4, align 0x4)
+	float32 m_flDuration(offset 0x50, size 0x4, align 0x4)
+	GameTime_t m_flStartTime(offset 0x54, size 0x4, align 0x0)
+	bool m_bActive(offset 0x58, size 0x1, align 0x1)
+	bool m_bTeleportOnEnd(offset 0x59, size 0x1, align 0x1)
+	bool m_bIgnoreRotation(offset 0x5a, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x5b)
+	ScriptedMoveType_t m_nType(offset 0x5c, size 0x4, align 0x4)
+	bool m_bSuccess(offset 0x60, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x61)
+	ForcedCrouchState_t m_nForcedCrouchState(offset 0x64, size 0x4, align 0x4)
+	bool m_bIgnoreCollisions(offset 0x68, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x69)
+

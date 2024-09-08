@@ -1,0 +1,98 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class fogparams_t (size: 0x68 bytes, project "client", binding @ client.dll + 0x46b8400, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+| SCHEMA_CF1_INFO_TAG_MClassHasEntityLimitedDataDesc
+^MNetworkVarNames "dirPrimary Vector"
+^MNetworkVarNames "colorPrimary Color"
+^MNetworkVarNames "colorSecondary Color"
+^MNetworkVarNames "colorPrimaryLerpTo Color"
+^MNetworkVarNames "colorSecondaryLerpTo Color"
+^MNetworkVarNames "start float32"
+^MNetworkVarNames "end float32"
+^MNetworkVarNames "farz float32"
+^MNetworkVarNames "maxdensity float32"
+^MNetworkVarNames "exponent float32"
+^MNetworkVarNames "HDRColorScale float32"
+^MNetworkVarNames "skyboxFogFactor float32"
+^MNetworkVarNames "skyboxFogFactorLerpTo float32"
+^MNetworkVarNames "startLerpTo float32"
+^MNetworkVarNames "endLerpTo float32"
+^MNetworkVarNames "maxdensityLerpTo float32"
+^MNetworkVarNames "lerptime GameTime_t"
+^MNetworkVarNames "duration float32"
+^MNetworkVarNames "blendtobackground float32"
+^MNetworkVarNames "scattering float32"
+^MNetworkVarNames "locallightscale float32"
+^MNetworkVarNames "enable bool"
+^MNetworkVarNames "blend bool"
+^MNetworkVarNames "m_bNoReflectionFog bool"
+
+-----members of class fogparams_t-----
+	uint8_t[8] unaccounted(offset 0x0)
+	Vector dirPrimary(offset 0x8, size 0xc, align 0x4)
+		^MNetworkEnable
+		^MNetworkEncoder "coord"
+	Color colorPrimary(offset 0x14, size 0x4, align 0x1)
+		^MNetworkEnable
+	Color colorSecondary(offset 0x18, size 0x4, align 0x1)
+		^MNetworkEnable
+	Color colorPrimaryLerpTo(offset 0x1c, size 0x4, align 0x1)
+		^MNetworkEnable
+		^MNetworkUserGroup "FogController"
+	Color colorSecondaryLerpTo(offset 0x20, size 0x4, align 0x1)
+		^MNetworkEnable
+		^MNetworkUserGroup "FogController"
+	float32 start(offset 0x24, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 end(offset 0x28, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 farz(offset 0x2c, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "FogController"
+	float32 maxdensity(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 exponent(offset 0x34, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 HDRColorScale(offset 0x38, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 skyboxFogFactor(offset 0x3c, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "FogController"
+	float32 skyboxFogFactorLerpTo(offset 0x40, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "FogController"
+	float32 startLerpTo(offset 0x44, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "FogController"
+	float32 endLerpTo(offset 0x48, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "FogController"
+	float32 maxdensityLerpTo(offset 0x4c, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "FogController"
+	GameTime_t lerptime(offset 0x50, size 0x4, align 0x0)
+		^MNetworkEnable
+		^MNetworkUserGroup "FogController"
+	float32 duration(offset 0x54, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "FogController"
+	float32 blendtobackground(offset 0x58, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "FogController"
+	float32 scattering(offset 0x5c, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "FogController"
+	float32 locallightscale(offset 0x60, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "FogController"
+	bool enable(offset 0x64, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool blend(offset 0x65, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bNoReflectionFog(offset 0x66, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bPadding(offset 0x67, size 0x1, align 0x1)
+

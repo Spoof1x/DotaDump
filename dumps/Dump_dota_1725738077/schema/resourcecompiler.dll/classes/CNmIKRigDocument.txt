@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmIKRigDocument (size: 0x110 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23dfb10, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x4e8590"
+
+-----members of class CNmIKRigDocument-----
+	CResourceName m_skeleton(offset 0x0, size 0xe0, align 0x8)
+	CUtlVector< CNmIKRigLink* > m_links(offset 0xe0, size 0x18, align 0x8)
+	CUtlVector< CNmIKRigTarget > m_targets(offset 0xf8, size 0x18, align 0x8)
+

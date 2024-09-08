@@ -1,0 +1,11 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CEmptySequence (hierarchy CEmptySequence: ISequence, IBaseSequence)
+	steamaudio.dll + 0x24a980
+CNavHullPresetVDataFileManager (hierarchy CNavHullPresetVDataFileManager: CVDataFileManager<class CNavHullPresetVData>, CBaseVDataFileManager, IVDataResourceListener)
+	steamaudio.dll + 0x228400
+CNavHullVDataFileManager (hierarchy CNavHullVDataFileManager: CVDataFileManager<class CNavHullVData>, CBaseVDataFileManager, IVDataResourceListener)
+	steamaudio.dll + 0x228300
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	steamaudio.dll + 0x250cd8
+CSteamAudio (hierarchy CSteamAudio: CTier2AppSystem<class ISteamAudio,0>, CTier1AppSystem<class ISteamAudio,0>, CTier0AppSystem<class ISteamAudio,0>, CBaseAppSystem<class ISteamAudio>, ISteamAudio, IAppSystem)
+	steamaudio.dll + 0x259750

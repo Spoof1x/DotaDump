@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseTestGapTypeQueryRegistration (size: 0x8 bytes, project "pulse_runtime_lib", binding @ met.dll + 0x4043b0, scope "met.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MGapTypeQueriesForScopeSingleton "ptr: met.dll + 0x404420"
+
+-----static members of class CPulseTestGapTypeQueryRegistration-----
+	static CPulseTestGapTypeQueryRegistration s_Instance(met.dll + 0x404420)
+
+-----members of class CPulseTestGapTypeQueryRegistration-----
+	uint8_t[8] unaccounted(offset 0x0)
+

@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_Outflow_CycleShuffled::InstanceState_t (size: 0x28 bytes, project "pulse_runtime_lib", binding @ met.dll + 0x408330, scope "met.dll")
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: met.dll + 0x27c400"
+
+-----members of class CPulseCell_Outflow_CycleShuffled::InstanceState_t-----
+	CUtlVectorFixedGrowable< uint8, 8 > m_Shuffle(offset 0x0, size 0x20, align 0x8)
+	int32 m_nNextShuffle(offset 0x20, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x24)
+

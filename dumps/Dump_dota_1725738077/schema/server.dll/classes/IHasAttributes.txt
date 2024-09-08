@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class IHasAttributes (size: 0x8 bytes, project "server", binding @ server.dll + 0x3af52d0, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class IHasAttributes-----
+	uint8_t[8] unaccounted(offset 0x0)
+

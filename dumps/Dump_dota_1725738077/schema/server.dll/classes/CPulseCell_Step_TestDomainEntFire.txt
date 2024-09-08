@@ -1,0 +1,43 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_Step_TestDomainEntFire (size: 0x50 bytes, project "pulse_runtime_lib", binding @ server.dll + 0x3b27b10, scope "server.dll") extends CPulseCell_BaseFlow
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: server.dll + 0x1fca580"
+^MCellForDomain "TestDomain"
+^MPulseCellMethodBindings "ptr: server.dll + 0x3b28720"
+^MPulseCellOutflowHookInfo "ptr: server.dll + 0x3f699a8"
+^MPropertyFriendlyName "Fake Ent-Fire"
+^MPulseEditorHeaderText "Fire input {m_Input}"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseFlow (size: 0x48 bytes, project "pulse_runtime_lib", binding @ server.dll + 0x3b2cbb0, scope "server.dll") extends CPulseCell_Base
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: server.dll + 0x1fe3130"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_Base (size: 0x48 bytes, project "pulse_runtime_lib", binding @ server.dll + 0x3b2e020, scope "server.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: server.dll + 0x1fe3010"
+		
+		-----members of class CPulseCell_Base-----
+			uint8_t[8] unaccounted(offset 0x0)
+			PulseDocNodeID_t m_nEditorNodeID(offset 0x8, size 0x4, align 0x0)
+				^MFgdFromSchemaCompletelySkipField
+			uint8_t[60] unaccounted(offset 0xc)
+		
+	
+	-----members of class CPulseCell_BaseFlow-----
+		<no members>
+	
+
+-----members of class CPulseCell_Step_TestDomainEntFire-----
+	CUtlString m_Input(offset 0x48, size 0x8, align 0x8)
+

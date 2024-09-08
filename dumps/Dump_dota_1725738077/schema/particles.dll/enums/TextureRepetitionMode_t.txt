@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum TextureRepetitionMode_t(size: 4 bytes, 2 values, project "particles", binding @ particles.dll + 0x53ca60):
+	TEXTURE_REPETITION_PARTICLE = 0,
+		^MPropertyFriendlyName "Per-Particle"
+	TEXTURE_REPETITION_PATH = 1,
+		^MPropertyFriendlyName "Entire Path"

@@ -1,0 +1,94 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_FollowPathNode (size: 0x88 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ef9d0, scope "!GlobalTypes") extends CAnimGraphDoc_Node
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x592a20"
+^MPropertyFriendlyName "Follow Path"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Node (size: 0x40 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ec330, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Node-----
+		uint8_t[32] unaccounted(offset 0x0)
+		CUtlString m_sName(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		Vector2D m_vecPosition(offset 0x28, size 0x8, align 0x4)
+			^MPropertyGroupName "Debug"
+		AnimNodeID m_nNodeID(offset 0x30, size 0x4, align 0x4)
+			^MPropertyGroupName "Debug"
+		bool m_bDebugThisNode(offset 0x34, size 0x1, align 0x1)
+			^MPropertyGroupName "Debug"
+			^MPropertyFriendlyName "Debug This Node"
+		uint8_t[3] unaccounted(offset 0x35)
+		AnimNodeNetworkMode m_networkMode(offset 0x38, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Network Mode"
+		uint8_t[4] unaccounted(offset 0x3c)
+	
+
+-----members of class CAnimGraphDoc_FollowPathNode-----
+	CAnimGraphDoc_NodeConnection m_inputConnection(offset 0x40, size 0x8, align 0x4)
+		^MPropertyHideField
+	float32 m_flBlendOutTime(offset 0x48, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Blend Out Time"
+	bool m_bBlockNonPathMovement(offset 0x4c, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Block Non-Path Movement"
+	bool m_bStopFeetAtGoal(offset 0x4d, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Stop Feet at Goal"
+	bool m_bScaleSpeed(offset 0x4e, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Speed Scaling"
+		^MPropertyGroupName "Speed Scaling"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[1] unaccounted(offset 0x4f)
+	float32 m_flScale(offset 0x50, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Scale"
+		^MPropertyGroupName "Speed Scaling"
+		^MPropertyAttributeRange "0 1"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x592a90"
+	float32 m_flMinAngle(offset 0x54, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Min Angle"
+		^MPropertyGroupName "Speed Scaling"
+		^MPropertyAttributeRange "0 180"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x592a90"
+	float32 m_flMaxAngle(offset 0x58, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Angle"
+		^MPropertyGroupName "Speed Scaling"
+		^MPropertyAttributeRange "0 180"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x592a90"
+	float32 m_flSpeedScaleBlending(offset 0x5c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Blend Time"
+		^MPropertyGroupName "Speed Scaling"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x592a90"
+	bool m_bTurnToFace(offset 0x60, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Turn to Face"
+		^MPropertyGroupName "Turn to Face"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[3] unaccounted(offset 0x61)
+	AnimValueSource m_facingTarget(offset 0x64, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Target"
+		^MPropertyGroupName "Turn to Face"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x592ab0"
+	CUtlString m_paramName(offset 0x68, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_param(offset 0x70, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Parameter"
+		^MPropertyGroupName "Turn to Face"
+		^MPropertyAttributeChoiceName "FloatParameter"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x592aa0"
+	float32 m_flTurnToFaceOffset(offset 0x74, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Offset"
+		^MPropertyGroupName "Turn to Face"
+		^MPropertyAttributeRange "-180 180"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x592aa0"
+	CAnimInputDamping m_damping(offset 0x78, size 0x10, align 0x8)
+		^MPropertyFriendlyName "Damping"
+		^MPropertyGroupName "Turn to Face"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x592aa0"
+

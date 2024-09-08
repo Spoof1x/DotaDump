@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_TagSpan (size: 0x30 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f5c90, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5c9d50"
+
+-----members of class CAnimGraphDoc_TagSpan-----
+	uint8_t[32] unaccounted(offset 0x0)
+	AnimTagID m_id(offset 0x20, size 0x4, align 0x4)
+	float32 m_fStartCycle(offset 0x24, size 0x4, align 0x4)
+	float32 m_fDuration(offset 0x28, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x2c)
+

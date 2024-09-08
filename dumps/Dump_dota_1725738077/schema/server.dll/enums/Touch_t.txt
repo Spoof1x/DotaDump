@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum Touch_t(size: 4 bytes, 5 values, project "server", binding @ server.dll + 0x3a4d0f0):
+	touch_none = 0,
+	touch_player_only = 1,
+	touch_npc_only = 2,
+	touch_player_or_npc = 3,
+	touch_player_or_npc_or_physicsprop = 4,

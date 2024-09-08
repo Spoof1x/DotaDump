@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum LayoutAxis_t(size: 4 bytes, 2 values, project "qcontrols", binding @ assetbrowser.dll + 0x1d4460):
+	X = 0,
+	Y = 1,

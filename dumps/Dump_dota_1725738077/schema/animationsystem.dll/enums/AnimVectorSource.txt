@@ -1,0 +1,30 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum AnimVectorSource(size: 4 bytes, 14 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a1450):
+	MoveDirection = 0,
+		^MPropertyFriendlyName "Move Direction"
+	FacingPosition = 1,
+		^MPropertyFriendlyName "Facing Position"
+	LookDirection = 2,
+		^MPropertyFriendlyName "Look Direction"
+	VectorParameter = 3,
+		^MPropertyFriendlyName "Parameter"
+	WayPointDirection = 4,
+		^MPropertyFriendlyName "Waypoint Direction"
+	Acceleration = 5,
+		^MPropertyFriendlyName "Acceleration"
+	SlopeNormal = 6,
+		^MPropertyFriendlyName "Slope Normal"
+	SlopeNormal_WorldSpace = 7,
+		^MPropertyFriendlyName "Slope Normal World Space"
+	LookTarget = 8,
+		^MPropertyFriendlyName "Look Target"
+	LookTarget_WorldSpace = 9,
+		^MPropertyFriendlyName "Look Target World Space"
+	WayPointPosition = 10,
+		^MPropertyFriendlyName "Waypoint Position"
+	GoalPosition = 11,
+		^MPropertyFriendlyName "Goal Position"
+	RootMotionVelocity = 12,
+		^MPropertyFriendlyName "Root Motion Velocity"
+	ManualTarget_WorldSpace = 13,
+		^MPropertyFriendlyName "Manual Target World Space"

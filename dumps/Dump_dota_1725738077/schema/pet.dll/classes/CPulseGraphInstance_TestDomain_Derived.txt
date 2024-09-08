@@ -1,0 +1,47 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseGraphInstance_TestDomain_Derived (size: 0x128 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xce53d0, scope "pet.dll") extends CPulseGraphInstance_TestDomain
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MPulseInstanceDomainInfo "ptr: pet.dll + 0xce5a70"
+^MPulseDomainHookInfo "ptr: pet.dll + 0xce4760"
+^MPulseLibraryBindings "ptr: pet.dll + 0xce5a90"
+^MPulseDomainHiddenInTool
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseGraphInstance_TestDomain (size: 0x120 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xce4960, scope "pet.dll") extends CBasePulseGraphInstance
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	^MPulseInstanceDomainInfo "ptr: pet.dll + 0xce58a0"
+	^MPulseDomainHookInfo "ptr: pet.dll + 0xce5890"
+	^MPulseLibraryBindings "ptr: pet.dll + 0xce58c0"
+	^MPulseDomainOptInFeatureTag "PulseFakeEntities"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBasePulseGraphInstance (size: 0xf8 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xce2910, scope "pet.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		^MPulseInstanceDomainInfo "ptr: pet.dll + 0xce28e8"
+		^MPulseDomainHiddenInTool
+		
+		-----members of class CBasePulseGraphInstance-----
+			uint8_t[248] unaccounted(offset 0x0)
+		
+	
+	-----static members of class CPulseGraphInstance_TestDomain-----
+		static float64 s_flExplicitCurTime(pet.dll + 0xce6fb8)
+	
+	-----members of class CPulseGraphInstance_TestDomain-----
+		bool m_bIsRunningUnitTests(offset 0xf8, size 0x1, align 0x1)
+		bool m_bExplicitTimeStepping(offset 0xf9, size 0x1, align 0x1)
+		bool m_bExpectingToDestroyWithYieldedCursors(offset 0xfa, size 0x1, align 0x1)
+		uint8_t[1] unaccounted(offset 0xfb)
+		int32 m_nNextValidateIndex(offset 0xfc, size 0x4, align 0x4)
+		CUtlVector< CUtlString > m_Tracepoints(offset 0x100, size 0x18, align 0x8)
+		bool m_bTestYesOrNoPath(offset 0x118, size 0x1, align 0x1)
+		uint8_t[7] unaccounted(offset 0x119)
+	
+
+-----members of class CPulseGraphInstance_TestDomain_Derived-----
+	int32 m_nInstanceValueX(offset 0x120, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x124)
+

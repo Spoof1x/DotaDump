@@ -1,0 +1,179 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_FootLockNode (size: 0x110 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f04d0, scope "!GlobalTypes") extends CAnimGraphDoc_Node
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x595750"
+^MPropertyFriendlyName "Stride Retargeting"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Node (size: 0x40 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ec330, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Node-----
+		uint8_t[32] unaccounted(offset 0x0)
+		CUtlString m_sName(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		Vector2D m_vecPosition(offset 0x28, size 0x8, align 0x4)
+			^MPropertyGroupName "Debug"
+		AnimNodeID m_nNodeID(offset 0x30, size 0x4, align 0x4)
+			^MPropertyGroupName "Debug"
+		bool m_bDebugThisNode(offset 0x34, size 0x1, align 0x1)
+			^MPropertyGroupName "Debug"
+			^MPropertyFriendlyName "Debug This Node"
+		uint8_t[3] unaccounted(offset 0x35)
+		AnimNodeNetworkMode m_networkMode(offset 0x38, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Network Mode"
+		uint8_t[4] unaccounted(offset 0x3c)
+	
+
+-----members of class CAnimGraphDoc_FootLockNode-----
+	CAnimGraphDoc_NodeConnection m_inputConnection(offset 0x40, size 0x8, align 0x4)
+		^MPropertyHideField
+	CUtlVector< CFootLockItem > m_items(offset 0x48, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Feet"
+		^MPropertyAutoExpandSelf
+	CUtlString m_hipBoneName(offset 0x60, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Hip Bone"
+		^MPropertyAttributeChoiceName "Bone"
+	float32 m_flBlendTime(offset 0x68, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Blend Time"
+	bool m_bApplyFootRotationLimits(offset 0x6c, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Apply Foot Rotation Limits"
+	bool m_bResetChild(offset 0x6d, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Reset Child"
+	uint8_t[2] unaccounted(offset 0x6e)
+	IKSolverType m_ikSolverType(offset 0x70, size 0x4, align 0x4)
+		^MPropertyFriendlyName "IK Solver Type"
+		^MPropertyGroupName "IK"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	bool m_bAlwaysUseFallbackHinge(offset 0x74, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Always use fallback hinge"
+		^MPropertyGroupName "IK"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x551ab0"
+	bool m_bApplyLegTwistLimits(offset 0x75, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Limit Leg Twist"
+		^MPropertyGroupName "IK"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x551ab0"
+	uint8_t[2] unaccounted(offset 0x76)
+	float32 m_flMaxLegTwist(offset 0x78, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Leg Twist Angle"
+		^MPropertyGroupName "IK"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x551ab0"
+	float32 m_flStrideCurveScale(offset 0x7c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Curve Foot Paths"
+		^MPropertyGroupName "Curve Paths"
+		^MPropertyAttributeRange "0 1"
+	float32 m_flStrideCurveLimitScale(offset 0x80, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Curve Paths Limit"
+		^MPropertyGroupName "Curve Paths"
+		^MPropertyAttributeRange "0 1"
+	bool m_bEnableVerticalCurvedPaths(offset 0x84, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Vertical Curved Paths"
+		^MPropertyGroupName "Curve Paths"
+	bool m_bModulateStepHeight(offset 0x85, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Modulate Step Height"
+		^MPropertyGroupName "Step Height"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[2] unaccounted(offset 0x86)
+	float32 m_flStepHeightIncreaseScale(offset 0x88, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Height Increase Scale"
+		^MPropertyGroupName "Step Height"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5957c0"
+	float32 m_flStepHeightDecreaseScale(offset 0x8c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Height Decrease Scale"
+		^MPropertyGroupName "Step Height"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5957c0"
+	bool m_bEnableHipShift(offset 0x90, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Hip Shift"
+		^MPropertyGroupName "Hip Shift"
+	uint8_t[3] unaccounted(offset 0x91)
+	float32 m_flHipShiftScale(offset 0x94, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Hip Shift Scale"
+		^MPropertyGroupName "Hip Shift"
+		^MPropertyAttributeRange "0 1"
+	CAnimInputDamping m_hipShiftDamping(offset 0x98, size 0x10, align 0x8)
+		^MPropertyFriendlyName "Damping"
+		^MPropertyGroupName "Hip Shift"
+	bool m_bApplyTilt(offset 0xa8, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Apply Tilt"
+		^MPropertyGroupName "Tilt"
+	uint8_t[3] unaccounted(offset 0xa9)
+	float32 m_flTiltPlanePitchSpringStrength(offset 0xac, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Tilt Plane Pitch Spring Strength"
+		^MPropertyGroupName "Tilt"
+	float32 m_flTiltPlaneRollSpringStrength(offset 0xb0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Tilt Plane Roll Spring Strength"
+		^MPropertyGroupName "Tilt"
+	bool m_bEnableLockBreaking(offset 0xb4, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Lock Breaking"
+		^MPropertyGroupName "Lock Breaking"
+	uint8_t[3] unaccounted(offset 0xb5)
+	float32 m_flLockBreakTolerance(offset 0xb8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Tolerance"
+		^MPropertyGroupName "Lock Breaking"
+	float32 m_flLockBreakBlendTime(offset 0xbc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Blend Time"
+		^MPropertyGroupName "Lock Breaking"
+	bool m_bEnableStretching(offset 0xc0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Stretching"
+		^MPropertyGroupName "Stretch"
+	uint8_t[3] unaccounted(offset 0xc1)
+	float32 m_flMaxStretchAmount(offset 0xc4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Stretch Amount"
+		^MPropertyGroupName "Stretch"
+	float32 m_flStretchExtensionScale(offset 0xc8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Extension Scale"
+		^MPropertyGroupName "Stretch"
+		^MPropertyAttributeRange "0 1"
+	bool m_bEnableGroundTracing(offset 0xcc, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Ground Tracing"
+		^MPropertyGroupName "Ground IK"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[3] unaccounted(offset 0xcd)
+	float32 m_flTraceAngleBlend(offset 0xd0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Angle Traces with Slope"
+		^MPropertyGroupName "Ground IK"
+		^MPropertyAttributeRange "0 1"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5957e0"
+	bool m_bApplyHipDrop(offset 0xd4, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Apply Hip Drop"
+		^MPropertyGroupName "Ground IK"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5957e0"
+	uint8_t[3] unaccounted(offset 0xd5)
+	float32 m_flMaxFootHeight(offset 0xd8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Foot Lift"
+		^MPropertyGroupName "Ground IK"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x595800"
+	float32 m_flExtensionScale(offset 0xdc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Leg Extension Scale"
+		^MPropertyGroupName "Ground IK"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x595800"
+	CAnimInputDamping m_hipDampingSettings(offset 0xe0, size 0x10, align 0x8)
+		^MPropertyFriendlyName "Hip Damping"
+		^MPropertyGroupName "Ground IK"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x595800"
+	bool m_bEnableRootHeightDamping(offset 0xf0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Root Height Damping"
+		^MPropertyGroupName "Root Height Damping"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[7] unaccounted(offset 0xf1)
+	CAnimInputDamping m_rootHeightDamping(offset 0xf8, size 0x10, align 0x8)
+		^MPropertyFriendlyName "Damping Settings"
+		^MPropertyGroupName "Root Height Damping"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x595820"
+	float32 m_flMaxRootHeightOffset(offset 0x108, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Offset"
+		^MPropertyGroupName "Root Height Damping"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x595820"
+	float32 m_flMinRootHeightOffset(offset 0x10c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Min Offset"
+		^MPropertyGroupName "Root Height Damping"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x595820"
+

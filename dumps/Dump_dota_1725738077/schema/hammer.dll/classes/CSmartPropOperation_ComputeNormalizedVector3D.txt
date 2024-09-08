@@ -1,0 +1,46 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_ComputeNormalizedVector3D (size: 0x98 bytes, project "smartprops", binding @ hammer.dll + 0x1dcfc10, scope "hammer.dll") extends CSmartPropOperation
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: hammer.dll + 0x103f1b0"
+^MPropertyFriendlyName "Normalize Vector"
+^MPropertyDescription "Normalize the value of a 3d vector."
+^MVDataClassGroup "Compute"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ hammer.dll + 0x1dcc190, scope "hammer.dll") extends CSmartPropModifier
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: hammer.dll + 0xd1200"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ hammer.dll + 0x1dcd250, scope "hammer.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: hammer.dll + 0xd1200"
+		^MVDataBase
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		
+		-----members of class CSmartPropModifier-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+				^MVDataEnableKey
+			uint8_t[8] unaccounted(offset 0x48)
+		
+	
+	-----members of class CSmartPropOperation-----
+		<no members>
+	
+
+-----members of class CSmartPropOperation_ComputeNormalizedVector3D-----
+	CUtlString m_OutputVariableName(offset 0x50, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Output Variable"
+		^MPropertyAttributeEditor "SmartPropItemNameEditor( Variable:Vector3 )"
+	CSmartPropAttributeVector m_InputVector(offset 0x58, size 0x40, align 0x8)
+

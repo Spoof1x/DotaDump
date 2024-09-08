@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleMassMode_t(size: 4 bytes, 2 values, project "particles", binding @ particles.dll + 0x533140):
+	PARTICLE_MASSMODE_RADIUS_CUBED = 0,
+		^MPropertyFriendlyName "Radius cubed"
+	PARTICLE_MASSMODE_RADIUS_SQUARED = 2,
+		^MPropertyFriendlyName "Radius squared"

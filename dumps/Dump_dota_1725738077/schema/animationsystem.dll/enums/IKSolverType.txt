@@ -1,0 +1,14 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum IKSolverType(size: 4 bytes, 6 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a7570):
+	IKSOLVER_Perlin = 0,
+		^MPropertyFriendlyName "Perlin"
+	IKSOLVER_TwoBone = 1,
+		^MPropertyFriendlyName "Two Bone"
+	IKSOLVER_Fabrik = 2,
+		^MPropertyFriendlyName "FABRIK"
+	IKSOLVER_DogLeg3Bone = 3,
+		^MPropertyFriendlyName "Dog Leg (3 Bone)"
+	IKSOLVER_CCD = 4,
+		^MPropertyFriendlyName "CCD"
+	IKSOLVER_COUNT = 5,
+		^MPropertySuppressEnumerator

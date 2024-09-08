@@ -1,0 +1,99 @@
+CAsyncFileSystem2
+	filesystem_stdio.dll + 0x1ab8d0(hierarchy CAsyncFileSystem2: CTier2AppSystem<class IAsyncFileSystem2,0>, CTier1AppSystem<class IAsyncFileSystem2,0>, CTier0AppSystem<class IAsyncFileSystem2,0>, CBaseAppSystem<class IAsyncFileSystem2>, IAsyncFileSystem2, IAppSystem)
+CAsyncFileSystem2::CBarrierRequest
+	filesystem_stdio.dll + 0x1ab748(hierarchy CAsyncFileSystem2::CBarrierRequest: CAsyncFileSystem2::IRequest)
+CAsyncFileSystem2::CCompletionQueue
+	filesystem_stdio.dll + 0x1ab798(hierarchy CAsyncFileSystem2::CCompletionQueue: IIOCompletionQueue)
+CAsyncFileSystem2::CCopyFileHandle
+	filesystem_stdio.dll + 0x1ab570(hierarchy CAsyncFileSystem2::CCopyFileHandle: IAsyncCopyRequest2, CAsyncFileSystem2::IRequest, std::enable_shared_from_this<class CAsyncFileSystem2::CCopyFileHandle>)
+	filesystem_stdio.dll + 0x1ab870 MI offset 432(hierarchy CAsyncFileSystem2::IRequest: std::enable_shared_from_this<class CAsyncFileSystem2::CCopyFileHandle>)
+CAsyncFileSystem2::CCopyFileRequestBuilder
+	filesystem_stdio.dll + 0x1ab598(hierarchy CAsyncFileSystem2::CCopyFileRequestBuilder: IAsyncFileSystem2::ICopyFileRequestBuilder)
+CAsyncFileSystem2::CIOServiceThread
+	filesystem_stdio.dll + 0x1ab758(hierarchy CAsyncFileSystem2::CIOServiceThread: CThread)
+CAsyncFileSystem2::CReadRequestBuilder
+	filesystem_stdio.dll + 0x1ab5b0(hierarchy CAsyncFileSystem2::CReadRequestBuilder: IAsyncFileSystem2::IReadRequestBuilder)
+CAsyncFileSystem2::CReadRequestHandle
+	filesystem_stdio.dll + 0x1ab6a8(hierarchy CAsyncFileSystem2::CReadRequestHandle: IAsyncReadRequest2, CAsyncFileSystem2::IRequest, std::enable_shared_from_this<class CAsyncFileSystem2::CReadRequestHandle>)
+	filesystem_stdio.dll + 0x1ab698 MI offset 224(hierarchy CAsyncFileSystem2::IRequest: std::enable_shared_from_this<class CAsyncFileSystem2::CReadRequestHandle>)
+CAsyncFileSystem2::CWriteRequestBuilder
+	filesystem_stdio.dll + 0x1ab680(hierarchy CAsyncFileSystem2::CWriteRequestBuilder: IAsyncFileSystem2::IWriteRequestBuilder)
+CAsyncFileSystem2::CWriteRequestHandle
+	filesystem_stdio.dll + 0x1ab7f0(hierarchy CAsyncFileSystem2::CWriteRequestHandle: IAsyncWriteRequest2, CAsyncFileSystem2::IRequest, std::enable_shared_from_this<class CAsyncFileSystem2::CWriteRequestHandle>)
+	filesystem_stdio.dll + 0x1ab830 MI offset 224(hierarchy CAsyncFileSystem2::IRequest: std::enable_shared_from_this<class CAsyncFileSystem2::CWriteRequestHandle>)
+CBaseFileSystem
+	filesystem_stdio.dll + 0x1ad8b8(hierarchy CBaseFileSystem: CTier2AppSystem<class IFileSystem,0>, CTier1AppSystem<class IFileSystem,0>, CTier0AppSystem<class IFileSystem,0>, CBaseAppSystem<class IFileSystem>, IFileSystem, IAppSystem)
+CBufferStream
+	filesystem_stdio.dll + 0x1aeb08(hierarchy CBufferStream: IWriteStream)
+CFileHandle
+	filesystem_stdio.dll + 0x1add30(hierarchy CFileHandle)
+CFileStream
+	filesystem_stdio.dll + 0x1aea40(hierarchy CFileStream: IWriteStream)
+CFileSystemReloadFileList
+	filesystem_stdio.dll + 0x1add80(hierarchy CFileSystemReloadFileList: IFileList)
+CFileSystem_Stdio
+	filesystem_stdio.dll + 0x1adfc8(hierarchy CFileSystem_Stdio: CBaseFileSystem, CTier2AppSystem<class IFileSystem,0>, CTier1AppSystem<class IFileSystem,0>, CTier0AppSystem<class IFileSystem,0>, CBaseAppSystem<class IFileSystem>, IFileSystem, IAppSystem)
+CFioReadOnlyFile
+	filesystem_stdio.dll + 0x1adf68(hierarchy CFioReadOnlyFile: CStdFilesystemFile)
+CFioReadOnlyMemoryMappedFile
+	filesystem_stdio.dll + 0x1adf48(hierarchy CFioReadOnlyMemoryMappedFile: IMemoryMappedFile)
+CIODelayAlarmThread
+	filesystem_stdio.dll + 0x1add40(hierarchy CIODelayAlarmThread: CThread)
+CMemoryMappedFileSection
+	filesystem_stdio.dll + 0x1a15f0(hierarchy CMemoryMappedFileSection: IMemoryMappedFile)
+CMemoryMappedFileSection_SelfDelete
+	filesystem_stdio.dll + 0x1a1610(hierarchy CMemoryMappedFileSection_SelfDelete: CMemoryMappedFileSection, IMemoryMappedFile)
+CPackedStoreMemoryMappedFile
+	filesystem_stdio.dll + 0x1a1840(hierarchy CPackedStoreMemoryMappedFile: IMemoryMappedFile)
+CPackedStoreMemoryMappedFile_HierarchicalParent
+	filesystem_stdio.dll + 0x1a1860(hierarchy CPackedStoreMemoryMappedFile_HierarchicalParent: CPackedStoreMemoryMappedFile, IMemoryMappedFile)
+CPostConnectCallback
+	filesystem_stdio.dll + 0x1a12c8(hierarchy CPostConnectCallback)
+CSchemaInstallCallback
+	filesystem_stdio.dll + 0x1a1540(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CStdFilesystemFile
+	filesystem_stdio.dll + 0x1adee8(hierarchy CStdFilesystemFile)
+CStdioFile
+	filesystem_stdio.dll + 0x1ae418(hierarchy CStdioFile: CStdFilesystemFile)
+CZip
+	filesystem_stdio.dll + 0x1aea58(hierarchy CZip: IZip)
+IAsyncCopyRequest2
+	filesystem_stdio.dll + 0x1ab708(hierarchy IAsyncCopyRequest2)
+IAsyncFileSystem2::ICopyFileRequestBuilder
+	filesystem_stdio.dll + 0x1ab840(hierarchy IAsyncFileSystem2::ICopyFileRequestBuilder)
+IAsyncFileSystem2::IReadRequestBuilder
+	filesystem_stdio.dll + 0x1ab5c8(hierarchy IAsyncFileSystem2::IReadRequestBuilder)
+IAsyncFileSystem2::IWriteRequestBuilder
+	filesystem_stdio.dll + 0x1ab7d8(hierarchy IAsyncFileSystem2::IWriteRequestBuilder)
+IAsyncReadRequest2
+	filesystem_stdio.dll + 0x1ab5e0(hierarchy IAsyncReadRequest2)
+IAsyncWriteRequest2
+	filesystem_stdio.dll + 0x1ab530(hierarchy IAsyncWriteRequest2)
+IIOCompletionQueue
+	filesystem_stdio.dll + 0x1ab730(hierarchy IIOCompletionQueue)
+IMemoryMappedFile
+	filesystem_stdio.dll + 0x1a15d0(hierarchy IMemoryMappedFile)
+std::_Ref_count_obj2<class CAsyncFileSystem2::CBarrierRequest>
+	filesystem_stdio.dll + 0x1ab880(hierarchy std::_Ref_count_obj2<class CAsyncFileSystem2::CBarrierRequest>: std::_Ref_count_base)
+std::_Ref_count_obj2<class CAsyncFileSystem2::CCopyFileHandle>
+	filesystem_stdio.dll + 0x1ab658(hierarchy std::_Ref_count_obj2<class CAsyncFileSystem2::CCopyFileHandle>: std::_Ref_count_base)
+std::_Ref_count_obj2<class CAsyncFileSystem2::CReadRequestHandle>
+	filesystem_stdio.dll + 0x1ab8a8(hierarchy std::_Ref_count_obj2<class CAsyncFileSystem2::CReadRequestHandle>: std::_Ref_count_base)
+std::_Ref_count_obj2<class CAsyncFileSystem2::CWriteRequestHandle>
+	filesystem_stdio.dll + 0x1ab7b0(hierarchy std::_Ref_count_obj2<class CAsyncFileSystem2::CWriteRequestHandle>: std::_Ref_count_base)
+std::bad_alloc
+	filesystem_stdio.dll + 0x1a1d60(hierarchy std::bad_alloc: std::exception)
+std::bad_array_new_length
+	filesystem_stdio.dll + 0x1ab640(hierarchy std::bad_array_new_length: std::bad_alloc, std::exception)
+std::bad_exception
+	filesystem_stdio.dll + 0x1a2ce0(hierarchy std::bad_exception: std::exception)
+std::bad_weak_ptr
+	filesystem_stdio.dll + 0x1ab858(hierarchy std::bad_weak_ptr: std::exception)
+std::exception
+	filesystem_stdio.dll + 0x1a1d48(hierarchy std::exception)
+std::length_error
+	filesystem_stdio.dll + 0x1a1d90(hierarchy std::length_error: std::logic_error, std::exception)
+std::logic_error
+	filesystem_stdio.dll + 0x1a1d78(hierarchy std::logic_error: std::exception)
+type_info
+	filesystem_stdio.dll + 0x1a1da8(hierarchy type_info)

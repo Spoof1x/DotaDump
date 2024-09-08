@@ -1,0 +1,45 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmFloatClampNode::CDefinition (size: 0x20 bytes, project "animlib", binding @ resourcecompiler.dll + 0x2448900, scope "resourcecompiler.dll") extends CNmFloatValueNode::CDefinition
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x847190"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmFloatValueNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ resourcecompiler.dll + 0x2445770, scope "resourcecompiler.dll") extends CNmValueNode::CDefinition
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmValueNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ resourcecompiler.dll + 0x24455f0, scope "resourcecompiler.dll") extends CNmGraphNode::CDefinition
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmGraphNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ resourcecompiler.dll + 0x24454f0, scope "resourcecompiler.dll")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+			
+			-----members of class CNmGraphNode::CDefinition-----
+				uint8_t[8] unaccounted(offset 0x0)
+				int16 m_nNodeIdx(offset 0x8, size 0x2, align 0x2)
+				uint8_t[6] unaccounted(offset 0xa)
+			
+		
+		-----members of class CNmValueNode::CDefinition-----
+			<no members>
+		
+	
+	-----members of class CNmFloatValueNode::CDefinition-----
+		<no members>
+	
+
+-----members of class CNmFloatClampNode::CDefinition-----
+	int16 m_nInputValueNodeIdx(offset 0x10, size 0x2, align 0x2)
+	uint8_t[2] unaccounted(offset 0x12)
+	Range_t m_clampRange(offset 0x14, size 0x8, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1c)
+

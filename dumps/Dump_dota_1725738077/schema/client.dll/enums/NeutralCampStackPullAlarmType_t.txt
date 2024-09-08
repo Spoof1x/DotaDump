@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NeutralCampStackPullAlarmType_t(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x487a900):
+	DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_STACK = 1,
+	DOTA_NEUTRAL_CAMP_STACK_PULL_ALARM_TYPE_PULL = 2,

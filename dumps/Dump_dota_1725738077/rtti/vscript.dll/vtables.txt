@@ -1,0 +1,56 @@
+CBaseAppSystem<class IScriptManager>
+	vscript.dll + 0x116dc0(hierarchy CBaseAppSystem<class IScriptManager>: IScriptManager, IAppSystem)
+CLuaDBGp
+	vscript.dll + 0x116d50(hierarchy CLuaDBGp: ILuaDbgConnection)
+CLuaDbg
+	vscript.dll + 0x1144e8(hierarchy CLuaDbg: IScriptDebugger)
+CLuaDbgInspector
+	vscript.dll + 0x116490(hierarchy CLuaDbgInspector: ILuaDbgConnection)
+CLuaVM
+	vscript.dll + 0x113fb8(hierarchy CLuaVM: IScriptVM)
+CNopVM
+	vscript.dll + 0x116e38(hierarchy CNopVM: IScriptVM)
+CPostConnectCallback
+	vscript.dll + 0xfb680(hierarchy CPostConnectCallback)
+CSHA1
+	vscript.dll + 0x116480(hierarchy CSHA1)
+CSchemaInstallCallback
+	vscript.dll + 0xfb9f8(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CScriptManager
+	vscript.dll + 0x117118(hierarchy CScriptManager: CTier2AppSystem<class IScriptManager,0>, CTier1AppSystem<class IScriptManager,0>, CTier0AppSystem<class IScriptManager,0>, CBaseAppSystem<class IScriptManager>, IScriptManager, IAppSystem)
+CStack_Lua_VM_Segment_Marker
+	vscript.dll + 0x113f90(hierarchy CStack_Lua_VM_Segment_Marker: IStack_VM_Segment_Marker)
+CTier0AppSystem<class IScriptManager,0>
+	vscript.dll + 0x117190(hierarchy CTier0AppSystem<class IScriptManager,0>: CBaseAppSystem<class IScriptManager>, IScriptManager, IAppSystem)
+CTier1AppSystem<class IScriptManager,0>
+	vscript.dll + 0x117208(hierarchy CTier1AppSystem<class IScriptManager,0>: CTier0AppSystem<class IScriptManager,0>, CBaseAppSystem<class IScriptManager>, IScriptManager, IAppSystem)
+CTier2AppSystem<class IScriptManager,0>
+	vscript.dll + 0x117280(hierarchy CTier2AppSystem<class IScriptManager,0>: CTier1AppSystem<class IScriptManager,0>, CTier0AppSystem<class IScriptManager,0>, CBaseAppSystem<class IScriptManager>, IScriptManager, IAppSystem)
+IAppSystem
+	vscript.dll + 0x117040(hierarchy IAppSystem)
+ILuaDbgConnection
+	vscript.dll + 0x116500(hierarchy ILuaDbgConnection)
+IScriptDebugger
+	vscript.dll + 0x114568(hierarchy IScriptDebugger)
+IScriptManager
+	vscript.dll + 0x1170a0(hierarchy IScriptManager: IAppSystem)
+IScriptVM
+	vscript.dll + 0x113cd8(hierarchy IScriptVM)
+IStack_VM_Segment_Marker
+	vscript.dll + 0x113f68(hierarchy IStack_VM_Segment_Marker)
+std::bad_exception
+	vscript.dll + 0x104418(hierarchy std::bad_exception: std::exception)
+std::exception
+	vscript.dll + 0x104198(hierarchy std::exception)
+std::length_error
+	vscript.dll + 0x1041e0(hierarchy std::length_error: std::logic_error, std::exception)
+std::logic_error
+	vscript.dll + 0x1041c8(hierarchy std::logic_error: std::exception)
+stdext::bad_alloc
+	vscript.dll + 0x114300(hierarchy stdext::bad_alloc: stdext::exception)
+stdext::bad_array_new_length
+	vscript.dll + 0x114368(hierarchy stdext::bad_array_new_length: stdext::bad_alloc, stdext::exception)
+stdext::exception
+	vscript.dll + 0x1142e0(hierarchy stdext::exception)
+type_info
+	vscript.dll + 0x1042a0(hierarchy type_info)

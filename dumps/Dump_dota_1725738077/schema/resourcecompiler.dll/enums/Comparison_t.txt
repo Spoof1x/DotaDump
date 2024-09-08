@@ -1,0 +1,9 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum Comparison_t(size: 4 bytes, 7 values, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e84d0):
+	COMPARISON_EQUALS = 0,
+	COMPARISON_NOT_EQUALS = 1,
+	COMPARISON_GREATER = 2,
+	COMPARISON_GREATER_OR_EQUAL = 3,
+	COMPARISON_LESS = 4,
+	COMPARISON_LESS_OR_EQUAL = 5,
+	COMPARISON_COUNT = 6,

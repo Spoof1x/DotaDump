@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPreviewList (size: 0x20 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24befc0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x15db150"
+
+-----members of class CPreviewList-----
+	CUtlVector< CPreviewEntry > m_sounds(offset 0x0, size 0x18, align 0x8)
+	bool m_bPreviewInGame(offset 0x18, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x19)
+

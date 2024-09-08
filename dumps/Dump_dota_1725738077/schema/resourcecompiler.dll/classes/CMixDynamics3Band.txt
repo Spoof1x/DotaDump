@@ -1,0 +1,68 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMixDynamics3Band (size: 0xb8 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24be180, scope "!GlobalTypes") extends CMixPropertyBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x15be0b0"
+^MPropertyFriendlyName "VMix 3 Band Dynamics Node"
+^MPropertyDescription "This is a multi-band dynamics processor.  First the signal is split into low/mid/high bands, then each band is routed through two compressors providing upward and downward compression to each band.  Input & Output gain can also be adjusted."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMixPropertyBase (size: 0x20 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bbaa0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x157f160"
+	
+	-----members of class CMixPropertyBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+			^MPropertyDescription "Node name"
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "1"
+		CUtlString m_Comment(offset 0x10, size 0x8, align 0x8)
+			^MPropertyDescription "Description of how this is used  the graph for people reading the graph"
+			^MPropertySortPriority "-2"
+		bool m_bActive(offset 0x18, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bSolo(offset 0x19, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bEditProperties(offset 0x1a, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		uint8_t[5] unaccounted(offset 0x1b)
+	
+
+-----members of class CMixDynamics3Band-----
+	int32 m_nChannels(offset 0x20, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Channels"
+		^MPropertyAttributeChoiceName "processor_channels"
+	float32 m_fldbOutputGain(offset 0x24, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Output Gain (dB)"
+		^MPropertyAttributeRange "-18 18"
+	float32 m_flRMSTime(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Threshold detection time (ms)"
+	float32 m_flDepth(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Depth [0.0 - 1.0]"
+		^MPropertyAttributeRange "0 1"
+	float32 m_flWetMix(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Wet [0.0 - 1.0]"
+		^MPropertyAttributeRange "0 1"
+	float32 m_flTimeScale(offset 0x34, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Time Scale [0.0 - 10.0]"
+		^MPropertyAttributeRange "0 10"
+	float32 m_fldbKneeWidth(offset 0x38, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Knee width (dB) 0 = hard knee"
+	float32 m_flLowCutoffFreq(offset 0x3c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Low Cutoff Freq (Hz)"
+	float32 m_flHighCutoffFreq(offset 0x40, size 0x4, align 0x4)
+		^MPropertyFriendlyName "High Cutoff Freq (Hz)"
+	bool m_bPeakMode(offset 0x44, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Peak Mode"
+	uint8_t[3] unaccounted(offset 0x45)
+	int32 m_nSelectedPage(offset 0x48, size 0x4, align 0x4)
+		^MPropertyHideField
+	VMixDynamicsBand_t[3] m_bands(offset 0x4c, size 0x6c, align 0x4)
+

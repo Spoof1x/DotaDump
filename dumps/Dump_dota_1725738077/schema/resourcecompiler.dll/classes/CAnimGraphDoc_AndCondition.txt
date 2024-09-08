@@ -1,0 +1,36 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_AndCondition (size: 0x58 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f5260, scope "!GlobalTypes") extends CAnimGraphDoc_Condition, CAnimGraphDoc_ConditionContainer(MI offset 0x28)
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5c5dd0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Condition (size: 0x28 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e8570, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Condition-----
+		uint8_t[40] unaccounted(offset 0x0)
+	
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_ConditionContainer (size: 0x30 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f51c0, MI offset 0x28, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5c5240"
+	
+	-----members of class CAnimGraphDoc_ConditionContainer-----
+		uint8_t[8] unaccounted(offset 0x28)
+		CUtlVector< CSmartPtr< CAnimGraphDoc_Condition > > m_conditions(offset 0x30, size 0x18, align 0x8)
+			^MPropertySuppressField
+		uint8_t[16] unaccounted(offset 0x48)
+	
+
+-----members of class CAnimGraphDoc_AndCondition-----
+	<no members>
+

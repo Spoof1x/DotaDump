@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum VoiceDataFormat_t(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x38e8450):
+	VOICEDATA_FORMAT_STEAM = 0,
+	VOICEDATA_FORMAT_ENGINE = 1,
+	VOICEDATA_FORMAT_OPUS = 2,

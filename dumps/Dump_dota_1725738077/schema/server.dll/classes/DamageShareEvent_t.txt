@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class DamageShareEvent_t (size: 0xc bytes, project "server", binding @ server.dll + 0x3ab4140, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class DamageShareEvent_t-----
+	float32 m_flOriginalDamage(offset 0x0, size 0x4, align 0x4)
+	float32 m_flTakenDamage(offset 0x4, size 0x4, align 0x4)
+	PlayerID_t m_nPlayerID(offset 0x8, size 0x4, align 0x0)
+

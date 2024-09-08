@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum GraphCanvasVAlign_t(size: 4 bytes, 4 values, project "qcontrols", binding @ assetbrowser.dll + 0x1d45f0):
+	TOP = 0,
+	CENTER = 1,
+	BOTTOM = 2,
+	STRETCH = 3,

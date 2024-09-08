@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTA_ReconnectInfo (size: 0x18 bytes, project "client", binding @ client.dll + 0x4821960, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+
+-----members of class CDOTA_ReconnectInfo-----
+	uint64 m_playerSteamId(offset 0x0, size 0x8, align 0x8)
+	int32 m_iTeam(offset 0x8, size 0x4, align 0x4)
+	CEntityIndex m_iUnitControlled(offset 0xc, size 0x4, align 0x4)
+	bool m_bWantsRandomHero(offset 0x10, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x11)
+

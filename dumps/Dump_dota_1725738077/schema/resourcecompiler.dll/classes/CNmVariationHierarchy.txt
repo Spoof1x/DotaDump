@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmVariationHierarchy (size: 0x18 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23dfa10, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x4e6cc0"
+
+-----members of class CNmVariationHierarchy-----
+	CUtlVector< NmVariation_t > m_variations(offset 0x0, size 0x18, align 0x8)
+

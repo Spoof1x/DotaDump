@@ -1,0 +1,112 @@
+CAimConstraint
+	vphysics2.dll + 0x328820(hierarchy CAimConstraint: CBaseConstraint, CBoneConstraintBase)
+CAnimSkeleton
+	vphysics2.dll + 0x322810(hierarchy CAnimSkeleton: CMutableRefCounted<class CMutableRefCountBase<class CRefMT> >, CMutableRefCountBase<class CRefMT>)
+CBaseConstraint
+	vphysics2.dll + 0x3290d8(hierarchy CBaseConstraint: CBoneConstraintBase)
+CBaseIntrospectedToKV3TypeManager
+	vphysics2.dll + 0x32c288(hierarchy CBaseIntrospectedToKV3TypeManager: IResourceTypeManager)
+CBaseIntrospectedToKV3TypeManager::AsyncProcessResult
+	vphysics2.dll + 0x32c278(hierarchy CBaseIntrospectedToKV3TypeManager::AsyncProcessResult: IAsyncProcessedDataResult)
+CBoneConstraintBase
+	vphysics2.dll + 0x3286c0(hierarchy CBoneConstraintBase)
+CBoneConstraintDotToMorph
+	vphysics2.dll + 0x328988(hierarchy CBoneConstraintDotToMorph: CBoneConstraintBase)
+CBoneConstraintPoseSpaceBone
+	vphysics2.dll + 0x3292b0(hierarchy CBoneConstraintPoseSpaceBone: CBaseConstraint, CBoneConstraintBase)
+CBoneConstraintPoseSpaceMorph
+	vphysics2.dll + 0x329240(hierarchy CBoneConstraintPoseSpaceMorph: CBoneConstraintBase)
+CBreakLegacyParser
+	vphysics2.dll + 0x322d48(hierarchy CBreakLegacyParser: IVPhysicsLegacyKeyHandler)
+CDualHullAgglomerator
+	vphysics2.dll + 0x345430(hierarchy CDualHullAgglomerator: CFeAgglomerator)
+CEmptySequence
+	vphysics2.dll + 0x3225c8(hierarchy CEmptySequence: ISequence, IBaseSequence)
+CFeAgglomerator
+	vphysics2.dll + 0x345180(hierarchy CFeAgglomerator)
+CKV3ResourceBlockHelper
+	vphysics2.dll + 0x32c268(hierarchy CKV3ResourceBlockHelper: IAsyncProcessedDataResult)
+CKV3TransferContextBase
+	vphysics2.dll + 0x3394b8(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferLoadContext
+	vphysics2.dll + 0x339528(hierarchy CKV3TransferLoadContext: CKV3TransferContextBase, IErrorListener)
+CKV3TransferSaveContext
+	vphysics2.dll + 0x3394f0(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CKV3Transfer_ResourceLoadInterface
+	vphysics2.dll + 0x32c258(hierarchy CKV3Transfer_ResourceLoadInterface: IKV3TransferInterface_ResourceLoad)
+CModelConfigElement
+	vphysics2.dll + 0x3264a0(hierarchy CModelConfigElement)
+CModelConfigElement_AttachedModel
+	vphysics2.dll + 0x3264e8(hierarchy CModelConfigElement_AttachedModel: CModelConfigElement)
+CModelConfigElement_Command
+	vphysics2.dll + 0x326770(hierarchy CModelConfigElement_Command: CModelConfigElement)
+CModelConfigElement_RandomColor
+	vphysics2.dll + 0x326698(hierarchy CModelConfigElement_RandomColor: CModelConfigElement)
+CModelConfigElement_RandomPick
+	vphysics2.dll + 0x326578(hierarchy CModelConfigElement_RandomPick: CModelConfigElement)
+CModelConfigElement_SetBodygroup
+	vphysics2.dll + 0x3266e0(hierarchy CModelConfigElement_SetBodygroup: CModelConfigElement)
+CModelConfigElement_SetBodygroupOnAttachedModels
+	vphysics2.dll + 0x326728(hierarchy CModelConfigElement_SetBodygroupOnAttachedModels: CModelConfigElement)
+CModelConfigElement_SetMaterialGroup
+	vphysics2.dll + 0x3265c0(hierarchy CModelConfigElement_SetMaterialGroup: CModelConfigElement)
+CModelConfigElement_SetMaterialGroupOnAttachedModels
+	vphysics2.dll + 0x326608(hierarchy CModelConfigElement_SetMaterialGroupOnAttachedModels: CModelConfigElement)
+CModelConfigElement_SetRenderColor
+	vphysics2.dll + 0x326650(hierarchy CModelConfigElement_SetRenderColor: CModelConfigElement)
+CModelConfigElement_UserPick
+	vphysics2.dll + 0x326530(hierarchy CModelConfigElement_UserPick: CModelConfigElement)
+CMorphConstraint
+	vphysics2.dll + 0x3291c8(hierarchy CMorphConstraint: CBaseConstraint, CBoneConstraintBase)
+CMorphSetData
+	vphysics2.dll + 0x3271b8(hierarchy CMorphSetData: CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+COrientConstraint
+	vphysics2.dll + 0x3287a8(hierarchy COrientConstraint: CBaseConstraint, CBoneConstraintBase)
+CParentConstraint
+	vphysics2.dll + 0x328910(hierarchy CParentConstraint: CBaseConstraint, CBoneConstraintBase)
+CPointConstraint
+	vphysics2.dll + 0x328730(hierarchy CPointConstraint: CBaseConstraint, CBoneConstraintBase)
+CPostConnectCallback
+	vphysics2.dll + 0x339460(hierarchy CPostConnectCallback)
+CRenderMesh
+	vphysics2.dll + 0x3246e8(hierarchy CRenderMesh: CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+CResourceStreamBase
+	vphysics2.dll + 0x32c060(hierarchy CResourceStreamBase)
+CResourceStreamFixed
+	vphysics2.dll + 0x32c078(hierarchy CResourceStreamFixed: CResourceStream, CResourceStreamBase)
+CResourceStreamUnalignedGrowable
+	vphysics2.dll + 0x32c090(hierarchy CResourceStreamUnalignedGrowable: CResourceStreamUnaligned, CResourceStreamBase)
+CSchemaInstallCallback
+	vphysics2.dll + 0x339d58(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_modellib
+	vphysics2.dll + 0x322bd8(hierarchy CSchemaRegistration_modellib: CSchemaRegistration)
+CStackTranslationHelper_Universal
+	vphysics2.dll + 0x331928(hierarchy CStackTranslationHelper_Universal: CStackTranslationHelper)
+CStackTranslationHelper_VSymbolModule
+	vphysics2.dll + 0x331b00(hierarchy CStackTranslationHelper_VSymbolModule: CStackTranslationHelper)
+CStackTranslationHelper_VirtualMachine
+	vphysics2.dll + 0x331a70(hierarchy CStackTranslationHelper_VirtualMachine: CStackTranslationHelper)
+CTiltTwistConstraint
+	vphysics2.dll + 0x329150(hierarchy CTiltTwistConstraint: CBaseConstraint, CBoneConstraintBase)
+CTwistConstraint
+	vphysics2.dll + 0x328898(hierarchy CTwistConstraint: CBaseConstraint, CBoneConstraintBase)
+CVDbgHelpSymbolModule
+	vphysics2.dll + 0x332120(hierarchy CVDbgHelpSymbolModule: CVSymbolModule)
+CVDwarfSymbolModule
+	vphysics2.dll + 0x3321c0(hierarchy CVDwarfSymbolModule: CVSymbolModule)
+CVSymbolModule
+	vphysics2.dll + 0x332080(hierarchy CVSymbolModule)
+IAsyncProcessedDataResult
+	vphysics2.dll + 0x32c248(hierarchy IAsyncProcessedDataResult)
+IMultipleWorkerJob
+	vphysics2.dll + 0x339c18(hierarchy IMultipleWorkerJob)
+std::_Func_impl_no_alloc<class `public: void __cdecl CJobContinuation::ReleaseRef(void) __ptr64'::`9'::<lambda_1>,void>
+	vphysics2.dll + 0x339d08(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CJobContinuation::ReleaseRef(void) __ptr64'::`9'::<lambda_1>,void>: std::_Func_base<void>)
+std::bad_exception
+	vphysics2.dll + 0x33dbd8(hierarchy std::bad_exception: std::exception)
+std::bad_function_call
+	vphysics2.dll + 0x33c988(hierarchy std::bad_function_call: std::exception)
+std::exception
+	vphysics2.dll + 0x339be8(hierarchy std::exception)
+type_info
+	vphysics2.dll + 0x33da50(hierarchy type_info)

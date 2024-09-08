@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PFNoiseTurbulence_t(size: 4 bytes, 6 values, project "particleslib", binding @ particles.dll + 0x5046d0):
+	PF_NOISE_TURB_NONE = 0,
+	PF_NOISE_TURB_HIGHLIGHT = 1,
+	PF_NOISE_TURB_FEEDBACK = 2,
+	PF_NOISE_TURB_LOOPY = 3,
+	PF_NOISE_TURB_CONTRAST = 4,
+	PF_NOISE_TURB_ALTERNATE = 5,

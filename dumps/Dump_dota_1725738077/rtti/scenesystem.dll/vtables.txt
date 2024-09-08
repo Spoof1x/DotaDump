@@ -1,0 +1,563 @@
+C6FaceSkyboxObject
+	scenesystem.dll + 0x559b50(hierarchy C6FaceSkyboxObject: CSceneObject)
+C6FaceSkyboxObjectDesc
+	scenesystem.dll + 0x559a28(hierarchy C6FaceSkyboxObjectDesc: CBaseNonPooledSceneObjectDesc<class C6FaceSkyboxObject>, CBaseSceneObjectDesc, ISceneObjectDesc)
+CAggregateSceneObject
+	scenesystem.dll + 0x545970(hierarchy CAggregateSceneObject: CSceneObject)
+CAggregateSceneObjectDesc
+	scenesystem.dll + 0x545898(hierarchy CAggregateSceneObjectDesc: CBaseSceneObjectDesc, ISceneObjectDesc, IReadBufferCallback, IRenderReadCallback)
+	scenesystem.dll + 0x545878 MI offset 16(hierarchy IReadBufferCallback: IRenderReadCallback)
+CAmbientOcclusionProxySceneObject
+	scenesystem.dll + 0x545f00(hierarchy CAmbientOcclusionProxySceneObject: CSceneObject)
+CAmbientOcclusionProxySceneObjectDesc
+	scenesystem.dll + 0x545e48(hierarchy CAmbientOcclusionProxySceneObjectDesc: ISceneObjectDescBase<class CAmbientOcclusionProxySceneObject>, ISceneObjectDesc)
+CAnimatableSceneObjectDesc
+	scenesystem.dll + 0x545fa0(hierarchy CAnimatableSceneObjectDesc: CBaseSceneObjectDesc, ISceneObjectDesc)
+CBarnLightObjectDesc
+	scenesystem.dll + 0x547768(hierarchy CBarnLightObjectDesc: ISceneObjectDescBase<class CSceneBarnLightObject>, ISceneObjectDesc)
+CBarnLightObjectDescGPU
+	scenesystem.dll + 0x54a688(hierarchy CBarnLightObjectDescGPU: CBarnLightObjectDesc, ISceneObjectDescBase<class CSceneBarnLightObject>, ISceneObjectDesc)
+CBaseSceneObjectDesc
+	scenesystem.dll + 0x5459e8(hierarchy CBaseSceneObjectDesc: ISceneObjectDesc)
+CBlitTextureToRenderTargetLayer
+	scenesystem.dll + 0x54d968(hierarchy CBlitTextureToRenderTargetLayer: IProceduralLayerRenderer)
+CCharacterDecalRenderer
+	scenesystem.dll + 0x558a78(hierarchy CCharacterDecalRenderer: ICharacterDecalRenderer)
+CCharacterDecalRenderer::CCharacterDecalRendererDesc
+	scenesystem.dll + 0x558ac0(hierarchy CCharacterDecalRenderer::CCharacterDecalRendererDesc: ISceneObjectDescBase<class CCharacterDecalRenderer::CCharacterDecalSceneObject>, ISceneObjectDesc)
+CCharacterDecalRenderer::CCharacterDecalSceneObject
+	scenesystem.dll + 0x558b78(hierarchy CCharacterDecalRenderer::CCharacterDecalSceneObject: CSceneObject)
+CClutterSceneObject
+	scenesystem.dll + 0x546610(hierarchy CClutterSceneObject: CSceneObject)
+CClutterSceneObjectDesc
+	scenesystem.dll + 0x546480(hierarchy CClutterSceneObjectDesc: CBaseSceneObjectDesc, ISceneObjectDesc, IReadBufferCallback, IRenderReadCallback)
+	scenesystem.dll + 0x546540 MI offset 16(hierarchy IReadBufferCallback: IRenderReadCallback)
+CConCommandMemberAccessor<class CSceneSystem>
+	scenesystem.dll + 0x553740(hierarchy CConCommandMemberAccessor<class CSceneSystem>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+	scenesystem.dll + 0x553730 MI offset 8(hierarchy ICommandCompletionCallback)
+CDebugLayerRenderer
+	scenesystem.dll + 0x5569d0(hierarchy CDebugLayerRenderer: IProceduralLayerRenderer)
+CDebugTextObjectDesc
+	scenesystem.dll + 0x54c9d0(hierarchy CDebugTextObjectDesc: ISceneObjectDescBase<class CSceneDebugTextObject>, ISceneObjectDesc)
+CDefaultPVS
+	scenesystem.dll + 0x54b158(hierarchy CDefaultPVS: IPVS)
+CDirectionalLightObjectDesc
+	scenesystem.dll + 0x54a3a8(hierarchy CDirectionalLightObjectDesc: CLightObjectDesc, ISceneObjectDescBase<class CSceneLightObject>, ISceneObjectDesc)
+CDirectionalLightObjectDescGPU
+	scenesystem.dll + 0x54a460(hierarchy CDirectionalLightObjectDescGPU: CDirectionalLightObjectDesc, CLightObjectDesc, ISceneObjectDescBase<class CSceneLightObject>, ISceneObjectDesc)
+CDistanceFieldInstanceSceneObject
+	scenesystem.dll + 0x547560(hierarchy CDistanceFieldInstanceSceneObject: CSceneObject)
+CDistanceFieldInstanceSceneObjectDesc
+	scenesystem.dll + 0x5474a8(hierarchy CDistanceFieldInstanceSceneObjectDesc: ISceneObjectDescBase<class CDistanceFieldInstanceSceneObject>, ISceneObjectDesc)
+CEmptySequence
+	scenesystem.dll + 0x510150(hierarchy CEmptySequence: ISequence, IBaseSequence)
+CEntityMsg
+	scenesystem.dll + 0x542620(hierarchy CEntityMsg: google::protobuf::Message, google::protobuf::MessageLite)
+CEnvMapLightObjectDesc
+	scenesystem.dll + 0x5478d8(hierarchy CEnvMapLightObjectDesc: CLightObjectDesc, ISceneObjectDescBase<class CSceneLightObject>, ISceneObjectDesc)
+CEnvMapLightObjectDescGPU
+	scenesystem.dll + 0x54a5d0(hierarchy CEnvMapLightObjectDescGPU: CEnvMapLightObjectDesc, CLightObjectDesc, ISceneObjectDescBase<class CSceneLightObject>, ISceneObjectDesc)
+CEnvMapSceneObject
+	scenesystem.dll + 0x54f348(hierarchy CEnvMapSceneObject: CSceneLightObject, CSceneLightObjectBase, CSceneObject)
+CFilterLayerRenderer
+	scenesystem.dll + 0x558c30(hierarchy CFilterLayerRenderer: IProceduralLayerRenderer)
+CFullscreenQuadRenderer
+	scenesystem.dll + 0x558ca0(hierarchy CFullscreenQuadRenderer: IProceduralLayerRenderer)
+CImGuiWrapper
+	scenesystem.dll + 0x554d98(hierarchy CImGuiWrapper: IImGui)
+CImPlotWrapper
+	scenesystem.dll + 0x555d98(hierarchy CImPlotWrapper: IImPlot)
+CInputLayoutRegistration_sm_hLayout
+	scenesystem.dll + 0x558cb8(hierarchy CInputLayoutRegistration_sm_hLayout: CPostConnectCallback)
+CInstancedMeshSceneObject
+	scenesystem.dll + 0x546f30(hierarchy CInstancedMeshSceneObject: CSceneObject)
+CInstancedMeshSceneObjectDesc
+	scenesystem.dll + 0x546e70(hierarchy CInstancedMeshSceneObjectDesc: CBaseSceneObjectDesc, ISceneObjectDesc)
+CKV3TransferContextBase
+	scenesystem.dll + 0x511c98(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferLoadContext
+	scenesystem.dll + 0x511d08(hierarchy CKV3TransferLoadContext: CKV3TransferContextBase, IErrorListener)
+CKV3TransferSaveContext
+	scenesystem.dll + 0x511cd0(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CLightBinner2
+	scenesystem.dll + 0x5482e8(hierarchy CLightBinner2: ILightBinner, ISceneEnvironmentMapListener, ISceneLightProbeVolumeListener)
+	scenesystem.dll + 0x548370 MI offset 16(hierarchy ISceneEnvironmentMapListener: ISceneLightProbeVolumeListener)
+	scenesystem.dll + 0x5482c8 MI offset 24(hierarchy ISceneLightProbeVolumeListener)
+CLightBinner2Factory
+	scenesystem.dll + 0x548270(hierarchy CLightBinner2Factory: ILightBinnerFactory)
+CLightBinnerGPU
+	scenesystem.dll + 0x54ac38(hierarchy CLightBinnerGPU: CLightBinner2, ILightBinner, ISceneEnvironmentMapListener, ISceneLightProbeVolumeListener)
+	scenesystem.dll + 0x54acc0 MI offset 16(hierarchy ISceneEnvironmentMapListener: ISceneLightProbeVolumeListener)
+	scenesystem.dll + 0x54ac18 MI offset 24(hierarchy ISceneLightProbeVolumeListener)
+CLightBinnerGPUFactory
+	scenesystem.dll + 0x54a8b0(hierarchy CLightBinnerGPUFactory: CLightBinner2Factory, ILightBinnerFactory)
+CLightBinnerNull
+	scenesystem.dll + 0x54ae08(hierarchy CLightBinnerNull: ILightBinner)
+CLightBinnerNullFactory
+	scenesystem.dll + 0x54adb0(hierarchy CLightBinnerNullFactory: ILightBinnerFactory)
+CLightObjectDesc
+	scenesystem.dll + 0x547990(hierarchy CLightObjectDesc: ISceneObjectDescBase<class CSceneLightObject>, ISceneObjectDesc)
+CLightProbeVolumeObjectDesc
+	scenesystem.dll + 0x547820(hierarchy CLightProbeVolumeObjectDesc: ISceneObjectDescBase<class CSceneLightProbeVolumeObject>, ISceneObjectDesc)
+CLightProbeVolumeObjectDescGPU
+	scenesystem.dll + 0x54a518(hierarchy CLightProbeVolumeObjectDescGPU: CLightProbeVolumeObjectDesc, ISceneObjectDescBase<class CSceneLightProbeVolumeObject>, ISceneObjectDesc)
+CMDL
+	scenesystem.dll + 0x5598e0(hierarchy CMDL: IModelRenderHelper, ISceneAnimatableProceduralBoneTransforms)
+	scenesystem.dll + 0x5599d8 MI offset 8(hierarchy ISceneAnimatableProceduralBoneTransforms)
+CMeshBuilderSceneObject
+	scenesystem.dll + 0x5470a0(hierarchy CMeshBuilderSceneObject: CSceneObject)
+CMeshBuilderSceneObjectDesc
+	scenesystem.dll + 0x546fe0(hierarchy CMeshBuilderSceneObjectDesc: CBaseSceneObjectDesc, ISceneObjectDesc)
+CMonitorObjectDesc
+	scenesystem.dll + 0x54f740(hierarchy CMonitorObjectDesc: CBaseSceneObjectDesc, ISceneObjectDesc)
+CMsgPlayerInfo
+	scenesystem.dll + 0x544638(hierarchy CMsgPlayerInfo: google::protobuf::Message, google::protobuf::MessageLite)
+CMsgQAngle
+	scenesystem.dll + 0x544328(hierarchy CMsgQAngle: google::protobuf::Message, google::protobuf::MessageLite)
+CMsgQuaternion
+	scenesystem.dll + 0x5426b8(hierarchy CMsgQuaternion: google::protobuf::Message, google::protobuf::MessageLite)
+CMsgRGBA
+	scenesystem.dll + 0x5444e8(hierarchy CMsgRGBA: google::protobuf::Message, google::protobuf::MessageLite)
+CMsgTransform
+	scenesystem.dll + 0x544778(hierarchy CMsgTransform: google::protobuf::Message, google::protobuf::MessageLite)
+CMsgVector
+	scenesystem.dll + 0x544948(hierarchy CMsgVector: google::protobuf::Message, google::protobuf::MessageLite)
+CMsgVector2D
+	scenesystem.dll + 0x542808(hierarchy CMsgVector2D: google::protobuf::Message, google::protobuf::MessageLite)
+CMsg_CVars
+	scenesystem.dll + 0x542cf0(hierarchy CMsg_CVars: google::protobuf::Message, google::protobuf::MessageLite)
+CMsg_CVars_CVar
+	scenesystem.dll + 0x542e10(hierarchy CMsg_CVars_CVar: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_DebugOverlay
+	scenesystem.dll + 0x544448(hierarchy CNETMsg_DebugOverlay: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_NOP
+	scenesystem.dll + 0x542748(hierarchy CNETMsg_NOP: google::protobuf::internal::ZeroFieldsBase, google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SetConVar
+	scenesystem.dll + 0x5440e0(hierarchy CNETMsg_SetConVar: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SignonState
+	scenesystem.dll + 0x544050(hierarchy CNETMsg_SignonState: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SpawnGroup_Load
+	scenesystem.dll + 0x542d80(hierarchy CNETMsg_SpawnGroup_Load: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SpawnGroup_LoadCompleted
+	scenesystem.dll + 0x544578(hierarchy CNETMsg_SpawnGroup_LoadCompleted: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SpawnGroup_ManifestUpdate
+	scenesystem.dll + 0x542938(hierarchy CNETMsg_SpawnGroup_ManifestUpdate: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SpawnGroup_SetCreationTick
+	scenesystem.dll + 0x5446c8(hierarchy CNETMsg_SpawnGroup_SetCreationTick: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SpawnGroup_Unload
+	scenesystem.dll + 0x544898(hierarchy CNETMsg_SpawnGroup_Unload: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_SplitScreenUser
+	scenesystem.dll + 0x542c60(hierarchy CNETMsg_SplitScreenUser: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_StringCmd
+	scenesystem.dll + 0x5428a8(hierarchy CNETMsg_StringCmd: google::protobuf::Message, google::protobuf::MessageLite)
+CNETMsg_Tick
+	scenesystem.dll + 0x544808(hierarchy CNETMsg_Tick: google::protobuf::Message, google::protobuf::MessageLite)
+CParallelProcessLauncher::CParallelLambdaJob<class `public: void __cdecl CSceneSystem::Thread_CullView(class CSceneView * __ptr64,class CViewDrawList * __ptr64) __ptr64'::`2'::<lambda_1> >
+	scenesystem.dll + 0x5536c8(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `public: void __cdecl CSceneSystem::Thread_CullView(class CSceneView * __ptr64,class CViewDrawList * __ptr64) __ptr64'::`2'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: virtual void __cdecl CAggregateSceneObjectDesc::OnBeginRenderingFrame(void) __ptr64'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `public: virtual void __cdecl CAggregateSceneObjectDesc::OnBeginRenderingFrame(void) __ptr64'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	scenesystem.dll + 0x545860(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: virtual void __cdecl CAggregateSceneObjectDesc::OnBeginRenderingFrame(void) __ptr64'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `public: virtual void __cdecl CAggregateSceneObjectDesc::OnBeginRenderingFrame(void) __ptr64'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessorAbstract<class CParallelProcessor<class CSceneObject * __ptr64,class CFuncJobItemProcessor<class CSceneObject * __ptr64>,1> >
+	scenesystem.dll + 0x553638(hierarchy CParallelProcessorAbstract<class CParallelProcessor<class CSceneObject * __ptr64,class CFuncJobItemProcessor<class CSceneObject * __ptr64>,1> >: CParallelProcessorAbstract_Base, IMultipleWorkerJob)
+CPointLightObjectDescGPU
+	scenesystem.dll + 0x54a7f8(hierarchy CPointLightObjectDescGPU: CLightObjectDesc, ISceneObjectDescBase<class CSceneLightObject>, ISceneObjectDesc)
+CPostConnectCallback
+	scenesystem.dll + 0x511930(hierarchy CPostConnectCallback)
+CProjectedDecalSceneObjectDesc
+	scenesystem.dll + 0x547328(hierarchy CProjectedDecalSceneObjectDesc: CBaseSceneObjectDesc, ISceneObjectDesc)
+CQuadRenderer
+	scenesystem.dll + 0x54c170(hierarchy CQuadRenderer: IProceduralLayerRenderer)
+CRayTraceSceneWorld
+	scenesystem.dll + 0x550538(hierarchy CRayTraceSceneWorld: IRayTraceSceneWorld, IShaderReloadListener)
+	scenesystem.dll + 0x5505a0 MI offset 8(hierarchy IShaderReloadListener)
+CRayTraceSceneWorld::CPipeline
+	scenesystem.dll + 0x550520(hierarchy CRayTraceSceneWorld::CPipeline: IRayTraceSceneWorld::IPipeline)
+CRenderGraphBuilder
+	scenesystem.dll + 0x54bb28(hierarchy CRenderGraphBuilder: std::enable_shared_from_this<class CRenderGraphBuilder>)
+CRenderGraphBuilder::CRenderGraphRenderer
+	scenesystem.dll + 0x54bc50(hierarchy CRenderGraphBuilder::CRenderGraphRenderer: IProceduralLayerRenderer)
+CRenderGraphBuilder::ClearRTGraphPass
+	scenesystem.dll + 0x54bcc0(hierarchy CRenderGraphBuilder::ClearRTGraphPass: CRenderGraphBuilder::GraphPass, CRenderGraphBuilder::Pass)
+CRenderGraphBuilder::ClearUAVFloatGraphPass
+	scenesystem.dll + 0x54bc68(hierarchy CRenderGraphBuilder::ClearUAVFloatGraphPass: CRenderGraphBuilder::GraphPass, CRenderGraphBuilder::Pass)
+CRenderGraphBuilder::ClearUAVUintGraphPass
+	scenesystem.dll + 0x54bd70(hierarchy CRenderGraphBuilder::ClearUAVUintGraphPass: CRenderGraphBuilder::GraphPass, CRenderGraphBuilder::Pass)
+CRenderGraphBuilder::ConstantBufferResourceManager
+	scenesystem.dll + 0x54c0d0(hierarchy CRenderGraphBuilder::ConstantBufferResourceManager: CRenderGraphBuilder::IGraphResourceManager)
+CRenderGraphBuilder::DispatchGraphPass
+	scenesystem.dll + 0x54be78(hierarchy CRenderGraphBuilder::DispatchGraphPass: CRenderGraphBuilder::GraphPass, CRenderGraphBuilder::Pass)
+CRenderGraphBuilder::FillBufferGraphPass
+	scenesystem.dll + 0x54bdc8(hierarchy CRenderGraphBuilder::FillBufferGraphPass: CRenderGraphBuilder::GraphPass, CRenderGraphBuilder::Pass)
+CRenderGraphBuilder::FillCBGraphPass
+	scenesystem.dll + 0x54bbf0(hierarchy CRenderGraphBuilder::FillCBGraphPass: CRenderGraphBuilder::GraphPass, CRenderGraphBuilder::Pass)
+CRenderGraphBuilder::GraphPass
+	scenesystem.dll + 0x54bf98(hierarchy CRenderGraphBuilder::GraphPass: CRenderGraphBuilder::Pass)
+CRenderGraphBuilder::IGraphResourceManager
+	scenesystem.dll + 0x54c120(hierarchy CRenderGraphBuilder::IGraphResourceManager)
+CRenderGraphBuilder::LayerGraphPass
+	scenesystem.dll + 0x54bee8(hierarchy CRenderGraphBuilder::LayerGraphPass: CRenderGraphBuilder::GraphPass, CRenderGraphBuilder::Pass, IProceduralLayerRenderer)
+	scenesystem.dll + 0x54bed0 MI offset 1040(hierarchy IProceduralLayerRenderer)
+CRenderGraphBuilder::LayerGraphPass::LayerPassImpl
+	scenesystem.dll + 0x54bff0(hierarchy CRenderGraphBuilder::LayerGraphPass::LayerPassImpl: CRenderGraphBuilder::LayerPass)
+CRenderGraphBuilder::NopGraphPass
+	scenesystem.dll + 0x54bf40(hierarchy CRenderGraphBuilder::NopGraphPass: CRenderGraphBuilder::GraphPass, CRenderGraphBuilder::Pass)
+CRenderGraphBuilder::Pass
+	scenesystem.dll + 0x54c1a0(hierarchy CRenderGraphBuilder::Pass)
+CRenderGraphBuilder::PooledBufferResourceManager
+	scenesystem.dll + 0x54c030(hierarchy CRenderGraphBuilder::PooledBufferResourceManager: CRenderGraphBuilder::IGraphResourceManager)
+CRenderGraphBuilder::PooledTextureResourceManager
+	scenesystem.dll + 0x54c080(hierarchy CRenderGraphBuilder::PooledTextureResourceManager: CRenderGraphBuilder::IGraphResourceManager)
+CRenderGraphBuilder::ReadbackBufferGraphPass
+	scenesystem.dll + 0x54be20(hierarchy CRenderGraphBuilder::ReadbackBufferGraphPass: CRenderGraphBuilder::GraphPass, CRenderGraphBuilder::Pass)
+CRenderGraphBuilder::SetBufferDataGraphPass
+	scenesystem.dll + 0x54bd18(hierarchy CRenderGraphBuilder::SetBufferDataGraphPass: CRenderGraphBuilder::NopGraphPass, CRenderGraphBuilder::GraphPass, CRenderGraphBuilder::Pass)
+CRenderingPipelineAlias
+	scenesystem.dll + 0x55a048(hierarchy CRenderingPipelineAlias: CRenderingPipeline, IRenderingPipeline)
+CRenderingPipelineFactory<class CRenderingPipelineForward>
+	scenesystem.dll + 0x54c5a8(hierarchy CRenderingPipelineFactory<class CRenderingPipelineForward>: CBaseRenderingPipelineFactory, IRenderingPipelineFactory)
+CRenderingPipelineForward
+	scenesystem.dll + 0x54c5c0(hierarchy CRenderingPipelineForward: CRenderingPipeline, IRenderingPipeline)
+CRenderingPipelines
+	scenesystem.dll + 0x54c6c8(hierarchy CRenderingPipelines: CTier3AppSystem<class IAppSystem,0>, CTier2AppSystem<class IAppSystem,0>, CTier1AppSystem<class IAppSystem,0>, CTier0AppSystem<class IAppSystem,0>, CBaseAppSystem<class IAppSystem>, IAppSystem)
+CResolveLayerRenderer
+	scenesystem.dll + 0x5546b0(hierarchy CResolveLayerRenderer: IProceduralLayerRenderer)
+CResolveProceduralLayerRenderer
+	scenesystem.dll + 0x5546e0(hierarchy CResolveProceduralLayerRenderer: IProceduralLayerRenderer)
+CSVCMsgList_GameEvents
+	scenesystem.dll + 0x542bb0(hierarchy CSVCMsgList_GameEvents: google::protobuf::Message, google::protobuf::MessageLite)
+CSVCMsgList_GameEvents_event_t
+	scenesystem.dll + 0x542a28(hierarchy CSVCMsgList_GameEvents_event_t: google::protobuf::Message, google::protobuf::MessageLite)
+CSVCMsg_GameEvent
+	scenesystem.dll + 0x542eb0(hierarchy CSVCMsg_GameEvent: google::protobuf::Message, google::protobuf::MessageLite)
+CSVCMsg_GameEvent_key_t
+	scenesystem.dll + 0x542580(hierarchy CSVCMsg_GameEvent_key_t: google::protobuf::Message, google::protobuf::MessageLite)
+CSVCMsg_GameSessionConfiguration
+	scenesystem.dll + 0x5443b8(hierarchy CSVCMsg_GameSessionConfiguration: google::protobuf::Message, google::protobuf::MessageLite)
+CScalableAORenderer
+	scenesystem.dll + 0x559cd0(hierarchy CScalableAORenderer: IProceduralLayerRenderer)
+CSceneAnimatableObject
+	scenesystem.dll + 0x546060(hierarchy CSceneAnimatableObject: CSceneObject)
+CSceneBarnLightObject
+	scenesystem.dll + 0x54f290(hierarchy CSceneBarnLightObject: CSceneLightObjectBase, CSceneObject)
+CSceneDebugTextObject
+	scenesystem.dll + 0x54ca88(hierarchy CSceneDebugTextObject: CSceneObject)
+CSceneLPVSampleGridObject
+	scenesystem.dll + 0x54f630(hierarchy CSceneLPVSampleGridObject: CSceneObject)
+CSceneLPVSampleGridObjectDescriptor
+	scenesystem.dll + 0x54f658(hierarchy CSceneLPVSampleGridObjectDescriptor: ISceneObjectDescBase<class CSceneLPVSampleGridObject>, ISceneObjectDesc)
+CSceneLayer
+	scenesystem.dll + 0x54eed0(hierarchy CSceneLayer: ISceneLayer)
+CSceneLightObject
+	scenesystem.dll + 0x54f370(hierarchy CSceneLightObject: CSceneLightObjectBase, CSceneObject)
+CSceneLightProbeVolumeObject
+	scenesystem.dll + 0x54f2b8(hierarchy CSceneLightProbeVolumeObject: CSceneObject)
+CSceneMonitorObject
+	scenesystem.dll + 0x54f800(hierarchy CSceneMonitorObject: CSceneObject)
+CSceneObject
+	scenesystem.dll + 0x545aa8(hierarchy CSceneObject)
+CSceneSkyBoxObject
+	scenesystem.dll + 0x558628(hierarchy CSceneSkyBoxObject: CSceneObject)
+CSceneSystem
+	scenesystem.dll + 0x553db0(hierarchy CSceneSystem: CTier3AppSystem<class ISceneSystem,0>, CTier2AppSystem<class ISceneSystem,0>, CTier1AppSystem<class ISceneSystem,0>, CTier0AppSystem<class ISceneSystem,0>, CBaseAppSystem<class ISceneSystem>, ISceneSystem, IAppSystem, CUtlMultiJobProcessor, IMaxSwapChainDimensionsChangedListener)
+	scenesystem.dll + 0x554300 MI offset 40(hierarchy CUtlMultiJobProcessor: IMaxSwapChainDimensionsChangedListener)
+	scenesystem.dll + 0x5542f0 MI offset 80(hierarchy IMaxSwapChainDimensionsChangedListener)
+CSceneUtils
+	scenesystem.dll + 0x559df0(hierarchy CSceneUtils: CTier3AppSystem<class ISceneUtils,0>, CTier2AppSystem<class ISceneUtils,0>, CTier1AppSystem<class ISceneUtils,0>, CTier0AppSystem<class ISceneUtils,0>, CBaseAppSystem<class ISceneUtils>, ISceneUtils, IAppSystem)
+CSceneView
+	scenesystem.dll + 0x5546f8(hierarchy CSceneView: ISceneView)
+CSceneViewDebugOverlays
+	scenesystem.dll + 0x5566d0(hierarchy CSceneViewDebugOverlays: ISceneViewDebugOverlays)
+CSceneWorld
+	scenesystem.dll + 0x5537b8(hierarchy CSceneWorld: ISceneWorld, ISceneLightListener)
+	scenesystem.dll + 0x5537a0 MI offset 8(hierarchy ISceneLightListener)
+CSchemaInstallCallback
+	scenesystem.dll + 0x511e10(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_scenesystem
+	scenesystem.dll + 0x55bfb8(hierarchy CSchemaRegistration_scenesystem: CSchemaRegistration)
+CShadowAtlas
+	scenesystem.dll + 0x5584c0(hierarchy CShadowAtlas: ISceneLightListener)
+CSimplePostProcessingLayerRenderer
+	scenesystem.dll + 0x54c188(hierarchy CSimplePostProcessingLayerRenderer: IProceduralLayerRenderer)
+CSimpleQuadRenderer
+	scenesystem.dll + 0x5546c8(hierarchy CSimpleQuadRenderer: IProceduralLayerRenderer)
+CSkyBoxObjectDesc
+	scenesystem.dll + 0x558570(hierarchy CSkyBoxObjectDesc: ISceneObjectDesc)
+CSpotLightObjectDescGPU
+	scenesystem.dll + 0x54a740(hierarchy CSpotLightObjectDescGPU: CLightObjectDesc, ISceneObjectDescBase<class CSceneLightObject>, ISceneObjectDesc)
+CTextureBarrierLayerRenderer
+	scenesystem.dll + 0x559dc0(hierarchy CTextureBarrierLayerRenderer: IProceduralLayerRenderer)
+CTextureDisplayLayerRenderer
+	scenesystem.dll + 0x559dd8(hierarchy CTextureDisplayLayerRenderer: IProceduralLayerRenderer)
+CTier3AppSystem<class ISceneSystem,0>
+	scenesystem.dll + 0x553878(hierarchy CTier3AppSystem<class ISceneSystem,0>: CTier2AppSystem<class ISceneSystem,0>, CTier1AppSystem<class ISceneSystem,0>, CTier0AppSystem<class ISceneSystem,0>, CBaseAppSystem<class ISceneSystem>, ISceneSystem, IAppSystem)
+CTimestampManager
+	scenesystem.dll + 0x5586b0(hierarchy CTimestampManager)
+CTonemapRenderer
+	scenesystem.dll + 0x55b288(hierarchy CTonemapRenderer: IProceduralLayerRenderer)
+CTonemapSystem
+	scenesystem.dll + 0x55b210(hierarchy CTonemapSystem: ITonemapSystem)
+CUtlGrid
+	scenesystem.dll + 0x511e20(hierarchy CUtlGrid)
+CUtlMultiJobProcessor
+	scenesystem.dll + 0x53ef98(hierarchy CUtlMultiJobProcessor)
+CVConCommandMessageScene
+	scenesystem.dll + 0x553868(hierarchy CVConCommandMessageScene: IVConCommDataReceived)
+CVolumetricFog
+	scenesystem.dll + 0x55b740(hierarchy CVolumetricFog: IVolumetricFog)
+CVolumetricFogRenderer
+	scenesystem.dll + 0x55b790(hierarchy CVolumetricFogRenderer: IProceduralLayerRenderer)
+Concurrency::details::stl_critical_section_win7
+	scenesystem.dll + 0x511f40(hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+ICharacterDecalRenderer
+	scenesystem.dll + 0x558ba0(hierarchy ICharacterDecalRenderer)
+ILightBinner
+	scenesystem.dll + 0x547a48(hierarchy ILightBinner)
+ILightBinnerFactory
+	scenesystem.dll + 0x547ac0(hierarchy ILightBinnerFactory)
+IMultipleWorkerJob
+	scenesystem.dll + 0x511de0(hierarchy IMultipleWorkerJob)
+IProceduralLayerRenderer
+	scenesystem.dll + 0x54c1d0(hierarchy IProceduralLayerRenderer)
+IRenderReadCallback
+	scenesystem.dll + 0x545958(hierarchy IRenderReadCallback)
+ISceneLayer
+	scenesystem.dll + 0x54ef70(hierarchy ISceneLayer)
+ISceneView
+	scenesystem.dll + 0x554a18(hierarchy ISceneView)
+ISceneViewDebugOverlays
+	scenesystem.dll + 0x5569e8(hierarchy ISceneViewDebugOverlays)
+IVolumetricFog
+	scenesystem.dll + 0x55b7a8(hierarchy IVolumetricFog)
+`public: virtual void __cdecl CInstancedMeshSceneObjectDesc::OnBeginSubmitDisplayLists(class IRenderContext * __ptr64) __ptr64'::`5'::ReadStatsCallback_t
+	scenesystem.dll + 0x546e50(hierarchy `public: virtual void __cdecl CInstancedMeshSceneObjectDesc::OnBeginSubmitDisplayLists(class IRenderContext * __ptr64) __ptr64'::`5'::ReadStatsCallback_t: IReadBufferCallback, IRenderReadCallback)
+google::protobuf::DescriptorBuilder::OptionInterpreter::AggregateOptionFinder
+	scenesystem.dll + 0x4e89a0(hierarchy google::protobuf::DescriptorBuilder::OptionInterpreter::AggregateOptionFinder: google::protobuf::TextFormat::Finder)
+google::protobuf::DescriptorDatabase
+	scenesystem.dll + 0x4eb360(hierarchy google::protobuf::DescriptorDatabase)
+google::protobuf::DescriptorProto
+	scenesystem.dll + 0x4e3450(hierarchy google::protobuf::DescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::DescriptorProto_ExtensionRange
+	scenesystem.dll + 0x4e3330(hierarchy google::protobuf::DescriptorProto_ExtensionRange: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::DescriptorProto_ReservedRange
+	scenesystem.dll + 0x4e33c0(hierarchy google::protobuf::DescriptorProto_ReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::DynamicMessage
+	scenesystem.dll + 0x4eb5f8(hierarchy google::protobuf::DynamicMessage: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::DynamicMessageFactory
+	scenesystem.dll + 0x4eb578(hierarchy google::protobuf::DynamicMessageFactory: google::protobuf::MessageFactory)
+google::protobuf::EncodedDescriptorDatabase
+	scenesystem.dll + 0x4eb398(hierarchy google::protobuf::EncodedDescriptorDatabase: google::protobuf::DescriptorDatabase)
+google::protobuf::EnumDescriptorProto
+	scenesystem.dll + 0x4e3720(hierarchy google::protobuf::EnumDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::EnumDescriptorProto_EnumReservedRange
+	scenesystem.dll + 0x4e3690(hierarchy google::protobuf::EnumDescriptorProto_EnumReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::EnumOptions
+	scenesystem.dll + 0x4e3ba0(hierarchy google::protobuf::EnumOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::EnumValueDescriptorProto
+	scenesystem.dll + 0x4e37b0(hierarchy google::protobuf::EnumValueDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::EnumValueOptions
+	scenesystem.dll + 0x4e3c30(hierarchy google::protobuf::EnumValueOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::ExtensionRangeOptions
+	scenesystem.dll + 0x4e34e0(hierarchy google::protobuf::ExtensionRangeOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FatalException
+	scenesystem.dll + 0x4e4508(hierarchy google::protobuf::FatalException: std::exception)
+google::protobuf::FieldDescriptorProto
+	scenesystem.dll + 0x4e3570(hierarchy google::protobuf::FieldDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FieldOptions
+	scenesystem.dll + 0x4e3a80(hierarchy google::protobuf::FieldOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FileDescriptorProto
+	scenesystem.dll + 0x4e32a0(hierarchy google::protobuf::FileDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FileDescriptorSet
+	scenesystem.dll + 0x4e3210(hierarchy google::protobuf::FileDescriptorSet: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FileOptions
+	scenesystem.dll + 0x4e3960(hierarchy google::protobuf::FileOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::GeneratedCodeInfo
+	scenesystem.dll + 0x4e40b0(hierarchy google::protobuf::GeneratedCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::GeneratedCodeInfo_Annotation
+	scenesystem.dll + 0x4e4020(hierarchy google::protobuf::GeneratedCodeInfo_Annotation: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::MessageFactory
+	scenesystem.dll + 0x4e4fa0(hierarchy google::protobuf::MessageFactory)
+google::protobuf::MessageOptions
+	scenesystem.dll + 0x4e39f0(hierarchy google::protobuf::MessageOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::MethodDescriptorProto
+	scenesystem.dll + 0x4e38d0(hierarchy google::protobuf::MethodDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::MethodOptions
+	scenesystem.dll + 0x4e3d50(hierarchy google::protobuf::MethodOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::OneofDescriptorProto
+	scenesystem.dll + 0x4e3600(hierarchy google::protobuf::OneofDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::OneofOptions
+	scenesystem.dll + 0x4e3b10(hierarchy google::protobuf::OneofOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::ServiceDescriptorProto
+	scenesystem.dll + 0x4e3840(hierarchy google::protobuf::ServiceDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::ServiceOptions
+	scenesystem.dll + 0x4e3cc0(hierarchy google::protobuf::ServiceOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::SourceCodeInfo
+	scenesystem.dll + 0x4e3f90(hierarchy google::protobuf::SourceCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::SourceCodeInfo_Location
+	scenesystem.dll + 0x4e3f00(hierarchy google::protobuf::SourceCodeInfo_Location: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::TextFormat::BaseTextGenerator
+	scenesystem.dll + 0x4e9000(hierarchy google::protobuf::TextFormat::BaseTextGenerator)
+google::protobuf::TextFormat::FastFieldValuePrinter
+	scenesystem.dll + 0x4e9030(hierarchy google::protobuf::TextFormat::FastFieldValuePrinter)
+google::protobuf::TextFormat::Finder
+	scenesystem.dll + 0x4e6198(hierarchy google::protobuf::TextFormat::Finder)
+google::protobuf::TextFormat::Parser::ParserImpl::ParserErrorCollector
+	scenesystem.dll + 0x4e9110(hierarchy google::protobuf::TextFormat::Parser::ParserImpl::ParserErrorCollector: google::protobuf::io::ErrorCollector)
+google::protobuf::TextFormat::Printer::DebugStringFieldValuePrinter
+	scenesystem.dll + 0x4e9698(hierarchy google::protobuf::TextFormat::Printer::DebugStringFieldValuePrinter: google::protobuf::TextFormat::FastFieldValuePrinter)
+google::protobuf::TextFormat::Printer::TextGenerator
+	scenesystem.dll + 0x4e9640(hierarchy google::protobuf::TextFormat::Printer::TextGenerator: google::protobuf::TextFormat::BaseTextGenerator)
+google::protobuf::UninterpretedOption
+	scenesystem.dll + 0x4e3e70(hierarchy google::protobuf::UninterpretedOption: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::UninterpretedOption_NamePart
+	scenesystem.dll + 0x4e3de0(hierarchy google::protobuf::UninterpretedOption_NamePart: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::ZeroCopyCodedInputStream
+	scenesystem.dll + 0x4e4f40(hierarchy google::protobuf::ZeroCopyCodedInputStream: google::protobuf::io::ZeroCopyInputStream)
+google::protobuf::`anonymous namespace'::AggregateErrorCollector
+	scenesystem.dll + 0x4e89d0(hierarchy google::protobuf::`anonymous namespace'::AggregateErrorCollector: google::protobuf::io::ErrorCollector)
+google::protobuf::`anonymous namespace'::GeneratedMessageFactory
+	scenesystem.dll + 0x4e5318(hierarchy google::protobuf::`anonymous namespace'::GeneratedMessageFactory: google::protobuf::MessageFactory)
+google::protobuf::internal::DynamicMapField
+	scenesystem.dll + 0x4e9a10(hierarchy google::protobuf::internal::DynamicMapField: google::protobuf::internal::TypeDefinedMapFieldBase<class google::protobuf::MapKey,class google::protobuf::MapValueRef>, google::protobuf::internal::MapFieldBase)
+google::protobuf::internal::ImplicitWeakMessage
+	scenesystem.dll + 0x4e4b58(hierarchy google::protobuf::internal::ImplicitWeakMessage: google::protobuf::MessageLite)
+google::protobuf::internal::MapFieldAccessor
+	scenesystem.dll + 0x4e4fb8(hierarchy google::protobuf::internal::MapFieldAccessor: google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::MapFieldBase
+	scenesystem.dll + 0x4e9970(hierarchy google::protobuf::internal::MapFieldBase)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64>
+	scenesystem.dll + 0x4e5528(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64>: google::protobuf::internal::RepeatedFieldWrapper<__int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool>
+	scenesystem.dll + 0x4e5788(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool>: google::protobuf::internal::RepeatedFieldWrapper<bool>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double>
+	scenesystem.dll + 0x4e56f0(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double>: google::protobuf::internal::RepeatedFieldWrapper<double>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float>
+	scenesystem.dll + 0x4e5658(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float>: google::protobuf::internal::RepeatedFieldWrapper<float>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int>
+	scenesystem.dll + 0x4e53f8(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int>: google::protobuf::internal::RepeatedFieldWrapper<int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64>
+	scenesystem.dll + 0x4e55c0(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64>: google::protobuf::internal::RepeatedFieldWrapper<unsigned __int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int>
+	scenesystem.dll + 0x4e5490(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int>: google::protobuf::internal::RepeatedFieldWrapper<unsigned int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedPtrFieldMessageAccessor
+	scenesystem.dll + 0x4e5190(hierarchy google::protobuf::internal::RepeatedPtrFieldMessageAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class google::protobuf::Message>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedPtrFieldStringAccessor
+	scenesystem.dll + 0x4e50f0(hierarchy google::protobuf::internal::RepeatedPtrFieldStringAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::ZeroFieldsBase
+	scenesystem.dll + 0x4e46c0(hierarchy google::protobuf::internal::ZeroFieldsBase: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::io::ArrayInputStream
+	scenesystem.dll + 0x4eacf0(hierarchy google::protobuf::io::ArrayInputStream: google::protobuf::io::ZeroCopyInputStream)
+google::protobuf::io::ErrorCollector
+	scenesystem.dll + 0x4e5948(hierarchy google::protobuf::io::ErrorCollector)
+google::protobuf::io::StringOutputStream
+	scenesystem.dll + 0x4ead20(hierarchy google::protobuf::io::StringOutputStream: google::protobuf::io::ZeroCopyOutputStream)
+google::protobuf::io::ZeroCopyInputStream
+	scenesystem.dll + 0x4e4688(hierarchy google::protobuf::io::ZeroCopyInputStream)
+google::protobuf::io::ZeroCopyOutputStream
+	scenesystem.dll + 0x4e4758(hierarchy google::protobuf::io::ZeroCopyOutputStream)
+std::_Facet_base
+	scenesystem.dll + 0x4e4408(hierarchy std::_Facet_base)
+std::_Func_impl_no_alloc<class `private: class CSmartPtr<class CThreadedJob,class CRefCountAccessor> __cdecl CAggregateSceneObject::FindVisClustersForMeshlets(class CUtlVector<struct AABB_t,int,class CUtlMemory<struct AABB_t,int> > const & __ptr64,struct CAggregateSceneObject::FragmentCullInfo_t const & __ptr64,struct AABB_t const & __ptr64,struct matrix3x4_t const & __ptr64,class CMeshletDescriptor const * __ptr64,unsigned int,struct PerMeshletData_t * __ptr64)const __ptr64'::`2'::<lambda_1>,void>
+	scenesystem.dll + 0x545828(hierarchy std::_Func_impl_no_alloc<class `private: class CSmartPtr<class CThreadedJob,class CRefCountAccessor> __cdecl CAggregateSceneObject::FindVisClustersForMeshlets(class CUtlVector<struct AABB_t,int,class CUtlMemory<struct AABB_t,int> > const & __ptr64,struct CAggregateSceneObject::FragmentCullInfo_t const & __ptr64,struct AABB_t const & __ptr64,struct matrix3x4_t const & __ptr64,class CMeshletDescriptor const * __ptr64,unsigned int,struct PerMeshletData_t * __ptr64)const __ptr64'::`2'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `private: void __cdecl CLightBinnerGPU::GatherHammerLights(void) __ptr64'::`2'::<lambda_1>,void,class CSceneLightObject * __ptr64>
+	scenesystem.dll + 0x54a370(hierarchy std::_Func_impl_no_alloc<class `private: void __cdecl CLightBinnerGPU::GatherHammerLights(void) __ptr64'::`2'::<lambda_1>,void,class CSceneLightObject * __ptr64>: std::_Func_base<void,class CSceneLightObject * __ptr64>)
+std::_Func_impl_no_alloc<class `private: void __cdecl CSceneSystem::RenderAView(class CSceneView * __ptr64,float,struct ConstantBufferHandle_t__ * __ptr64,struct SceneSystemPerFrameStats_t & __ptr64) __ptr64'::`35'::<lambda_1>,void>
+	scenesystem.dll + 0x553600(hierarchy std::_Func_impl_no_alloc<class `private: void __cdecl CSceneSystem::RenderAView(class CSceneView * __ptr64,float,struct ConstantBufferHandle_t__ * __ptr64,struct SceneSystemPerFrameStats_t & __ptr64) __ptr64'::`35'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `private: void __cdecl CSceneSystem::RenderAView(class CSceneView * __ptr64,float,struct ConstantBufferHandle_t__ * __ptr64,struct SceneSystemPerFrameStats_t & __ptr64) __ptr64'::`40'::<lambda_2>,void>
+	scenesystem.dll + 0x553558(hierarchy std::_Func_impl_no_alloc<class `private: void __cdecl CSceneSystem::RenderAView(class CSceneView * __ptr64,float,struct ConstantBufferHandle_t__ * __ptr64,struct SceneSystemPerFrameStats_t & __ptr64) __ptr64'::`40'::<lambda_2>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `protected: void __cdecl CLightBinner2::AddEnvironmentMapsForView(class CSceneView * __ptr64,int) __ptr64'::`5'::<lambda_1>,void,class CEnvMapSceneObject * __ptr64>
+	scenesystem.dll + 0x5480e8(hierarchy std::_Func_impl_no_alloc<class `protected: void __cdecl CLightBinner2::AddEnvironmentMapsForView(class CSceneView * __ptr64,int) __ptr64'::`5'::<lambda_1>,void,class CEnvMapSceneObject * __ptr64>: std::_Func_base<void,class CEnvMapSceneObject * __ptr64>)
+std::_Func_impl_no_alloc<class `protected: void __cdecl CLightBinner2::AddLightProbeVolumesForView(class CSceneView * __ptr64,int) __ptr64'::`5'::<lambda_1>,void,class CSceneLightProbeVolumeObject * __ptr64>
+	scenesystem.dll + 0x548200(hierarchy std::_Func_impl_no_alloc<class `protected: void __cdecl CLightBinner2::AddLightProbeVolumesForView(class CSceneView * __ptr64,int) __ptr64'::`5'::<lambda_1>,void,class CSceneLightProbeVolumeObject * __ptr64>: std::_Func_base<void,class CSceneLightProbeVolumeObject * __ptr64>)
+std::_Func_impl_no_alloc<class `protected: void __cdecl CLightBinner2::DebugLightProbeVolumeGrid(class CSceneView * __ptr64) __ptr64'::`2'::<lambda_2>,void,class CSceneLightProbeVolumeObject * __ptr64>
+	scenesystem.dll + 0x548158(hierarchy std::_Func_impl_no_alloc<class `protected: void __cdecl CLightBinner2::DebugLightProbeVolumeGrid(class CSceneView * __ptr64) __ptr64'::`2'::<lambda_2>,void,class CSceneLightProbeVolumeObject * __ptr64>: std::_Func_base<void,class CSceneLightProbeVolumeObject * __ptr64>)
+std::_Func_impl_no_alloc<class `protected: void __cdecl CLightBinner2::DebugLightProbeVolumeGrid(class CSceneView * __ptr64) __ptr64'::`7'::<lambda_1>,void,class CSceneLightProbeVolumeObject * __ptr64>
+	scenesystem.dll + 0x548190(hierarchy std::_Func_impl_no_alloc<class `protected: void __cdecl CLightBinner2::DebugLightProbeVolumeGrid(class CSceneView * __ptr64) __ptr64'::`7'::<lambda_1>,void,class CSceneLightProbeVolumeObject * __ptr64>: std::_Func_base<void,class CSceneLightProbeVolumeObject * __ptr64>)
+std::_Func_impl_no_alloc<class `public: __cdecl `protected: void __cdecl CLightBinner2::DebugLightProbeVolumeGrid(class CSceneView * __ptr64) __ptr64'::`2'::<lambda_2>::operator()(class CSceneLightProbeVolumeObject * __ptr64)const __ptr64'::`16'::<lambda_2>,void>
+	scenesystem.dll + 0x548120(hierarchy std::_Func_impl_no_alloc<class `public: __cdecl `protected: void __cdecl CLightBinner2::DebugLightProbeVolumeGrid(class CSceneView * __ptr64) __ptr64'::`2'::<lambda_2>::operator()(class CSceneLightProbeVolumeObject * __ptr64)const __ptr64'::`16'::<lambda_2>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: __cdecl `protected: void __cdecl CLightBinner2::DebugLightProbeVolumeGrid(class CSceneView * __ptr64) __ptr64'::`2'::<lambda_2>::operator()(class CSceneLightProbeVolumeObject * __ptr64)const __ptr64'::`8'::<lambda_1>,void>
+	scenesystem.dll + 0x5481c8(hierarchy std::_Func_impl_no_alloc<class `public: __cdecl `protected: void __cdecl CLightBinner2::DebugLightProbeVolumeGrid(class CSceneView * __ptr64) __ptr64'::`2'::<lambda_2>::operator()(class CSceneLightProbeVolumeObject * __ptr64)const __ptr64'::`8'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: __cdecl `protected: void __cdecl CLightBinner2::DebugLightProbeVolumeGrid(class CSceneView * __ptr64) __ptr64'::`7'::<lambda_1>::operator()(class CSceneLightProbeVolumeObject * __ptr64)const __ptr64'::`5'::<lambda_1>,void>
+	scenesystem.dll + 0x548238(hierarchy std::_Func_impl_no_alloc<class `public: __cdecl `protected: void __cdecl CLightBinner2::DebugLightProbeVolumeGrid(class CSceneView * __ptr64) __ptr64'::`7'::<lambda_1>::operator()(class CSceneLightProbeVolumeObject * __ptr64)const __ptr64'::`5'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: __cdecl `public: void __cdecl CSceneSystem::Thread_RenderViewLayer(class std::shared_ptr<class CViewDrawList>,class CSceneLayer * __ptr64) __ptr64'::`2'::<lambda_1>::operator()(bool)const __ptr64'::`5'::<lambda_1>,void>
+	scenesystem.dll + 0x553478(hierarchy std::_Func_impl_no_alloc<class `public: __cdecl `public: void __cdecl CSceneSystem::Thread_RenderViewLayer(class std::shared_ptr<class CViewDrawList>,class CSceneLayer * __ptr64) __ptr64'::`2'::<lambda_1>::operator()(bool)const __ptr64'::`5'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSceneSystem::ReleaseLayerDependents(class std::shared_ptr<class CViewDrawList> const & __ptr64,class CSceneLayer * __ptr64) __ptr64'::`11'::<lambda_1>,void>
+	scenesystem.dll + 0x5535c8(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSceneSystem::ReleaseLayerDependents(class std::shared_ptr<class CViewDrawList> const & __ptr64,class CSceneLayer * __ptr64) __ptr64'::`11'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSceneSystem::ReleaseLayerDependents(class std::shared_ptr<class CViewDrawList> const & __ptr64,class CSceneLayer * __ptr64) __ptr64'::`11'::<lambda_2>,void>
+	scenesystem.dll + 0x553590(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSceneSystem::ReleaseLayerDependents(class std::shared_ptr<class CViewDrawList> const & __ptr64,class CSceneLayer * __ptr64) __ptr64'::`11'::<lambda_2>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSceneSystem::ReleaseLayerDependents(class std::shared_ptr<class CViewDrawList> const & __ptr64,class CSceneLayer * __ptr64) __ptr64'::`11'::<lambda_3>,void>
+	scenesystem.dll + 0x5534b0(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSceneSystem::ReleaseLayerDependents(class std::shared_ptr<class CViewDrawList> const & __ptr64,class CSceneLayer * __ptr64) __ptr64'::`11'::<lambda_3>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSceneSystem::Thread_RenderLayerDrawList(class std::shared_ptr<class CViewDrawList>,class CSceneLayer * __ptr64,class CRenderBatchList * __ptr64,enum EBatchStartFlags_t,class CUtlVector<class CSceneDrawList * __ptr64,int,class CUtlMemory<class CSceneDrawList * __ptr64,int> > const & __ptr64) __ptr64'::`11'::<lambda_1>,void>
+	scenesystem.dll + 0x553520(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSceneSystem::Thread_RenderLayerDrawList(class std::shared_ptr<class CViewDrawList>,class CSceneLayer * __ptr64,class CRenderBatchList * __ptr64,enum EBatchStartFlags_t,class CUtlVector<class CSceneDrawList * __ptr64,int,class CUtlMemory<class CSceneDrawList * __ptr64,int> > const & __ptr64) __ptr64'::`11'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSceneSystem::Thread_RenderView(class CSceneView * __ptr64) __ptr64'::`64'::<lambda_2>,void>
+	scenesystem.dll + 0x5534e8(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSceneSystem::Thread_RenderView(class CSceneView * __ptr64) __ptr64'::`64'::<lambda_2>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<void (__cdecl*)(class CSceneObject * __ptr64),void,class CSceneObject * __ptr64>
+	scenesystem.dll + 0x553440(hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class CSceneObject * __ptr64),void,class CSceneObject * __ptr64>: std::_Func_base<void,class CSceneObject * __ptr64>)
+std::_Generic_error_category
+	scenesystem.dll + 0x512078(hierarchy std::_Generic_error_category: std::error_category)
+std::_Iostream_error_category2
+	scenesystem.dll + 0x4e4380(hierarchy std::_Iostream_error_category2: std::error_category)
+std::_Ref_count_obj2<class CRenderGraphBuilder>
+	scenesystem.dll + 0x559ce8(hierarchy std::_Ref_count_obj2<class CRenderGraphBuilder>: std::_Ref_count_base)
+std::_Ref_count_obj2<class CSceneViewDebugOverlays>
+	scenesystem.dll + 0x553650(hierarchy std::_Ref_count_obj2<class CSceneViewDebugOverlays>: std::_Ref_count_base)
+std::_Ref_count_obj2<class CUtlVector<struct CMeshDrawPrimitive_t,int,class CUtlMemory<struct CMeshDrawPrimitive_t,int> > >
+	scenesystem.dll + 0x5536a0(hierarchy std::_Ref_count_obj2<class CUtlVector<struct CMeshDrawPrimitive_t,int,class CUtlMemory<struct CMeshDrawPrimitive_t,int> > >: std::_Ref_count_base)
+std::_Ref_count_obj2<class CViewDrawList>
+	scenesystem.dll + 0x553678(hierarchy std::_Ref_count_obj2<class CViewDrawList>: std::_Ref_count_base)
+std::_System_error
+	scenesystem.dll + 0x4e4348(hierarchy std::_System_error: std::runtime_error, std::exception)
+std::__non_rtti_object
+	scenesystem.dll + 0x55d130(hierarchy std::__non_rtti_object: std::bad_typeid, std::exception)
+std::bad_alloc
+	scenesystem.dll + 0x4dff58(hierarchy std::bad_alloc: std::exception)
+std::bad_array_new_length
+	scenesystem.dll + 0x4dff70(hierarchy std::bad_array_new_length: std::bad_alloc, std::exception)
+std::bad_cast
+	scenesystem.dll + 0x4e43e0(hierarchy std::bad_cast: std::exception)
+std::bad_exception
+	scenesystem.dll + 0x513360(hierarchy std::bad_exception: std::exception)
+std::bad_function_call
+	scenesystem.dll + 0x511ec8(hierarchy std::bad_function_call: std::exception)
+std::bad_typeid
+	scenesystem.dll + 0x55d118(hierarchy std::bad_typeid: std::exception)
+std::bad_weak_ptr
+	scenesystem.dll + 0x54bb10(hierarchy std::bad_weak_ptr: std::exception)
+std::basic_ios<char,struct std::char_traits<char> >
+	scenesystem.dll + 0x4e4560(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_iostream<char,struct std::char_traits<char> >
+	scenesystem.dll + 0x4e7988 MI offset 32(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>, std::basic_ostream<char,struct std::char_traits<char> >, std::basic_ios<char,struct std::char_traits<char> >, std::ios_base, std::_Iosb<int>)
+std::basic_istream<char,struct std::char_traits<char> >
+	scenesystem.dll + 0x4e7970 MI offset 24(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_ostream<char,struct std::char_traits<char> >
+	scenesystem.dll + 0x4e4570 MI offset 16(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_streambuf<char,struct std::char_traits<char> >
+	scenesystem.dll + 0x4e4580(hierarchy std::basic_streambuf<char,struct std::char_traits<char> >)
+std::basic_stringbuf<char,struct std::char_traits<char>,class std::allocator<char> >
+	scenesystem.dll + 0x4e4600(hierarchy std::basic_stringbuf<char,struct std::char_traits<char>,class std::allocator<char> >: std::basic_streambuf<char,struct std::char_traits<char> >)
+std::basic_stringstream<char,struct std::char_traits<char>,class std::allocator<char> >
+	scenesystem.dll + 0x4e7998 MI offset 152(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>, std::basic_ostream<char,struct std::char_traits<char> >, std::basic_ios<char,struct std::char_traits<char> >, std::ios_base, std::_Iosb<int>)
+std::ctype<char>
+	scenesystem.dll + 0x4e4438(hierarchy std::ctype<char>: std::ctype_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::exception
+	scenesystem.dll + 0x4dff40(hierarchy std::exception)
+std::ios_base
+	scenesystem.dll + 0x4e44b0(hierarchy std::ios_base: std::_Iosb<int>)
+std::ios_base::failure
+	scenesystem.dll + 0x4e4498(hierarchy std::ios_base::failure: std::system_error, std::_System_error, std::runtime_error, std::exception)
+std::length_error
+	scenesystem.dll + 0x511f10(hierarchy std::length_error: std::logic_error, std::exception)
+std::locale::_Locimp
+	scenesystem.dll + 0x512e60(hierarchy std::locale::_Locimp: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::logic_error
+	scenesystem.dll + 0x511ef8(hierarchy std::logic_error: std::exception)
+std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >
+	scenesystem.dll + 0x4e8da8(hierarchy std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::numpunct<char>
+	scenesystem.dll + 0x4e8e50(hierarchy std::numpunct<char>: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::out_of_range
+	scenesystem.dll + 0x511f28(hierarchy std::out_of_range: std::logic_error, std::exception)
+std::runtime_error
+	scenesystem.dll + 0x4e4330(hierarchy std::runtime_error: std::exception)
+std::system_error
+	scenesystem.dll + 0x4e4368(hierarchy std::system_error: std::_System_error, std::runtime_error, std::exception)
+type_info
+	scenesystem.dll + 0x513120(hierarchy type_info)

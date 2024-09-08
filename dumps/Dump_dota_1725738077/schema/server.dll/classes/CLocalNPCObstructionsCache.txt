@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CLocalNPCObstructionsCache (size: 0x20 bytes, project "server", binding @ server.dll + 0x3ae75a0, scope "!GlobalTypes")
+
+-----members of class CLocalNPCObstructionsCache-----
+	GameTick_t m_nLastUpdatedTick(offset 0x0, size 0x4, align 0x0)
+	float32 m_flRadius(offset 0x4, size 0x4, align 0x4)
+	CUtlVector< CHandle< CDOTA_BaseNPC > > m_hCachedNPCs(offset 0x8, size 0x18, align 0x8)
+

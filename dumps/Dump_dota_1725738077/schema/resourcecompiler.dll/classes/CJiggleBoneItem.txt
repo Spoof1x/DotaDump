@@ -1,0 +1,27 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CJiggleBoneItem (size: 0x30 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f1740, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5a4500"
+^MPropertyFriendlyName "Item"
+^MPropertyElementNameFn "func: resourcecompiler.dll + 0x5b06e0"
+
+-----members of class CJiggleBoneItem-----
+	CUtlString m_boneName(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Bone"
+		^MPropertyAttributeChoiceName "Bone"
+	float32 m_flSpringStrength(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Spring Strength"
+	float32 m_flSimRateFPS(offset 0xc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Sim Rate (FPS)"
+	float32 m_flDamping(offset 0x10, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Damping"
+		^MPropertyAttributeRange "0 1"
+	JiggleBoneSimSpace m_eSimSpace(offset 0x14, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Sim Space"
+	Vector m_vBoundsMaxLS(offset 0x18, size 0xc, align 0x4)
+		^MPropertyFriendlyName "Max"
+		^MPropertyGroupName "Movement Limits"
+	Vector m_vBoundsMinLS(offset 0x24, size 0xc, align 0x4)
+		^MPropertyFriendlyName "Min"
+		^MPropertyGroupName "Movement Limits"
+

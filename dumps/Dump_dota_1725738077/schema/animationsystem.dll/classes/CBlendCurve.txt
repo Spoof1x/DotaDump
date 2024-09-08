@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBlendCurve (size: 0x8 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a7d70, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x197ce0"
+
+-----members of class CBlendCurve-----
+	float32 m_flControlPoint1(offset 0x0, size 0x4, align 0x4)
+	float32 m_flControlPoint2(offset 0x4, size 0x4, align 0x4)
+

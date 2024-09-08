@@ -1,0 +1,9 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EDotaEntityMessages(size: 4 bytes, 7 values, project "server", binding @ server.dll + 0x38e1ea0):
+	DOTA_UNIT_SPEECH = 0,
+	DOTA_UNIT_SPEECH_MUTE = 1,
+	DOTA_UNIT_ADD_GESTURE = 2,
+	DOTA_UNIT_REMOVE_GESTURE = 3,
+	DOTA_UNIT_REMOVE_ALL_GESTURES = 4,
+	DOTA_UNIT_FADE_GESTURE = 6,
+	DOTA_UNIT_SPEECH_CLIENTSIDE_RULES = 7,

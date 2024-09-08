@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CEmptyEntityInstance (size: 0x1 bytes, project "entity2", binding @ toolscenenodes.dll + 0xc133e0, scope "toolscenenodes.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_DISALLOWED
+
+-----members of class CEmptyEntityInstance-----
+	uint8_t[1] unaccounted(offset 0x0)
+

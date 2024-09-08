@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SteamAudioOcclusionModeType_t(size: 4 bytes, 4 values, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bbc10):
+	SA_OCCLUSIONMODE_NONE = 0,
+		^MPropertyFriendlyName "Off"
+	SA_OCCLUSIONMODE_NOTRANSMISSION = 1,
+		^MPropertyFriendlyName "On, No Transmission"
+	SA_OCCLUSIONMODE_FREQINDEPENDENT = 2,
+		^MPropertyFriendlyName "On, Frequency Independent Transmission"
+	SA_OCCLUSIONMODE_FREQDEPENDENT = 3,
+		^MPropertyFriendlyName "On, Frequency Dependent Transmission"

@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum BBoxVolumeType_t(size: 4 bytes, 3 values, project "particles", binding @ particles.dll + 0x518a70):
+	BBOX_VOLUME = 0,
+		^MPropertyFriendlyName "Bounding Box Volume"
+	BBOX_DIMENSIONS = 1,
+		^MPropertyFriendlyName "Bounding Box Dimensions"
+	BBOX_MINS_MAXS = 2,
+		^MPropertyFriendlyName "Bounding Box Mins/Maxs"

@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CConstraintTarget (size: 0x60 bytes, project "modellib", binding @ animationsystem.dll + 0x5eaf30, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x40dc80"
+
+-----members of class CConstraintTarget-----
+	uint8_t[32] unaccounted(offset 0x0)
+	Quaternion m_qOffset(offset 0x20, size 0x10, align 0x10)
+	Vector m_vOffset(offset 0x30, size 0xc, align 0x4)
+	uint32 m_nBoneHash(offset 0x3c, size 0x4, align 0x4)
+	CUtlString m_sName(offset 0x40, size 0x8, align 0x8)
+	float32 m_flWeight(offset 0x48, size 0x4, align 0x4)
+	uint8_t[13] unaccounted(offset 0x4c)
+	bool m_bIsAttachment(offset 0x59, size 0x1, align 0x1)
+	uint8_t[6] unaccounted(offset 0x5a)
+

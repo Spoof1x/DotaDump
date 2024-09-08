@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFlexOp (size: 0x8 bytes, project "modellib", binding @ toolframework2.dll + 0x92d0a0, scope "toolframework2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x3cdf40"
+
+-----members of class CFlexOp-----
+	FlexOpCode_t m_OpCode(offset 0x0, size 0x4, align 0x4)
+	int32 m_Data(offset 0x4, size 0x4, align 0x4)
+

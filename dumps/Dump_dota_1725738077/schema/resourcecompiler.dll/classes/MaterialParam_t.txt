@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class MaterialParam_t (size: 0x8 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24ef590, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x3406b0"
+
+-----members of class MaterialParam_t-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+

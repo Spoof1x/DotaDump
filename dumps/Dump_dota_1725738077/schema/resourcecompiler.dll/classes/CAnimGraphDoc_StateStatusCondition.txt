@@ -1,0 +1,29 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_StateStatusCondition (size: 0x48 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e88d0, scope "!GlobalTypes") extends CAnimGraphDoc_Condition
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x55a0a0"
+^MPropertyFriendlyName "State Status Condition"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Condition (size: 0x28 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e8570, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Condition-----
+		uint8_t[40] unaccounted(offset 0x0)
+	
+
+-----members of class CAnimGraphDoc_StateStatusCondition-----
+	StateValue m_sourceValue(offset 0x28, size 0x4, align 0x4)
+	StateComparisonValueType m_comparisonValueType(offset 0x2c, size 0x4, align 0x4)
+	float32 m_comparisonFixedValue(offset 0x30, size 0x4, align 0x4)
+	StateValue m_comparisonStateValue(offset 0x34, size 0x4, align 0x4)
+	CUtlString m_comparisonParamName(offset 0x38, size 0x8, align 0x8)
+	AnimParamID m_comparisonParamID(offset 0x40, size 0x4, align 0x4)
+	Comparison_t m_comparisonOp(offset 0x44, size 0x4, align 0x4)
+

@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum C_BaseCombatCharacter::WaterWakeMode_t(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x46e08d0):
+	WATER_WAKE_NONE = 0,
+	WATER_WAKE_IDLE = 1,
+	WATER_WAKE_WALKING = 2,
+	WATER_WAKE_RUNNING = 3,
+	WATER_WAKE_WATER_OVERHEAD = 4,

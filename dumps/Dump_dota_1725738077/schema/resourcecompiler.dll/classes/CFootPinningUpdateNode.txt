@@ -1,0 +1,43 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootPinningUpdateNode (size: 0xc8 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x24214e0, scope "resourcecompiler.dll") extends CUnaryUpdateNode
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x6f3870"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CUnaryUpdateNode (size: 0x68 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x241cbc0, scope "resourcecompiler.dll") extends CAnimUpdateNodeBase
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x6baf70"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimUpdateNodeBase (size: 0x58 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x241c6e0, scope "resourcecompiler.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+		
+		-----members of class CAnimUpdateNodeBase-----
+			uint8_t[24] unaccounted(offset 0x0)
+			CAnimNodePath m_nodePath(offset 0x18, size 0x30, align 0x4)
+			AnimNodeNetworkMode m_networkMode(offset 0x48, size 0x4, align 0x4)
+			uint8_t[4] unaccounted(offset 0x4c)
+			CUtlString m_name(offset 0x50, size 0x8, align 0x8)
+		
+	
+	-----members of class CUnaryUpdateNode-----
+		CAnimUpdateNodeRef m_pChildNode(offset 0x58, size 0x10, align 0x8)
+	
+
+-----members of class CFootPinningUpdateNode-----
+	uint8_t[8] unaccounted(offset 0x68)
+	FootPinningPoseOpFixedData_t m_poseOpFixedData(offset 0x70, size 0x30, align 0x8)
+	FootPinningTimingSource m_eTimingSource(offset 0xa0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xa4)
+	CUtlVector< CAnimParamHandle > m_params(offset 0xa8, size 0x18, align 0x8)
+	bool m_bResetChild(offset 0xc0, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0xc1)
+

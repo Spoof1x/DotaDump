@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTA_ROSHAN_PHASE(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x38e1fe0):
+	k_SRSP_ROSHAN_ALIVE = 0,
+	k_SRSP_ROSHAN_BASE_TIMER = 1,
+	k_SRSP_ROSHAN_VISIBLE_TIMER = 2,

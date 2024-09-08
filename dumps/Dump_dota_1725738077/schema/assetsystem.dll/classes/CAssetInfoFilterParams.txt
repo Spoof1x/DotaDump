@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAssetInfoFilterParams (size: 0x18 bytes, project "toolutils2", binding @ assetsystem.dll + 0x4d73b0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: assetsystem.dll + 0x2fe830"
+
+-----members of class CAssetInfoFilterParams-----
+	CUtlVector< InfoDataFilter_t > m_Filters(offset 0x0, size 0x18, align 0x8)
+

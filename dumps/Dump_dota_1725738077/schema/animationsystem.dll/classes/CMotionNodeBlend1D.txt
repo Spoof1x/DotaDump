@@ -1,0 +1,27 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMotionNodeBlend1D (size: 0x48 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5adbd0, scope "!GlobalTypes") extends CMotionNode
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1c6280"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMotionNode (size: 0x28 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5ad550, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+	
+	-----members of class CMotionNode-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x18, size 0x8, align 0x8)
+		AnimNodeID m_id(offset 0x20, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x24)
+	
+
+-----members of class CMotionNodeBlend1D-----
+	CUtlVector< MotionBlendItem > m_blendItems(offset 0x28, size 0x18, align 0x8)
+	int32 m_nParamIndex(offset 0x40, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x44)
+

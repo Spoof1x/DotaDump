@@ -1,0 +1,38 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CParticleBindingRealPulse (size: 0x120 bytes, project "particleslib", binding @ resourcecompiler.dll + 0x24a00c0, scope "resourcecompiler.dll") extends CParticleCollectionBindingInstance
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MPulseInstanceDomainInfo "ptr: resourcecompiler.dll + 0x24a0230"
+^MPulseDomainHookInfo "ptr: resourcecompiler.dll + 0x28dea90"
+^MPulseLibraryBindings "ptr: resourcecompiler.dll + 0x24a0250"
+^MPulseDomainHiddenInTool
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleCollectionBindingInstance (size: 0x120 bytes, project "particleslib", binding @ resourcecompiler.dll + 0x24a0170, scope "resourcecompiler.dll") extends CBasePulseGraphInstance
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	^MPulseInstanceDomainInfo "ptr: resourcecompiler.dll + 0x24a01e0"
+	^MPulseDomainHookInfo "ptr: resourcecompiler.dll + 0x28dea80"
+	^MPulseLibraryBindings "ptr: resourcecompiler.dll + 0x24a0200"
+	^MPulseDomainHiddenInTool
+	^MPulseDomainOptInFeatureTag "PulseEntities"
+	^MPulseDomainOptInFeatureTag "PulseParticles"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBasePulseGraphInstance (size: 0xf8 bytes, project "pulse_runtime_lib", binding @ resourcecompiler.dll + 0x24a6e60, scope "resourcecompiler.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		^MPulseInstanceDomainInfo "ptr: resourcecompiler.dll + 0x24b1760"
+		^MPulseDomainHiddenInTool
+		
+		-----members of class CBasePulseGraphInstance-----
+			uint8_t[248] unaccounted(offset 0x0)
+		
+	
+	-----members of class CParticleCollectionBindingInstance-----
+		uint8_t[40] unaccounted(offset 0xf8)
+	
+
+-----members of class CParticleBindingRealPulse-----
+	<no members>
+

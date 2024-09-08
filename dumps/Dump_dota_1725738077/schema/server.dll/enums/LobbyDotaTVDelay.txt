@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum LobbyDotaTVDelay(size: 4 bytes, 4 values, project "server", binding @ server.dll + 0x38db3d0):
+	LobbyDotaTV_10 = 0,
+	LobbyDotaTV_120 = 1,
+	LobbyDotaTV_300 = 2,
+	LobbyDotaTV_900 = 3,

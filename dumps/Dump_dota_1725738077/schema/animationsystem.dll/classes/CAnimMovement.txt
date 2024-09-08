@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimMovement (size: 0x2c bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f2380, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x43f70"
+
+-----members of class CAnimMovement-----
+	int32 endframe(offset 0x0, size 0x4, align 0x4)
+	int32 motionflags(offset 0x4, size 0x4, align 0x4)
+	float32 v0(offset 0x8, size 0x4, align 0x4)
+	float32 v1(offset 0xc, size 0x4, align 0x4)
+	float32 angle(offset 0x10, size 0x4, align 0x4)
+	Vector vector(offset 0x14, size 0xc, align 0x4)
+	Vector position(offset 0x20, size 0xc, align 0x4)
+

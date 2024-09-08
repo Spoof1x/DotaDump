@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum VMixChannelOperation_t(size: 4 bytes, 6 values, project "soundsystem_lowlevel", binding @ soundsystem.dll + 0x398380):
+	VMIX_CHAN_STEREO = 0,
+	VMIX_CHAN_LEFT = 1,
+	VMIX_CHAN_RIGHT = 2,
+	VMIX_CHAN_SWAP = 3,
+	VMIX_CHAN_MONO = 4,
+	VMIX_CHAN_MID_SIDE = 5,

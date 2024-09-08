@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFeIndexedJiggleBone (size: 0xa4 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a68e0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x13aa7f0"
+
+-----members of class CFeIndexedJiggleBone-----
+	uint32 m_nNode(offset 0x0, size 0x4, align 0x4)
+	uint32 m_nJiggleParent(offset 0x4, size 0x4, align 0x4)
+	CFeJiggleBone m_jiggleBone(offset 0x8, size 0x9c, align 0x4)
+

@@ -1,0 +1,85 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CParticleRemapFloatInput (size: 0x160 bytes, project "particleslib", binding @ resourcecompiler.dll + 0x24e9520, scope "resourcecompiler.dll") extends CParticleFloatInput
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x17d8cb0"
+^MPropertyCustomEditor "RemapFloatInput()"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFloatInput (size: 0x160 bytes, project "particleslib", binding @ resourcecompiler.dll + 0x24e9e60, scope "resourcecompiler.dll") extends CParticleInput
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x17d8140"
+	^MClassIsParticleFloat
+	^MParticleCustomFieldDefaultValue "func: resourcecompiler.dll + 0x17d70e0"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleInput (size: 0x10 bytes, project "particleslib", binding @ resourcecompiler.dll + 0x24ea740, scope "resourcecompiler.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x17e6300"
+		
+		-----members of class CParticleInput-----
+			uint8_t[16] unaccounted(offset 0x0)
+		
+	
+	-----members of class CParticleFloatInput-----
+		ParticleFloatType_t m_nType(offset 0x10, size 0x4, align 0x4)
+		ParticleFloatMapType_t m_nMapType(offset 0x14, size 0x4, align 0x4)
+		float32 m_flLiteralValue(offset 0x18, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x1c)
+		CParticleNamedValueRef m_NamedValue(offset 0x20, size 0x40, align 0x8)
+		int32 m_nControlPoint(offset 0x60, size 0x4, align 0x4)
+		ParticleAttributeIndex_t m_nScalarAttribute(offset 0x64, size 0x4, align 0x0)
+		ParticleAttributeIndex_t m_nVectorAttribute(offset 0x68, size 0x4, align 0x0)
+		int32 m_nVectorComponent(offset 0x6c, size 0x4, align 0x4)
+		float32 m_flRandomMin(offset 0x70, size 0x4, align 0x4)
+		float32 m_flRandomMax(offset 0x74, size 0x4, align 0x4)
+		bool m_bHasRandomSignFlip(offset 0x78, size 0x1, align 0x1)
+		uint8_t[3] unaccounted(offset 0x79)
+		int32 m_nRandomSeed(offset 0x7c, size 0x4, align 0x4)
+		ParticleFloatRandomMode_t m_nRandomMode(offset 0x80, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x84)
+		float32 m_flLOD0(offset 0x88, size 0x4, align 0x4)
+		float32 m_flLOD1(offset 0x8c, size 0x4, align 0x4)
+		float32 m_flLOD2(offset 0x90, size 0x4, align 0x4)
+		float32 m_flLOD3(offset 0x94, size 0x4, align 0x4)
+		ParticleAttributeIndex_t m_nNoiseInputVectorAttribute(offset 0x98, size 0x4, align 0x0)
+		float32 m_flNoiseOutputMin(offset 0x9c, size 0x4, align 0x4)
+		float32 m_flNoiseOutputMax(offset 0xa0, size 0x4, align 0x4)
+		float32 m_flNoiseScale(offset 0xa4, size 0x4, align 0x4)
+		Vector m_vecNoiseOffsetRate(offset 0xa8, size 0xc, align 0x4)
+		float32 m_flNoiseOffset(offset 0xb4, size 0x4, align 0x4)
+		int32 m_nNoiseOctaves(offset 0xb8, size 0x4, align 0x4)
+		PFNoiseTurbulence_t m_nNoiseTurbulence(offset 0xbc, size 0x4, align 0x4)
+		PFNoiseType_t m_nNoiseType(offset 0xc0, size 0x4, align 0x4)
+		PFNoiseModifier_t m_nNoiseModifier(offset 0xc4, size 0x4, align 0x4)
+		float32 m_flNoiseTurbulenceScale(offset 0xc8, size 0x4, align 0x4)
+		float32 m_flNoiseTurbulenceMix(offset 0xcc, size 0x4, align 0x4)
+		float32 m_flNoiseImgPreviewScale(offset 0xd0, size 0x4, align 0x4)
+		bool m_bNoiseImgPreviewLive(offset 0xd4, size 0x1, align 0x1)
+		uint8_t[11] unaccounted(offset 0xd5)
+		float32 m_flNoCameraFallback(offset 0xe0, size 0x4, align 0x4)
+		bool m_bUseBoundsCenter(offset 0xe4, size 0x1, align 0x1)
+		uint8_t[3] unaccounted(offset 0xe5)
+		ParticleFloatInputMode_t m_nInputMode(offset 0xe8, size 0x4, align 0x4)
+		float32 m_flMultFactor(offset 0xec, size 0x4, align 0x4)
+		float32 m_flInput0(offset 0xf0, size 0x4, align 0x4)
+		float32 m_flInput1(offset 0xf4, size 0x4, align 0x4)
+		float32 m_flOutput0(offset 0xf8, size 0x4, align 0x4)
+		float32 m_flOutput1(offset 0xfc, size 0x4, align 0x4)
+		float32 m_flNotchedRangeMin(offset 0x100, size 0x4, align 0x4)
+		float32 m_flNotchedRangeMax(offset 0x104, size 0x4, align 0x4)
+		float32 m_flNotchedOutputOutside(offset 0x108, size 0x4, align 0x4)
+		float32 m_flNotchedOutputInside(offset 0x10c, size 0x4, align 0x4)
+		ParticleFloatRoundType_t m_nRoundType(offset 0x110, size 0x4, align 0x4)
+		ParticleFloatBiasType_t m_nBiasType(offset 0x114, size 0x4, align 0x4)
+		float32 m_flBiasParameter(offset 0x118, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x11c)
+		CPiecewiseCurve m_Curve(offset 0x120, size 0x40, align 0x8)
+	
+
+-----members of class CParticleRemapFloatInput-----
+	<no members>
+

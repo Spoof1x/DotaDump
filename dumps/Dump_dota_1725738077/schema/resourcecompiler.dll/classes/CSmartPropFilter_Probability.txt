@@ -1,0 +1,45 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropFilter_Probability (size: 0x90 bytes, project "smartprops", binding @ resourcecompiler.dll + 0x24bb540, scope "resourcecompiler.dll") extends CSmartPropFilter
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1577850"
+^MPropertyFriendlyName "Filter: Probability"
+^MPropertyDescription "Causes the parent element to only be evaluated with a specified random probability."
+^MVDataClassGroup "Filter"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropFilter (size: 0x50 bytes, project "smartprops", binding @ resourcecompiler.dll + 0x24bb940, scope "resourcecompiler.dll") extends CSmartPropModifier
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	^MVDataNodeTintColor "-2565889"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ resourcecompiler.dll + 0x24b50b0, scope "resourcecompiler.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+		^MVDataBase
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		
+		-----members of class CSmartPropModifier-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+				^MVDataEnableKey
+			uint8_t[8] unaccounted(offset 0x48)
+		
+	
+	-----members of class CSmartPropFilter-----
+		<no members>
+	
+
+-----members of class CSmartPropFilter_Probability-----
+	CSmartPropAttributeFloat m_flProbability(offset 0x50, size 0x40, align 0x8)
+		^MPropertyDescription "0.0 to 1.0 value indicating the probability of this element being evaluated. Where a value of 0 means the element will never be evaluated and 1.0 means it will always be evaluated"
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class SolveIKChainPoseOpFixedSettings_t (size: 0x20 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a2cd0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x161dd0"
+
+-----members of class SolveIKChainPoseOpFixedSettings_t-----
+	CUtlVector< ChainToSolveData_t > m_ChainsToSolveData(offset 0x0, size 0x18, align 0x8)
+	bool m_bMatchTargetOrientation(offset 0x18, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x19)
+

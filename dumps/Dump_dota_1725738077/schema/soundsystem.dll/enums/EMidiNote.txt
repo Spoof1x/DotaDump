@@ -1,0 +1,15 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EMidiNote(size: 1 bytes, 13 values, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39b5c0):
+	C = 0,
+	C_Sharp = 1,
+	D = 2,
+	D_Sharp = 3,
+	E = 4,
+	F = 5,
+	F_Sharp = 6,
+	G = 7,
+	G_Sharp = 8,
+	A = 9,
+	A_Sharp = 10,
+	B = 11,
+	Count = 12,

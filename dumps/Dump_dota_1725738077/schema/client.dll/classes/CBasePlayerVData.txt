@@ -1,0 +1,51 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBasePlayerVData (size: 0x178 bytes, project "client", binding @ client.dll + 0x4835e30, scope "client.dll") extends CEntitySubclassVDataBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: client.dll + 0x11de350"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CEntitySubclassVDataBase (size: 0x28 bytes, project "client", binding @ client.dll + 0x46bb8f0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: client.dll + 0x2f3e20"
+	^MVDataRoot
+	^MVDataNodeType "1"
+	^MVDataOverlayType "1"
+	^MVDataUseLinkedEntityClasses
+	
+	-----members of class CEntitySubclassVDataBase-----
+		uint8_t[40] unaccounted(offset 0x0)
+	
+
+-----members of class CBasePlayerVData-----
+	CResourceNameTyped< CWeakHandle< InfoForResourceTypeCModel > > m_sModelName(offset 0x28, size 0xe0, align 0x8)
+	CSkillFloat m_flHeadDamageMultiplier(offset 0x108, size 0x10, align 0x0)
+	CSkillFloat m_flChestDamageMultiplier(offset 0x118, size 0x10, align 0x0)
+	CSkillFloat m_flStomachDamageMultiplier(offset 0x128, size 0x10, align 0x0)
+	CSkillFloat m_flArmDamageMultiplier(offset 0x138, size 0x10, align 0x0)
+	CSkillFloat m_flLegDamageMultiplier(offset 0x148, size 0x10, align 0x0)
+	float32 m_flHoldBreathTime(offset 0x158, size 0x4, align 0x4)
+		^MPropertyGroupName "Water"
+	float32 m_flDrowningDamageInterval(offset 0x15c, size 0x4, align 0x4)
+		^MPropertyGroupName "Water"
+		^MPropertyDescription "Seconds between drowning ticks"
+	int32 m_nDrowningDamageInitial(offset 0x160, size 0x4, align 0x4)
+		^MPropertyGroupName "Water"
+		^MPropertyDescription "Amount of damage done on the first drowning tick (+1 each subsequent interval)"
+	int32 m_nDrowningDamageMax(offset 0x164, size 0x4, align 0x4)
+		^MPropertyGroupName "Water"
+		^MPropertyDescription "Max damage done by a drowning tick"
+	int32 m_nWaterSpeed(offset 0x168, size 0x4, align 0x4)
+		^MPropertyGroupName "Water"
+	float32 m_flUseRange(offset 0x16c, size 0x4, align 0x4)
+		^MPropertyGroupName "Use"
+	float32 m_flUseAngleTolerance(offset 0x170, size 0x4, align 0x4)
+		^MPropertyGroupName "Use"
+	float32 m_flCrouchTime(offset 0x174, size 0x4, align 0x4)
+		^MPropertyGroupName "Crouch"
+		^MPropertyDescription "Time to move between crouch and stand"
+

@@ -1,0 +1,59 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMapAssetTypeInfo (size: 0x110 bytes, project "toolutils2", binding @ toolframework2.dll + 0x935a90, scope "toolframework2.dll") extends CResourceAssetTypeInfo
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x47cf70"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CResourceAssetTypeInfo (size: 0x110 bytes, project "toolutils2", binding @ toolframework2.dll + 0x935970, scope "toolframework2.dll") extends CSimpleAssetTypeInfo
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: toolframework2.dll + 0x47cd50"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSimpleAssetTypeInfo (size: 0xd0 bytes, project "toolutils2", binding @ toolframework2.dll + 0x935720, scope "toolframework2.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: toolframework2.dll + 0x47c910"
+		
+		-----members of class CSimpleAssetTypeInfo-----
+			uint8_t[16] unaccounted(offset 0x0)
+			CUtlString m_FriendlyName(offset 0x10, size 0x8, align 0x8)
+			CUtlString m_Ext(offset 0x18, size 0x8, align 0x8)
+			CUtlString m_IconLg(offset 0x20, size 0x8, align 0x8)
+			CUtlString m_IconSm(offset 0x28, size 0x8, align 0x8)
+			CUtlVector< CUtlString > m_SuppressSubstrings(offset 0x30, size 0x18, align 0x8)
+			CUtlVector< CUtlString > m_AdditionalExtensions(offset 0x48, size 0x18, align 0x8)
+			CUtlVector< AssetEngineCommand_t > m_EngineCommands(offset 0x60, size 0x18, align 0x8)
+			CUtlVector< CUtlString > m_LimitToMods(offset 0x78, size 0x18, align 0x8)
+			CUtlVector< CUtlString > m_ExcludeFromMods(offset 0x90, size 0x18, align 0x8)
+			CUtlVector< CUtlString > m_HideForRetailMods(offset 0xa8, size 0x18, align 0x8)
+			bool m_bHideTypeByDefault(offset 0xc0, size 0x1, align 0x1)
+			bool m_bCannotBeShown(offset 0xc1, size 0x1, align 0x1)
+			bool m_bIsNontrivialChildAssetType(offset 0xc2, size 0x1, align 0x1)
+			bool m_bSuppressFullFingerprintCalculation(offset 0xc3, size 0x1, align 0x1)
+			bool m_bIgnoreCompiledState(offset 0xc4, size 0x1, align 0x1)
+			bool m_bContentFileIsText(offset 0xc5, size 0x1, align 0x1)
+			bool m_bPrefersLivePreview(offset 0xc6, size 0x1, align 0x1)
+			bool m_bPresentInGameTree(offset 0xc7, size 0x1, align 0x1)
+			bool m_bShouldCompileErrorFallbackToDisk(offset 0xc8, size 0x1, align 0x1)
+			bool m_bUnrecognizedReferencesAreErrors(offset 0xc9, size 0x1, align 0x1)
+			uint8_t[6] unaccounted(offset 0xca)
+		
+	
+	-----members of class CResourceAssetTypeInfo-----
+		CUtlString m_CompilerIdentifier(offset 0xd0, size 0x8, align 0x8)
+		CUtlVector< CUtlString > m_CompileDependsOnResourceTypes(offset 0xd8, size 0x18, align 0x8)
+		CUtlVector< ResourceBlockTypeInfo_t > m_Blocks(offset 0xf0, size 0x18, align 0x8)
+		bool m_bPreventDirectCompile(offset 0x108, size 0x1, align 0x1)
+		bool m_bCannotBeAMultiParentChildCompile(offset 0x109, size 0x1, align 0x1)
+		bool m_bPrefersIconForThumbnail(offset 0x10a, size 0x1, align 0x1)
+		uint8_t[5] unaccounted(offset 0x10b)
+	
+
+-----members of class CMapAssetTypeInfo-----
+	<no members>
+

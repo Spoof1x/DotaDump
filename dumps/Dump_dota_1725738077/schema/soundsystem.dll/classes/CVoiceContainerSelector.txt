@@ -1,0 +1,42 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVoiceContainerSelector (size: 0x130 bytes, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39a7b0, scope "soundsystem.dll") extends CVoiceContainerBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x269b80"
+^MPropertyFriendlyName "Selector"
+^MPropertyDescription "Plays a selected vsnd on playback."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CVoiceContainerBase (size: 0xb8 bytes, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39a000, scope "soundsystem.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: soundsystem.dll + 0x264ea0"
+	^MVDataRoot
+	^MVDataNodeType "1"
+	^MFgdFromSchemaEditablePolymorphicThisClass
+	^MVDataFileExtension "vsnd"
+	^MPropertyFriendlyName "VSND Container"
+	^MPropertyDescription "Voice Container Base"
+	
+	-----static members of class CVoiceContainerBase-----
+		static bool bAudioFinishedPlaying(soundsystem.dll + 0x3214e4)
+		static bool bAudioStillPlaying(soundsystem.dll + 0x3214e5)
+	
+	-----members of class CVoiceContainerBase-----
+		uint8_t[56] unaccounted(offset 0x0)
+		CVSound m_vSound(offset 0x38, size 0x80, align 0x8)
+			^MPropertySuppressField
+	
+
+-----members of class CVoiceContainerSelector-----
+	PlayBackMode_t m_mode(offset 0xb8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Playback Mode"
+	uint8_t[4] unaccounted(offset 0xbc)
+	CSoundContainerReferenceArray m_soundsToPlay(offset 0xc0, size 0x38, align 0x8)
+		^MPropertyFriendlyName "Sounds To play"
+	CUtlVector< float32 > m_fProbabilityWeights(offset 0xf8, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Relative Weights"
+	uint8_t[32] unaccounted(offset 0x110)
+

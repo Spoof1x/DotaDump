@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTA_Ability_AntiMage_BlinkParticleAPI (size: 0x1 bytes, project "server", binding @ server.dll + 0x38fc500, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MPulseProvideFeatureTag "PulseParticles"
+^MPulseLibraryBindings "ptr: server.dll + 0x39071a8"
+^MParticleDomainTag "Antimage Blink Ability CDOTA_Ability_AntiMage_BlinkParticleAPI"
+^MPulseDomainHookInfo "ptr: server.dll + 0x3905980"
+
+-----members of class CDOTA_Ability_AntiMage_BlinkParticleAPI-----
+	uint8_t[1] unaccounted(offset 0x0)
+

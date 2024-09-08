@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class World_t (size: 0xa8 bytes, project "visbuilder", binding @ visbuilder.dll + 0x188910, scope "visbuilder.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: visbuilder.dll + 0x51050"
+
+-----members of class World_t-----
+	WorldBuilderParams_t m_builderParams(offset 0x0, size 0x48, align 0x8)
+	CUtlVector< NodeData_t > m_worldNodes(offset 0x48, size 0x18, align 0x8)
+	BakedLightingInfo_t m_worldLightingInfo(offset 0x60, size 0x30, align 0x8)
+	CUtlVector< CStrongHandleCopyable< InfoForResourceTypeCEntityLump > > m_entityLumps(offset 0x90, size 0x18, align 0x8)
+

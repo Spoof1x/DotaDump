@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTA_CHAT_INFORMATIONAL(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x4703af0):
+	INFO_COOP_BATTLE_POINTS_RULES = 1,
+	INFO_FROSTIVUS_ABANDON_REMINDER = 2,
+	INFO_RANKED_REMINDER = 3,
+	INFO_COOP_LOW_PRIORITY_PASSIVE_REMINDER = 4,
+	INFO_CUSTOM_GAME_PENALTY_REMINDER = 5,

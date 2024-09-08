@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimBone (size: 0x48 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f2f30, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x3d570"
+
+-----members of class CAnimBone-----
+	CBufferString m_name(offset 0x0, size 0x10, align 0x8)
+	int32 m_parent(offset 0x10, size 0x4, align 0x4)
+	Vector m_pos(offset 0x14, size 0xc, align 0x4)
+	QuaternionStorage m_quat(offset 0x20, size 0x10, align 0x4)
+	float32 m_scale(offset 0x30, size 0x4, align 0x4)
+	QuaternionStorage m_qAlignment(offset 0x34, size 0x10, align 0x4)
+	int32 m_flags(offset 0x44, size 0x4, align 0x4)
+

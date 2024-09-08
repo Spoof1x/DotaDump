@@ -1,0 +1,111 @@
+CBugReporterTool
+	bugreporter_subtool.dll + 0x47c50(hierarchy CBugReporterTool: IExternalVConsoleSubTool, CTier3AppSystem<class IExternalSubTool,0>, CTier2AppSystem<class IExternalSubTool,0>, CTier1AppSystem<class IExternalSubTool,0>, CTier0AppSystem<class IExternalSubTool,0>, CBaseAppSystem<class IExternalSubTool>, IExternalSubTool, IAppSystem, IVConsoleSubTool, IVConsoleDataReceived)
+	bugreporter_subtool.dll + 0x47bc8 MI offset 8(hierarchy IVConsoleSubTool: IVConsoleDataReceived)
+	bugreporter_subtool.dll + 0x47b90 MI offset 48(hierarchy IVConsoleDataReceived)
+CPostConnectCallback
+	bugreporter_subtool.dll + 0x3a4f0(hierarchy CPostConnectCallback)
+CQAttachFilesDialog
+	bugreporter_subtool.dll + 0x489d8(hierarchy CQAttachFilesDialog: QDialog, QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x4ad10 MI offset 16(hierarchy QPaintDevice)
+CQAttachmentTableFileSizeWidgetItem
+	bugreporter_subtool.dll + 0x483d0(hierarchy CQAttachmentTableFileSizeWidgetItem: QObject, QTableWidgetItem)
+	bugreporter_subtool.dll + 0x48b70 MI offset 16(hierarchy QTableWidgetItem)
+CQAttachmentTableFilenameWidgetItem
+	bugreporter_subtool.dll + 0x488f0(hierarchy CQAttachmentTableFilenameWidgetItem: QObject, QTableWidgetItem)
+	bugreporter_subtool.dll + 0x4b668 MI offset 16(hierarchy QTableWidgetItem)
+CQAutoAttachmentsPreviewDialog
+	bugreporter_subtool.dll + 0x4b6a8(hierarchy CQAutoAttachmentsPreviewDialog: QDialog, QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x4bb08 MI offset 16(hierarchy QPaintDevice)
+CQBugReporterWidget
+	bugreporter_subtool.dll + 0x48cb8(hierarchy CQBugReporterWidget: QDialog, QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x48c78 MI offset 16(hierarchy QPaintDevice)
+CQConnectHelper_int
+	bugreporter_subtool.dll + 0x4aac0(hierarchy CQConnectHelper_int: QObject)
+CQScreenshotImage
+	bugreporter_subtool.dll + 0x4ad50(hierarchy CQScreenshotImage: QLabel, QFrame, QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x4a7a8 MI offset 16(hierarchy QPaintDevice)
+CQScreenshotPreviewPopup
+	bugreporter_subtool.dll + 0x4b4f8(hierarchy CQScreenshotPreviewPopup: QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x4a990 MI offset 16(hierarchy QPaintDevice)
+CQScreenshotsTab
+	bugreporter_subtool.dll + 0x48770(hierarchy CQScreenshotsTab: QTabWidget, QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x4aec8 MI offset 16(hierarchy QPaintDevice)
+CSchemaInstallCallback
+	bugreporter_subtool.dll + 0x3a698(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+Concurrency::details::stl_condition_variable_win7
+	bugreporter_subtool.dll + 0x3c230(hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+Concurrency::details::stl_critical_section_win7
+	bugreporter_subtool.dll + 0x3c200(hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+QAction
+	bugreporter_subtool.dll + 0x4b498(hierarchy QAction: QObject)
+QCheckBox
+	bugreporter_subtool.dll + 0x48430(hierarchy QCheckBox: QAbstractButton, QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x4b840 MI offset 16(hierarchy QPaintDevice)
+QComboBox
+	bugreporter_subtool.dll + 0x4b880(hierarchy QComboBox: QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x4b2e8 MI offset 16(hierarchy QPaintDevice)
+QGridLayout
+	bugreporter_subtool.dll + 0x4b1e8(hierarchy QGridLayout: QLayout, QObject, QLayoutItem)
+	bugreporter_subtool.dll + 0x48bb0 MI offset 16(hierarchy QLayoutItem)
+QHBoxLayout
+	bugreporter_subtool.dll + 0x4aa10(hierarchy QHBoxLayout: QBoxLayout, QLayout, QObject, QLayoutItem)
+	bugreporter_subtool.dll + 0x48950 MI offset 16(hierarchy QLayoutItem)
+QIntValidator
+	bugreporter_subtool.dll + 0x4b270(hierarchy QIntValidator: QValidator, QObject)
+QLabel
+	bugreporter_subtool.dll + 0x4b328(hierarchy QLabel: QFrame, QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x4ba00 MI offset 16(hierarchy QPaintDevice)
+QLineEdit
+	bugreporter_subtool.dll + 0x481d8(hierarchy QLineEdit: QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x4acd0 MI offset 16(hierarchy QPaintDevice)
+QMenu
+	bugreporter_subtool.dll + 0x4ab60(hierarchy QMenu: QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x4ba40 MI offset 16(hierarchy QPaintDevice)
+QPixmap
+	bugreporter_subtool.dll + 0x4a728(hierarchy QPixmap: QPaintDevice)
+QPlainTextEdit
+	bugreporter_subtool.dll + 0x485b8(hierarchy QPlainTextEdit: QAbstractScrollArea, QFrame, QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x48e50 MI offset 16(hierarchy QPaintDevice)
+QPushButton
+	bugreporter_subtool.dll + 0x4a3e8(hierarchy QPushButton: QAbstractButton, QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x4ab20 MI offset 16(hierarchy QPaintDevice)
+QTabWidget
+	bugreporter_subtool.dll + 0x4a7e8(hierarchy QTabWidget: QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x48c38 MI offset 16(hierarchy QPaintDevice)
+QTableWidget
+	bugreporter_subtool.dll + 0x4af08(hierarchy QTableWidget: QTableView, QAbstractItemView, QAbstractScrollArea, QFrame, QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x4a9d0 MI offset 16(hierarchy QPaintDevice)
+QTextEdit
+	bugreporter_subtool.dll + 0x4a570(hierarchy QTextEdit: QAbstractScrollArea, QFrame, QWidget, QObject, QPaintDevice)
+	bugreporter_subtool.dll + 0x4a768 MI offset 16(hierarchy QPaintDevice)
+QVBoxLayout
+	bugreporter_subtool.dll + 0x4ba80(hierarchy QVBoxLayout: QBoxLayout, QLayout, QObject, QLayoutItem)
+	bugreporter_subtool.dll + 0x48348 MI offset 16(hierarchy QLayoutItem)
+std::_Generic_error_category
+	bugreporter_subtool.dll + 0x380e0(hierarchy std::_Generic_error_category: std::error_category)
+std::_System_error
+	bugreporter_subtool.dll + 0x37fa8(hierarchy std::_System_error: std::runtime_error, stdext::exception)
+std::bad_alloc
+	bugreporter_subtool.dll + 0x3a618(hierarchy std::bad_alloc: std::exception)
+std::bad_array_new_length
+	bugreporter_subtool.dll + 0x3a630(hierarchy std::bad_array_new_length: std::bad_alloc, std::exception)
+std::bad_exception
+	bugreporter_subtool.dll + 0x3c1d8(hierarchy std::bad_exception: std::exception)
+std::error_category
+	bugreporter_subtool.dll + 0x380a0(hierarchy std::error_category)
+std::exception
+	bugreporter_subtool.dll + 0x38088(hierarchy std::exception)
+std::length_error
+	bugreporter_subtool.dll + 0x3b370(hierarchy std::length_error: std::logic_error, std::exception)
+std::logic_error
+	bugreporter_subtool.dll + 0x3b358(hierarchy std::logic_error: std::exception)
+std::out_of_range
+	bugreporter_subtool.dll + 0x3b388(hierarchy std::out_of_range: std::logic_error, std::exception)
+std::runtime_error
+	bugreporter_subtool.dll + 0x37f88(hierarchy std::runtime_error: stdext::exception)
+std::system_error
+	bugreporter_subtool.dll + 0x37fc8(hierarchy std::system_error: std::_System_error, std::runtime_error, stdext::exception)
+stdext::exception
+	bugreporter_subtool.dll + 0x37f50(hierarchy stdext::exception)
+type_info
+	bugreporter_subtool.dll + 0x3c4c8(hierarchy type_info)

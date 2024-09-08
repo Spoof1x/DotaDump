@@ -1,0 +1,40 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CGlowProperty (size: 0x58 bytes, project "client", binding @ client.dll + 0x46b7b50, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "m_iGlowType int32"
+^MNetworkVarNames "m_iGlowTeam int32"
+^MNetworkVarNames "m_nGlowRange int32"
+^MNetworkVarNames "m_nGlowRangeMin int32"
+^MNetworkVarNames "m_glowColorOverride Color"
+^MNetworkVarNames "m_bFlashing bool"
+^MNetworkVarNames "m_flGlowTime float"
+^MNetworkVarNames "m_flGlowStartTime float"
+
+-----members of class CGlowProperty-----
+	uint8_t[8] unaccounted(offset 0x0)
+	Vector m_fGlowColor(offset 0x8, size 0xc, align 0x4)
+	uint8_t[28] unaccounted(offset 0x14)
+	int32 m_iGlowType(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnGlowTypeChanged"
+	int32 m_iGlowTeam(offset 0x34, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nGlowRange(offset 0x38, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nGlowRangeMin(offset 0x3c, size 0x4, align 0x4)
+		^MNetworkEnable
+	Color m_glowColorOverride(offset 0x40, size 0x4, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnGlowColorChanged"
+	bool m_bFlashing(offset 0x44, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x45)
+	float32 m_flGlowTime(offset 0x48, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flGlowStartTime(offset 0x4c, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bGlowing(offset 0x50, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x51)
+

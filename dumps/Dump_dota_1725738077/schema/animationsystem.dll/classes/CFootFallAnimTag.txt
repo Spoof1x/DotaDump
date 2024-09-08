@@ -1,0 +1,40 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootFallAnimTag (size: 0x60 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a1780, scope "!GlobalTypes") extends CAnimTagBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x15a830"
+^MPropertyFriendlyName "FootFall Tag"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimTagBase (size: 0x50 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a8ea0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1a1b90"
+	
+	-----members of class CAnimTagBase-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CGlobalSymbol m_name(offset 0x18, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		CUtlString m_sComment(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Comment"
+			^MPropertyAttributeEditor "TextBlock()"
+			^MPropertySortPriority "-100"
+		CGlobalSymbol m_group(offset 0x28, size 0x8, align 0x8)
+			^MPropertyHideField
+		AnimTagID m_tagID(offset 0x30, size 0x4, align 0x4)
+			^MPropertyHideField
+		uint8_t[20] unaccounted(offset 0x34)
+		bool m_bIsReferenced(offset 0x48, size 0x1, align 0x1)
+			^MPropertyHideField
+		uint8_t[7] unaccounted(offset 0x49)
+	
+
+-----members of class CFootFallAnimTag-----
+	uint8_t[8] unaccounted(offset 0x50)
+	FootFallTagFoot_t m_foot(offset 0x58, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Foot"
+	uint8_t[4] unaccounted(offset 0x5c)
+

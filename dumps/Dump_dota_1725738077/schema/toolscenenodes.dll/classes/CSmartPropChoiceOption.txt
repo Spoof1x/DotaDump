@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropChoiceOption (size: 0x28 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfb910, scope "toolscenenodes.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x694b10"
+
+-----members of class CSmartPropChoiceOption-----
+	CUtlString m_Name(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Option Value Name"
+	CUtlString m_DisplayName(offset 0x8, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Option Display Name"
+	CUtlVector< CSmartPropAttributeVariableValue > m_VariableValues(offset 0x10, size 0x18, align 0x8)
+		^MPropertyAutoExpandSelf
+		^MPropertyAttributeEditor "SmartPropAttributeEditor(VariableValue)"
+

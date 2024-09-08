@@ -1,0 +1,16 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum HitGroup_t(size: 4 bytes, 14 values, project "client", binding @ client.dll + 0x46bb4c0):
+	HITGROUP_INVALID = -1,
+	HITGROUP_GENERIC = 0,
+	HITGROUP_HEAD = 1,
+	HITGROUP_CHEST = 2,
+	HITGROUP_STOMACH = 3,
+	HITGROUP_LEFTARM = 4,
+	HITGROUP_RIGHTARM = 5,
+	HITGROUP_LEFTLEG = 6,
+	HITGROUP_RIGHTLEG = 7,
+	HITGROUP_NECK = 8,
+	HITGROUP_UNUSED = 9,
+	HITGROUP_GEAR = 10,
+	HITGROUP_SPECIAL = 11,
+	HITGROUP_COUNT = 12,

@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AimMatrixOpFixedSettings_t (size: 0xe0 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x24295c0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x738b30"
+
+-----members of class AimMatrixOpFixedSettings_t-----
+	CAnimAttachment m_attachment(offset 0x0, size 0x80, align 0x10)
+	CAnimInputDamping m_damping(offset 0x80, size 0x10, align 0x8)
+	CPoseHandle[10] m_poseCacheHandles(offset 0x90, size 0x28, align 0x2)
+	AimMatrixBlendMode m_eBlendMode(offset 0xb8, size 0x4, align 0x4)
+	float32 m_flMaxYawAngle(offset 0xbc, size 0x4, align 0x4)
+	float32 m_flMaxPitchAngle(offset 0xc0, size 0x4, align 0x4)
+	int32 m_nSequenceMaxFrame(offset 0xc4, size 0x4, align 0x4)
+	int32 m_nBoneMaskIndex(offset 0xc8, size 0x4, align 0x4)
+	bool m_bTargetIsPosition(offset 0xcc, size 0x1, align 0x1)
+	bool m_bUseBiasAndClamp(offset 0xcd, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0xce)
+	float32 m_flBiasAndClampYawOffset(offset 0xd0, size 0x4, align 0x4)
+	float32 m_flBiasAndClampPitchOffset(offset 0xd4, size 0x4, align 0x4)
+	CBlendCurve m_biasAndClampBlendCurve(offset 0xd8, size 0x8, align 0x4)
+

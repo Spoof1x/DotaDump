@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBasePortraitData (size: 0xdf0 bytes, project "client", binding @ client.dll + 0x487acc0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+-----members of class CBasePortraitData-----
+	uint8_t[1040] unaccounted(offset 0x0)
+	CStrongHandle< InfoForResourceTypeCModel > m_iModelIndex(offset 0x410, size 0x8, align 0x8)
+	CUtlStringToken m_skin(offset 0x418, size 0x4, align 0x4)
+	uint8_t[2476] unaccounted(offset 0x41c)
+	bool m_bHasSetupView(offset 0xdc8, size 0x1, align 0x1)
+	uint8_t[31] unaccounted(offset 0xdc9)
+	float32 m_flRotation(offset 0xde8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xdec)
+

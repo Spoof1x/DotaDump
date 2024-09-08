@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RemnantData_t (size: 0x8 bytes, project "server", binding @ server.dll + 0x397ad10, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class RemnantData_t-----
+	CHandle< CBaseEntity > m_hRemnant(offset 0x0, size 0x4, align 0x4)
+	int32 m_nProjectileHandle(offset 0x4, size 0x4, align 0x4)
+

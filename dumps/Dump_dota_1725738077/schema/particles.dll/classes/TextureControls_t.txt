@@ -1,0 +1,40 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TextureControls_t (size: 0x9c0 bytes, project "particles", binding @ particles.dll + 0x5445a0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x2f4e90"
+
+-----members of class TextureControls_t-----
+	CParticleCollectionRendererFloatInput m_flFinalTextureScaleU(offset 0x0, size 0x160, align 0x8)
+		^MPropertyFriendlyName "horizontal texture scale"
+	CParticleCollectionRendererFloatInput m_flFinalTextureScaleV(offset 0x160, size 0x160, align 0x8)
+		^MPropertyFriendlyName "vertical texture scale"
+	CParticleCollectionRendererFloatInput m_flFinalTextureOffsetU(offset 0x2c0, size 0x160, align 0x8)
+		^MPropertyFriendlyName "horizontal texture offset"
+	CParticleCollectionRendererFloatInput m_flFinalTextureOffsetV(offset 0x420, size 0x160, align 0x8)
+		^MPropertyFriendlyName "vertical texture offset"
+	CParticleCollectionRendererFloatInput m_flFinalTextureUVRotation(offset 0x580, size 0x160, align 0x8)
+		^MPropertyFriendlyName "texture rotation / animation rate scale"
+	CParticleCollectionRendererFloatInput m_flZoomScale(offset 0x6e0, size 0x160, align 0x8)
+		^MPropertyFriendlyName "Infinite Zoom Scale"
+	CParticleCollectionRendererFloatInput m_flDistortion(offset 0x840, size 0x160, align 0x8)
+		^MPropertyFriendlyName "Distortion Amount"
+	bool m_bRandomizeOffsets(offset 0x9a0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Randomize Initial Offset"
+	bool m_bClampUVs(offset 0x9a1, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Clamp UVs"
+	uint8_t[2] unaccounted(offset 0x9a2)
+	SpriteCardPerParticleScale_t m_nPerParticleBlend(offset 0x9a4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "per-particle scalar for blend"
+	SpriteCardPerParticleScale_t m_nPerParticleScale(offset 0x9a8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "per-particle scalar for scale"
+	SpriteCardPerParticleScale_t m_nPerParticleOffsetU(offset 0x9ac, size 0x4, align 0x4)
+		^MPropertyFriendlyName "per-particle scalar for horizontal offset"
+	SpriteCardPerParticleScale_t m_nPerParticleOffsetV(offset 0x9b0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "per-particle scalar for vertical offset"
+	SpriteCardPerParticleScale_t m_nPerParticleRotation(offset 0x9b4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "per-particle scalar for rotation"
+	SpriteCardPerParticleScale_t m_nPerParticleZoom(offset 0x9b8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "per-particle scalar for zoom"
+	SpriteCardPerParticleScale_t m_nPerParticleDistortion(offset 0x9bc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "per-particle scalar for distortion"
+

@@ -1,0 +1,27 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBonePositionMetricEvaluator (size: 0x58 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2430420, scope "resourcecompiler.dll") extends CMotionMetricEvaluator
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x7880e0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMotionMetricEvaluator (size: 0x50 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2430200, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CMotionMetricEvaluator-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CUtlVector< float32 > m_means(offset 0x18, size 0x18, align 0x8)
+		CUtlVector< float32 > m_standardDeviations(offset 0x30, size 0x18, align 0x8)
+		float32 m_flWeight(offset 0x48, size 0x4, align 0x4)
+		int32 m_nDimensionStartIndex(offset 0x4c, size 0x4, align 0x4)
+	
+
+-----members of class CBonePositionMetricEvaluator-----
+	int32 m_nBoneIndex(offset 0x50, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x54)
+

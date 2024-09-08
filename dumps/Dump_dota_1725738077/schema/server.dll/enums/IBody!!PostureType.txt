@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum IBody::PostureType(size: 4 bytes, 5 values, project "server", binding @ server.dll + 0x3af8760):
+	STAND = 0,
+	CROUCH = 1,
+	SIT = 2,
+	CRAWL = 3,
+	LIE = 4,

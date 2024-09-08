@@ -1,0 +1,31 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CTimeRemainingMetricEvaluator (size: 0x60 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2431100, scope "resourcecompiler.dll") extends CMotionMetricEvaluator
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x78d970"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMotionMetricEvaluator (size: 0x50 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2430200, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CMotionMetricEvaluator-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CUtlVector< float32 > m_means(offset 0x18, size 0x18, align 0x8)
+		CUtlVector< float32 > m_standardDeviations(offset 0x30, size 0x18, align 0x8)
+		float32 m_flWeight(offset 0x48, size 0x4, align 0x4)
+		int32 m_nDimensionStartIndex(offset 0x4c, size 0x4, align 0x4)
+	
+
+-----members of class CTimeRemainingMetricEvaluator-----
+	bool m_bMatchByTimeRemaining(offset 0x50, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x51)
+	float32 m_flMaxTimeRemaining(offset 0x54, size 0x4, align 0x4)
+	bool m_bFilterByTimeRemaining(offset 0x58, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x59)
+	float32 m_flMinTimeRemaining(offset 0x5c, size 0x4, align 0x4)
+

@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFeNamedJiggleBone (size: 0xd0 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a6800, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x13aa610"
+
+-----members of class CFeNamedJiggleBone-----
+	CUtlString m_strParentBone(offset 0x0, size 0x8, align 0x8)
+	uint8_t[8] unaccounted(offset 0x8)
+	CTransform m_transform(offset 0x10, size 0x20, align 0x10)
+	uint32 m_nJiggleParent(offset 0x30, size 0x4, align 0x4)
+	CFeJiggleBone m_jiggleBone(offset 0x34, size 0x9c, align 0x4)
+

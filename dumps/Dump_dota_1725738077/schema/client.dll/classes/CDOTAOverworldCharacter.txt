@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTAOverworldCharacter (size: 0x78 bytes, project "client", binding @ client.dll + 0x4898cd0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x1784d30"
+^MVDataRoot
+
+-----members of class CDOTAOverworldCharacter-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CDOTAOverworldCharacterBase m_appearance(offset 0x8, size 0x28, align 0x8)
+		^MPropertyDescription "If set, character will appear behind the specified hero in a traveling party, as long as 1 node meets the conditionals."
+	CDOTAOverworldCharacterConditional m_conditions(offset 0x30, size 0x20, align 0x8)
+	OverworldHeroID_t m_unHeroPartyID(offset 0x50, size 0x1, align 0x0)
+	uint8_t[7] unaccounted(offset 0x51)
+	CDOTAOverworldCharacterConditional m_partyConditions(offset 0x58, size 0x20, align 0x8)
+

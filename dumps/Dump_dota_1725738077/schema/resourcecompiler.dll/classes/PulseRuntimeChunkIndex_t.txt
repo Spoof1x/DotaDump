@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PulseRuntimeChunkIndex_t (size: 0x4 bytes, project "pulse_runtime_lib", binding @ resourcecompiler.dll + 0x24a7640, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class PulseRuntimeChunkIndex_t-----
+	static bool IS_TYPESAFE_INTEGER(resourcecompiler.dll + 0x1c69b45)
+
+-----members of class PulseRuntimeChunkIndex_t-----
+	int32 m_Value(offset 0x0, size 0x4, align 0x4)
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AnimParamID (size: 0x4 bytes, project "modellib", binding @ resourcecompiler.dll + 0x249a7c0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11ac380"
+^MPropertyEditClassAsString "func: resourcecompiler.dll + 0x11ac5f0"
+
+-----members of class AnimParamID-----
+	uint32 m_id(offset 0x0, size 0x4, align 0x4)
+

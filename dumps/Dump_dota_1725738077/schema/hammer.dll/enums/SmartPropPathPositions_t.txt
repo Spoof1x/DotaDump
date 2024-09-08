@@ -1,0 +1,14 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SmartPropPathPositions_t(size: 4 bytes, 4 values, project "smartprops", binding @ hammer.dll + 0x1dd2f50):
+	ALL = 0,
+		^MPropertyFriendlyName "All positions"
+		^MPropertyDescription "Place at all positions along the path"
+	NTH = 1,
+		^MPropertyFriendlyName "Every N positions"
+		^MPropertyDescription "Place at every Nth position along the path, skipping over the other positions"
+	START_AND_END = 2,
+		^MPropertyFriendlyName "Only at start and end"
+		^MPropertyDescription "Only place at the start or end of the path"
+	CONTROL_POINTS = 3,
+		^MPropertyFriendlyName "Path control points"
+		^MPropertyDescription "Place at path control points instead of every point along the path, when this is selected the path spacing no longer applies"

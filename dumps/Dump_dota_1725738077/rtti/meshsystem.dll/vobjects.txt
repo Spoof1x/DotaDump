@@ -1,0 +1,26 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CEmptySequence (hierarchy CEmptySequence: ISequence, IBaseSequence)
+	meshsystem.dll + 0x115c80
+CInputLayoutRegistration_g_hSkeletonMeshLayout (hierarchy CInputLayoutRegistration_g_hSkeletonMeshLayout: CPostConnectCallback)
+	meshsystem.dll + 0x14fc70
+CMeshSystem (hierarchy CMeshSystem: CTier3AppSystem<class IMeshSystem,0>, CTier2AppSystem<class IMeshSystem,0>, CTier1AppSystem<class IMeshSystem,0>, CTier0AppSystem<class IMeshSystem,0>, CBaseAppSystem<class IMeshSystem>, IMeshSystem, IAppSystem)
+	meshsystem.dll + 0x14f9d0
+CMeshUtils (hierarchy CMeshUtils: CTier3AppSystem<class IMeshUtils,0>, CTier2AppSystem<class IMeshUtils,0>, CTier1AppSystem<class IMeshUtils,0>, CTier0AppSystem<class IMeshUtils,0>, CBaseAppSystem<class IMeshUtils>, IMeshUtils, IAppSystem)
+	meshsystem.dll + 0x11e980
+CModelTypeManager
+	(hierarchy CModelTypeManager: CTypesafeIntrospectedToKV3TypeManager<1818520950,struct PermModelData_t>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager, IToolsResourceListener, IShaderReloadListener)
+		meshsystem.dll + 0x14fa08
+	MI offset 32 (hierarchy IToolsResourceListener: IShaderReloadListener)
+		meshsystem.dll + 0x14fa28
+	MI offset 40 (hierarchy IShaderReloadListener)
+		meshsystem.dll + 0x14fa30
+CMorphSetManagerV0 (hierarchy CMorphSetManagerV0: CTypesafeIntrospectedToKV3TypeManager<440006569334,struct CMorphSetData>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager)
+	meshsystem.dll + 0x14fc88
+CRenderMeshManager (hierarchy CRenderMeshManager: IResourceTypeManager)
+	meshsystem.dll + 0x14f9f8
+CSceneSkeletonObjectDesc (hierarchy CSceneSkeletonObjectDesc: ISceneObjectDescBase<class CSceneSkeletonObject>, ISceneObjectDesc)
+	meshsystem.dll + 0x11e960
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	meshsystem.dll + 0x14e308
+CSchemaRegistration_modellib (hierarchy CSchemaRegistration_modellib: CSchemaRegistration)
+	meshsystem.dll + 0x115ca0

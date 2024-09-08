@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum BeginDeathLifeStateTransition_t(size: 1 bytes, 3 values, project "server", binding @ server.dll + 0x38a07b0):
+	NO_CHANGE_IN_LIFESTATE = 0,
+	TRANSITION_TO_LIFESTATE_DYING = 1,
+	TRANSITION_TO_LIFESTATE_DEAD = 2,

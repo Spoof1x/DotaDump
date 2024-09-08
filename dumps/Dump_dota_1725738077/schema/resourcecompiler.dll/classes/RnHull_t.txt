@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RnHull_t (size: 0xf8 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a3c00, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x13873d0"
+
+-----members of class RnHull_t-----
+	Vector m_vCentroid(offset 0x0, size 0xc, align 0x4)
+	float32 m_flMaxAngularRadius(offset 0xc, size 0x4, align 0x4)
+	AABB_t m_Bounds(offset 0x10, size 0x18, align 0x0)
+	Vector m_vOrthographicAreas(offset 0x28, size 0xc, align 0x4)
+	matrix3x4_t m_MassProperties(offset 0x34, size 0x30, align 0x4)
+	float32 m_flVolume(offset 0x64, size 0x4, align 0x4)
+	float32 m_flSurfaceArea(offset 0x68, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x6c)
+	CUtlVector< RnVertex_t > m_Vertices(offset 0x70, size 0x18, align 0x8)
+	CUtlVector< Vector > m_VertexPositions(offset 0x88, size 0x18, align 0x8)
+	CUtlVector< RnHalfEdge_t > m_Edges(offset 0xa0, size 0x18, align 0x8)
+	CUtlVector< RnFace_t > m_Faces(offset 0xb8, size 0x18, align 0x8)
+	CUtlVector< RnPlane_t > m_FacePlanes(offset 0xd0, size 0x18, align 0x8)
+	uint32 m_nFlags(offset 0xe8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xec)
+	CRegionSVM* m_pRegionSVM(offset 0xf0, size 0x8, align 0x8)
+

@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EDOTAFacetColor(size: 1 bytes, 8 values, project "server", binding @ server.dll + 0x3a15d30):
+	FACET_COLOR_RED = 0,
+	FACET_COLOR_YELLOW = 1,
+	FACET_COLOR_GREEN = 2,
+	FACET_COLOR_BLUE = 3,
+	FACET_COLOR_PURPLE = 4,
+	FACET_COLOR_GRAY = 5,
+	FACET_COLOR_COUNT = 6,
+	FACET_COLOR_INVALID = 7,

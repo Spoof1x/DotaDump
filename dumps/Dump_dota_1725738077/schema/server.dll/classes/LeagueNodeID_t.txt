@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class LeagueNodeID_t (size: 0x2 bytes, project "server", binding @ server.dll + 0x39fdce0, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class LeagueNodeID_t-----
+	static bool IS_TYPESAFE_INTEGER(server.dll + 0x2d25528)
+
+-----members of class LeagueNodeID_t-----
+	uint16 m_Value(offset 0x0, size 0x2, align 0x2)
+

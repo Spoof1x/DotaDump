@@ -1,0 +1,38 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CParentConstraint (size: 0x68 bytes, project "modellib", binding @ workshopmanager.dll + 0xe8c040, scope "workshopmanager.dll") extends CBaseConstraint
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x4df080"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBaseConstraint (size: 0x68 bytes, project "modellib", binding @ workshopmanager.dll + 0xe8baf0, scope "workshopmanager.dll") extends CBoneConstraintBase
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x67530"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBoneConstraintBase (size: 0x28 bytes, project "modellib", binding @ workshopmanager.dll + 0xe8b9e0, scope "workshopmanager.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x67530"
+		
+		-----members of class CBoneConstraintBase-----
+			uint8_t[40] unaccounted(offset 0x0)
+		
+	
+	-----members of class CBaseConstraint-----
+		CUtlString m_name(offset 0x28, size 0x8, align 0x8)
+		Vector m_vUpVector(offset 0x30, size 0xc, align 0x4)
+		uint8_t[4] unaccounted(offset 0x3c)
+		CUtlLeanVector< CConstraintSlave > m_slaves(offset 0x40, size 0x10, align 0x8)
+		CUtlVector< CConstraintTarget > m_targets(offset 0x50, size 0x18, align 0x8)
+	
+
+-----members of class CParentConstraint-----
+	<no members>
+

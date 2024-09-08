@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootTrajectory (size: 0x14 bytes, project "modellib", binding @ meshsystem.dll + 0x11c980, scope "meshsystem.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x977f0"
+
+-----static members of class CFootTrajectory-----
+	static CFootTrajectory Identity(meshsystem.dll + 0x11d430)
+
+-----members of class CFootTrajectory-----
+	Vector m_vOffset(offset 0x0, size 0xc, align 0x4)
+	float32 m_flRotationOffset(offset 0xc, size 0x4, align 0x4)
+	float32 m_flProgression(offset 0x10, size 0x4, align 0x4)
+

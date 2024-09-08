@@ -1,0 +1,12 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum WorkshopFileImportMode_t(size: 4 bytes, 4 values, project "workshoptoolutils", binding @ workshopmanager.dll + 0xea4420):
+	eWorkshopFileImportMode_CreateNew = 0,
+		^MPropertyFriendlyName "Create New"
+		^MWorkshopEnumeratorColor "<unidentified non-null meta: workshopmanager.dll + 0xbfef08>"
+	eWorkshopFileImportMode_UpdateExisting = 1,
+		^MPropertyFriendlyName "Update Existing"
+		^MWorkshopEnumeratorColor "<unidentified non-null meta: workshopmanager.dll + 0xbfef40>"
+	eWorkshopFileImportMode_Skip = 2,
+		^MPropertyFriendlyName "Skip"
+	eWorkshopFileImportMode_Count = 3,
+		^MPropertySuppressEnumerator

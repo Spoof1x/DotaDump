@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDspPresetModifierList (size: 0x20 bytes, project "soundsystem", binding @ soundsystem.dll + 0x39e7a0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x18fac0"
+
+-----members of class CDspPresetModifierList-----
+	CUtlString m_dspName(offset 0x0, size 0x8, align 0x8)
+		^MPropertyDescription "Name of the DSP effect / subgraph used."
+		^MPropertyFriendlyName "DSP Effect Name"
+	CUtlVector< CDSPMixgroupModifier > m_modifiers(offset 0x8, size 0x18, align 0x8)
+		^MPropertyDescription "Set of modifiers for individual mix groups"
+		^MPropertyFriendlyName "Mixgroup Modifiers"
+

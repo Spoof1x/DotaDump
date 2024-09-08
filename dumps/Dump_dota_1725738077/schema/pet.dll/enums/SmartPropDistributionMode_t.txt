@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SmartPropDistributionMode_t(size: 4 bytes, 2 values, project "smartprops", binding @ pet.dll + 0xd1b930):
+	RANDOM = 0,
+		^MPropertyFriendlyName "Random"
+		^MPropertyDescription "Distribute the child elements randomly within the specified area or volume"
+	REGULAR = 1,
+		^MPropertyFriendlyName "Regular"
+		^MPropertyDescription "Distribute the child element evenly within the specified area of volume"

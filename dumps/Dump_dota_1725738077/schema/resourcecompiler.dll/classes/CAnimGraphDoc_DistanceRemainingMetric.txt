@@ -1,0 +1,50 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_DistanceRemainingMetric (size: 0x48 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f8810, scope "!GlobalTypes") extends CAnimGraphDoc_MotionMetric
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5d5940"
+^MPropertyFriendlyName "Distance Remaining Metric"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_MotionMetric (size: 0x28 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f69a0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_MotionMetric-----
+		uint8_t[32] unaccounted(offset 0x0)
+		float32 m_flWeight(offset 0x20, size 0x4, align 0x4)
+			^MPropertyHideField
+		uint8_t[4] unaccounted(offset 0x24)
+	
+
+-----members of class CAnimGraphDoc_DistanceRemainingMetric-----
+	float32 m_flMaxDistance(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Maximum Tracked Distance"
+	bool m_bFilterFixedMinDistance(offset 0x2c, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Filter By Fixed Distance"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[3] unaccounted(offset 0x2d)
+	float32 m_flMinDistance(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Min Distance"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5d59b0"
+	bool m_bFilterGoalDistance(offset 0x34, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Filter By Goal Distance"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[3] unaccounted(offset 0x35)
+	float32 m_flStartGoalFilterDistance(offset 0x38, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Goal Filter Start Distance"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5d59c0"
+	bool m_bFilterGoalOvershoot(offset 0x3c, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Filter By Goal Overshoot"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5d59c0"
+	uint8_t[3] unaccounted(offset 0x3d)
+	float32 m_flMaxGoalOvershootScale(offset 0x40, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Goal Overshoot Scale"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5d59d0"
+	uint8_t[4] unaccounted(offset 0x44)
+

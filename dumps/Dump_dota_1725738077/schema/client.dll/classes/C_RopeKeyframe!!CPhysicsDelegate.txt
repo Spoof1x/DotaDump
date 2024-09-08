@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_RopeKeyframe::CPhysicsDelegate (size: 0x10 bytes, project "client", binding @ client.dll + 0x46e6500, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class C_RopeKeyframe::CPhysicsDelegate-----
+	uint8_t[8] unaccounted(offset 0x0)
+	C_RopeKeyframe* m_pKeyframe(offset 0x8, size 0x8, align 0x8)
+

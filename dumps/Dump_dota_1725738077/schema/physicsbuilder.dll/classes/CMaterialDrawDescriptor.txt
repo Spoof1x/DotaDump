@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMaterialDrawDescriptor (size: 0xd0 bytes, project "modellib", binding @ physicsbuilder.dll + 0xa2f650, scope "physicsbuilder.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: physicsbuilder.dll + 0x3d0a00"
+
+-----members of class CMaterialDrawDescriptor-----
+	float32 m_flUvDensity(offset 0x0, size 0x4, align 0x4)
+	Vector m_vTintColor(offset 0x4, size 0xc, align 0x4)
+	float32 m_flAlpha(offset 0x10, size 0x4, align 0x4)
+	uint8_t[8] unaccounted(offset 0x14)
+	uint32 m_nFirstMeshlet(offset 0x1c, size 0x4, align 0x4)
+	uint16 m_nNumMeshlets(offset 0x20, size 0x2, align 0x2)
+	uint8_t[2] unaccounted(offset 0x22)
+	RenderPrimitiveType_t m_nPrimitiveType(offset 0x24, size 0x4, align 0x4)
+	int32 m_nBaseVertex(offset 0x28, size 0x4, align 0x4)
+	int32 m_nVertexCount(offset 0x2c, size 0x4, align 0x4)
+	int32 m_nStartIndex(offset 0x30, size 0x4, align 0x4)
+	int32 m_nIndexCount(offset 0x34, size 0x4, align 0x4)
+	uint8_t[96] unaccounted(offset 0x38)
+	CRenderBufferBinding m_indexBuffer(offset 0x98, size 0x20, align 0x8)
+	uint8_t[8] unaccounted(offset 0xb8)
+	CStrongHandle< InfoForResourceTypeIMaterial2 > m_material(offset 0xc0, size 0x8, align 0x8)
+	uint8_t[8] unaccounted(offset 0xc8)
+

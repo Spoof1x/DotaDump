@@ -1,0 +1,44 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmStateNode::CDefinition (size: 0xb0 bytes, project "animlib", binding @ resourcecompiler.dll + 0x244adf0, scope "resourcecompiler.dll") extends CNmPoseNode::CDefinition
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x867180"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmPoseNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ resourcecompiler.dll + 0x2445570, scope "resourcecompiler.dll") extends CNmGraphNode::CDefinition
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmGraphNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ resourcecompiler.dll + 0x24454f0, scope "resourcecompiler.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+		
+		-----members of class CNmGraphNode::CDefinition-----
+			uint8_t[8] unaccounted(offset 0x0)
+			int16 m_nNodeIdx(offset 0x8, size 0x2, align 0x2)
+			uint8_t[6] unaccounted(offset 0xa)
+		
+	
+	-----members of class CNmPoseNode::CDefinition-----
+		<no members>
+	
+
+-----members of class CNmStateNode::CDefinition-----
+	int16 m_nChildNodeIdx(offset 0x10, size 0x2, align 0x2)
+	uint8_t[6] unaccounted(offset 0x12)
+	CUtlLeanVectorFixedGrowable< CGlobalSymbol, 3 > m_entryEvents(offset 0x18, size 0x20, align 0x8)
+	CUtlLeanVectorFixedGrowable< CGlobalSymbol, 3 > m_executeEvents(offset 0x38, size 0x20, align 0x8)
+	CUtlLeanVectorFixedGrowable< CGlobalSymbol, 3 > m_exitEvents(offset 0x58, size 0x20, align 0x8)
+	CUtlLeanVectorFixedGrowable< CNmStateNode::TimedEvent_t, 1 > m_timedRemainingEvents(offset 0x78, size 0x18, align 0x8)
+	CUtlLeanVectorFixedGrowable< CNmStateNode::TimedEvent_t, 1 > m_timedElapsedEvents(offset 0x90, size 0x18, align 0x8)
+	int16 m_nLayerWeightNodeIdx(offset 0xa8, size 0x2, align 0x2)
+	int16 m_nLayerRootMotionWeightNodeIdx(offset 0xaa, size 0x2, align 0x2)
+	int16 m_nLayerBoneMaskNodeIdx(offset 0xac, size 0x2, align 0x2)
+	bool m_bIsOffState(offset 0xae, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0xaf)
+

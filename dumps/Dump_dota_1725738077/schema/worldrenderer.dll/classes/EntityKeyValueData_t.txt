@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EntityKeyValueData_t (size: 0x40 bytes, project "worldrenderer", binding @ worldrenderer.dll + 0x10ebc0, scope "worldrenderer.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: worldrenderer.dll + 0x2cdc0"
+
+-----members of class EntityKeyValueData_t-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlVector< EntityIOConnectionData_t > m_connections(offset 0x8, size 0x18, align 0x8)
+	CUtlBinaryBlock m_keyValuesData(offset 0x20, size 0x18, align 0x8)
+	uint8_t[8] unaccounted(offset 0x38)
+

@@ -1,0 +1,58 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseTurtleGraphicsCursor (size: 0xc0 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xced050, scope "pet.dll") extends CPulseExecCursor
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MPulseLibraryBindings "ptr: pet.dll + 0xced0c0"
+^MPulseInternal_IsCursor
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseExecCursor (size: 0xa8 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xce7c40, scope "pet.dll") extends IGapHost_YieldingCursor(MI offset 0x8)
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	^MPulseInternal_IsCursor
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IGapHost_YieldingCursor (size: 0x8 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xce7bc0, MI offset 0x8, scope "pet.dll") extends IGapHost_Cursor
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IGapHost_Cursor (size: 0x8 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xce7b40, scope "pet.dll") extends IGapHost_ExecLog
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+			| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+			
+				|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IGapHost_ExecLog (size: 0x8 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xce7ac0, scope "pet.dll")
+				| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+				| SCHEMA_CF1_IS_ABSTRACT
+				| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+				| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+				
+				-----members of class IGapHost_ExecLog-----
+					uint8_t[8] unaccounted(offset 0x0)
+				
+			
+			-----members of class IGapHost_Cursor-----
+				<no members>
+			
+		
+		-----members of class IGapHost_YieldingCursor-----
+			<no members>
+		
+	
+	-----members of class CPulseExecCursor-----
+		uint8_t[8] unaccounted(offset 0x0)
+		uint8_t[152] unaccounted(offset 0x10)
+	
+
+-----members of class CPulseTurtleGraphicsCursor-----
+	Color m_Color(offset 0xa8, size 0x4, align 0x1)
+	Vector2D m_vPos(offset 0xac, size 0x8, align 0x4)
+	float32 m_flHeadingDeg(offset 0xb4, size 0x4, align 0x4)
+	bool m_bPenUp(offset 0xb8, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0xb9)
+

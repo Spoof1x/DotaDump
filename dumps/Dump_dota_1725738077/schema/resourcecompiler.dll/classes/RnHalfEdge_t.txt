@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RnHalfEdge_t (size: 0x4 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a51b0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1389fe0"
+
+-----members of class RnHalfEdge_t-----
+	uint8 m_nNext(offset 0x0, size 0x1, align 0x1)
+	uint8 m_nTwin(offset 0x1, size 0x1, align 0x1)
+	uint8 m_nOrigin(offset 0x2, size 0x1, align 0x1)
+	uint8 m_nFace(offset 0x3, size 0x1, align 0x1)
+

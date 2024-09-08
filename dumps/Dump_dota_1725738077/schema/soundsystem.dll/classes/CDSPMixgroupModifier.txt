@@ -1,0 +1,26 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDSPMixgroupModifier (size: 0x20 bytes, project "soundsystem", binding @ soundsystem.dll + 0x39e880, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x18f0d0"
+
+-----members of class CDSPMixgroupModifier-----
+	CUtlString m_mixgroup(offset 0x0, size 0x8, align 0x8)
+		^MPropertyDescription "Name of the mixgroup. TODO: needs to be autopopulated with mixgroups."
+		^MPropertyFriendlyName "Mixgroup Name"
+	float32 m_flModifier(offset 0x8, size 0x4, align 0x4)
+		^MPropertyDescription "The amount to multiply the volume of the non-spatialized reverb/dsp by when at the max reverb blend distance. 1.0 leaves the volume unchanged."
+		^MPropertyFriendlyName "Max reverb gain amount for listener DSP."
+	float32 m_flModifierMin(offset 0xc, size 0x4, align 0x4)
+		^MPropertyDescription "The amount to multiply the volume of the non-spatialized reverb/dsp by when at the min reverb blend distance. 1.0 leaves the volume unchanged."
+		^MPropertyFriendlyName "Min reverb gain amount amount for listener DSP."
+	float32 m_flSourceModifier(offset 0x10, size 0x4, align 0x4)
+		^MPropertyDescription "If set to >= 0, we will use this mix modifier for source-specific DSP effects. Otherwise we will use the listener DSP value."
+		^MPropertyFriendlyName "Max reverb gain amount for source-specific DSP."
+	float32 m_flSourceModifierMin(offset 0x14, size 0x4, align 0x4)
+		^MPropertyDescription "If set to >= 0, we will use this mix modifier for source-specific DSP effects. Otherwise we will use the listener DSP value."
+		^MPropertyFriendlyName "Min reverb gain amount for source-specific DSP."
+	float32 m_flListenerReverbModifierWhenSourceReverbIsActive(offset 0x18, size 0x4, align 0x4)
+		^MPropertyDescription "When a source has source-specific DSP, this can be used as an additional mix stage for the listener reverb amount."
+		^MPropertyFriendlyName "Modification amount for listener DSP when source DSP is used."
+	uint8_t[4] unaccounted(offset 0x1c)
+

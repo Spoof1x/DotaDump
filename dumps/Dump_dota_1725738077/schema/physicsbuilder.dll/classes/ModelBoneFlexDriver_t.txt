@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ModelBoneFlexDriver_t (size: 0x28 bytes, project "modellib", binding @ physicsbuilder.dll + 0xa31460, scope "physicsbuilder.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: physicsbuilder.dll + 0x3f2580"
+
+-----members of class ModelBoneFlexDriver_t-----
+	CUtlString m_boneName(offset 0x0, size 0x8, align 0x8)
+	uint32 m_boneNameToken(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlVector< ModelBoneFlexDriverControl_t > m_controls(offset 0x10, size 0x18, align 0x8)
+

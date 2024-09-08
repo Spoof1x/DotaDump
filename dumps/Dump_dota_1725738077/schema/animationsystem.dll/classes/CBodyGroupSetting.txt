@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBodyGroupSetting (size: 0x10 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a92b0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1a4c70"
+^MPropertyFriendlyName "Body Group Setting"
+^MPropertyElementNameFn "func: animationsystem.dll + 0x263530"
+
+-----members of class CBodyGroupSetting-----
+	CUtlString m_BodyGroupName(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "BodyGroup"
+		^MPropertyAttributeChoiceName "BodyGroup"
+		^MPropertyAutoRebuildOnChange
+	int32 m_nBodyGroupOption(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "BodyGroup Option"
+		^MPropertyAttributeChoiceName "BodyGroupOption"
+		^MPropertyAttrExtraInfoFn "func: animationsystem.dll + 0x2634d0"
+	uint8_t[4] unaccounted(offset 0xc)
+

@@ -1,0 +1,29 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_FootCycleMetric (size: 0x40 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f6bf0, scope "!GlobalTypes") extends CAnimGraphDoc_MotionMetric
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5d04d0"
+^MPropertyFriendlyName "Foot Cycle Metric"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_MotionMetric (size: 0x28 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f69a0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_MotionMetric-----
+		uint8_t[32] unaccounted(offset 0x0)
+		float32 m_flWeight(offset 0x20, size 0x4, align 0x4)
+			^MPropertyHideField
+		uint8_t[4] unaccounted(offset 0x24)
+	
+
+-----members of class CAnimGraphDoc_FootCycleMetric-----
+	CUtlVector< CUtlString > m_feet(offset 0x28, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Foot"
+		^MPropertyAttributeChoiceName "Foot"
+		^MPropertyAutoExpandSelf
+

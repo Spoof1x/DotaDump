@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAssetWarning (size: 0x40 bytes, project "toolutils2", binding @ resourcecompiler.dll + 0x24d2d60, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1721e90"
+
+-----members of class CAssetWarning-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CBufferString m_Title(offset 0x8, size 0x10, align 0x8)
+	CBufferString m_Message(offset 0x18, size 0x10, align 0x8)
+	CUtlVector< CAssetWarningCheck > m_Checks(offset 0x28, size 0x18, align 0x8)
+

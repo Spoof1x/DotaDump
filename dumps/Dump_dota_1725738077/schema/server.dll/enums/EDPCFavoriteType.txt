@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EDPCFavoriteType(size: 4 bytes, 4 values, project "server", binding @ server.dll + 0x38e2530):
+	FAVORITE_TYPE_ALL = 0,
+	FAVORITE_TYPE_PLAYER = 1,
+	FAVORITE_TYPE_TEAM = 2,
+	FAVORITE_TYPE_LEAGUE = 3,

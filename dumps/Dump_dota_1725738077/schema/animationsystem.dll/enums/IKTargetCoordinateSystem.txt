@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum IKTargetCoordinateSystem(size: 4 bytes, 3 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a76a0):
+	IKTARGETCOORDINATESYSTEM_WorldSpace = 0,
+		^MPropertyFriendlyName "World Space"
+	IKTARGETCOORDINATESYSTEM_ModelSpace = 1,
+		^MPropertyFriendlyName "Model Space"
+	IKTARGETCOORDINATESYSTEM_COUNT = 2,

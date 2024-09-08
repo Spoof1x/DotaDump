@@ -1,0 +1,38 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropChoice (size: 0x38 bytes, project "smartprops", binding @ pet.dll + 0xd1c8e0, scope "pet.dll") extends CSmartPropParameter
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: pet.dll + 0x934420"
+^MPropertyFriendlyName "Choice"
+^MVDataAnonymousNode
+^MVDataOutlinerNameExpr "m_Name"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropParameter (size: 0x10 bytes, project "smartprops", binding @ pet.dll + 0xd1bc50, scope "pet.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: pet.dll + 0x623c0"
+	^MVDataRoot
+	^MVDataNodeType "1"
+	^MVDataAnonymousNode
+	
+	-----members of class CSmartPropParameter-----
+		uint8_t[8] unaccounted(offset 0x0)
+		int32 m_nElementID(offset 0x8, size 0x4, align 0x4)
+			^MPropertySuppressField
+			^MVDataUniqueMonotonicInt "_editor/next_element_id"
+		uint8_t[4] unaccounted(offset 0xc)
+	
+
+-----members of class CSmartPropChoice-----
+	CUtlString m_Name(offset 0x10, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Choice Name"
+	CUtlString m_DefaultOption(offset 0x18, size 0x8, align 0x8)
+		^MPropertyAttributeChoiceName "smartprop_choice_options"
+	CUtlVector< CSmartPropChoiceOption > m_Options(offset 0x20, size 0x18, align 0x8)
+		^MPropertyAutoExpandSelf
+

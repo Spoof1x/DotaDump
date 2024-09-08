@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CNmIDComparisonNode::Comparison_t(size: 1 bytes, 2 values, project "animlib", binding @ animationsystem.dll + 0x5db9c0):
+	Matches = 0,
+	DoesntMatch = 1,

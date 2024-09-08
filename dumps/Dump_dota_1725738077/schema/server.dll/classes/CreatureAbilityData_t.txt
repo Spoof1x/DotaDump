@@ -1,0 +1,28 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CreatureAbilityData_t (size: 0x34 bytes, project "server", binding @ server.dll + 0x3ae5bf0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class CreatureAbilityData_t-----
+	CHandle< CBaseEntity > hAbility(offset 0x0, size 0x4, align 0x4)
+	bool bIsDamage(offset 0x4, size 0x1, align 0x1)
+	bool bIsDebuff(offset 0x5, size 0x1, align 0x1)
+	bool bIsStun(offset 0x6, size 0x1, align 0x1)
+	bool bIsAOE(offset 0x7, size 0x1, align 0x1)
+	bool bIsLinear(offset 0x8, size 0x1, align 0x1)
+	bool bUseOnCreeps(offset 0x9, size 0x1, align 0x1)
+	bool bIsHeal(offset 0xa, size 0x1, align 0x1)
+	bool bIsBuff(offset 0xb, size 0x1, align 0x1)
+	bool bUseSelfishly(offset 0xc, size 0x1, align 0x1)
+	bool bCanHelpOthersEscape(offset 0xd, size 0x1, align 0x1)
+	bool bUseOnTrees(offset 0xe, size 0x1, align 0x1)
+	bool bUseOnStrongestAlly(offset 0xf, size 0x1, align 0x1)
+	int32 nUseAtHealthPercent(offset 0x10, size 0x4, align 0x4)
+	int32 nRadius(offset 0x14, size 0x4, align 0x4)
+	int32 nMinimumTargets(offset 0x18, size 0x4, align 0x4)
+	int32 nMaximumTargets(offset 0x1c, size 0x4, align 0x4)
+	int32 nMinimumHP(offset 0x20, size 0x4, align 0x4)
+	int32 nMinimumRange(offset 0x24, size 0x4, align 0x4)
+	float32 flInitialCooldownMin(offset 0x28, size 0x4, align 0x4)
+	float32 flInitialCooldownMax(offset 0x2c, size 0x4, align 0x4)
+	CreatureAbilityType nAbilityType(offset 0x30, size 0x4, align 0x4)
+

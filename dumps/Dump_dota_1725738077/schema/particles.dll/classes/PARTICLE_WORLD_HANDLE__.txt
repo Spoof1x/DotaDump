@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PARTICLE_WORLD_HANDLE__ (size: 0x4 bytes, project "particleslib", binding @ particles.dll + 0x505c00, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class PARTICLE_WORLD_HANDLE__-----
+	int32 unused(offset 0x0, size 0x4, align 0x4)
+

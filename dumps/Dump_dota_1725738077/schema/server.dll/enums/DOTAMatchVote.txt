@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTAMatchVote(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x38e1950):
+	DOTAMatchVote_INVALID = 0,
+	DOTAMatchVote_POSITIVE = 1,
+	DOTAMatchVote_NEGATIVE = 2,

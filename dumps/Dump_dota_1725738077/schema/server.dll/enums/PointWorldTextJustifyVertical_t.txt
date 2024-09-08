@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PointWorldTextJustifyVertical_t(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x3a717a0):
+	POINT_WORLD_TEXT_JUSTIFY_VERTICAL_BOTTOM = 0,
+	POINT_WORLD_TEXT_JUSTIFY_VERTICAL_CENTER = 1,
+	POINT_WORLD_TEXT_JUSTIFY_VERTICAL_TOP = 2,

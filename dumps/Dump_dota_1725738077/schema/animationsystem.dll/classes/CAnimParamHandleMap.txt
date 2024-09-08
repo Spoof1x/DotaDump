@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimParamHandleMap (size: 0x20 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a79b0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x18c100"
+
+-----members of class CAnimParamHandleMap-----
+	CUtlHashtable< uint16, int16 > m_list(offset 0x0, size 0x20, align 0x8)
+

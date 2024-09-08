@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDrawCullingData (size: 0x10 bytes, project "modellib", binding @ resourcecompiler.dll + 0x2495e90, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x115fea0"
+
+-----members of class CDrawCullingData-----
+	Vector m_vConeApex(offset 0x0, size 0xc, align 0x4)
+	int8[3] m_ConeAxis(offset 0xc, size 0x3, align 0x1)
+	int8 m_ConeCutoff(offset 0xf, size 0x1, align 0x1)
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RagdollCreationParams_t (size: 0x14 bytes, project "server", binding @ server.dll + 0x38a0a20, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class RagdollCreationParams_t-----
+	Vector m_vForce(offset 0x0, size 0xc, align 0x4)
+	int32 m_nForceBone(offset 0xc, size 0x4, align 0x4)
+	bool m_bForceCurrentWorldTransform(offset 0x10, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x11)
+

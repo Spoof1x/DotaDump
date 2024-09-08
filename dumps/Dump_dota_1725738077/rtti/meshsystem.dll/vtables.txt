@@ -1,0 +1,142 @@
+CAimConstraint
+	meshsystem.dll + 0xebe50(hierarchy CAimConstraint: CBaseConstraint, CBoneConstraintBase)
+CAnimSkeleton
+	meshsystem.dll + 0xef818(hierarchy CAnimSkeleton: CMutableRefCounted<class CMutableRefCountBase<class CRefMT> >, CMutableRefCountBase<class CRefMT>)
+CBaseConstraint
+	meshsystem.dll + 0xefda8(hierarchy CBaseConstraint: CBoneConstraintBase)
+CBaseIntrospectedToKV3TypeManager
+	meshsystem.dll + 0xf17d0(hierarchy CBaseIntrospectedToKV3TypeManager: IResourceTypeManager)
+CBaseIntrospectedToKV3TypeManager::AsyncProcessResult
+	meshsystem.dll + 0xf17c0(hierarchy CBaseIntrospectedToKV3TypeManager::AsyncProcessResult: IAsyncProcessedDataResult)
+CBoneConstraintBase
+	meshsystem.dll + 0xebcf0(hierarchy CBoneConstraintBase)
+CBoneConstraintDotToMorph
+	meshsystem.dll + 0xebfb8(hierarchy CBoneConstraintDotToMorph: CBoneConstraintBase)
+CBoneConstraintPoseSpaceBone
+	meshsystem.dll + 0xeff80(hierarchy CBoneConstraintPoseSpaceBone: CBaseConstraint, CBoneConstraintBase)
+CBoneConstraintPoseSpaceMorph
+	meshsystem.dll + 0xeff10(hierarchy CBoneConstraintPoseSpaceMorph: CBoneConstraintBase)
+CBreakLegacyParser
+	meshsystem.dll + 0xec1c0(hierarchy CBreakLegacyParser: IVPhysicsLegacyKeyHandler)
+CEmptySequence
+	meshsystem.dll + 0xe8cb0(hierarchy CEmptySequence: ISequence, IBaseSequence)
+CInputLayoutRegistration_g_hSkeletonMeshLayout
+	meshsystem.dll + 0xfdbd0(hierarchy CInputLayoutRegistration_g_hSkeletonMeshLayout: CPostConnectCallback)
+CKV3ResourceBlockHelper
+	meshsystem.dll + 0xf1790(hierarchy CKV3ResourceBlockHelper: IAsyncProcessedDataResult)
+CKV3TransferContextBase
+	meshsystem.dll + 0xf2cd0(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferLoadContext
+	meshsystem.dll + 0xf2d40(hierarchy CKV3TransferLoadContext: CKV3TransferContextBase, IErrorListener)
+CKV3TransferSaveContext
+	meshsystem.dll + 0xf2d08(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CKV3Transfer_ResourceLoadInterface
+	meshsystem.dll + 0xf1780(hierarchy CKV3Transfer_ResourceLoadInterface: IKV3TransferInterface_ResourceLoad)
+CMeshInstance
+	meshsystem.dll + 0xfc288(hierarchy CMeshInstance)
+CMeshInstance_Imp
+	meshsystem.dll + 0xfc218(hierarchy CMeshInstance_Imp: CMeshInstance)
+CMeshRayTrace
+	meshsystem.dll + 0xfe3f0(hierarchy CMeshRayTrace: CRefCounted1<class IMeshRayTrace,class CRefCountServiceBase<class CRefMT> >, IMeshRayTrace, IRefCounted, CRefCountServiceBase<class CRefMT>)
+CMeshSystem
+	meshsystem.dll + 0xfc308(hierarchy CMeshSystem: CTier3AppSystem<class IMeshSystem,0>, CTier2AppSystem<class IMeshSystem,0>, CTier1AppSystem<class IMeshSystem,0>, CTier0AppSystem<class IMeshSystem,0>, CBaseAppSystem<class IMeshSystem>, IMeshSystem, IAppSystem)
+CMeshUtils
+	meshsystem.dll + 0xfdbe0(hierarchy CMeshUtils: CTier3AppSystem<class IMeshUtils,0>, CTier2AppSystem<class IMeshUtils,0>, CTier1AppSystem<class IMeshUtils,0>, CTier0AppSystem<class IMeshUtils,0>, CBaseAppSystem<class IMeshUtils>, IMeshUtils, IAppSystem)
+CModel
+	meshsystem.dll + 0xe8ef8(hierarchy CModel)
+CModelConfigElement
+	meshsystem.dll + 0xee830(hierarchy CModelConfigElement)
+CModelConfigElement_AttachedModel
+	meshsystem.dll + 0xee878(hierarchy CModelConfigElement_AttachedModel: CModelConfigElement)
+CModelConfigElement_Command
+	meshsystem.dll + 0xeeb00(hierarchy CModelConfigElement_Command: CModelConfigElement)
+CModelConfigElement_RandomColor
+	meshsystem.dll + 0xeea28(hierarchy CModelConfigElement_RandomColor: CModelConfigElement)
+CModelConfigElement_RandomPick
+	meshsystem.dll + 0xee908(hierarchy CModelConfigElement_RandomPick: CModelConfigElement)
+CModelConfigElement_SetBodygroup
+	meshsystem.dll + 0xeea70(hierarchy CModelConfigElement_SetBodygroup: CModelConfigElement)
+CModelConfigElement_SetBodygroupOnAttachedModels
+	meshsystem.dll + 0xeeab8(hierarchy CModelConfigElement_SetBodygroupOnAttachedModels: CModelConfigElement)
+CModelConfigElement_SetMaterialGroup
+	meshsystem.dll + 0xee950(hierarchy CModelConfigElement_SetMaterialGroup: CModelConfigElement)
+CModelConfigElement_SetMaterialGroupOnAttachedModels
+	meshsystem.dll + 0xee998(hierarchy CModelConfigElement_SetMaterialGroupOnAttachedModels: CModelConfigElement)
+CModelConfigElement_SetRenderColor
+	meshsystem.dll + 0xee9e0(hierarchy CModelConfigElement_SetRenderColor: CModelConfigElement)
+CModelConfigElement_UserPick
+	meshsystem.dll + 0xee8c0(hierarchy CModelConfigElement_UserPick: CModelConfigElement)
+CModelTypeManager
+	meshsystem.dll + 0xfc690(hierarchy CModelTypeManager: CTypesafeIntrospectedToKV3TypeManager<1818520950,struct PermModelData_t>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager, IToolsResourceListener, IShaderReloadListener)
+	meshsystem.dll + 0xfc760 MI offset 32(hierarchy IToolsResourceListener: IShaderReloadListener)
+	meshsystem.dll + 0xfc748 MI offset 40(hierarchy IShaderReloadListener)
+CModelTypeManager::AsyncProcessDataResults
+	meshsystem.dll + 0xfc448(hierarchy CModelTypeManager::AsyncProcessDataResults: IAsyncProcessedDataResult)
+CModel_Imp
+	meshsystem.dll + 0xfdc48(hierarchy CModel_Imp: CModel)
+CMorphConstraint
+	meshsystem.dll + 0xefe98(hierarchy CMorphConstraint: CBaseConstraint, CBoneConstraintBase)
+CMorphSetData
+	meshsystem.dll + 0xea838(hierarchy CMorphSetData: CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+CMorphSetManagerV0
+	meshsystem.dll + 0xfddd0(hierarchy CMorphSetManagerV0: CTypesafeIntrospectedToKV3TypeManager<440006569334,struct CMorphSetData>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager)
+COrientConstraint
+	meshsystem.dll + 0xebdd8(hierarchy COrientConstraint: CBaseConstraint, CBoneConstraintBase)
+CParentConstraint
+	meshsystem.dll + 0xebf40(hierarchy CParentConstraint: CBaseConstraint, CBoneConstraintBase)
+CPointConstraint
+	meshsystem.dll + 0xebd60(hierarchy CPointConstraint: CBaseConstraint, CBoneConstraintBase)
+CPostConnectCallback
+	meshsystem.dll + 0xf2c60(hierarchy CPostConnectCallback)
+CRenderMesh
+	meshsystem.dll + 0xe9098(hierarchy CRenderMesh: CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+CRenderMeshManager
+	meshsystem.dll + 0xfe348(hierarchy CRenderMeshManager: IResourceTypeManager)
+CRenderMeshManager::AsyncProcessDataResult
+	meshsystem.dll + 0xfe3e0(hierarchy CRenderMeshManager::AsyncProcessDataResult: IAsyncProcessedDataResult)
+CSceneObject
+	meshsystem.dll + 0xfda18(hierarchy CSceneObject)
+CSceneSkeletonObject
+	meshsystem.dll + 0xfda40(hierarchy CSceneSkeletonObject: CSceneObject)
+CSceneSkeletonObjectDesc
+	meshsystem.dll + 0xfda68(hierarchy CSceneSkeletonObjectDesc: ISceneObjectDescBase<class CSceneSkeletonObject>, ISceneObjectDesc)
+CSchemaInstallCallback
+	meshsystem.dll + 0xf3560(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_modellib
+	meshsystem.dll + 0xe9cf8(hierarchy CSchemaRegistration_modellib: CSchemaRegistration)
+CSyncModelResourceUtils
+	meshsystem.dll + 0xfe6c8(hierarchy CSyncModelResourceUtils: IRD_RegisterResourceDataUtils)
+CTiltTwistConstraint
+	meshsystem.dll + 0xefe20(hierarchy CTiltTwistConstraint: CBaseConstraint, CBoneConstraintBase)
+CTwistConstraint
+	meshsystem.dll + 0xebec8(hierarchy CTwistConstraint: CBaseConstraint, CBoneConstraintBase)
+CUtlMultiJobProcessor
+	meshsystem.dll + 0xf14d0(hierarchy CUtlMultiJobProcessor)
+IAsyncProcessedDataResult
+	meshsystem.dll + 0xf1770(hierarchy IAsyncProcessedDataResult)
+IRefCounted
+	meshsystem.dll + 0xfe428(hierarchy IRefCounted)
+`public: virtual void * __ptr64 __cdecl CTypesafeIntrospectedToKV3TypeManager<1818520950,struct PermModelData_t>::AllocateAndLoad(class CKV3TransferLoadContext & __ptr64,struct ResourceBindingBase_t const * __ptr64,class IRD_RegisterResourceDataUtils * __ptr64) __ptr64'::`2'::CAllocatorUtils
+	meshsystem.dll + 0xfc640(hierarchy `public: virtual void * __ptr64 __cdecl CTypesafeIntrospectedToKV3TypeManager<1818520950,struct PermModelData_t>::AllocateAndLoad(class CKV3TransferLoadContext & __ptr64,struct ResourceBindingBase_t const * __ptr64,class IRD_RegisterResourceDataUtils * __ptr64) __ptr64'::`2'::CAllocatorUtils: CTypesafeIntrospectedToKV3TypeManager<1818520950,struct PermModelData_t>::IKV3ResourceAllocatorUtils)
+`public: virtual void * __ptr64 __cdecl CTypesafeIntrospectedToKV3TypeManager<440006569334,struct CMorphSetData>::AllocateAndLoad(class CKV3TransferLoadContext & __ptr64,struct ResourceBindingBase_t const * __ptr64,class IRD_RegisterResourceDataUtils * __ptr64) __ptr64'::`2'::CAllocatorUtils
+	meshsystem.dll + 0xfdda8(hierarchy `public: virtual void * __ptr64 __cdecl CTypesafeIntrospectedToKV3TypeManager<440006569334,struct CMorphSetData>::AllocateAndLoad(class CKV3TransferLoadContext & __ptr64,struct ResourceBindingBase_t const * __ptr64,class IRD_RegisterResourceDataUtils * __ptr64) __ptr64'::`2'::CAllocatorUtils: CTypesafeIntrospectedToKV3TypeManager<440006569334,struct CMorphSetData>::IKV3ResourceAllocatorUtils)
+`public: virtual void __cdecl CTypesafeIntrospectedToKV3TypeManager<1818520950,struct PermModelData_t>::DeallocateDestroyCleanup(void * __ptr64,class IResourceDeallocatorUtils * __ptr64) __ptr64'::`2'::CDeallocatorUtils
+	meshsystem.dll + 0xfc630(hierarchy `public: virtual void __cdecl CTypesafeIntrospectedToKV3TypeManager<1818520950,struct PermModelData_t>::DeallocateDestroyCleanup(void * __ptr64,class IResourceDeallocatorUtils * __ptr64) __ptr64'::`2'::CDeallocatorUtils: CTypesafeIntrospectedToKV3TypeManager<1818520950,struct PermModelData_t>::IKV3ResourceDeallocatorUtils)
+`public: virtual void __cdecl CTypesafeIntrospectedToKV3TypeManager<440006569334,struct CMorphSetData>::DeallocateDestroyCleanup(void * __ptr64,class IResourceDeallocatorUtils * __ptr64) __ptr64'::`2'::CDeallocatorUtils
+	meshsystem.dll + 0xfddc0(hierarchy `public: virtual void __cdecl CTypesafeIntrospectedToKV3TypeManager<440006569334,struct CMorphSetData>::DeallocateDestroyCleanup(void * __ptr64,class IResourceDeallocatorUtils * __ptr64) __ptr64'::`2'::CDeallocatorUtils: CTypesafeIntrospectedToKV3TypeManager<440006569334,struct CMorphSetData>::IKV3ResourceDeallocatorUtils)
+std::_Func_impl_no_alloc<class `private: void __cdecl RayTracingEnvironment::RefineNode(int,int const * __ptr64,int,struct TriangleBounds_t const * __ptr64,class Vec3D<float>,class Vec3D<float>,int,class CUtlMultiJobProcessor * __ptr64) __ptr64'::`12'::<lambda_1>,void>
+	meshsystem.dll + 0xf1688(hierarchy std::_Func_impl_no_alloc<class `private: void __cdecl RayTracingEnvironment::RefineNode(int,int const * __ptr64,int,struct TriangleBounds_t const * __ptr64,class Vec3D<float>,class Vec3D<float>,int,class CUtlMultiJobProcessor * __ptr64) __ptr64'::`12'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `private: void __cdecl RayTracingEnvironment::RefineNode(int,int const * __ptr64,int,struct TriangleBounds_t const * __ptr64,class Vec3D<float>,class Vec3D<float>,int,class CUtlMultiJobProcessor * __ptr64) __ptr64'::`25'::<lambda_2>,void>
+	meshsystem.dll + 0xf16c0(hierarchy std::_Func_impl_no_alloc<class `private: void __cdecl RayTracingEnvironment::RefineNode(int,int const * __ptr64,int,struct TriangleBounds_t const * __ptr64,class Vec3D<float>,class Vec3D<float>,int,class CUtlMultiJobProcessor * __ptr64) __ptr64'::`25'::<lambda_2>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: int __cdecl CDecalDrawDataRefCounted::Release(void) __ptr64'::`5'::<lambda_1>,void>
+	meshsystem.dll + 0xfc658(hierarchy std::_Func_impl_no_alloc<class `public: int __cdecl CDecalDrawDataRefCounted::Release(void) __ptr64'::`5'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl RayTracingEnvironment::SetupAccelerationStructure(void) __ptr64'::`2'::<lambda_1>,void>
+	meshsystem.dll + 0xf16f8(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl RayTracingEnvironment::SetupAccelerationStructure(void) __ptr64'::`2'::<lambda_1>,void>: std::_Func_base<void>)
+std::bad_exception
+	meshsystem.dll + 0xf4818(hierarchy std::bad_exception: std::exception)
+std::bad_function_call
+	meshsystem.dll + 0xf35c8(hierarchy std::bad_function_call: std::exception)
+std::exception
+	meshsystem.dll + 0xf14a0(hierarchy std::exception)
+type_info
+	meshsystem.dll + 0xf4608(hierarchy type_info)

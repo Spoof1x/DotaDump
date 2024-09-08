@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum Fantasy_Roles(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x46ffa80):
+	FANTASY_ROLE_UNDEFINED = 0,
+	FANTASY_ROLE_CORE = 1,
+	FANTASY_ROLE_SUPPORT = 2,
+	FANTASY_ROLE_OFFLANE = 3,
+	FANTASY_ROLE_MID = 4,

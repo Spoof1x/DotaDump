@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class DOTALevelingAbilityBonus_t (size: 0x28 bytes, project "client", binding @ client.dll + 0x480fa30, scope "!GlobalTypes")
+
+-----members of class DOTALevelingAbilityBonus_t-----
+	char* m_pszName(offset 0x0, size 0x8, align 0x8)
+	CUtlVector< float32 > m_vecValues(offset 0x8, size 0x18, align 0x8)
+	EDOTASpecialBonusOperation m_eOperation(offset 0x20, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x21)
+

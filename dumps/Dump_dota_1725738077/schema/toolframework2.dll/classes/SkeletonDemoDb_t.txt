@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class SkeletonDemoDb_t (size: 0x38 bytes, project "modellib", binding @ toolframework2.dll + 0x930120, scope "toolframework2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x3f1a50"
+
+-----members of class SkeletonDemoDb_t-----
+	CUtlVector< SkeletonAnimCapture_t* > m_AnimCaptures(offset 0x0, size 0x18, align 0x8)
+	CUtlVector< SkeletonAnimCapture_t::Camera_t > m_CameraTrack(offset 0x18, size 0x18, align 0x8)
+	float32 m_flRecordingTime(offset 0x30, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x34)
+

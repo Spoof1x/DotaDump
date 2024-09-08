@@ -1,0 +1,157 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphNetworkedVariables (size: 0x208 bytes, project "server", binding @ server.dll + 0x38d3ec0, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MIgnoreTypeScopeMetaChecks
+^MNetworkVarNames "m_PredNetBoolVariables uint32"
+^MNetworkVarNames "m_PredNetByteVariables byte"
+^MNetworkVarNames "m_PredNetUInt16Variables uint16"
+^MNetworkVarNames "m_PredNetIntVariables int32"
+^MNetworkVarNames "m_PredNetUInt32Variables uint32"
+^MNetworkVarNames "m_PredNetUInt64Variables uint64"
+^MNetworkVarNames "m_PredNetFloatVariables float"
+^MNetworkVarNames "m_PredNetVectorVariables Vector"
+^MNetworkVarNames "m_PredNetQuaternionVariables Quaternion"
+^MNetworkVarNames "m_PredNetGlobalSymbolVariables CGlobalSymbol"
+^MNetworkVarNames "m_OwnerOnlyPredNetBoolVariables uint32"
+^MNetworkVarNames "m_OwnerOnlyPredNetByteVariables byte"
+^MNetworkVarNames "m_OwnerOnlyPredNetUInt16Variables uint16"
+^MNetworkVarNames "m_OwnerOnlyPredNetIntVariables int32"
+^MNetworkVarNames "m_OwnerOnlyPredNetUInt32Variables uint32"
+^MNetworkVarNames "m_OwnerOnlyPredNetUInt64Variables uint64"
+^MNetworkVarNames "m_OwnerOnlyPredNetFloatVariables float"
+^MNetworkVarNames "m_OwnerOnlyPredNetVectorVariables Vector"
+^MNetworkVarNames "m_OwnerOnlyPredNetQuaternionVariables Quaternion"
+^MNetworkVarNames "m_OwnerOnlyPredNetGlobalSymbolVariables CGlobalSymbol"
+^MNetworkVarNames "m_nBoolVariablesCount int"
+^MNetworkVarNames "m_nOwnerOnlyBoolVariablesCount int"
+^MNetworkVarNames "m_nRandomSeedOffset int"
+^MNetworkVarNames "m_flLastTeleportTime float"
+
+-----members of class CAnimGraphNetworkedVariables-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CNetworkUtlVectorBase< uint32 > m_PredNetBoolVariables(offset 0x8, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkChangeCallback "OnNetBoolVarChanged"
+		^MNetworkAlias "m_PredBoolVariables"
+	CNetworkUtlVectorBase< uint8 > m_PredNetByteVariables(offset 0x20, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkChangeCallback "OnNetByteVarChanged"
+		^MNetworkAlias "m_PredByteVariables"
+	CNetworkUtlVectorBase< uint16 > m_PredNetUInt16Variables(offset 0x38, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkChangeCallback "OnNetUInt16VarChanged"
+		^MNetworkAlias "m_PredUInt16Variables"
+	CNetworkUtlVectorBase< int32 > m_PredNetIntVariables(offset 0x50, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkChangeCallback "OnNetIntVarChanged"
+		^MNetworkAlias "m_PredIntVariables"
+	CNetworkUtlVectorBase< uint32 > m_PredNetUInt32Variables(offset 0x68, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkChangeCallback "OnNetUInt32VarChanged"
+		^MNetworkAlias "m_PredUInt32Variables"
+	CNetworkUtlVectorBase< uint64 > m_PredNetUInt64Variables(offset 0x80, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkChangeCallback "OnNetUInt64VarChanged"
+		^MNetworkAlias "m_PredUInt64Variables"
+	CNetworkUtlVectorBase< float32 > m_PredNetFloatVariables(offset 0x98, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkChangeCallback "OnNetFloatVarChanged"
+		^MNetworkAlias "m_PredFloatVariables"
+	CNetworkUtlVectorBase< Vector > m_PredNetVectorVariables(offset 0xb0, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkChangeCallback "OnNetVectorVarChanged"
+		^MNetworkAlias "m_PredVectorVariables"
+	CNetworkUtlVectorBase< Quaternion > m_PredNetQuaternionVariables(offset 0xc8, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkChangeCallback "OnNetQuaternionVarChanged"
+		^MNetworkAlias "m_PredQuaternionVariables"
+	CNetworkUtlVectorBase< CGlobalSymbol > m_PredNetGlobalSymbolVariables(offset 0xe0, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkChangeCallback "OnNetGlobalSymbolVarChanged"
+		^MNetworkAlias "m_PredGlobalSymbolVariables"
+	CNetworkUtlVectorBase< uint32 > m_OwnerOnlyPredNetBoolVariables(offset 0xf8, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkSendProxyRecipientsFilter "func: nullptr"
+		^MNetworkChangeCallback "OnNetOOBoolVarChanged"
+		^MNetworkAlias "m_OwnerOnlyPredNetBoolVariables"
+	CNetworkUtlVectorBase< uint8 > m_OwnerOnlyPredNetByteVariables(offset 0x110, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkSendProxyRecipientsFilter "func: nullptr"
+		^MNetworkChangeCallback "OnNetOOByteVarChanged"
+		^MNetworkAlias "m_OwnerOnlyPredNetByteVariables"
+	CNetworkUtlVectorBase< uint16 > m_OwnerOnlyPredNetUInt16Variables(offset 0x128, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkSendProxyRecipientsFilter "func: nullptr"
+		^MNetworkChangeCallback "OnNetOOUInt16VarChanged"
+		^MNetworkAlias "m_OwnerOnlyPredNetUInt16Variables"
+	CNetworkUtlVectorBase< int32 > m_OwnerOnlyPredNetIntVariables(offset 0x140, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkSendProxyRecipientsFilter "func: nullptr"
+		^MNetworkChangeCallback "OnNetOOIntVarChanged"
+		^MNetworkAlias "m_OwnerOnlyPredNetIntVariables"
+	CNetworkUtlVectorBase< uint32 > m_OwnerOnlyPredNetUInt32Variables(offset 0x158, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkSendProxyRecipientsFilter "func: nullptr"
+		^MNetworkChangeCallback "OnNetOOUInt32VarChanged"
+		^MNetworkAlias "m_OwnerOnlyPredNetUInt32Variables"
+	CNetworkUtlVectorBase< uint64 > m_OwnerOnlyPredNetUInt64Variables(offset 0x170, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkSendProxyRecipientsFilter "func: nullptr"
+		^MNetworkChangeCallback "OnNetOOUInt64VarChanged"
+		^MNetworkAlias "m_OwnerOnlyPredNetUInt64Variables"
+	CNetworkUtlVectorBase< float32 > m_OwnerOnlyPredNetFloatVariables(offset 0x188, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkSendProxyRecipientsFilter "func: nullptr"
+		^MNetworkChangeCallback "OnNetOOFloatVarChanged"
+		^MNetworkAlias "m_OwnerOnlyPredNetFloatVariables"
+	CNetworkUtlVectorBase< Vector > m_OwnerOnlyPredNetVectorVariables(offset 0x1a0, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkSendProxyRecipientsFilter "func: nullptr"
+		^MNetworkChangeCallback "OnNetOOVectorVarChanged"
+		^MNetworkAlias "m_OwnerOnlyPredNetVectorVariables"
+	CNetworkUtlVectorBase< Quaternion > m_OwnerOnlyPredNetQuaternionVariables(offset 0x1b8, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkSendProxyRecipientsFilter "func: nullptr"
+		^MNetworkChangeCallback "OnNetOOQuaternionVarChanged"
+		^MNetworkAlias "m_OwnerOnlyPredNetQuaternionVariables"
+	CNetworkUtlVectorBase< CGlobalSymbol > m_OwnerOnlyPredNetGlobalSymbolVariables(offset 0x1d0, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkSendProxyRecipientsFilter "func: nullptr"
+		^MNetworkChangeCallback "OnNetOOGlobalSymbolVarChanged"
+		^MNetworkAlias "m_OwnerOnlyPredNetGlobalSymbolVariables"
+	int32 m_nBoolVariablesCount(offset 0x1e8, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+	int32 m_nOwnerOnlyBoolVariablesCount(offset 0x1ec, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+	int32 m_nRandomSeedOffset(offset 0x1f0, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+	float32 m_flLastTeleportTime(offset 0x1f4, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "animationgraph"
+		^MNetworkChangeCallback "OnTeleportTimeChanged"
+	uint8_t[16] unaccounted(offset 0x1f8)
+

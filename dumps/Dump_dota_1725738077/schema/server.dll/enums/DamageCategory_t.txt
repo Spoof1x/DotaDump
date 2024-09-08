@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DamageCategory_t(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x39f68f0):
+	DOTA_DAMAGE_CATEGORY_SPELL = 0,
+	DOTA_DAMAGE_CATEGORY_ATTACK = 1,

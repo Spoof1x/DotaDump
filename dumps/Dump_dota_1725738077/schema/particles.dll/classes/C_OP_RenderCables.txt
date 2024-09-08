@@ -1,0 +1,169 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_OP_RenderCables (size: 0x1488 bytes, project "particles", binding @ particles.dll + 0x53cb20, scope "!GlobalTypes") extends CParticleFunctionRenderer
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: particles.dll + 0x265d30"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunctionRenderer (size: 0x210 bytes, project "particles", binding @ particles.dll + 0x518470, scope "!GlobalTypes") extends CParticleFunction
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunction (size: 0x1c0 bytes, project "particles", binding @ particles.dll + 0x518010, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+		
+		-----members of class CParticleFunction-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CParticleCollectionFloatInput m_flOpStrength(offset 0x8, size 0x160, align 0x8)
+				^MPropertyFriendlyName "operator strength"
+				^MPropertySortPriority "-100"
+			ParticleEndcapMode_t m_nOpEndCapState(offset 0x168, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end cap state"
+				^MPropertySortPriority "-100"
+			float32 m_flOpStartFadeInTime(offset 0x16c, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade"
+				^MPropertyFriendlyName "operator start fadein"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpEndFadeInTime(offset 0x170, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end fadein"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpStartFadeOutTime(offset 0x174, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator start fadeout"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpEndFadeOutTime(offset 0x178, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end fadeout"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpFadeOscillatePeriod(offset 0x17c, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade oscillate"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			bool m_bNormalizeToStopTime(offset 0x180, size 0x1, align 0x1)
+				^MPropertyFriendlyName "normalize fade times to endcap"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[3] unaccounted(offset 0x181)
+			float32 m_flOpTimeOffsetMin(offset 0x184, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade Time Offset"
+				^MPropertyFriendlyName "operator fade time offset min"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeOffsetMax(offset 0x188, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time offset max"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			int32 m_nOpTimeOffsetSeed(offset 0x18c, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time offset seed"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			int32 m_nOpTimeScaleSeed(offset 0x190, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade Timescale Modifiers"
+				^MPropertyFriendlyName "operator fade time scale seed"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeScaleMin(offset 0x194, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time scale min"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeScaleMax(offset 0x198, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time scale max"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[2] unaccounted(offset 0x19c)
+			bool m_bDisableOperator(offset 0x19e, size 0x1, align 0x1)
+				^MPropertyStartGroup
+				^MPropertySuppressField
+			uint8_t[1] unaccounted(offset 0x19f)
+			CUtlString m_Notes(offset 0x1a0, size 0x8, align 0x8)
+				^MPropertyFriendlyName "operator help and notes"
+				^MParticleHelpField
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[24] unaccounted(offset 0x1a8)
+		
+	
+	-----members of class CParticleFunctionRenderer-----
+		CParticleVisibilityInputs VisibilityInputs(offset 0x1c0, size 0x48, align 0x4)
+			^MPropertySortPriority "-1"
+		bool m_bCannotBeRefracted(offset 0x208, size 0x1, align 0x1)
+			^MPropertyStartGroup "Rendering filter"
+			^MPropertyFriendlyName "I cannot be refracted through refracting objects like water"
+			^MPropertySortPriority "-1"
+		bool m_bSkipRenderingOnMobile(offset 0x209, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Skip rendering on mobile"
+			^MPropertySortPriority "-1"
+		uint8_t[6] unaccounted(offset 0x20a)
+	
+
+-----members of class C_OP_RenderCables-----
+	CParticleCollectionFloatInput m_flRadiusScale(offset 0x210, size 0x160, align 0x8)
+		^MPropertyStartGroup "Renderer Modifiers"
+		^MPropertyFriendlyName "Radius Scale"
+		^MPropertySortPriority "700"
+	CParticleCollectionFloatInput m_flAlphaScale(offset 0x370, size 0x160, align 0x8)
+		^MPropertyFriendlyName "alpha scale"
+		^MPropertySortPriority "700"
+	CParticleCollectionVecInput m_vecColorScale(offset 0x4d0, size 0x678, align 0x8)
+		^MPropertyFriendlyName "color blend"
+		^MPropertySortPriority "700"
+	ParticleColorBlendType_t m_nColorBlendType(offset 0xb48, size 0x4, align 0x4)
+		^MPropertyFriendlyName "color blend type"
+		^MPropertySortPriority "700"
+	uint8_t[4] unaccounted(offset 0xb4c)
+	CStrongHandle< InfoForResourceTypeIMaterial2 > m_hMaterial(offset 0xb50, size 0x8, align 0x8)
+		^MPropertyStartGroup
+	TextureRepetitionMode_t m_nTextureRepetitionMode(offset 0xb58, size 0x4, align 0x4)
+		^MPropertyFriendlyName "texture repetition mode"
+	uint8_t[4] unaccounted(offset 0xb5c)
+	CParticleCollectionFloatInput m_flTextureRepeatsPerSegment(offset 0xb60, size 0x160, align 0x8)
+		^MPropertyFriendlyName "texture repetitions"
+	CParticleCollectionFloatInput m_flTextureRepeatsCircumference(offset 0xcc0, size 0x160, align 0x8)
+		^MPropertyFriendlyName "texture repetitions around cable"
+	CParticleCollectionFloatInput m_flColorMapOffsetV(offset 0xe20, size 0x160, align 0x8)
+		^MPropertyFriendlyName "color map offset along path"
+	CParticleCollectionFloatInput m_flColorMapOffsetU(offset 0xf80, size 0x160, align 0x8)
+		^MPropertyFriendlyName "color map offset around cable"
+	CParticleCollectionFloatInput m_flNormalMapOffsetV(offset 0x10e0, size 0x160, align 0x8)
+		^MPropertyFriendlyName "normal map offset along path"
+	CParticleCollectionFloatInput m_flNormalMapOffsetU(offset 0x1240, size 0x160, align 0x8)
+		^MPropertyFriendlyName "normal map offset around cable"
+	bool m_bDrawCableCaps(offset 0x13a0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "draw caps at each end of the cable"
+	uint8_t[3] unaccounted(offset 0x13a1)
+	float32 m_flCapRoundness(offset 0x13a4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "cable end cap shape factor"
+		^MPropertyAttributeRange "0 2"
+	float32 m_flCapOffsetAmount(offset 0x13a8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "cable end cap offset amount"
+		^MPropertyAttributeRange "0 2"
+	float32 m_flTessScale(offset 0x13ac, size 0x4, align 0x4)
+		^MPropertyFriendlyName "tessellation scale factor"
+	int32 m_nMinTesselation(offset 0x13b0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "minimum steps between particles"
+	int32 m_nMaxTesselation(offset 0x13b4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "maximum steps between particles"
+	int32 m_nRoundness(offset 0x13b8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "roundness factor"
+	uint8_t[4] unaccounted(offset 0x13bc)
+	CParticleTransformInput m_LightingTransform(offset 0x13c0, size 0x68, align 0x8)
+		^MPropertyFriendlyName "diffuse lighting origin"
+		^MParticleInputOptional
+	CUtlVector< FloatInputMaterialVariable_t > m_MaterialFloatVars(offset 0x1428, size 0x18, align 0x8)
+		^MPropertyFriendlyName "material float variables"
+	uint8_t[24] unaccounted(offset 0x1440)
+	CUtlVector< VecInputMaterialVariable_t > m_MaterialVecVars(offset 0x1458, size 0x18, align 0x8)
+		^MPropertyFriendlyName "material vector variables"
+	uint8_t[24] unaccounted(offset 0x1470)
+

@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CNmTransitionNode::TransitionOptions_t(size: 1 bytes, 8 values, project "animlib", binding @ animationsystem.dll + 0x5dc760):
+	None = 0,
+	ClampDuration = 1,
+	Synchronized = 2,
+	MatchSourceTime = 3,
+	MatchSyncEventIndex = 4,
+	MatchSyncEventID = 5,
+	MatchSyncEventPercentage = 6,
+	PreferClosestSyncEventID = 7,

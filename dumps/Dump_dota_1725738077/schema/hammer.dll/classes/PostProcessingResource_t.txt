@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PostProcessingResource_t (size: 0x118 bytes, project "vmf_to_vmap", binding @ hammer.dll + 0x1de85a0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: hammer.dll + 0x11bc860"
+
+-----members of class PostProcessingResource_t-----
+	bool m_bHasTonemapParams(offset 0x0, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x1)
+	PostProcessingTonemapParameters_t m_toneMapParams(offset 0x4, size 0x3c, align 0x4)
+	bool m_bHasBloomParams(offset 0x40, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x41)
+	PostProcessingBloomParameters_t m_bloomParams(offset 0x44, size 0x70, align 0x4)
+	bool m_bHasVignetteParams(offset 0xb4, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0xb5)
+	PostProcessingVignetteParameters_t m_vignetteParams(offset 0xb8, size 0x24, align 0x4)
+	bool m_bHasLocalContrastParams(offset 0xdc, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0xdd)
+	PostProcessingLocalContrastParameters_t m_localConstrastParams(offset 0xe0, size 0x14, align 0x4)
+	int32 m_nColorCorrectionVolumeDim(offset 0xf4, size 0x4, align 0x4)
+	CUtlBinaryBlock m_colorCorrectionVolumeData(offset 0xf8, size 0x18, align 0x8)
+	bool m_bHasColorCorrection(offset 0x110, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x111)
+

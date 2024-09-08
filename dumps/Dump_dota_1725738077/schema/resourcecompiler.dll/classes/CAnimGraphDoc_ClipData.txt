@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_ClipData (size: 0x48 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e8aa0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x55c440"
+^MPropertyFriendlyName "Clip Data"
+
+-----members of class CAnimGraphDoc_ClipData-----
+	uint8_t[32] unaccounted(offset 0x0)
+	CUtlVector< CSmartPtr< CAnimGraphDoc_TagSpan > > m_tagSpans(offset 0x20, size 0x18, align 0x8)
+		^MPropertyHideField
+	CUtlString m_clipName(offset 0x38, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Sequence"
+		^MPropertyAttributeChoiceName "Sequence"
+	uint8_t[8] unaccounted(offset 0x40)
+

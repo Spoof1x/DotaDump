@@ -1,0 +1,14 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SoundFlags_t(size: 2 bytes, 10 values, project "server", binding @ server.dll + 0x38d22a0):
+	SOUND_FLAGS_NONE = 0,
+		^MPropertySuppressEnumerator
+		^MEnumeratorIsNotAFlag
+	SOUND_FLAG_GUNFIRE = 1,
+	SOUND_FLAG_COMBINE_ONLY = 2,
+	SOUND_FLAG_REACT_TO_SOURCE = 4,
+	SOUND_FLAG_EXPLOSION = 8,
+	SOUND_FLAG_EXCLUDE_COMBINE = 16,
+	SOUND_FLAG_DANGER_APPROACH = 32,
+	SOUND_FLAG_ALLIES_ONLY = 64,
+	SOUND_FLAG_PANIC_NPCS = 128,
+	SOUND_FLAG_SQUAD_ONLY = 256,

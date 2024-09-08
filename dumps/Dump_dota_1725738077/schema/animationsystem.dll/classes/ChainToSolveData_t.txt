@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ChainToSolveData_t (size: 0x50 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a2c10, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x161bd0"
+
+-----members of class ChainToSolveData_t-----
+	int32 m_nChainIndex(offset 0x0, size 0x4, align 0x4)
+	IKSolverSettings_t m_SolverSettings(offset 0x4, size 0x8, align 0x0)
+	uint8_t[4] unaccounted(offset 0xc)
+	IKTargetSettings_t m_TargetSettings(offset 0x10, size 0x28, align 0x0)
+	SolveIKChainAnimNodeDebugSetting m_DebugSetting(offset 0x38, size 0x4, align 0x4)
+	float32 m_flDebugNormalizedValue(offset 0x3c, size 0x4, align 0x4)
+	VectorAligned m_vDebugOffset(offset 0x40, size 0x10, align 0x10)
+

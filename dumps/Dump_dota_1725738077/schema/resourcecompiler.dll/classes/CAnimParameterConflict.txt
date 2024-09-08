@@ -1,0 +1,28 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimParameterConflict (size: 0x70 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e1120, scope "!GlobalTypes") extends CAnimConflictBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x518e80"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimConflictBase (size: 0x70 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e1090, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimConflictBase-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CUtlString m_sConflictDesc(offset 0x18, size 0x8, align 0x8)
+		int32 m_nResolveIdx(offset 0x20, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x24)
+		CAnimConflictInfo_t[2] m_conflictData(offset 0x28, size 0x40, align 0x8)
+		AnimConflictType_t m_eConflictType(offset 0x68, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x6c)
+	
+
+-----members of class CAnimParameterConflict-----
+	<no members>
+

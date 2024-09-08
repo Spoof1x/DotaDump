@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_ParamSpanSample (size: 0x20 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e8d40, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5620f0"
+
+-----members of class CAnimGraphDoc_ParamSpanSample-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CAnimVariant m_value(offset 0x8, size 0x11, align 0x1)
+	uint8_t[3] unaccounted(offset 0x19)
+	float32 m_flCycle(offset 0x1c, size 0x4, align 0x4)
+

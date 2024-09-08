@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTA_ABILITY_TARGET_TYPE(size: 4 bytes, 6 values, project "server", binding @ server.dll + 0x38e2120):
+	DOTA_ABILITY_TARGET_NONE = 0,
+	DOTA_ABILITY_TARGET_SELF = 1,
+	DOTA_ABILITY_TARGET_ALLY_HERO = 2,
+	DOTA_ABILITY_TARGET_ALLY_CREEP = 3,
+	DOTA_ABILITY_TARGET_ENEMY_HERO = 4,
+	DOTA_ABILITY_TARGET_ENEMY_CREEP = 5,

@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TierNeutralInfo_t (size: 0x50 bytes, project "client", binding @ client.dll + 0x489ce20, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_nTier int"
+^MNetworkVarNames "m_nAbilityID AbilityID_t"
+
+-----members of class TierNeutralInfo_t-----
+	uint8_t[48] unaccounted(offset 0x0)
+	int32 m_nTier(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x34)
+	C_NetworkUtlVectorBase< AbilityID_t > m_nAbilityID(offset 0x38, size 0x18, align 0x8)
+		^MNetworkEnable
+

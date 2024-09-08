@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleParentSetMode_t(size: 4 bytes, 3 values, project "particles", binding @ particles.dll + 0x518c50):
+	PARTICLE_SET_PARENT_NO = 0,
+		^MPropertyFriendlyName "Set Self and Children"
+	PARTICLE_SET_PARENT_IMMEDIATE = 1,
+		^MPropertyFriendlyName "Set Immediate Parent, Self, and Children"
+	PARTICLE_SET_PARENT_ROOT = 1,
+		^MPropertyFriendlyName "Set Root of Particle System Downward"

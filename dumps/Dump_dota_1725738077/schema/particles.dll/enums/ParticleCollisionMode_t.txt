@@ -1,0 +1,12 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleCollisionMode_t(size: 4 bytes, 5 values, project "particles", binding @ particles.dll + 0x51a860):
+	COLLISION_MODE_PER_PARTICLE_TRACE = 3,
+		^MPropertyFriendlyName "Per-Particle Trace"
+	COLLISION_MODE_USE_NEAREST_TRACE = 2,
+		^MPropertyFriendlyName "Trace Caching"
+	COLLISION_MODE_PER_FRAME_PLANESET = 1,
+		^MPropertyFriendlyName "Per-Frame Planeset"
+	COLLISION_MODE_INITIAL_TRACE_DOWN = 0,
+		^MPropertyFriendlyName "Initial Trace Down"
+	COLLISION_MODE_DISABLED = -1,
+		^MPropertyFriendlyName "Collision Disabled"

@@ -1,0 +1,29 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VMixDynamicsBand_t (size: 0x24 bytes, project "soundsystem_lowlevel", binding @ soundsystem.dll + 0x399860, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x22d7e0"
+
+-----members of class VMixDynamicsBand_t-----
+	float32 m_fldbGainInput(offset 0x0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Input Gain (dB)"
+	float32 m_fldbGainOutput(offset 0x4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Output Gain (dB)"
+	float32 m_fldbThresholdBelow(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Below Threshold(dB)"
+	float32 m_fldbThresholdAbove(offset 0xc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Above Threshold(dB)"
+	float32 m_flRatioBelow(offset 0x10, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Upward Ratio"
+	float32 m_flRatioAbove(offset 0x14, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Downward Ratio"
+	float32 m_flAttackTimeMS(offset 0x18, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Attack time (ms)"
+	float32 m_flReleaseTimeMS(offset 0x1c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Release time (ms)"
+	bool m_bEnable(offset 0x20, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enabled"
+	bool m_bSolo(offset 0x21, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Solo"
+	uint8_t[2] unaccounted(offset 0x22)
+

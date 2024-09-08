@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CHitBoxSet (size: 0x30 bytes, project "modellib", binding @ animationsystem.dll + 0x5ea1a0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x3fd0c0"
+
+-----members of class CHitBoxSet-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	uint32 m_nNameHash(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlVector< CHitBox > m_HitBoxes(offset 0x10, size 0x18, align 0x8)
+	CUtlString m_SourceFilename(offset 0x28, size 0x8, align 0x8)
+

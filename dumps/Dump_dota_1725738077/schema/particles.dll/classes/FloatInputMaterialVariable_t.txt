@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FloatInputMaterialVariable_t (size: 0x168 bytes, project "particles", binding @ particles.dll + 0x53cb90, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x2632e0"
+
+-----members of class FloatInputMaterialVariable_t-----
+	CUtlString m_strVariable(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "material variable"
+	CParticleCollectionFloatInput m_flInput(offset 0x8, size 0x160, align 0x8)
+		^MPropertyFriendlyName "input"
+

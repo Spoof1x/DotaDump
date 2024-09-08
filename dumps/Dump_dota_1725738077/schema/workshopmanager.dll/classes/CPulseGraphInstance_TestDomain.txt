@@ -1,0 +1,33 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseGraphInstance_TestDomain (size: 0x120 bytes, project "pulse_runtime_lib", binding @ workshopmanager.dll + 0xecc2c0, scope "workshopmanager.dll") extends CBasePulseGraphInstance
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MPulseInstanceDomainInfo "ptr: workshopmanager.dll + 0xecd200"
+^MPulseDomainHookInfo "ptr: workshopmanager.dll + 0xecd1f0"
+^MPulseLibraryBindings "ptr: workshopmanager.dll + 0xecd220"
+^MPulseDomainOptInFeatureTag "PulseFakeEntities"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBasePulseGraphInstance (size: 0xf8 bytes, project "pulse_runtime_lib", binding @ workshopmanager.dll + 0xeca270, scope "workshopmanager.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	^MPulseInstanceDomainInfo "ptr: workshopmanager.dll + 0xed4b90"
+	^MPulseDomainHiddenInTool
+	
+	-----members of class CBasePulseGraphInstance-----
+		uint8_t[248] unaccounted(offset 0x0)
+	
+
+-----static members of class CPulseGraphInstance_TestDomain-----
+	static float64 s_flExplicitCurTime(workshopmanager.dll + 0xece918)
+
+-----members of class CPulseGraphInstance_TestDomain-----
+	bool m_bIsRunningUnitTests(offset 0xf8, size 0x1, align 0x1)
+	bool m_bExplicitTimeStepping(offset 0xf9, size 0x1, align 0x1)
+	bool m_bExpectingToDestroyWithYieldedCursors(offset 0xfa, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0xfb)
+	int32 m_nNextValidateIndex(offset 0xfc, size 0x4, align 0x4)
+	CUtlVector< CUtlString > m_Tracepoints(offset 0x100, size 0x18, align 0x8)
+	bool m_bTestYesOrNoPath(offset 0x118, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x119)
+

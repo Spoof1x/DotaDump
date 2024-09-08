@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPreviewEntry (size: 0x18 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bf240, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x15daf40"
+
+-----members of class CPreviewEntry-----
+	CUtlString m_soundName(offset 0x0, size 0x8, align 0x8)
+	CUtlString m_trackName(offset 0x8, size 0x8, align 0x8)
+	bool m_bIsSoundEvent(offset 0x10, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x11)
+

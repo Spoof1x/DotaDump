@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVPhysXSurfacePropertiesList (size: 0x18 bytes, project "modellib", binding @ resourcecompiler.dll + 0x249c360, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11c8780"
+
+-----members of class CVPhysXSurfacePropertiesList-----
+	CUtlVector< CPhysSurfaceProperties* > m_surfacePropertiesList(offset 0x0, size 0x18, align 0x8)
+		^MKV3TransferName "SurfacePropertiesList"
+

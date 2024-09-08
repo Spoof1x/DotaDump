@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CHitBox (size: 0x70 bytes, project "modellib", binding @ physicsbuilder.dll + 0xa2fbf0, scope "physicsbuilder.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: physicsbuilder.dll + 0x3d1910"
+
+-----members of class CHitBox-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	CUtlString m_sSurfaceProperty(offset 0x8, size 0x8, align 0x8)
+	CUtlString m_sBoneName(offset 0x10, size 0x8, align 0x8)
+	Vector m_vMinBounds(offset 0x18, size 0xc, align 0x4)
+	Vector m_vMaxBounds(offset 0x24, size 0xc, align 0x4)
+	float32 m_flShapeRadius(offset 0x30, size 0x4, align 0x4)
+	uint32 m_nBoneNameHash(offset 0x34, size 0x4, align 0x4)
+	int32 m_nGroupId(offset 0x38, size 0x4, align 0x4)
+	uint8 m_nShapeType(offset 0x3c, size 0x1, align 0x1)
+	bool m_bTranslationOnly(offset 0x3d, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x3e)
+	uint32 m_CRC(offset 0x40, size 0x4, align 0x4)
+	Color m_cRenderColor(offset 0x44, size 0x4, align 0x1)
+	uint16 m_nHitBoxIndex(offset 0x48, size 0x2, align 0x2)
+	uint8_t[38] unaccounted(offset 0x4a)
+

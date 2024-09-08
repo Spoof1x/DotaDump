@@ -1,0 +1,21 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNavLinkMovementVData (size: 0x100 bytes, project "server", binding @ server.dll + 0x38d49d0, scope "server.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: server.dll + 0x2c90b0"
+^MVDataRoot
+
+-----members of class CNavLinkMovementVData-----
+	CResourceNameTyped< CWeakHandle< InfoForResourceTypeCModel > > m_sToolsOnlyOwnerModelName(offset 0x0, size 0xe0, align 0x8)
+		^MPropertyDescription "Model used by the tools only to populate comboboxes for things like animgraph parameter pickers"
+	bool m_bIsInterpolated(offset 0xe0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Is Interpolated"
+		^MPropertyDescription "Indicates that the animation has a segment that's interpolated. In general using this on navlinks that traverse +/- 50% of the recommended distance should look okay."
+	uint8_t[3] unaccounted(offset 0xe1)
+	uint32 m_unRecommendedDistance(offset 0xe4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Recommended Distance"
+		^MPropertyDescription "Recommended distance this movement traverses"
+	CUtlVector< CNavLinkAnimgraphVar > m_vecAnimgraphVars(offset 0xe8, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Animgraph Variables"
+		^MPropertyDescription "List of animgraph variables to use when moving through this navlink. Can include multiple, with different amounts of angular slack. The most permissive animgraph variable that exists on the entity's animgraph will be used,"
+		^MPropertyAutoExpandSelf
+

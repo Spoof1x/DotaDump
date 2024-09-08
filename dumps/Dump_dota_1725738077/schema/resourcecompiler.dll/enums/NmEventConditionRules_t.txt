@@ -1,0 +1,11 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NmEventConditionRules_t(size: 1 bytes, 9 values, project "animlib", binding @ resourcecompiler.dll + 0x2446050):
+	LimitSearchToSourceState = 0,
+	IgnoreInactiveEvents = 1,
+	PreferHighestWeight = 2,
+	PreferHighestProgress = 3,
+	OperatorOr = 4,
+	OperatorAnd = 5,
+	SearchOnlyStateEvents = 6,
+	SearchOnlyAnimEvents = 7,
+	SearchBothStateAndAnimEvents = 8,

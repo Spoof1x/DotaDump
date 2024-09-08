@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class WorldNodeOnDiskBufferData_t (size: 0x38 bytes, project "visbuilder", binding @ visbuilder.dll + 0x187cd0, scope "visbuilder.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: visbuilder.dll + 0x441f0"
+
+-----members of class WorldNodeOnDiskBufferData_t-----
+	int32 m_nElementCount(offset 0x0, size 0x4, align 0x4)
+	int32 m_nElementSizeInBytes(offset 0x4, size 0x4, align 0x4)
+	CUtlVector< RenderInputLayoutField_t > m_inputLayoutFields(offset 0x8, size 0x18, align 0x8)
+	CUtlVector< uint8 > m_pData(offset 0x20, size 0x18, align 0x8)
+

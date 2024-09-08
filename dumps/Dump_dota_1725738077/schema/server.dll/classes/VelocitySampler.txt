@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VelocitySampler (size: 0x14 bytes, project "server", binding @ server.dll + 0x38ce410, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class VelocitySampler-----
+	Vector m_prevSample(offset 0x0, size 0xc, align 0x4)
+	GameTime_t m_fPrevSampleTime(offset 0xc, size 0x4, align 0x0)
+	float32 m_fIdealSampleRate(offset 0x10, size 0x4, align 0x4)
+

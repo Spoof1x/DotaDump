@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NmEventConditionOperator_t(size: 1 bytes, 2 values, project "animdoclib", binding @ resourcecompiler.dll + 0x23d9860):
+	Or = 0,
+	And = 1,

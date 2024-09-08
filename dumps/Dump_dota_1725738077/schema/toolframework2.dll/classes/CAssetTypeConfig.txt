@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAssetTypeConfig (size: 0x30 bytes, project "toolutils2", binding @ toolframework2.dll + 0x935b50, scope "toolframework2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x47d230"
+
+-----members of class CAssetTypeConfig-----
+	CUtlVector< CSimpleAssetTypeInfo* > m_AssetTypes(offset 0x0, size 0x18, align 0x8)
+	CUtlVector< CAssetWarning* > m_AssetWarnings(offset 0x18, size 0x18, align 0x8)
+

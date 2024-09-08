@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ColorOptionsEditableData_t (size: 0x1e bytes, project "hammer", binding @ hammer.dll + 0x1e0a2b0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class ColorOptionsEditableData_t-----
+	bool bUseCustom(offset 0x0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Use Custom Colors"
+	bool bWhiteOnBlack(offset 0x1, size 0x1, align 0x1)
+		^MPropertyFriendlyName "White on black"
+	Color clrGrid(offset 0x2, size 0x4, align 0x1)
+		^MPropertyFriendlyName "Grid Color"
+	Color clrGridFractional(offset 0x6, size 0x4, align 0x1)
+		^MPropertyFriendlyName "Grid Color for sub 1-unit lines"
+	Color clrGrid10(offset 0xa, size 0x4, align 0x1)
+		^MPropertyFriendlyName "Grid Color for every 10th line"
+	Color clrGrid1024(offset 0xe, size 0x4, align 0x1)
+		^MPropertyFriendlyName "Grid Color for every 1024 units line"
+	Color clrBrush(offset 0x12, size 0x4, align 0x1)
+		^MPropertyFriendlyName "Brush Color"
+	Color clrSelection(offset 0x16, size 0x4, align 0x1)
+		^MPropertyFriendlyName "Color of the selected brushes"
+	Color clrToolSelection(offset 0x1a, size 0x4, align 0x1)
+		^MPropertyFriendlyName "Color of the selection tool"
+

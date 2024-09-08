@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EMode_t(size: 4 bytes, 2 values, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39aec0):
+	Peak = 0,
+		^MPropertyFriendlyName "Peak"
+	RMS = 1,
+		^MPropertyFriendlyName "RMS"

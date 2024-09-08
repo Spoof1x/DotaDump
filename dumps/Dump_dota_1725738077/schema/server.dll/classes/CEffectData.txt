@@ -1,0 +1,87 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CEffectData (size: 0x70 bytes, project "server", binding @ server.dll + 0x389de70, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_vOrigin Vector"
+^MNetworkVarNames "m_vStart Vector"
+^MNetworkVarNames "m_vNormal Vector"
+^MNetworkVarNames "m_vAngles QAngle"
+^MNetworkVarNames "m_hEntity CEntityHandle"
+^MNetworkVarNames "m_hOtherEntity CEntityHandle"
+^MNetworkVarNames "m_flScale float32"
+^MNetworkVarNames "m_flMagnitude float32"
+^MNetworkVarNames "m_flRadius float32"
+^MNetworkVarNames "m_nSurfaceProp CUtlStringToken"
+^MNetworkVarNames "m_nEffectIndex HParticleSystemDefinition"
+^MNetworkVarNames "m_nDamageType uint32"
+^MNetworkVarNames "m_nPenetrate uint8"
+^MNetworkVarNames "m_nMaterial uint16"
+^MNetworkVarNames "m_nHitBox uint16"
+^MNetworkVarNames "m_nColor uint8"
+^MNetworkVarNames "m_fFlags uint8"
+^MNetworkVarNames "m_nAttachmentIndex AttachmentHandle_t"
+^MNetworkVarNames "m_nAttachmentName CUtlStringToken"
+^MNetworkVarNames "m_iEffectName uint16"
+^MNetworkVarNames "m_nExplosionType uint8"
+
+-----members of class CEffectData-----
+	uint8_t[8] unaccounted(offset 0x0)
+	Vector m_vOrigin(offset 0x8, size 0xc, align 0x4)
+		^MNetworkEnable
+		^MNetworkEncoder "coord_integral"
+	Vector m_vStart(offset 0x14, size 0xc, align 0x4)
+		^MNetworkEnable
+		^MNetworkEncoder "coord_integral"
+	Vector m_vNormal(offset 0x20, size 0xc, align 0x4)
+		^MNetworkEnable
+		^MNetworkEncoder "normal"
+	QAngle m_vAngles(offset 0x2c, size 0xc, align 0x4)
+		^MNetworkEnable
+		^MNetworkEncoder "qangle"
+	CEntityHandle m_hEntity(offset 0x38, size 0x4, align 0x4)
+		^MNetworkEnable
+	CEntityHandle m_hOtherEntity(offset 0x3c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flScale(offset 0x40, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flMagnitude(offset 0x44, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkBitCount "12"
+		^MNetworkMinValue "0"
+		^MNetworkMaxValue "1023"
+		^MNetworkEncodeFlags "1"
+	float32 m_flRadius(offset 0x48, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkBitCount "10"
+		^MNetworkMinValue "0"
+		^MNetworkMaxValue "1023"
+		^MNetworkEncodeFlags "1"
+	CUtlStringToken m_nSurfaceProp(offset 0x4c, size 0x4, align 0x4)
+		^MNetworkEnable
+	CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > m_nEffectIndex(offset 0x50, size 0x8, align 0x8)
+		^MNetworkEnable
+	uint32 m_nDamageType(offset 0x58, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8 m_nPenetrate(offset 0x5c, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[1] unaccounted(offset 0x5d)
+	uint16 m_nMaterial(offset 0x5e, size 0x2, align 0x2)
+		^MNetworkEnable
+	uint16 m_nHitBox(offset 0x60, size 0x2, align 0x2)
+		^MNetworkEnable
+	uint8 m_nColor(offset 0x62, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8 m_fFlags(offset 0x63, size 0x1, align 0x1)
+		^MNetworkEnable
+	AttachmentHandle_t m_nAttachmentIndex(offset 0x64, size 0x1, align 0x0)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x65)
+	CUtlStringToken m_nAttachmentName(offset 0x68, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint16 m_iEffectName(offset 0x6c, size 0x2, align 0x2)
+		^MNetworkEnable
+	uint8 m_nExplosionType(offset 0x6e, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[1] unaccounted(offset 0x6f)
+

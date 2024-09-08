@@ -1,0 +1,6 @@
+CPulseCell_CursorQueue
+CPulseCell_WaitForCursorsWithTag
+CPulseCell_WaitForCursorsWithTagBase
+CPulseCell_WaitForCursorsWithTagBase::CursorState_t
+CPulseCursorFuncs
+CPulseTestFuncs_LibraryA

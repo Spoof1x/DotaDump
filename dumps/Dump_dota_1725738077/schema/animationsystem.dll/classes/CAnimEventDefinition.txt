@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimEventDefinition (size: 0x40 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f24e0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x43540"
+
+-----members of class CAnimEventDefinition-----
+	uint8_t[8] unaccounted(offset 0x0)
+	int32 m_nFrame(offset 0x8, size 0x4, align 0x4)
+	int32 m_nEndFrame(offset 0xc, size 0x4, align 0x4)
+	float32 m_flCycle(offset 0x10, size 0x4, align 0x4)
+	float32 m_flDuration(offset 0x14, size 0x4, align 0x4)
+	KeyValues3 m_EventData(offset 0x18, size 0x10, align 0x8)
+	CBufferString m_sLegacyOptions(offset 0x28, size 0x10, align 0x8)
+		^MKV3TransferName "m_sOptions"
+	CGlobalSymbol m_sEventName(offset 0x38, size 0x8, align 0x8)
+

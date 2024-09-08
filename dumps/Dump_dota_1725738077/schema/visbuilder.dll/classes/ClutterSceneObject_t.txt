@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ClutterSceneObject_t (size: 0xa0 bytes, project "visbuilder", binding @ visbuilder.dll + 0x187b80, scope "visbuilder.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: visbuilder.dll + 0x46ce0"
+
+-----members of class ClutterSceneObject_t-----
+	AABB_t m_Bounds(offset 0x0, size 0x18, align 0x0)
+	ObjectTypeFlags_t m_flags(offset 0x18, size 0x4, align 0x4)
+	int16 m_nLayer(offset 0x1c, size 0x2, align 0x2)
+	uint8_t[2] unaccounted(offset 0x1e)
+	CUtlVector< Vector > m_instancePositions(offset 0x20, size 0x18, align 0x8)
+	uint8_t[24] unaccounted(offset 0x38)
+	CUtlVector< float32 > m_instanceScales(offset 0x50, size 0x18, align 0x8)
+	CUtlVector< Color > m_instanceTintSrgb(offset 0x68, size 0x18, align 0x8)
+	CUtlVector< ClutterTile_t > m_tiles(offset 0x80, size 0x18, align 0x8)
+	CStrongHandle< InfoForResourceTypeCModel > m_renderableModel(offset 0x98, size 0x8, align 0x8)
+

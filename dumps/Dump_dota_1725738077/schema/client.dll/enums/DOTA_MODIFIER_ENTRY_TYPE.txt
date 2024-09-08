@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTA_MODIFIER_ENTRY_TYPE(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x46ff7a0):
+	DOTA_MODIFIER_ENTRY_TYPE_ACTIVE = 1,
+	DOTA_MODIFIER_ENTRY_TYPE_REMOVED = 2,

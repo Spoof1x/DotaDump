@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphNetworkSettings (size: 0x28 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a1640, scope "!GlobalTypes") extends CAnimGraphSettingsGroup
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x15a1b0"
+^MPropertyFriendlyName "Networking"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphSettingsGroup (size: 0x20 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a8070, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x19adf0"
+	
+	-----members of class CAnimGraphSettingsGroup-----
+		uint8_t[32] unaccounted(offset 0x0)
+	
+
+-----members of class CAnimGraphNetworkSettings-----
+	bool m_bNetworkingEnabled(offset 0x20, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Networking"
+	uint8_t[7] unaccounted(offset 0x21)
+

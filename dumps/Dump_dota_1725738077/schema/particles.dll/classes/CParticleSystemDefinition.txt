@@ -1,0 +1,182 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CParticleSystemDefinition (size: 0x3f0 bytes, project "particles", binding @ particles.dll + 0x51b710, scope "!GlobalTypes") extends IParticleSystemDefinition
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: particles.dll + 0x87560"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IParticleSystemDefinition (size: 0x8 bytes, project "particles", binding @ particles.dll + 0x5197e0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+	
+	-----members of class IParticleSystemDefinition-----
+		uint8_t[8] unaccounted(offset 0x0)
+	
+
+-----members of class CParticleSystemDefinition-----
+	int32 m_nBehaviorVersion(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "version"
+		^MPropertySuppressField
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlVector< CParticleFunctionPreEmission* > m_PreEmissionOperators(offset 0x10, size 0x18, align 0x8)
+		^MPropertySuppressField
+	CUtlVector< CParticleFunctionEmitter* > m_Emitters(offset 0x28, size 0x18, align 0x8)
+		^MPropertySuppressField
+	CUtlVector< CParticleFunctionInitializer* > m_Initializers(offset 0x40, size 0x18, align 0x8)
+		^MPropertySuppressField
+	CUtlVector< CParticleFunctionOperator* > m_Operators(offset 0x58, size 0x18, align 0x8)
+		^MPropertySuppressField
+	CUtlVector< CParticleFunctionForce* > m_ForceGenerators(offset 0x70, size 0x18, align 0x8)
+		^MPropertySuppressField
+	CUtlVector< CParticleFunctionConstraint* > m_Constraints(offset 0x88, size 0x18, align 0x8)
+		^MPropertySuppressField
+	CUtlVector< CParticleFunctionRenderer* > m_Renderers(offset 0xa0, size 0x18, align 0x8)
+		^MPropertySuppressField
+	CUtlVector< ParticleChildrenInfo_t > m_Children(offset 0xb8, size 0x18, align 0x8)
+		^MPropertySuppressField
+	uint8_t[168] unaccounted(offset 0xd0)
+	int32 m_nFirstMultipleOverride_BackwardCompat(offset 0x178, size 0x4, align 0x4)
+		^MPropertySuppressField
+	uint8_t[148] unaccounted(offset 0x17c)
+	int32 m_nInitialParticles(offset 0x210, size 0x4, align 0x4)
+		^MPropertyStartGroup "+Collection Options"
+		^MPropertyFriendlyName "initial particles"
+	int32 m_nMaxParticles(offset 0x214, size 0x4, align 0x4)
+		^MPropertyFriendlyName "max particles"
+	int32 m_nGroupID(offset 0x218, size 0x4, align 0x4)
+		^MPropertyFriendlyName "group id"
+	Vector m_BoundingBoxMin(offset 0x21c, size 0xc, align 0x4)
+		^MPropertyStartGroup "Bounding Box"
+		^MPropertyFriendlyName "bounding box bloat min"
+		^MVectorIsCoordinate
+	Vector m_BoundingBoxMax(offset 0x228, size 0xc, align 0x4)
+		^MPropertyFriendlyName "bounding box bloat max"
+		^MVectorIsCoordinate
+	float32 m_flDepthSortBias(offset 0x234, size 0x4, align 0x4)
+		^MPropertyFriendlyName "bounding box depth sort bias"
+	int32 m_nSortOverridePositionCP(offset 0x238, size 0x4, align 0x4)
+		^MPropertyFriendlyName "sort override position CP"
+	bool m_bInfiniteBounds(offset 0x23c, size 0x1, align 0x1)
+		^MPropertyFriendlyName "infinite bounds - don't cull"
+	bool m_bEnableNamedValues(offset 0x23d, size 0x1, align 0x1)
+		^MPropertyStartGroup "Named Values"
+		^MPropertyFriendlyName "Enable Named Values (EXPERIMENTAL)"
+	uint8_t[2] unaccounted(offset 0x23e)
+	CUtlString m_NamedValueDomain(offset 0x240, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Domain Class"
+		^MPropertyAttributeChoiceName "particlefield_domain"
+		^MPropertyAutoRebuildOnChange
+		^MPropertySuppressExpr "!m_bEnableNamedValues"
+	CUtlVector< ParticleNamedValueSource_t* > m_NamedValueLocals(offset 0x248, size 0x18, align 0x8)
+		^MPropertySuppressField
+	Color m_ConstantColor(offset 0x260, size 0x4, align 0x1)
+		^MPropertyStartGroup "+Base Properties"
+		^MPropertyFriendlyName "color"
+		^MPropertyColorPlusAlpha
+	Vector m_ConstantNormal(offset 0x264, size 0xc, align 0x4)
+		^MPropertyFriendlyName "normal"
+		^MVectorIsCoordinate
+	float32 m_flConstantRadius(offset 0x270, size 0x4, align 0x4)
+		^MPropertyFriendlyName "radius"
+		^MPropertyAttributeRange "biased 0 500"
+	float32 m_flConstantRotation(offset 0x274, size 0x4, align 0x4)
+		^MPropertyFriendlyName "rotation"
+	float32 m_flConstantRotationSpeed(offset 0x278, size 0x4, align 0x4)
+		^MPropertyFriendlyName "rotation speed"
+	float32 m_flConstantLifespan(offset 0x27c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "lifetime"
+	int32 m_nConstantSequenceNumber(offset 0x280, size 0x4, align 0x4)
+		^MPropertyFriendlyName "sequence number"
+		^MPropertyAttributeEditor "SequencePicker( 1 )"
+	int32 m_nConstantSequenceNumber1(offset 0x284, size 0x4, align 0x4)
+		^MPropertyFriendlyName "sequence number 1"
+		^MPropertyAttributeEditor "SequencePicker( 2 )"
+	int32 m_nSnapshotControlPoint(offset 0x288, size 0x4, align 0x4)
+		^MPropertyStartGroup "Snapshot Options"
+	uint8_t[4] unaccounted(offset 0x28c)
+	CStrongHandle< InfoForResourceTypeIParticleSnapshot > m_hSnapshot(offset 0x290, size 0x8, align 0x8)
+	CStrongHandle< InfoForResourceTypeIParticleSystemDefinition > m_pszCullReplacementName(offset 0x298, size 0x8, align 0x8)
+		^MPropertyStartGroup "Replacement Options"
+		^MPropertyFriendlyName "cull replacement definition"
+	float32 m_flCullRadius(offset 0x2a0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "cull radius"
+	float32 m_flCullFillCost(offset 0x2a4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "cull cost"
+	int32 m_nCullControlPoint(offset 0x2a8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "cull control point"
+	uint8_t[4] unaccounted(offset 0x2ac)
+	CStrongHandle< InfoForResourceTypeIParticleSystemDefinition > m_hFallback(offset 0x2b0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "fallback replacement definition"
+	int32 m_nFallbackMaxCount(offset 0x2b8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "fallback max count"
+	uint8_t[4] unaccounted(offset 0x2bc)
+	CStrongHandle< InfoForResourceTypeIParticleSystemDefinition > m_hLowViolenceDef(offset 0x2c0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "low violence definition"
+	CStrongHandle< InfoForResourceTypeIParticleSystemDefinition > m_hReferenceReplacement(offset 0x2c8, size 0x8, align 0x8)
+		^MPropertyFriendlyName "reference replacement definition"
+	float32 m_flPreSimulationTime(offset 0x2d0, size 0x4, align 0x4)
+		^MPropertyStartGroup "Simulation Options"
+		^MPropertyFriendlyName "pre-simulation time"
+	float32 m_flStopSimulationAfterTime(offset 0x2d4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "freeze simulation after time"
+	float32 m_flMaximumTimeStep(offset 0x2d8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "maximum time step"
+	float32 m_flMaximumSimTime(offset 0x2dc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "maximum sim tick rate"
+	float32 m_flMinimumSimTime(offset 0x2e0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "minimum sim tick rate"
+	float32 m_flMinimumTimeStep(offset 0x2e4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "minimum simulation time step"
+	int32 m_nMinimumFrames(offset 0x2e8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "minimum required rendered frames"
+	int32 m_nMinCPULevel(offset 0x2ec, size 0x4, align 0x4)
+		^MPropertyStartGroup "Performance Options"
+		^MPropertyFriendlyName "minimum CPU level"
+	int32 m_nMinGPULevel(offset 0x2f0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "minimum GPU level"
+	float32 m_flNoDrawTimeToGoToSleep(offset 0x2f4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "time to sleep when not drawn"
+	float32 m_flMaxDrawDistance(offset 0x2f8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "maximum draw distance"
+	float32 m_flStartFadeDistance(offset 0x2fc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "start fade distance"
+	float32 m_flMaxCreationDistance(offset 0x300, size 0x4, align 0x4)
+		^MPropertyFriendlyName "maximum creation distance"
+	int32 m_nAggregationMinAvailableParticles(offset 0x304, size 0x4, align 0x4)
+		^MPropertyFriendlyName "minimum free particles to aggregate"
+	float32 m_flAggregateRadius(offset 0x308, size 0x4, align 0x4)
+		^MPropertyFriendlyName "aggregation radius"
+	bool m_bShouldBatch(offset 0x30c, size 0x1, align 0x1)
+		^MPropertyFriendlyName "batch particle systems"
+	bool m_bShouldHitboxesFallbackToRenderBounds(offset 0x30d, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Hitboxes fall back to render bounds"
+	bool m_bShouldHitboxesFallbackToSnapshot(offset 0x30e, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Hitboxes fall back to snapshot"
+	bool m_bShouldHitboxesFallbackToCollisionHulls(offset 0x30f, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Hitboxes fall back to collision hulls"
+	InheritableBoolType_t m_nViewModelEffect(offset 0x310, size 0x4, align 0x4)
+		^MPropertyStartGroup "Rendering Options"
+		^MPropertyFriendlyName "view model effect"
+		^MPropertySuppressExpr "m_bScreenSpaceEffect"
+	bool m_bScreenSpaceEffect(offset 0x314, size 0x1, align 0x1)
+		^MPropertyFriendlyName "screen space effect"
+		^MPropertySuppressExpr "m_nViewModelEffect == INHERITABLE_BOOL_TRUE"
+	uint8_t[3] unaccounted(offset 0x315)
+	CUtlSymbolLarge m_pszTargetLayerID(offset 0x318, size 0x8, align 0x8)
+		^MPropertyFriendlyName "target layer ID for rendering"
+	int32 m_nSkipRenderControlPoint(offset 0x320, size 0x4, align 0x4)
+		^MPropertyFriendlyName "control point to disable rendering if it is the camera"
+	int32 m_nAllowRenderControlPoint(offset 0x324, size 0x4, align 0x4)
+		^MPropertyFriendlyName "control point to only enable rendering if it is the camera"
+	bool m_bShouldSort(offset 0x328, size 0x1, align 0x1)
+		^MPropertyFriendlyName "sort particles (DEPRECATED - USE RENDERER OPTION)"
+		^MParticleAdvancedField
+	uint8_t[71] unaccounted(offset 0x329)
+	CUtlVector< ParticleControlPointConfiguration_t > m_controlPointConfigurations(offset 0x370, size 0x18, align 0x8)
+		^MPropertySuppressField
+	uint8_t[104] unaccounted(offset 0x388)
+

@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSSDSMsg_ViewRender (size: 0x18 bytes, project "scenesystem", binding @ scenesystem.dll + 0x5c3e30, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: scenesystem.dll + 0x16fd00"
+
+-----members of class CSSDSMsg_ViewRender-----
+	SceneViewId_t m_viewId(offset 0x0, size 0x10, align 0x8)
+	CUtlString m_ViewName(offset 0x10, size 0x8, align 0x8)
+

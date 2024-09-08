@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimFrameSegment (size: 0x28 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f2060, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x45b60"
+
+-----members of class CAnimFrameSegment-----
+	int32 m_nUniqueFrameIndex(offset 0x0, size 0x4, align 0x4)
+	uint32 m_nLocalElementMasks(offset 0x4, size 0x4, align 0x4)
+	int32 m_nLocalChannel(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlBinaryBlock m_container(offset 0x10, size 0x18, align 0x8)
+

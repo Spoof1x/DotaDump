@@ -1,0 +1,437 @@
+BaseGPUShader_t
+	rendersystemdx11.dll + 0x3b6be8(hierarchy BaseGPUShader_t)
+CAMDAntiLagDx11
+	rendersystemdx11.dll + 0x3ad9c8(hierarchy CAMDAntiLagDx11)
+CAftermathDx11
+	rendersystemdx11.dll + 0x3b6c08(hierarchy CAftermathDx11)
+CBlendStateCreator
+	rendersystemdx11.dll + 0x3b3518(hierarchy CBlendStateCreator: ITSHashConstructor<void * __ptr64>)
+CColorFormatDx11
+	rendersystemdx11.dll + 0x3b62c0(hierarchy CColorFormatDx11: CColorFormatBase)
+CConCommandMemberAccessor<class CRenderDeviceBase>
+	rendersystemdx11.dll + 0x3b2ac8(hierarchy CConCommandMemberAccessor<class CRenderDeviceBase>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+	rendersystemdx11.dll + 0x3b2ab8 MI offset 8(hierarchy ICommandCompletionCallback)
+CConCommandMemberAccessor<class CRenderDeviceDx11>
+	rendersystemdx11.dll + 0x3b5898(hierarchy CConCommandMemberAccessor<class CRenderDeviceDx11>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+	rendersystemdx11.dll + 0x3b5888 MI offset 8(hierarchy ICommandCompletionCallback)
+CConCommandMemberAccessor<class CTextureManagerBase>
+	rendersystemdx11.dll + 0x3bb290(hierarchy CConCommandMemberAccessor<class CTextureManagerBase>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+	rendersystemdx11.dll + 0x3bb280 MI offset 8(hierarchy ICommandCompletionCallback)
+CDepthStencilStateCreator
+	rendersystemdx11.dll + 0x3b3528(hierarchy CDepthStencilStateCreator: ITSHashConstructor<void * __ptr64>)
+CDeviceFence
+	rendersystemdx11.dll + 0x3b2ad8(hierarchy CDeviceFence)
+CDeviceFenceBase
+	rendersystemdx11.dll + 0x3b2c78(hierarchy CDeviceFenceBase: CDeviceFence)
+CDeviceFenceDx11
+	rendersystemdx11.dll + 0x3b58c8(hierarchy CDeviceFenceDx11: CDeviceFence)
+CDx11Fsr2Upscaler
+	rendersystemdx11.dll + 0x3b6b50(hierarchy CDx11Fsr2Upscaler: IUpscaler)
+CDxInclude
+	rendersystemdx11.dll + 0x3b6230(hierarchy CDxInclude: ID3DInclude)
+CFrameSyncDx11
+	rendersystemdx11.dll + 0x3b97c0(hierarchy CFrameSyncDx11: CFrameSyncBase)
+CIndexBufferBase
+	rendersystemdx11.dll + 0x3ae4e0(hierarchy CIndexBufferBase: CRenderResource)
+CIndexBufferDx11
+	rendersystemdx11.dll + 0x3ae950(hierarchy CIndexBufferDx11: CIndexBufferBase, CRenderResource)
+CInputLayoutDict<class CInputLayoutDx11>
+	rendersystemdx11.dll + 0x3b57a8(hierarchy CInputLayoutDict<class CInputLayoutDx11>)
+CLayoutInsert
+	rendersystemdx11.dll + 0x3aeb50(hierarchy CLayoutInsert: ITSHashConstructor<struct ID3D11InputLayout * __ptr64>)
+CNVReflexDx11
+	rendersystemdx11.dll + 0x3af020(hierarchy CNVReflexDx11)
+CParallelProcessLauncher::CParallelLambdaJob<class `private: void __cdecl CKMeansClustering::AssignVectorsToClusters(void) __ptr64'::`2'::<lambda_1> >
+	rendersystemdx11.dll + 0x397370(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `private: void __cdecl CKMeansClustering::AssignVectorsToClusters(void) __ptr64'::`2'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC7_bc7e(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >
+	rendersystemdx11.dll + 0x36da98(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC7_bc7e(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC7_ispctexcomp(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >
+	rendersystemdx11.dll + 0x36dab0(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC7_ispctexcomp(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferETC(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >
+	rendersystemdx11.dll + 0x36dac8(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferETC(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct BGRA8888_t,1>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct BGRA8888_t,1>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	rendersystemdx11.dll + 0x36d3a0(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct BGRA8888_t,1>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct BGRA8888_t,1>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA16161616F_t,0>(unsigned char const * __ptr64,struct RGBA16161616F_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA16161616F_t,0>(unsigned char const * __ptr64,struct RGBA16161616F_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	rendersystemdx11.dll + 0x36d3b8(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA16161616F_t,0>(unsigned char const * __ptr64,struct RGBA16161616F_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA16161616F_t,0>(unsigned char const * __ptr64,struct RGBA16161616F_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA32323232F_t,0>(unsigned char const * __ptr64,struct RGBA32323232F_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA32323232F_t,0>(unsigned char const * __ptr64,struct RGBA32323232F_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	rendersystemdx11.dll + 0x36d3d0(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA32323232F_t,0>(unsigned char const * __ptr64,struct RGBA32323232F_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA32323232F_t,0>(unsigned char const * __ptr64,struct RGBA32323232F_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA8888_t,1>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA8888_t,1>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	rendersystemdx11.dll + 0x36d388(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA8888_t,1>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA8888_t,1>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC7<struct BGRA8888_t>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC7<struct BGRA8888_t>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	rendersystemdx11.dll + 0x36d3e8(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC7<struct BGRA8888_t>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC7<struct BGRA8888_t>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC7<struct RGBA8888_t>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC7<struct RGBA8888_t>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	rendersystemdx11.dll + 0x36d370(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC7<struct RGBA8888_t>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC7<struct RGBA8888_t>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC6H_ispctexcomp(void * __ptr64,unsigned __int64,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >(int,int,char const * __ptr64,class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC6H_ispctexcomp(void * __ptr64,unsigned __int64,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	rendersystemdx11.dll + 0x36dae0(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC6H_ispctexcomp(void * __ptr64,unsigned __int64,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >(int,int,char const * __ptr64,class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC6H_ispctexcomp(void * __ptr64,unsigned __int64,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CPooledIndexBuffer
+	rendersystemdx11.dll + 0x3af228(hierarchy CPooledIndexBuffer: CRenderResource)
+CPooledVertexBuffer
+	rendersystemdx11.dll + 0x3af240(hierarchy CPooledVertexBuffer: CRenderResource)
+CPostConnectCallback
+	rendersystemdx11.dll + 0x398f40(hierarchy CPostConnectCallback)
+CRasterizerStateCreator
+	rendersystemdx11.dll + 0x3b3538(hierarchy CRasterizerStateCreator: ITSHashConstructor<void * __ptr64>)
+CReadGPUBuffer
+	rendersystemdx11.dll + 0x3b2c40(hierarchy CReadGPUBuffer: IReadBufferCallback, IRenderReadCallback)
+CRenderContextBase
+	rendersystemdx11.dll + 0x3af4d0(hierarchy CRenderContextBase: IRenderContext, IStreamBuilderCallback<class CCommandStream>)
+	rendersystemdx11.dll + 0x3af4c0 MI offset 960(hierarchy IStreamBuilderCallback<class CCommandStream>)
+CRenderContextDx11
+	rendersystemdx11.dll + 0x3b0bc8(hierarchy CRenderContextDx11: CRenderContextBase, IRenderContext, IStreamBuilderCallback<class CCommandStream>)
+	rendersystemdx11.dll + 0x3b0bb8 MI offset 960(hierarchy IStreamBuilderCallback<class CCommandStream>)
+CRenderContextDx11_SoftwareCommandLists
+	rendersystemdx11.dll + 0x3b1558(hierarchy CRenderContextDx11_SoftwareCommandLists: CRenderContextDx11, CRenderContextBase, IRenderContext, IStreamBuilderCallback<class CCommandStream>)
+	rendersystemdx11.dll + 0x3b1548 MI offset 960(hierarchy IStreamBuilderCallback<class CCommandStream>)
+CRenderDeviceBase
+	rendersystemdx11.dll + 0x3b2c98(hierarchy CRenderDeviceBase: IRenderDevice)
+CRenderDeviceDx11
+	rendersystemdx11.dll + 0x3b62d0(hierarchy CRenderDeviceDx11: CRenderDeviceBase, IRenderDevice)
+CRenderDeviceMgrBase
+	rendersystemdx11.dll + 0x3b7ab0(hierarchy CRenderDeviceMgrBase: CTier2AppSystem<class IRenderDeviceMgr,0>, CTier1AppSystem<class IRenderDeviceMgr,0>, CTier0AppSystem<class IRenderDeviceMgr,0>, CBaseAppSystem<class IRenderDeviceMgr>, IRenderDeviceMgr, IAppSystem)
+CRenderDeviceMgrDx11
+	rendersystemdx11.dll + 0x3b83e0(hierarchy CRenderDeviceMgrDx11: CRenderDeviceMgrBase, CTier2AppSystem<class IRenderDeviceMgr,0>, CTier1AppSystem<class IRenderDeviceMgr,0>, CTier0AppSystem<class IRenderDeviceMgr,0>, CBaseAppSystem<class IRenderDeviceMgr>, IRenderDeviceMgr, IAppSystem, IRenderDeviceMgrBackdoor)
+	rendersystemdx11.dll + 0x3b83c8 MI offset 152(hierarchy IRenderDeviceMgrBackdoor)
+CRenderDocAPI
+	rendersystemdx11.dll + 0x3b89d8(hierarchy CRenderDocAPI)
+CRenderHardwareConfig
+	rendersystemdx11.dll + 0x3b8b60(hierarchy CRenderHardwareConfig: IRenderHardwareConfig)
+CRenderResource
+	rendersystemdx11.dll + 0x3ae508(hierarchy CRenderResource)
+CRenderThreadBase
+	rendersystemdx11.dll + 0x3b9128(hierarchy CRenderThreadBase)
+CRenderThreadDx11
+	rendersystemdx11.dll + 0x3b97d8(hierarchy CRenderThreadDx11: CRenderThreadBase)
+CRenderUtils
+	rendersystemdx11.dll + 0x3b9800(hierarchy CRenderUtils: CTier2AppSystem<class IRenderUtils,0>, CTier1AppSystem<class IRenderUtils,0>, CTier0AppSystem<class IRenderUtils,0>, CBaseAppSystem<class IRenderUtils>, IRenderUtils, IAppSystem)
+CSamplerStateCreator
+	rendersystemdx11.dll + 0x3b0b50(hierarchy CSamplerStateCreator: ITSHashConstructor<class CSamplerStateBinding>)
+CSchemaInstallCallback
+	rendersystemdx11.dll + 0x399148(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_rendersystemdx11
+	rendersystemdx11.dll + 0x3bd1d8(hierarchy CSchemaRegistration_rendersystemdx11: CSchemaRegistration)
+CShaderBuffer<struct ID3D10Blob>
+	rendersystemdx11.dll + 0x3b58a8(hierarchy CShaderBuffer<struct ID3D10Blob>: IRenderShaderByteCode)
+CSheetHashConstructor
+	rendersystemdx11.dll + 0x3b9a98(hierarchy CSheetHashConstructor: ITSHashConstructor<class CTextureSequenceRecord_t>)
+CSingletonCriticalSection
+	rendersystemdx11.dll + 0x397478(hierarchy CSingletonCriticalSection)
+CStateBundleCreator
+	rendersystemdx11.dll + 0x3b3508(hierarchy CStateBundleCreator: ITSHashConstructor<void * __ptr64>)
+CSwapChainBase
+	rendersystemdx11.dll + 0x3b6c38(hierarchy CSwapChainBase)
+CSwapChainDx11
+	rendersystemdx11.dll + 0x3b6260(hierarchy CSwapChainDx11: CSwapChainBase)
+CTextureBase
+	rendersystemdx11.dll + 0x3bb3f8(hierarchy CTextureBase)
+CTextureDx11
+	rendersystemdx11.dll + 0x3bc330(hierarchy CTextureDx11: CTextureBase)
+CTextureManagerBase
+	rendersystemdx11.dll + 0x3bb2c0(hierarchy CTextureManagerBase: IResourceTypeManager, IToolsResourceListener)
+	rendersystemdx11.dll + 0x3bb2a8 MI offset 8(hierarchy IToolsResourceListener)
+CTextureManagerDx11
+	rendersystemdx11.dll + 0x3bc1f8(hierarchy CTextureManagerDx11: CTextureManagerBase, IResourceTypeManager, IToolsResourceListener)
+	rendersystemdx11.dll + 0x3bc1e0 MI offset 8(hierarchy IToolsResourceListener)
+CTextureStreamingHelper
+	rendersystemdx11.dll + 0x3bcd60(hierarchy CTextureStreamingHelper)
+CVertexBufferBase
+	rendersystemdx11.dll + 0x3bcd88(hierarchy CVertexBufferBase: CRenderResource)
+CVertexBufferDx11
+	rendersystemdx11.dll + 0x3bd028(hierarchy CVertexBufferDx11: CVertexBufferBase, CRenderResource)
+ComputeShader_t
+	rendersystemdx11.dll + 0x3b6b88(hierarchy ComputeShader_t: BaseGPUShader_t)
+Concurrency::details::_CancellationTokenCallback<class <lambda_be3e5d9dce35d2c8dbfa8485373731d5> >
+	rendersystemdx11.dll + 0x3719a0(hierarchy Concurrency::details::_CancellationTokenCallback<class <lambda_be3e5d9dce35d2c8dbfa8485373731d5> >: Concurrency::details::_CancellationTokenRegistration, Concurrency::details::_RefCounter)
+Concurrency::details::_CancellationTokenRegistration
+	rendersystemdx11.dll + 0x3718d8(hierarchy Concurrency::details::_CancellationTokenRegistration: Concurrency::details::_RefCounter)
+Concurrency::details::_DefaultPPLTaskScheduler
+	rendersystemdx11.dll + 0x371890(hierarchy Concurrency::details::_DefaultPPLTaskScheduler: Concurrency::scheduler_interface)
+Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>
+	rendersystemdx11.dll + 0x3720d0(hierarchy Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>: Concurrency::details::_TaskProcHandle)
+Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>
+	rendersystemdx11.dll + 0x372168(hierarchy Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>: Concurrency::details::_TaskProcHandle)
+Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>
+	rendersystemdx11.dll + 0x372138(hierarchy Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>: Concurrency::details::_TaskProcHandle)
+Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>
+	rendersystemdx11.dll + 0x3720a0(hierarchy Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>: Concurrency::details::_TaskProcHandle)
+Concurrency::details::_RefCounter
+	rendersystemdx11.dll + 0x3718c0(hierarchy Concurrency::details::_RefCounter)
+Concurrency::details::_TaskProcHandle
+	rendersystemdx11.dll + 0x3718f8(hierarchy Concurrency::details::_TaskProcHandle)
+Concurrency::details::_Task_impl<unsigned char>
+	rendersystemdx11.dll + 0x3719c0(hierarchy Concurrency::details::_Task_impl<unsigned char>: Concurrency::details::_Task_impl_base)
+Concurrency::details::_Task_impl_base
+	rendersystemdx11.dll + 0x371950(hierarchy Concurrency::details::_Task_impl_base)
+Concurrency::details::stl_condition_variable_win7
+	rendersystemdx11.dll + 0x39e6b8(hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+Concurrency::details::stl_critical_section_win7
+	rendersystemdx11.dll + 0x39e688(hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+Concurrency::invalid_operation
+	rendersystemdx11.dll + 0x371878(hierarchy Concurrency::invalid_operation: std::exception)
+Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>
+	rendersystemdx11.dll + 0x3720e8(hierarchy Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>: Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>, Concurrency::details::_TaskProcHandle)
+Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>
+	rendersystemdx11.dll + 0x372180(hierarchy Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>: Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>, Concurrency::details::_TaskProcHandle)
+Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>
+	rendersystemdx11.dll + 0x372150(hierarchy Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>: Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>, Concurrency::details::_TaskProcHandle)
+Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>
+	rendersystemdx11.dll + 0x3720b8(hierarchy Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>: Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>, Concurrency::details::_TaskProcHandle)
+Etc::Block4x4Encoding
+	rendersystemdx11.dll + 0x372818(hierarchy Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_ETC1
+	rendersystemdx11.dll + 0x372860(hierarchy Etc::Block4x4Encoding_ETC1: Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_R11
+	rendersystemdx11.dll + 0x373750(hierarchy Etc::Block4x4Encoding_R11: Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RG11
+	rendersystemdx11.dll + 0x373898(hierarchy Etc::Block4x4Encoding_RG11: Etc::Block4x4Encoding_R11, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGB8
+	rendersystemdx11.dll + 0x373090(hierarchy Etc::Block4x4Encoding_RGB8: Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGB8A1
+	rendersystemdx11.dll + 0x373590(hierarchy Etc::Block4x4Encoding_RGB8A1: Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGB8A1_Opaque
+	rendersystemdx11.dll + 0x372390(hierarchy Etc::Block4x4Encoding_RGB8A1_Opaque: Etc::Block4x4Encoding_RGB8A1, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGB8A1_Transparent
+	rendersystemdx11.dll + 0x3723d8(hierarchy Etc::Block4x4Encoding_RGB8A1_Transparent: Etc::Block4x4Encoding_RGB8A1, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGBA8
+	rendersystemdx11.dll + 0x3733a0(hierarchy Etc::Block4x4Encoding_RGBA8: Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGBA8_Opaque
+	rendersystemdx11.dll + 0x372300(hierarchy Etc::Block4x4Encoding_RGBA8_Opaque: Etc::Block4x4Encoding_RGBA8, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGBA8_Transparent
+	rendersystemdx11.dll + 0x372348(hierarchy Etc::Block4x4Encoding_RGBA8_Transparent: Etc::Block4x4Encoding_RGBA8, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+IBarrierHelper
+	rendersystemdx11.dll + 0x3af440(hierarchy IBarrierHelper)
+IMultipleWorkerJob
+	rendersystemdx11.dll + 0x36d348(hierarchy IMultipleWorkerJob)
+IRenderContext
+	rendersystemdx11.dll + 0x3af998(hierarchy IRenderContext)
+IRenderReadCallback
+	rendersystemdx11.dll + 0x3b2c60(hierarchy IRenderReadCallback)
+IRenderShaderByteCode
+	rendersystemdx11.dll + 0x3b6c18(hierarchy IRenderShaderByteCode)
+PixelShader_t
+	rendersystemdx11.dll + 0x3b6bc8(hierarchy PixelShader_t: BaseGPUShader_t)
+VertexShader_t
+	rendersystemdx11.dll + 0x3b6ba8(hierarchy VertexShader_t: BaseGPUShader_t)
+`anonymous namespace'::_ExceptionPtr_normal
+	rendersystemdx11.dll + 0x39e610(hierarchy `anonymous namespace'::_ExceptionPtr_normal: std::_Ref_count_base)
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>
+	rendersystemdx11.dll + 0x39e638(hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>: std::_Ref_count_base)
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>
+	rendersystemdx11.dll + 0x39e660(hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>: std::_Ref_count_base)
+`public: virtual class std::unique_ptr<class IBarrierHelper,struct std::default_delete<class IBarrierHelper> > __cdecl CRenderContextBase::GetBarrierHelper(void) __ptr64'::`2'::CBarrierHelperEmpty
+	rendersystemdx11.dll + 0x3af480(hierarchy `public: virtual class std::unique_ptr<class IBarrierHelper,struct std::default_delete<class IBarrierHelper> > __cdecl CRenderContextBase::GetBarrierHelper(void) __ptr64'::`2'::CBarrierHelperEmpty: IBarrierHelper)
+std::_Associated_state<int>
+	rendersystemdx11.dll + 0x371a78(hierarchy std::_Associated_state<int>)
+std::_Associated_state<unsigned int>
+	rendersystemdx11.dll + 0x371c90(hierarchy std::_Associated_state<unsigned int>)
+std::_Deferred_async_state<unsigned int>
+	rendersystemdx11.dll + 0x371ee0(hierarchy std::_Deferred_async_state<unsigned int>: std::_Packaged_state<unsigned int __cdecl(void)>, std::_Associated_state<unsigned int>)
+std::_Deferred_async_state<void>
+	rendersystemdx11.dll + 0x371e00(hierarchy std::_Deferred_async_state<void>: std::_Packaged_state<void __cdecl(void)>, std::_Associated_state<int>)
+std::_Facet_base
+	rendersystemdx11.dll + 0x1b2260(hierarchy std::_Facet_base)
+std::_Func_base<unsigned char>
+	rendersystemdx11.dll + 0x371cc8(hierarchy std::_Func_base<unsigned char>)
+std::_Func_base<unsigned int>
+	rendersystemdx11.dll + 0x371f50(hierarchy std::_Func_base<unsigned int>)
+std::_Func_base<void>
+	rendersystemdx11.dll + 0x371c58(hierarchy std::_Func_base<void>)
+std::_Func_impl<class <lambda_5a9ef80d79df7873994019ff15dceae5>,class std::allocator<int>,void>
+	rendersystemdx11.dll + 0x3721d0(hierarchy std::_Func_impl<class <lambda_5a9ef80d79df7873994019ff15dceae5>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,class std::allocator<int>,void>
+	rendersystemdx11.dll + 0x372240(hierarchy std::_Func_impl<class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_713ee8bbd6b08550d59c52695cab5ce3>,class std::allocator<int>,void>
+	rendersystemdx11.dll + 0x371fc0(hierarchy std::_Func_impl<class <lambda_713ee8bbd6b08550d59c52695cab5ce3>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_763529b0c7473cbc215a52d189ac9b18>,class std::allocator<int>,void>
+	rendersystemdx11.dll + 0x372030(hierarchy std::_Func_impl<class <lambda_763529b0c7473cbc215a52d189ac9b18>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_85226a1ade6d27c19b16702c44b1a394>,class std::allocator<int>,void>
+	rendersystemdx11.dll + 0x372208(hierarchy std::_Func_impl<class <lambda_85226a1ade6d27c19b16702c44b1a394>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_e0b623a606acfd10554dbddbb0c1a7da>,class std::allocator<int>,unsigned char>
+	rendersystemdx11.dll + 0x371ff8(hierarchy std::_Func_impl<class <lambda_e0b623a606acfd10554dbddbb0c1a7da>,class std::allocator<int>,unsigned char>: std::_Func_base<unsigned char>)
+std::_Func_impl<class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,class std::allocator<int>,void>
+	rendersystemdx11.dll + 0x372198(hierarchy std::_Func_impl<class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_f25c37099038263181b5186a3fa41b37>,class std::allocator<int>,void>
+	rendersystemdx11.dll + 0x371f88(hierarchy std::_Func_impl<class <lambda_f25c37099038263181b5186a3fa41b37>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class std::_Fake_no_copy_callable_adapter<unsigned int (__cdecl Etc::Image::*)(unsigned int,unsigned int,unsigned int) __ptr64,class Etc::Image * __ptr64 const,unsigned int & __ptr64,int & __ptr64,unsigned int & __ptr64>,class std::allocator<int>,unsigned int>
+	rendersystemdx11.dll + 0x372100(hierarchy std::_Func_impl<class std::_Fake_no_copy_callable_adapter<unsigned int (__cdecl Etc::Image::*)(unsigned int,unsigned int,unsigned int) __ptr64,class Etc::Image * __ptr64 const,unsigned int & __ptr64,int & __ptr64,unsigned int & __ptr64>,class std::allocator<int>,unsigned int>: std::_Func_base<unsigned int>)
+std::_Func_impl<class std::_Fake_no_copy_callable_adapter<void (__cdecl Etc::Image::*)(unsigned int,unsigned int) __ptr64,class Etc::Image * __ptr64 const,int & __ptr64,unsigned int & __ptr64>,class std::allocator<int>,void>
+	rendersystemdx11.dll + 0x372068(hierarchy std::_Func_impl<class std::_Fake_no_copy_callable_adapter<void (__cdecl Etc::Image::*)(unsigned int,unsigned int) __ptr64,class Etc::Image * __ptr64 const,int & __ptr64,unsigned int & __ptr64>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `protected: void __cdecl CTextureManagerBase::MN_AddAsyncTextureBitsHookupJob(class CTextureBase * __ptr64,struct CTextureManagerBase::AsyncTextureHookupData_t const & __ptr64) __ptr64'::`2'::<lambda_1>,void>
+	rendersystemdx11.dll + 0x3bb1f8(hierarchy std::_Func_impl_no_alloc<class `protected: void __cdecl CTextureManagerBase::MN_AddAsyncTextureBitsHookupJob(class CTextureBase * __ptr64,struct CTextureManagerBase::AsyncTextureHookupData_t const & __ptr64) __ptr64'::`2'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `protected: void __cdecl CTextureManagerBase::MN_CacheRequestedResources(class CUtlVector<struct CTextureManagerBase::ToCacheHandle_t,int,class CUtlMemory<struct CTextureManagerBase::ToCacheHandle_t,int> > & __ptr64) __ptr64'::`4'::<lambda_1>,void,class IAsyncResourceDataRequest * __ptr64,class std::unique_ptr<class IAsyncProcessedDataResult,struct std::default_delete<class IAsyncProcessedDataResult> > >
+	rendersystemdx11.dll + 0x3bb230(hierarchy std::_Func_impl_no_alloc<class `protected: void __cdecl CTextureManagerBase::MN_CacheRequestedResources(class CUtlVector<struct CTextureManagerBase::ToCacheHandle_t,int,class CUtlMemory<struct CTextureManagerBase::ToCacheHandle_t,int> > & __ptr64) __ptr64'::`4'::<lambda_1>,void,class IAsyncResourceDataRequest * __ptr64,class std::unique_ptr<class IAsyncProcessedDataResult,struct std::default_delete<class IAsyncProcessedDataResult> > >: std::_Func_base<void,class IAsyncResourceDataRequest * __ptr64,class std::unique_ptr<class IAsyncProcessedDataResult,struct std::default_delete<class IAsyncProcessedDataResult> > >)
+std::_Func_impl_no_alloc<class `protected: void __cdecl CTextureStreamingHelper::IssueTextureLoadRequest(class CTextureBase * __ptr64,struct TextureSpecification_t const & __ptr64) __ptr64'::`2'::<lambda_1>,void,class IAsyncResourceDataRequest * __ptr64,class std::unique_ptr<class IAsyncProcessedDataResult,struct std::default_delete<class IAsyncProcessedDataResult> > >
+	rendersystemdx11.dll + 0x3bcd28(hierarchy std::_Func_impl_no_alloc<class `protected: void __cdecl CTextureStreamingHelper::IssueTextureLoadRequest(class CTextureBase * __ptr64,struct TextureSpecification_t const & __ptr64) __ptr64'::`2'::<lambda_1>,void,class IAsyncResourceDataRequest * __ptr64,class std::unique_ptr<class IAsyncProcessedDataResult,struct std::default_delete<class IAsyncProcessedDataResult> > >: std::_Func_base<void,class IAsyncResourceDataRequest * __ptr64,class std::unique_ptr<class IAsyncProcessedDataResult,struct std::default_delete<class IAsyncProcessedDataResult> > >)
+std::_Func_impl_no_alloc<class `public: static void __cdecl CRenderDocAPI::CaptureRenderDocWindow(class CCommandContext const & __ptr64,class CCommand const & __ptr64)'::`2'::<lambda_1>,void,class CSwapChainBase * __ptr64>
+	rendersystemdx11.dll + 0x3b8968(hierarchy std::_Func_impl_no_alloc<class `public: static void __cdecl CRenderDocAPI::CaptureRenderDocWindow(class CCommandContext const & __ptr64,class CCommand const & __ptr64)'::`2'::<lambda_1>,void,class CSwapChainBase * __ptr64>: std::_Func_base<void,class CSwapChainBase * __ptr64>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CRenderDeviceDx11::QueueShaderCompile(class BaseGPUShader_t * __ptr64) __ptr64'::`2'::<lambda_1>,void>
+	rendersystemdx11.dll + 0x3b5748(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CRenderDeviceDx11::QueueShaderCompile(class BaseGPUShader_t * __ptr64) __ptr64'::`2'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::FillAttr(int,float) __ptr64'::`13'::<lambda_1>,void>
+	rendersystemdx11.dll + 0x3990f8(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::FillAttr(int,float) __ptr64'::`13'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `void __cdecl RenderDocCaptureWindowAutoComplete(class CCommand const & __ptr64,class CUtlVector<class CUtlString,int,class CUtlMemory<class CUtlString,int> > & __ptr64)'::`5'::<lambda_1>,void,class CSwapChainBase * __ptr64>
+	rendersystemdx11.dll + 0x3b89a0(hierarchy std::_Func_impl_no_alloc<class `void __cdecl RenderDocCaptureWindowAutoComplete(class CCommand const & __ptr64,class CUtlVector<class CUtlString,int,class CUtlMemory<class CUtlString,int> > & __ptr64)'::`5'::<lambda_1>,void,class CSwapChainBase * __ptr64>: std::_Func_base<void,class CSwapChainBase * __ptr64>)
+std::_Future_error_category
+	rendersystemdx11.dll + 0x371a38(hierarchy std::_Future_error_category: std::_Generic_error_category, std::error_category)
+std::_Generic_error_category
+	rendersystemdx11.dll + 0x371838(hierarchy std::_Generic_error_category: std::error_category)
+std::_Iostream_error_category2
+	rendersystemdx11.dll + 0x36de60(hierarchy std::_Iostream_error_category2: std::error_category)
+std::_Mpunct<char>
+	rendersystemdx11.dll + 0x39f618(hierarchy std::_Mpunct<char>: std::money_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::_Mpunct<unsigned short>
+	rendersystemdx11.dll + 0x39f158(hierarchy std::_Mpunct<unsigned short>: std::money_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::_Mpunct<wchar_t>
+	rendersystemdx11.dll + 0x39edd8(hierarchy std::_Mpunct<wchar_t>: std::money_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::_Packaged_state<unsigned int __cdecl(void)>
+	rendersystemdx11.dll + 0x371e70(hierarchy std::_Packaged_state<unsigned int __cdecl(void)>: std::_Associated_state<unsigned int>)
+std::_Packaged_state<void __cdecl(void)>
+	rendersystemdx11.dll + 0x371d90(hierarchy std::_Packaged_state<void __cdecl(void)>: std::_Associated_state<int>)
+std::_Ref_count_base
+	rendersystemdx11.dll + 0x370700(hierarchy std::_Ref_count_base)
+std::_Ref_count_obj<struct Concurrency::details::_ExceptionHolder>
+	rendersystemdx11.dll + 0x371d40(hierarchy std::_Ref_count_obj<struct Concurrency::details::_ExceptionHolder>: std::_Ref_count_base)
+std::_Ref_count_obj<struct Concurrency::details::_Task_impl<unsigned char> >
+	rendersystemdx11.dll + 0x371d68(hierarchy std::_Ref_count_obj<struct Concurrency::details::_Task_impl<unsigned char> >: std::_Ref_count_base)
+std::_System_error
+	rendersystemdx11.dll + 0x36de18(hierarchy std::_System_error: std::runtime_error, stdext::exception)
+std::_Task_async_state<unsigned int,0>
+	rendersystemdx11.dll + 0x371ea8(hierarchy std::_Task_async_state<unsigned int,0>: std::_Packaged_state<unsigned int __cdecl(void)>, std::_Associated_state<unsigned int>)
+std::_Task_async_state<unsigned int,1>
+	rendersystemdx11.dll + 0x371f18(hierarchy std::_Task_async_state<unsigned int,1>: std::_Packaged_state<unsigned int __cdecl(void)>, std::_Associated_state<unsigned int>)
+std::_Task_async_state<void,0>
+	rendersystemdx11.dll + 0x371dc8(hierarchy std::_Task_async_state<void,0>: std::_Packaged_state<void __cdecl(void)>, std::_Associated_state<int>)
+std::_Task_async_state<void,1>
+	rendersystemdx11.dll + 0x371e38(hierarchy std::_Task_async_state<void,1>: std::_Packaged_state<void __cdecl(void)>, std::_Associated_state<int>)
+std::bad_alloc
+	rendersystemdx11.dll + 0x1b2208(hierarchy std::bad_alloc: std::exception)
+std::bad_array_new_length
+	rendersystemdx11.dll + 0x1b2220(hierarchy std::bad_array_new_length: std::bad_alloc, std::exception)
+std::bad_cast
+	rendersystemdx11.dll + 0x39d650(hierarchy std::bad_cast: std::exception)
+std::bad_exception
+	rendersystemdx11.dll + 0x39e5e8(hierarchy std::bad_exception: std::exception)
+std::bad_function_call
+	rendersystemdx11.dll + 0x39d5b8(hierarchy std::bad_function_call: std::exception)
+std::basic_ios<char,struct std::char_traits<char> >
+	rendersystemdx11.dll + 0x36e220(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_iostream<char,struct std::char_traits<char> >
+	rendersystemdx11.dll + 0x36e258 MI offset 32(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>, std::basic_ostream<char,struct std::char_traits<char> >, std::basic_ios<char,struct std::char_traits<char> >, std::ios_base, std::_Iosb<int>)
+std::basic_istream<char,struct std::char_traits<char> >
+	rendersystemdx11.dll + 0x36e230 MI offset 24(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_ostream<char,struct std::char_traits<char> >
+	rendersystemdx11.dll + 0x36e248 MI offset 16(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_streambuf<char,struct std::char_traits<char> >
+	rendersystemdx11.dll + 0x36e268(hierarchy std::basic_streambuf<char,struct std::char_traits<char> >)
+std::basic_stringbuf<char,struct std::char_traits<char>,class std::allocator<char> >
+	rendersystemdx11.dll + 0x36e2e8(hierarchy std::basic_stringbuf<char,struct std::char_traits<char>,class std::allocator<char> >: std::basic_streambuf<char,struct std::char_traits<char> >)
+std::basic_stringstream<char,struct std::char_traits<char>,class std::allocator<char> >
+	rendersystemdx11.dll + 0x36e368 MI offset 152(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>, std::basic_ostream<char,struct std::char_traits<char> >, std::basic_ios<char,struct std::char_traits<char> >, std::ios_base, std::_Iosb<int>)
+std::codecvt<char,char,struct _Mbstatet>
+	rendersystemdx11.dll + 0x39d6f0(hierarchy std::codecvt<char,char,struct _Mbstatet>: std::codecvt_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::codecvt<unsigned short,char,struct _Mbstatet>
+	rendersystemdx11.dll + 0x39ea68(hierarchy std::codecvt<unsigned short,char,struct _Mbstatet>: std::codecvt_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::codecvt<wchar_t,char,struct _Mbstatet>
+	rendersystemdx11.dll + 0x1b2298(hierarchy std::codecvt<wchar_t,char,struct _Mbstatet>: std::codecvt_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::codecvt_utf8_utf16<wchar_t,1114111,0>
+	rendersystemdx11.dll + 0x1b22f0(hierarchy std::codecvt_utf8_utf16<wchar_t,1114111,0>: std::codecvt<wchar_t,char,struct _Mbstatet>, std::codecvt_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::collate<char>
+	rendersystemdx11.dll + 0x39f548(hierarchy std::collate<char>: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::collate<unsigned short>
+	rendersystemdx11.dll + 0x39f088(hierarchy std::collate<unsigned short>: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::collate<wchar_t>
+	rendersystemdx11.dll + 0x39ed08(hierarchy std::collate<wchar_t>: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::ctype<char>
+	rendersystemdx11.dll + 0x36dec0(hierarchy std::ctype<char>: std::ctype_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::ctype<unsigned short>
+	rendersystemdx11.dll + 0x39eb40(hierarchy std::ctype<unsigned short>: std::ctype_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::ctype<wchar_t>
+	rendersystemdx11.dll + 0x39eac0(hierarchy std::ctype<wchar_t>: std::ctype_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::error_category
+	rendersystemdx11.dll + 0x3717f8(hierarchy std::error_category)
+std::exception
+	rendersystemdx11.dll + 0x1b21f0(hierarchy std::exception)
+std::future_error
+	rendersystemdx11.dll + 0x39e7a0(hierarchy std::future_error: std::logic_error, std::exception)
+std::ios_base
+	rendersystemdx11.dll + 0x36df40(hierarchy std::ios_base: std::_Iosb<int>)
+std::ios_base::failure
+	rendersystemdx11.dll + 0x36df20(hierarchy std::ios_base::failure: std::system_error, std::_System_error, std::runtime_error, stdext::exception)
+std::length_error
+	rendersystemdx11.dll + 0x39d600(hierarchy std::length_error: std::logic_error, std::exception)
+std::locale::_Locimp
+	rendersystemdx11.dll + 0x39d630(hierarchy std::locale::_Locimp: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::logic_error
+	rendersystemdx11.dll + 0x39d5e8(hierarchy std::logic_error: std::exception)
+std::messages<char>
+	rendersystemdx11.dll + 0x39f580(hierarchy std::messages<char>: std::messages_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::messages<unsigned short>
+	rendersystemdx11.dll + 0x39f0c0(hierarchy std::messages<unsigned short>: std::messages_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::messages<wchar_t>
+	rendersystemdx11.dll + 0x39ed40(hierarchy std::messages<wchar_t>: std::messages_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::money_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >
+	rendersystemdx11.dll + 0x39f5b8(hierarchy std::money_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::money_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >
+	rendersystemdx11.dll + 0x39f0f8(hierarchy std::money_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::money_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >
+	rendersystemdx11.dll + 0x39ed78(hierarchy std::money_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::money_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >
+	rendersystemdx11.dll + 0x39f5e8(hierarchy std::money_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::money_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >
+	rendersystemdx11.dll + 0x39f128(hierarchy std::money_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::money_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >
+	rendersystemdx11.dll + 0x39eda8(hierarchy std::money_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::moneypunct<char,0>
+	rendersystemdx11.dll + 0x39f680(hierarchy std::moneypunct<char,0>: std::_Mpunct<char>, std::money_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::moneypunct<char,1>
+	rendersystemdx11.dll + 0x39f6e8(hierarchy std::moneypunct<char,1>: std::_Mpunct<char>, std::money_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::moneypunct<unsigned short,0>
+	rendersystemdx11.dll + 0x39f1c0(hierarchy std::moneypunct<unsigned short,0>: std::_Mpunct<unsigned short>, std::money_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::moneypunct<unsigned short,1>
+	rendersystemdx11.dll + 0x39f228(hierarchy std::moneypunct<unsigned short,1>: std::_Mpunct<unsigned short>, std::money_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::moneypunct<wchar_t,0>
+	rendersystemdx11.dll + 0x39ee40(hierarchy std::moneypunct<wchar_t,0>: std::_Mpunct<wchar_t>, std::money_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::moneypunct<wchar_t,1>
+	rendersystemdx11.dll + 0x39eea8(hierarchy std::moneypunct<wchar_t,1>: std::_Mpunct<wchar_t>, std::money_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >
+	rendersystemdx11.dll + 0x39d678(hierarchy std::num_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >
+	rendersystemdx11.dll + 0x39ef68(hierarchy std::num_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >
+	rendersystemdx11.dll + 0x39ebe8(hierarchy std::num_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >
+	rendersystemdx11.dll + 0x36ea70(hierarchy std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >
+	rendersystemdx11.dll + 0x39efe0(hierarchy std::num_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >
+	rendersystemdx11.dll + 0x39ec60(hierarchy std::num_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::numpunct<char>
+	rendersystemdx11.dll + 0x36ead8(hierarchy std::numpunct<char>: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::numpunct<unsigned short>
+	rendersystemdx11.dll + 0x39f040(hierarchy std::numpunct<unsigned short>: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::numpunct<wchar_t>
+	rendersystemdx11.dll + 0x39ecc0(hierarchy std::numpunct<wchar_t>: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::out_of_range
+	rendersystemdx11.dll + 0x39d618(hierarchy std::out_of_range: std::logic_error, std::exception)
+std::range_error
+	rendersystemdx11.dll + 0x1b2248(hierarchy std::range_error: std::runtime_error, std::exception)
+std::runtime_error
+	rendersystemdx11.dll + 0x36ddf8(hierarchy std::runtime_error: std::exception)
+std::system_error
+	rendersystemdx11.dll + 0x36de40(hierarchy std::system_error: std::_System_error, std::runtime_error, stdext::exception)
+std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >
+	rendersystemdx11.dll + 0x39f750(hierarchy std::time_get<char,class std::istreambuf_iterator<char,struct std::char_traits<char> > >: std::time_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >
+	rendersystemdx11.dll + 0x39f290(hierarchy std::time_get<unsigned short,class std::istreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >: std::time_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >
+	rendersystemdx11.dll + 0x39ef10(hierarchy std::time_get<wchar_t,class std::istreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >: std::time_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >
+	rendersystemdx11.dll + 0x39f7a8(hierarchy std::time_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >
+	rendersystemdx11.dll + 0x39f2e8(hierarchy std::time_put<unsigned short,class std::ostreambuf_iterator<unsigned short,struct std::char_traits<unsigned short> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >
+	rendersystemdx11.dll + 0x39ebc0(hierarchy std::time_put<wchar_t,class std::ostreambuf_iterator<wchar_t,struct std::char_traits<wchar_t> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::wstring_convert<class std::codecvt_utf8_utf16<wchar_t,1114111,0>,wchar_t,class std::allocator<wchar_t>,class std::allocator<char> >
+	rendersystemdx11.dll + 0x1b2348(hierarchy std::wstring_convert<class std::codecvt_utf8_utf16<wchar_t,1114111,0>,wchar_t,class std::allocator<wchar_t>,class std::allocator<char> >)
+stdext::exception
+	rendersystemdx11.dll + 0x36ddc0(hierarchy stdext::exception)
+type_info
+	rendersystemdx11.dll + 0x39fa10(hierarchy type_info)

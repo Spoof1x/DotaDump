@@ -1,0 +1,44 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNavHullVData (size: 0x2c bytes, project "navlib", binding @ resourcecompiler.dll + 0x249ec20, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MVDataRoot
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x12d0a70"
+
+-----members of class CNavHullVData-----
+	bool m_bAgentEnabled(offset 0x0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enabled"
+		^MPropertyDescription "Is this agent enabled for generation? ( will result in 0 nav areas for this agent if not )."
+	uint8_t[3] unaccounted(offset 0x1)
+	float32 m_agentRadius(offset 0x4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Radius"
+		^MPropertyDescription "Radius of navigating agent capsule."
+	float32 m_agentHeight(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Height"
+		^MPropertyDescription "Height of navigating agent capsule."
+	bool m_agentShortHeightEnabled(offset 0xc, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Short Height"
+		^MPropertyDescription "Enable shorter navigating agent capsules ( e.g. crouch ) in addition to regular height capsules."
+	uint8_t[3] unaccounted(offset 0xd)
+	float32 m_agentShortHeight(offset 0x10, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Short height"
+		^MPropertyDescription "Short Height of navigating agent capsules if enabled."
+	float32 m_agentMaxClimb(offset 0x14, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Climb"
+		^MPropertyDescription "Max vertical offset that the agent simply ignores and walks over."
+	int32 m_agentMaxSlope(offset 0x18, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Slope"
+		^MPropertyDescription "Max ground slope to be considered walkable."
+	float32 m_agentMaxJumpDownDist(offset 0x1c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Jump Down Distance"
+		^MPropertyDescription "Max vertical offset at which to create a jump connection ( possibly one-way )."
+	float32 m_agentMaxJumpHorizDistBase(offset 0x20, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Horizontal Jump Distance"
+		^MPropertyDescription "Max horizontal offset over which to create a jump connection ( actually a parameter into the true threshold function )."
+	float32 m_agentMaxJumpUpDist(offset 0x24, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Jump Up Distance"
+		^MPropertyDescription "Max vertical offset at which to make a jump connection two-way."
+	int32 m_agentBorderErosion(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Border Erosion"
+		^MPropertyDescription "Border erosion in voxel units ( -1 to use default value based on agent radius )."
+

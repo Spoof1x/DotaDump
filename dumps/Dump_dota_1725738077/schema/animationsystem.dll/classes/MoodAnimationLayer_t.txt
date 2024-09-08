@@ -1,0 +1,39 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class MoodAnimationLayer_t (size: 0x60 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f0b90, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x4f720"
+^MPropertyArrayElementNameKey "m_sName"
+
+-----members of class MoodAnimationLayer_t-----
+	CUtlString m_sName(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Name"
+		^MPropertyDescription "Name of the layer"
+	bool m_bActiveListening(offset 0x8, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Active When Listening"
+		^MPropertyDescription "Sets the mood's animation buckets to be active when the character is listening"
+	bool m_bActiveTalking(offset 0x9, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Active When Talking"
+		^MPropertyDescription "Sets the mood's animation buckets to be active when the character is talking"
+	uint8_t[6] unaccounted(offset 0xa)
+	CUtlVector< MoodAnimation_t > m_layerAnimations(offset 0x10, size 0x18, align 0x8)
+		^MPropertyDescription "List of animations to choose from"
+	CRangeFloat m_flIntensity(offset 0x28, size 0x8, align 0x0)
+		^MPropertyDescription "Intensity of the animation"
+		^MPropertyAttributeRange "0 1"
+	CRangeFloat m_flDurationScale(offset 0x30, size 0x8, align 0x0)
+		^MPropertyDescription "Multiplier of the animation duration"
+	bool m_bScaleWithInts(offset 0x38, size 0x1, align 0x1)
+		^MPropertyDescription "When scaling an animation, grab the scale value as in int. Used for gestures/postures to control number of looping sections"
+	uint8_t[3] unaccounted(offset 0x39)
+	CRangeFloat m_flNextStart(offset 0x3c, size 0x8, align 0x0)
+		^MPropertyDescription "Time before the next animation can start"
+	CRangeFloat m_flStartOffset(offset 0x44, size 0x8, align 0x0)
+		^MPropertyDescription "Time from the start of the mood before an animation can start"
+	CRangeFloat m_flEndOffset(offset 0x4c, size 0x8, align 0x0)
+		^MPropertyDescription "Time from the end of the mood when an animation cannot play"
+	float32 m_flFadeIn(offset 0x54, size 0x4, align 0x4)
+		^MPropertyDescription "Fade in time of the animation"
+	float32 m_flFadeOut(offset 0x58, size 0x4, align 0x4)
+		^MPropertyDescription "Fade out time of the animation"
+	uint8_t[4] unaccounted(offset 0x5c)
+

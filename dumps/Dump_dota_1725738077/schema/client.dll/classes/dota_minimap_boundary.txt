@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class dota_minimap_boundary (size: 0x8 bytes, project "client", binding @ client.dll + 0x4894430, scope "!GlobalTypes") extends CEmptyEntityInstance(MI offset 0x8)
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_DISALLOWED
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CEmptyEntityInstance (size: 0x1 bytes, project "entity2", binding @ client.dll + 0x48fad50, MI offset 0x8, scope "client.dll")
+	| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_CONSTRUCT_DISALLOWED
+	
+	-----members of class CEmptyEntityInstance-----
+		uint8_t[1] unaccounted(offset 0x8)
+	
+
+-----members of class dota_minimap_boundary-----
+	uint8_t[8] unaccounted(offset 0x0)
+

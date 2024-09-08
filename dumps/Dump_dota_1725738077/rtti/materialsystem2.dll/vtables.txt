@@ -1,0 +1,116 @@
+CBaseIntrospectedToKV3TypeManager
+	materialsystem2.dll + 0xcb530(hierarchy CBaseIntrospectedToKV3TypeManager: IResourceTypeManager)
+CBaseIntrospectedToKV3TypeManager::AsyncProcessResult
+	materialsystem2.dll + 0xcb520(hierarchy CBaseIntrospectedToKV3TypeManager::AsyncProcessResult: IAsyncProcessedDataResult)
+CCompileTargetExprOpCodeHandler
+	materialsystem2.dll + 0xd3190(hierarchy CCompileTargetExprOpCodeHandler: IOpCodeHandler<int>)
+CCompileTargetExprStackMachineBuilder
+	materialsystem2.dll + 0xd2f40(hierarchy CCompileTargetExprStackMachineBuilder: CUtlStackMachineBuilder)
+CDynamicShaderCompileByteCode
+	materialsystem2.dll + 0xedfd8(hierarchy CDynamicShaderCompileByteCode: IRenderShaderByteCode)
+CFontBase
+	materialsystem2.dll + 0xf2e68(hierarchy CFontBase)
+CFontManager
+	materialsystem2.dll + 0xf2630(hierarchy CFontManager: CTier2AppSystem<class IFontManager,0>, CTier1AppSystem<class IFontManager,0>, CTier0AppSystem<class IFontManager,0>, CBaseAppSystem<class IFontManager>, IFontManager, IAppSystem)
+CIntOpEvaluator
+	materialsystem2.dll + 0xd2f28(hierarchy CIntOpEvaluator: IOpEvaluator<int>)
+CKV3ResourceBlockHelper
+	materialsystem2.dll + 0xcb4c8(hierarchy CKV3ResourceBlockHelper: IAsyncProcessedDataResult)
+CKV3TransferContextBase
+	materialsystem2.dll + 0xcd138(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferLoadContext
+	materialsystem2.dll + 0xcd1a8(hierarchy CKV3TransferLoadContext: CKV3TransferContextBase, IErrorListener)
+CKV3TransferSaveContext
+	materialsystem2.dll + 0xcd170(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CKV3Transfer_ResourceLoadInterface
+	materialsystem2.dll + 0xcb458(hierarchy CKV3Transfer_ResourceLoadInterface: IKV3TransferInterface_ResourceLoad)
+CLineBatchLayoutInfo
+	materialsystem2.dll + 0xf3fa8(hierarchy CLineBatchLayoutInfo: CBaseQueuedRenderable, IQueuedRenderable)
+CLineLayoutInfo
+	materialsystem2.dll + 0xf4310(hierarchy CLineLayoutInfo: CBaseQueuedRenderable, IQueuedRenderable)
+CMaterial2
+	materialsystem2.dll + 0xede50(hierarchy CMaterial2: IMaterial2)
+CMaterial2::AsyncStaticComboResult_t
+	materialsystem2.dll + 0xedd80(hierarchy CMaterial2::AsyncStaticComboResult_t: IAsyncProcessedDataResult)
+CMaterialMode
+	materialsystem2.dll + 0xede28(hierarchy CMaterialMode: IMaterialMode)
+CMaterialSystem2
+	materialsystem2.dll + 0xf1a78(hierarchy CMaterialSystem2: CTier2AppSystem<class IMaterialSystem2,0>, CTier1AppSystem<class IMaterialSystem2,0>, CTier0AppSystem<class IMaterialSystem2,0>, CBaseAppSystem<class IMaterialSystem2>, IMaterialSystem2, IAppSystem)
+CMaterialSystem2Utils
+	materialsystem2.dll + 0xf4000(hierarchy CMaterialSystem2Utils: CTier2AppSystem<class IMaterialSystem2Utils,0>, CTier1AppSystem<class IMaterialSystem2Utils,0>, CTier0AppSystem<class IMaterialSystem2Utils,0>, CBaseAppSystem<class IMaterialSystem2Utils>, IMaterialSystem2Utils, IAppSystem)
+CMaterialTypeManager
+	materialsystem2.dll + 0xefb00(hierarchy CMaterialTypeManager: CTypesafeIntrospectedToKV3TypeManager<1952542070,struct MaterialResourceData_t>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager)
+CMeshLayoutInfo
+	materialsystem2.dll + 0xf4260(hierarchy CMeshLayoutInfo: CBaseQueuedRenderable, IQueuedRenderable)
+CNullShaderCreateCallbacks
+	materialsystem2.dll + 0xeddc8(hierarchy CNullShaderCreateCallbacks: IRuntimeShaderCreateCallbacks)
+CParallelProcessLauncher::CParallelLambdaJob<class `bool __cdecl CompileComboAndGetVariables_DynamicShaderCompile(class CUtlVector<struct DynamicShaderCompileTask_t,int,class CUtlMemory<struct DynamicShaderCompileTask_t,int> > & __ptr64,void (__cdecl*)(int,int))'::`2'::<lambda_1> >
+	materialsystem2.dll + 0xedff8(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `bool __cdecl CompileComboAndGetVariables_DynamicShaderCompile(class CUtlVector<struct DynamicShaderCompileTask_t,int,class CUtlMemory<struct DynamicShaderCompileTask_t,int> > & __ptr64,void (__cdecl*)(int,int))'::`2'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl CompileAllShadersForStaticCombo(unsigned __int64,class CVfxStaticComboData & __ptr64,class CVfx & __ptr64,enum VfxProgram_t,class IVfx * __ptr64)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl CompileAllShadersForStaticCombo(unsigned __int64,class CVfxStaticComboData & __ptr64,class CVfx & __ptr64,enum VfxProgram_t,class IVfx * __ptr64)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	materialsystem2.dll + 0xd1a10(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl CompileAllShadersForStaticCombo(unsigned __int64,class CVfxStaticComboData & __ptr64,class CVfx & __ptr64,enum VfxProgram_t,class IVfx * __ptr64)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl CompileAllShadersForStaticCombo(unsigned __int64,class CVfxStaticComboData & __ptr64,class CVfx & __ptr64,enum VfxProgram_t,class IVfx * __ptr64)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CPlatformFont
+	materialsystem2.dll + 0xf2e48(hierarchy CPlatformFont: CFontBase)
+CPostConnectCallback
+	materialsystem2.dll + 0xccd28(hierarchy CPostConnectCallback)
+CPostProcessingState
+	materialsystem2.dll + 0xf2ec8(hierarchy CPostProcessingState: IPostProcessingState)
+CPostProcessingSystem
+	materialsystem2.dll + 0xf2ff0(hierarchy CPostProcessingSystem: CTier2AppSystem<class IPostProcessingSystem,0>, CTier1AppSystem<class IPostProcessingSystem,0>, CTier0AppSystem<class IPostProcessingSystem,0>, CBaseAppSystem<class IPostProcessingSystem>, IPostProcessingSystem, IAppSystem)
+CPostProcessingTypeManager
+	materialsystem2.dll + 0xf33c0(hierarchy CPostProcessingTypeManager: CTypesafeIntrospectedToKV3TypeManager<500152889462,struct PostProcessingResource_t>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager)
+CPrimitivesLayoutInfo
+	materialsystem2.dll + 0xf3f48(hierarchy CPrimitivesLayoutInfo: CBaseQueuedRenderable, IQueuedRenderable)
+CQueuedResetMaterialCacheRenderable
+	materialsystem2.dll + 0xf3ee8(hierarchy CQueuedResetMaterialCacheRenderable: CBaseQueuedRenderable, IQueuedRenderable)
+CQueuedSetMaterialOrTextureRenderable
+	materialsystem2.dll + 0xf3f78(hierarchy CQueuedSetMaterialOrTextureRenderable: CBaseQueuedRenderable, IQueuedRenderable)
+CQueuedTextRenderable
+	materialsystem2.dll + 0xf3f18(hierarchy CQueuedTextRenderable: CBaseQueuedRenderable, IQueuedRenderable)
+CSchemaInstallCallback
+	materialsystem2.dll + 0xcd270(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_materialsystem2
+	materialsystem2.dll + 0xf5198(hierarchy CSchemaRegistration_materialsystem2: CSchemaRegistration)
+CShaderCreateCallbacks
+	materialsystem2.dll + 0xedfa8(hierarchy CShaderCreateCallbacks: IRuntimeShaderCreateCallbacks)
+CTextLayout
+	materialsystem2.dll + 0xf34d8(hierarchy CTextLayout: CTier2AppSystem<class ITextLayout,0>, CTier1AppSystem<class ITextLayout,0>, CTier0AppSystem<class ITextLayout,0>, CBaseAppSystem<class ITextLayout>, ITextLayout, IAppSystem)
+CTextureDictionary
+	materialsystem2.dll + 0xcb8a8(hierarchy CTextureDictionary: ITextureDictionary)
+CUtlStackMachineBuilder
+	materialsystem2.dll + 0xd2ed0(hierarchy CUtlStackMachineBuilder)
+CVfxConstructor
+	materialsystem2.dll + 0xeddf8(hierarchy CVfxConstructor: ITSHashConstructor<class CVfx * __ptr64>)
+CVfxShaderBuffer
+	materialsystem2.dll + 0xcf690(hierarchy CVfxShaderBuffer: IRenderShaderByteCode)
+IAsyncProcessedDataResult
+	materialsystem2.dll + 0xcb448(hierarchy IAsyncProcessedDataResult)
+IMultipleWorkerJob
+	materialsystem2.dll + 0xce3b8(hierarchy IMultipleWorkerJob)
+IPostProcessingState
+	materialsystem2.dll + 0xf2f60(hierarchy IPostProcessingState)
+IQueuedRenderable
+	materialsystem2.dll + 0xf42e0(hierarchy IQueuedRenderable)
+IRenderShaderByteCode
+	materialsystem2.dll + 0xce398(hierarchy IRenderShaderByteCode)
+IRuntimeShaderCreateCallbacks
+	materialsystem2.dll + 0xedd98(hierarchy IRuntimeShaderCreateCallbacks)
+`public: virtual void * __ptr64 __cdecl CTypesafeIntrospectedToKV3TypeManager<1952542070,struct MaterialResourceData_t>::AllocateAndLoad(class CKV3TransferLoadContext & __ptr64,struct ResourceBindingBase_t const * __ptr64,class IRD_RegisterResourceDataUtils * __ptr64) __ptr64'::`2'::CAllocatorUtils
+	materialsystem2.dll + 0xefbd0(hierarchy `public: virtual void * __ptr64 __cdecl CTypesafeIntrospectedToKV3TypeManager<1952542070,struct MaterialResourceData_t>::AllocateAndLoad(class CKV3TransferLoadContext & __ptr64,struct ResourceBindingBase_t const * __ptr64,class IRD_RegisterResourceDataUtils * __ptr64) __ptr64'::`2'::CAllocatorUtils: CTypesafeIntrospectedToKV3TypeManager<1952542070,struct MaterialResourceData_t>::IKV3ResourceAllocatorUtils)
+`public: virtual void * __ptr64 __cdecl CTypesafeIntrospectedToKV3TypeManager<500152889462,struct PostProcessingResource_t>::AllocateAndLoad(class CKV3TransferLoadContext & __ptr64,struct ResourceBindingBase_t const * __ptr64,class IRD_RegisterResourceDataUtils * __ptr64) __ptr64'::`2'::CAllocatorUtils
+	materialsystem2.dll + 0xf3480(hierarchy `public: virtual void * __ptr64 __cdecl CTypesafeIntrospectedToKV3TypeManager<500152889462,struct PostProcessingResource_t>::AllocateAndLoad(class CKV3TransferLoadContext & __ptr64,struct ResourceBindingBase_t const * __ptr64,class IRD_RegisterResourceDataUtils * __ptr64) __ptr64'::`2'::CAllocatorUtils: CTypesafeIntrospectedToKV3TypeManager<500152889462,struct PostProcessingResource_t>::IKV3ResourceAllocatorUtils)
+`public: virtual void __cdecl CTypesafeIntrospectedToKV3TypeManager<1952542070,struct MaterialResourceData_t>::DeallocateDestroyCleanup(void * __ptr64,class IResourceDeallocatorUtils * __ptr64) __ptr64'::`2'::CDeallocatorUtils
+	materialsystem2.dll + 0xefbc0(hierarchy `public: virtual void __cdecl CTypesafeIntrospectedToKV3TypeManager<1952542070,struct MaterialResourceData_t>::DeallocateDestroyCleanup(void * __ptr64,class IResourceDeallocatorUtils * __ptr64) __ptr64'::`2'::CDeallocatorUtils: CTypesafeIntrospectedToKV3TypeManager<1952542070,struct MaterialResourceData_t>::IKV3ResourceDeallocatorUtils)
+`public: virtual void __cdecl CTypesafeIntrospectedToKV3TypeManager<500152889462,struct PostProcessingResource_t>::DeallocateDestroyCleanup(void * __ptr64,class IResourceDeallocatorUtils * __ptr64) __ptr64'::`2'::CDeallocatorUtils
+	materialsystem2.dll + 0xf3498(hierarchy `public: virtual void __cdecl CTypesafeIntrospectedToKV3TypeManager<500152889462,struct PostProcessingResource_t>::DeallocateDestroyCleanup(void * __ptr64,class IResourceDeallocatorUtils * __ptr64) __ptr64'::`2'::CDeallocatorUtils: CTypesafeIntrospectedToKV3TypeManager<500152889462,struct PostProcessingResource_t>::IKV3ResourceDeallocatorUtils)
+std::_Func_impl_no_alloc<class `private: void __cdecl CMaterial2::IssueAsyncLoadRequests(class CUtlLeanVector<struct MaterialStaticComboLoadRequest_t,short> & __ptr64,class CWeakHandle<struct InfoForResourceTypeIMaterial2>,enum ShaderLoadMode_t) __ptr64'::`19'::<lambda_1>,class std::unique_ptr<class IAsyncProcessedDataResult,struct std::default_delete<class IAsyncProcessedDataResult> >,class IAsyncResourceDataRequest * __ptr64>
+	materialsystem2.dll + 0xee010(hierarchy std::_Func_impl_no_alloc<class `private: void __cdecl CMaterial2::IssueAsyncLoadRequests(class CUtlLeanVector<struct MaterialStaticComboLoadRequest_t,short> & __ptr64,class CWeakHandle<struct InfoForResourceTypeIMaterial2>,enum ShaderLoadMode_t) __ptr64'::`19'::<lambda_1>,class std::unique_ptr<class IAsyncProcessedDataResult,struct std::default_delete<class IAsyncProcessedDataResult> >,class IAsyncResourceDataRequest * __ptr64>: std::_Func_base<class std::unique_ptr<class IAsyncProcessedDataResult,struct std::default_delete<class IAsyncProcessedDataResult> >,class IAsyncResourceDataRequest * __ptr64>)
+std::_Func_impl_no_alloc<class `private: void __cdecl CMaterial2::IssueAsyncLoadRequests(class CUtlLeanVector<struct MaterialStaticComboLoadRequest_t,short> & __ptr64,class CWeakHandle<struct InfoForResourceTypeIMaterial2>,enum ShaderLoadMode_t) __ptr64'::`19'::<lambda_2>,void,class IAsyncResourceDataRequest * __ptr64,class std::unique_ptr<class IAsyncProcessedDataResult,struct std::default_delete<class IAsyncProcessedDataResult> > >
+	materialsystem2.dll + 0xedf70(hierarchy std::_Func_impl_no_alloc<class `private: void __cdecl CMaterial2::IssueAsyncLoadRequests(class CUtlLeanVector<struct MaterialStaticComboLoadRequest_t,short> & __ptr64,class CWeakHandle<struct InfoForResourceTypeIMaterial2>,enum ShaderLoadMode_t) __ptr64'::`19'::<lambda_2>,void,class IAsyncResourceDataRequest * __ptr64,class std::unique_ptr<class IAsyncProcessedDataResult,struct std::default_delete<class IAsyncProcessedDataResult> > >: std::_Func_base<void,class IAsyncResourceDataRequest * __ptr64,class std::unique_ptr<class IAsyncProcessedDataResult,struct std::default_delete<class IAsyncProcessedDataResult> > >)
+std::_Ref_count_obj2<struct CVfxStaticComboData::DecompressedComboData_t>
+	materialsystem2.dll + 0xd19c8(hierarchy std::_Ref_count_obj2<struct CVfxStaticComboData::DecompressedComboData_t>: std::_Ref_count_base)
+std::bad_exception
+	materialsystem2.dll + 0xe4408(hierarchy std::bad_exception: std::exception)
+std::exception
+	materialsystem2.dll + 0xe33a0(hierarchy std::exception)
+type_info
+	materialsystem2.dll + 0xe4350(hierarchy type_info)

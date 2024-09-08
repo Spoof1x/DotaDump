@@ -1,0 +1,32 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SpriteCardTextureChannel_t(size: 4 bytes, 15 values, project "particles", binding @ particles.dll + 0x544ad0):
+	SPRITECARD_TEXTURE_CHANNEL_MIX_RGB = 0,
+		^MPropertyFriendlyName "RGB"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_RGBA = 1,
+		^MPropertyFriendlyName "RGBA"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_A = 2,
+		^MPropertyFriendlyName "Alpha"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_A = 3,
+		^MPropertyFriendlyName "RGB with Alpha Passthrough"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_ALPHAMASK = 4,
+		^MPropertyFriendlyName "RGB with Alpha Mask"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_RGBMASK = 5,
+		^MPropertyFriendlyName "RGB with RGB as Alpha Mask"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_RGBA_RGBALPHA = 6,
+		^MPropertyFriendlyName "RGBA with RGB as Alpha"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_A_RGBALPHA = 7,
+		^MPropertyFriendlyName "Alpha with RGB as Alpha"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_RGB_A_RGBALPHA = 8,
+		^MPropertyFriendlyName "RGB with RGB as Alpha Passthrough"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_R = 9,
+		^MPropertyFriendlyName "Red Channel"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_G = 10,
+		^MPropertyFriendlyName "Green Channel"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_B = 11,
+		^MPropertyFriendlyName "Blue Channel"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_RALPHA = 12,
+		^MPropertyFriendlyName "Red with Red as Alpha"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_GALPHA = 13,
+		^MPropertyFriendlyName "Green with Green as Alpha"
+	SPRITECARD_TEXTURE_CHANNEL_MIX_BALPHA = 14,
+		^MPropertyFriendlyName "Blue with Blue as Alpha"

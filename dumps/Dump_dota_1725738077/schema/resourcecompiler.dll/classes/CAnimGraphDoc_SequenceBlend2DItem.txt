@@ -1,0 +1,42 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_SequenceBlend2DItem (size: 0x58 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ed930, scope "!GlobalTypes") extends CAnimGraphDoc_Blend2DItem
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x582fd0"
+^MPropertyFriendlyName "Sequence Blend Item"
+^MPropertyElementNameFn "func: resourcecompiler.dll + 0x6262f0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Blend2DItem (size: 0x30 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ed840, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	^MPropertyFriendlyName "Blend Item"
+	
+	-----members of class CAnimGraphDoc_Blend2DItem-----
+		uint8_t[24] unaccounted(offset 0x0)
+		Vector2D m_blendValue(offset 0x18, size 0x8, align 0x4)
+			^MPropertyFriendlyName "Blend Value"
+		uint8_t[8] unaccounted(offset 0x20)
+		bool m_bUseCustomDuration(offset 0x28, size 0x1, align 0x1)
+			^MPropertyGroupName "+Duration Override"
+			^MPropertyFriendlyName "Use Custom Duration"
+			^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+		uint8_t[3] unaccounted(offset 0x29)
+		float32 m_flCustomDuration(offset 0x2c, size 0x4, align 0x4)
+			^MPropertyGroupName "+Duration Override"
+			^MPropertyFriendlyName "Custom Duration"
+			^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x582d90"
+	
+
+-----members of class CAnimGraphDoc_SequenceBlend2DItem-----
+	uint8_t[8] unaccounted(offset 0x30)
+	CUtlVector< CSmartPtr< CAnimGraphDoc_TagSpan > > m_tagSpans(offset 0x38, size 0x18, align 0x8)
+		^MPropertyHideField
+	CUtlString m_sequenceName(offset 0x50, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Sequence"
+		^MPropertyAttributeChoiceName "Sequence"
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FootStepTrigger (size: 0x20 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242ada0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x749640"
+
+-----members of class FootStepTrigger-----
+	CUtlVector< int32 > m_tags(offset 0x0, size 0x18, align 0x8)
+	int32 m_nFootIndex(offset 0x18, size 0x4, align 0x4)
+	StepPhase m_triggerPhase(offset 0x1c, size 0x4, align 0x4)
+

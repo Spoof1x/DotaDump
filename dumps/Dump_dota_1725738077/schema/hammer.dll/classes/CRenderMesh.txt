@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CRenderMesh (size: 0x1c0 bytes, project "modellib", binding @ hammer.dll + 0x1daec30, scope "hammer.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: hammer.dll + 0xd83990"
+
+-----members of class CRenderMesh-----
+	uint8_t[16] unaccounted(offset 0x0)
+	CUtlLeanVectorFixedGrowable< CSceneObjectData, 1 > m_sceneObjects(offset 0x10, size 0x68, align 0x8)
+	CUtlLeanVector< CBaseConstraint* > m_constraints(offset 0x78, size 0x10, align 0x8)
+	CRenderSkeleton m_skeleton(offset 0x88, size 0x50, align 0x8)
+	uint8_t[208] unaccounted(offset 0xd8)
+	DynamicMeshDeformParams_t m_meshDeformParams(offset 0x1a8, size 0xc, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1b4)
+	CRenderGroom* m_pGroomData(offset 0x1b8, size 0x8, align 0x8)
+

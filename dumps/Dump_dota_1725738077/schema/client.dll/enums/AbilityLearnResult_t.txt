@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum AbilityLearnResult_t(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x480e9a0):
+	ABILITY_CAN_BE_UPGRADED = 0,
+	ABILITY_CANNOT_BE_UPGRADED_NOT_UPGRADABLE = 1,
+	ABILITY_CANNOT_BE_UPGRADED_AT_MAX = 2,
+	ABILITY_CANNOT_BE_UPGRADED_REQUIRES_LEVEL = 3,
+	ABILITY_NOT_LEARNABLE = 4,

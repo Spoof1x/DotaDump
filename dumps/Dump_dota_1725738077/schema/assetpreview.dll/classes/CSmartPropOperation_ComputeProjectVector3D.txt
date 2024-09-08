@@ -1,0 +1,62 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_ComputeProjectVector3D (size: 0x1d8 bytes, project "smartprops", binding @ assetpreview.dll + 0x5095a0, scope "!GlobalTypes") extends CSmartPropOperation
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: assetpreview.dll + 0x33b1d0"
+^MPropertyFriendlyName "Project Vector"
+^MPropertyDescription "Project Vector A onto Vector B"
+^MVDataClassGroup "Compute"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ assetpreview.dll + 0x5056b0, scope "!GlobalTypes") extends CSmartPropModifier
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: assetpreview.dll + 0x159e0"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ assetpreview.dll + 0x506770, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: assetpreview.dll + 0x159e0"
+		^MVDataBase
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		
+		-----members of class CSmartPropModifier-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+				^MVDataEnableKey
+			uint8_t[8] unaccounted(offset 0x48)
+		
+	
+	-----members of class CSmartPropOperation-----
+		<no members>
+	
+
+-----members of class CSmartPropOperation_ComputeProjectVector3D-----
+	CUtlString m_OutputVariableName(offset 0x50, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Output Variable"
+		^MPropertyAttributeEditor "SmartPropItemNameEditor( Variable:Vector3 )"
+	CSmartPropAttributeCoordinateSpace m_OutputCoordinateSpace(offset 0x58, size 0x40, align 0x0)
+		^MPropertyDescription "Specifies the coordinate space that vector should be returned in."
+	CSmartPropAttributeVector m_InputVectorA(offset 0x98, size 0x40, align 0x8)
+		^MPropertyGroupName "+Vector A"
+		^MPropertyFriendlyName "Vector A"
+	CSmartPropAttributeCoordinateSpace m_CoordinateSpaceA(offset 0xd8, size 0x40, align 0x0)
+		^MPropertyGroupName "+Vector A"
+		^MPropertyDescription "Specifies the coordinate space of vector A."
+	CSmartPropAttributeVector m_InputVectorB(offset 0x118, size 0x40, align 0x8)
+		^MPropertyGroupName "+Vector B"
+		^MPropertyFriendlyName "Vector B"
+	CSmartPropAttributeCoordinateSpace m_CoordinateSpaceB(offset 0x158, size 0x40, align 0x0)
+		^MPropertyGroupName "+Vector B"
+		^MPropertyDescription "Specifies the coordinate space of posivectortion B."
+	CSmartPropAttributeBool m_bPlane(offset 0x198, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Projection to plane"
+		^MPropertyDescription "Interpret Vector B as plane normal."
+

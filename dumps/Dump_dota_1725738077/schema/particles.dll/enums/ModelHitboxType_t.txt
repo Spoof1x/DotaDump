@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ModelHitboxType_t(size: 4 bytes, 4 values, project "particles", binding @ particles.dll + 0x5198a0):
+	MODEL_HITBOX_TYPE_STANDARD = 0,
+	MODEL_HITBOX_TYPE_RAW_BONES = 1,
+	MODEL_HITBOX_TYPE_RENDERBOUNDS = 2,
+	MODEL_HITBOX_TYPE_SNAPSHOT = 3,

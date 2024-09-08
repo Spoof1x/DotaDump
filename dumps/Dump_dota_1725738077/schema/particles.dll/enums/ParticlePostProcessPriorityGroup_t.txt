@@ -1,0 +1,14 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticlePostProcessPriorityGroup_t(size: 4 bytes, 6 values, project "particles", binding @ particles.dll + 0x544610):
+	PARTICLE_POST_PROCESS_PRIORITY_LEVEL_VOLUME = 0,
+		^MPropertyFriendlyName "Level Volume"
+	PARTICLE_POST_PROCESS_PRIORITY_LEVEL_OVERRIDE = 1,
+		^MPropertyFriendlyName "Level Override"
+	PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_EFFECT = 2,
+		^MPropertyFriendlyName "Gameplay Effect"
+	PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_STATE_LOW = 3,
+		^MPropertyFriendlyName "Gameplay State Low"
+	PARTICLE_POST_PROCESS_PRIORITY_GAMEPLAY_STATE_HIGH = 4,
+		^MPropertyFriendlyName "Gameplay State High"
+	PARTICLE_POST_PROCESS_PRIORITY_GLOBAL_UI = 5,
+		^MPropertyFriendlyName "Global UI"

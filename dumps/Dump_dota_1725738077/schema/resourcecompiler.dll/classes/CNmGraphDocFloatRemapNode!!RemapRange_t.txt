@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphDocFloatRemapNode::RemapRange_t (size: 0x8 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23dbb90, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x485570"
+
+-----members of class CNmGraphDocFloatRemapNode::RemapRange_t-----
+	float32 m_flBegin(offset 0x0, size 0x4, align 0x4)
+	float32 m_flEnd(offset 0x4, size 0x4, align 0x4)
+

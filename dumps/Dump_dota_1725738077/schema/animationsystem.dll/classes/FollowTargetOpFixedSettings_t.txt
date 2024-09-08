@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FollowTargetOpFixedSettings_t (size: 0x10 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b0d30, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1d43c0"
+
+-----members of class FollowTargetOpFixedSettings_t-----
+	int32 m_boneIndex(offset 0x0, size 0x4, align 0x4)
+	bool m_bBoneTarget(offset 0x4, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x5)
+	int32 m_boneTargetIndex(offset 0x8, size 0x4, align 0x4)
+	bool m_bWorldCoodinateTarget(offset 0xc, size 0x1, align 0x1)
+	bool m_bMatchTargetOrientation(offset 0xd, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0xe)
+

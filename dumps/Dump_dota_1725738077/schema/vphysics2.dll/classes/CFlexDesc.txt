@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFlexDesc (size: 0x8 bytes, project "modellib", binding @ vphysics2.dll + 0x38a180, scope "vphysics2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0xad5e0"
+
+-----members of class CFlexDesc-----
+	CUtlString m_szFacs(offset 0x0, size 0x8, align 0x8)
+

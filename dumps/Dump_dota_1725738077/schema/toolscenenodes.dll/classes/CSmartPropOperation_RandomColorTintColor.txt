@@ -1,0 +1,55 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_RandomColorTintColor (size: 0xf0 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfbce0, scope "toolscenenodes.dll") extends CSmartPropOperation
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x6a0180"
+^MPropertyFriendlyName "Tint Color Gradient"
+^MPropertyDescription "Set the color tint to a selection from within the defined gradient."
+^MVDataClassGroup "Color"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbf9bc0, scope "toolscenenodes.dll") extends CSmartPropModifier
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfac80, scope "toolscenenodes.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+		^MVDataBase
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		
+		-----members of class CSmartPropModifier-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+				^MVDataEnableKey
+			uint8_t[8] unaccounted(offset 0x48)
+		
+	
+	-----members of class CSmartPropOperation-----
+		<no members>
+	
+
+-----members of class CSmartPropOperation_RandomColorTintColor-----
+	CSmartPropAttributeChoiceSelectionMode m_SelectionMode(offset 0x50, size 0x40, align 0x0)
+		^MPropertyFriendlyName "Selection Mode"
+		^MPropertyDescription "Specifies how the color is to be selected from the authored set of choices"
+	CSmartPropAttributeFloat m_ColorPosition(offset 0x90, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Color Position"
+		^MPropertyDescription "[ 0, 1 ] Value specifying the location on the gradient to pick the color from."
+		^MPropertySuppressExpr "( m_SelectionMode != SPECIFIC )"
+	ApplyColorMode_t m_Mode(offset 0xd0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Application Mode"
+		^MPropertyDescription "Specifies how the selected color should be applied to the current color."
+	uint8_t[4] unaccounted(offset 0xd4)
+	CColorGradient m_Gradient(offset 0xd8, size 0x18, align 0x8)
+		^MPropertyDescription "Defines a color gradient from which a random color will be piked."
+

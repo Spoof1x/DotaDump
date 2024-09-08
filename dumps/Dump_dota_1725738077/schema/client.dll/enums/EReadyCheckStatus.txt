@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EReadyCheckStatus(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x46ff590):
+	k_EReadyCheckStatus_Unknown = 0,
+	k_EReadyCheckStatus_NotReady = 1,
+	k_EReadyCheckStatus_Ready = 2,

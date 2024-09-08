@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimConflictInfo_t (size: 0x20 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e0f90, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x518cb0"
+
+-----members of class CAnimConflictInfo_t-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	CUtlString m_groupName(offset 0x8, size 0x8, align 0x8)
+	CUtlString m_subgraphName(offset 0x10, size 0x8, align 0x8)
+	uint32 m_id(offset 0x18, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1c)
+

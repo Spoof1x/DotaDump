@@ -1,0 +1,41 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_Test_NoInflow (size: 0x48 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x492bb60, scope "client.dll") extends CPulseCell_BaseFlow
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: client.dll + 0x2b81e80"
+^MCellForDomain "TestDomain"
+^MPulseCellMethodBindings "ptr: client.dll + 0x492c040"
+^MPulseCellOutflowHookInfo "ptr: client.dll + 0x4e720d8"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseFlow (size: 0x48 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x4925960, scope "client.dll") extends CPulseCell_Base
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: client.dll + 0x2b3c1d0"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_Base (size: 0x48 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x4926dd0, scope "client.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: client.dll + 0x2b3c0b0"
+		
+		-----members of class CPulseCell_Base-----
+			uint8_t[8] unaccounted(offset 0x0)
+			PulseDocNodeID_t m_nEditorNodeID(offset 0x8, size 0x4, align 0x0)
+				^MFgdFromSchemaCompletelySkipField
+			uint8_t[60] unaccounted(offset 0xc)
+		
+	
+	-----members of class CPulseCell_BaseFlow-----
+		<no members>
+	
+
+-----members of class CPulseCell_Test_NoInflow-----
+	<no members>
+

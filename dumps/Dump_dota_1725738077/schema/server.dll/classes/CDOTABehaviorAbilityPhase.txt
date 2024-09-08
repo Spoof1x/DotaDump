@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABehaviorAbilityPhase (size: 0xa0 bytes, project "server", binding @ server.dll + 0x3ae3920, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CDOTABehaviorAbilityPhase-----
+	uint8_t[96] unaccounted(offset 0x0)
+	CountdownTimer m_abilityTimer(offset 0x60, size 0x18, align 0x0)
+	CountdownTimer m_backSwingTimer(offset 0x78, size 0x18, align 0x0)
+	bool m_bBackswinging(offset 0x90, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x91)
+	CHandle< CBaseEntity > m_hAbility(offset 0x94, size 0x4, align 0x4)
+	bool m_bActionLocked(offset 0x98, size 0x1, align 0x1)
+	bool m_bTargetTeleported(offset 0x99, size 0x1, align 0x1)
+	bool m_bOriginalTargetTeleported(offset 0x9a, size 0x1, align 0x1)
+	uint8_t[5] unaccounted(offset 0x9b)
+

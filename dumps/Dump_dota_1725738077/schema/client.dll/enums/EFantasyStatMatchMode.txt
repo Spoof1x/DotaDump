@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EFantasyStatMatchMode(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x48913a0):
+	k_FantasyStatMatchMode_Any = 0,
+	k_FantasyStatMatchMode_All = 1,

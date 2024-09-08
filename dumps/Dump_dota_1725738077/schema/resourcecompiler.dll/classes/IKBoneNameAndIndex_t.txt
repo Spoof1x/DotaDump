@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class IKBoneNameAndIndex_t (size: 0x10 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2434660, scope "resourcecompiler.dll")
+
+-----members of class IKBoneNameAndIndex_t-----
+	CUtlString m_Name(offset 0x0, size 0x8, align 0x8)
+		^MPropertyAttributeChoiceName "Bone"
+	uint8_t[8] unaccounted(offset 0x8)
+

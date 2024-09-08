@@ -1,0 +1,21 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ImportExportOptionsEditableData_t (size: 0x10 bytes, project "hammer", binding @ hammer.dll + 0x1e0a470, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class ImportExportOptionsEditableData_t-----
+	bool bExportProps(offset 0x0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Export Props"
+	bool bExportHidden(offset 0x1, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Export Hidden Objects"
+	bool bExportFbxEmbedTextures(offset 0x2, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Export FBX Embed Textures From Content If Available"
+		^MPropertySuppressField
+	uint8_t[1] unaccounted(offset 0x3)
+	ImportExportOptionsEditableData_t::ExportFbxUnit_t nExportFbxUnit(offset 0x4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Export Hammer Units To FBX Units"
+	ImportExportOptionsEditableData_t::ExportDefaultFormat_t nExportDefaultFormat(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Export Default Format"
+	ImportExportOptionsEditableData_t::ExportEncoding_t nExportEncoding(offset 0xc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Export Encoding"
+

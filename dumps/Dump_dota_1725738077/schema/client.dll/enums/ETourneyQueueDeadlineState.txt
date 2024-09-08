@@ -1,0 +1,9 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ETourneyQueueDeadlineState(size: 4 bytes, 7 values, project "client", binding @ client.dll + 0x47002a0):
+	k_ETourneyQueueDeadlineState_Normal = 0,
+	k_ETourneyQueueDeadlineState_Missed = 1,
+	k_ETourneyQueueDeadlineState_ExpiredOK = 2,
+	k_ETourneyQueueDeadlineState_SeekingBye = 3,
+	k_ETourneyQueueDeadlineState_EligibleForRefund = 4,
+	k_ETourneyQueueDeadlineState_NA = -1,
+	k_ETourneyQueueDeadlineState_ExpiringSoon = 101,

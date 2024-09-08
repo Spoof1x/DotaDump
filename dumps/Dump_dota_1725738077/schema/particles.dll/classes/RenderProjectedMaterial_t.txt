@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RenderProjectedMaterial_t (size: 0x8 bytes, project "particles", binding @ particles.dll + 0x542380, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x2bc3c0"
+
+-----members of class RenderProjectedMaterial_t-----
+	CStrongHandle< InfoForResourceTypeIMaterial2 > m_hMaterial(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Material"
+

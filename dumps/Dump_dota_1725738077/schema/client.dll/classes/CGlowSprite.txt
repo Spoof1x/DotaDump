@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CGlowSprite (size: 0x20 bytes, project "client", binding @ client.dll + 0x46e76b0, scope "!GlobalTypes")
+
+-----members of class CGlowSprite-----
+	Vector m_vColor(offset 0x0, size 0xc, align 0x4)
+	float32 m_flHorzSize(offset 0xc, size 0x4, align 0x4)
+	float32 m_flVertSize(offset 0x10, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x14)
+	CStrongHandle< InfoForResourceTypeIMaterial2 > m_hMaterial(offset 0x18, size 0x8, align 0x8)
+

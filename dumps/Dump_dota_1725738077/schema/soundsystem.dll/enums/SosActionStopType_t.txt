@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SosActionStopType_t(size: 4 bytes, 3 values, project "soundsystem", binding @ soundsystem.dll + 0x39feb0):
+	SOS_STOPTYPE_NONE = 0,
+		^MPropertyFriendlyName "None"
+	SOS_STOPTYPE_TIME = 1,
+		^MPropertyFriendlyName "Elapsed Time"
+	SOS_STOPTYPE_OPVAR = 2,
+		^MPropertyFriendlyName "Opvar Float"

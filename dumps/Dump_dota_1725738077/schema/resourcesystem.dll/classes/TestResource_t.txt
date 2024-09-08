@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TestResource_t (size: 0x8 bytes, project "resourcesystem", binding @ resourcesystem.dll + 0x63bb0, scope "resourcesystem.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcesystem.dll + 0x22aa0"
+
+-----members of class TestResource_t-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+		^MKV3TransferName "name"
+

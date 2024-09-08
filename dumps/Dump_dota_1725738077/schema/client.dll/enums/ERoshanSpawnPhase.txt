@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ERoshanSpawnPhase(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x4814e50):
+	ROSHAN_SPAWN_PHASE_ALIVE = 0,
+	ROSHAN_SPAWN_PHASE_BASE_TIMER = 1,
+	ROSHAN_SPAWN_PHASE_VISIBLE_TIMER = 2,

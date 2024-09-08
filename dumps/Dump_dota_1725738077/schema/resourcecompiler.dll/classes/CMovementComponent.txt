@@ -1,0 +1,48 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMovementComponent (size: 0xe8 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e9e70, scope "!GlobalTypes") extends CAnimGraphDoc_Component
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x56a500"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Component (size: 0x38 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e9570, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Component-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CUtlString m_group(offset 0x18, size 0x8, align 0x8)
+			^MPropertyHideField
+		uint8_t[8] unaccounted(offset 0x20)
+		AnimComponentID m_id(offset 0x28, size 0x4, align 0x4)
+			^MPropertyHideField
+		bool m_bStartEnabled(offset 0x2c, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Start Enabled"
+		uint8_t[3] unaccounted(offset 0x2d)
+		int32 m_nPriority(offset 0x30, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Priority"
+		AnimNodeNetworkMode m_networkMode(offset 0x34, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Network Mode"
+	
+
+-----members of class CMovementComponent-----
+	CUtlVector< CSmartPtr< CAnimGraphDoc_Motor > > m_motors(offset 0x38, size 0x18, align 0x8)
+		^MPropertyHideField
+	bool m_bNetworkPath(offset 0x50, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Network Path"
+	uint8_t[7] unaccounted(offset 0x51)
+	CAnimInputDamping m_facingDamping(offset 0x58, size 0x10, align 0x8)
+		^MPropertyGroupName "+Facing"
+		^MPropertyFriendlyName "Damping"
+	bool m_bNetworkFacing(offset 0x68, size 0x1, align 0x1)
+		^MPropertyGroupName "+Facing"
+		^MPropertyFriendlyName "Network Facing"
+	uint8_t[3] unaccounted(offset 0x69)
+	AnimParamID[30] m_paramIDs(offset 0x6c, size 0x78, align 0x4)
+		^MPropertyHideField
+	uint8_t[4] unaccounted(offset 0xe4)
+

@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CGameSceneNodeHandle (size: 0x10 bytes, project "client", binding @ client.dll + 0x46e6e80, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_hOwner CEntityHandle"
+^MNetworkVarNames "m_name CUtlStringToken"
+
+-----members of class CGameSceneNodeHandle-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CEntityHandle m_hOwner(offset 0x8, size 0x4, align 0x4)
+		^MNetworkEnable
+	CUtlStringToken m_name(offset 0xc, size 0x4, align 0x4)
+		^MNetworkEnable
+

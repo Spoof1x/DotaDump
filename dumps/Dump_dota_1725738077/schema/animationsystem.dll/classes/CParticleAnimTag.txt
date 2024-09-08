@@ -1,0 +1,69 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CParticleAnimTag (size: 0x98 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a9e50, scope "!GlobalTypes") extends CAnimTagBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1a8fb0"
+^MPropertyFriendlyName "Particle Tag"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimTagBase (size: 0x50 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a8ea0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1a1b90"
+	
+	-----members of class CAnimTagBase-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CGlobalSymbol m_name(offset 0x18, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		CUtlString m_sComment(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Comment"
+			^MPropertyAttributeEditor "TextBlock()"
+			^MPropertySortPriority "-100"
+		CGlobalSymbol m_group(offset 0x28, size 0x8, align 0x8)
+			^MPropertyHideField
+		AnimTagID m_tagID(offset 0x30, size 0x4, align 0x4)
+			^MPropertyHideField
+		uint8_t[20] unaccounted(offset 0x34)
+		bool m_bIsReferenced(offset 0x48, size 0x1, align 0x1)
+			^MPropertyHideField
+		uint8_t[7] unaccounted(offset 0x49)
+	
+
+-----members of class CParticleAnimTag-----
+	uint8_t[8] unaccounted(offset 0x50)
+	CStrongHandle< InfoForResourceTypeIParticleSystemDefinition > m_hParticleSystem(offset 0x58, size 0x8, align 0x8)
+		^MPropertySuppressField
+	CUtlString m_particleSystemName(offset 0x60, size 0x8, align 0x8)
+		^MPropertyAttributeEditor "AssetBrowse( vpcf )"
+		^MPropertyFriendlyName "Particle System"
+	CUtlString m_configName(offset 0x68, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Configuration"
+	bool m_bDetachFromOwner(offset 0x70, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Detach From Owner"
+	bool m_bStopWhenTagEnds(offset 0x71, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Stop on Tag End"
+		^MPropertyGroupName "Ending"
+	bool m_bTagEndStopIsInstant(offset 0x72, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Tag End Stop is Instant"
+		^MPropertyGroupName "Ending"
+	uint8_t[5] unaccounted(offset 0x73)
+	CUtlString m_attachmentName(offset 0x78, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Attachment"
+		^MPropertyGroupName "Attachments"
+		^MPropertyAttributeChoiceName "Attachment"
+	ParticleAttachment_t m_attachmentType(offset 0x80, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Attachment Type"
+		^MPropertyGroupName "Attachments"
+	uint8_t[4] unaccounted(offset 0x84)
+	CUtlString m_attachmentCP1Name(offset 0x88, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Attachment (Control Point 1)"
+		^MPropertyGroupName "Attachments"
+		^MPropertyAttributeChoiceName "Attachment"
+	ParticleAttachment_t m_attachmentCP1Type(offset 0x90, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Attachment Type (Control Point 1)"
+		^MPropertyGroupName "Attachments"
+	uint8_t[4] unaccounted(offset 0x94)
+

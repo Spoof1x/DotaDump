@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NavDirType(size: 4 bytes, 5 values, project "navlib", binding @ resourcecompiler.dll + 0x249f230):
+	NORTH = 0,
+	EAST = 1,
+	SOUTH = 2,
+	WEST = 3,
+	NUM_NAV_DIR_TYPE_DIRECTIONS = 4,

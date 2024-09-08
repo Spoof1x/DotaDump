@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EntityDistanceMode_t(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x38a0060):
+	eOriginToOrigin = 0,
+	eCenterToCenter = 1,
+	eAxisToAxis = 2,

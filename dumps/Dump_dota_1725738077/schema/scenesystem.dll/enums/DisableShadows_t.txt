@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DisableShadows_t(size: 1 bytes, 4 values, project "scenesystem", binding @ scenesystem.dll + 0x5c3b40):
+	kDisableShadows_None = 0,
+	kDisableShadows_All = 1,
+	kDisableShadows_Baked = 2,
+	kDisableShadows_Realtime = 3,

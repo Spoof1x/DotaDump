@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTAFlappySkywrathCharacter (size: 0x10 bytes, project "client", binding @ client.dll + 0x48959a0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x16e7c30"
+^MVDataRoot
+
+-----members of class CDOTAFlappySkywrathCharacter-----
+	float32 flInitialSpeed(offset 0x0, size 0x4, align 0x4)
+	float32 flMaxSpeed(offset 0x4, size 0x4, align 0x4)
+	float32 flAcceleration(offset 0x8, size 0x4, align 0x4)
+	float32 flActionCooldown(offset 0xc, size 0x4, align 0x4)
+

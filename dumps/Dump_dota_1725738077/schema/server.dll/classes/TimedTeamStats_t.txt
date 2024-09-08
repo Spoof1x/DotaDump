@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TimedTeamStats_t (size: 0xc bytes, project "server", binding @ server.dll + 0x3ab4720, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class TimedTeamStats_t-----
+	uint32 m_nTime(offset 0x0, size 0x4, align 0x4)
+	uint16 m_nEnemyTowerStatus(offset 0x4, size 0x2, align 0x2)
+	uint16 m_nEnemyBarracksStatus(offset 0x6, size 0x2, align 0x2)
+	uint8 m_nEnemyTowersKilled(offset 0x8, size 0x1, align 0x1)
+	uint8 m_nEnemyBarracksKilled(offset 0x9, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0xa)
+

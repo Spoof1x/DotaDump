@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EHighlightNumberFormat(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x488aa10):
+	k_eFloat = 0,
+		^MPropertyFriendlyName "Float"
+	k_eInteger = 1,
+		^MPropertyFriendlyName "Integer"
+	k_ePercentage = 2,
+		^MPropertyFriendlyName "Percentage"
+	k_eTime = 3,
+		^MPropertyFriendlyName "Time"

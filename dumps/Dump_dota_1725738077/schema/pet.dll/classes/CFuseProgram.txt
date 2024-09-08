@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFuseProgram (size: 0x50 bytes, project "mathlib_extended", binding @ pet.dll + 0xce01b0, scope "pet.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: pet.dll + 0xe10c0"
+
+-----members of class CFuseProgram-----
+	CUtlVector< uint8 > m_programBuffer(offset 0x0, size 0x18, align 0x8)
+	CUtlVector< FuseVariableIndex_t > m_variablesRead(offset 0x18, size 0x18, align 0x8)
+	CUtlVector< FuseVariableIndex_t > m_variablesWritten(offset 0x30, size 0x18, align 0x8)
+	int32 m_nMaxTempVarsUsed(offset 0x48, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4c)
+

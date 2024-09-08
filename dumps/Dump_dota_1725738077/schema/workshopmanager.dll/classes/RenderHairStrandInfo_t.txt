@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RenderHairStrandInfo_t (size: 0x24 bytes, project "modellib", binding @ workshopmanager.dll + 0xe91010, scope "workshopmanager.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x52a5f0"
+
+-----members of class RenderHairStrandInfo_t-----
+	uint32[2] m_nGuideHairIndices_nSurfaceTriIndex(offset 0x0, size 0x8, align 0x4)
+	uint16[4] m_vGuideBary_vBaseBary(offset 0x8, size 0x8, align 0x2)
+	uint16[4] m_vRootOffset_flLengthScale(offset 0x10, size 0x8, align 0x2)
+	uint16[2] m_nPackedBaseUv(offset 0x18, size 0x4, align 0x2)
+	uint32 m_nPackedSurfaceNormalOs(offset 0x1c, size 0x4, align 0x4)
+	uint32 m_nPackedSurfaceTangentOs(offset 0x20, size 0x4, align 0x4)
+

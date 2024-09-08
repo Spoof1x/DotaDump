@@ -1,0 +1,34 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPlayer_ObserverServices (size: 0x58 bytes, project "client", binding @ client.dll + 0x484ccb0, scope "client.dll") extends CPlayerPawnComponent
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "m_iObserverMode uint8"
+^MNetworkVarNames "m_hObserverTarget CHandle< CBaseEntity>"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPlayerPawnComponent (size: 0x40 bytes, project "client", binding @ client.dll + 0x484cc30, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	
+	-----members of class CPlayerPawnComponent-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CNetworkVarChainer __m_pChainEntity(offset 0x8, size 0x28, align 0x0)
+			^MNetworkDisable
+			^MNetworkChangeAccessorFieldPathIndex
+		uint8_t[16] unaccounted(offset 0x30)
+	
+
+-----members of class CPlayer_ObserverServices-----
+	uint8 m_iObserverMode(offset 0x40, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnObserverModeChanged"
+	uint8_t[3] unaccounted(offset 0x41)
+	CHandle< C_BaseEntity > m_hObserverTarget(offset 0x44, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnObserverTargetChanged"
+	ObserverMode_t m_iObserverLastMode(offset 0x48, size 0x4, align 0x4)
+	bool m_bForcedObserverMode(offset 0x4c, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x4d)
+	float32 m_flObserverChaseDistance(offset 0x50, size 0x4, align 0x4)
+	GameTime_t m_flObserverChaseDistanceCalcTime(offset 0x54, size 0x4, align 0x0)
+

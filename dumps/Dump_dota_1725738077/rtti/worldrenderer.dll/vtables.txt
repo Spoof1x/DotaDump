@@ -1,0 +1,257 @@
+CAttributeDictSaveDataOps
+	worldrenderer.dll + 0xd7490(hierarchy CAttributeDictSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+CBaseIntrospectedToKV3TypeManager
+	worldrenderer.dll + 0xdc868(hierarchy CBaseIntrospectedToKV3TypeManager: IResourceTypeManager)
+CBaseIntrospectedToKV3TypeManager::AsyncProcessResult
+	worldrenderer.dll + 0xdc858(hierarchy CBaseIntrospectedToKV3TypeManager::AsyncProcessResult: IAsyncProcessedDataResult)
+CConCommandMemberAccessor<class CWorldRendererMgr>
+	worldrenderer.dll + 0xee390(hierarchy CConCommandMemberAccessor<class CWorldRendererMgr>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+	worldrenderer.dll + 0xee710 MI offset 8(hierarchy ICommandCompletionCallback)
+CEmptySequence
+	worldrenderer.dll + 0xdc300(hierarchy CEmptySequence: ISequence, IBaseSequence)
+CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> >
+	worldrenderer.dll + 0xd7598(hierarchy CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> >: CEntityComponentHelperReferenced<class CScriptComponent>, CEntityComponentHelper)
+CEntityMgr
+	worldrenderer.dll + 0xee3b8(hierarchy CEntityMgr: CTypesafeIntrospectedToKV3TypeManager<495874631030,struct PermEntityLumpData_t>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager)
+CGrassTileObjectDesc
+	worldrenderer.dll + 0xed4a0(hierarchy CGrassTileObjectDesc: ISceneObjectDesc)
+CGrassTileSceneObject
+	worldrenderer.dll + 0xed598(hierarchy CGrassTileSceneObject: IGrassTileSceneObject, CSceneObject)
+CGrassWorld
+	worldrenderer.dll + 0xed430(hierarchy CGrassWorld: IToolsResourceListener)
+CKV3ResourceBlockHelper
+	worldrenderer.dll + 0xdc848(hierarchy CKV3ResourceBlockHelper: IAsyncProcessedDataResult)
+CKV3TransferContextBase
+	worldrenderer.dll + 0xdcbe0(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferLoadContext
+	worldrenderer.dll + 0xdcc50(hierarchy CKV3TransferLoadContext: CKV3TransferContextBase, IErrorListener)
+CKV3TransferSaveContext
+	worldrenderer.dll + 0xdcc18(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CKV3Transfer_ResourceLoadInterface
+	worldrenderer.dll + 0xdc838(hierarchy CKV3Transfer_ResourceLoadInterface: IKV3TransferInterface_ResourceLoad)
+CParallelProcessLauncher::CParallelLambdaJob<class `private: void __cdecl CKMeansClustering::AssignVectorsToClusters(void) __ptr64'::`2'::<lambda_1> >
+	worldrenderer.dll + 0xdc1e0(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `private: void __cdecl CKMeansClustering::AssignVectorsToClusters(void) __ptr64'::`2'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC7_bc7e(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >
+	worldrenderer.dll + 0xd4438(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC7_bc7e(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC7_ispctexcomp(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >
+	worldrenderer.dll + 0xd4450(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC7_ispctexcomp(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferETC(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >
+	worldrenderer.dll + 0xd4468(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `protected: bool __cdecl FloatBitMap_t::WriteToBufferETC(void * __ptr64,unsigned __int64,enum ImageFormat,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct BGRA8888_t,1>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct BGRA8888_t,1>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	worldrenderer.dll + 0xd48e8(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct BGRA8888_t,1>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct BGRA8888_t,1>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA16161616F_t,0>(unsigned char const * __ptr64,struct RGBA16161616F_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA16161616F_t,0>(unsigned char const * __ptr64,struct RGBA16161616F_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	worldrenderer.dll + 0xd4900(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA16161616F_t,0>(unsigned char const * __ptr64,struct RGBA16161616F_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA16161616F_t,0>(unsigned char const * __ptr64,struct RGBA16161616F_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA32323232F_t,0>(unsigned char const * __ptr64,struct RGBA32323232F_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA32323232F_t,0>(unsigned char const * __ptr64,struct RGBA32323232F_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	worldrenderer.dll + 0xd4918(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA32323232F_t,0>(unsigned char const * __ptr64,struct RGBA32323232F_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA32323232F_t,0>(unsigned char const * __ptr64,struct RGBA32323232F_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA8888_t,1>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA8888_t,1>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	worldrenderer.dll + 0xd48d0(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA8888_t,1>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC6h<struct RGBA8888_t,1>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC7<struct BGRA8888_t>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC7<struct BGRA8888_t>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	worldrenderer.dll + 0xd4930(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC7<struct BGRA8888_t>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC7<struct BGRA8888_t>(unsigned char const * __ptr64,struct BGRA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC7<struct RGBA8888_t>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC7<struct RGBA8888_t>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	worldrenderer.dll + 0xd48b8(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `bool __cdecl ImageLoader::ConvertFromBC7<struct RGBA8888_t>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `bool __cdecl ImageLoader::ConvertFromBC7<struct RGBA8888_t>(unsigned char const * __ptr64,struct RGBA8888_t * __ptr64,int,int)'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC6H_ispctexcomp(void * __ptr64,unsigned __int64,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >(int,int,char const * __ptr64,class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC6H_ispctexcomp(void * __ptr64,unsigned __int64,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	worldrenderer.dll + 0xd4480(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC6H_ispctexcomp(void * __ptr64,unsigned __int64,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> >(int,int,char const * __ptr64,class `protected: bool __cdecl FloatBitMap_t::WriteToBufferBC6H_ispctexcomp(void * __ptr64,unsigned __int64,struct FloatBitmapEncodeSettings_t const & __ptr64)const __ptr64'::`9'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CPostConnectCallback
+	worldrenderer.dll + 0xddde8(hierarchy CPostConnectCallback)
+CReadGrassTexturePixelsCallback
+	worldrenderer.dll + 0xed448(hierarchy CReadGrassTexturePixelsCallback: IReadTexturePixelsCallback, IRenderReadCallback)
+CSceneObject
+	worldrenderer.dll + 0xed3e8(hierarchy CSceneObject)
+CSchemaInstallCallback
+	worldrenderer.dll + 0xde550(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_entity2
+	worldrenderer.dll + 0xd7340(hierarchy CSchemaRegistration_entity2: CSchemaRegistration)
+CSchemaRegistration_worldrenderer
+	worldrenderer.dll + 0xf03e8(hierarchy CSchemaRegistration_worldrenderer: CSchemaRegistration)
+CSingleWorldRep
+	worldrenderer.dll + 0xee250(hierarchy CSingleWorldRep: IWorldReference)
+CVariantSaveDataOps
+	worldrenderer.dll + 0xd6e28(hierarchy CVariantSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+CVoxelVisibilityTypeManager
+	worldrenderer.dll + 0xee638(hierarchy CVoxelVisibilityTypeManager: IResourceTypeManager)
+CWorld
+	worldrenderer.dll + 0xed650(hierarchy CWorld: IWorld)
+CWorldManager
+	worldrenderer.dll + 0xee2f0(hierarchy CWorldManager: CDefaultIntrospectedToKV3TypeManager<431316170614,struct World_t>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager)
+CWorldNodeManager
+	worldrenderer.dll + 0xee180(hierarchy CWorldNodeManager: CTypesafeIntrospectedToKV3TypeManager<431366240118,struct WorldNode_t>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager)
+CWorldRendererMgr
+	worldrenderer.dll + 0xee470(hierarchy CWorldRendererMgr: CTier3AppSystem<class IWorldRendererMgr,0>, CTier2AppSystem<class IWorldRendererMgr,0>, CTier1AppSystem<class IWorldRendererMgr,0>, CTier0AppSystem<class IWorldRendererMgr,0>, CBaseAppSystem<class IWorldRendererMgr>, IWorldRendererMgr, IAppSystem)
+CWorldSceneObjectRef
+	worldrenderer.dll + 0xed640(hierarchy CWorldSceneObjectRef: CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+Concurrency::details::_CancellationTokenCallback<class <lambda_be3e5d9dce35d2c8dbfa8485373731d5> >
+	worldrenderer.dll + 0xd9050(hierarchy Concurrency::details::_CancellationTokenCallback<class <lambda_be3e5d9dce35d2c8dbfa8485373731d5> >: Concurrency::details::_CancellationTokenRegistration, Concurrency::details::_RefCounter)
+Concurrency::details::_CancellationTokenRegistration
+	worldrenderer.dll + 0xd8f88(hierarchy Concurrency::details::_CancellationTokenRegistration: Concurrency::details::_RefCounter)
+Concurrency::details::_DefaultPPLTaskScheduler
+	worldrenderer.dll + 0xd8f40(hierarchy Concurrency::details::_DefaultPPLTaskScheduler: Concurrency::scheduler_interface)
+Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>
+	worldrenderer.dll + 0xd9780(hierarchy Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>: Concurrency::details::_TaskProcHandle)
+Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>
+	worldrenderer.dll + 0xd9818(hierarchy Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>: Concurrency::details::_TaskProcHandle)
+Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>
+	worldrenderer.dll + 0xd97e8(hierarchy Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>: Concurrency::details::_TaskProcHandle)
+Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>
+	worldrenderer.dll + 0xd9750(hierarchy Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>: Concurrency::details::_TaskProcHandle)
+Concurrency::details::_RefCounter
+	worldrenderer.dll + 0xd8f70(hierarchy Concurrency::details::_RefCounter)
+Concurrency::details::_TaskProcHandle
+	worldrenderer.dll + 0xd8fa8(hierarchy Concurrency::details::_TaskProcHandle)
+Concurrency::details::_Task_impl<unsigned char>
+	worldrenderer.dll + 0xd9070(hierarchy Concurrency::details::_Task_impl<unsigned char>: Concurrency::details::_Task_impl_base)
+Concurrency::details::_Task_impl_base
+	worldrenderer.dll + 0xd9000(hierarchy Concurrency::details::_Task_impl_base)
+Concurrency::details::stl_condition_variable_win7
+	worldrenderer.dll + 0xe0198(hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+Concurrency::details::stl_critical_section_win7
+	worldrenderer.dll + 0xe0168(hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+Concurrency::invalid_operation
+	worldrenderer.dll + 0xd8f28(hierarchy Concurrency::invalid_operation: std::exception)
+Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>
+	worldrenderer.dll + 0xd9798(hierarchy Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>: Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_5a9ef80d79df7873994019ff15dceae5>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>, Concurrency::details::_TaskProcHandle)
+Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>
+	worldrenderer.dll + 0xd9830(hierarchy Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>: Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>, Concurrency::details::_TaskProcHandle)
+Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>
+	worldrenderer.dll + 0xd9800(hierarchy Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>: Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_85226a1ade6d27c19b16702c44b1a394>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>, Concurrency::details::_TaskProcHandle)
+Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>
+	worldrenderer.dll + 0xd9768(hierarchy Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>: Concurrency::details::_PPLTaskHandle<unsigned char,struct Concurrency::task<unsigned char>::_InitialTaskHandle<void,class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,struct Concurrency::details::_TypeSelectorNoAsync>,struct Concurrency::details::_TaskProcHandle>, Concurrency::details::_TaskProcHandle)
+EntityKeyValueData_t
+	worldrenderer.dll + 0xef570(hierarchy EntityKeyValueData_t)
+Etc::Block4x4Encoding
+	worldrenderer.dll + 0xd9ea8(hierarchy Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_ETC1
+	worldrenderer.dll + 0xd9ef0(hierarchy Etc::Block4x4Encoding_ETC1: Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_R11
+	worldrenderer.dll + 0xdadf0(hierarchy Etc::Block4x4Encoding_R11: Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RG11
+	worldrenderer.dll + 0xdaf40(hierarchy Etc::Block4x4Encoding_RG11: Etc::Block4x4Encoding_R11, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGB8
+	worldrenderer.dll + 0xda728(hierarchy Etc::Block4x4Encoding_RGB8: Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGB8A1
+	worldrenderer.dll + 0xdac30(hierarchy Etc::Block4x4Encoding_RGB8A1: Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGB8A1_Opaque
+	worldrenderer.dll + 0xd9a20(hierarchy Etc::Block4x4Encoding_RGB8A1_Opaque: Etc::Block4x4Encoding_RGB8A1, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGB8A1_Transparent
+	worldrenderer.dll + 0xd9a68(hierarchy Etc::Block4x4Encoding_RGB8A1_Transparent: Etc::Block4x4Encoding_RGB8A1, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGBA8
+	worldrenderer.dll + 0xdaa40(hierarchy Etc::Block4x4Encoding_RGBA8: Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGBA8_Opaque
+	worldrenderer.dll + 0xd9990(hierarchy Etc::Block4x4Encoding_RGBA8_Opaque: Etc::Block4x4Encoding_RGBA8, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+Etc::Block4x4Encoding_RGBA8_Transparent
+	worldrenderer.dll + 0xd99d8(hierarchy Etc::Block4x4Encoding_RGBA8_Transparent: Etc::Block4x4Encoding_RGBA8, Etc::Block4x4Encoding_RGB8, Etc::Block4x4Encoding_ETC1, Etc::Block4x4Encoding)
+IAsyncProcessedDataResult
+	worldrenderer.dll + 0xdc828(hierarchy IAsyncProcessedDataResult)
+IMultipleWorkerJob
+	worldrenderer.dll + 0xd3d88(hierarchy IMultipleWorkerJob)
+IRenderReadCallback
+	worldrenderer.dll + 0xed5f0(hierarchy IRenderReadCallback)
+PermEntityLumpData_t
+	worldrenderer.dll + 0xef5a0(hierarchy PermEntityLumpData_t)
+`anonymous namespace'::_ExceptionPtr_normal
+	worldrenderer.dll + 0xe00f0(hierarchy `anonymous namespace'::_ExceptionPtr_normal: std::_Ref_count_base)
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>
+	worldrenderer.dll + 0xe0118(hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>: std::_Ref_count_base)
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>
+	worldrenderer.dll + 0xe0140(hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>: std::_Ref_count_base)
+`public: virtual void * __ptr64 __cdecl CTypesafeIntrospectedToKV3TypeManager<431366240118,struct WorldNode_t>::AllocateAndLoad(class CKV3TransferLoadContext & __ptr64,struct ResourceBindingBase_t const * __ptr64,class IRD_RegisterResourceDataUtils * __ptr64) __ptr64'::`2'::CAllocatorUtils
+	worldrenderer.dll + 0xee168(hierarchy `public: virtual void * __ptr64 __cdecl CTypesafeIntrospectedToKV3TypeManager<431366240118,struct WorldNode_t>::AllocateAndLoad(class CKV3TransferLoadContext & __ptr64,struct ResourceBindingBase_t const * __ptr64,class IRD_RegisterResourceDataUtils * __ptr64) __ptr64'::`2'::CAllocatorUtils: CTypesafeIntrospectedToKV3TypeManager<431366240118,struct WorldNode_t>::IKV3ResourceAllocatorUtils)
+`public: virtual void * __ptr64 __cdecl CTypesafeIntrospectedToKV3TypeManager<495874631030,struct PermEntityLumpData_t>::AllocateAndLoad(class CKV3TransferLoadContext & __ptr64,struct ResourceBindingBase_t const * __ptr64,class IRD_RegisterResourceDataUtils * __ptr64) __ptr64'::`2'::CAllocatorUtils
+	worldrenderer.dll + 0xee2d8(hierarchy `public: virtual void * __ptr64 __cdecl CTypesafeIntrospectedToKV3TypeManager<495874631030,struct PermEntityLumpData_t>::AllocateAndLoad(class CKV3TransferLoadContext & __ptr64,struct ResourceBindingBase_t const * __ptr64,class IRD_RegisterResourceDataUtils * __ptr64) __ptr64'::`2'::CAllocatorUtils: CTypesafeIntrospectedToKV3TypeManager<495874631030,struct PermEntityLumpData_t>::IKV3ResourceAllocatorUtils)
+`public: virtual void __cdecl CTypesafeIntrospectedToKV3TypeManager<431366240118,struct WorldNode_t>::DeallocateDestroyCleanup(void * __ptr64,class IResourceDeallocatorUtils * __ptr64) __ptr64'::`2'::CDeallocatorUtils
+	worldrenderer.dll + 0xee240(hierarchy `public: virtual void __cdecl CTypesafeIntrospectedToKV3TypeManager<431366240118,struct WorldNode_t>::DeallocateDestroyCleanup(void * __ptr64,class IResourceDeallocatorUtils * __ptr64) __ptr64'::`2'::CDeallocatorUtils: CTypesafeIntrospectedToKV3TypeManager<431366240118,struct WorldNode_t>::IKV3ResourceDeallocatorUtils)
+`public: virtual void __cdecl CTypesafeIntrospectedToKV3TypeManager<495874631030,struct PermEntityLumpData_t>::DeallocateDestroyCleanup(void * __ptr64,class IResourceDeallocatorUtils * __ptr64) __ptr64'::`2'::CDeallocatorUtils
+	worldrenderer.dll + 0xee6c8(hierarchy `public: virtual void __cdecl CTypesafeIntrospectedToKV3TypeManager<495874631030,struct PermEntityLumpData_t>::DeallocateDestroyCleanup(void * __ptr64,class IResourceDeallocatorUtils * __ptr64) __ptr64'::`2'::CDeallocatorUtils: CTypesafeIntrospectedToKV3TypeManager<495874631030,struct PermEntityLumpData_t>::IKV3ResourceDeallocatorUtils)
+std::_Associated_state<int>
+	worldrenderer.dll + 0xd9128(hierarchy std::_Associated_state<int>)
+std::_Associated_state<unsigned int>
+	worldrenderer.dll + 0xd9340(hierarchy std::_Associated_state<unsigned int>)
+std::_Deferred_async_state<unsigned int>
+	worldrenderer.dll + 0xd9590(hierarchy std::_Deferred_async_state<unsigned int>: std::_Packaged_state<unsigned int __cdecl(void)>, std::_Associated_state<unsigned int>)
+std::_Deferred_async_state<void>
+	worldrenderer.dll + 0xd94b0(hierarchy std::_Deferred_async_state<void>: std::_Packaged_state<void __cdecl(void)>, std::_Associated_state<int>)
+std::_Func_base<unsigned char>
+	worldrenderer.dll + 0xd9378(hierarchy std::_Func_base<unsigned char>)
+std::_Func_base<unsigned int>
+	worldrenderer.dll + 0xd9600(hierarchy std::_Func_base<unsigned int>)
+std::_Func_base<void>
+	worldrenderer.dll + 0xd9308(hierarchy std::_Func_base<void>)
+std::_Func_impl<class <lambda_5a9ef80d79df7873994019ff15dceae5>,class std::allocator<int>,void>
+	worldrenderer.dll + 0xd9880(hierarchy std::_Func_impl<class <lambda_5a9ef80d79df7873994019ff15dceae5>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,class std::allocator<int>,void>
+	worldrenderer.dll + 0xd98f0(hierarchy std::_Func_impl<class <lambda_60c5de84e69e46aa92419d47e2f3ad51>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_713ee8bbd6b08550d59c52695cab5ce3>,class std::allocator<int>,void>
+	worldrenderer.dll + 0xd9670(hierarchy std::_Func_impl<class <lambda_713ee8bbd6b08550d59c52695cab5ce3>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_763529b0c7473cbc215a52d189ac9b18>,class std::allocator<int>,void>
+	worldrenderer.dll + 0xd96e0(hierarchy std::_Func_impl<class <lambda_763529b0c7473cbc215a52d189ac9b18>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_85226a1ade6d27c19b16702c44b1a394>,class std::allocator<int>,void>
+	worldrenderer.dll + 0xd98b8(hierarchy std::_Func_impl<class <lambda_85226a1ade6d27c19b16702c44b1a394>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_e0b623a606acfd10554dbddbb0c1a7da>,class std::allocator<int>,unsigned char>
+	worldrenderer.dll + 0xd96a8(hierarchy std::_Func_impl<class <lambda_e0b623a606acfd10554dbddbb0c1a7da>,class std::allocator<int>,unsigned char>: std::_Func_base<unsigned char>)
+std::_Func_impl<class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,class std::allocator<int>,void>
+	worldrenderer.dll + 0xd9848(hierarchy std::_Func_impl<class <lambda_e7905d7dbd7cab7f9b19199433c4f5d3>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class <lambda_f25c37099038263181b5186a3fa41b37>,class std::allocator<int>,void>
+	worldrenderer.dll + 0xd9638(hierarchy std::_Func_impl<class <lambda_f25c37099038263181b5186a3fa41b37>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl<class std::_Fake_no_copy_callable_adapter<unsigned int (__cdecl Etc::Image::*)(unsigned int,unsigned int,unsigned int) __ptr64,class Etc::Image * __ptr64 const,unsigned int & __ptr64,int & __ptr64,unsigned int & __ptr64>,class std::allocator<int>,unsigned int>
+	worldrenderer.dll + 0xd97b0(hierarchy std::_Func_impl<class std::_Fake_no_copy_callable_adapter<unsigned int (__cdecl Etc::Image::*)(unsigned int,unsigned int,unsigned int) __ptr64,class Etc::Image * __ptr64 const,unsigned int & __ptr64,int & __ptr64,unsigned int & __ptr64>,class std::allocator<int>,unsigned int>: std::_Func_base<unsigned int>)
+std::_Func_impl<class std::_Fake_no_copy_callable_adapter<void (__cdecl Etc::Image::*)(unsigned int,unsigned int) __ptr64,class Etc::Image * __ptr64 const,int & __ptr64,unsigned int & __ptr64>,class std::allocator<int>,void>
+	worldrenderer.dll + 0xd9718(hierarchy std::_Func_impl<class std::_Fake_no_copy_callable_adapter<void (__cdecl Etc::Image::*)(unsigned int,unsigned int) __ptr64,class Etc::Image * __ptr64 const,int & __ptr64,unsigned int & __ptr64>,class std::allocator<int>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: bool __cdecl CGrassTileObjectDesc::GenerateGrassTexture(class CWeakHandle<struct InfoForResourceTypeIMaterial2>,class CWeakHandle<struct InfoForResourceTypeCTextureBase>,int,bool,class CTextureDesc const * __ptr64) __ptr64'::`7'::<lambda_1>,void>
+	worldrenderer.dll + 0xed608(hierarchy std::_Func_impl_no_alloc<class `public: bool __cdecl CGrassTileObjectDesc::GenerateGrassTexture(class CWeakHandle<struct InfoForResourceTypeIMaterial2>,class CWeakHandle<struct InfoForResourceTypeCTextureBase>,int,bool,class CTextureDesc const * __ptr64) __ptr64'::`7'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: virtual void __cdecl CReadGrassTexturePixelsCallback::OnReadTexturePixels(unsigned char const * __ptr64,enum ImageFormat,int,int,int,int) __ptr64'::`2'::<lambda_1>,void>
+	worldrenderer.dll + 0xed468(hierarchy std::_Func_impl_no_alloc<class `public: virtual void __cdecl CReadGrassTexturePixelsCallback::OnReadTexturePixels(unsigned char const * __ptr64,enum ImageFormat,int,int,int,int) __ptr64'::`2'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::FillAttr(int,float) __ptr64'::`13'::<lambda_1>,void>
+	worldrenderer.dll + 0xde488(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::FillAttr(int,float) __ptr64'::`13'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CWorldRendererMgr::HandleGrassLoadRequest(struct GrassLoadRequest_t * __ptr64) __ptr64'::`8'::<lambda_1>,void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>
+	worldrenderer.dll + 0xee6d8(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CWorldRendererMgr::HandleGrassLoadRequest(struct GrassLoadRequest_t * __ptr64) __ptr64'::`8'::<lambda_1>,void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>: std::_Func_base<void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>)
+std::_Future_error_category
+	worldrenderer.dll + 0xd90e8(hierarchy std::_Future_error_category: std::_Generic_error_category, std::error_category)
+std::_Generic_error_category
+	worldrenderer.dll + 0xd8ee8(hierarchy std::_Generic_error_category: std::error_category)
+std::_Packaged_state<unsigned int __cdecl(void)>
+	worldrenderer.dll + 0xd9520(hierarchy std::_Packaged_state<unsigned int __cdecl(void)>: std::_Associated_state<unsigned int>)
+std::_Packaged_state<void __cdecl(void)>
+	worldrenderer.dll + 0xd9440(hierarchy std::_Packaged_state<void __cdecl(void)>: std::_Associated_state<int>)
+std::_Ref_count_base
+	worldrenderer.dll + 0xd7da0(hierarchy std::_Ref_count_base)
+std::_Ref_count_obj<struct Concurrency::details::_ExceptionHolder>
+	worldrenderer.dll + 0xd93f0(hierarchy std::_Ref_count_obj<struct Concurrency::details::_ExceptionHolder>: std::_Ref_count_base)
+std::_Ref_count_obj<struct Concurrency::details::_Task_impl<unsigned char> >
+	worldrenderer.dll + 0xd9418(hierarchy std::_Ref_count_obj<struct Concurrency::details::_Task_impl<unsigned char> >: std::_Ref_count_base)
+std::_System_error
+	worldrenderer.dll + 0xd49e0(hierarchy std::_System_error: std::runtime_error, stdext::exception)
+std::_Task_async_state<unsigned int,0>
+	worldrenderer.dll + 0xd9558(hierarchy std::_Task_async_state<unsigned int,0>: std::_Packaged_state<unsigned int __cdecl(void)>, std::_Associated_state<unsigned int>)
+std::_Task_async_state<unsigned int,1>
+	worldrenderer.dll + 0xd95c8(hierarchy std::_Task_async_state<unsigned int,1>: std::_Packaged_state<unsigned int __cdecl(void)>, std::_Associated_state<unsigned int>)
+std::_Task_async_state<void,0>
+	worldrenderer.dll + 0xd9478(hierarchy std::_Task_async_state<void,0>: std::_Packaged_state<void __cdecl(void)>, std::_Associated_state<int>)
+std::_Task_async_state<void,1>
+	worldrenderer.dll + 0xd94e8(hierarchy std::_Task_async_state<void,1>: std::_Packaged_state<void __cdecl(void)>, std::_Associated_state<int>)
+std::bad_alloc
+	worldrenderer.dll + 0xde2d0(hierarchy std::bad_alloc: std::exception)
+std::bad_array_new_length
+	worldrenderer.dll + 0xde2e8(hierarchy std::bad_array_new_length: std::bad_alloc, std::exception)
+std::bad_exception
+	worldrenderer.dll + 0xe00c8(hierarchy std::bad_exception: std::exception)
+std::bad_function_call
+	worldrenderer.dll + 0xdf218(hierarchy std::bad_function_call: std::exception)
+std::error_category
+	worldrenderer.dll + 0xd8ea8(hierarchy std::error_category)
+std::exception
+	worldrenderer.dll + 0xd8db8(hierarchy std::exception)
+std::future_error
+	worldrenderer.dll + 0xe0280(hierarchy std::future_error: std::logic_error, std::exception)
+std::length_error
+	worldrenderer.dll + 0xdf260(hierarchy std::length_error: std::logic_error, std::exception)
+std::logic_error
+	worldrenderer.dll + 0xdf248(hierarchy std::logic_error: std::exception)
+std::out_of_range
+	worldrenderer.dll + 0xdf278(hierarchy std::out_of_range: std::logic_error, std::exception)
+std::runtime_error
+	worldrenderer.dll + 0xd49c0(hierarchy std::runtime_error: stdext::exception)
+std::system_error
+	worldrenderer.dll + 0xd4a08(hierarchy std::system_error: std::_System_error, std::runtime_error, stdext::exception)
+stdext::exception
+	worldrenderer.dll + 0xd4978(hierarchy stdext::exception)
+type_info
+	worldrenderer.dll + 0xe04b8(hierarchy type_info)

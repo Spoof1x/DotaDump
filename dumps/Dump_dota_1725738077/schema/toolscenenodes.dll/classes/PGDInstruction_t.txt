@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PGDInstruction_t (size: 0x38 bytes, project "pulse_runtime_lib", binding @ toolscenenodes.dll + 0xbf00c0, scope "toolscenenodes.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x611470"
+
+-----members of class PGDInstruction_t-----
+	PulseInstructionCode_t m_nCode(offset 0x0, size 0x2, align 0x2)
+	uint8_t[2] unaccounted(offset 0x2)
+	PulseRuntimeVarIndex_t m_nVar(offset 0x4, size 0x4, align 0x0)
+	PulseRuntimeRegisterIndex_t m_nReg0(offset 0x8, size 0x2, align 0x0)
+	PulseRuntimeRegisterIndex_t m_nReg1(offset 0xa, size 0x2, align 0x0)
+	PulseRuntimeRegisterIndex_t m_nReg2(offset 0xc, size 0x2, align 0x0)
+	uint8_t[2] unaccounted(offset 0xe)
+	PulseRuntimeInvokeIndex_t m_nInvokeBindingIndex(offset 0x10, size 0x4, align 0x0)
+	PulseRuntimeChunkIndex_t m_nChunk(offset 0x14, size 0x4, align 0x0)
+	int32 m_nDestInstruction(offset 0x18, size 0x4, align 0x4)
+	PulseRuntimeCallInfoIndex_t m_nCallInfoIndex(offset 0x1c, size 0x4, align 0x0)
+	PulseRuntimeConstantIndex_t m_nConstIdx(offset 0x20, size 0x2, align 0x0)
+	PulseRuntimeDomainValueIndex_t m_nDomainValueIdx(offset 0x22, size 0x2, align 0x0)
+	PulseRuntimeBlackboardReferenceIndex_t m_nBlackboardReferenceIdx(offset 0x24, size 0x2, align 0x0)
+	uint8_t[18] unaccounted(offset 0x26)
+

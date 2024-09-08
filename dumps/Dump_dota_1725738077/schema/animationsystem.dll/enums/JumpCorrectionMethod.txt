@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum JumpCorrectionMethod(size: 4 bytes, 2 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a5220):
+	ScaleMotion = 0,
+		^MPropertyFriendlyName "Scale Animation Motion"
+	AddCorrectionDelta = 1,
+		^MPropertyFriendlyName "Add Correction Delta"

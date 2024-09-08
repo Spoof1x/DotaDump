@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum FinishedConditionOption(size: 4 bytes, 2 values, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e85f0):
+	FinishedConditionOption_OnFinished = 0,
+		^MPropertyFriendlyName "On Finished"
+	FinishedConditionOption_OnAlmostFinished = 1,
+		^MPropertyFriendlyName "On Almost Finished"

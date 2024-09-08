@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NmCachedValueMode_t(size: 4 bytes, 2 values, project "animlib", binding @ resourcecompiler.dll + 0x2447ae0):
+	OnEntry = 0,
+	OnExit = 1,

@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ERoadToTIQuestType(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x489b750):
+	k_RoadToTIQuestType_Match = 0,
+	k_RoadToTIQuestType_Player = 1,

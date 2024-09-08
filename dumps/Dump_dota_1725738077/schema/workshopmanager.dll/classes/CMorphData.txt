@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMorphData (size: 0x20 bytes, project "modellib", binding @ workshopmanager.dll + 0xe8fd10, scope "workshopmanager.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x51ea80"
+
+-----members of class CMorphData-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	CUtlVector< CMorphRectData > m_morphRectDatas(offset 0x8, size 0x18, align 0x8)
+

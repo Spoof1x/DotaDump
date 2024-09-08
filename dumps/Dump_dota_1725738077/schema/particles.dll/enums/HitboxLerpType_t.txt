@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum HitboxLerpType_t(size: 4 bytes, 2 values, project "particles", binding @ particles.dll + 0x518740):
+	HITBOX_LERP_LIFETIME = 0,
+		^MPropertyFriendlyName "Lerp from Start/End Time"
+	HITBOX_LERP_CONSTANT = 1,
+		^MPropertyFriendlyName "Constant"

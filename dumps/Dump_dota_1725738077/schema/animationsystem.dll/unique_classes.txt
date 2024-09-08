@@ -1,0 +1,6 @@
+CAnimEnum
+CCompressorGroup
+CMoodVData
+HSequence
+MoodAnimationLayer_t
+MoodAnimation_t

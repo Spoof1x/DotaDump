@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VMixPitchShiftDesc_t (size: 0x10 bytes, project "soundsystem_lowlevel", binding @ soundsystem.dll + 0x399e90, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x22dcd0"
+
+-----members of class VMixPitchShiftDesc_t-----
+	int32 m_nGrainSampleCount(offset 0x0, size 0x4, align 0x4)
+	float32 m_flPitchShift(offset 0x4, size 0x4, align 0x4)
+	int32 m_nQuality(offset 0x8, size 0x4, align 0x4)
+	int32 m_nProcType(offset 0xc, size 0x4, align 0x4)
+

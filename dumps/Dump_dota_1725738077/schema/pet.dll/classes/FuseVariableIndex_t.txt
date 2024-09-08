@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FuseVariableIndex_t (size: 0x2 bytes, project "mathlib_extended", binding @ pet.dll + 0xce02e0, scope "pet.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class FuseVariableIndex_t-----
+	static bool IS_TYPESAFE_INTEGER(pet.dll + 0x9f773a)
+
+-----members of class FuseVariableIndex_t-----
+	uint16 m_Value(offset 0x0, size 0x2, align 0x2)
+

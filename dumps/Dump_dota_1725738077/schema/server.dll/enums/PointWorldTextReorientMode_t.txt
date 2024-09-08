@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PointWorldTextReorientMode_t(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x3a717f0):
+	POINT_WORLD_TEXT_REORIENT_NONE = 0,
+	POINT_WORLD_TEXT_REORIENT_AROUND_UP = 1,

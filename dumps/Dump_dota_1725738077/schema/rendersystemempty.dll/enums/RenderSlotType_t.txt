@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum RenderSlotType_t(size: 4 bytes, 3 values, project "rendersystemempty", binding @ rendersystemempty.dll + 0x138f00):
+	RENDER_SLOT_INVALID = -1,
+	RENDER_SLOT_PER_VERTEX = 0,
+	RENDER_SLOT_PER_INSTANCE = 1,

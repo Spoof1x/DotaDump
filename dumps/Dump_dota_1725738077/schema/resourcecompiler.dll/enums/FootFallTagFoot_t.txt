@@ -1,0 +1,18 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum FootFallTagFoot_t(size: 4 bytes, 8 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x2428b20):
+	FOOT1 = 0,
+		^MPropertyFriendlyName "Left"
+	FOOT2 = 1,
+		^MPropertyFriendlyName "Right"
+	FOOT3 = 2,
+		^MPropertyFriendlyName "Foot 3"
+	FOOT4 = 3,
+		^MPropertyFriendlyName "Foot 4"
+	FOOT5 = 4,
+		^MPropertyFriendlyName "Foot 5"
+	FOOT6 = 5,
+		^MPropertyFriendlyName "Foot 6"
+	FOOT7 = 6,
+		^MPropertyFriendlyName "Foot 7"
+	FOOT8 = 7,
+		^MPropertyFriendlyName "Foot 8"

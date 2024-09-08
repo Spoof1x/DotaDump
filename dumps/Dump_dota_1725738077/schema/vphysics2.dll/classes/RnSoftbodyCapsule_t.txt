@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RnSoftbodyCapsule_t (size: 0x20 bytes, project "physicslib", binding @ vphysics2.dll + 0x38e430, scope "vphysics2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0x104c10"
+
+-----members of class RnSoftbodyCapsule_t-----
+	Vector[2] m_vCenter(offset 0x0, size 0x18, align 0x4)
+	float32 m_flRadius(offset 0x18, size 0x4, align 0x4)
+	uint16[2] m_nParticle(offset 0x1c, size 0x4, align 0x2)
+

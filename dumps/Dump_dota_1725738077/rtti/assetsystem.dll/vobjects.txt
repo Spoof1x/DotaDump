@@ -1,0 +1,153 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CAssetSystem
+	(hierarchy CAssetSystem: CTier3DmAppSystem<class IAssetSystem,0>, CTier2DmAppSystem<class IAssetSystem,0>, CTier2AppSystem<class IAssetSystem,0>, CTier1AppSystem<class IAssetSystem,0>, CTier0AppSystem<class IAssetSystem,0>, CBaseAppSystem<class IAssetSystem>, IAssetSystem, IAppSystem, IToolsResourceListener, IResourceUpdater)
+		assetsystem.dll + 0x54b9c0
+	MI offset 40 (hierarchy IToolsResourceListener: IResourceUpdater)
+		assetsystem.dll + 0x54b9e8
+	MI offset 48 (hierarchy IResourceUpdater)
+		assetsystem.dll + 0x54b9f0
+CAssetSystemTest (hierarchy CAssetSystemTest: CTier1AppSystem<class IAssetSystemTest,0>, CTier0AppSystem<class IAssetSystemTest,0>, CBaseAppSystem<class IAssetSystemTest>, IAssetSystemTest, IAppSystem)
+	assetsystem.dll + 0x4ec548
+CAssetTagVDataManager (hierarchy CAssetTagVDataManager: CVDataFileManager<class CAssetTagInfo>, CBaseVDataFileManager, IVDataResourceListener)
+	assetsystem.dll + 0x4ec630
+CConCommandMemberAccessor<class CAssetSystem>
+	(hierarchy CConCommandMemberAccessor<class CAssetSystem>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		assetsystem.dll + 0x54d0a0
+		assetsystem.dll + 0x54d0e0
+		assetsystem.dll + 0x54d120
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		assetsystem.dll + 0x54d0a8
+		assetsystem.dll + 0x54d0e8
+		assetsystem.dll + 0x54d128
+CDataModel (hierarchy CDataModel: CBaseAppSystem<class IDataModel>, IDataModel, CBaseAppSystem<class IAppSystem>, IAppSystem)
+	assetsystem.dll + 0x537560
+CDmElementFactory<class CDmElement> (hierarchy CDmElementFactory<class CDmElement>: CDmElementFactoryInternal, IDmElementFactory)
+	assetsystem.dll + 0x4a29e8
+	assetsystem.dll + 0x4a2a10
+CDmElementFactoryDefault (hierarchy CDmElementFactoryDefault: IDmElementFactory)
+	assetsystem.dll + 0x4a2a38
+CDmElementFramework (hierarchy CDmElementFramework: CBaseAppSystem<class IDmElementFramework>, IDmElementFramework, CBaseAppSystem<class IAppSystem>, IAppSystem)
+	assetsystem.dll + 0x4a2a60
+CDmFormatUpdater_animflags (hierarchy CDmFormatUpdater_animflags: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3c00
+CDmFormatUpdater_dmx (hierarchy CDmFormatUpdater_dmx: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b10
+CDmFormatUpdater_facial_animation (hierarchy CDmFormatUpdater_facial_animation: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b50
+CDmFormatUpdater_gui (hierarchy CDmFormatUpdater_gui: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3bc0
+CDmFormatUpdater_model (hierarchy CDmFormatUpdater_model: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b58
+CDmFormatUpdater_movieobjects (hierarchy CDmFormatUpdater_movieobjects: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b18
+CDmFormatUpdater_mp_anim (hierarchy CDmFormatUpdater_mp_anim: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b88
+CDmFormatUpdater_mp_bonemask (hierarchy CDmFormatUpdater_mp_bonemask: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3bb8
+CDmFormatUpdater_mp_eyes (hierarchy CDmFormatUpdater_mp_eyes: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3bb0
+CDmFormatUpdater_mp_hitbox (hierarchy CDmFormatUpdater_mp_hitbox: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b98
+CDmFormatUpdater_mp_keyvalues (hierarchy CDmFormatUpdater_mp_keyvalues: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3ba8
+CDmFormatUpdater_mp_materialgroup (hierarchy CDmFormatUpdater_mp_materialgroup: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3ba0
+CDmFormatUpdater_mp_model (hierarchy CDmFormatUpdater_mp_model: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b80
+CDmFormatUpdater_mp_physics (hierarchy CDmFormatUpdater_mp_physics: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b90
+CDmFormatUpdater_mp_preprocess (hierarchy CDmFormatUpdater_mp_preprocess: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b70
+CDmFormatUpdater_mp_root (hierarchy CDmFormatUpdater_mp_root: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b78
+CDmFormatUpdater_pcf (hierarchy CDmFormatUpdater_pcf: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b40
+CDmFormatUpdater_preset (hierarchy CDmFormatUpdater_preset: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b48
+CDmFormatUpdater_schema (hierarchy CDmFormatUpdater_schema: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3bc8
+CDmFormatUpdater_sfm (hierarchy CDmFormatUpdater_sfm: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b20
+CDmFormatUpdater_sfm_session (hierarchy CDmFormatUpdater_sfm_session: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b30
+CDmFormatUpdater_sfm_settings (hierarchy CDmFormatUpdater_sfm_settings: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b28
+CDmFormatUpdater_sfm_trackgroup (hierarchy CDmFormatUpdater_sfm_trackgroup: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b38
+CDmFormatUpdater_vanim (hierarchy CDmFormatUpdater_vanim: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3bf8
+CDmFormatUpdater_ved (hierarchy CDmFormatUpdater_ved: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b60
+CDmFormatUpdater_virtualvolumetexture (hierarchy CDmFormatUpdater_virtualvolumetexture: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3be8
+CDmFormatUpdater_vmap (hierarchy CDmFormatUpdater_vmap: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3bf0
+CDmFormatUpdater_vmks (hierarchy CDmFormatUpdater_vmks: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3b68
+CDmFormatUpdater_vtex (hierarchy CDmFormatUpdater_vtex: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3bd0
+CDmFormatUpdater_world (hierarchy CDmFormatUpdater_world: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3bd8
+CDmFormatUpdater_worldnode (hierarchy CDmFormatUpdater_worldnode: IDmFormatUpdater)
+	assetsystem.dll + 0x4a3be0
+CDmSerializerBinary (hierarchy CDmSerializerBinary: IDmSerializer)
+	assetsystem.dll + 0x4a3018
+	assetsystem.dll + 0x4a3030
+CDmSerializerKeyValues (hierarchy CDmSerializerKeyValues: IDmSerializer)
+	assetsystem.dll + 0x4a2b48
+CDmSerializerKeyValues2 (hierarchy CDmSerializerKeyValues2: IDmSerializer)
+	assetsystem.dll + 0x4a2d90
+	assetsystem.dll + 0x4a2e40
+	assetsystem.dll + 0x4a2ef0
+CDmSerializers (hierarchy CDmSerializers: CBaseAppSystem<class IDmSerializers>, IDmSerializers, IAppSystem)
+	assetsystem.dll + 0x4a35a0
+CImportActBusy (hierarchy CImportActBusy: CImportKeyValueBase, IDmSerializer)
+	assetsystem.dll + 0x4a3cc8
+CImportCommentary (hierarchy CImportCommentary: CImportKeyValueBase, IDmSerializer)
+	assetsystem.dll + 0x4a3cd8
+CImportMKS (hierarchy CImportMKS: IDmSerializer)
+	assetsystem.dll + 0x4a3f20
+CImportSFMV1 (hierarchy CImportSFMV1: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetsystem.dll + 0x538790
+CImportSFMV2 (hierarchy CImportSFMV2: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetsystem.dll + 0x5387c8
+CImportSFMV3 (hierarchy CImportSFMV3: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetsystem.dll + 0x5387e8
+CImportSFMV4 (hierarchy CImportSFMV4: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetsystem.dll + 0x538808
+CImportSFMV5 (hierarchy CImportSFMV5: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetsystem.dll + 0x538830
+CImportSFMV6 (hierarchy CImportSFMV6: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetsystem.dll + 0x538848
+CImportSFMV7 (hierarchy CImportSFMV7: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetsystem.dll + 0x538868
+CImportSFMV8 (hierarchy CImportSFMV8: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetsystem.dll + 0x538888
+CImportSFMV9 (hierarchy CImportSFMV9: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetsystem.dll + 0x5388a8
+CImportTex (hierarchy CImportTex: IDmSerializer)
+	assetsystem.dll + 0x4a3f48
+CImportVMT (hierarchy CImportVMT: CImportKeyValueBase, IDmSerializer)
+	assetsystem.dll + 0x4a3ce8
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	assetsystem.dll + 0x53c330
+CSchemaRegistration_toolutils2 (hierarchy CSchemaRegistration_toolutils2: CSchemaRegistration)
+	assetsystem.dll + 0x4d62d0
+CVDataAutoTagger (hierarchy CVDataAutoTagger: IVDataResourceListener)
+	assetsystem.dll + 0x4ec610
+Concurrency::details::stl_condition_variable_win7 (hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+	assetsystem.dll + 0x544660
+Concurrency::details::stl_critical_section_win7 (hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+	assetsystem.dll + 0x544608
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>: std::_Ref_count_base)
+	assetsystem.dll + 0x4d7c30
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_exception> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>: std::_Ref_count_base)
+	assetsystem.dll + 0x4d7b70
+std::_Generic_error_category (hierarchy std::_Generic_error_category: std::error_category)
+	assetsystem.dll + 0x4d7cf0
+std::_Iostream_error_category2 (hierarchy std::_Iostream_error_category2: std::error_category)
+	assetsystem.dll + 0x4a2880
+std::bad_alloc (hierarchy std::bad_alloc: std::exception)
+	assetsystem.dll + 0x4d7cd8
+std::bad_exception (hierarchy std::bad_exception: std::exception)
+	assetsystem.dll + 0x4d7c18

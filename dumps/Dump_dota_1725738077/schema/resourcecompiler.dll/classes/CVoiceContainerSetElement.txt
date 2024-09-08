@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVoiceContainerSetElement (size: 0x20 bytes, project "soundsystem_voicecontainers", binding @ resourcecompiler.dll + 0x24c2dd0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x166c440"
+
+-----members of class CVoiceContainerSetElement-----
+	CSoundContainerReference m_sound(offset 0x0, size 0x18, align 0x8)
+	float32 m_flVolumeDB(offset 0x18, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Volume (in Decibels)"
+	uint8_t[4] unaccounted(offset 0x1c)
+

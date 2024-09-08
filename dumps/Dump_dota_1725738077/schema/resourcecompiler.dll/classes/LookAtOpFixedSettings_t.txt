@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class LookAtOpFixedSettings_t (size: 0xc0 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2432310, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x7976d0"
+
+-----members of class LookAtOpFixedSettings_t-----
+	CAnimAttachment m_attachment(offset 0x0, size 0x80, align 0x10)
+	CAnimInputDamping m_damping(offset 0x80, size 0x10, align 0x8)
+	CUtlVector< LookAtBone_t > m_bones(offset 0x90, size 0x18, align 0x8)
+	float32 m_flYawLimit(offset 0xa8, size 0x4, align 0x4)
+	float32 m_flPitchLimit(offset 0xac, size 0x4, align 0x4)
+	float32 m_flHysteresisInnerAngle(offset 0xb0, size 0x4, align 0x4)
+	float32 m_flHysteresisOuterAngle(offset 0xb4, size 0x4, align 0x4)
+	bool m_bRotateYawForward(offset 0xb8, size 0x1, align 0x1)
+	bool m_bMaintainUpDirection(offset 0xb9, size 0x1, align 0x1)
+	bool m_bTargetIsPosition(offset 0xba, size 0x1, align 0x1)
+	bool m_bUseHysteresis(offset 0xbb, size 0x1, align 0x1)
+	uint8_t[4] unaccounted(offset 0xbc)
+

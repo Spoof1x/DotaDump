@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTAVisualNovelActorTextColor_t(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x48cda40):
+	VN_ACTOR_TEXT_COLOR_NONE = 0,
+	VN_ACTOR_TEXT_COLOR_GRAY = 1,
+	VN_ACTOR_TEXT_COLOR_BLUE = 2,
+	VN_ACTOR_TEXT_COLOR_GREEN = 3,
+	VN_ACTOR_TEXT_COLOR_RED = 4,

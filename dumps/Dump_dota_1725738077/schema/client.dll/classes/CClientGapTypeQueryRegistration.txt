@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CClientGapTypeQueryRegistration (size: 0x8 bytes, project "client", binding @ client.dll + 0x4866b60, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+^MGapTypeQueriesForScopeSingleton "ptr: client.dll + 0x4866ab8"
+
+-----static members of class CClientGapTypeQueryRegistration-----
+	static CClientGapTypeQueryRegistration s_Instance(client.dll + 0x4866ab8)
+
+-----members of class CClientGapTypeQueryRegistration-----
+	uint8_t[8] unaccounted(offset 0x0)
+

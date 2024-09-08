@@ -1,0 +1,29 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSosSoundEventGroupSchema (size: 0xe0 bytes, project "soundsystem", binding @ soundsystem.dll + 0x39ecd0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x19b800"
+^MPropertyElementNameFn "func: soundsystem.dll + 0x19eee0"
+
+-----members of class CSosSoundEventGroupSchema-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Group Name"
+	SosGroupType_t m_nType(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Group Type"
+	bool m_bIsBlocking(offset 0xc, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Blocks Events"
+	uint8_t[3] unaccounted(offset 0xd)
+	int32 m_nBlockMaxCount(offset 0x10, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Block Max Count"
+	bool m_bInvertMatch(offset 0x14, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Invert Match"
+	uint8_t[3] unaccounted(offset 0x15)
+	CSosGroupMatchPattern m_matchPattern(offset 0x18, size 0x30, align 0x8)
+		^MPropertyFriendlyName "Match Rules"
+	CSosGroupBranchPattern m_branchPattern(offset 0x48, size 0x10, align 0x8)
+		^MPropertyFriendlyName "Branch Rules"
+	float32 m_flLifeSpanTime(offset 0x58, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Member Lifespan Time"
+	uint8_t[100] unaccounted(offset 0x5c)
+	CSosGroupActionSchema*[4] m_vActions(offset 0xc0, size 0x20, align 0x8)
+		^MPropertyFriendlyName "Actions"
+

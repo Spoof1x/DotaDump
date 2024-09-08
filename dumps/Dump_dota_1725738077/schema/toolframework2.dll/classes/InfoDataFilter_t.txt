@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class InfoDataFilter_t (size: 0x18 bytes, project "toolutils2", binding @ toolframework2.dll + 0x935d20, scope "toolframework2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x484a80"
+
+-----members of class InfoDataFilter_t-----
+	CUtlString m_Name(offset 0x0, size 0x8, align 0x8)
+	AssetEditInfoFilterFunc_t m_FilterFunc(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlString m_Value(offset 0x10, size 0x8, align 0x8)
+

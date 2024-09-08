@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class IGapHost_ExecLog (size: 0x8 bytes, project "pulse_runtime_lib", binding @ workshopmanager.dll + 0xecf420, scope "workshopmanager.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+-----members of class IGapHost_ExecLog-----
+	uint8_t[8] unaccounted(offset 0x0)
+

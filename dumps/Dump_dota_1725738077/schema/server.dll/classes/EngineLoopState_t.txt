@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EngineLoopState_t (size: 0x28 bytes, project "server", binding @ server.dll + 0x38f0b60, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+-----members of class EngineLoopState_t-----
+	uint8_t[24] unaccounted(offset 0x0)
+	int32 m_nPlatWindowWidth(offset 0x18, size 0x4, align 0x4)
+	int32 m_nPlatWindowHeight(offset 0x1c, size 0x4, align 0x4)
+	int32 m_nRenderWidth(offset 0x20, size 0x4, align 0x4)
+	int32 m_nRenderHeight(offset 0x24, size 0x4, align 0x4)
+

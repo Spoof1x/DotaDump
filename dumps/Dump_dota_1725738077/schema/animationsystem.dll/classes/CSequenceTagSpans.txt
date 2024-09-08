@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSequenceTagSpans (size: 0x20 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a8f60, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1a1e00"
+
+-----members of class CSequenceTagSpans-----
+	CGlobalSymbol m_sSequenceName(offset 0x0, size 0x8, align 0x8)
+	CUtlVector< TagSpan_t > m_tags(offset 0x8, size 0x18, align 0x8)
+

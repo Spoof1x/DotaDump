@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CExampleSchemaVData_PolymorphicDerivedB (size: 0x18 bytes, project "resourcefile", binding @ resourcesystem.dll + 0x60f60, scope "!GlobalTypes") extends CExampleSchemaVData_PolymorphicBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcesystem.dll + 0x2a020"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CExampleSchemaVData_PolymorphicBase (size: 0x10 bytes, project "resourcefile", binding @ resourcesystem.dll + 0x60e00, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcesystem.dll + 0x29dc0"
+	
+	-----members of class CExampleSchemaVData_PolymorphicBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		int32 m_nBase(offset 0x8, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0xc)
+	
+
+-----members of class CExampleSchemaVData_PolymorphicDerivedB-----
+	int32 m_nDerivedB(offset 0x10, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x14)
+

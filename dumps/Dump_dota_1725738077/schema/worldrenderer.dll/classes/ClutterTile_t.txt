@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ClutterTile_t (size: 0x20 bytes, project "worldrenderer", binding @ worldrenderer.dll + 0x10f060, scope "worldrenderer.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: worldrenderer.dll + 0x38310"
+
+-----members of class ClutterTile_t-----
+	uint32 m_nFirstInstance(offset 0x0, size 0x4, align 0x4)
+	uint32 m_nLastInstance(offset 0x4, size 0x4, align 0x4)
+	AABB_t m_BoundsWs(offset 0x8, size 0x18, align 0x0)
+

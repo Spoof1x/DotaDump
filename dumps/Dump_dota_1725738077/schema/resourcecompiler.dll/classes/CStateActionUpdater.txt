@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CStateActionUpdater (size: 0x10 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2432ed0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x79ed80"
+
+-----members of class CStateActionUpdater-----
+	CSmartPtr< CAnimActionUpdater > m_pAction(offset 0x0, size 0x8, align 0x8)
+	StateActionBehavior m_eBehavior(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+

@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSprayedDataPreset (size: 0x30 bytes, project "mapdoclib", binding @ hammer.dll + 0x1da7730, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: hammer.dll + 0x9a1f50"
+
+-----members of class CSprayedDataPreset-----
+	int32 m_nCounterMin(offset 0x0, size 0x4, align 0x4)
+	int32 m_nCounterMax(offset 0x4, size 0x4, align 0x4)
+	float32 m_flSpacing(offset 0x8, size 0x4, align 0x4)
+	float32 m_flRadius(offset 0xc, size 0x4, align 0x4)
+	float32 m_flEraseAmount(offset 0x10, size 0x4, align 0x4)
+	bool m_bConstantDensity(offset 0x14, size 0x1, align 0x1)
+	bool m_bOnlyHitMeshes(offset 0x15, size 0x1, align 0x1)
+	bool m_bRadialFalloff(offset 0x16, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x17)
+	CUtlVector< CSprayedDataPresetElement > m_elements(offset 0x18, size 0x18, align 0x8)
+

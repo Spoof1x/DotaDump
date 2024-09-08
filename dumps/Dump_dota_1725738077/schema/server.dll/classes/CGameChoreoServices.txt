@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CGameChoreoServices (size: 0x20 bytes, project "server", binding @ server.dll + 0x3a4e4d0, scope "!GlobalTypes") extends IChoreoServices
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IChoreoServices (size: 0x8 bytes, project "server", binding @ server.dll + 0x38c9db0, scope "server.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	
+	-----static members of class IChoreoServices-----
+		static uint32 ms_uSequenceId(server.dll + 0x3d0d9a4)
+	
+	-----members of class IChoreoServices-----
+		uint8_t[8] unaccounted(offset 0x0)
+	
+
+-----members of class CGameChoreoServices-----
+	CHandle< CBaseAnimGraph > m_hOwner(offset 0x8, size 0x4, align 0x4)
+	CHandle< CScriptedSequence > m_hScriptedSequence(offset 0xc, size 0x4, align 0x4)
+	IChoreoServices::ScriptState_t m_scriptState(offset 0x10, size 0x4, align 0x4)
+	IChoreoServices::ChoreoState_t m_choreoState(offset 0x14, size 0x4, align 0x4)
+	GameTime_t m_flTimeStartedState(offset 0x18, size 0x4, align 0x0)
+	uint8_t[4] unaccounted(offset 0x1c)
+

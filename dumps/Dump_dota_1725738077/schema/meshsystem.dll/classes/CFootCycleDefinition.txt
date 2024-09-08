@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootCycleDefinition (size: 0x3c bytes, project "modellib", binding @ meshsystem.dll + 0x11c8a0, scope "meshsystem.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x976a0"
+
+-----members of class CFootCycleDefinition-----
+	Vector m_vStancePositionMS(offset 0x0, size 0xc, align 0x4)
+	Vector m_vMidpointPositionMS(offset 0xc, size 0xc, align 0x4)
+	float32 m_flStanceDirectionMS(offset 0x18, size 0x4, align 0x4)
+	Vector m_vToStrideStartPos(offset 0x1c, size 0xc, align 0x4)
+	CAnimCycle m_stanceCycle(offset 0x28, size 0x4, align 0x4)
+	CFootCycle m_footLiftCycle(offset 0x2c, size 0x4, align 0x4)
+	CFootCycle m_footOffCycle(offset 0x30, size 0x4, align 0x4)
+	CFootCycle m_footStrikeCycle(offset 0x34, size 0x4, align 0x4)
+	CFootCycle m_footLandCycle(offset 0x38, size 0x4, align 0x4)
+

@@ -1,0 +1,59 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_RandomRotation (size: 0xd0 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfe380, scope "toolscenenodes.dll") extends CSmartPropTransformOperation
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x69ec90"
+^MPropertyFriendlyName "Transform: Random Rotation"
+^MPropertyDescription "Apply a random rotation to the current transform."
+^MVDataClassGroup "Transform"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropTransformOperation (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfc0a0, scope "toolscenenodes.dll") extends CSmartPropOperation
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+	^MVDataNodeTintColor "-4392"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbf9bc0, scope "toolscenenodes.dll") extends CSmartPropModifier
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfac80, scope "toolscenenodes.dll")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+			^MVDataBase
+			^MVDataNodeType "1"
+			^MVDataAnonymousNode
+			
+			-----members of class CSmartPropModifier-----
+				uint8_t[8] unaccounted(offset 0x0)
+				CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+					^MVDataEnableKey
+				uint8_t[8] unaccounted(offset 0x48)
+			
+		
+		-----members of class CSmartPropOperation-----
+			<no members>
+		
+	
+	-----members of class CSmartPropTransformOperation-----
+		<no members>
+	
+
+-----members of class CSmartPropOperation_RandomRotation-----
+	CSmartPropAttributeAngles m_vRandomRotationMin(offset 0x50, size 0x40, align 0x8)
+		^MPropertyDescription "Minimum rotation range"
+	CSmartPropAttributeAngles m_vRandomRotationMax(offset 0x90, size 0x40, align 0x8)
+		^MPropertyDescription "Maximum rotation range"
+

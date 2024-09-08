@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CRandomNumberGeneratorParameters (size: 0x8 bytes, project "particles", binding @ particles.dll + 0x5263d0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0xf5980"
+
+-----members of class CRandomNumberGeneratorParameters-----
+	bool m_bDistributeEvenly(offset 0x0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Distribute evenly"
+	uint8_t[3] unaccounted(offset 0x1)
+	int32 m_nSeed(offset 0x4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Seed (negative values=randomize)"
+		^MPropertySuppressExpr "!m_bDistributeEvenly"
+

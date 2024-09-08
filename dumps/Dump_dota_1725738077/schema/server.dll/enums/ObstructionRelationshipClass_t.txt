@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ObstructionRelationshipClass_t(size: 4 bytes, 5 values, project "server", binding @ server.dll + 0x3aaff80):
+	DOTA_OBSTRUCTION_RELATIONSHIP_NONE = 0,
+	DOTA_OBSTRUCTION_RELATIONSHIP_BUILDING = 1,
+	DOTA_OBSTRUCTION_RELATIONSHIP_PLAYER_CONTROLLED = 2,
+	DOTA_OBSTRUCTION_RELATIONSHIP_NPC = 3,
+	DOTA_OBSTRUCTION_RELATIONSHIP_LAST = 4,

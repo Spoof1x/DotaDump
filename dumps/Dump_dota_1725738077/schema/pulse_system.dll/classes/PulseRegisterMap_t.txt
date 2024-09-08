@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PulseRegisterMap_t (size: 0x20 bytes, project "pulse_runtime_lib", binding @ pulse_system.dll + 0x11fd10, scope "pulse_system.dll")
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: pulse_system.dll + 0x61010"
+
+-----members of class PulseRegisterMap_t-----
+	KeyValues3 m_Inparams(offset 0x0, size 0x10, align 0x8)
+	KeyValues3 m_Outparams(offset 0x10, size 0x10, align 0x8)
+

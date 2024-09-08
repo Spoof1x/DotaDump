@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NmGraphDocGraphType_t(size: 4 bytes, 5 values, project "animdoclib", binding @ resourcecompiler.dll + 0x23da2a0):
+	Invalid = 0,
+	BlendTree = 1,
+	ValueTree = 2,
+	StateMachine = 3,
+	TransitionConduit = 4,

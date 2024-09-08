@@ -1,0 +1,9 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum MatchType(size: 4 bytes, 7 values, project "server", binding @ server.dll + 0x38e1a90):
+	MATCH_TYPE_CASUAL = 0,
+	MATCH_TYPE_COOP_BOTS = 1,
+	MATCH_TYPE_COMPETITIVE = 4,
+	MATCH_TYPE_WEEKEND_TOURNEY = 5,
+	MATCH_TYPE_EVENT = 7,
+	MATCH_TYPE_COACHES_CHALLENGE = 12,
+	MATCH_TYPE_NEW_PLAYER_POOL = 14,

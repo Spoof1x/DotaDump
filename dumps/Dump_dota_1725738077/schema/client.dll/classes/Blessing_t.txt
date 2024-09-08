@@ -1,0 +1,27 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class Blessing_t (size: 0x38 bytes, project "client", binding @ client.dll + 0x4897900, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x173e8b0"
+^MVDataOutlinerIconExpr "'tools/images/common/icon_node_generic.png'"
+
+-----members of class Blessing_t-----
+	BlessingID_t nID(offset 0x0, size 0x4, align 0x0)
+		^MVDataUniqueMonotonicInt "m_nNextBlessingID"
+		^MPropertyAttributeEditor "locked_int()"
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlString BlessingType(offset 0x8, size 0x8, align 0x8)
+		^MPropertyAttributeEditor "VDataNodePicker(//m_mapBlessingTypes/*)"
+	uint8_t[4] unaccounted(offset 0x10)
+	int32 nCost(offset 0x14, size 0x4, align 0x4)
+		^MPropertyDescription "fragment cost"
+	int32 nValue(offset 0x18, size 0x4, align 0x4)
+		^MPropertyDescription "number of grants of action to give"
+	bool bStartNode(offset 0x1c, size 0x1, align 0x1)
+		^MPropertyDescription "can you unlock this node without owning any connected nodes?"
+	uint8_t[11] unaccounted(offset 0x1d)
+	Vector2D vecPos(offset 0x28, size 0x8, align 0x4)
+	float32 flSize(offset 0x30, size 0x4, align 0x4)
+		^MPropertyAttributeRange "0 10"
+	Color color(offset 0x34, size 0x4, align 0x1)
+		^MPropertyDescription "node color"
+

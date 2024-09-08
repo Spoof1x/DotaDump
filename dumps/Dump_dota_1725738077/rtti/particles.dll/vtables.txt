@@ -1,0 +1,1793 @@
+CBasePulseGraphInstance
+	particles.dll + 0x401970(hierarchy CBasePulseGraphInstance: IGapHost_Unknown)
+CBaseRendererSource2
+	particles.dll + 0x4aec70(hierarchy CBaseRendererSource2: CParticleFunctionRenderer, CParticleFunction)
+CBaseTrailRenderer
+	particles.dll + 0x4a9ec8(hierarchy CBaseTrailRenderer: CBaseRendererSource2, CParticleFunctionRenderer, CParticleFunction)
+CChildFunctionDefinition
+	particles.dll + 0x468cc0(hierarchy CChildFunctionDefinition: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CDefaultParticleSystemQuery
+	particles.dll + 0x468f20(hierarchy CDefaultParticleSystemQuery: IParticleSystemQuery, IParticleEHandleHelper)
+CEmptySequence
+	particles.dll + 0x3fdc30(hierarchy CEmptySequence: ISequence, IBaseSequence)
+CGenericExprPart
+	particles.dll + 0x459b00(hierarchy CGenericExprPart)
+CGenericExpr_Binary
+	particles.dll + 0x459b78(hierarchy CGenericExpr_Binary: CGenericExprPart)
+CGenericExpr_BoolLiteral
+	particles.dll + 0x459d10(hierarchy CGenericExpr_BoolLiteral: CGenericExprPart)
+CGenericExpr_FloatLiteral
+	particles.dll + 0x459ca0(hierarchy CGenericExpr_FloatLiteral: CGenericExprPart)
+CGenericExpr_FunctionCall
+	particles.dll + 0x459db8(hierarchy CGenericExpr_FunctionCall: CGenericExprPart)
+CGenericExpr_IntLiteral
+	particles.dll + 0x459cd8(hierarchy CGenericExpr_IntLiteral: CGenericExprPart)
+CGenericExpr_Property
+	particles.dll + 0x459d80(hierarchy CGenericExpr_Property: CGenericExprPart)
+CGenericExpr_StringLiteral
+	particles.dll + 0x459c68(hierarchy CGenericExpr_StringLiteral: CGenericExprPart)
+CGenericExpr_TernaryConditional
+	particles.dll + 0x459c28(hierarchy CGenericExpr_TernaryConditional: CGenericExprPart)
+CGenericExpr_Unary
+	particles.dll + 0x459b28(hierarchy CGenericExpr_Unary: CGenericExprPart)
+CGenericExpr_VariableReference
+	particles.dll + 0x459d48(hierarchy CGenericExpr_VariableReference: CGenericExprPart)
+CGpuImplicitRenderer
+	particles.dll + 0x468e80(hierarchy CGpuImplicitRenderer: IReadBufferCallback, IRenderReadCallback)
+CKV3ResourceBlockHelper
+	particles.dll + 0x4692b0(hierarchy CKV3ResourceBlockHelper: IAsyncProcessedDataResult)
+CKV3TransferContextBase
+	particles.dll + 0x40dba0(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferLoadContext
+	particles.dll + 0x40dc10(hierarchy CKV3TransferLoadContext: CKV3TransferContextBase, IErrorListener)
+CKV3TransferSaveContext
+	particles.dll + 0x40dbd8(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CKV3Transfer_EmptyResourceLoadInterface
+	particles.dll + 0x401a68(hierarchy CKV3Transfer_EmptyResourceLoadInterface: IKV3TransferInterface_ResourceLoad)
+CKV3Transfer_ResourceLoadInterface
+	particles.dll + 0x4691d8(hierarchy CKV3Transfer_ResourceLoadInterface: IKV3TransferInterface_ResourceLoad)
+CKV3Transfer_UtlSymbolLargeInterface<class CUtlSymbolTableLargeBase<0,2048,class CThreadNullMutex> >
+	particles.dll + 0x469278(hierarchy CKV3Transfer_UtlSymbolLargeInterface<class CUtlSymbolTableLargeBase<0,2048,class CThreadNullMutex> >: IKV3TransferInterface_UtlSymbolLarge)
+CKV3Transfer_UtlSymbolLargeInterface<class CUtlSymbolTableLargeBase<1,2048,class CThreadNullMutex> >
+	particles.dll + 0x401b78(hierarchy CKV3Transfer_UtlSymbolLargeInterface<class CUtlSymbolTableLargeBase<1,2048,class CThreadNullMutex> >: IKV3TransferInterface_UtlSymbolLarge)
+CParallelProcessLauncher::CParallelLambdaJob<class `public: void __cdecl CSOAContainer::FilterInX(int,class IntAABB_t,int,float const * __ptr64,bool) __ptr64'::`2'::<lambda_1> >
+	particles.dll + 0x40da78(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `public: void __cdecl CSOAContainer::FilterInX(int,class IntAABB_t,int,float const * __ptr64,bool) __ptr64'::`2'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `protected: void __cdecl CSweepBlockProcessor<1>::InitDependencyCounters(void) __ptr64'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `protected: void __cdecl CSweepBlockProcessor<1>::InitDependencyCounters(void) __ptr64'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	particles.dll + 0x3fd978(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `protected: void __cdecl CSweepBlockProcessor<1>::InitDependencyCounters(void) __ptr64'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `protected: void __cdecl CSweepBlockProcessor<1>::InitDependencyCounters(void) __ptr64'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	particles.dll + 0x3fd798(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_2> >(int,int,char const * __ptr64,class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_2> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	particles.dll + 0x3fd7b0(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_2> >(int,int,char const * __ptr64,class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_2> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: virtual void __cdecl C_OP_RenderModels::PostSimulate(class CParticleCollection * __ptr64,void * __ptr64,bool)const __ptr64'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `public: virtual void __cdecl C_OP_RenderModels::PostSimulate(class CParticleCollection * __ptr64,void * __ptr64,bool)const __ptr64'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	particles.dll + 0x4abd68(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: virtual void __cdecl C_OP_RenderModels::PostSimulate(class CParticleCollection * __ptr64,void * __ptr64,bool)const __ptr64'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `public: virtual void __cdecl C_OP_RenderModels::PostSimulate(class CParticleCollection * __ptr64,void * __ptr64,bool)const __ptr64'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: void __cdecl CSOAContainer::IterateRows<class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_5> >(class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_5>,bool) __ptr64'::`9'::<lambda_1> >(int,int,char const * __ptr64,class `public: void __cdecl CSOAContainer::IterateRows<class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_5> >(class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_5>,bool)
+	particles.dll + 0x3fd800(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: void __cdecl CSOAContainer::IterateRows<class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_5> >(class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_5>,bool) __ptr64'::`9'::<lambda_1> >(int,int,char const * __ptr64,class `public: void __cdecl CSOAContainer::IterateRows<class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_5> >(class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`2'::<lambda_5>,bool): IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: void __cdecl CSOAContainer::IterateRows<class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`9'::<lambda_4> >(class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`9'::<lambda_4>,bool) __ptr64'::`9'::<lambda_1> >(int,int,char const * __ptr64,class `public: void __cdecl CSOAContainer::IterateRows<class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`9'::<lambda_4> >(class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`9'::<lambda_4>,bool)
+	particles.dll + 0x3fd7e8(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: void __cdecl CSOAContainer::IterateRows<class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`9'::<lambda_4> >(class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`9'::<lambda_4>,bool) __ptr64'::`9'::<lambda_1> >(int,int,char const * __ptr64,class `public: void __cdecl CSOAContainer::IterateRows<class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`9'::<lambda_4> >(class `protected: void __cdecl CVoxelArray::GenerateDistanceFieldFromTrianglesWithVoting(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int) __ptr64'::`9'::<lambda_4>,bool): IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: void __cdecl CSOAContainer::IterateRows<class `public: void __cdecl CSOAContainer::RemoveInteriorISOSurfaceSamples(int,float,int) __ptr64'::`2'::<lambda_1> >(class `public: void __cdecl CSOAContainer::RemoveInteriorISOSurfaceSamples(int,float,int) __ptr64'::`2'::<lambda_1>,bool) __ptr64'::`9'::<lambda_1> >(int,int,char const * __ptr64,class `public: void __cdecl CSOAContainer::IterateRows<class `public: void __cdecl CSOAContainer::RemoveInteriorISOSurfaceSamples(int,float,int) __ptr64'::`2'::<lambda_1> >(class `public: void __cdecl CSOAContainer::RemoveInteriorISOSurfaceSamples(int,float,int) __ptr64'::`2'::<lambda_1>,bool) __ptr64'::`9'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	particles.dll + 0x40db38(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: void __cdecl CSOAContainer::IterateRows<class `public: void __cdecl CSOAContainer::RemoveInteriorISOSurfaceSamples(int,float,int) __ptr64'::`2'::<lambda_1> >(class `public: void __cdecl CSOAContainer::RemoveInteriorISOSurfaceSamples(int,float,int) __ptr64'::`2'::<lambda_1>,bool) __ptr64'::`9'::<lambda_1> >(int,int,char const * __ptr64,class `public: void __cdecl CSOAContainer::IterateRows<class `public: void __cdecl CSOAContainer::RemoveInteriorISOSurfaceSamples(int,float,int) __ptr64'::`2'::<lambda_1> >(class `public: void __cdecl CSOAContainer::RemoveInteriorISOSurfaceSamples(int,float,int) __ptr64'::`2'::<lambda_1>,bool) __ptr64'::`9'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: void __cdecl CSOAContainer::IterateRows<class `public: void __cdecl FloatBitMap_t::TransformRGB<class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`14'::<lambda_2> >(class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`14'::<lambda_2> && __ptr64) __ptr64'::`2'::<lambda_1> >(class `public: void __cdecl FloatBitMap_t::TransformRGB<class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`14'::<lambda_2> >(class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`14'::<lambda_2> && 
+	particles.dll + 0x3fd830(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: void __cdecl CSOAContainer::IterateRows<class `public: void __cdecl FloatBitMap_t::TransformRGB<class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`14'::<lambda_2> >(class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`14'::<lambda_2> && __ptr64) __ptr64'::`2'::<lambda_1> >(class `public: void __cdecl FloatBitMap_t::TransformRGB<class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`14'::<lambda_2> >(class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`14'::<lambda_2> && : IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: void __cdecl CSOAContainer::IterateRows<class `public: void __cdecl FloatBitMap_t::TransformRGB<class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`5'::<lambda_1> >(class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`5'::<lambda_1> && __ptr64) __ptr64'::`2'::<lambda_1> >(class `public: void __cdecl FloatBitMap_t::TransformRGB<class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`5'::<lambda_1> >(class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`5'::<lambda_1> && __pt
+	particles.dll + 0x3fd818(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: void __cdecl CSOAContainer::IterateRows<class `public: void __cdecl FloatBitMap_t::TransformRGB<class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`5'::<lambda_1> >(class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`5'::<lambda_1> && __ptr64) __ptr64'::`2'::<lambda_1> >(class `public: void __cdecl FloatBitMap_t::TransformRGB<class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`5'::<lambda_1> >(class `public: void __cdecl CVoxelArray::GenerateDistanceFieldFromTriangles(class Vec3D<float> const * __ptr64,int,int const * __ptr64,int,float,int,int) __ptr64'::`5'::<lambda_1> && __pt: IMultipleWorkerJob)
+CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: void __cdecl CSweepBlockProcessor<1>::Run(void) __ptr64'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `public: void __cdecl CSweepBlockProcessor<1>::Run(void) __ptr64'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >
+	particles.dll + 0x3fd960(hierarchy CParallelProcessLauncher::CParallelLambdaJob<class `void __cdecl ParallelFor<1,class `public: void __cdecl CSweepBlockProcessor<1>::Run(void) __ptr64'::`2'::<lambda_1> >(int,int,char const * __ptr64,class `public: void __cdecl CSweepBlockProcessor<1>::Run(void) __ptr64'::`2'::<lambda_1> && __ptr64,int,int,enum JobPriority_t)'::`12'::<lambda_1> >: IMultipleWorkerJob)
+CParticleCollection
+	particles.dll + 0x465ce8(hierarchy CParticleCollection: IParticleCollection)
+CParticleCollectionBindingInstance
+	particles.dll + 0x400b88(hierarchy CParticleCollectionBindingInstance: CBasePulseGraphInstance, IGapHost_Unknown)
+CParticleCollectionFloatInput
+	particles.dll + 0x3ff8b0(hierarchy CParticleCollectionFloatInput: CParticleFloatInput, CParticleInput)
+CParticleCollectionRendererFloatInput
+	particles.dll + 0x3ff8f0(hierarchy CParticleCollectionRendererFloatInput: CParticleCollectionFloatInput, CParticleFloatInput, CParticleInput)
+CParticleCollectionRendererVecInput
+	particles.dll + 0x400458(hierarchy CParticleCollectionRendererVecInput: CParticleCollectionVecInput, CParticleVecInput, CParticleInput)
+CParticleCollectionVecInput
+	particles.dll + 0x400418(hierarchy CParticleCollectionVecInput: CParticleVecInput, CParticleInput)
+CParticleFloatInput
+	particles.dll + 0x3fe1e0(hierarchy CParticleFloatInput: CParticleInput)
+CParticleFunction
+	particles.dll + 0x466250(hierarchy CParticleFunction)
+CParticleFunctionDefinitionTyped<class C_INIT_AgeNoise>
+	particles.dll + 0x482570(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_AgeNoise>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_ChaoticAttractor>
+	particles.dll + 0x482a60(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_ChaoticAttractor>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_ColorLitPerParticle>
+	particles.dll + 0x4832c8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_ColorLitPerParticle>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateAlongPath>
+	particles.dll + 0x483928(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateAlongPath>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateFromCPs>
+	particles.dll + 0x4801e8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateFromCPs>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateFromParentParticles>
+	particles.dll + 0x489388(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateFromParentParticles>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateFromPlaneCache>
+	particles.dll + 0x4847d0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateFromPlaneCache>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateInEpitrochoid>
+	particles.dll + 0x4820e0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateInEpitrochoid>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateOnGrid>
+	particles.dll + 0x485be0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateOnGrid>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateOnModel>
+	particles.dll + 0x4808d8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateOnModel>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateOnModelAtHeight>
+	particles.dll + 0x485980(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateOnModelAtHeight>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateParticleImpulse>
+	particles.dll + 0x4837c8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateParticleImpulse>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreatePhyllotaxis>
+	particles.dll + 0x4890c8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreatePhyllotaxis>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateSequentialPath>
+	particles.dll + 0x4836f8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateSequentialPath>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateSequentialPathV2>
+	particles.dll + 0x480c18(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateSequentialPathV2>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateSpiralSphere>
+	particles.dll + 0x484e50(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateSpiralSphere>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateWithinBox>
+	particles.dll + 0x4874f0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateWithinBox>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreateWithinSphereTransform>
+	particles.dll + 0x4887c0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreateWithinSphereTransform>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_CreationNoise>
+	particles.dll + 0x480858(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_CreationNoise>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_DistanceCull>
+	particles.dll + 0x47f1c8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_DistanceCull>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_DistanceToCPInit>
+	particles.dll + 0x4823c0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_DistanceToCPInit>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_DistanceToNeighborCull>
+	particles.dll + 0x4885d0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_DistanceToNeighborCull>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_GlobalScale>
+	particles.dll + 0x480918(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_GlobalScale>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InheritFromParentParticles>
+	particles.dll + 0x484c80(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InheritFromParentParticles>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InheritVelocity>
+	particles.dll + 0x4895d0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InheritVelocity>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InitFloat>
+	particles.dll + 0x47f748(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InitFloat>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InitFloatCollection>
+	particles.dll + 0x489968(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InitFloatCollection>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InitFromCPSnapshot>
+	particles.dll + 0x4822c0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InitFromCPSnapshot>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InitFromParentKilled>
+	particles.dll + 0x4829d0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InitFromParentKilled>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InitFromVectorFieldSnapshot>
+	particles.dll + 0x4803a8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InitFromVectorFieldSnapshot>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InitSkinnedPositionFromCPSnapshot>
+	particles.dll + 0x485c70(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InitSkinnedPositionFromCPSnapshot>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InitVec>
+	particles.dll + 0x483958(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InitVec>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InitVecCollection>
+	particles.dll + 0x4840a0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InitVecCollection>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InitialRepulsionVelocity>
+	particles.dll + 0x47e3f8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InitialRepulsionVelocity>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InitialSequenceFromModel>
+	particles.dll + 0x480258(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InitialSequenceFromModel>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InitialVelocityFromHitbox>
+	particles.dll + 0x4837a8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InitialVelocityFromHitbox>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_InitialVelocityNoise>
+	particles.dll + 0x485da0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_InitialVelocityNoise>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_LifespanFromVelocity>
+	particles.dll + 0x486440(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_LifespanFromVelocity>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_ModelCull>
+	particles.dll + 0x47ed18(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_ModelCull>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_MoveBetweenPoints>
+	particles.dll + 0x4847b0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_MoveBetweenPoints>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_NormalAlignToCP>
+	particles.dll + 0x484008(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_NormalAlignToCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_NormalOffset>
+	particles.dll + 0x483428(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_NormalOffset>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_Orient2DRelToCP>
+	particles.dll + 0x47e988(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_Orient2DRelToCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_PlaneCull>
+	particles.dll + 0x47f6e8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_PlaneCull>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_PointList>
+	particles.dll + 0x485c40(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_PointList>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_PositionOffset>
+	particles.dll + 0x484bd0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_PositionOffset>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_PositionOffsetToCP>
+	particles.dll + 0x47e538(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_PositionOffsetToCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_PositionPlaceOnGround>
+	particles.dll + 0x47eb78(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_PositionPlaceOnGround>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_PositionWarp>
+	particles.dll + 0x482550(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_PositionWarp>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_PositionWarpScalar>
+	particles.dll + 0x486d60(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_PositionWarpScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_QuantizeFloat>
+	particles.dll + 0x4807d8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_QuantizeFloat>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RadiusFromCPObject>
+	particles.dll + 0x486310(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RadiusFromCPObject>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RandomColor>
+	particles.dll + 0x487020(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RandomColor>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RandomModelSequence>
+	particles.dll + 0x483a28(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RandomModelSequence>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RandomNamedModelBodyPart>
+	particles.dll + 0x484170(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RandomNamedModelBodyPart>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RandomNamedModelMeshGroup>
+	particles.dll + 0x486958(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RandomNamedModelMeshGroup>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RandomNamedModelSequence>
+	particles.dll + 0x481b00(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RandomNamedModelSequence>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RandomSecondSequence>
+	particles.dll + 0x488620(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RandomSecondSequence>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RandomSequence>
+	particles.dll + 0x486250(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RandomSequence>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RandomVectorComponent>
+	particles.dll + 0x4836d8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RandomVectorComponent>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RandomYawFlip>
+	particles.dll + 0x480208(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RandomYawFlip>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapInitialDirectionToTransformToVector>
+	particles.dll + 0x485360(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapInitialDirectionToTransformToVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapInitialTransformDirectionToRotation>
+	particles.dll + 0x47e9f8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapInitialTransformDirectionToRotation>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapInitialVisibilityScalar>
+	particles.dll + 0x485e50(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapInitialVisibilityScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapNamedModelBodyPartToScalar>
+	particles.dll + 0x488e18(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapNamedModelBodyPartToScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapNamedModelMeshGroupToScalar>
+	particles.dll + 0x480008(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapNamedModelMeshGroupToScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapNamedModelSequenceToScalar>
+	particles.dll + 0x4897b8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapNamedModelSequenceToScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapParticleCountToNamedModelBodyPartScalar>
+	particles.dll + 0x482340(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapParticleCountToNamedModelBodyPartScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapParticleCountToNamedModelMeshGroupScalar>
+	particles.dll + 0x47efd8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapParticleCountToNamedModelMeshGroupScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapParticleCountToNamedModelSequenceScalar>
+	particles.dll + 0x4862f0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapParticleCountToNamedModelSequenceScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapParticleCountToScalar>
+	particles.dll + 0x486aa0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapParticleCountToScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapQAnglesToRotation>
+	particles.dll + 0x47fe78(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapQAnglesToRotation>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapScalarToVector>
+	particles.dll + 0x487e50(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapScalarToVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapTransformOrientationToRotations>
+	particles.dll + 0x4855d8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapTransformOrientationToRotations>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RemapTransformToVector>
+	particles.dll + 0x485950(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RemapTransformToVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RingWave>
+	particles.dll + 0x4808f8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RingWave>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_RtEnvCull>
+	particles.dll + 0x4887a0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_RtEnvCull>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_ScaleVelocity>
+	particles.dll + 0x483e38(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_ScaleVelocity>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_SequenceFromCP>
+	particles.dll + 0x482420(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_SequenceFromCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_SequenceLifeTime>
+	particles.dll + 0x482770(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_SequenceLifeTime>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_SetAttributeToScalarExpression>
+	particles.dll + 0x483688(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_SetAttributeToScalarExpression>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_SetHitboxToClosest>
+	particles.dll + 0x483048(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_SetHitboxToClosest>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_SetHitboxToModel>
+	particles.dll + 0x486480(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_SetHitboxToModel>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_SetRigidAttachment>
+	particles.dll + 0x482af0(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_SetRigidAttachment>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_SetVectorAttributeToVectorExpression>
+	particles.dll + 0x483ab8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_SetVectorAttributeToVectorExpression>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_StatusEffect>
+	particles.dll + 0x4890a8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_StatusEffect>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_StatusEffectCitadel>
+	particles.dll + 0x484c10(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_StatusEffectCitadel>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_VelocityFromCP>
+	particles.dll + 0x47f788(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_VelocityFromCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_VelocityFromNormal>
+	particles.dll + 0x47ed98(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_VelocityFromNormal>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_VelocityRadialRandom>
+	particles.dll + 0x480c48(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_VelocityRadialRandom>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_INIT_VelocityRandom>
+	particles.dll + 0x4804f8(hierarchy CParticleFunctionDefinitionTyped<class C_INIT_VelocityRandom>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_AlphaDecay>
+	particles.dll + 0x48edf8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_AlphaDecay>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_AttractToControlPoint>
+	particles.dll + 0x4784e0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_AttractToControlPoint>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_BasicMovement>
+	particles.dll + 0x48c6a0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_BasicMovement>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_BoxConstraint>
+	particles.dll + 0x474640(hierarchy CParticleFunctionDefinitionTyped<class C_OP_BoxConstraint>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_CPOffsetToPercentageBetweenCPs>
+	particles.dll + 0x494128(hierarchy CParticleFunctionDefinitionTyped<class C_OP_CPOffsetToPercentageBetweenCPs>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_CPVelocityForce>
+	particles.dll + 0x478520(hierarchy CParticleFunctionDefinitionTyped<class C_OP_CPVelocityForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_CalculateVectorAttribute>
+	particles.dll + 0x49f770(hierarchy CParticleFunctionDefinitionTyped<class C_OP_CalculateVectorAttribute>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_Callback>
+	particles.dll + 0x4ace38(hierarchy CParticleFunctionDefinitionTyped<class C_OP_Callback>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ChladniWave>
+	particles.dll + 0x4915b0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ChladniWave>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ChooseRandomChildrenInGroup>
+	particles.dll + 0x4a87d8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ChooseRandomChildrenInGroup>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ClampScalar>
+	particles.dll + 0x48e560(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ClampScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ClampVector>
+	particles.dll + 0x4953a0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ClampVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ClientPhysics>
+	particles.dll + 0x4a9cc8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ClientPhysics>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_CollideWithParentParticles>
+	particles.dll + 0x474548(hierarchy CParticleFunctionDefinitionTyped<class C_OP_CollideWithParentParticles>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_CollideWithSelf>
+	particles.dll + 0x474b90(hierarchy CParticleFunctionDefinitionTyped<class C_OP_CollideWithSelf>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ColorAdjustHSL>
+	particles.dll + 0x49f130(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ColorAdjustHSL>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ColorInterpolate>
+	particles.dll + 0x491e78(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ColorInterpolate>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ColorInterpolateRandom>
+	particles.dll + 0x4908d8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ColorInterpolateRandom>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ConnectParentParticleToNearest>
+	particles.dll + 0x49f1d0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ConnectParentParticleToNearest>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ConstrainDistance>
+	particles.dll + 0x473b78(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ConstrainDistance>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ConstrainDistanceToPath>
+	particles.dll + 0x474d00(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ConstrainDistanceToPath>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ConstrainDistanceToUserSpecifiedPath>
+	particles.dll + 0x4738f8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ConstrainDistanceToUserSpecifiedPath>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ConstrainLineLength>
+	particles.dll + 0x473b48(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ConstrainLineLength>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ContinuousEmitter>
+	particles.dll + 0x4754e0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ContinuousEmitter>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ControlPointToRadialScreenSpace>
+	particles.dll + 0x4a45f8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ControlPointToRadialScreenSpace>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ControlpointLight>
+	particles.dll + 0x493e00(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ControlpointLight>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_Cull>
+	particles.dll + 0x489db8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_Cull>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_CurlNoiseForce>
+	particles.dll + 0x476f88(hierarchy CParticleFunctionDefinitionTyped<class C_OP_CurlNoiseForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_CycleScalar>
+	particles.dll + 0x49f180(hierarchy CParticleFunctionDefinitionTyped<class C_OP_CycleScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_CylindricalDistanceToTransform>
+	particles.dll + 0x48d7f0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_CylindricalDistanceToTransform>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DampenToCP>
+	particles.dll + 0x492ec8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DampenToCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_Decay>
+	particles.dll + 0x4901f8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_Decay>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DecayClampCount>
+	particles.dll + 0x498ee8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DecayClampCount>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DecayMaintainCount>
+	particles.dll + 0x4926e8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DecayMaintainCount>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DecayOffscreen>
+	particles.dll + 0x48a6b0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DecayOffscreen>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DensityForce>
+	particles.dll + 0x477ea0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DensityForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DifferencePreviousParticle>
+	particles.dll + 0x48d180(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DifferencePreviousParticle>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_Diffusion>
+	particles.dll + 0x498388(hierarchy CParticleFunctionDefinitionTyped<class C_OP_Diffusion>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DirectionBetweenVecsToVec>
+	particles.dll + 0x48c330(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DirectionBetweenVecsToVec>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DistanceBetweenCPsToCP>
+	particles.dll + 0x4a3f70(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DistanceBetweenCPsToCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DistanceBetweenTransforms>
+	particles.dll + 0x48fd90(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DistanceBetweenTransforms>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DistanceBetweenVecs>
+	particles.dll + 0x48f010(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DistanceBetweenVecs>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DistanceCull>
+	particles.dll + 0x490fa8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DistanceCull>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DistanceToTransform>
+	particles.dll + 0x4958b8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DistanceToTransform>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DragRelativeToPlane>
+	particles.dll + 0x496db8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DragRelativeToPlane>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_DriveCPFromGlobalSoundFloat>
+	particles.dll + 0x4a4668(hierarchy CParticleFunctionDefinitionTyped<class C_OP_DriveCPFromGlobalSoundFloat>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_EnableChildrenFromParentParticleCount>
+	particles.dll + 0x4a4dc8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_EnableChildrenFromParentParticleCount>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_EndCapDecay>
+	particles.dll + 0x496ff0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_EndCapDecay>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_EndCapTimedDecay>
+	particles.dll + 0x498d90(hierarchy CParticleFunctionDefinitionTyped<class C_OP_EndCapTimedDecay>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_EndCapTimedFreeze>
+	particles.dll + 0x48c710(hierarchy CParticleFunctionDefinitionTyped<class C_OP_EndCapTimedFreeze>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ExternalGameImpulseForce>
+	particles.dll + 0x4781a0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ExternalGameImpulseForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ExternalWindForce>
+	particles.dll + 0x4770b8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ExternalWindForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_FadeAndKill>
+	particles.dll + 0x48aa98(hierarchy CParticleFunctionDefinitionTyped<class C_OP_FadeAndKill>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_FadeAndKillForTracers>
+	particles.dll + 0x497358(hierarchy CParticleFunctionDefinitionTyped<class C_OP_FadeAndKillForTracers>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_FadeIn>
+	particles.dll + 0x494748(hierarchy CParticleFunctionDefinitionTyped<class C_OP_FadeIn>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_FadeInSimple>
+	particles.dll + 0x497de8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_FadeInSimple>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_FadeOut>
+	particles.dll + 0x4955c8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_FadeOut>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_FadeOutSimple>
+	particles.dll + 0x497d08(hierarchy CParticleFunctionDefinitionTyped<class C_OP_FadeOutSimple>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ForceBasedOnDistanceToPlane>
+	particles.dll + 0x478680(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ForceBasedOnDistanceToPlane>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ForceControlPointStub>
+	particles.dll + 0x4a4e08(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ForceControlPointStub>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_HSVShiftToCP>
+	particles.dll + 0x4a3dc8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_HSVShiftToCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_InheritFromParentParticles>
+	particles.dll + 0x495ab0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_InheritFromParentParticles>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_InheritFromParentParticlesV2>
+	particles.dll + 0x4920c8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_InheritFromParentParticlesV2>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_InheritFromPeerSystem>
+	particles.dll + 0x48b508(hierarchy CParticleFunctionDefinitionTyped<class C_OP_InheritFromPeerSystem>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_InstantaneousEmitter>
+	particles.dll + 0x475010(hierarchy CParticleFunctionDefinitionTyped<class C_OP_InstantaneousEmitter>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_InterpolateRadius>
+	particles.dll + 0x489fa0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_InterpolateRadius>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_IntraParticleForce>
+	particles.dll + 0x4777a8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_IntraParticleForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LagCompensation>
+	particles.dll + 0x48f2a0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LagCompensation>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LerpEndCapScalar>
+	particles.dll + 0x491c08(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LerpEndCapScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LerpEndCapVector>
+	particles.dll + 0x48b0b0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LerpEndCapVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LerpScalar>
+	particles.dll + 0x48fbe8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LerpScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LerpToInitialPosition>
+	particles.dll + 0x48a000(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LerpToInitialPosition>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LerpToOtherAttribute>
+	particles.dll + 0x48bb08(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LerpToOtherAttribute>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LerpVector>
+	particles.dll + 0x48dc98(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LerpVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LightningSnapshotGenerator>
+	particles.dll + 0x4a68b8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LightningSnapshotGenerator>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LocalAccelerationForce>
+	particles.dll + 0x477628(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LocalAccelerationForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LockPoints>
+	particles.dll + 0x49f720(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LockPoints>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LockToBone>
+	particles.dll + 0x490c88(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LockToBone>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LockToPointList>
+	particles.dll + 0x48b020(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LockToPointList>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LockToSavedSequentialPath>
+	particles.dll + 0x494078(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LockToSavedSequentialPath>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_LockToSavedSequentialPathV2>
+	particles.dll + 0x498240(hierarchy CParticleFunctionDefinitionTyped<class C_OP_LockToSavedSequentialPathV2>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_MaintainEmitter>
+	particles.dll + 0x4756a8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_MaintainEmitter>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_MaintainSequentialPath>
+	particles.dll + 0x4947c8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_MaintainSequentialPath>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_MaxVelocity>
+	particles.dll + 0x4917b8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_MaxVelocity>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ModelCull>
+	particles.dll + 0x491478(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ModelCull>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ModelDampenMovement>
+	particles.dll + 0x4947e8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ModelDampenMovement>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_MoveToHitbox>
+	particles.dll + 0x489fc0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_MoveToHitbox>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_MovementLoopInsideSphere>
+	particles.dll + 0x48a1f8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_MovementLoopInsideSphere>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_MovementMaintainOffset>
+	particles.dll + 0x48e1a8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_MovementMaintainOffset>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_MovementMoveAlongSkinnedCPSnapshot>
+	particles.dll + 0x4941a8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_MovementMoveAlongSkinnedCPSnapshot>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_MovementPlaceOnGround>
+	particles.dll + 0x48ff38(hierarchy CParticleFunctionDefinitionTyped<class C_OP_MovementPlaceOnGround>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_MovementRigidAttachToCP>
+	particles.dll + 0x48cdc8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_MovementRigidAttachToCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_MovementRotateParticleAroundAxis>
+	particles.dll + 0x48c538(hierarchy CParticleFunctionDefinitionTyped<class C_OP_MovementRotateParticleAroundAxis>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_MovementSkinnedPositionFromCPSnapshot>
+	particles.dll + 0x48a520(hierarchy CParticleFunctionDefinitionTyped<class C_OP_MovementSkinnedPositionFromCPSnapshot>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_Noise>
+	particles.dll + 0x498f38(hierarchy CParticleFunctionDefinitionTyped<class C_OP_Noise>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_NoiseEmitter>
+	particles.dll + 0x4754c0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_NoiseEmitter>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_NormalLock>
+	particles.dll + 0x495b80(hierarchy CParticleFunctionDefinitionTyped<class C_OP_NormalLock>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_NormalizeVector>
+	particles.dll + 0x490090(hierarchy CParticleFunctionDefinitionTyped<class C_OP_NormalizeVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_Orient2DRelToCP>
+	particles.dll + 0x4970d0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_Orient2DRelToCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_OrientTo2dDirection>
+	particles.dll + 0x4963b8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_OrientTo2dDirection>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_OscillateScalar>
+	particles.dll + 0x48d830(hierarchy CParticleFunctionDefinitionTyped<class C_OP_OscillateScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_OscillateScalarSimple>
+	particles.dll + 0x48aa78(hierarchy CParticleFunctionDefinitionTyped<class C_OP_OscillateScalarSimple>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_OscillateVector>
+	particles.dll + 0x493448(hierarchy CParticleFunctionDefinitionTyped<class C_OP_OscillateVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_OscillateVectorSimple>
+	particles.dll + 0x491db8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_OscillateVectorSimple>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ParentVortices>
+	particles.dll + 0x477c08(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ParentVortices>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_PerParticleForce>
+	particles.dll + 0x478140(hierarchy CParticleFunctionDefinitionTyped<class C_OP_PerParticleForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_PercentageBetweenTransformLerpCPs>
+	particles.dll + 0x491e48(hierarchy CParticleFunctionDefinitionTyped<class C_OP_PercentageBetweenTransformLerpCPs>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_PercentageBetweenTransforms>
+	particles.dll + 0x48efe0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_PercentageBetweenTransforms>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_PercentageBetweenTransformsVector>
+	particles.dll + 0x498220(hierarchy CParticleFunctionDefinitionTyped<class C_OP_PercentageBetweenTransformsVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_PinParticleToCP>
+	particles.dll + 0x495370(hierarchy CParticleFunctionDefinitionTyped<class C_OP_PinParticleToCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_PlanarConstraint>
+	particles.dll + 0x4740a8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_PlanarConstraint>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_PlaneCull>
+	particles.dll + 0x496e28(hierarchy CParticleFunctionDefinitionTyped<class C_OP_PlaneCull>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_PlayEndCapWhenFinished>
+	particles.dll + 0x4a7ba0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_PlayEndCapWhenFinished>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_PointVectorAtNextParticle>
+	particles.dll + 0x496bb0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_PointVectorAtNextParticle>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_PositionLock>
+	particles.dll + 0x499338(hierarchy CParticleFunctionDefinitionTyped<class C_OP_PositionLock>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_QuantizeCPComponent>
+	particles.dll + 0x4a5638(hierarchy CParticleFunctionDefinitionTyped<class C_OP_QuantizeCPComponent>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_QuantizeFloat>
+	particles.dll + 0x48acf0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_QuantizeFloat>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RadiusDecay>
+	particles.dll + 0x496660(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RadiusDecay>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RampCPLinearRandom>
+	particles.dll + 0x4a40d8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RampCPLinearRandom>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RampScalarLinear>
+	particles.dll + 0x4921a8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RampScalarLinear>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RampScalarLinearSimple>
+	particles.dll + 0x4983f8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RampScalarLinearSimple>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RampScalarSpline>
+	particles.dll + 0x495228(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RampScalarSpline>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RampScalarSplineSimple>
+	particles.dll + 0x494928(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RampScalarSplineSimple>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RandomForce>
+	particles.dll + 0x477358(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RandomForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ReadFromNeighboringParticle>
+	particles.dll + 0x4908b8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ReadFromNeighboringParticle>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ReinitializeScalarEndCap>
+	particles.dll + 0x491a18(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ReinitializeScalarEndCap>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapAverageHitboxSpeedtoCP>
+	particles.dll + 0x4a7e28(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapAverageHitboxSpeedtoCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapAverageScalarValuetoCP>
+	particles.dll + 0x4a5c50(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapAverageScalarValuetoCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapBoundingVolumetoCP>
+	particles.dll + 0x4a4f60(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapBoundingVolumetoCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapCPVelocityToVector>
+	particles.dll + 0x4989b8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapCPVelocityToVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapCPtoCP>
+	particles.dll + 0x4a5990(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapCPtoCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapCPtoScalar>
+	particles.dll + 0x48ae68(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapCPtoScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapCPtoVector>
+	particles.dll + 0x48e308(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapCPtoVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapControlPointDirectionToVector>
+	particles.dll + 0x48acb0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapControlPointDirectionToVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapControlPointOrientationToRotation>
+	particles.dll + 0x4953d0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapControlPointOrientationToRotation>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapCrossProductOfTwoVectorsToVector>
+	particles.dll + 0x495da8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapCrossProductOfTwoVectorsToVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapDensityGradientToVectorAttribute>
+	particles.dll + 0x49f650(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapDensityGradientToVectorAttribute>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapDensityToVector>
+	particles.dll + 0x48d6f0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapDensityToVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapDirectionToCPToVector>
+	particles.dll + 0x499048(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapDirectionToCPToVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapDistanceToLineSegmentToScalar>
+	particles.dll + 0x49f370(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapDistanceToLineSegmentToScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapDistanceToLineSegmentToVector>
+	particles.dll + 0x49f3f0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapDistanceToLineSegmentToVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapDotProductToCP>
+	particles.dll + 0x4a64a8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapDotProductToCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapDotProductToScalar>
+	particles.dll + 0x48a650(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapDotProductToScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapExternalWindToCP>
+	particles.dll + 0x4a6da0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapExternalWindToCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapGravityToVector>
+	particles.dll + 0x496718(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapGravityToVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapModelVolumetoCP>
+	particles.dll + 0x4a5910(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapModelVolumetoCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapNamedModelBodyPartEndCap>
+	particles.dll + 0x497f50(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapNamedModelBodyPartEndCap>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapNamedModelBodyPartOnceTimed>
+	particles.dll + 0x489fe0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapNamedModelBodyPartOnceTimed>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapNamedModelMeshGroupEndCap>
+	particles.dll + 0x491768(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapNamedModelMeshGroupEndCap>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapNamedModelMeshGroupOnceTimed>
+	particles.dll + 0x48cc38(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapNamedModelMeshGroupOnceTimed>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapNamedModelSequenceEndCap>
+	particles.dll + 0x48dd18(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapNamedModelSequenceEndCap>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapNamedModelSequenceOnceTimed>
+	particles.dll + 0x492718(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapNamedModelSequenceOnceTimed>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapParticleCountOnScalarEndCap>
+	particles.dll + 0x48f9c0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapParticleCountOnScalarEndCap>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapParticleCountToScalar>
+	particles.dll + 0x496528(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapParticleCountToScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapScalar>
+	particles.dll + 0x4990c8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapScalarEndCap>
+	particles.dll + 0x497778(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapScalarEndCap>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapScalarOnceTimed>
+	particles.dll + 0x493728(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapScalarOnceTimed>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapSpeed>
+	particles.dll + 0x48d720(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapSpeed>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapSpeedtoCP>
+	particles.dll + 0x4a6428(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapSpeedtoCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapTransformOrientationToRotations>
+	particles.dll + 0x490898(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapTransformOrientationToRotations>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapTransformOrientationToYaw>
+	particles.dll + 0x494908(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapTransformOrientationToYaw>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapTransformToVelocity>
+	particles.dll + 0x489c40(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapTransformToVelocity>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapTransformVisibilityToScalar>
+	particles.dll + 0x48df70(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapTransformVisibilityToScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapTransformVisibilityToVector>
+	particles.dll + 0x497990(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapTransformVisibilityToVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapVectorComponentToScalar>
+	particles.dll + 0x497510(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapVectorComponentToScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapVectortoCP>
+	particles.dll + 0x497190(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapVectortoCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapVelocityToVector>
+	particles.dll + 0x497748(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapVelocityToVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RemapVisibilityScalar>
+	particles.dll + 0x494838(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RemapVisibilityScalar>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderBlobs>
+	particles.dll + 0x4af998(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderBlobs>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderCables>
+	particles.dll + 0x4ace18(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderCables>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderClientPhysicsImpulse>
+	particles.dll + 0x4adf48(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderClientPhysicsImpulse>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderClothForce>
+	particles.dll + 0x4ac100(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderClothForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderDeferredLight>
+	particles.dll + 0x4aa290(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderDeferredLight>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderFlattenGrass>
+	particles.dll + 0x4ad028(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderFlattenGrass>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderGpuImplicit>
+	particles.dll + 0x4ae048(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderGpuImplicit>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderLightBeam>
+	particles.dll + 0x4ac9a8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderLightBeam>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderLights>
+	particles.dll + 0x4af218(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderLights>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderMaterialProxy>
+	particles.dll + 0x4af028(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderMaterialProxy>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderModels>
+	particles.dll + 0x4af6b8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderModels>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderOmni2Light>
+	particles.dll + 0x4adee8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderOmni2Light>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderPostProcessing>
+	particles.dll + 0x4aec50(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderPostProcessing>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderProjected>
+	particles.dll + 0x4af0e8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderProjected>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderRopes>
+	particles.dll + 0x4ac150(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderRopes>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderScreenShake>
+	particles.dll + 0x4ae5b8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderScreenShake>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderScreenVelocityRotate>
+	particles.dll + 0x4ae880(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderScreenVelocityRotate>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderSimpleModelCollection>
+	particles.dll + 0x4ab8c8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderSimpleModelCollection>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderSound>
+	particles.dll + 0x4abd18(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderSound>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderSprites>
+	particles.dll + 0x4af5b8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderSprites>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderStandardLight>
+	particles.dll + 0x4acfc8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderStandardLight>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderStatusEffect>
+	particles.dll + 0x4ab260(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderStatusEffect>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderStatusEffectCitadel>
+	particles.dll + 0x4af348(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderStatusEffectCitadel>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderText>
+	particles.dll + 0x4afb28(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderText>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderTonemapController>
+	particles.dll + 0x4ad870(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderTonemapController>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderTrails>
+	particles.dll + 0x4ad970(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderTrails>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderTreeShake>
+	particles.dll + 0x4ade98(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderTreeShake>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RenderVRHapticEvent>
+	particles.dll + 0x4afac8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RenderVRHapticEvent>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RepeatedTriggerChildGroup>
+	particles.dll + 0x4a6a80(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RepeatedTriggerChildGroup>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RestartAfterDuration>
+	particles.dll + 0x4933c8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RestartAfterDuration>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RopeSpringConstraint>
+	particles.dll + 0x4745f0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RopeSpringConstraint>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RotateVector>
+	particles.dll + 0x497838(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RotateVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_RtEnvCull>
+	particles.dll + 0x48deb0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_RtEnvCull>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SelectivelyEnableChildren>
+	particles.dll + 0x4a4bf0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SelectivelyEnableChildren>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SequenceFromModel>
+	particles.dll + 0x496478(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SequenceFromModel>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetAttributeToScalarExpression>
+	particles.dll + 0x48aad8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetAttributeToScalarExpression>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetCPOrientationToDirection>
+	particles.dll + 0x48d760(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetCPOrientationToDirection>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetCPOrientationToGroundNormal>
+	particles.dll + 0x48ea28(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetCPOrientationToGroundNormal>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetCPOrientationToPointAtCP>
+	particles.dll + 0x4a6d60(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetCPOrientationToPointAtCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetCPtoVector>
+	particles.dll + 0x490690(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetCPtoVector>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetChildControlPoints>
+	particles.dll + 0x497560(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetChildControlPoints>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointFieldFromVectorExpression>
+	particles.dll + 0x4a7268(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointFieldFromVectorExpression>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointFieldToScalarExpression>
+	particles.dll + 0x4a41e8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointFieldToScalarExpression>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointFieldToWater>
+	particles.dll + 0x4a45d8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointFieldToWater>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointFromObjectScale>
+	particles.dll + 0x4a6050(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointFromObjectScale>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointOrientation>
+	particles.dll + 0x4a6a30(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointOrientation>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointOrientationToCPVelocity>
+	particles.dll + 0x4a6d30(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointOrientationToCPVelocity>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointPositionToRandomActiveCP>
+	particles.dll + 0x4a6d10(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointPositionToRandomActiveCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointPositionToTimeOfDayValue>
+	particles.dll + 0x4a4da8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointPositionToTimeOfDayValue>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointPositions>
+	particles.dll + 0x4a8c50(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointPositions>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointRotation>
+	particles.dll + 0x4a8838(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointRotation>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToCPVelocity>
+	particles.dll + 0x4a7298(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToCPVelocity>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToCenter>
+	particles.dll + 0x4a5eb8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToCenter>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToHMD>
+	particles.dll + 0x4a61c8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToHMD>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToHand>
+	particles.dll + 0x4a8c20(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToHand>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToImpactPoint>
+	particles.dll + 0x4a5ce0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToImpactPoint>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToPlayer>
+	particles.dll + 0x4a6378(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToPlayer>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToVectorExpression>
+	particles.dll + 0x4a4d88(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToVectorExpression>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToWaterSurface>
+	particles.dll + 0x4a49a8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointToWaterSurface>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointsToModelParticles>
+	particles.dll + 0x497328(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointsToModelParticles>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetControlPointsToParticle>
+	particles.dll + 0x493b70(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetControlPointsToParticle>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetFloat>
+	particles.dll + 0x495b50(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetFloat>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetFloatAttributeToVectorExpression>
+	particles.dll + 0x495410(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetFloatAttributeToVectorExpression>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetFloatCollection>
+	particles.dll + 0x48ea78(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetFloatCollection>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetFromCPSnapshot>
+	particles.dll + 0x4974e0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetFromCPSnapshot>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetGravityToCP>
+	particles.dll + 0x4a7bf0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetGravityToCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetParentControlPointsToChildCP>
+	particles.dll + 0x4a49c8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetParentControlPointsToChildCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetPerChildControlPoint>
+	particles.dll + 0x48e510(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetPerChildControlPoint>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetPerChildControlPointFromAttribute>
+	particles.dll + 0x48c6e0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetPerChildControlPointFromAttribute>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetRandomControlPointPosition>
+	particles.dll + 0x4a80c8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetRandomControlPointPosition>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetSimulationRate>
+	particles.dll + 0x4a6640(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetSimulationRate>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetSingleControlPointPosition>
+	particles.dll + 0x4a6700(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetSingleControlPointPosition>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetToCP>
+	particles.dll + 0x48c4d8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetToCP>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetUserEvent>
+	particles.dll + 0x48bc70(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetUserEvent>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetVariable>
+	particles.dll + 0x4a63a8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetVariable>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetVec>
+	particles.dll + 0x497cb8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetVec>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SetVectorAttributeToVectorExpression>
+	particles.dll + 0x48ac90(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SetVectorAttributeToVectorExpression>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_ShapeMatchingConstraint>
+	particles.dll + 0x474810(hierarchy CParticleFunctionDefinitionTyped<class C_OP_ShapeMatchingConstraint>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SnapshotRigidSkinToBones>
+	particles.dll + 0x498f78(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SnapshotRigidSkinToBones>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SnapshotSkinToBones>
+	particles.dll + 0x495b30(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SnapshotSkinToBones>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_Spin>
+	particles.dll + 0x48a700(hierarchy CParticleFunctionDefinitionTyped<class C_OP_Spin>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SpinUpdate>
+	particles.dll + 0x48dcd8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SpinUpdate>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SpinYaw>
+	particles.dll + 0x48d6d0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SpinYaw>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_SpringToVectorConstraint>
+	particles.dll + 0x474238(hierarchy CParticleFunctionDefinitionTyped<class C_OP_SpringToVectorConstraint>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_StopAfterCPDuration>
+	particles.dll + 0x4a6600(hierarchy CParticleFunctionDefinitionTyped<class C_OP_StopAfterCPDuration>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_TeleportBeam>
+	particles.dll + 0x49f700(hierarchy CParticleFunctionDefinitionTyped<class C_OP_TeleportBeam>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_TimeVaryingForce>
+	particles.dll + 0x4788e0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_TimeVaryingForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_TurbulenceForce>
+	particles.dll + 0x478840(hierarchy CParticleFunctionDefinitionTyped<class C_OP_TurbulenceForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_TwistAroundAxis>
+	particles.dll + 0x477398(hierarchy CParticleFunctionDefinitionTyped<class C_OP_TwistAroundAxis>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_UpdateLightSource>
+	particles.dll + 0x4a09b0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_UpdateLightSource>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_VectorFieldSnapshot>
+	particles.dll + 0x48a338(hierarchy CParticleFunctionDefinitionTyped<class C_OP_VectorFieldSnapshot>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_VectorNoise>
+	particles.dll + 0x491240(hierarchy CParticleFunctionDefinitionTyped<class C_OP_VectorNoise>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_VelocityDecay>
+	particles.dll + 0x494a80(hierarchy CParticleFunctionDefinitionTyped<class C_OP_VelocityDecay>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_VelocityMatchingForce>
+	particles.dll + 0x494778(hierarchy CParticleFunctionDefinitionTyped<class C_OP_VelocityMatchingForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_WindForce>
+	particles.dll + 0x4786c0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_WindForce>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_WorldCollideConstraint>
+	particles.dll + 0x4747b0(hierarchy CParticleFunctionDefinitionTyped<class C_OP_WorldCollideConstraint>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionDefinitionTyped<class C_OP_WorldTraceConstraint>
+	particles.dll + 0x4744d8(hierarchy CParticleFunctionDefinitionTyped<class C_OP_WorldTraceConstraint>: CParticleFunctionDefinition, IParticleFunctionDefinition)
+CParticleFunctionForce
+	particles.dll + 0x476fa8(hierarchy CParticleFunctionForce: CParticleFunction)
+CParticleInput
+	particles.dll + 0x3fe1a0(hierarchy CParticleInput)
+CParticleModelInput
+	particles.dll + 0x3ff970(hierarchy CParticleModelInput: CParticleInput)
+CParticleObjectDesc
+	particles.dll + 0x464968(hierarchy CParticleObjectDesc: ISceneObjectDescBase<class CSceneParticleObject>, ISceneObjectDesc)
+CParticleRemapFloatInput
+	particles.dll + 0x3ff930(hierarchy CParticleRemapFloatInput: CParticleFloatInput, CParticleInput)
+CParticleSnapshot
+	particles.dll + 0x464b58(hierarchy CParticleSnapshot: IParticleSnapshot)
+CParticleSnapshotTypeManager
+	particles.dll + 0x464a58(hierarchy CParticleSnapshotTypeManager: IResourceTypeManager)
+CParticleSystemDefinition
+	particles.dll + 0x466618(hierarchy CParticleSystemDefinition: IParticleSystemDefinition)
+CParticleSystemMgr
+	particles.dll + 0x468ce0(hierarchy CParticleSystemMgr: CTier3AppSystem<class IParticleSystemMgr,0>, CTier2AppSystem<class IParticleSystemMgr,0>, CTier1AppSystem<class IParticleSystemMgr,0>, CTier0AppSystem<class IParticleSystemMgr,0>, CBaseAppSystem<class IParticleSystemMgr>, IParticleSystemMgr, IAppSystem)
+CParticleTransformInput
+	particles.dll + 0x3ffbd0(hierarchy CParticleTransformInput: CParticleInput)
+CParticleTypeManager
+	particles.dll + 0x4691e8(hierarchy CParticleTypeManager: IResourceTypeManager)
+CParticleVecInput
+	particles.dll + 0x3ffc10(hierarchy CParticleVecInput: CParticleInput)
+CPerParticleFloatInput
+	particles.dll + 0x3ff870(hierarchy CPerParticleFloatInput: CParticleFloatInput, CParticleInput)
+CPerParticleVecInput
+	particles.dll + 0x4003d8(hierarchy CPerParticleVecInput: CParticleVecInput, CParticleInput)
+CPostConnectCallback
+	particles.dll + 0x40cf90(hierarchy CPostConnectCallback)
+CProjectedTextureAttributeRefCounted
+	particles.dll + 0x4adab0(hierarchy CProjectedTextureAttributeRefCounted: IRefCountedParticleAttribute)
+CPulseCell_Base
+	particles.dll + 0x406020(hierarchy CPulseCell_Base)
+CPulseCell_BaseFlow
+	particles.dll + 0x406078(hierarchy CPulseCell_BaseFlow: CPulseCell_Base)
+CPulseCell_BaseRequirement
+	particles.dll + 0x4060d0(hierarchy CPulseCell_BaseRequirement: CPulseCell_Base)
+CPulseCell_BaseValue
+	particles.dll + 0x406338(hierarchy CPulseCell_BaseValue: CPulseCell_Base)
+CPulseCell_FireCursors
+	particles.dll + 0x40ab40(hierarchy CPulseCell_FireCursors: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_BaseEntrypoint
+	particles.dll + 0x406128(hierarchy CPulseCell_Inflow_BaseEntrypoint: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_EntOutputHandler
+	particles.dll + 0x406288(hierarchy CPulseCell_Inflow_EntOutputHandler: CPulseCell_Inflow_BaseEntrypoint, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_EventHandler
+	particles.dll + 0x4061d8(hierarchy CPulseCell_Inflow_EventHandler: CPulseCell_Inflow_BaseEntrypoint, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_GraphHook
+	particles.dll + 0x406230(hierarchy CPulseCell_Inflow_GraphHook: CPulseCell_Inflow_BaseEntrypoint, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_Method
+	particles.dll + 0x406180(hierarchy CPulseCell_Inflow_Method: CPulseCell_Inflow_BaseEntrypoint, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_ObservableVariableListener
+	particles.dll + 0x4062e0(hierarchy CPulseCell_Inflow_ObservableVariableListener: CPulseCell_Inflow_BaseEntrypoint, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_Wait
+	particles.dll + 0x406480(hierarchy CPulseCell_Inflow_Wait: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_Yield
+	particles.dll + 0x4063e8(hierarchy CPulseCell_Inflow_Yield: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_LimitCount
+	particles.dll + 0x40ae38(hierarchy CPulseCell_LimitCount: CPulseCell_BaseRequirement, CPulseCell_Base)
+CPulseCell_Outflow_CycleOrdered
+	particles.dll + 0x4065c8(hierarchy CPulseCell_Outflow_CycleOrdered: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Outflow_CycleRandom
+	particles.dll + 0x406620(hierarchy CPulseCell_Outflow_CycleRandom: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Outflow_CycleShuffled
+	particles.dll + 0x406678(hierarchy CPulseCell_Outflow_CycleShuffled: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Outflow_IntSwitch
+	particles.dll + 0x406570(hierarchy CPulseCell_Outflow_IntSwitch: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Outflow_StringSwitch
+	particles.dll + 0x406518(hierarchy CPulseCell_Outflow_StringSwitch: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Outflow_TestExplicitYesNo
+	particles.dll + 0x406728(hierarchy CPulseCell_Outflow_TestExplicitYesNo: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Outflow_TestRandomYesNo
+	particles.dll + 0x4066d0(hierarchy CPulseCell_Outflow_TestRandomYesNo: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_CallExternalMethod
+	particles.dll + 0x406888(hierarchy CPulseCell_Step_CallExternalMethod: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_DebugLog
+	particles.dll + 0x406830(hierarchy CPulseCell_Step_DebugLog: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_PublicOutput
+	particles.dll + 0x406390(hierarchy CPulseCell_Step_PublicOutput: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_TestDomainCreateFakeEntity
+	particles.dll + 0x408eb8(hierarchy CPulseCell_Step_TestDomainCreateFakeEntity: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_TestDomainDestroyFakeEntity
+	particles.dll + 0x408f10(hierarchy CPulseCell_Step_TestDomainDestroyFakeEntity: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_TestDomainEntFire
+	particles.dll + 0x408f68(hierarchy CPulseCell_Step_TestDomainEntFire: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_TestDomainTracepoint
+	particles.dll + 0x408e60(hierarchy CPulseCell_Step_TestDomainTracepoint: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_TestWaitWithCursorState
+	particles.dll + 0x409088(hierarchy CPulseCell_TestWaitWithCursorState: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Test_MultiInflow_NoDefault
+	particles.dll + 0x4091d0(hierarchy CPulseCell_Test_MultiInflow_NoDefault: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Test_MultiInflow_WithDefault
+	particles.dll + 0x409178(hierarchy CPulseCell_Test_MultiInflow_WithDefault: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Test_MultiOutflow_WithParams
+	particles.dll + 0x409228(hierarchy CPulseCell_Test_MultiOutflow_WithParams: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Test_MultiOutflow_WithParams_Yielding
+	particles.dll + 0x409280(hierarchy CPulseCell_Test_MultiOutflow_WithParams_Yielding: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Test_NoInflow
+	particles.dll + 0x409120(hierarchy CPulseCell_Test_NoInflow: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Timeline
+	particles.dll + 0x40b000(hierarchy CPulseCell_Timeline: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Unknown
+	particles.dll + 0x406920(hierarchy CPulseCell_Unknown: CPulseCell_Base)
+CPulseCell_Val_TestDomainFindEntityByName
+	particles.dll + 0x409030(hierarchy CPulseCell_Val_TestDomainFindEntityByName: CPulseCell_BaseValue, CPulseCell_Base)
+CPulseCell_Val_TestDomainGetEntityName
+	particles.dll + 0x408fd8(hierarchy CPulseCell_Val_TestDomainGetEntityName: CPulseCell_BaseValue, CPulseCell_Base)
+CPulseCell_Value_RandomInt
+	particles.dll + 0x4067d8(hierarchy CPulseCell_Value_RandomInt: CPulseCell_BaseValue, CPulseCell_Base)
+CPulseCell_Value_TestValue50
+	particles.dll + 0x406780(hierarchy CPulseCell_Value_TestValue50: CPulseCell_BaseValue, CPulseCell_Base)
+CPulseExecCursor
+	particles.dll + 0x4045d0(hierarchy CPulseExecCursor: IGapHost_Unknown, IGapHost_YieldingCursor, IGapHost_Cursor, IGapHost_ExecLog)
+	particles.dll + 0x404618 MI offset 8(hierarchy IGapHost_YieldingCursor: IGapHost_Cursor, IGapHost_ExecLog)
+CPulseGraphDef
+	particles.dll + 0x4041c0(hierarchy CPulseGraphDef: IPulseGraphDef)
+CPulseInterfaceHelpers_Load_NoOp
+	particles.dll + 0x401910(hierarchy CPulseInterfaceHelpers_Load_NoOp: CPulseInstanceLoadAPI_NoOp, IPulseInstanceLoadAPI, CKV3TransferInterface_GameTime_Load_NoOp, IKV3TransferInterface_GameTime_Load, CKV3TransferInterface_EHandle_Load_NoOp, IKV3TransferInterface_EHandle_Load)
+	particles.dll + 0x401920 MI offset 8(hierarchy CKV3TransferInterface_GameTime_Load_NoOp: IKV3TransferInterface_GameTime_Load, CKV3TransferInterface_EHandle_Load_NoOp, IKV3TransferInterface_EHandle_Load)
+	particles.dll + 0x401930 MI offset 16(hierarchy CKV3TransferInterface_EHandle_Load_NoOp: IKV3TransferInterface_EHandle_Load)
+CPulseInterfaceHelpers_Save_NoOp
+	particles.dll + 0x401940(hierarchy CPulseInterfaceHelpers_Save_NoOp: CPulseInstanceSaveAPI_NoOp, IPulseInstanceSaveAPI, CKV3TransferInterface_GameTime_Save_NoOp, IKV3TransferInterface_GameTime_Save, CKV3TransferInterface_EHandle_Save_NoOp, IKV3TransferInterface_EHandle_Save)
+	particles.dll + 0x401950 MI offset 8(hierarchy CKV3TransferInterface_GameTime_Save_NoOp: IKV3TransferInterface_GameTime_Save, CKV3TransferInterface_EHandle_Save_NoOp, IKV3TransferInterface_EHandle_Save)
+	particles.dll + 0x401960 MI offset 16(hierarchy CKV3TransferInterface_EHandle_Save_NoOp: IKV3TransferInterface_EHandle_Save)
+CPulseTestGapTypeQueryRegistration
+	particles.dll + 0x4095e8(hierarchy CPulseTestGapTypeQueryRegistration: IGapTypeQueryRegistrationForScope)
+CPulseTestHandleService
+	particles.dll + 0x4095b0(hierarchy CPulseTestHandleService: IGapTypeQueriesForScope)
+CSceneObject
+	particles.dll + 0x464940(hierarchy CSceneObject)
+CSceneParticleObject
+	particles.dll + 0x464a20(hierarchy CSceneParticleObject: CSceneObject)
+CSchemaInstallCallback
+	particles.dll + 0x40dd60(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_particles
+	particles.dll + 0x4708b8(hierarchy CSchemaRegistration_particles: CSchemaRegistration)
+CSchemaRegistration_particleslib
+	particles.dll + 0x3ffae0(hierarchy CSchemaRegistration_particleslib: CSchemaRegistration)
+CSchemaRegistration_pulse_runtime_lib
+	particles.dll + 0x4020a8(hierarchy CSchemaRegistration_pulse_runtime_lib: CSchemaRegistration)
+C_INIT_AddVectorToVector
+	particles.dll + 0x486da0(hierarchy C_INIT_AddVectorToVector: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_AgeNoise
+	particles.dll + 0x482bd0(hierarchy C_INIT_AgeNoise: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_ChaoticAttractor
+	particles.dll + 0x486c50(hierarchy C_INIT_ChaoticAttractor: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_ColorLitPerParticle
+	particles.dll + 0x483568(hierarchy C_INIT_ColorLitPerParticle: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateAlongPath
+	particles.dll + 0x47f948(hierarchy C_INIT_CreateAlongPath: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateFromCPs
+	particles.dll + 0x487a10(hierarchy C_INIT_CreateFromCPs: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateFromParentParticles
+	particles.dll + 0x4827d0(hierarchy C_INIT_CreateFromParentParticles: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateFromPlaneCache
+	particles.dll + 0x4877d0(hierarchy C_INIT_CreateFromPlaneCache: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateInEpitrochoid
+	particles.dll + 0x4864c0(hierarchy C_INIT_CreateInEpitrochoid: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateOnGrid
+	particles.dll + 0x47ebe8(hierarchy C_INIT_CreateOnGrid: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateOnModel
+	particles.dll + 0x486af0(hierarchy C_INIT_CreateOnModel: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateOnModelAtHeight
+	particles.dll + 0x4870a0(hierarchy C_INIT_CreateOnModelAtHeight: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateParticleImpulse
+	particles.dll + 0x47f208(hierarchy C_INIT_CreateParticleImpulse: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreatePhyllotaxis
+	particles.dll + 0x480688(hierarchy C_INIT_CreatePhyllotaxis: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateSequentialPath
+	particles.dll + 0x483ae8(hierarchy C_INIT_CreateSequentialPath: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateSequentialPathV2
+	particles.dll + 0x47f818(hierarchy C_INIT_CreateSequentialPathV2: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateSpiralSphere
+	particles.dll + 0x47fa88(hierarchy C_INIT_CreateSpiralSphere: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateWithinBox
+	particles.dll + 0x484930(hierarchy C_INIT_CreateWithinBox: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreateWithinSphereTransform
+	particles.dll + 0x481d90(hierarchy C_INIT_CreateWithinSphereTransform: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_CreationNoise
+	particles.dll + 0x4878e0(hierarchy C_INIT_CreationNoise: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_DistanceCull
+	particles.dll + 0x4844e0(hierarchy C_INIT_DistanceCull: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_DistanceToCPInit
+	particles.dll + 0x484220(hierarchy C_INIT_DistanceToCPInit: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_DistanceToNeighborCull
+	particles.dll + 0x4803c8(hierarchy C_INIT_DistanceToNeighborCull: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_GlobalScale
+	particles.dll + 0x485f90(hierarchy C_INIT_GlobalScale: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InheritFromParentParticles
+	particles.dll + 0x488cc8(hierarchy C_INIT_InheritFromParentParticles: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InheritVelocity
+	particles.dll + 0x47f538(hierarchy C_INIT_InheritVelocity: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InitFloat
+	particles.dll + 0x485ad0(hierarchy C_INIT_InitFloat: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InitFloatCollection
+	particles.dll + 0x482610(hierarchy C_INIT_InitFloatCollection: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InitFromCPSnapshot
+	particles.dll + 0x487b80(hierarchy C_INIT_InitFromCPSnapshot: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InitFromParentKilled
+	particles.dll + 0x485230(hierarchy C_INIT_InitFromParentKilled: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InitFromVectorFieldSnapshot
+	particles.dll + 0x483d28(hierarchy C_INIT_InitFromVectorFieldSnapshot: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InitSkinnedPositionFromCPSnapshot
+	particles.dll + 0x4819b8(hierarchy C_INIT_InitSkinnedPositionFromCPSnapshot: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InitVec
+	particles.dll + 0x482d70(hierarchy C_INIT_InitVec: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InitVecCollection
+	particles.dll + 0x47e858(hierarchy C_INIT_InitVecCollection: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InitialRepulsionVelocity
+	particles.dll + 0x481038(hierarchy C_INIT_InitialRepulsionVelocity: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InitialSequenceFromModel
+	particles.dll + 0x47f328(hierarchy C_INIT_InitialSequenceFromModel: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InitialVelocityFromHitbox
+	particles.dll + 0x480558(hierarchy C_INIT_InitialVelocityFromHitbox: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_InitialVelocityNoise
+	particles.dll + 0x488360(hierarchy C_INIT_InitialVelocityNoise: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_LifespanFromVelocity
+	particles.dll + 0x487340(hierarchy C_INIT_LifespanFromVelocity: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_ModelCull
+	particles.dll + 0x481898(hierarchy C_INIT_ModelCull: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_MoveBetweenPoints
+	particles.dll + 0x485e80(hierarchy C_INIT_MoveBetweenPoints: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_NormalAlignToCP
+	particles.dll + 0x47e748(hierarchy C_INIT_NormalAlignToCP: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_NormalOffset
+	particles.dll + 0x4859c0(hierarchy C_INIT_NormalOffset: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_OffsetVectorToVector
+	particles.dll + 0x481fb0(hierarchy C_INIT_OffsetVectorToVector: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_Orient2DRelToCP
+	particles.dll + 0x488660(hierarchy C_INIT_Orient2DRelToCP: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_PlaneCull
+	particles.dll + 0x484fc0(hierarchy C_INIT_PlaneCull: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_PointList
+	particles.dll + 0x4837f8(hierarchy C_INIT_PointList: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_PositionOffset
+	particles.dll + 0x487e70(hierarchy C_INIT_PositionOffset: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_PositionOffsetToCP
+	particles.dll + 0x486ee0(hierarchy C_INIT_PositionOffsetToCP: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_PositionPlaceOnGround
+	particles.dll + 0x4850d0(hierarchy C_INIT_PositionPlaceOnGround: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_PositionWarp
+	particles.dll + 0x488820(hierarchy C_INIT_PositionWarp: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_PositionWarpScalar
+	particles.dll + 0x480978(hierarchy C_INIT_PositionWarpScalar: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_QuantizeFloat
+	particles.dll + 0x489828(hierarchy C_INIT_QuantizeFloat: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RadiusFromCPObject
+	particles.dll + 0x480ad8(hierarchy C_INIT_RadiusFromCPObject: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomAlpha
+	particles.dll + 0x4860d0(hierarchy C_INIT_RandomAlpha: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomAlphaWindowThreshold
+	particles.dll + 0x488970(hierarchy C_INIT_RandomAlphaWindowThreshold: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomColor
+	particles.dll + 0x487cf0(hierarchy C_INIT_RandomColor: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomLifeTime
+	particles.dll + 0x47ea38(hierarchy C_INIT_RandomLifeTime: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomModelSequence
+	particles.dll + 0x481c40(hierarchy C_INIT_RandomModelSequence: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomNamedModelBodyPart
+	particles.dll + 0x489448(hierarchy C_INIT_RandomNamedModelBodyPart: C_INIT_RandomNamedModelElement, CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomNamedModelMeshGroup
+	particles.dll + 0x489128(hierarchy C_INIT_RandomNamedModelMeshGroup: C_INIT_RandomNamedModelElement, CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomNamedModelSequence
+	particles.dll + 0x485830(hierarchy C_INIT_RandomNamedModelSequence: C_INIT_RandomNamedModelElement, CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomRadius
+	particles.dll + 0x484ca0(hierarchy C_INIT_RandomRadius: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomRotation
+	particles.dll + 0x482f00(hierarchy C_INIT_RandomRotation: CGeneralRandomRotation, CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomRotationSpeed
+	particles.dll + 0x485668(hierarchy C_INIT_RandomRotationSpeed: CGeneralRandomRotation, CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomScalar
+	particles.dll + 0x47fbc8(hierarchy C_INIT_RandomScalar: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomSecondSequence
+	particles.dll + 0x4847f0(hierarchy C_INIT_RandomSecondSequence: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomSequence
+	particles.dll + 0x47f078(hierarchy C_INIT_RandomSequence: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomTrailLength
+	particles.dll + 0x4832e8(hierarchy C_INIT_RandomTrailLength: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomVector
+	particles.dll + 0x481ea0(hierarchy C_INIT_RandomVector: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomVectorComponent
+	particles.dll + 0x484a40(hierarchy C_INIT_RandomVectorComponent: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomYaw
+	particles.dll + 0x489670(hierarchy C_INIT_RandomYaw: CGeneralRandomRotation, CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RandomYawFlip
+	particles.dll + 0x47fed8(hierarchy C_INIT_RandomYawFlip: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapCPtoScalar
+	particles.dll + 0x488250(hierarchy C_INIT_RemapCPtoScalar: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapInitialDirectionToTransformToVector
+	particles.dll + 0x483c18(hierarchy C_INIT_RemapInitialDirectionToTransformToVector: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapInitialTransformDirectionToRotation
+	particles.dll + 0x481178(hierarchy C_INIT_RemapInitialTransformDirectionToRotation: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapInitialVisibilityScalar
+	particles.dll + 0x4815e8(hierarchy C_INIT_RemapInitialVisibilityScalar: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapNamedModelBodyPartToScalar
+	particles.dll + 0x487230(hierarchy C_INIT_RemapNamedModelBodyPartToScalar: C_INIT_RemapNamedModelElementToScalar, CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapNamedModelMeshGroupToScalar
+	particles.dll + 0x480e58(hierarchy C_INIT_RemapNamedModelMeshGroupToScalar: C_INIT_RemapNamedModelElementToScalar, CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapNamedModelSequenceToScalar
+	particles.dll + 0x484e80(hierarchy C_INIT_RemapNamedModelSequenceToScalar: C_INIT_RemapNamedModelElementToScalar, CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapParticleCountToNamedModelBodyPartScalar
+	particles.dll + 0x483078(hierarchy C_INIT_RemapParticleCountToNamedModelBodyPartScalar: C_INIT_RemapParticleCountToNamedModelElementScalar, C_INIT_RemapParticleCountToScalar, CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapParticleCountToNamedModelElementScalar
+	particles.dll + 0x486978(hierarchy C_INIT_RemapParticleCountToNamedModelElementScalar: C_INIT_RemapParticleCountToScalar, CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapParticleCountToNamedModelMeshGroupScalar
+	particles.dll + 0x480d18(hierarchy C_INIT_RemapParticleCountToNamedModelMeshGroupScalar: C_INIT_RemapParticleCountToNamedModelElementScalar, C_INIT_RemapParticleCountToScalar, CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapParticleCountToNamedModelSequenceScalar
+	particles.dll + 0x47e418(hierarchy C_INIT_RemapParticleCountToNamedModelSequenceScalar: C_INIT_RemapParticleCountToNamedModelElementScalar, C_INIT_RemapParticleCountToScalar, CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapParticleCountToScalar
+	particles.dll + 0x486600(hierarchy C_INIT_RemapParticleCountToScalar: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapQAnglesToRotation
+	particles.dll + 0x488b88(hierarchy C_INIT_RemapQAnglesToRotation: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapScalar
+	particles.dll + 0x4843d0(hierarchy C_INIT_RemapScalar: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapScalarToVector
+	particles.dll + 0x481b30(hierarchy C_INIT_RemapScalarToVector: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapSpeedToScalar
+	particles.dll + 0x4813c8(hierarchy C_INIT_RemapSpeedToScalar: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapTransformOrientationToRotations
+	particles.dll + 0x4800c8(hierarchy C_INIT_RemapTransformOrientationToRotations: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RemapTransformToVector
+	particles.dll + 0x481728(hierarchy C_INIT_RemapTransformToVector: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RingWave
+	particles.dll + 0x4831b8(hierarchy C_INIT_RingWave: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_RtEnvCull
+	particles.dll + 0x482120(hierarchy C_INIT_RtEnvCull: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_ScaleVelocity
+	particles.dll + 0x487650(hierarchy C_INIT_ScaleVelocity: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_SequenceFromCP
+	particles.dll + 0x487fa0(hierarchy C_INIT_SequenceFromCP: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_SequenceLifeTime
+	particles.dll + 0x480278(hierarchy C_INIT_SequenceLifeTime: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_SetAttributeToScalarExpression
+	particles.dll + 0x4814d8(hierarchy C_INIT_SetAttributeToScalarExpression: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_SetHitboxToClosest
+	particles.dll + 0x488e58(hierarchy C_INIT_SetHitboxToClosest: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_SetHitboxToModel
+	particles.dll + 0x482440(hierarchy C_INIT_SetHitboxToModel: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_SetRigidAttachment
+	particles.dll + 0x486728(hierarchy C_INIT_SetRigidAttachment: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_SetVectorAttributeToVectorExpression
+	particles.dll + 0x47ee08(hierarchy C_INIT_SetVectorAttributeToVectorExpression: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_StatusEffect
+	particles.dll + 0x486330(hierarchy C_INIT_StatusEffect: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_StatusEffectCitadel
+	particles.dll + 0x485c90(hierarchy C_INIT_StatusEffectCitadel: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_VelocityFromCP
+	particles.dll + 0x4853e0(hierarchy C_INIT_VelocityFromCP: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_VelocityFromNormal
+	particles.dll + 0x47e598(hierarchy C_INIT_VelocityFromNormal: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_VelocityRadialRandom
+	particles.dll + 0x484670(hierarchy C_INIT_VelocityRadialRandom: CParticleFunctionInitializer, CParticleFunction)
+C_INIT_VelocityRandom
+	particles.dll + 0x489248(hierarchy C_INIT_VelocityRandom: CParticleFunctionInitializer, CParticleFunction)
+C_OP_AlphaDecay
+	particles.dll + 0x48bd30(hierarchy C_OP_AlphaDecay: CParticleFunctionOperator, CParticleFunction)
+C_OP_AttractToControlPoint
+	particles.dll + 0x477128(hierarchy C_OP_AttractToControlPoint: CParticleFunctionForce, CParticleFunction)
+C_OP_BasicMovement
+	particles.dll + 0x48f178(hierarchy C_OP_BasicMovement: CParticleFunctionOperator, CParticleFunction)
+C_OP_BoxConstraint
+	particles.dll + 0x473e28(hierarchy C_OP_BoxConstraint: CParticleFunctionConstraint, CParticleFunction)
+C_OP_CPOffsetToPercentageBetweenCPs
+	particles.dll + 0x497fd0(hierarchy C_OP_CPOffsetToPercentageBetweenCPs: CParticleFunctionOperator, CParticleFunction)
+C_OP_CPVelocityForce
+	particles.dll + 0x478710(hierarchy C_OP_CPVelocityForce: CParticleFunctionForce, CParticleFunction)
+C_OP_CalculateVectorAttribute
+	particles.dll + 0x49f860(hierarchy C_OP_CalculateVectorAttribute: CParticleFunctionOperator, CParticleFunction)
+C_OP_Callback
+	particles.dll + 0x4aa918(hierarchy C_OP_Callback: CParticleFunctionRenderer, CParticleFunction)
+C_OP_ChladniWave
+	particles.dll + 0x494aa0(hierarchy C_OP_ChladniWave: CParticleFunctionOperator, CParticleFunction)
+C_OP_ChooseRandomChildrenInGroup
+	particles.dll + 0x4a3f90(hierarchy C_OP_ChooseRandomChildrenInGroup: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_ClampScalar
+	particles.dll + 0x4990e8(hierarchy C_OP_ClampScalar: CParticleFunctionOperator, CParticleFunction)
+C_OP_ClampVector
+	particles.dll + 0x490d28(hierarchy C_OP_ClampVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_ClientPhysics
+	particles.dll + 0x4ae2b8(hierarchy C_OP_ClientPhysics: CParticleFunctionRenderer, CParticleFunction)
+C_OP_CollideWithParentParticles
+	particles.dll + 0x474d80(hierarchy C_OP_CollideWithParentParticles: CParticleFunctionConstraint, CParticleFunction)
+C_OP_CollideWithSelf
+	particles.dll + 0x474a60(hierarchy C_OP_CollideWithSelf: CParticleFunctionConstraint, CParticleFunction)
+C_OP_ColorAdjustHSL
+	particles.dll + 0x49f9c8(hierarchy C_OP_ColorAdjustHSL: CParticleFunctionOperator, CParticleFunction)
+C_OP_ColorInterpolate
+	particles.dll + 0x4909b8(hierarchy C_OP_ColorInterpolate: CParticleFunctionOperator, CParticleFunction)
+C_OP_ColorInterpolateRandom
+	particles.dll + 0x4915d0(hierarchy C_OP_ColorInterpolateRandom: CParticleFunctionOperator, CParticleFunction)
+C_OP_ConnectParentParticleToNearest
+	particles.dll + 0x49eef8(hierarchy C_OP_ConnectParentParticleToNearest: CParticleFunctionOperator, CParticleFunction)
+C_OP_ConstrainDistance
+	particles.dll + 0x474378(hierarchy C_OP_ConstrainDistance: CParticleFunctionConstraint, CParticleFunction)
+C_OP_ConstrainDistanceToPath
+	particles.dll + 0x474940(hierarchy C_OP_ConstrainDistanceToPath: CParticleFunctionConstraint, CParticleFunction)
+C_OP_ConstrainDistanceToUserSpecifiedPath
+	particles.dll + 0x474268(hierarchy C_OP_ConstrainDistanceToUserSpecifiedPath: CParticleFunctionConstraint, CParticleFunction)
+C_OP_ConstrainLineLength
+	particles.dll + 0x474690(hierarchy C_OP_ConstrainLineLength: CParticleFunctionConstraint, CParticleFunction)
+C_OP_ContinuousEmitter
+	particles.dll + 0x475500(hierarchy C_OP_ContinuousEmitter: CParticleFunctionEmitter, CParticleFunction)
+C_OP_ControlPointToRadialScreenSpace
+	particles.dll + 0x4a7548(hierarchy C_OP_ControlPointToRadialScreenSpace: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_ControlpointLight
+	particles.dll + 0x493f40(hierarchy C_OP_ControlpointLight: CParticleFunctionOperator, CParticleFunction)
+C_OP_Cull
+	particles.dll + 0x496a98(hierarchy C_OP_Cull: CParticleFunctionOperator, CParticleFunction)
+C_OP_CurlNoiseForce
+	particles.dll + 0x478020(hierarchy C_OP_CurlNoiseForce: CParticleFunctionForce, CParticleFunction)
+C_OP_CycleScalar
+	particles.dll + 0x49faf0(hierarchy C_OP_CycleScalar: CParticleFunctionOperator, CParticleFunction)
+C_OP_CylindricalDistanceToTransform
+	particles.dll + 0x48d5b8(hierarchy C_OP_CylindricalDistanceToTransform: CParticleFunctionOperator, CParticleFunction)
+C_OP_DampenToCP
+	particles.dll + 0x4961f0(hierarchy C_OP_DampenToCP: CParticleFunctionOperator, CParticleFunction)
+C_OP_Decay
+	particles.dll + 0x490e60(hierarchy C_OP_Decay: CParticleFunctionOperator, CParticleFunction)
+C_OP_DecayClampCount
+	particles.dll + 0x48ecb0(hierarchy C_OP_DecayClampCount: CParticleFunctionOperator, CParticleFunction)
+C_OP_DecayMaintainCount
+	particles.dll + 0x48d988(hierarchy C_OP_DecayMaintainCount: CParticleFunctionOperator, CParticleFunction)
+C_OP_DecayOffscreen
+	particles.dll + 0x4960d8(hierarchy C_OP_DecayOffscreen: CParticleFunctionOperator, CParticleFunction)
+C_OP_DensityForce
+	particles.dll + 0x477c88(hierarchy C_OP_DensityForce: CParticleFunctionForce, CParticleFunction)
+C_OP_DifferencePreviousParticle
+	particles.dll + 0x48f380(hierarchy C_OP_DifferencePreviousParticle: CParticleFunctionOperator, CParticleFunction)
+C_OP_Diffusion
+	particles.dll + 0x492a18(hierarchy C_OP_Diffusion: CParticleFunctionOperator, CParticleFunction)
+C_OP_DirectionBetweenVecsToVec
+	particles.dll + 0x48e910(hierarchy C_OP_DirectionBetweenVecsToVec: CParticleFunctionOperator, CParticleFunction)
+C_OP_DistanceBetweenCPsToCP
+	particles.dll + 0x4a4c70(hierarchy C_OP_DistanceBetweenCPsToCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_DistanceBetweenTransforms
+	particles.dll + 0x490578(hierarchy C_OP_DistanceBetweenTransforms: CParticleFunctionOperator, CParticleFunction)
+C_OP_DistanceBetweenVecs
+	particles.dll + 0x48e7e8(hierarchy C_OP_DistanceBetweenVecs: CParticleFunctionOperator, CParticleFunction)
+C_OP_DistanceCull
+	particles.dll + 0x48a838(hierarchy C_OP_DistanceCull: CParticleFunctionOperator, CParticleFunction)
+C_OP_DistanceToTransform
+	particles.dll + 0x4984a8(hierarchy C_OP_DistanceToTransform: CParticleFunctionOperator, CParticleFunction)
+C_OP_DragRelativeToPlane
+	particles.dll + 0x491900(hierarchy C_OP_DragRelativeToPlane: CParticleFunctionOperator, CParticleFunction)
+C_OP_DriveCPFromGlobalSoundFloat
+	particles.dll + 0x4a89f0(hierarchy C_OP_DriveCPFromGlobalSoundFloat: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_EnableChildrenFromParentParticleCount
+	particles.dll + 0x4a4238(hierarchy C_OP_EnableChildrenFromParentParticleCount: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_EndCapDecay
+	particles.dll + 0x493758(hierarchy C_OP_EndCapDecay: CParticleFunctionOperator, CParticleFunction)
+C_OP_EndCapTimedDecay
+	particles.dll + 0x48f060(hierarchy C_OP_EndCapTimedDecay: CParticleFunctionOperator, CParticleFunction)
+C_OP_EndCapTimedFreeze
+	particles.dll + 0x48c218(hierarchy C_OP_EndCapTimedFreeze: CParticleFunctionOperator, CParticleFunction)
+C_OP_ExternalGameImpulseForce
+	particles.dll + 0x4779a8(hierarchy C_OP_ExternalGameImpulseForce: CParticleFunctionForce, CParticleFunction)
+C_OP_ExternalWindForce
+	particles.dll + 0x4783c0(hierarchy C_OP_ExternalWindForce: CParticleFunctionForce, CParticleFunction)
+C_OP_FadeAndKill
+	particles.dll + 0x496960(hierarchy C_OP_FadeAndKill: CParticleFunctionOperator, CParticleFunction)
+C_OP_FadeAndKillForTracers
+	particles.dll + 0x491e98(hierarchy C_OP_FadeAndKillForTracers: CParticleFunctionOperator, CParticleFunction)
+C_OP_FadeIn
+	particles.dll + 0x4985f0(hierarchy C_OP_FadeIn: CParticleFunctionOperator, CParticleFunction)
+C_OP_FadeInSimple
+	particles.dll + 0x498108(hierarchy C_OP_FadeInSimple: CParticleFunctionOperator, CParticleFunction)
+C_OP_FadeOut
+	particles.dll + 0x4912f0(hierarchy C_OP_FadeOut: CParticleFunctionOperator, CParticleFunction)
+C_OP_FadeOutSimple
+	particles.dll + 0x494bb8(hierarchy C_OP_FadeOutSimple: CParticleFunctionOperator, CParticleFunction)
+C_OP_ForceBasedOnDistanceToPlane
+	particles.dll + 0x478540(hierarchy C_OP_ForceBasedOnDistanceToPlane: CParticleFunctionForce, CParticleFunction)
+C_OP_ForceControlPointStub
+	particles.dll + 0x4a7c30(hierarchy C_OP_ForceControlPointStub: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_GlobalLight
+	particles.dll + 0x498748(hierarchy C_OP_GlobalLight: CParticleFunctionOperator, CParticleFunction)
+C_OP_HSVShiftToCP
+	particles.dll + 0x4a72d8(hierarchy C_OP_HSVShiftToCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_InheritFromParentParticles
+	particles.dll + 0x48eb38(hierarchy C_OP_InheritFromParentParticles: CParticleFunctionOperator, CParticleFunction)
+C_OP_InheritFromParentParticlesV2
+	particles.dll + 0x48c918(hierarchy C_OP_InheritFromParentParticlesV2: CParticleFunctionOperator, CParticleFunction)
+C_OP_InheritFromPeerSystem
+	particles.dll + 0x48fc38(hierarchy C_OP_InheritFromPeerSystem: CParticleFunctionOperator, CParticleFunction)
+C_OP_InstantaneousEmitter
+	particles.dll + 0x475220(hierarchy C_OP_InstantaneousEmitter: CParticleFunctionEmitter, CParticleFunction)
+C_OP_InterpolateRadius
+	particles.dll + 0x497e18(hierarchy C_OP_InterpolateRadius: CParticleFunctionOperator, CParticleFunction)
+C_OP_IntraParticleForce
+	particles.dll + 0x477f10(hierarchy C_OP_IntraParticleForce: CParticleFunctionForce, CParticleFunction)
+C_OP_LagCompensation
+	particles.dll + 0x48f680(hierarchy C_OP_LagCompensation: CParticleFunctionOperator, CParticleFunction)
+C_OP_LerpEndCapScalar
+	particles.dll + 0x492c98(hierarchy C_OP_LerpEndCapScalar: CParticleFunctionOperator, CParticleFunction)
+C_OP_LerpEndCapVector
+	particles.dll + 0x48cde8(hierarchy C_OP_LerpEndCapVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_LerpScalar
+	particles.dll + 0x48d1c0(hierarchy C_OP_LerpScalar: CParticleFunctionOperator, CParticleFunction)
+C_OP_LerpToInitialPosition
+	particles.dll + 0x4906f0(hierarchy C_OP_LerpToInitialPosition: CParticleFunctionOperator, CParticleFunction)
+C_OP_LerpToOtherAttribute
+	particles.dll + 0x498b00(hierarchy C_OP_LerpToOtherAttribute: CParticleFunctionOperator, CParticleFunction)
+C_OP_LerpVector
+	particles.dll + 0x498c58(hierarchy C_OP_LerpVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_LightningSnapshotGenerator
+	particles.dll + 0x4a6bc8(hierarchy C_OP_LightningSnapshotGenerator: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_LocalAccelerationForce
+	particles.dll + 0x4773d8(hierarchy C_OP_LocalAccelerationForce: CParticleFunctionForce, CParticleFunction)
+C_OP_LockPoints
+	particles.dll + 0x49f410(hierarchy C_OP_LockPoints: CParticleFunctionOperator, CParticleFunction)
+C_OP_LockToBone
+	particles.dll + 0x496548(hierarchy C_OP_LockToBone: CParticleFunctionOperator, CParticleFunction)
+C_OP_LockToPointList
+	particles.dll + 0x48a368(hierarchy C_OP_LockToPointList: CParticleFunctionOperator, CParticleFunction)
+C_OP_LockToSavedSequentialPath
+	particles.dll + 0x493178(hierarchy C_OP_LockToSavedSequentialPath: CParticleFunctionOperator, CParticleFunction)
+C_OP_LockToSavedSequentialPathV2
+	particles.dll + 0x493290(hierarchy C_OP_LockToSavedSequentialPathV2: CParticleFunctionOperator, CParticleFunction)
+C_OP_MaintainEmitter
+	particles.dll + 0x475370(hierarchy C_OP_MaintainEmitter: CParticleFunctionEmitter, CParticleFunction)
+C_OP_MaintainSequentialPath
+	particles.dll + 0x48e080(hierarchy C_OP_MaintainSequentialPath: CParticleFunctionOperator, CParticleFunction)
+C_OP_MaxVelocity
+	particles.dll + 0x48aef8(hierarchy C_OP_MaxVelocity: CParticleFunctionOperator, CParticleFunction)
+C_OP_ModelCull
+	particles.dll + 0x495658(hierarchy C_OP_ModelCull: CParticleFunctionOperator, CParticleFunction)
+C_OP_ModelDampenMovement
+	particles.dll + 0x497b30(hierarchy C_OP_ModelDampenMovement: CParticleFunctionOperator, CParticleFunction)
+C_OP_MoveToHitbox
+	particles.dll + 0x490ff8(hierarchy C_OP_MoveToHitbox: CParticleFunctionOperator, CParticleFunction)
+C_OP_MovementLoopInsideSphere
+	particles.dll + 0x4900c0(hierarchy C_OP_MovementLoopInsideSphere: CParticleFunctionOperator, CParticleFunction)
+C_OP_MovementMaintainOffset
+	particles.dll + 0x499368(hierarchy C_OP_MovementMaintainOffset: CParticleFunctionOperator, CParticleFunction)
+C_OP_MovementMoveAlongSkinnedCPSnapshot
+	particles.dll + 0x48ad40(hierarchy C_OP_MovementMoveAlongSkinnedCPSnapshot: CParticleFunctionOperator, CParticleFunction)
+C_OP_MovementPlaceOnGround
+	particles.dll + 0x4922e0(hierarchy C_OP_MovementPlaceOnGround: CParticleFunctionOperator, CParticleFunction)
+C_OP_MovementRigidAttachToCP
+	particles.dll + 0x493a58(hierarchy C_OP_MovementRigidAttachToCP: CParticleFunctionOperator, CParticleFunction)
+C_OP_MovementRotateParticleAroundAxis
+	particles.dll + 0x491c68(hierarchy C_OP_MovementRotateParticleAroundAxis: CParticleFunctionOperator, CParticleFunction)
+C_OP_MovementSkinnedPositionFromCPSnapshot
+	particles.dll + 0x489df8(hierarchy C_OP_MovementSkinnedPositionFromCPSnapshot: CParticleFunctionOperator, CParticleFunction)
+C_OP_Noise
+	particles.dll + 0x490218(hierarchy C_OP_Noise: CParticleFunctionOperator, CParticleFunction)
+C_OP_NoiseEmitter
+	particles.dll + 0x4750e0(hierarchy C_OP_NoiseEmitter: CParticleFunctionEmitter, CParticleFunction)
+C_OP_NormalLock
+	particles.dll + 0x492738(hierarchy C_OP_NormalLock: CParticleFunctionOperator, CParticleFunction)
+C_OP_NormalizeVector
+	particles.dll + 0x497858(hierarchy C_OP_NormalizeVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_Orient2DRelToCP
+	particles.dll + 0x492b60(hierarchy C_OP_Orient2DRelToCP: CParticleFunctionOperator, CParticleFunction)
+C_OP_OrientTo2dDirection
+	particles.dll + 0x496ea8(hierarchy C_OP_OrientTo2dDirection: CParticleFunctionOperator, CParticleFunction)
+C_OP_OscillateScalar
+	particles.dll + 0x493920(hierarchy C_OP_OscillateScalar: CParticleFunctionOperator, CParticleFunction)
+C_OP_OscillateScalarSimple
+	particles.dll + 0x494fe0(hierarchy C_OP_OscillateScalarSimple: CParticleFunctionOperator, CParticleFunction)
+C_OP_OscillateVector
+	particles.dll + 0x492428(hierarchy C_OP_OscillateVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_OscillateVectorSimple
+	particles.dll + 0x48b578(hierarchy C_OP_OscillateVectorSimple: CParticleFunctionOperator, CParticleFunction)
+C_OP_ParentVortices
+	particles.dll + 0x4774e8(hierarchy C_OP_ParentVortices: CParticleFunctionForce, CParticleFunction)
+C_OP_PerParticleForce
+	particles.dll + 0x477698(hierarchy C_OP_PerParticleForce: CParticleFunctionForce, CParticleFunction)
+C_OP_PercentageBetweenTransformLerpCPs
+	particles.dll + 0x48ab18(hierarchy C_OP_PercentageBetweenTransformLerpCPs: CParticleFunctionOperator, CParticleFunction)
+C_OP_PercentageBetweenTransforms
+	particles.dll + 0x496818(hierarchy C_OP_PercentageBetweenTransforms: CParticleFunctionOperator, CParticleFunction)
+C_OP_PercentageBetweenTransformsVector
+	particles.dll + 0x48a720(hierarchy C_OP_PercentageBetweenTransformsVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_PinParticleToCP
+	particles.dll + 0x48b3e0(hierarchy C_OP_PinParticleToCP: CParticleFunctionOperator, CParticleFunction)
+C_OP_PlanarConstraint
+	particles.dll + 0x473b98(hierarchy C_OP_PlanarConstraint: CParticleFunctionConstraint, CParticleFunction)
+C_OP_PlaneCull
+	particles.dll + 0x48dd38(hierarchy C_OP_PlaneCull: CParticleFunctionOperator, CParticleFunction)
+C_OP_PlayEndCapWhenFinished
+	particles.dll + 0x4a5f18(hierarchy C_OP_PlayEndCapWhenFinished: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_PointVectorAtNextParticle
+	particles.dll + 0x494948(hierarchy C_OP_PointVectorAtNextParticle: CParticleFunctionOperator, CParticleFunction)
+C_OP_PositionLock
+	particles.dll + 0x493cc8(hierarchy C_OP_PositionLock: CParticleFunctionOperator, CParticleFunction)
+C_OP_QuantizeCPComponent
+	particles.dll + 0x4a46a8(hierarchy C_OP_QuantizeCPComponent: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_QuantizeFloat
+	particles.dll + 0x48f888(hierarchy C_OP_QuantizeFloat: CParticleFunctionOperator, CParticleFunction)
+C_OP_RadiusDecay
+	particles.dll + 0x48b720(hierarchy C_OP_RadiusDecay: CParticleFunctionOperator, CParticleFunction)
+C_OP_RampCPLinearRandom
+	particles.dll + 0x4a6f38(hierarchy C_OP_RampCPLinearRandom: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_RampScalarLinear
+	particles.dll + 0x48c7b0(hierarchy C_OP_RampScalarLinear: CParticleFunctionOperator, CParticleFunction)
+C_OP_RampScalarLinearSimple
+	particles.dll + 0x493050(hierarchy C_OP_RampScalarLinearSimple: CParticleFunctionOperator, CParticleFunction)
+C_OP_RampScalarSpline
+	particles.dll + 0x4935d0(hierarchy C_OP_RampScalarSpline: CParticleFunctionOperator, CParticleFunction)
+C_OP_RampScalarSplineSimple
+	particles.dll + 0x48b288(hierarchy C_OP_RampScalarSplineSimple: CParticleFunctionOperator, CParticleFunction)
+C_OP_RandomForce
+	particles.dll + 0x477ab8(hierarchy C_OP_RandomForce: CParticleFunctionForce, CParticleFunction)
+C_OP_ReadFromNeighboringParticle
+	particles.dll + 0x499210(hierarchy C_OP_ReadFromNeighboringParticle: CParticleFunctionOperator, CParticleFunction)
+C_OP_ReinitializeScalarEndCap
+	particles.dll + 0x48fa40(hierarchy C_OP_ReinitializeScalarEndCap: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapAverageHitboxSpeedtoCP
+	particles.dll + 0x4a61e8(hierarchy C_OP_RemapAverageHitboxSpeedtoCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapAverageScalarValuetoCP
+	particles.dll + 0x4a4e48(hierarchy C_OP_RemapAverageScalarValuetoCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapBoundingVolumetoCP
+	particles.dll + 0x4a3de8(hierarchy C_OP_RemapBoundingVolumetoCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapCPVelocityToVector
+	particles.dll + 0x491498(hierarchy C_OP_RemapCPVelocityToVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapCPtoCP
+	particles.dll + 0x4a70e0(hierarchy C_OP_RemapCPtoCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapCPtoScalar
+	particles.dll + 0x498890(hierarchy C_OP_RemapCPtoScalar: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapCPtoVector
+	particles.dll + 0x48be78(hierarchy C_OP_RemapCPtoVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapControlPointDirectionToVector
+	particles.dll + 0x492db0(hierarchy C_OP_RemapControlPointDirectionToVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapControlPointOrientationToRotation
+	particles.dll + 0x492550(hierarchy C_OP_RemapControlPointOrientationToRotation: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapCrossProductOfTwoVectorsToVector
+	particles.dll + 0x48a950(hierarchy C_OP_RemapCrossProductOfTwoVectorsToVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapDensityGradientToVectorAttribute
+	particles.dll + 0x49ed90(hierarchy C_OP_RemapDensityGradientToVectorAttribute: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapDensityToVector
+	particles.dll + 0x48db70(hierarchy C_OP_RemapDensityToVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapDirectionToCPToVector
+	particles.dll + 0x495248(hierarchy C_OP_RemapDirectionToCPToVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapDistanceToLineSegmentToScalar
+	particles.dll + 0x49f528(hierarchy C_OP_RemapDistanceToLineSegmentToScalar: C_OP_RemapDistanceToLineSegmentBase, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapDistanceToLineSegmentToVector
+	particles.dll + 0x49f210(hierarchy C_OP_RemapDistanceToLineSegmentToVector: C_OP_RemapDistanceToLineSegmentBase, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapDotProductToCP
+	particles.dll + 0x4a7a68(hierarchy C_OP_RemapDotProductToCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapDotProductToScalar
+	particles.dll + 0x48e338(hierarchy C_OP_RemapDotProductToScalar: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapExternalWindToCP
+	particles.dll + 0x4a4a88(hierarchy C_OP_RemapExternalWindToCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapGravityToVector
+	particles.dll + 0x493468(hierarchy C_OP_RemapGravityToVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapModelVolumetoCP
+	particles.dll + 0x4a60b0(hierarchy C_OP_RemapModelVolumetoCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapNamedModelBodyPartEndCap
+	particles.dll + 0x495c90(hierarchy C_OP_RemapNamedModelBodyPartEndCap: C_OP_RemapNamedModelElementEndCap, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapNamedModelBodyPartOnceTimed
+	particles.dll + 0x48d068(hierarchy C_OP_RemapNamedModelBodyPartOnceTimed: C_OP_RemapNamedModelElementOnceTimed, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapNamedModelMeshGroupEndCap
+	particles.dll + 0x4944c8(hierarchy C_OP_RemapNamedModelMeshGroupEndCap: C_OP_RemapNamedModelElementEndCap, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapNamedModelMeshGroupOnceTimed
+	particles.dll + 0x498dd0(hierarchy C_OP_RemapNamedModelMeshGroupOnceTimed: C_OP_RemapNamedModelElementOnceTimed, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapNamedModelSequenceEndCap
+	particles.dll + 0x4928c0(hierarchy C_OP_RemapNamedModelSequenceEndCap: C_OP_RemapNamedModelElementEndCap, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapNamedModelSequenceOnceTimed
+	particles.dll + 0x491a48(hierarchy C_OP_RemapNamedModelSequenceOnceTimed: C_OP_RemapNamedModelElementOnceTimed, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapParticleCountOnScalarEndCap
+	particles.dll + 0x496c70(hierarchy C_OP_RemapParticleCountOnScalarEndCap: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapParticleCountToScalar
+	particles.dll + 0x494288(hierarchy C_OP_RemapParticleCountToScalar: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapSDFDistanceToScalarAttribute
+	particles.dll + 0x4a0b58(hierarchy C_OP_RemapSDFDistanceToScalarAttribute: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapSDFDistanceToVectorAttribute
+	particles.dll + 0x4a1278(hierarchy C_OP_RemapSDFDistanceToVectorAttribute: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapSDFGradientToVectorAttribute
+	particles.dll + 0x4a0ee8(hierarchy C_OP_RemapSDFGradientToVectorAttribute: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapScalar
+	particles.dll + 0x48d358(hierarchy C_OP_RemapScalar: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapScalarEndCap
+	particles.dll + 0x495780(hierarchy C_OP_RemapScalarEndCap: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapScalarOnceTimed
+	particles.dll + 0x48ca70(hierarchy C_OP_RemapScalarOnceTimed: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapSpeed
+	particles.dll + 0x48eec8(hierarchy C_OP_RemapSpeed: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapSpeedtoCP
+	particles.dll + 0x4a7690(hierarchy C_OP_RemapSpeedtoCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapTransformOrientationToRotations
+	particles.dll + 0x48cf00(hierarchy C_OP_RemapTransformOrientationToRotations: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapTransformOrientationToYaw
+	particles.dll + 0x490af0(hierarchy C_OP_RemapTransformOrientationToYaw: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapTransformToVelocity
+	particles.dll + 0x492f08(hierarchy C_OP_RemapTransformToVelocity: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapTransformVisibilityToScalar
+	particles.dll + 0x4989e8(hierarchy C_OP_RemapTransformVisibilityToScalar: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapTransformVisibilityToVector
+	particles.dll + 0x48c390(hierarchy C_OP_RemapTransformVisibilityToVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapVectorComponentToScalar
+	particles.dll + 0x4943a0(hierarchy C_OP_RemapVectorComponentToScalar: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapVectortoCP
+	particles.dll + 0x495fb0(hierarchy C_OP_RemapVectortoCP: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapVelocityToVector
+	particles.dll + 0x4971e0(hierarchy C_OP_RemapVelocityToVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_RemapVisibilityScalar
+	particles.dll + 0x48e670(hierarchy C_OP_RemapVisibilityScalar: CParticleFunctionOperator, CParticleFunction)
+C_OP_RenderAsModels
+	particles.dll + 0x4abdc0(hierarchy C_OP_RenderAsModels: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderBlobs
+	particles.dll + 0x4aaad8(hierarchy C_OP_RenderBlobs: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderCables
+	particles.dll + 0x4a95d0(hierarchy C_OP_RenderCables: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderClientPhysicsImpulse
+	particles.dll + 0x4ab4c8(hierarchy C_OP_RenderClientPhysicsImpulse: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderClothForce
+	particles.dll + 0x4ab060(hierarchy C_OP_RenderClothForce: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderDeferredLight
+	particles.dll + 0x4ac7e8(hierarchy C_OP_RenderDeferredLight: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderFlattenGrass
+	particles.dll + 0x4a9a88(hierarchy C_OP_RenderFlattenGrass: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderGpuImplicit
+	particles.dll + 0x4aca78(hierarchy C_OP_RenderGpuImplicit: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderLightBeam
+	particles.dll + 0x4a9cf8(hierarchy C_OP_RenderLightBeam: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderLights
+	particles.dll + 0x4aa358(hierarchy C_OP_RenderLights: C_OP_RenderPoints, CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderMaterialProxy
+	particles.dll + 0x4aee68(hierarchy C_OP_RenderMaterialProxy: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderModels
+	particles.dll + 0x4aa748(hierarchy C_OP_RenderModels: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderOmni2Light
+	particles.dll + 0x4af3f8(hierarchy C_OP_RenderOmni2Light: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderPoints
+	particles.dll + 0x4a9888(hierarchy C_OP_RenderPoints: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderPostProcessing
+	particles.dll + 0x4adcd8(hierarchy C_OP_RenderPostProcessing: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderProjected
+	particles.dll + 0x4aea90(hierarchy C_OP_RenderProjected: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderRopes
+	particles.dll + 0x4aae28(hierarchy C_OP_RenderRopes: CBaseRendererSource2, CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderScreenShake
+	particles.dll + 0x4ab698(hierarchy C_OP_RenderScreenShake: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderScreenVelocityRotate
+	particles.dll + 0x4ae8d0(hierarchy C_OP_RenderScreenVelocityRotate: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderSimpleModelCollection
+	particles.dll + 0x4ae0d8(hierarchy C_OP_RenderSimpleModelCollection: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderSound
+	particles.dll + 0x4ad660(hierarchy C_OP_RenderSound: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderSprites
+	particles.dll + 0x4b7a78(hierarchy C_OP_RenderSprites: CBaseRendererSource2, CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderStandardLight
+	particles.dll + 0x4ac318(hierarchy C_OP_RenderStandardLight: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderStatusEffect
+	particles.dll + 0x4aa0c0(hierarchy C_OP_RenderStatusEffect: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderStatusEffectCitadel
+	particles.dll + 0x4adaf8(hierarchy C_OP_RenderStatusEffectCitadel: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderText
+	particles.dll + 0x4ab9a8(hierarchy C_OP_RenderText: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderTonemapController
+	particles.dll + 0x4ad3a0(hierarchy C_OP_RenderTonemapController: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderTrails
+	particles.dll + 0x4ac528(hierarchy C_OP_RenderTrails: CBaseTrailRenderer, CBaseRendererSource2, CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderTreeShake
+	particles.dll + 0x4af7a8(hierarchy C_OP_RenderTreeShake: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RenderVRHapticEvent
+	particles.dll + 0x4ab2d0(hierarchy C_OP_RenderVRHapticEvent: CParticleFunctionRenderer, CParticleFunction)
+C_OP_RepeatedTriggerChildGroup
+	particles.dll + 0x4a50e8(hierarchy C_OP_RepeatedTriggerChildGroup: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_RestartAfterDuration
+	particles.dll + 0x489ca0(hierarchy C_OP_RestartAfterDuration: CParticleFunctionOperator, CParticleFunction)
+C_OP_RopeSpringConstraint
+	particles.dll + 0x474bc0(hierarchy C_OP_RopeSpringConstraint: CParticleFunctionConstraint, CParticleFunction)
+C_OP_RotateVector
+	particles.dll + 0x4917e8(hierarchy C_OP_RotateVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_RtEnvCull
+	particles.dll + 0x48c568(hierarchy C_OP_RtEnvCull: CParticleFunctionOperator, CParticleFunction)
+C_OP_SDFConstraint
+	particles.dll + 0x4a0dc8(hierarchy C_OP_SDFConstraint: CParticleFunctionConstraint, CParticleFunction)
+C_OP_SDFForce
+	particles.dll + 0x4a1160(hierarchy C_OP_SDFForce: CParticleFunctionForce, CParticleFunction)
+C_OP_SDFLighting
+	particles.dll + 0x4a0ca0(hierarchy C_OP_SDFLighting: CParticleFunctionOperator, CParticleFunction)
+C_OP_SelectivelyEnableChildren
+	particles.dll + 0x4a6ab0(hierarchy C_OP_SelectivelyEnableChildren: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SequenceFromModel
+	particles.dll + 0x48ff58(hierarchy C_OP_SequenceFromModel: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetAttributeToScalarExpression
+	particles.dll + 0x48b140(hierarchy C_OP_SetAttributeToScalarExpression: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetCPOrientationToDirection
+	particles.dll + 0x494ea8(hierarchy C_OP_SetCPOrientationToDirection: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetCPOrientationToGroundNormal
+	particles.dll + 0x48f4f8(hierarchy C_OP_SetCPOrientationToGroundNormal: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetCPOrientationToPointAtCP
+	particles.dll + 0x4a8b08(hierarchy C_OP_SetCPOrientationToPointAtCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetCPtoVector
+	particles.dll + 0x4921c8(hierarchy C_OP_SetCPtoVector: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetChildControlPoints
+	particles.dll + 0x48a090(hierarchy C_OP_SetChildControlPoints: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointFieldFromVectorExpression
+	particles.dll + 0x4a5678(hierarchy C_OP_SetControlPointFieldFromVectorExpression: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointFieldToScalarExpression
+	particles.dll + 0x4a5520(hierarchy C_OP_SetControlPointFieldToScalarExpression: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointFieldToWater
+	particles.dll + 0x4a64e8(hierarchy C_OP_SetControlPointFieldToWater: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointFromObjectScale
+	particles.dll + 0x4a6720(hierarchy C_OP_SetControlPointFromObjectScale: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointOrientation
+	particles.dll + 0x4a4f80(hierarchy C_OP_SetControlPointOrientation: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointOrientationToCPVelocity
+	particles.dll + 0x4a7400(hierarchy C_OP_SetControlPointOrientationToCPVelocity: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointPositionToRandomActiveCP
+	particles.dll + 0x4a5d80(hierarchy C_OP_SetControlPointPositionToRandomActiveCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointPositionToTimeOfDayValue
+	particles.dll + 0x4a6de0(hierarchy C_OP_SetControlPointPositionToTimeOfDayValue: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointPositions
+	particles.dll + 0x4a68f8(hierarchy C_OP_SetControlPointPositions: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointRotation
+	particles.dll + 0x4a5408(hierarchy C_OP_SetControlPointRotation: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointToCPVelocity
+	particles.dll + 0x4a84c8(hierarchy C_OP_SetControlPointToCPVelocity: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointToCenter
+	particles.dll + 0x4a7e68(hierarchy C_OP_SetControlPointToCenter: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointToHMD
+	particles.dll + 0x4a59f0(hierarchy C_OP_SetControlPointToHMD: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointToHand
+	particles.dll + 0x4a8600(hierarchy C_OP_SetControlPointToHand: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointToImpactPoint
+	particles.dll + 0x4a8c80(hierarchy C_OP_SetControlPointToImpactPoint: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointToPlayer
+	particles.dll + 0x4a5250(hierarchy C_OP_SetControlPointToPlayer: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointToVectorExpression
+	particles.dll + 0x4a78c0(hierarchy C_OP_SetControlPointToVectorExpression: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointToWaterSurface
+	particles.dll + 0x4a88d8(hierarchy C_OP_SetControlPointToWaterSurface: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointsToModelParticles
+	particles.dll + 0x495dd8(hierarchy C_OP_SetControlPointsToModelParticles: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetControlPointsToParticle
+	particles.dll + 0x4958f8(hierarchy C_OP_SetControlPointsToParticle: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetFloat
+	particles.dll + 0x493b90(hierarchy C_OP_SetFloat: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetFloatAttributeToVectorExpression
+	particles.dll + 0x48fde0(hierarchy C_OP_SetFloatAttributeToVectorExpression: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetFloatCollection
+	particles.dll + 0x48bb38(hierarchy C_OP_SetFloatCollection: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetFromCPSnapshot
+	particles.dll + 0x48d490(hierarchy C_OP_SetFromCPSnapshot: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetGravityToCP
+	particles.dll + 0x4a47d0(hierarchy C_OP_SetGravityToCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetParentControlPointsToChildCP
+	particles.dll + 0x4a7fa0(hierarchy C_OP_SetParentControlPointsToChildCP: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetPerChildControlPoint
+	particles.dll + 0x494cd0(hierarchy C_OP_SetPerChildControlPoint: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetPerChildControlPointFromAttribute
+	particles.dll + 0x4973b8(hierarchy C_OP_SetPerChildControlPointFromAttribute: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetRandomControlPointPosition
+	particles.dll + 0x4a8138(hierarchy C_OP_SetRandomControlPointPosition: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetSimulationRate
+	particles.dll + 0x4a5b08(hierarchy C_OP_SetSimulationRate: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetSingleControlPointPosition
+	particles.dll + 0x4a82e0(hierarchy C_OP_SetSingleControlPointPosition: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetToCP
+	particles.dll + 0x48c0a0(hierarchy C_OP_SetToCP: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetUserEvent
+	particles.dll + 0x490450(hierarchy C_OP_SetUserEvent: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetVariable
+	particles.dll + 0x4a77a8(hierarchy C_OP_SetVariable: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_SetVec
+	particles.dll + 0x491fb0(hierarchy C_OP_SetVec: CParticleFunctionOperator, CParticleFunction)
+C_OP_SetVectorAttributeToVectorExpression
+	particles.dll + 0x48b9c0(hierarchy C_OP_SetVectorAttributeToVectorExpression: CParticleFunctionOperator, CParticleFunction)
+C_OP_ShapeMatchingConstraint
+	particles.dll + 0x473948(hierarchy C_OP_ShapeMatchingConstraint: CParticleFunctionConstraint, CParticleFunction)
+C_OP_SnapshotRigidSkinToBones
+	particles.dll + 0x498270(hierarchy C_OP_SnapshotRigidSkinToBones: CParticleFunctionOperator, CParticleFunction)
+C_OP_SnapshotSkinToBones
+	particles.dll + 0x48d850(hierarchy C_OP_SnapshotSkinToBones: CParticleFunctionOperator, CParticleFunction)
+C_OP_Spin
+	particles.dll + 0x48e1c8(hierarchy C_OP_Spin: CGeneralSpin, CParticleFunctionOperator, CParticleFunction)
+C_OP_SpinUpdate
+	particles.dll + 0x495440(hierarchy C_OP_SpinUpdate: CSpinUpdateBase, CParticleFunctionOperator, CParticleFunction)
+C_OP_SpinYaw
+	particles.dll + 0x491120(hierarchy C_OP_SpinYaw: CGeneralSpin, CParticleFunctionOperator, CParticleFunction)
+C_OP_SpringToVectorConstraint
+	particles.dll + 0x474128(hierarchy C_OP_SpringToVectorConstraint: CParticleFunctionConstraint, CParticleFunction)
+C_OP_StopAfterCPDuration
+	particles.dll + 0x4a4360(hierarchy C_OP_StopAfterCPDuration: CParticleFunctionPreEmission, CParticleFunctionOperator, CParticleFunction)
+C_OP_TeleportBeam
+	particles.dll + 0x49ec18(hierarchy C_OP_TeleportBeam: CParticleFunctionOperator, CParticleFunction)
+C_OP_TimeVaryingForce
+	particles.dll + 0x476e78(hierarchy C_OP_TimeVaryingForce: CParticleFunctionForce, CParticleFunction)
+C_OP_TurbulenceForce
+	particles.dll + 0x4781f0(hierarchy C_OP_TurbulenceForce: CParticleFunctionForce, CParticleFunction)
+C_OP_TwistAroundAxis
+	particles.dll + 0x477248(hierarchy C_OP_TwistAroundAxis: CParticleFunctionForce, CParticleFunction)
+C_OP_UpdateLightSource
+	particles.dll + 0x4a09e0(hierarchy C_OP_UpdateLightSource: CParticleFunctionOperator, CParticleFunction)
+C_OP_VectorFieldSnapshot
+	particles.dll + 0x489b08(hierarchy C_OP_VectorFieldSnapshot: CParticleFunctionOperator, CParticleFunction)
+C_OP_VectorNoise
+	particles.dll + 0x4975f0(hierarchy C_OP_VectorNoise: CParticleFunctionOperator, CParticleFunction)
+C_OP_VelocityDecay
+	particles.dll + 0x48b838(hierarchy C_OP_VelocityDecay: CParticleFunctionOperator, CParticleFunction)
+C_OP_VelocityMatchingForce
+	particles.dll + 0x4945e0(hierarchy C_OP_VelocityMatchingForce: CParticleFunctionOperator, CParticleFunction)
+C_OP_WindForce
+	particles.dll + 0x4777c8(hierarchy C_OP_WindForce: CParticleFunctionForce, CParticleFunction)
+C_OP_WorldCollideConstraint
+	particles.dll + 0x473d18(hierarchy C_OP_WorldCollideConstraint: CParticleFunctionConstraint, CParticleFunction)
+C_OP_WorldTraceConstraint
+	particles.dll + 0x473f88(hierarchy C_OP_WorldTraceConstraint: CParticleFunctionConstraint, CParticleFunction)
+Concurrency::details::stl_condition_variable_win7
+	particles.dll + 0x45e450(hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+Concurrency::details::stl_critical_section_win7
+	particles.dll + 0x40de68(hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+DNameStatusNode
+	particles.dll + 0x4104e0(hierarchy DNameStatusNode: DNameNode)
+FakeEntityDerivedA_t
+	particles.dll + 0x409a90(hierarchy FakeEntityDerivedA_t: FakeEntity_t)
+FakeEntityDerivedB_t
+	particles.dll + 0x409ac8(hierarchy FakeEntityDerivedB_t: FakeEntityDerivedA_t, FakeEntity_t)
+FakeEntity_t
+	particles.dll + 0x4098c8(hierarchy FakeEntity_t)
+IAsyncProcessedDataResult
+	particles.dll + 0x4692a0(hierarchy IAsyncProcessedDataResult)
+IMultipleWorkerJob
+	particles.dll + 0x3fd660(hierarchy IMultipleWorkerJob)
+IParticleCollection
+	particles.dll + 0x465890(hierarchy IParticleCollection)
+IParticleSnapshot
+	particles.dll + 0x464ae8(hierarchy IParticleSnapshot)
+IParticleSystemDefinition
+	particles.dll + 0x466750(hierarchy IParticleSystemDefinition)
+IRenderReadCallback
+	particles.dll + 0x4691c0(hierarchy IRenderReadCallback)
+charNode
+	particles.dll + 0x410468(hierarchy charNode: DNameNode)
+moodycamel::ConcurrentQueue<int,struct moodycamel::ConcurrentQueueDefaultTraits>::ExplicitProducer
+	particles.dll + 0x3fd7d8(hierarchy moodycamel::ConcurrentQueue<int,struct moodycamel::ConcurrentQueueDefaultTraits>::ExplicitProducer: moodycamel::ConcurrentQueue<int,struct moodycamel::ConcurrentQueueDefaultTraits>::ProducerBase, moodycamel::details::ConcurrentQueueProducerTypelessBase)
+moodycamel::ConcurrentQueue<int,struct moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducer
+	particles.dll + 0x3fd7c8(hierarchy moodycamel::ConcurrentQueue<int,struct moodycamel::ConcurrentQueueDefaultTraits>::ImplicitProducer: moodycamel::ConcurrentQueue<int,struct moodycamel::ConcurrentQueueDefaultTraits>::ProducerBase, moodycamel::details::ConcurrentQueueProducerTypelessBase)
+moodycamel::ConcurrentQueue<int,struct moodycamel::ConcurrentQueueDefaultTraits>::ProducerBase
+	particles.dll + 0x3fd778(hierarchy moodycamel::ConcurrentQueue<int,struct moodycamel::ConcurrentQueueDefaultTraits>::ProducerBase: moodycamel::details::ConcurrentQueueProducerTypelessBase)
+pDNameNode
+	particles.dll + 0x4104b8(hierarchy pDNameNode: DNameNode)
+pairNode
+	particles.dll + 0x410508(hierarchy pairNode: DNameNode)
+pcharNode
+	particles.dll + 0x410490(hierarchy pcharNode: DNameNode)
+std::_Func_impl_no_alloc<class GapBindingSchemaEnumTraits_t<enum PulseCursorCancelPriority_t>::<lambda_1>,class CPulseValueFullType>
+	particles.dll + 0x4016d8(hierarchy std::_Func_impl_no_alloc<class GapBindingSchemaEnumTraits_t<enum PulseCursorCancelPriority_t>::<lambda_1>,class CPulseValueFullType>: std::_Func_base<class CPulseValueFullType>)
+std::_Func_impl_no_alloc<class `public: virtual void __cdecl C_OP_IntraParticleForce::AddForces(class FourVectors * __ptr64,class CParticleCollection * __ptr64,class CUtlLocalStackBuffer<union __m128> const & __ptr64,int,float,void * __ptr64)const __ptr64'::`9'::<lambda_2>,void,struct PairCollisionList_t const * __ptr64>
+	particles.dll + 0x477e18(hierarchy std::_Func_impl_no_alloc<class `public: virtual void __cdecl C_OP_IntraParticleForce::AddForces(class FourVectors * __ptr64,class CParticleCollection * __ptr64,class CUtlLocalStackBuffer<union __m128> const & __ptr64,int,float,void * __ptr64)const __ptr64'::`9'::<lambda_2>,void,struct PairCollisionList_t const * __ptr64>: std::_Func_base<void,struct PairCollisionList_t const * __ptr64>)
+std::_Func_impl_no_alloc<class `public: virtual void __cdecl C_OP_VelocityMatchingForce::Operate(class CParticleCollection * __ptr64,float,void * __ptr64)const __ptr64'::`8'::<lambda_2>,void,struct PairCollisionList_t const * __ptr64>
+	particles.dll + 0x491d80(hierarchy std::_Func_impl_no_alloc<class `public: virtual void __cdecl C_OP_VelocityMatchingForce::Operate(class CParticleCollection * __ptr64,float,void * __ptr64)const __ptr64'::`8'::<lambda_2>,void,struct PairCollisionList_t const * __ptr64>: std::_Func_base<void,struct PairCollisionList_t const * __ptr64>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CGpuImplicitRenderer::DrawBlobulatorImplicits(class IRenderContext * __ptr64,class IMaterialMode const * __ptr64,float,float,struct CGpuImplicitRenderer::Config_t const & __ptr64,class CUtlVector<struct CGpuImplicitRenderer::Particle_t,int,class CUtlMemory<struct CGpuImplicitRenderer::Particle_t,int> > const & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CRenderAttributes * __ptr64>
+	particles.dll + 0x462e68(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CGpuImplicitRenderer::DrawBlobulatorImplicits(class IRenderContext * __ptr64,class IMaterialMode const * __ptr64,float,float,struct CGpuImplicitRenderer::Config_t const & __ptr64,class CUtlVector<struct CGpuImplicitRenderer::Particle_t,int,class CUtlMemory<struct CGpuImplicitRenderer::Particle_t,int> > const & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CRenderAttributes * __ptr64>: std::_Func_base<void,class CRenderAttributes * __ptr64>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CGpuImplicitRenderer::DrawSoftObjectImplicits(class IRenderContext * __ptr64,class IMaterialMode const * __ptr64,float,float,struct CGpuImplicitRenderer::Config_t const & __ptr64,class CUtlVector<struct CGpuImplicitRenderer::Particle_t,int,class CUtlMemory<struct CGpuImplicitRenderer::Particle_t,int> > const & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CRenderAttributes * __ptr64>
+	particles.dll + 0x4646d8(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CGpuImplicitRenderer::DrawSoftObjectImplicits(class IRenderContext * __ptr64,class IMaterialMode const * __ptr64,float,float,struct CGpuImplicitRenderer::Config_t const & __ptr64,class CUtlVector<struct CGpuImplicitRenderer::Particle_t,int,class CUtlMemory<struct CGpuImplicitRenderer::Particle_t,int> > const & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CRenderAttributes * __ptr64>: std::_Func_base<void,class CRenderAttributes * __ptr64>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CGpuImplicitRenderer::DrawSoftObjectImplicitsWithRadii(class IRenderContext * __ptr64,class IMaterialMode const * __ptr64,float,struct CGpuImplicitRenderer::Config_t const & __ptr64,class CUtlVector<struct CGpuImplicitRenderer::Particle_t,int,class CUtlMemory<struct CGpuImplicitRenderer::Particle_t,int> > const & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CRenderAttributes * __ptr64>
+	particles.dll + 0x462ea0(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CGpuImplicitRenderer::DrawSoftObjectImplicitsWithRadii(class IRenderContext * __ptr64,class IMaterialMode const * __ptr64,float,struct CGpuImplicitRenderer::Config_t const & __ptr64,class CUtlVector<struct CGpuImplicitRenderer::Particle_t,int,class CUtlMemory<struct CGpuImplicitRenderer::Particle_t,int> > const & __ptr64) __ptr64'::`2'::<lambda_1>,void,class CRenderAttributes * __ptr64>: std::_Func_base<void,class CRenderAttributes * __ptr64>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::FillAttr(int,float) __ptr64'::`13'::<lambda_1>,void>
+	particles.dll + 0x40da90(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::FillAttr(int,float) __ptr64'::`13'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::FilterInY(int,class IntAABB_t,int,float const * __ptr64,bool) __ptr64'::`7'::<lambda_1>,void>
+	particles.dll + 0x40dac8(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::FilterInY(int,class IntAABB_t,int,float const * __ptr64,bool) __ptr64'::`7'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::FilterInZ(int,class IntAABB_t,int,float const * __ptr64,bool) __ptr64'::`7'::<lambda_1>,void>
+	particles.dll + 0x40db00(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CSOAContainer::FilterInZ(int,class IntAABB_t,int,float const * __ptr64,bool) __ptr64'::`7'::<lambda_1>,void>: std::_Func_base<void>)
+std::_Generic_error_category
+	particles.dll + 0x40dfb0(hierarchy std::_Generic_error_category: std::error_category)
+std::_Ref_count_obj2<class CParticleNamedValueStorageLayout>
+	particles.dll + 0x4665f0(hierarchy std::_Ref_count_obj2<class CParticleNamedValueStorageLayout>: std::_Ref_count_base)
+std::_System_error
+	particles.dll + 0x417dc0(hierarchy std::_System_error: std::runtime_error, std::exception)
+std::__non_rtti_object
+	particles.dll + 0x40f048(hierarchy std::__non_rtti_object: std::bad_typeid, std::exception)
+std::bad_alloc
+	particles.dll + 0x3fd618(hierarchy std::bad_alloc: std::exception)
+std::bad_array_new_length
+	particles.dll + 0x3fd630(hierarchy std::bad_array_new_length: std::bad_alloc, std::exception)
+std::bad_cast
+	particles.dll + 0x40f018(hierarchy std::bad_cast: std::exception)
+std::bad_exception
+	particles.dll + 0x410688(hierarchy std::bad_exception: std::exception)
+std::bad_function_call
+	particles.dll + 0x40ddc8(hierarchy std::bad_function_call: std::exception)
+std::bad_typeid
+	particles.dll + 0x40f030(hierarchy std::bad_typeid: std::exception)
+std::exception
+	particles.dll + 0x3fd5e8(hierarchy std::exception)
+std::length_error
+	particles.dll + 0x40de10(hierarchy std::length_error: std::logic_error, std::exception)
+std::logic_error
+	particles.dll + 0x40ddf8(hierarchy std::logic_error: std::exception)
+std::runtime_error
+	particles.dll + 0x417da0(hierarchy std::runtime_error: std::exception)
+std::system_error
+	particles.dll + 0x417de0(hierarchy std::system_error: std::_System_error, std::runtime_error, std::exception)
+type_info
+	particles.dll + 0x40ef90(hierarchy type_info)

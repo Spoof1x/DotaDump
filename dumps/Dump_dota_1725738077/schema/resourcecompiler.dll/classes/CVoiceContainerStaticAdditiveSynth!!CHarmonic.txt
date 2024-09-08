@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVoiceContainerStaticAdditiveSynth::CHarmonic (size: 0x68 bytes, project "soundsystem_voicecontainers", binding @ resourcecompiler.dll + 0x24c1f30, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x165e840"
+
+-----members of class CVoiceContainerStaticAdditiveSynth::CHarmonic-----
+	EWaveform m_nWaveform(offset 0x0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Waveform"
+	EMidiNote m_nFundamental(offset 0x1, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Note"
+	uint8_t[2] unaccounted(offset 0x2)
+	int32 m_nOctave(offset 0x4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Octave"
+	float32 m_flCents(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Cents To Detune ( -100:100 )"
+	float32 m_flPhase(offset 0xc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Phase ( 0 - 1 )"
+	CPiecewiseCurve m_curve(offset 0x10, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Envelope (Relative to Tone Envelope)"
+	CVoiceContainerStaticAdditiveSynth::CGainScalePerInstance m_volumeScaling(offset 0x50, size 0x10, align 0x4)
+	uint8_t[8] unaccounted(offset 0x60)
+

@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class SkeletonAnimCapture_t::Frame_t (size: 0xc0 bytes, project "modellib", binding @ vphysics2.dll + 0x38d6f0, scope "vphysics2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0xd5bd0"
+
+-----members of class SkeletonAnimCapture_t::Frame_t-----
+	float32 m_flTime(offset 0x0, size 0x4, align 0x4)
+	SkeletonAnimCapture_t::FrameStamp_t m_Stamp(offset 0x4, size 0x1c, align 0x4)
+	CTransform m_Transform(offset 0x20, size 0x20, align 0x10)
+	bool m_bTeleport(offset 0x40, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x41)
+	CUtlVector< CTransform > m_CompositeBones(offset 0x48, size 0x18, align 0x8)
+	CUtlVector< CTransform > m_SimStateBones(offset 0x60, size 0x18, align 0x8)
+	CUtlVector< CTransform > m_FeModelAnims(offset 0x78, size 0x18, align 0x8)
+	CUtlVector< VectorAligned > m_FeModelPos(offset 0x90, size 0x18, align 0x8)
+	CUtlVector< float32 > m_FlexControllerWeights(offset 0xa8, size 0x18, align 0x8)
+

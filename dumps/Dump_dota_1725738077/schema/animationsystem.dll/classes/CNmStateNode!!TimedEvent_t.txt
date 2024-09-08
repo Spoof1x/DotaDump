@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmStateNode::TimedEvent_t (size: 0x10 bytes, project "animlib", binding @ animationsystem.dll + 0x5e0830, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x33ec40"
+
+-----members of class CNmStateNode::TimedEvent_t-----
+	CGlobalSymbol m_ID(offset 0x0, size 0x8, align 0x8)
+	float32 m_flTimeValueSeconds(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+

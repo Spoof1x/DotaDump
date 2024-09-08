@@ -1,0 +1,994 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+C2S_CONNECTION_Message (hierarchy C2S_CONNECTION_Message: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x537f70
+C2S_CONNECT_Message (hierarchy C2S_CONNECT_Message: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x537f90
+CAttributeDictSaveDataOps (hierarchy CAttributeDictSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+	engine2.dll + 0x52f698
+CBannedUsersFilter (hierarchy CBannedUsersFilter: IBannedUsersFilter)
+	engine2.dll + 0x5b43a0
+CBenchmarkService (hierarchy CBenchmarkService: CBaseEngineService<class IBenchmarkService>, CTier4AppSystem<class IBenchmarkService,0>, CTier3AppSystem<class IBenchmarkService,0>, CTier2AppSystem<class IBenchmarkService,0>, CTier1AppSystem<class IBenchmarkService,0>, CTier0AppSystem<class IBenchmarkService,0>, CBaseAppSystem<class IBenchmarkService>, IBenchmarkService, IEngineService, IAppSystem)
+	engine2.dll + 0x539be0
+CBidirMsg_RebroadcastGameEvent (hierarchy CBidirMsg_RebroadcastGameEvent: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538730
+CBidirMsg_RebroadcastSource (hierarchy CBidirMsg_RebroadcastSource: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538e10
+CBreakpadPassiveAssertionFailureListener (hierarchy CBreakpadPassiveAssertionFailureListener: IAssertionFailureListener)
+	engine2.dll + 0x53a440
+CBroadcastPlayer
+	(hierarchy CBroadcastPlayer: IDemoPlayer, IBroadcastPlayer)
+		engine2.dll + 0x5378b0
+	MI offset 8 (hierarchy IBroadcastPlayer)
+		engine2.dll + 0x5378b8
+CBugService
+	(hierarchy CBugService: CBaseEngineService<class IEngineService>, CTier4AppSystem<class IEngineService,0>, CTier3AppSystem<class IEngineService,0>, CTier2AppSystem<class IEngineService,0>, CTier1AppSystem<class IEngineService,0>, CTier0AppSystem<class IEngineService,0>, CBaseAppSystem<class IEngineService>, IEngineService, IAppSystem, IVConCommDataReceived, IScreenshotCallback, IVoiceTarget)
+		engine2.dll + 0x5b53b0
+	MI offset 56 (hierarchy IVConCommDataReceived: IScreenshotCallback, IVoiceTarget)
+		engine2.dll + 0x5b53e8
+	MI offset 64 (hierarchy IScreenshotCallback: IVoiceTarget)
+		engine2.dll + 0x5b53f0
+	MI offset 72 (hierarchy IVoiceTarget)
+		engine2.dll + 0x5b53f8
+CCLCMsg_BaselineAck (hierarchy CCLCMsg_BaselineAck: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538a48
+CCLCMsg_ClientInfo (hierarchy CCLCMsg_ClientInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538808
+CCLCMsg_CmdKeyValues (hierarchy CCLCMsg_CmdKeyValues: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5386e0
+CCLCMsg_Diagnostic (hierarchy CCLCMsg_Diagnostic: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539288
+CCLCMsg_FileCRCCheck (hierarchy CCLCMsg_FileCRCCheck: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538610
+CCLCMsg_HltvFixupOperatorTick (hierarchy CCLCMsg_HltvFixupOperatorTick: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538f70
+CCLCMsg_HltvReplay (hierarchy CCLCMsg_HltvReplay: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538700
+CCLCMsg_ListenEvents (hierarchy CCLCMsg_ListenEvents: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538678
+CCLCMsg_LoadingProgress (hierarchy CCLCMsg_LoadingProgress: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5385d0
+CCLCMsg_Move (hierarchy CCLCMsg_Move: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5387e0
+CCLCMsg_RconServerDetails (hierarchy CCLCMsg_RconServerDetails: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539170
+CCLCMsg_RequestPause (hierarchy CCLCMsg_RequestPause: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538ab0
+CCLCMsg_RespondCvarValue (hierarchy CCLCMsg_RespondCvarValue: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538648
+CCLCMsg_ServerStatus (hierarchy CCLCMsg_ServerStatus: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5386c0
+CCLCMsg_SplitPlayerConnect (hierarchy CCLCMsg_SplitPlayerConnect: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538ef8
+CCLCMsg_SplitPlayerDisconnect (hierarchy CCLCMsg_SplitPlayerDisconnect: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538d28
+CCLCMsg_VoiceData (hierarchy CCLCMsg_VoiceData: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538780
+CCallback<class CSteam3Client,struct ClientGameServerDeny_t,0> (hierarchy CCallback<class CSteam3Client,struct ClientGameServerDeny_t,0>: CCallbackImpl<16>, CCallbackBase)
+	engine2.dll + 0x5367c0
+CCallback<class CSteam3Client,struct GameOverlayActivated_t,0> (hierarchy CCallback<class CSteam3Client,struct GameOverlayActivated_t,0>: CCallbackImpl<12>, CCallbackBase)
+	engine2.dll + 0x536800
+CCallback<class CSteam3Client,struct GameServerChangeRequested_t,0> (hierarchy CCallback<class CSteam3Client,struct GameServerChangeRequested_t,0>: CCallbackImpl<128>, CCallbackBase)
+	engine2.dll + 0x5367e0
+CCallback<class CSteam3Client,struct LowBatteryPower_t,0> (hierarchy CCallback<class CSteam3Client,struct LowBatteryPower_t,0>: CCallbackImpl<1>, CCallbackBase)
+	engine2.dll + 0x536840
+CCallback<class CSteam3Client,struct PersonaStateChange_t,0> (hierarchy CCallback<class CSteam3Client,struct PersonaStateChange_t,0>: CCallbackImpl<16>, CCallbackBase)
+	engine2.dll + 0x536820
+CCallback<class CSteam3Client,struct SocketStatusCallback_t,0> (hierarchy CCallback<class CSteam3Client,struct SocketStatusCallback_t,0>: CCallbackImpl<20>, CCallbackBase)
+	engine2.dll + 0x536860
+CCallback<class CSteam3ServerS1,struct GSPolicyResponse_t,1> (hierarchy CCallback<class CSteam3ServerS1,struct GSPolicyResponse_t,1>: CCallbackImpl<1>, CCallbackBase)
+	engine2.dll + 0x537650
+CCallback<class CSteam3ServerS1,struct SteamServerConnectFailure_t,1> (hierarchy CCallback<class CSteam3ServerS1,struct SteamServerConnectFailure_t,1>: CCallbackImpl<8>, CCallbackBase)
+	engine2.dll + 0x537610
+CCallback<class CSteam3ServerS1,struct SteamServersConnected_t,1> (hierarchy CCallback<class CSteam3ServerS1,struct SteamServersConnected_t,1>: CCallbackImpl<1>, CCallbackBase)
+	engine2.dll + 0x5375f0
+CCallback<class CSteam3ServerS1,struct SteamServersDisconnected_t,1> (hierarchy CCallback<class CSteam3ServerS1,struct SteamServersDisconnected_t,1>: CCallbackImpl<4>, CCallbackBase)
+	engine2.dll + 0x537630
+CCallback<class CSteam3ServerS1,struct ValidateAuthTicketResponse_t,1> (hierarchy CCallback<class CSteam3ServerS1,struct ValidateAuthTicketResponse_t,1>: CCallbackImpl<20>, CCallbackBase)
+	engine2.dll + 0x537670
+CClientOnlyServerConfig (hierarchy CClientOnlyServerConfig: CDefaultServerConfig, CBaseAppSystem<class ISource2ServerConfig>, ISource2ServerConfig, IAppSystem)
+	engine2.dll + 0x5338f8
+CColorizedLoggingListener (hierarchy CColorizedLoggingListener: CSimpleLoggingListener, ILoggingListener)
+	engine2.dll + 0x52db60
+CConCommandMemberAccessor<class CBannedUsersFilter>
+	(hierarchy CConCommandMemberAccessor<class CBannedUsersFilter>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x5b43a8
+		engine2.dll + 0x5b43d8
+		engine2.dll + 0x5b4408
+		engine2.dll + 0x5b4438
+		engine2.dll + 0x5b4468
+		engine2.dll + 0x5b4498
+		engine2.dll + 0x5b44c8
+		engine2.dll + 0x5b44f8
+		engine2.dll + 0x5b4528
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x5b43b0
+		engine2.dll + 0x5b43e0
+		engine2.dll + 0x5b4410
+		engine2.dll + 0x5b4440
+		engine2.dll + 0x5b4470
+		engine2.dll + 0x5b44a0
+		engine2.dll + 0x5b44d0
+		engine2.dll + 0x5b4500
+		engine2.dll + 0x5b4530
+CConCommandMemberAccessor<class CBugService>
+	(hierarchy CConCommandMemberAccessor<class CBugService>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x5b5408
+		engine2.dll + 0x5b5448
+		engine2.dll + 0x5b5488
+		engine2.dll + 0x5b54c8
+		engine2.dll + 0x5b5508
+		engine2.dll + 0x5b5548
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x5b5410
+		engine2.dll + 0x5b5450
+		engine2.dll + 0x5b5490
+		engine2.dll + 0x5b54d0
+		engine2.dll + 0x5b5510
+		engine2.dll + 0x5b5550
+CConCommandMemberAccessor<class CGameUIService>
+	(hierarchy CConCommandMemberAccessor<class CGameUIService>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x5b56f8
+		engine2.dll + 0x5b5738
+		engine2.dll + 0x5b5778
+		engine2.dll + 0x5b57b8
+		engine2.dll + 0x5b57f8
+		engine2.dll + 0x5b5838
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x5b5700
+		engine2.dll + 0x5b5740
+		engine2.dll + 0x5b5780
+		engine2.dll + 0x5b57c0
+		engine2.dll + 0x5b5800
+		engine2.dll + 0x5b5840
+CConCommandMemberAccessor<class CInputService>
+	(hierarchy CConCommandMemberAccessor<class CInputService>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x5b5a08
+		engine2.dll + 0x5b5a48
+		engine2.dll + 0x5b5a88
+		engine2.dll + 0x5b5ac8
+		engine2.dll + 0x5b5b08
+		engine2.dll + 0x5b5b48
+		engine2.dll + 0x5b5b88
+		engine2.dll + 0x5b5bc8
+		engine2.dll + 0x5b5c08
+		engine2.dll + 0x5b5c48
+		engine2.dll + 0x5b5c88
+		engine2.dll + 0x5b5cc8
+		engine2.dll + 0x5b5d08
+		engine2.dll + 0x5b5d48
+		engine2.dll + 0x5b5d88
+		engine2.dll + 0x5b5dc8
+		engine2.dll + 0x5b5e08
+		engine2.dll + 0x5b5e48
+		engine2.dll + 0x5b5e88
+		engine2.dll + 0x5b5ec8
+		engine2.dll + 0x5b5f08
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x5b5a10
+		engine2.dll + 0x5b5a50
+		engine2.dll + 0x5b5a90
+		engine2.dll + 0x5b5ad0
+		engine2.dll + 0x5b5b10
+		engine2.dll + 0x5b5b50
+		engine2.dll + 0x5b5b90
+		engine2.dll + 0x5b5bd0
+		engine2.dll + 0x5b5c10
+		engine2.dll + 0x5b5c50
+		engine2.dll + 0x5b5c90
+		engine2.dll + 0x5b5cd0
+		engine2.dll + 0x5b5d10
+		engine2.dll + 0x5b5d50
+		engine2.dll + 0x5b5d90
+		engine2.dll + 0x5b5dd0
+		engine2.dll + 0x5b5e10
+		engine2.dll + 0x5b5e50
+		engine2.dll + 0x5b5e90
+		engine2.dll + 0x5b5ed0
+		engine2.dll + 0x5b5f10
+CConCommandMemberAccessor<class CLog>
+	(hierarchy CConCommandMemberAccessor<class CLog>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x5b46c0
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x5b46c8
+CConCommandMemberAccessor<class CMapListService>
+	(hierarchy CConCommandMemberAccessor<class CMapListService>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x5f49f8
+		engine2.dll + 0x5f4a28
+		engine2.dll + 0x5f4a58
+		engine2.dll + 0x5f4a88
+		engine2.dll + 0x5f4ab8
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x5f4a00
+		engine2.dll + 0x5f4a30
+		engine2.dll + 0x5f4a60
+		engine2.dll + 0x5f4a90
+		engine2.dll + 0x5f4ac0
+CConCommandMemberAccessor<class CNetworkClientService>
+	(hierarchy CConCommandMemberAccessor<class CNetworkClientService>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x5f4cc0
+		engine2.dll + 0x5f4d00
+		engine2.dll + 0x5f4d40
+		engine2.dll + 0x5f4d80
+		engine2.dll + 0x5f4dc0
+		engine2.dll + 0x5f4e00
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x5f4cc8
+		engine2.dll + 0x5f4d08
+		engine2.dll + 0x5f4d48
+		engine2.dll + 0x5f4d88
+		engine2.dll + 0x5f4dc8
+		engine2.dll + 0x5f4e08
+CConCommandMemberAccessor<class CNetworkP2PService>
+	(hierarchy CConCommandMemberAccessor<class CNetworkP2PService>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x53a0c0
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x53a0c8
+CConCommandMemberAccessor<class CNetworkServerService>
+	(hierarchy CConCommandMemberAccessor<class CNetworkServerService>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x5f4f28
+		engine2.dll + 0x5f4f68
+		engine2.dll + 0x5f4fa8
+		engine2.dll + 0x5f4fe8
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x5f4f30
+		engine2.dll + 0x5f4f70
+		engine2.dll + 0x5f4fb0
+		engine2.dll + 0x5f4ff0
+CConCommandMemberAccessor<class CRenderService>
+	(hierarchy CConCommandMemberAccessor<class CRenderService>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x5f5188
+		engine2.dll + 0x5f51c8
+		engine2.dll + 0x5f5208
+		engine2.dll + 0x5f5248
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x5f5190
+		engine2.dll + 0x5f51d0
+		engine2.dll + 0x5f5210
+		engine2.dll + 0x5f5250
+CConCommandMemberAccessor<class CScreenshotService>
+	(hierarchy CConCommandMemberAccessor<class CScreenshotService>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x5f5428
+		engine2.dll + 0x5f5468
+		engine2.dll + 0x5f54a8
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x5f5430
+		engine2.dll + 0x5f5470
+		engine2.dll + 0x5f54b0
+CConCommandMemberAccessor<class CSoundService>
+	(hierarchy CConCommandMemberAccessor<class CSoundService>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x5f5630
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x5f5638
+CConCommandMemberAccessor<class CSplitScreenService>
+	(hierarchy CConCommandMemberAccessor<class CSplitScreenService>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x53a1d8
+		engine2.dll + 0x53a218
+		engine2.dll + 0x53a258
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x53a1e0
+		engine2.dll + 0x53a220
+		engine2.dll + 0x53a260
+CConCommandMemberAccessor<class CStatsService>
+	(hierarchy CConCommandMemberAccessor<class CStatsService>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x5f60d8
+		engine2.dll + 0x5f6118
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x5f60e0
+		engine2.dll + 0x5f6120
+CConCommandMemberAccessor<class CVProfService>
+	(hierarchy CConCommandMemberAccessor<class CVProfService>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x53a3b8
+		engine2.dll + 0x53a3f8
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x53a3c0
+		engine2.dll + 0x53a400
+CConsoleProcessorForTestScripts (hierarchy CConsoleProcessorForTestScripts: ITestScriptCommandProcessor)
+	engine2.dll + 0x5338f0
+CDebugVisualizerMgr (hierarchy CDebugVisualizerMgr: IDebugVisualizerMgr)
+	engine2.dll + 0x5f66d0
+CDefaultClientConfig (hierarchy CDefaultClientConfig: CBaseAppSystem<class ISource2ClientConfig>, ISource2ClientConfig, IAppSystem)
+	engine2.dll + 0x533908
+CDefaultServerConfig (hierarchy CDefaultServerConfig: CBaseAppSystem<class ISource2ServerConfig>, ISource2ServerConfig, IAppSystem)
+	engine2.dll + 0x533900
+CDemoAnimationData (hierarchy CDemoAnimationData: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x537ff0
+CDemoAnimationHeader (hierarchy CDemoAnimationHeader: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5383e0
+CDemoClassInfo (hierarchy CDemoClassInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538100
+CDemoClassInfo_class_t (hierarchy CDemoClassInfo_class_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538388
+CDemoConsoleCmd (hierarchy CDemoConsoleCmd: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538058
+CDemoCustomData (hierarchy CDemoCustomData: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5381e8
+CDemoCustomDataCallbacks (hierarchy CDemoCustomDataCallbacks: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5380d0
+CDemoFile (hierarchy CDemoFile: IDemoStream)
+	engine2.dll + 0x535620
+	engine2.dll + 0x59f6f8
+CDemoFileHeader (hierarchy CDemoFileHeader: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538310
+CDemoFileInfo (hierarchy CDemoFileInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538028
+CDemoFullPacket (hierarchy CDemoFullPacket: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5380a8
+CDemoMessagePB<1,class CDemoFileHeader>
+	(hierarchy CDemoMessagePB<1,class CDemoFileHeader>: IDemoMessage, CDemoFileHeader, google::protobuf::Message, google::protobuf::MessageLite)
+		engine2.dll + 0x535648
+		engine2.dll + 0x59f720
+	MI offset 8 (hierarchy CDemoFileHeader: google::protobuf::Message, google::protobuf::MessageLite)
+		engine2.dll + 0x535650
+		engine2.dll + 0x59f728
+CDemoMessagePB<15,class CDemoSpawnGroups>
+	(hierarchy CDemoMessagePB<15,class CDemoSpawnGroups>: IDemoMessage, CDemoSpawnGroups, google::protobuf::Message, google::protobuf::MessageLite)
+		engine2.dll + 0x535740
+		engine2.dll + 0x59f818
+	MI offset 8 (hierarchy CDemoSpawnGroups: google::protobuf::Message, google::protobuf::MessageLite)
+		engine2.dll + 0x535748
+		engine2.dll + 0x59f820
+CDemoMessagePB<2,class CDemoFileInfo>
+	(hierarchy CDemoMessagePB<2,class CDemoFileInfo>: IDemoMessage, CDemoFileInfo, google::protobuf::Message, google::protobuf::MessageLite)
+		engine2.dll + 0x5356e8
+		engine2.dll + 0x59f7c0
+	MI offset 8 (hierarchy CDemoFileInfo: google::protobuf::Message, google::protobuf::MessageLite)
+		engine2.dll + 0x5356f0
+		engine2.dll + 0x59f7c8
+CDemoMessagePB<7,class CDemoPacket>
+	(hierarchy CDemoMessagePB<7,class CDemoPacket>: IDemoMessage, CDemoPacket, google::protobuf::Message, google::protobuf::MessageLite)
+		engine2.dll + 0x59f8a8
+	MI offset 8 (hierarchy CDemoPacket: google::protobuf::Message, google::protobuf::MessageLite)
+		engine2.dll + 0x59f8b0
+CDemoPacket (hierarchy CDemoPacket: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538158
+CDemoPlaybackLoop (hierarchy CDemoPlaybackLoop: IDemoPlaybackLoop)
+	engine2.dll + 0x535bd8
+CDemoPlayer (hierarchy CDemoPlayer: IDemoPlayer)
+	engine2.dll + 0x59f6e0
+CDemoRecorder
+	(hierarchy CDemoRecorder: IDemoRecorder, IDemoRecorderBase, IDemoMessageSink)
+		engine2.dll + 0x5355f8
+	MI offset 8 (hierarchy IDemoMessageSink)
+		engine2.dll + 0x535600
+CDemoSaveGame (hierarchy CDemoSaveGame: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538178
+CDemoSendTables (hierarchy CDemoSendTables: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538288
+CDemoSpawnGroups (hierarchy CDemoSpawnGroups: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538078
+CDemoStop (hierarchy CDemoStop: google::protobuf::internal::ZeroFieldsBase, google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538468
+CDemoStreamHttp (hierarchy CDemoStreamHttp: IDemoStream)
+	engine2.dll + 0x5379b0
+CDemoStringTables (hierarchy CDemoStringTables: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5384a8
+CDemoStringTables_items_t (hierarchy CDemoStringTables_items_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5382e8
+CDemoStringTables_table_t (hierarchy CDemoStringTables_table_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538410
+CDemoSyncTick (hierarchy CDemoSyncTick: google::protobuf::internal::ZeroFieldsBase, google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5382d0
+CDemoUserCmd (hierarchy CDemoUserCmd: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5383b8
+CEmptyEntityResourceManifest (hierarchy CEmptyEntityResourceManifest: CEntityResourceManifest, IEntityResourceManifest)
+	engine2.dll + 0x539da0
+CEngine2MinidumpCommentBuilder (hierarchy CEngine2MinidumpCommentBuilder: CMiniDumpCommentBuilderBase)
+	engine2.dll + 0x5f63c8
+CEngineClient (hierarchy CEngineClient: CTier4AppSystem<class IVEngineClient2,0>, CTier3AppSystem<class IVEngineClient2,0>, CTier2AppSystem<class IVEngineClient2,0>, CTier1AppSystem<class IVEngineClient2,0>, CTier0AppSystem<class IVEngineClient2,0>, CBaseAppSystem<class IVEngineClient2>, IVEngineClient2, ISource2Engine, IAppSystem)
+	engine2.dll + 0x537180
+CEngineConsoleLoggingListener (hierarchy CEngineConsoleLoggingListener: ILoggingListener)
+	engine2.dll + 0x5338e0
+CEngineGameUI (hierarchy CEngineGameUI: CTier3AppSystem<class IEngineGameUI,0>, CTier2AppSystem<class IEngineGameUI,0>, CTier1AppSystem<class IEngineGameUI,0>, CTier0AppSystem<class IEngineGameUI,0>, CBaseAppSystem<class IEngineGameUI>, IEngineGameUI, IAppSystem)
+	engine2.dll + 0x537ae0
+CEngineGotvSyncPacket (hierarchy CEngineGotvSyncPacket: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5384e0
+CEnginePVSManager (hierarchy CEnginePVSManager: IEnginePVSManager)
+	engine2.dll + 0x53a760
+CEngineServer (hierarchy CEngineServer: CTier4AppSystem<class IVEngineServer2,0>, CTier3AppSystem<class IVEngineServer2,0>, CTier2AppSystem<class IVEngineServer2,0>, CTier1AppSystem<class IVEngineServer2,0>, CTier0AppSystem<class IVEngineServer2,0>, CBaseAppSystem<class IVEngineServer2>, IVEngineServer2, ISource2Engine, IAppSystem)
+	engine2.dll + 0x537278
+CEngineServiceMgr
+	(hierarchy CEngineServiceMgr: CTier4AppSystem<class IEngineServiceMgr,0>, CTier3AppSystem<class IEngineServiceMgr,0>, CTier2AppSystem<class IEngineServiceMgr,0>, CTier1AppSystem<class IEngineServiceMgr,0>, CTier0AppSystem<class IEngineServiceMgr,0>, CBaseAppSystem<class IEngineServiceMgr>, IEngineServiceMgr, IAppSystem, ILoopModePrerequisiteRegistry, IPrerequisiteRegistry)
+		engine2.dll + 0x5f64e0
+	MI offset 40 (hierarchy ILoopModePrerequisiteRegistry: IPrerequisiteRegistry)
+		engine2.dll + 0x5f6508
+CEngineSoundServices (hierarchy CEngineSoundServices: ISoundSystemServices)
+	engine2.dll + 0x537880
+CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> > (hierarchy CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> >: CEntityComponentHelperReferenced<class CScriptComponent>, CEntityComponentHelper)
+	engine2.dll + 0x52f638
+CEntityMETASpewFunctor
+	(hierarchy CEntityMETASpewFunctor: CEntityMETAAutoCompletionFunctor, ICommandCompletionCallback, ICommandCallback)
+		engine2.dll + 0x5375b8
+	MI offset 8 (hierarchy ICommandCallback)
+		engine2.dll + 0x5375c0
+CEntityMsg (hierarchy CEntityMsg: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539910
+CGameEventSystem (hierarchy CGameEventSystem: CTier4AppSystem<class IGameEventSystem,0>, CTier3AppSystem<class IGameEventSystem,0>, CTier2AppSystem<class IGameEventSystem,0>, CTier1AppSystem<class IGameEventSystem,0>, CTier0AppSystem<class IGameEventSystem,0>, CBaseAppSystem<class IGameEventSystem>, IGameEventSystem, IAppSystem)
+	engine2.dll + 0x5f6810
+	engine2.dll + 0x5f6950
+CGameInfo (hierarchy CGameInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538480
+CGameInfo_CCSGameInfo (hierarchy CGameInfo_CCSGameInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5382a8
+CGameInfo_CDotaGameInfo (hierarchy CGameInfo_CDotaGameInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538210
+CGameInfo_CDotaGameInfo_CHeroSelectEvent (hierarchy CGameInfo_CDotaGameInfo_CHeroSelectEvent: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538130
+CGameInfo_CDotaGameInfo_CPlayerInfo (hierarchy CGameInfo_CDotaGameInfo_CPlayerInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5381b0
+CGameResourceService (hierarchy CGameResourceService: CBaseEngineService<class IGameResourceService>, CTier4AppSystem<class IGameResourceService,0>, CTier3AppSystem<class IGameResourceService,0>, CTier2AppSystem<class IGameResourceService,0>, CTier1AppSystem<class IGameResourceService,0>, CTier0AppSystem<class IGameResourceService,0>, CBaseAppSystem<class IGameResourceService>, IGameResourceService, IEngineService, IAppSystem)
+	engine2.dll + 0x539ce0
+	engine2.dll + 0x539d40
+CGameUIFuncs (hierarchy CGameUIFuncs: CTier3AppSystem<class IGameUIFuncs,0>, CTier2AppSystem<class IGameUIFuncs,0>, CTier1AppSystem<class IGameUIFuncs,0>, CTier0AppSystem<class IGameUIFuncs,0>, CBaseAppSystem<class IGameUIFuncs>, IGameUIFuncs, IAppSystem)
+	engine2.dll + 0x537b70
+CGameUIRenderCallbackGroupLayer (hierarchy CGameUIRenderCallbackGroupLayer: IProceduralLayerRenderer)
+	engine2.dll + 0x539ef0
+	engine2.dll + 0x539f10
+	engine2.dll + 0x539f30
+	engine2.dll + 0x539f50
+CGameUIRenderLayer (hierarchy CGameUIRenderLayer: IProceduralLayerRenderer)
+	engine2.dll + 0x539ee0
+CGameUIService
+	(hierarchy CGameUIService: CBaseEngineService<class IGameUIService>, CTier4AppSystem<class IGameUIService,0>, CTier3AppSystem<class IGameUIService,0>, CTier2AppSystem<class IGameUIService,0>, CTier1AppSystem<class IGameUIService,0>, CTier0AppSystem<class IGameUIService,0>, CBaseAppSystem<class IGameUIService>, IGameUIService, IEngineService, IAppSystem, IRenderHandler)
+		engine2.dll + 0x5b56b0
+	MI offset 56 (hierarchy IRenderHandler)
+		engine2.dll + 0x5b56e8
+CHostStateMgr
+	(hierarchy CHostStateMgr: CTier4AppSystem<class IHostStateMgr,0>, CTier3AppSystem<class IHostStateMgr,0>, CTier2AppSystem<class IHostStateMgr,0>, CTier1AppSystem<class IHostStateMgr,0>, CTier0AppSystem<class IHostStateMgr,0>, CBaseAppSystem<class IHostStateMgr>, IHostStateMgr, IAppSystem, ISwitchLoopModeStatusNotify)
+		engine2.dll + 0x53a4f0
+	MI offset 40 (hierarchy ISwitchLoopModeStatusNotify)
+		engine2.dll + 0x53a518
+CHostSubscribeForProfileEvents (hierarchy CHostSubscribeForProfileEvents: IMatchEventsSink)
+	engine2.dll + 0x537898
+CInputService
+	(hierarchy CInputService: CBaseEngineService<class IInputService>, CTier4AppSystem<class IInputService,0>, CTier3AppSystem<class IInputService,0>, CTier2AppSystem<class IInputService,0>, CTier1AppSystem<class IInputService,0>, CTier0AppSystem<class IInputService,0>, CBaseAppSystem<class IInputService>, IInputService, IEngineService, IAppSystem, IInputHandler)
+		engine2.dll + 0x5b59c0
+	MI offset 56 (hierarchy IInputHandler)
+		engine2.dll + 0x5b59f8
+CInstantReplay
+	(hierarchy CInstantReplay: IDemoPlayer, IInstantReplayIntercept)
+		engine2.dll + 0x536580
+	MI offset 8 (hierarchy IInstantReplayIntercept)
+		engine2.dll + 0x536588
+CKeyValueCache (hierarchy CKeyValueCache: CTier4AppSystem<class IKeyValueCache,0>, CTier3AppSystem<class IKeyValueCache,0>, CTier2AppSystem<class IKeyValueCache,0>, CTier1AppSystem<class IKeyValueCache,0>, CTier0AppSystem<class IKeyValueCache,0>, CBaseAppSystem<class IKeyValueCache>, IKeyValueCache, IAppSystem)
+	engine2.dll + 0x53a5a0
+CLoadAutoCompletionFunctor
+	(hierarchy CLoadAutoCompletionFunctor: ICommandCallback, ICommandCompletionCallback)
+		engine2.dll + 0x5335e8
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		engine2.dll + 0x5335f0
+CLoopModeFactory<class CLoopModeAddonDownload> (hierarchy CLoopModeFactory<class CLoopModeAddonDownload>: ILoopModeFactory)
+	engine2.dll + 0x537c30
+CLoopModeFactory<class CLoopModeConsole> (hierarchy CLoopModeFactory<class CLoopModeConsole>: ILoopModeFactory)
+	engine2.dll + 0x537cb8
+CLoopModeFactory<class CLoopModeInGameUI> (hierarchy CLoopModeFactory<class CLoopModeInGameUI>: ILoopModeFactory)
+	engine2.dll + 0x537cd8
+CLoopModeFactory<class CLoopModeLevelLoad> (hierarchy CLoopModeFactory<class CLoopModeLevelLoad>: ILoopModeFactory)
+	engine2.dll + 0x537d70
+CLoopModeFactory<class CLoopModeMainMenu> (hierarchy CLoopModeFactory<class CLoopModeMainMenu>: ILoopModeFactory)
+	engine2.dll + 0x537e08
+CLoopModeFactory<class CLoopModeRemoteConnect> (hierarchy CLoopModeFactory<class CLoopModeRemoteConnect>: ILoopModeFactory)
+	engine2.dll + 0x537ea0
+CLoopModeFactory<class CLoopModeSourceTVRelay> (hierarchy CLoopModeFactory<class CLoopModeSourceTVRelay>: ILoopModeFactory)
+	engine2.dll + 0x537ec0
+CLoopTypeClientServerService
+	(hierarchy CLoopTypeClientServerService: CBaseEngineService<class IEngineService>, CTier4AppSystem<class IEngineService,0>, CTier3AppSystem<class IEngineService,0>, CTier2AppSystem<class IEngineService,0>, CTier1AppSystem<class IEngineService,0>, CTier0AppSystem<class IEngineService,0>, CBaseAppSystem<class IEngineService>, IEngineService, IAppSystem, IInputHandler, IRenderHandler)
+		engine2.dll + 0x53a600
+	MI offset 56 (hierarchy IInputHandler: IRenderHandler)
+		engine2.dll + 0x53a638
+	MI offset 64 (hierarchy IRenderHandler)
+		engine2.dll + 0x53a640
+CLoopTypeSimpleService
+	(hierarchy CLoopTypeSimpleService: CBaseEngineService<class IEngineService>, CTier4AppSystem<class IEngineService,0>, CTier3AppSystem<class IEngineService,0>, CTier2AppSystem<class IEngineService,0>, CTier1AppSystem<class IEngineService,0>, CTier0AppSystem<class IEngineService,0>, CBaseAppSystem<class IEngineService>, IEngineService, IAppSystem, IInputHandler, IRenderHandler)
+		engine2.dll + 0x53a710
+	MI offset 56 (hierarchy IInputHandler: IRenderHandler)
+		engine2.dll + 0x53a748
+	MI offset 64 (hierarchy IRenderHandler)
+		engine2.dll + 0x53a750
+CMapListService (hierarchy CMapListService: CBaseEngineService<class IMapListService>, CTier4AppSystem<class IMapListService,0>, CTier3AppSystem<class IMapListService,0>, CTier2AppSystem<class IMapListService,0>, CTier1AppSystem<class IMapListService,0>, CTier0AppSystem<class IMapListService,0>, CBaseAppSystem<class IMapListService>, IMapListService, IEngineService, IAppSystem)
+	engine2.dll + 0x5f49c0
+CMetaDuplicationAutoCompletionFunctor
+	(hierarchy CMetaDuplicationAutoCompletionFunctor: CEntityMETAAutoCompletionFunctor, ICommandCompletionCallback, ICommandCallback)
+		engine2.dll + 0x5375d0
+	MI offset 8 (hierarchy ICommandCallback)
+		engine2.dll + 0x5375d8
+CMiniDumpCommentConvarsWriter (hierarchy CMiniDumpCommentConvarsWriter: IPrintChangedConvarsWriter)
+	engine2.dll + 0x5338d0
+CMovieRecorder
+	(hierarchy CMovieRecorder: IMovieRecorder, IScreenshotCallback, IAudioStreamRecorder)
+		engine2.dll + 0x5376e0
+	MI offset 8 (hierarchy IScreenshotCallback: IAudioStreamRecorder)
+		engine2.dll + 0x5376e8
+	MI offset 16 (hierarchy IAudioStreamRecorder)
+		engine2.dll + 0x5376f0
+CMsgIPCAddress (hierarchy CMsgIPCAddress: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538568
+CMsgPlayerInfo (hierarchy CMsgPlayerInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539878
+CMsgQAngle (hierarchy CMsgQAngle: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539ab8
+CMsgQuaternion (hierarchy CMsgQuaternion: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539980
+CMsgRGBA (hierarchy CMsgRGBA: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539958
+CMsgServerNetworkStats (hierarchy CMsgServerNetworkStats: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539000
+CMsgServerNetworkStats_Player (hierarchy CMsgServerNetworkStats_Player: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538ad0
+CMsgServerNetworkStats_Port (hierarchy CMsgServerNetworkStats_Port: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538b78
+CMsgServerPeer (hierarchy CMsgServerPeer: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538f40
+CMsgServerUserCmd (hierarchy CMsgServerUserCmd: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538c50
+CMsgSource2SystemSpecs (hierarchy CMsgSource2SystemSpecs: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538990
+CMsgSource2VProfLiteReport (hierarchy CMsgSource2VProfLiteReport: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538950
+CMsgSource2VProfLiteReportItem (hierarchy CMsgSource2VProfLiteReportItem: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5394b0
+CMsgTransform (hierarchy CMsgTransform: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5396b8
+CMsgVector (hierarchy CMsgVector: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539a90
+CMsgVector2D (hierarchy CMsgVector2D: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539738
+CMsgVoiceAudio (hierarchy CMsgVoiceAudio: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539430
+CMsg_CVars (hierarchy CMsg_CVars: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539ae0
+CMsg_CVars_CVar (hierarchy CMsg_CVars_CVar: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5399f8
+CNETMsg_DebugOverlay (hierarchy CNETMsg_DebugOverlay: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5397b0
+CNETMsg_NOP (hierarchy CNETMsg_NOP: google::protobuf::internal::ZeroFieldsBase, google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5398d0
+CNETMsg_SetConVar (hierarchy CNETMsg_SetConVar: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539858
+CNETMsg_SignonState (hierarchy CNETMsg_SignonState: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539640
+CNETMsg_SpawnGroup_Load (hierarchy CNETMsg_SpawnGroup_Load: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539570
+CNETMsg_SpawnGroup_LoadCompleted (hierarchy CNETMsg_SpawnGroup_LoadCompleted: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5398b0
+CNETMsg_SpawnGroup_ManifestUpdate (hierarchy CNETMsg_SpawnGroup_ManifestUpdate: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539690
+CNETMsg_SpawnGroup_SetCreationTick (hierarchy CNETMsg_SpawnGroup_SetCreationTick: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539930
+CNETMsg_SpawnGroup_Unload (hierarchy CNETMsg_SpawnGroup_Unload: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5398e8
+CNETMsg_SplitScreenUser (hierarchy CNETMsg_SplitScreenUser: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5396e8
+CNETMsg_StringCmd (hierarchy CNETMsg_StringCmd: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5399d0
+CNETMsg_Tick (hierarchy CNETMsg_Tick: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539760
+CNetMessagePB<-1,class C2S_CONNECTION_Message,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<-1,class C2S_CONNECTION_Message,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532a80
+CNetMessagePB<-1,class C2S_CONNECT_Message,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<-1,class C2S_CONNECT_Message,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532a78
+CNetMessagePB<-1,class NetMessageConnectionClosed,11,1,0>::CProtobufBinding (hierarchy CNetMessagePB<-1,class NetMessageConnectionClosed,11,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532cb0
+CNetMessagePB<-1,class NetMessageConnectionCrashed,11,1,0>::CProtobufBinding (hierarchy CNetMessagePB<-1,class NetMessageConnectionCrashed,11,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c88
+CNetMessagePB<-1,class NetMessageSplitscreenUserChanged,11,1,0>::CProtobufBinding (hierarchy CNetMessagePB<-1,class NetMessageSplitscreenUserChanged,11,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532ca8
+CNetMessagePB<1073741824,class NetMessagePacketStart,11,1,0>::CProtobufBinding (hierarchy CNetMessagePB<1073741824,class NetMessagePacketStart,11,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c90
+CNetMessagePB<1073741825,class NetMessagePacketEnd,11,1,0>::CProtobufBinding (hierarchy CNetMessagePB<1073741825,class NetMessagePacketEnd,11,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c98
+CNetMessagePB<11,class CNETMsg_SpawnGroup_SetCreationTick,15,1,0>::CProtobufBinding (hierarchy CNetMessagePB<11,class CNETMsg_SpawnGroup_SetCreationTick,15,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532728
+CNetMessagePB<12,class CNETMsg_SpawnGroup_Unload,15,1,0>::CProtobufBinding (hierarchy CNetMessagePB<12,class CNETMsg_SpawnGroup_Unload,15,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532730
+CNetMessagePB<13,class CNETMsg_SpawnGroup_LoadCompleted,15,1,0>::CProtobufBinding (hierarchy CNetMessagePB<13,class CNETMsg_SpawnGroup_LoadCompleted,15,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532bf0
+CNetMessagePB<15,class CNETMsg_DebugOverlay,16,1,0>::CProtobufBinding (hierarchy CNetMessagePB<15,class CNETMsg_DebugOverlay,16,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532be8
+CNetMessagePB<16,class CBidirMsg_RebroadcastGameEvent,5,1,1>::CProtobufBinding (hierarchy CNetMessagePB<16,class CBidirMsg_RebroadcastGameEvent,5,1,1>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x533970
+CNetMessagePB<17,class CBidirMsg_RebroadcastSource,5,1,1>::CProtobufBinding (hierarchy CNetMessagePB<17,class CBidirMsg_RebroadcastSource,5,1,1>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x533978
+CNetMessagePB<20,class CCLCMsg_ClientInfo,10,1,0>::CProtobufBinding (hierarchy CNetMessagePB<20,class CCLCMsg_ClientInfo,10,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532ad8
+CNetMessagePB<21,class CCLCMsg_Move,8,0,0>::CProtobufBinding (hierarchy CNetMessagePB<21,class CCLCMsg_Move,8,0,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532ad0
+CNetMessagePB<22,class CCLCMsg_VoiceData,6,0,0>::CProtobufBinding (hierarchy CNetMessagePB<22,class CCLCMsg_VoiceData,6,0,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532e00
+CNetMessagePB<23,class CCLCMsg_BaselineAck,16,1,0>::CProtobufBinding (hierarchy CNetMessagePB<23,class CCLCMsg_BaselineAck,16,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532968
+CNetMessagePB<25,class CCLCMsg_RespondCvarValue,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<25,class CCLCMsg_RespondCvarValue,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532bd0
+CNetMessagePB<26,class CCLCMsg_FileCRCCheck,10,1,0>::CProtobufBinding (hierarchy CNetMessagePB<26,class CCLCMsg_FileCRCCheck,10,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532ae8
+CNetMessagePB<27,class CCLCMsg_LoadingProgress,10,1,0>::CProtobufBinding (hierarchy CNetMessagePB<27,class CCLCMsg_LoadingProgress,10,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532ae0
+CNetMessagePB<28,class CCLCMsg_SplitPlayerConnect,10,1,0>::CProtobufBinding (hierarchy CNetMessagePB<28,class CCLCMsg_SplitPlayerConnect,10,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c18
+CNetMessagePB<30,class CCLCMsg_SplitPlayerDisconnect,10,1,0>::CProtobufBinding (hierarchy CNetMessagePB<30,class CCLCMsg_SplitPlayerDisconnect,10,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532e08
+CNetMessagePB<31,class CCLCMsg_ServerStatus,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<31,class CCLCMsg_ServerStatus,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532bd8
+CNetMessagePB<33,class CCLCMsg_RequestPause,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<33,class CCLCMsg_RequestPause,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532df0
+CNetMessagePB<34,class CBaseCmdKeyValues<class CCLCMsg_CmdKeyValues>,9,1,0>::CProtobufBinding (hierarchy CNetMessagePB<34,class CBaseCmdKeyValues<class CCLCMsg_CmdKeyValues>,9,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532b00
+CNetMessagePB<35,class CCLCMsg_RconServerDetails,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<35,class CCLCMsg_RconServerDetails,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532df8
+CNetMessagePB<36,class CCLCMsg_HltvReplay,17,1,0>::CProtobufBinding (hierarchy CNetMessagePB<36,class CCLCMsg_HltvReplay,17,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532de8
+CNetMessagePB<37,class CCLCMsg_Diagnostic,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<37,class CCLCMsg_Diagnostic,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532af8
+CNetMessagePB<4,class CNETMsg_Tick,16,0,0>::CProtobufBinding (hierarchy CNetMessagePB<4,class CNETMsg_Tick,16,0,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532ac8
+CNetMessagePB<40,class CSVCMsg_ServerInfo,10,1,0>::CProtobufBinding (hierarchy CNetMessagePB<40,class CSVCMsg_ServerInfo,10,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532bf8
+CNetMessagePB<41,class CSVCMsg_FlattenedSerializerWrapper,10,1,0>::CProtobufBinding (hierarchy CNetMessagePB<41,class CSVCMsg_FlattenedSerializerWrapper,10,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532778
+CNetMessagePB<42,class CSVCMsg_ClassInfo,10,1,0>::CProtobufBinding (hierarchy CNetMessagePB<42,class CSVCMsg_ClassInfo,10,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532af0
+CNetMessagePB<43,class CSVCMsg_SetPause,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<43,class CSVCMsg_SetPause,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532738
+CNetMessagePB<44,class CSVCMsg_CreateStringTable,10,1,0>::CProtobufBinding (hierarchy CNetMessagePB<44,class CSVCMsg_CreateStringTable,10,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532758
+CNetMessagePB<45,class CSVCMsg_UpdateStringTable,7,1,0>::CProtobufBinding (hierarchy CNetMessagePB<45,class CSVCMsg_UpdateStringTable,7,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532760
+CNetMessagePB<46,class CSVCMsg_VoiceInit,10,1,0>::CProtobufBinding (hierarchy CNetMessagePB<46,class CSVCMsg_VoiceInit,10,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c10
+CNetMessagePB<47,class CSVCMsg_VoiceData,6,0,0>::CProtobufBinding (hierarchy CNetMessagePB<47,class CSVCMsg_VoiceData,6,0,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c40
+CNetMessagePB<48,class CSVCMsg_Print,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<48,class CSVCMsg_Print,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c08
+CNetMessagePB<49,class CSVCMsg_Sounds,4,1,0>::CProtobufBinding (hierarchy CNetMessagePB<49,class CSVCMsg_Sounds,4,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c50
+CNetMessagePB<5,class CNETMsg_StringCmd,9,1,0>::CProtobufBinding (hierarchy CNetMessagePB<5,class CNETMsg_StringCmd,9,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532be0
+CNetMessagePB<50,class CSVCMsg_SetView,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<50,class CSVCMsg_SetView,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c20
+CNetMessagePB<51,class CSVCMsg_ClearAllStringTables,10,1,0>::CProtobufBinding (hierarchy CNetMessagePB<51,class CSVCMsg_ClearAllStringTables,10,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c00
+CNetMessagePB<52,class CBaseCmdKeyValues<class CSVCMsg_CmdKeyValues>,9,1,0>::CProtobufBinding (hierarchy CNetMessagePB<52,class CBaseCmdKeyValues<class CSVCMsg_CmdKeyValues>,9,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c38
+CNetMessagePB<54,class CSVCMsg_SplitScreen,10,1,0>::CProtobufBinding (hierarchy CNetMessagePB<54,class CSVCMsg_SplitScreen,10,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532740
+CNetMessagePB<55,class CSVCMsg_PacketEntities,-1,1,0>::CProtobufBinding (hierarchy CNetMessagePB<55,class CSVCMsg_PacketEntities,-1,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532768
+CNetMessagePB<56,class CSVCMsg_Prefetch,4,1,0>::CProtobufBinding (hierarchy CNetMessagePB<56,class CSVCMsg_Prefetch,4,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c58
+CNetMessagePB<57,class CSVCMsg_Menu,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<57,class CSVCMsg_Menu,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c28
+CNetMessagePB<58,class CSVCMsg_GetCvarValue,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<58,class CSVCMsg_GetCvarValue,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c30
+CNetMessagePB<59,class CSVCMsg_StopSound,4,1,0>::CProtobufBinding (hierarchy CNetMessagePB<59,class CSVCMsg_StopSound,4,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c48
+CNetMessagePB<6,class CNETMsg_SetConVar,9,1,0>::CProtobufBinding (hierarchy CNetMessagePB<6,class CNETMsg_SetConVar,9,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532ab8
+CNetMessagePB<60,class CSVCMsg_PeerList,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<60,class CSVCMsg_PeerList,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c70
+CNetMessagePB<61,class CSVCMsg_PacketReliable,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<61,class CSVCMsg_PacketReliable,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c78
+CNetMessagePB<62,class CSVCMsg_HLTVStatus,0,1,1>::CProtobufBinding (hierarchy CNetMessagePB<62,class CSVCMsg_HLTVStatus,0,1,1>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c80
+CNetMessagePB<63,class CSVCMsg_ServerSteamID,0,1,1>::CProtobufBinding (hierarchy CNetMessagePB<63,class CSVCMsg_ServerSteamID,0,1,1>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c60
+CNetMessagePB<7,class CNETMsg_SignonState,10,1,0>::CProtobufBinding (hierarchy CNetMessagePB<7,class CNETMsg_SignonState,10,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532ac0
+CNetMessagePB<70,class CSVCMsg_FullFrameSplit,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<70,class CSVCMsg_FullFrameSplit,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x5329f8
+CNetMessagePB<71,class CSVCMsg_RconServerDetails,0,1,0>::CProtobufBinding (hierarchy CNetMessagePB<71,class CSVCMsg_RconServerDetails,0,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532c68
+CNetMessagePB<72,class CSVCMsg_UserMessage,13,1,0>::CProtobufBinding (hierarchy CNetMessagePB<72,class CSVCMsg_UserMessage,13,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532da0
+CNetMessagePB<74,class CSVCMsg_Broadcast_Command,17,1,0>::CProtobufBinding (hierarchy CNetMessagePB<74,class CSVCMsg_Broadcast_Command,17,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x533098
+CNetMessagePB<74,class CSVCMsg_HltvReplay,17,1,0>::CProtobufBinding (hierarchy CNetMessagePB<74,class CSVCMsg_HltvReplay,17,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532b08
+CNetMessagePB<75,class CCLCMsg_HltvFixupOperatorTick,17,1,0>::CProtobufBinding (hierarchy CNetMessagePB<75,class CCLCMsg_HltvFixupOperatorTick,17,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532de0
+CNetMessagePB<76,class CSVCMsg_UserCommands,17,1,0>::CProtobufBinding (hierarchy CNetMessagePB<76,class CSVCMsg_UserCommands,17,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532ca0
+CNetMessagePB<8,class CNETMsg_SpawnGroup_Load,15,1,0>::CProtobufBinding (hierarchy CNetMessagePB<8,class CNETMsg_SpawnGroup_Load,15,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532718
+CNetMessagePB<9,class CNETMsg_SpawnGroup_ManifestUpdate,15,1,0>::CProtobufBinding (hierarchy CNetMessagePB<9,class CNETMsg_SpawnGroup_ManifestUpdate,15,1,0>::CProtobufBinding: IProtobufBinding)
+	engine2.dll + 0x532720
+CNetSupportImpl (hierarchy CNetSupportImpl: CBaseAppSystem<class INetSupport>, INetSupport, CBaseAppSystem<class IAppSystem>, IAppSystem)
+	engine2.dll + 0x533060
+CNetworkClientService
+	(hierarchy CNetworkClientService: CBaseEngineService<class INetworkClientService>, CTier4AppSystem<class INetworkClientService,0>, CTier3AppSystem<class INetworkClientService,0>, CTier2AppSystem<class INetworkClientService,0>, CTier1AppSystem<class INetworkClientService,0>, CTier0AppSystem<class INetworkClientService,0>, CBaseAppSystem<class INetworkClientService>, INetworkClientService, IEngineService, IAppSystem, CUtlSlot, IVConCommDataReceived)
+		engine2.dll + 0x5f4b50
+	MI offset 56 (hierarchy IVConCommDataReceived)
+		engine2.dll + 0x5f4b88
+CNetworkP2PService (hierarchy CNetworkP2PService: CBaseEngineService<class INetworkP2PService>, CTier4AppSystem<class INetworkP2PService,0>, CTier3AppSystem<class INetworkP2PService,0>, CTier2AppSystem<class INetworkP2PService,0>, CTier1AppSystem<class INetworkP2PService,0>, CTier0AppSystem<class INetworkP2PService,0>, CBaseAppSystem<class INetworkP2PService>, INetworkP2PService, IEngineService, IAppSystem, CUtlSlot)
+	engine2.dll + 0x539fd0
+CNetworkServerService
+	(hierarchy CNetworkServerService: CBaseEngineService<class INetworkServerService>, CTier4AppSystem<class INetworkServerService,0>, CTier3AppSystem<class INetworkServerService,0>, CTier2AppSystem<class INetworkServerService,0>, CTier1AppSystem<class INetworkServerService,0>, CTier0AppSystem<class INetworkServerService,0>, CBaseAppSystem<class INetworkServerService>, INetworkServerService, IEngineService, IAppSystem, IVConCommDataReceived)
+		engine2.dll + 0x5f4ee0
+	MI offset 56 (hierarchy IVConCommDataReceived)
+		engine2.dll + 0x5f4f18
+CNetworkService (hierarchy CNetworkService: CBaseEngineService<class INetworkService>, CTier4AppSystem<class INetworkService,0>, CTier3AppSystem<class INetworkService,0>, CTier2AppSystem<class INetworkService,0>, CTier1AppSystem<class INetworkService,0>, CTier0AppSystem<class INetworkService,0>, CBaseAppSystem<class INetworkService>, INetworkService, IEngineService, IAppSystem)
+	engine2.dll + 0x53a120
+CNetworkStringTableContainer (hierarchy CNetworkStringTableContainer: CTier4AppSystem<class INetworkStringTableContainer,0>, CTier3AppSystem<class INetworkStringTableContainer,0>, CTier2AppSystem<class INetworkStringTableContainer,0>, CTier1AppSystem<class INetworkStringTableContainer,0>, CTier0AppSystem<class INetworkStringTableContainer,0>, CBaseAppSystem<class INetworkStringTableContainer>, INetworkStringTableContainer, IAppSystem)
+	engine2.dll + 0x5371e0
+	engine2.dll + 0x5372a0
+CPanoramaProceduralLayer (hierarchy CPanoramaProceduralLayer: IProceduralLayerRenderer)
+	engine2.dll + 0x537f00
+CRConClient (hierarchy CRConClient: ISocketCreatorListener)
+	engine2.dll + 0x536670
+CRConServer (hierarchy CRConServer: ISocketCreatorListener)
+	engine2.dll + 0x537470
+CRConVProfExport
+	(hierarchy CRConVProfExport: CTier3AppSystem<class IVProfExport,0>, CTier2AppSystem<class IVProfExport,0>, CTier1AppSystem<class IVProfExport,0>, CTier0AppSystem<class IVProfExport,0>, CBaseAppSystem<class IVProfExport>, IVProfExport, IAppSystem, IVProfData)
+		engine2.dll + 0x536678
+	MI offset 40 (hierarchy IVProfData)
+		engine2.dll + 0x5366a0
+CRenderService
+	(hierarchy CRenderService: CBaseEngineService<class IRenderService>, CTier4AppSystem<class IRenderService,0>, CTier3AppSystem<class IRenderService,0>, CTier2AppSystem<class IRenderService,0>, CTier1AppSystem<class IRenderService,0>, CTier0AppSystem<class IRenderService,0>, CBaseAppSystem<class IRenderService>, IRenderService, IEngineService, IAppSystem, IToolsResourceListener)
+		engine2.dll + 0x5f5140
+	MI offset 56 (hierarchy IToolsResourceListener)
+		engine2.dll + 0x5f5178
+CSVCMsgList_GameEvents (hierarchy CSVCMsgList_GameEvents: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539708
+CSVCMsgList_GameEvents_event_t (hierarchy CSVCMsgList_GameEvents_event_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5399a8
+CSVCMsg_BSPDecal (hierarchy CSVCMsg_BSPDecal: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5387b0
+CSVCMsg_Broadcast_Command (hierarchy CSVCMsg_Broadcast_Command: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5386a0
+CSVCMsg_ClassInfo (hierarchy CSVCMsg_ClassInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538a10
+CSVCMsg_ClassInfo_class_t (hierarchy CSVCMsg_ClassInfo_class_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5390b8
+CSVCMsg_ClearAllStringTables (hierarchy CSVCMsg_ClearAllStringTables: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538ed0
+CSVCMsg_CmdKeyValues (hierarchy CSVCMsg_CmdKeyValues: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538fb8
+CSVCMsg_CreateStringTable (hierarchy CSVCMsg_CreateStringTable: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538590
+CSVCMsg_CrosshairAngle (hierarchy CSVCMsg_CrosshairAngle: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538528
+CSVCMsg_FixAngle (hierarchy CSVCMsg_FixAngle: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538c80
+CSVCMsg_FlattenedSerializer (hierarchy CSVCMsg_FlattenedSerializer: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538bd0
+CSVCMsg_FullFrameSplit (hierarchy CSVCMsg_FullFrameSplit: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539368
+CSVCMsg_GameEvent (hierarchy CSVCMsg_GameEvent: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539600
+CSVCMsg_GameEventList (hierarchy CSVCMsg_GameEventList: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5388b8
+CSVCMsg_GameEventList_descriptor_t (hierarchy CSVCMsg_GameEventList_descriptor_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538910
+CSVCMsg_GameEventList_key_t (hierarchy CSVCMsg_GameEventList_key_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5391d0
+CSVCMsg_GameEvent_key_t (hierarchy CSVCMsg_GameEvent_key_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539530
+CSVCMsg_GameSessionConfiguration (hierarchy CSVCMsg_GameSessionConfiguration: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539a20
+CSVCMsg_GetCvarValue (hierarchy CSVCMsg_GetCvarValue: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5392b0
+CSVCMsg_HLTVStatus (hierarchy CSVCMsg_HLTVStatus: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5393c0
+CSVCMsg_HltvFixupOperatorStatus (hierarchy CSVCMsg_HltvFixupOperatorStatus: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5389e8
+CSVCMsg_HltvReplay (hierarchy CSVCMsg_HltvReplay: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539330
+CSVCMsg_Menu (hierarchy CSVCMsg_Menu: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539260
+CSVCMsg_PacketEntities (hierarchy CSVCMsg_PacketEntities: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538e30
+CSVCMsg_PacketEntities_alternate_baseline_t (hierarchy CSVCMsg_PacketEntities_alternate_baseline_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538c30
+CSVCMsg_PacketEntities_non_transmitted_entities_t (hierarchy CSVCMsg_PacketEntities_non_transmitted_entities_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539488
+CSVCMsg_PacketReliable (hierarchy CSVCMsg_PacketReliable: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538838
+CSVCMsg_PeerList (hierarchy CSVCMsg_PeerList: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538ba0
+CSVCMsg_Prefetch (hierarchy CSVCMsg_Prefetch: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539310
+CSVCMsg_Print (hierarchy CSVCMsg_Print: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538760
+CSVCMsg_RconServerDetails (hierarchy CSVCMsg_RconServerDetails: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539120
+CSVCMsg_SendTable (hierarchy CSVCMsg_SendTable: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5390e0
+CSVCMsg_SendTable_sendprop_t (hierarchy CSVCMsg_SendTable_sendprop_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538cb0
+CSVCMsg_ServerInfo (hierarchy CSVCMsg_ServerInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538da0
+CSVCMsg_ServerSteamID (hierarchy CSVCMsg_ServerSteamID: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5388e8
+CSVCMsg_SetPause (hierarchy CSVCMsg_SetPause: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5391b0
+CSVCMsg_SetView (hierarchy CSVCMsg_SetView: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539190
+CSVCMsg_Sounds (hierarchy CSVCMsg_Sounds: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5392d8
+CSVCMsg_Sounds_sounddata_t (hierarchy CSVCMsg_Sounds_sounddata_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538b10
+CSVCMsg_SplitScreen (hierarchy CSVCMsg_SplitScreen: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538f18
+CSVCMsg_StopSound (hierarchy CSVCMsg_StopSound: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538548
+CSVCMsg_TempEntities (hierarchy CSVCMsg_TempEntities: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538fd8
+CSVCMsg_UpdateStringTable (hierarchy CSVCMsg_UpdateStringTable: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539148
+CSVCMsg_UserCommands (hierarchy CSVCMsg_UserCommands: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538cf8
+CSVCMsg_UserMessage (hierarchy CSVCMsg_UserMessage: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539398
+CSVCMsg_VoiceData (hierarchy CSVCMsg_VoiceData: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538a70
+CSVCMsg_VoiceInit (hierarchy CSVCMsg_VoiceInit: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538860
+CSceneViewDebugOverlaysListener (hierarchy CSceneViewDebugOverlaysListener: ISceneViewDebugOverlaysListener)
+	engine2.dll + 0x532d60
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	engine2.dll + 0x596c78
+CSchemaRegistration_engine2 (hierarchy CSchemaRegistration_engine2: CSchemaRegistration)
+	engine2.dll + 0x53a848
+CSchemaRegistration_entity2 (hierarchy CSchemaRegistration_entity2: CSchemaRegistration)
+	engine2.dll + 0x52f980
+CScreenshotService
+	(hierarchy CScreenshotService: CBaseEngineService<class IEngineService>, CTier4AppSystem<class IEngineService,0>, CTier3AppSystem<class IEngineService,0>, CTier2AppSystem<class IEngineService,0>, CTier1AppSystem<class IEngineService,0>, CTier0AppSystem<class IEngineService,0>, CBaseAppSystem<class IEngineService>, IEngineService, IAppSystem, IScreenshotCallback)
+		engine2.dll + 0x5f53e0
+	MI offset 56 (hierarchy IScreenshotCallback)
+		engine2.dll + 0x5f5418
+CServerConsoleRedirect (hierarchy CServerConsoleRedirect: IServerConsoleRedirect)
+	engine2.dll + 0x5374e0
+CServerRemoteAccess
+	(hierarchy CServerRemoteAccess: IGameServerData, IBaseInterface, IScreenshotCallback)
+		engine2.dll + 0x537540
+	MI offset 8 (hierarchy IScreenshotCallback)
+		engine2.dll + 0x537548
+CSimpleWindowsLoggingListener (hierarchy CSimpleWindowsLoggingListener: ILoggingListener)
+	engine2.dll + 0x52db58
+CSoundService (hierarchy CSoundService: CBaseEngineService<class ISoundService>, CTier4AppSystem<class ISoundService,0>, CTier3AppSystem<class ISoundService,0>, CTier2AppSystem<class ISoundService,0>, CTier1AppSystem<class ISoundService,0>, CTier0AppSystem<class ISoundService,0>, CBaseAppSystem<class ISoundService>, ISoundService, IEngineService, IAppSystem)
+	engine2.dll + 0x5f55f0
+CSource1InputHandlerPostClientHandler (hierarchy CSource1InputHandlerPostClientHandler: IInputHandler)
+	engine2.dll + 0x532fd0
+CSource1InputHandlerPreClientHandler (hierarchy CSource1InputHandlerPreClientHandler: IInputHandler)
+	engine2.dll + 0x532fc0
+CSource1InputHandler_Client (hierarchy CSource1InputHandler_Client: IInputHandler)
+	engine2.dll + 0x532fc8
+CSource2Metrics_MatchPerfSummary_Notification (hierarchy CSource2Metrics_MatchPerfSummary_Notification: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538d50
+CSource2Metrics_MatchPerfSummary_Notification_Client (hierarchy CSource2Metrics_MatchPerfSummary_Notification_Client: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5393f0
+CSplitScreenService
+	(hierarchy CSplitScreenService: CBaseEngineService<class ISplitScreenService>, CTier4AppSystem<class ISplitScreenService,0>, CTier3AppSystem<class ISplitScreenService,0>, CTier2AppSystem<class ISplitScreenService,0>, CTier1AppSystem<class ISplitScreenService,0>, CTier0AppSystem<class ISplitScreenService,0>, CBaseAppSystem<class ISplitScreenService>, ISplitScreenService, IEngineService, IAppSystem, IMobileEventListener)
+		engine2.dll + 0x53a160
+	MI offset 56 (hierarchy IMobileEventListener)
+		engine2.dll + 0x53a198
+CStatsService
+	(hierarchy CStatsService: CBaseEngineService<class IStatsService>, CTier4AppSystem<class IStatsService,0>, CTier3AppSystem<class IStatsService,0>, CTier2AppSystem<class IStatsService,0>, CTier1AppSystem<class IStatsService,0>, CTier0AppSystem<class IStatsService,0>, CBaseAppSystem<class IStatsService>, IStatsService, IEngineService, IAppSystem, IDebugVisualizer)
+		engine2.dll + 0x5f5ad0
+	MI offset 56 (hierarchy IDebugVisualizer)
+		engine2.dll + 0x5f5b08
+CToolService (hierarchy CToolService: CBaseEngineService<class IToolService>, CTier4AppSystem<class IToolService,0>, CTier3AppSystem<class IToolService,0>, CTier2AppSystem<class IToolService,0>, CTier1AppSystem<class IToolService,0>, CTier0AppSystem<class IToolService,0>, CBaseAppSystem<class IToolService>, IToolService, IEngineService, IAppSystem)
+	engine2.dll + 0x53a320
+CUGCAddonPathResolver (hierarchy CUGCAddonPathResolver: IUGCAddonPathResolver)
+	engine2.dll + 0x5338b0
+CVConActivateMessage (hierarchy CVConActivateMessage: IVConCommDataReceived)
+	engine2.dll + 0x5335a8
+CVConAutoCompleteHelper (hierarchy CVConAutoCompleteHelper: IVConCommDataReceived)
+	engine2.dll + 0x5335d8
+CVConCommandMessage (hierarchy CVConCommandMessage: IVConCommDataReceived)
+	engine2.dll + 0x5335e0
+CVProfService
+	(hierarchy CVProfService: CBaseEngineService<class IVProfService>, CTier4AppSystem<class IVProfService,0>, CTier3AppSystem<class IVProfService,0>, CTier2AppSystem<class IVProfService,0>, CTier1AppSystem<class IVProfService,0>, CTier0AppSystem<class IVProfService,0>, CBaseAppSystem<class IVProfService>, IVProfService, IEngineService, IAppSystem, IVConCommDataReceived)
+		engine2.dll + 0x53a360
+	MI offset 56 (hierarchy IVConCommDataReceived)
+		engine2.dll + 0x53a398
+CVariantSaveDataOps (hierarchy CVariantSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+	engine2.dll + 0x52e6a8
+Concurrency::details::stl_condition_variable_win7 (hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+	engine2.dll + 0x5972f0
+Concurrency::details::stl_critical_section_win7 (hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+	engine2.dll + 0x597298
+NetMessageConnectionClosed (hierarchy NetMessageConnectionClosed: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539b10
+NetMessageConnectionCrashed (hierarchy NetMessageConnectionCrashed: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539b30
+NetMessagePacketEnd (hierarchy NetMessagePacketEnd: google::protobuf::internal::ZeroFieldsBase, google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539b70
+NetMessagePacketStart (hierarchy NetMessagePacketStart: google::protobuf::internal::ZeroFieldsBase, google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539b88
+NetMessageSplitscreenUserChanged (hierarchy NetMessageSplitscreenUserChanged: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539b50
+PacketEntitiesFilter (hierarchy PacketEntitiesFilter: INetworkMessageProcessingPreFilter)
+	engine2.dll + 0x532cf8
+ProtoFlattenedSerializerField_t (hierarchy ProtoFlattenedSerializerField_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x539200
+ProtoFlattenedSerializerField_t_polymorphic_field_t (hierarchy ProtoFlattenedSerializerField_t_polymorphic_field_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x5385f0
+ProtoFlattenedSerializer_t (hierarchy ProtoFlattenedSerializer_t: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x538888
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>: std::_Ref_count_base)
+	engine2.dll + 0x5319b0
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_exception> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>: std::_Ref_count_base)
+	engine2.dll + 0x5318f0
+google::protobuf::DescriptorProto (hierarchy google::protobuf::DescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d150
+google::protobuf::DescriptorProto_ExtensionRange (hierarchy google::protobuf::DescriptorProto_ExtensionRange: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d238
+google::protobuf::DescriptorProto_ReservedRange (hierarchy google::protobuf::DescriptorProto_ReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d260
+google::protobuf::EnumDescriptorProto (hierarchy google::protobuf::EnumDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d280
+google::protobuf::EnumDescriptorProto_EnumReservedRange (hierarchy google::protobuf::EnumDescriptorProto_EnumReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d2f0
+google::protobuf::EnumOptions (hierarchy google::protobuf::EnumOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d310
+google::protobuf::EnumValueDescriptorProto (hierarchy google::protobuf::EnumValueDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d360
+google::protobuf::EnumValueOptions (hierarchy google::protobuf::EnumValueOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d390
+google::protobuf::ExtensionRangeOptions (hierarchy google::protobuf::ExtensionRangeOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d3e0
+google::protobuf::FieldDescriptorProto (hierarchy google::protobuf::FieldDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d450
+google::protobuf::FieldOptions (hierarchy google::protobuf::FieldOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d4b0
+google::protobuf::FileDescriptorProto (hierarchy google::protobuf::FileDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d540
+google::protobuf::FileDescriptorSet (hierarchy google::protobuf::FileDescriptorSet: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d618
+google::protobuf::FileOptions (hierarchy google::protobuf::FileOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d650
+google::protobuf::GeneratedCodeInfo (hierarchy google::protobuf::GeneratedCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d710
+google::protobuf::GeneratedCodeInfo_Annotation (hierarchy google::protobuf::GeneratedCodeInfo_Annotation: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d740
+google::protobuf::MessageOptions (hierarchy google::protobuf::MessageOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d780
+google::protobuf::MethodDescriptorProto (hierarchy google::protobuf::MethodDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d7d0
+google::protobuf::MethodOptions (hierarchy google::protobuf::MethodOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d810
+google::protobuf::OneofDescriptorProto (hierarchy google::protobuf::OneofDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d428
+google::protobuf::OneofOptions (hierarchy google::protobuf::OneofOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d860
+google::protobuf::ServiceDescriptorProto (hierarchy google::protobuf::ServiceDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d8b0
+google::protobuf::ServiceOptions (hierarchy google::protobuf::ServiceOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d8f0
+google::protobuf::SourceCodeInfo (hierarchy google::protobuf::SourceCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d940
+google::protobuf::SourceCodeInfo_Location (hierarchy google::protobuf::SourceCodeInfo_Location: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d970
+google::protobuf::UninterpretedOption (hierarchy google::protobuf::UninterpretedOption: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d9e0
+google::protobuf::UninterpretedOption_NamePart (hierarchy google::protobuf::UninterpretedOption_NamePart: google::protobuf::Message, google::protobuf::MessageLite)
+	engine2.dll + 0x52d518
+google::protobuf::internal::ImplicitWeakMessage (hierarchy google::protobuf::internal::ImplicitWeakMessage: google::protobuf::MessageLite)
+	engine2.dll + 0x52db40
+google::protobuf::internal::MapFieldAccessor (hierarchy google::protobuf::internal::MapFieldAccessor: google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	engine2.dll + 0x52d040
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64>: google::protobuf::internal::RepeatedFieldWrapper<__int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	engine2.dll + 0x52d010
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool>: google::protobuf::internal::RepeatedFieldWrapper<bool>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	engine2.dll + 0x52d030
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double>: google::protobuf::internal::RepeatedFieldWrapper<double>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	engine2.dll + 0x52d028
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float>: google::protobuf::internal::RepeatedFieldWrapper<float>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	engine2.dll + 0x52d020
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int>: google::protobuf::internal::RepeatedFieldWrapper<int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	engine2.dll + 0x52d000
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64>: google::protobuf::internal::RepeatedFieldWrapper<unsigned __int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	engine2.dll + 0x52d018
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int>: google::protobuf::internal::RepeatedFieldWrapper<unsigned int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	engine2.dll + 0x52d008
+google::protobuf::internal::RepeatedPtrFieldMessageAccessor (hierarchy google::protobuf::internal::RepeatedPtrFieldMessageAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class google::protobuf::Message>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	engine2.dll + 0x52d048
+google::protobuf::internal::RepeatedPtrFieldStringAccessor (hierarchy google::protobuf::internal::RepeatedPtrFieldStringAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	engine2.dll + 0x52d038
+std::_Generic_error_category (hierarchy std::_Generic_error_category: std::error_category)
+	engine2.dll + 0x5318d0
+std::_Iostream_error_category2 (hierarchy std::_Iostream_error_category2: std::error_category)
+	engine2.dll + 0x52d078
+std::bad_alloc (hierarchy std::bad_alloc: std::exception)
+	engine2.dll + 0x531a58
+std::bad_exception (hierarchy std::bad_exception: std::exception)
+	engine2.dll + 0x531998

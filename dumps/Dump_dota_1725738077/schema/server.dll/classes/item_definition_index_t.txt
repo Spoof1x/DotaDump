@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class item_definition_index_t (size: 0x4 bytes, project "server", binding @ server.dll + 0x3af4c00, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class item_definition_index_t-----
+	static bool IS_TYPESAFE_INTEGER(server.dll + 0x3298eb8)
+
+-----members of class item_definition_index_t-----
+	uint32 m_Value(offset 0x0, size 0x4, align 0x4)
+

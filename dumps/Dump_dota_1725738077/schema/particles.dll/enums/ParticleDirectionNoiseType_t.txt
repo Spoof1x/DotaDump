@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleDirectionNoiseType_t(size: 4 bytes, 3 values, project "particles", binding @ particles.dll + 0x518680):
+	PARTICLE_DIR_NOISE_PERLIN = 0,
+		^MPropertyFriendlyName "Perlin"
+	PARTICLE_DIR_NOISE_CURL = 1,
+		^MPropertyFriendlyName "Curl"
+	PARTICLE_DIR_NOISE_WORLEY_BASIC = 2,
+		^MPropertyFriendlyName "Worley"

@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ELaneSelection(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x46ff450):
+	k_ELaneSelection_SAFELANE = 0,
+	k_ELaneSelection_OFFLANE = 1,
+	k_ELaneSelection_MIDLANE = 2,
+	k_ELaneSelection_SUPPORT = 3,
+	k_ELaneSelection_HARDSUPPORT = 4,

@@ -1,0 +1,467 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_OP_RenderSprites (size: 0x4458 bytes, project "particles", binding @ particles.dll + 0x544a60, scope "!GlobalTypes") extends CBaseRendererSource2
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: particles.dll + 0x2fbe80"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBaseRendererSource2 (size: 0x27e8 bytes, project "particles", binding @ particles.dll + 0x5449f0, scope "!GlobalTypes") extends CParticleFunctionRenderer
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunctionRenderer (size: 0x210 bytes, project "particles", binding @ particles.dll + 0x518470, scope "!GlobalTypes") extends CParticleFunction
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunction (size: 0x1c0 bytes, project "particles", binding @ particles.dll + 0x518010, scope "!GlobalTypes")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+			
+			-----members of class CParticleFunction-----
+				uint8_t[8] unaccounted(offset 0x0)
+				CParticleCollectionFloatInput m_flOpStrength(offset 0x8, size 0x160, align 0x8)
+					^MPropertyFriendlyName "operator strength"
+					^MPropertySortPriority "-100"
+				ParticleEndcapMode_t m_nOpEndCapState(offset 0x168, size 0x4, align 0x4)
+					^MPropertyFriendlyName "operator end cap state"
+					^MPropertySortPriority "-100"
+				float32 m_flOpStartFadeInTime(offset 0x16c, size 0x4, align 0x4)
+					^MPropertyStartGroup "Operator Fade"
+					^MPropertyFriendlyName "operator start fadein"
+					^MParticleAdvancedField
+					^MPropertySortPriority "-100"
+				float32 m_flOpEndFadeInTime(offset 0x170, size 0x4, align 0x4)
+					^MPropertyFriendlyName "operator end fadein"
+					^MParticleAdvancedField
+					^MPropertySortPriority "-100"
+				float32 m_flOpStartFadeOutTime(offset 0x174, size 0x4, align 0x4)
+					^MPropertyFriendlyName "operator start fadeout"
+					^MParticleAdvancedField
+					^MPropertySortPriority "-100"
+				float32 m_flOpEndFadeOutTime(offset 0x178, size 0x4, align 0x4)
+					^MPropertyFriendlyName "operator end fadeout"
+					^MParticleAdvancedField
+					^MPropertySortPriority "-100"
+				float32 m_flOpFadeOscillatePeriod(offset 0x17c, size 0x4, align 0x4)
+					^MPropertyFriendlyName "operator fade oscillate"
+					^MParticleAdvancedField
+					^MPropertySortPriority "-100"
+				bool m_bNormalizeToStopTime(offset 0x180, size 0x1, align 0x1)
+					^MPropertyFriendlyName "normalize fade times to endcap"
+					^MParticleAdvancedField
+					^MPropertySortPriority "-100"
+				uint8_t[3] unaccounted(offset 0x181)
+				float32 m_flOpTimeOffsetMin(offset 0x184, size 0x4, align 0x4)
+					^MPropertyStartGroup "Operator Fade Time Offset"
+					^MPropertyFriendlyName "operator fade time offset min"
+					^MParticleAdvancedField
+					^MPropertySortPriority "-100"
+				float32 m_flOpTimeOffsetMax(offset 0x188, size 0x4, align 0x4)
+					^MPropertyFriendlyName "operator fade time offset max"
+					^MParticleAdvancedField
+					^MPropertySortPriority "-100"
+				int32 m_nOpTimeOffsetSeed(offset 0x18c, size 0x4, align 0x4)
+					^MPropertyFriendlyName "operator fade time offset seed"
+					^MParticleAdvancedField
+					^MPropertySortPriority "-100"
+				int32 m_nOpTimeScaleSeed(offset 0x190, size 0x4, align 0x4)
+					^MPropertyStartGroup "Operator Fade Timescale Modifiers"
+					^MPropertyFriendlyName "operator fade time scale seed"
+					^MParticleAdvancedField
+					^MPropertySortPriority "-100"
+				float32 m_flOpTimeScaleMin(offset 0x194, size 0x4, align 0x4)
+					^MPropertyFriendlyName "operator fade time scale min"
+					^MParticleAdvancedField
+					^MPropertySortPriority "-100"
+				float32 m_flOpTimeScaleMax(offset 0x198, size 0x4, align 0x4)
+					^MPropertyFriendlyName "operator fade time scale max"
+					^MParticleAdvancedField
+					^MPropertySortPriority "-100"
+				uint8_t[2] unaccounted(offset 0x19c)
+				bool m_bDisableOperator(offset 0x19e, size 0x1, align 0x1)
+					^MPropertyStartGroup
+					^MPropertySuppressField
+				uint8_t[1] unaccounted(offset 0x19f)
+				CUtlString m_Notes(offset 0x1a0, size 0x8, align 0x8)
+					^MPropertyFriendlyName "operator help and notes"
+					^MParticleHelpField
+					^MParticleAdvancedField
+					^MPropertySortPriority "-100"
+				uint8_t[24] unaccounted(offset 0x1a8)
+			
+		
+		-----members of class CParticleFunctionRenderer-----
+			CParticleVisibilityInputs VisibilityInputs(offset 0x1c0, size 0x48, align 0x4)
+				^MPropertySortPriority "-1"
+			bool m_bCannotBeRefracted(offset 0x208, size 0x1, align 0x1)
+				^MPropertyStartGroup "Rendering filter"
+				^MPropertyFriendlyName "I cannot be refracted through refracting objects like water"
+				^MPropertySortPriority "-1"
+			bool m_bSkipRenderingOnMobile(offset 0x209, size 0x1, align 0x1)
+				^MPropertyFriendlyName "Skip rendering on mobile"
+				^MPropertySortPriority "-1"
+			uint8_t[6] unaccounted(offset 0x20a)
+		
+	
+	-----members of class CBaseRendererSource2-----
+		CParticleCollectionRendererFloatInput m_flRadiusScale(offset 0x210, size 0x160, align 0x8)
+			^MPropertyStartGroup "+Renderer Modifiers"
+			^MPropertyFriendlyName "radius scale"
+			^MPropertySortPriority "700"
+		CParticleCollectionRendererFloatInput m_flAlphaScale(offset 0x370, size 0x160, align 0x8)
+			^MPropertyFriendlyName "alpha scale"
+			^MPropertySortPriority "700"
+		CParticleCollectionRendererFloatInput m_flRollScale(offset 0x4d0, size 0x160, align 0x8)
+			^MPropertyFriendlyName "rotation roll scale"
+			^MPropertySortPriority "700"
+		ParticleAttributeIndex_t m_nAlpha2Field(offset 0x630, size 0x4, align 0x0)
+			^MPropertyFriendlyName "per-particle alpha scale attribute"
+			^MPropertyAttributeChoiceName "particlefield_scalar"
+			^MPropertySortPriority "700"
+		uint8_t[4] unaccounted(offset 0x634)
+		CParticleCollectionRendererVecInput m_vecColorScale(offset 0x638, size 0x678, align 0x8)
+			^MPropertyFriendlyName "color blend"
+			^MPropertySortPriority "700"
+		ParticleColorBlendType_t m_nColorBlendType(offset 0xcb0, size 0x4, align 0x4)
+			^MPropertyFriendlyName "color blend type"
+			^MPropertySortPriority "700"
+		SpriteCardShaderType_t m_nShaderType(offset 0xcb4, size 0x4, align 0x4)
+			^MPropertyStartGroup "+Material"
+			^MPropertyFriendlyName "Shader"
+			^MPropertySortPriority "600"
+		CUtlString m_strShaderOverride(offset 0xcb8, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Custom Shader"
+			^MPropertySuppressExpr "m_nShaderType != SPRITECARD_SHADER_CUSTOM"
+			^MPropertySortPriority "600"
+		CParticleCollectionRendererFloatInput m_flCenterXOffset(offset 0xcc0, size 0x160, align 0x8)
+			^MPropertyFriendlyName "X offset of center point"
+			^MPropertySortPriority "600"
+		CParticleCollectionRendererFloatInput m_flCenterYOffset(offset 0xe20, size 0x160, align 0x8)
+			^MPropertyFriendlyName "Y offset of center point"
+			^MPropertySortPriority "600"
+		float32 m_flBumpStrength(offset 0xf80, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Bump Strength"
+			^MPropertySortPriority "600"
+		ParticleSequenceCropOverride_t m_nCropTextureOverride(offset 0xf84, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Sheet Crop Behavior"
+			^MPropertySortPriority "600"
+		CUtlVector< TextureGroup_t > m_vecTexturesInput(offset 0xf88, size 0x18, align 0x8)
+			^MPropertyFriendlyName "Textures"
+			^MParticleRequireDefaultArrayEntry
+			^MPropertyAutoExpandSelf
+			^MPropertySortPriority "600"
+		float32 m_flAnimationRate(offset 0xfa0, size 0x4, align 0x4)
+			^MPropertyStartGroup "Animation"
+			^MPropertyFriendlyName "animation rate"
+			^MPropertyAttributeRange "0 5"
+			^MPropertySortPriority "500"
+		AnimationType_t m_nAnimationType(offset 0xfa4, size 0x4, align 0x4)
+			^MPropertyFriendlyName "animation type"
+			^MPropertySortPriority "500"
+		bool m_bAnimateInFPS(offset 0xfa8, size 0x1, align 0x1)
+			^MPropertyFriendlyName "set animation value in FPS"
+			^MPropertySortPriority "500"
+		uint8_t[7] unaccounted(offset 0xfa9)
+		CParticleCollectionRendererFloatInput m_flSelfIllumAmount(offset 0xfb0, size 0x160, align 0x8)
+			^MPropertyStartGroup "Lighting and Shadows"
+			^MPropertyFriendlyName "self illum amount"
+			^MPropertyAttributeRange "0 2"
+			^MPropertySortPriority "400"
+		CParticleCollectionRendererFloatInput m_flDiffuseAmount(offset 0x1110, size 0x160, align 0x8)
+			^MPropertyFriendlyName "diffuse lighting amount"
+			^MPropertyAttributeRange "0 1"
+			^MPropertySortPriority "400"
+		CParticleCollectionRendererFloatInput m_flDiffuseClamp(offset 0x1270, size 0x160, align 0x8)
+			^MPropertyFriendlyName "diffuse max contribution clamp"
+			^MPropertyAttributeRange "0 1"
+			^MPropertySortPriority "400"
+			^MPropertySuppressExpr "mod != hlx"
+		int32 m_nLightingControlPoint(offset 0x13d0, size 0x4, align 0x4)
+			^MPropertyFriendlyName "diffuse lighting origin Control Point"
+			^MPropertySortPriority "400"
+		ParticleAttributeIndex_t m_nSelfIllumPerParticle(offset 0x13d4, size 0x4, align 0x0)
+			^MPropertyFriendlyName "self illum per-particle"
+			^MPropertyAttributeChoiceName "particlefield_scalar"
+			^MPropertySortPriority "400"
+			^MPropertySuppressExpr "m_nOrientationType == PARTICLE_ORIENTATION_ALIGN_TO_PARTICLE_NORMAL || m_nOrientationType == PARTICLE_ORIENTATION_SCREENALIGN_TO_PARTICLE_NORMAL"
+		ParticleOutputBlendMode_t m_nOutputBlendMode(offset 0x13d8, size 0x4, align 0x4)
+			^MPropertyStartGroup "+Color and alpha adjustments"
+			^MPropertyFriendlyName "output blend mode"
+			^MPropertySortPriority "300"
+		bool m_bGammaCorrectVertexColors(offset 0x13dc, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Gamma-correct vertex colors"
+			^MPropertySortPriority "300"
+		bool m_bSaturateColorPreAlphaBlend(offset 0x13dd, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Saturate color pre alphablend"
+			^MPropertySortPriority "300"
+			^MPropertySuppressExpr "mod!=dota"
+		uint8_t[2] unaccounted(offset 0x13de)
+		CParticleCollectionRendererFloatInput m_flAddSelfAmount(offset 0x13e0, size 0x160, align 0x8)
+			^MPropertyFriendlyName "add self amount over alphablend"
+			^MPropertySortPriority "300"
+		CParticleCollectionRendererFloatInput m_flDesaturation(offset 0x1540, size 0x160, align 0x8)
+			^MPropertyFriendlyName "desaturation amount"
+			^MPropertyAttributeRange "0 1"
+			^MPropertySortPriority "300"
+		CParticleCollectionRendererFloatInput m_flOverbrightFactor(offset 0x16a0, size 0x160, align 0x8)
+			^MPropertyFriendlyName "overbright factor"
+			^MPropertySortPriority "300"
+		int32 m_nHSVShiftControlPoint(offset 0x1800, size 0x4, align 0x4)
+			^MPropertyFriendlyName "HSV Shift Control Point"
+			^MPropertySortPriority "300"
+		ParticleFogType_t m_nFogType(offset 0x1804, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Apply fog to particle"
+			^MPropertySortPriority "300"
+		CParticleCollectionRendererFloatInput m_flFogAmount(offset 0x1808, size 0x160, align 0x8)
+			^MPropertyFriendlyName "Fog Scale"
+			^MPropertySortPriority "300"
+			^MPropertySuppressExpr "mod != hlx"
+		bool m_bTintByFOW(offset 0x1968, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Apply fog of war to color"
+			^MPropertySortPriority "300"
+			^MPropertySuppressExpr "mod != dota"
+		bool m_bTintByGlobalLight(offset 0x1969, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Apply global light to color"
+			^MPropertySortPriority "300"
+			^MPropertySuppressExpr "mod != dota"
+		uint8_t[2] unaccounted(offset 0x196a)
+		SpriteCardPerParticleScale_t m_nPerParticleAlphaReference(offset 0x196c, size 0x4, align 0x4)
+			^MPropertyStartGroup "Color and alpha adjustments/Alpha Reference"
+			^MPropertyFriendlyName "alpha reference"
+			^MPropertySortPriority "300"
+		SpriteCardPerParticleScale_t m_nPerParticleAlphaRefWindow(offset 0x1970, size 0x4, align 0x4)
+			^MPropertyFriendlyName "alpha reference window size"
+			^MPropertySortPriority "300"
+		ParticleAlphaReferenceType_t m_nAlphaReferenceType(offset 0x1974, size 0x4, align 0x4)
+			^MPropertyFriendlyName "alpha reference type"
+			^MPropertySortPriority "300"
+		CParticleCollectionRendererFloatInput m_flAlphaReferenceSoftness(offset 0x1978, size 0x160, align 0x8)
+			^MPropertyFriendlyName "alpha reference softness"
+			^MPropertyAttributeRange "0 1"
+			^MPropertySortPriority "300"
+		CParticleCollectionRendererFloatInput m_flSourceAlphaValueToMapToZero(offset 0x1ad8, size 0x160, align 0x8)
+			^MPropertyFriendlyName "source alpha value to map to alpha of zero"
+			^MPropertyAttributeRange "0 1"
+			^MPropertySortPriority "300"
+		CParticleCollectionRendererFloatInput m_flSourceAlphaValueToMapToOne(offset 0x1c38, size 0x160, align 0x8)
+			^MPropertyFriendlyName "source alpha value to map to alpha of 1"
+			^MPropertyAttributeRange "0 1"
+			^MPropertySortPriority "300"
+		bool m_bRefract(offset 0x1d98, size 0x1, align 0x1)
+			^MPropertyStartGroup "Refraction"
+			^MPropertyFriendlyName "refract background"
+			^MPropertySortPriority "200"
+		bool m_bRefractSolid(offset 0x1d99, size 0x1, align 0x1)
+			^MPropertyFriendlyName "refract draws opaque - alpha scales refraction"
+			^MPropertySortPriority "200"
+			^MPropertySuppressExpr "!m_bRefract"
+		uint8_t[6] unaccounted(offset 0x1d9a)
+		CParticleCollectionRendererFloatInput m_flRefractAmount(offset 0x1da0, size 0x160, align 0x8)
+			^MPropertyFriendlyName "refract amount"
+			^MPropertyAttributeRange "-2 2"
+			^MPropertySortPriority "200"
+			^MPropertySuppressExpr "!m_bRefract"
+		int32 m_nRefractBlurRadius(offset 0x1f00, size 0x4, align 0x4)
+			^MPropertyFriendlyName "refract blur radius"
+			^MPropertySortPriority "200"
+			^MPropertySuppressExpr "!m_bRefract"
+		BlurFilterType_t m_nRefractBlurType(offset 0x1f04, size 0x4, align 0x4)
+			^MPropertyFriendlyName "refract blur type"
+			^MPropertySortPriority "200"
+			^MPropertySuppressExpr "!m_bRefract"
+		bool m_bOnlyRenderInEffectsBloomPass(offset 0x1f08, size 0x1, align 0x1)
+			^MPropertyStartGroup
+			^MPropertyFriendlyName "Only Render in effects bloom pass"
+			^MPropertySortPriority "1100"
+		bool m_bOnlyRenderInEffectsWaterPass(offset 0x1f09, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Only Render in effects water pass"
+			^MPropertySortPriority "1050"
+			^MPropertySuppressExpr "mod != csgo"
+		bool m_bUseMixedResolutionRendering(offset 0x1f0a, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Use Mixed Resolution Rendering"
+			^MPropertySortPriority "1200"
+		bool m_bOnlyRenderInEffecsGameOverlay(offset 0x1f0b, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Only Render in effects game overlay pass"
+			^MPropertySortPriority "1210"
+			^MPropertySuppressExpr "mod != csgo"
+		char[128] m_stencilTestID(offset 0x1f0c, size 0x80, align 0x1)
+			^MPropertyStartGroup "Stencil"
+			^MPropertyFriendlyName "stencil test ID"
+			^MPropertySortPriority "0"
+		bool m_bStencilTestExclude(offset 0x1f8c, size 0x1, align 0x1)
+			^MPropertyFriendlyName "only write where stencil is NOT stencil test ID"
+			^MPropertySortPriority "0"
+		char[128] m_stencilWriteID(offset 0x1f8d, size 0x80, align 0x1)
+			^MPropertyFriendlyName "stencil write ID"
+			^MPropertySortPriority "0"
+		bool m_bWriteStencilOnDepthPass(offset 0x200d, size 0x1, align 0x1)
+			^MPropertyFriendlyName "write stencil on z-buffer test success"
+			^MPropertySortPriority "0"
+		bool m_bWriteStencilOnDepthFail(offset 0x200e, size 0x1, align 0x1)
+			^MPropertyFriendlyName "write stencil on z-buffer test failure"
+			^MPropertySortPriority "0"
+		bool m_bReverseZBuffering(offset 0x200f, size 0x1, align 0x1)
+			^MPropertyStartGroup "Depth buffer control and effects"
+			^MPropertyFriendlyName "reverse z-buffer test"
+			^MPropertySortPriority "900"
+		bool m_bDisableZBuffering(offset 0x2010, size 0x1, align 0x1)
+			^MPropertyFriendlyName "disable z-buffer test"
+			^MPropertySortPriority "900"
+		uint8_t[3] unaccounted(offset 0x2011)
+		ParticleDepthFeatheringMode_t m_nFeatheringMode(offset 0x2014, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Depth feathering mode"
+			^MPropertySortPriority "900"
+		CParticleCollectionRendererFloatInput m_flFeatheringMinDist(offset 0x2018, size 0x160, align 0x8)
+			^MPropertyFriendlyName "particle feathering closest distance to surface"
+			^MPropertySortPriority "900"
+		CParticleCollectionRendererFloatInput m_flFeatheringMaxDist(offset 0x2178, size 0x160, align 0x8)
+			^MPropertyFriendlyName "particle feathering farthest distance to surface"
+			^MPropertySortPriority "900"
+		CParticleCollectionRendererFloatInput m_flFeatheringFilter(offset 0x22d8, size 0x160, align 0x8)
+			^MPropertyFriendlyName "particle feathering filter"
+			^MPropertySortPriority "900"
+		CParticleCollectionRendererFloatInput m_flDepthBias(offset 0x2438, size 0x160, align 0x8)
+			^MPropertyFriendlyName "depth comparison bias"
+			^MPropertySortPriority "900"
+		ParticleSortingChoiceList_t m_nSortMethod(offset 0x2598, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Sort Method"
+			^MPropertySortPriority "900"
+		bool m_bBlendFramesSeq0(offset 0x259c, size 0x1, align 0x1)
+			^MPropertyStartGroup "Animation"
+			^MPropertyFriendlyName "blend sequence animation frames"
+			^MPropertySortPriority "500"
+		bool m_bMaxLuminanceBlendingSequence0(offset 0x259d, size 0x1, align 0x1)
+			^MPropertyFriendlyName "use max-luminance blending for sequence"
+			^MPropertySortPriority "500"
+			^MPropertySuppressExpr "!m_bBlendFramesSeq0"
+		uint8_t[586] unaccounted(offset 0x259e)
+	
+
+-----members of class C_OP_RenderSprites-----
+	CParticleCollectionRendererFloatInput m_nSequenceOverride(offset 0x27e8, size 0x160, align 0x8)
+		^MPropertyStartGroup "Animation"
+		^MPropertyFriendlyName "sequence id override"
+		^MPropertySortPriority "500"
+	ParticleOrientationChoiceList_t m_nOrientationType(offset 0x2948, size 0x4, align 0x4)
+		^MPropertyStartGroup "Orientation"
+		^MPropertyFriendlyName "orientation type"
+		^MPropertySortPriority "750"
+	int32 m_nOrientationControlPoint(offset 0x294c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "orientation control point"
+		^MPropertySortPriority "750"
+		^MPropertySuppressExpr "m_nOrientationType != PARTICLE_ORIENTATION_ALIGN_TO_PARTICLE_NORMAL && m_nOrientationType != PARTICLE_ORIENTATION_SCREENALIGN_TO_PARTICLE_NORMAL"
+	bool m_bUseYawWithNormalAligned(offset 0x2950, size 0x1, align 0x1)
+		^MPropertyFriendlyName "enable yaw for particles aligned to normals"
+		^MPropertySortPriority "750"
+		^MPropertySuppressExpr "m_nOrientationType != PARTICLE_ORIENTATION_ALIGN_TO_PARTICLE_NORMAL && m_nOrientationType != PARTICLE_ORIENTATION_SCREENALIGN_TO_PARTICLE_NORMAL"
+	uint8_t[7] unaccounted(offset 0x2951)
+	CParticleCollectionRendererFloatInput m_flMinSize(offset 0x2958, size 0x160, align 0x8)
+		^MPropertyStartGroup "Fading and culling"
+		^MPropertyFriendlyName "minimum visual screen size"
+		^MPropertySortPriority "1000"
+	CParticleCollectionRendererFloatInput m_flMaxSize(offset 0x2ab8, size 0x160, align 0x8)
+		^MPropertyFriendlyName "maximum visual screen size"
+		^MPropertySortPriority "1000"
+	CParticleCollectionRendererFloatInput m_flAlphaAdjustWithSizeAdjust(offset 0x2c18, size 0x160, align 0x8)
+		^MPropertyFriendlyName "Factor to map size adjustment to alpha"
+		^MPropertySortPriority "1000"
+	CParticleCollectionRendererFloatInput m_flStartFadeSize(offset 0x2d78, size 0x160, align 0x8)
+		^MPropertyFriendlyName "screen size to start fading"
+		^MPropertySortPriority "1000"
+	CParticleCollectionRendererFloatInput m_flEndFadeSize(offset 0x2ed8, size 0x160, align 0x8)
+		^MPropertyFriendlyName "screen size to fade away"
+		^MPropertySortPriority "1000"
+	float32 m_flStartFadeDot(offset 0x3038, size 0x4, align 0x4)
+		^MPropertyFriendlyName "start fade dot product of normal vs view"
+		^MPropertySortPriority "1000"
+	float32 m_flEndFadeDot(offset 0x303c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "end fade dot product of normal vs view"
+		^MPropertySortPriority "1000"
+	bool m_bDistanceAlpha(offset 0x3040, size 0x1, align 0x1)
+		^MPropertyStartGroup "Distance to alpha coding"
+		^MPropertyFriendlyName "distance alpha"
+		^MPropertySortPriority "0"
+	bool m_bSoftEdges(offset 0x3041, size 0x1, align 0x1)
+		^MPropertyFriendlyName "use soft edges for distance alpha"
+		^MPropertySortPriority "0"
+		^MPropertySuppressExpr "!m_bDistanceAlpha"
+	uint8_t[2] unaccounted(offset 0x3042)
+	float32 m_flEdgeSoftnessStart(offset 0x3044, size 0x4, align 0x4)
+		^MPropertyFriendlyName "start value for soft edges for distance alpha"
+		^MPropertySortPriority "0"
+		^MPropertySuppressExpr "!m_bDistanceAlpha"
+	float32 m_flEdgeSoftnessEnd(offset 0x3048, size 0x4, align 0x4)
+		^MPropertyFriendlyName "end value for soft edges for distance alpha"
+		^MPropertySortPriority "0"
+		^MPropertySuppressExpr "!m_bDistanceAlpha"
+	bool m_bOutline(offset 0x304c, size 0x1, align 0x1)
+		^MPropertyStartGroup "Outlining"
+		^MPropertyFriendlyName "enable particle outlining"
+		^MPropertySortPriority "0"
+	Color m_OutlineColor(offset 0x304d, size 0x4, align 0x1)
+		^MPropertyFriendlyName "outline color"
+		^MPropertySortPriority "0"
+		^MPropertySuppressExpr "!m_bOutline"
+	uint8_t[3] unaccounted(offset 0x3051)
+	int32 m_nOutlineAlpha(offset 0x3054, size 0x4, align 0x4)
+		^MPropertyFriendlyName "outline alpha"
+		^MPropertyAttributeRange "0 255"
+		^MPropertySortPriority "0"
+		^MPropertySuppressExpr "!m_bOutline"
+	float32 m_flOutlineStart0(offset 0x3058, size 0x4, align 0x4)
+		^MPropertyFriendlyName "outline start 0"
+		^MPropertySortPriority "0"
+		^MPropertySuppressExpr "!m_bOutline"
+	float32 m_flOutlineStart1(offset 0x305c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "outline start 1"
+		^MPropertySortPriority "0"
+		^MPropertySuppressExpr "!m_bOutline"
+	float32 m_flOutlineEnd0(offset 0x3060, size 0x4, align 0x4)
+		^MPropertyFriendlyName "outline end 0"
+		^MPropertySortPriority "0"
+		^MPropertySuppressExpr "!m_bOutline"
+	float32 m_flOutlineEnd1(offset 0x3064, size 0x4, align 0x4)
+		^MPropertyFriendlyName "outline end 1"
+		^MPropertySortPriority "0"
+		^MPropertySuppressExpr "!m_bOutline"
+	ParticleLightingQuality_t m_nLightingMode(offset 0x3068, size 0x4, align 0x4)
+		^MPropertyStartGroup "Lighting and Shadows"
+		^MPropertyFriendlyName "lighting mode"
+		^MPropertySortPriority "400"
+		^MPropertySuppressExpr "mod != hlx"
+	uint8_t[4] unaccounted(offset 0x306c)
+	CParticleCollectionRendererFloatInput m_flLightingTessellation(offset 0x3070, size 0x160, align 0x8)
+		^MPropertyFriendlyName "vertex lighting tessellation (0-5)"
+		^MPropertyAttributeRange "0 5"
+		^MPropertySortPriority "400"
+		^MPropertySuppressExpr "mod != hlx || m_nLightingMode != PARTICLE_LIGHTING_PER_VERTEX"
+	CParticleCollectionRendererFloatInput m_flLightingDirectionality(offset 0x31d0, size 0x160, align 0x8)
+		^MPropertyFriendlyName "lighting directionality"
+		^MPropertySortPriority "400"
+		^MPropertySuppressExpr "mod != hlx"
+	bool m_bParticleShadows(offset 0x3330, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Particle Shadows"
+		^MPropertySortPriority "400"
+		^MPropertySuppressExpr "mod != csgo"
+	uint8_t[3] unaccounted(offset 0x3331)
+	float32 m_flShadowDensity(offset 0x3334, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Shadow Density"
+		^MPropertySortPriority "400"
+		^MPropertySuppressExpr "!m_bParticleShadows"
+	CReplicationParameters m_replicationParameters(offset 0x3338, size 0x1118, align 0x8)
+		^MPropertyStartGroup "Replication"
+		^MPropertyFriendlyName "Replication settings"
+	uint8_t[8] unaccounted(offset 0x4450)
+

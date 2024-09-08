@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFeVertexMapBuildArray (size: 0x18 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a2630, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1369b00"
+
+-----members of class CFeVertexMapBuildArray-----
+	CUtlVector< FeVertexMapBuild_t* > m_Array(offset 0x0, size 0x18, align 0x8)
+

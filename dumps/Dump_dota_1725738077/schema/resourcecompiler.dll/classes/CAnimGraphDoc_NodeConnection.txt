@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_NodeConnection (size: 0x8 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e89d0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x55bc10"
+
+-----members of class CAnimGraphDoc_NodeConnection-----
+	AnimNodeID m_nodeID(offset 0x0, size 0x4, align 0x4)
+	AnimNodeOutputID m_outputID(offset 0x4, size 0x4, align 0x4)
+

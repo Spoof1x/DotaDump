@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVerticalMotionController (size: 0x10 bytes, project "server", binding @ server.dll + 0x3ae30a0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class CVerticalMotionController-----
+	uint8_t[16] unaccounted(offset 0x0)
+

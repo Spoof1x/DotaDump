@@ -1,0 +1,11 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum GraphCanvasInteractionPriority_t(size: 4 bytes, 9 values, project "qcontrols", binding @ assetbrowser.dll + 0x1d43c0):
+	NONINTERACTIVE = -9999,
+	GROUP = 0,
+	BASE = 1,
+	DRAG_HANDLE = 2,
+	RESIZE_EDGE = 3,
+	RESIZE_CORNER = 4,
+	ADD_FLOW = 5,
+	PORT = 6,
+	ANCHOR = 7,

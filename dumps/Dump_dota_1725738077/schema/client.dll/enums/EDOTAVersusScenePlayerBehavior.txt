@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EDOTAVersusScenePlayerBehavior(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x46ebda0):
+	VS_PLAYER_BEHAVIOR_PLAY_ACTIVITY = 1,
+	VS_PLAYER_BEHAVIOR_CHAT_WHEEL = 2,
+	VS_PLAYER_BEHAVIOR_PLAYBACK_RATE = 3,

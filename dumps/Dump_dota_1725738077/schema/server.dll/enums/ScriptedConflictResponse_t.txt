@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ScriptedConflictResponse_t(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x3a7b5e0):
+	SS_CONFLICT_ENQUEUE = 0,
+	SS_CONFLICT_INTERRUPT = 1,

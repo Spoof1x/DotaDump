@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum FootstepLandedFootSoundType_t(size: 4 bytes, 3 values, project "animationsystem", binding @ animationsystem.dll + 0x5f3140):
+	FOOTSOUND_Left = 0,
+	FOOTSOUND_Right = 1,
+	FOOTSOUND_UseOverrideSound = 2,

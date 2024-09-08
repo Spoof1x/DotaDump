@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABehaviorNeutralHome (size: 0x180 bytes, project "server", binding @ server.dll + 0x3ae4e30, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CDOTABehaviorNeutralHome-----
+	uint8_t[104] unaccounted(offset 0x0)
+	CDOTABehaviorMoveTo m_MoveTo(offset 0x68, size 0xe0, align 0x0)
+	Vector m_vHomePosition(offset 0x148, size 0xc, align 0x4)
+	Vector m_vHomeFacing(offset 0x154, size 0xc, align 0x4)
+	bool m_bHomePositionSet(offset 0x160, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x161)
+	CountdownTimer m_IdleRareAnimationTime(offset 0x168, size 0x18, align 0x0)
+

@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFileTypeWorkshopFileFilter (size: 0x20 bytes, project "workshoptoolutils", binding @ workshopmanager.dll + 0xea3bf0, scope "!GlobalTypes") extends IWorkshopFileListerFilter
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x626330"
+^MPropertyFriendlyName "File Type"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IWorkshopFileListerFilter (size: 0x8 bytes, project "workshoptoolutils", binding @ workshopmanager.dll + 0xea4090, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x625fd0"
+	
+	-----members of class IWorkshopFileListerFilter-----
+		uint8_t[8] unaccounted(offset 0x0)
+	
+
+-----members of class CFileTypeWorkshopFileFilter-----
+	CUtlVector< EWorkshopFileType > m_fileTypes(offset 0x8, size 0x18, align 0x8)
+

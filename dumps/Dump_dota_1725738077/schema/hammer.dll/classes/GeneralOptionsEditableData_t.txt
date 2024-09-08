@@ -1,0 +1,37 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class GeneralOptionsEditableData_t (size: 0x38 bytes, project "hammer", binding @ hammer.dll + 0x1e0a240, scope "!GlobalTypes")
+
+-----members of class GeneralOptionsEditableData_t-----
+	int32 iUndoLevels(offset 0x0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Maximum number of undo levels"
+	bool bSaveChangesOnBuildMap(offset 0x4, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Save changes when building map"
+	bool bRenderFullyUnlitAsFullbright(offset 0x5, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Render unlit maps as fullbright"
+	bool bShowSelectionModeChangeNotificationIcons(offset 0x6, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Show selection mode notification icons"
+	bool bShowToolChangeNotificationIcons(offset 0x7, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Show tool notification icons"
+	bool bPauseGameOnActivate(offset 0x8, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Pause the game when hammer is activated"
+	uint8_t[7] unaccounted(offset 0x9)
+	CUtlString SolidEntity(offset 0x10, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Default solid entity to create when using tie to entity"
+	CUtlString PointEntity(offset 0x18, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Default point entity to select in the entity tool"
+	CUtlString PathEntity(offset 0x20, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Default path entity to select in the path tool"
+	bool bReportMapCompileCrashes(offset 0x28, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Report crashes during map compile"
+	bool bViewFocusStealing(offset 0x29, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Steal focus on mouse hover"
+	bool bMoveSelectedEnabled(offset 0x2a, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Allow drag move of selected objects"
+	bool bPreviewMotionExtraction(offset 0x2b, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Apply extracted motion when previewing animations"
+	int32 nViewportFontSize(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Font size for text in 2d and 3d viewports"
+	float32 flVertexSnapRadius(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Radius to use when snapping to vertex"
+	uint8_t[4] unaccounted(offset 0x34)
+

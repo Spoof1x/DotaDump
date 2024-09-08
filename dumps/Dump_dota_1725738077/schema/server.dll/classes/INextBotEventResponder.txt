@@ -1,0 +1,7 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class INextBotEventResponder (size: 0x8 bytes, project "server", binding @ server.dll + 0x3af8a80, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+-----members of class INextBotEventResponder-----
+	uint8_t[8] unaccounted(offset 0x0)
+

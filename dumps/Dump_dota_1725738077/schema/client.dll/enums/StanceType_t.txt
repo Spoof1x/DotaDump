@@ -1,0 +1,12 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum StanceType_t(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x46bb7a0):
+	STANCE_CURRENT = -1,
+		^MPropertySuppressEnumerator
+	STANCE_DEFAULT = 0,
+		^MPropertyFriendlyName "Default"
+	STANCE_CROUCHING = 1,
+		^MPropertyFriendlyName "Crouching"
+	STANCE_PRONE = 2,
+		^MPropertyFriendlyName "Prone"
+	NUM_STANCES = 3,
+		^MPropertySuppressEnumerator

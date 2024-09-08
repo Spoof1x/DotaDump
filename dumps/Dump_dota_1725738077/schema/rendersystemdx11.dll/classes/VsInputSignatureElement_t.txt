@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VsInputSignatureElement_t (size: 0xc4 bytes, project "rendersystemdx11", binding @ rendersystemdx11.dll + 0x3eed90, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class VsInputSignatureElement_t-----
+	char[64] m_pName(offset 0x0, size 0x40, align 0x1)
+	char[64] m_pSemantic(offset 0x40, size 0x40, align 0x1)
+	char[64] m_pD3DSemanticName(offset 0x80, size 0x40, align 0x1)
+	int32 m_nD3DSemanticIndex(offset 0xc0, size 0x4, align 0x4)
+

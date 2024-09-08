@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMatch3OpponentActionDefinition (size: 0x48 bytes, project "client", binding @ client.dll + 0x48df6d0, scope "!GlobalTypes") extends CMatch3AbilityBaseDefinition
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x215c570"
+^MVDataRoot
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMatch3AbilityBaseDefinition (size: 0x38 bytes, project "client", binding @ client.dll + 0x48df450, scope "!GlobalTypes")
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: client.dll + 0x215b8f0"
+	
+	-----members of class CMatch3AbilityBaseDefinition-----
+		CUtlString m_sLocName(offset 0x0, size 0x8, align 0x8)
+		CUtlString m_sLocDescription(offset 0x8, size 0x8, align 0x8)
+		CPanoramaImageName m_sImage(offset 0x10, size 0x10, align 0x8)
+		CUtlVector< CMatch3AbilityParamDefinition > m_vecParams(offset 0x20, size 0x18, align 0x8)
+	
+
+-----members of class CMatch3OpponentActionDefinition-----
+	Match3OpponentActionID_t m_unOpponentActionID(offset 0x38, size 0x4, align 0x0)
+	uint8_t[12] unaccounted(offset 0x3c)
+

@@ -1,0 +1,20 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ConstraintSoundInfo (size: 0x88 bytes, project "server", binding @ server.dll + 0x38ce650, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_INFO_TAG_MClassHasEntityLimitedDataDesc
+
+-----members of class ConstraintSoundInfo-----
+	uint8_t[8] unaccounted(offset 0x0)
+	VelocitySampler m_vSampler(offset 0x8, size 0x14, align 0x0)
+	uint8_t[4] unaccounted(offset 0x1c)
+	SimpleConstraintSoundProfile m_soundProfile(offset 0x20, size 0x20, align 0x0)
+	Vector m_forwardAxis(offset 0x40, size 0xc, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4c)
+	CUtlSymbolLarge m_iszTravelSoundFwd(offset 0x50, size 0x8, align 0x8)
+	CUtlSymbolLarge m_iszTravelSoundBack(offset 0x58, size 0x8, align 0x8)
+	uint8_t[8] unaccounted(offset 0x60)
+	CUtlSymbolLarge[3] m_iszReversalSounds(offset 0x68, size 0x18, align 0x8)
+	bool m_bPlayTravelSound(offset 0x80, size 0x1, align 0x1)
+	bool m_bPlayReversalSound(offset 0x81, size 0x1, align 0x1)
+	uint8_t[6] unaccounted(offset 0x82)
+

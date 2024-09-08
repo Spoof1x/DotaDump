@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PortraitScale_t(size: 4 bytes, 6 values, project "client", binding @ client.dll + 0x48e0790):
+	PORTRAIT_SCALE_INVALID = -1,
+	PORTRAIT_SCALE_LOADOUT = 0,
+	PORTRAIT_SCALE_ALTERNATE_LOADOUT = 1,
+	PORTRAIT_SCALE_WORLD = 2,
+	PORTRAIT_SCALE_SPECTATOR_LOADOUT = 3,
+	PORTRAIT_SCALE_VERSUS_LOADOUT = 4,

@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TexturesOptionsEditableData_t (size: 0x8 bytes, project "hammer", binding @ hammer.dll + 0x1e0a320, scope "!GlobalTypes")
+
+-----members of class TexturesOptionsEditableData_t-----
+	CUtlString m_DefaultMaterialName(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Default Material Name"
+		^MPropertyAttributeEditor "AssetBrowse( vmat )"
+

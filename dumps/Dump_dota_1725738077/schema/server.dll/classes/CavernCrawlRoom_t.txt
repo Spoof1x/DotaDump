@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CavernCrawlRoom_t (size: 0x18 bytes, project "server", binding @ server.dll + 0x3aa4880, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class CavernCrawlRoom_t-----
+	Vector2D m_vecPosition(offset 0x0, size 0x8, align 0x4)
+	char* m_pCSSClass(offset 0x8, size 0x8, align 0x8)
+	float32 m_flRoomRadius(offset 0x10, size 0x4, align 0x4)
+	bool m_bAlwaysVisible(offset 0x14, size 0x1, align 0x1)
+	bool m_bStartingRoom(offset 0x15, size 0x1, align 0x1)
+	bool m_bFinalTreasure(offset 0x16, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x17)
+

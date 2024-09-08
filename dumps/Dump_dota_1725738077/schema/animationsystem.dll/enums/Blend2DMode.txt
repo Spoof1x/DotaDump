@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum Blend2DMode(size: 4 bytes, 2 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a37b0):
+	Blend2DMode_General = 0,
+		^MPropertyFriendlyName "General"
+	Blend2DMode_Directional = 1,
+		^MPropertyFriendlyName "Directional"

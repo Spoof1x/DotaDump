@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimCycle (size: 0x4 bytes, project "modellib", binding @ toolframework2.dll + 0x92f450, scope "toolframework2.dll") extends CCycleBase
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x3ed150"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CCycleBase (size: 0x4 bytes, project "modellib", binding @ toolframework2.dll + 0x92f3c0, scope "toolframework2.dll")
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: toolframework2.dll + 0x3ed050"
+	
+	-----members of class CCycleBase-----
+		float32 m_flCycle(offset 0x0, size 0x4, align 0x4)
+	
+
+-----members of class CAnimCycle-----
+	<no members>
+

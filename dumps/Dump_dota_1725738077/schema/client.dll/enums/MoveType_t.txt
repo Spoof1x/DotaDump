@@ -1,0 +1,15 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum MoveType_t(size: 1 bytes, 13 values, project "client", binding @ client.dll + 0x4711da0):
+	MOVETYPE_NONE = 0,
+	MOVETYPE_OBSOLETE = 1,
+	MOVETYPE_WALK = 2,
+	MOVETYPE_FLY = 3,
+	MOVETYPE_FLYGRAVITY = 4,
+	MOVETYPE_VPHYSICS = 5,
+	MOVETYPE_PUSH = 6,
+	MOVETYPE_NOCLIP = 7,
+	MOVETYPE_OBSERVER = 8,
+	MOVETYPE_CUSTOM = 9,
+	MOVETYPE_LAST = 10,
+	MOVETYPE_INVALID = 10,
+	MOVETYPE_MAX_BITS = 5,

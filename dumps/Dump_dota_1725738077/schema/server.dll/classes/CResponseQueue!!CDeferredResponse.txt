@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CResponseQueue::CDeferredResponse (size: 0x230 bytes, project "server", binding @ server.dll + 0x3a396b0, scope "!GlobalTypes")
+
+-----members of class CResponseQueue::CDeferredResponse-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CResponseCriteriaSet m_contexts(offset 0x8, size 0x28, align 0x0)
+	float32 m_fDispatchTime(offset 0x30, size 0x4, align 0x4)
+	CHandle< CBaseEntity > m_hIssuer(offset 0x34, size 0x4, align 0x4)
+	uint8_t[8] unaccounted(offset 0x38)
+	CRR_Response m_response(offset 0x40, size 0x1e8, align 0x0)
+	bool m_bResponseValid(offset 0x228, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x229)
+

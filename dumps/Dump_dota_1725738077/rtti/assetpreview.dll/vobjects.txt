@@ -1,0 +1,302 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CAssetPreviewSystem (hierarchy CAssetPreviewSystem: CTier3DmAppSystem<class IAssetPreviewSystem,0>, CTier2DmAppSystem<class IAssetPreviewSystem,0>, CTier2AppSystem<class IAssetPreviewSystem,0>, CTier1AppSystem<class IAssetPreviewSystem,0>, CTier0AppSystem<class IAssetPreviewSystem,0>, CBaseAppSystem<class IAssetPreviewSystem>, IAssetPreviewSystem, IAppSystem)
+	assetpreview.dll + 0x50eaf0
+CAssetThumbnailCache
+	(hierarchy CAssetThumbnailCache: IAssetCacheListener, IAssetFingerprintListener)
+		assetpreview.dll + 0x50ec00
+	MI offset 8 (hierarchy IAssetFingerprintListener)
+		assetpreview.dll + 0x50ec08
+CAttributeDictSaveDataOps (hierarchy CAttributeDictSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+	assetpreview.dll + 0x4f7a30
+CDataModel (hierarchy CDataModel: CBaseAppSystem<class IDataModel>, IDataModel, CBaseAppSystem<class IAppSystem>, IAppSystem)
+	assetpreview.dll + 0x565c40
+CDmElementFactory<class CDmElement> (hierarchy CDmElementFactory<class CDmElement>: CDmElementFactoryInternal, IDmElementFactory)
+	assetpreview.dll + 0x4eab40
+	assetpreview.dll + 0x4eab68
+CDmElementFactoryDefault (hierarchy CDmElementFactoryDefault: IDmElementFactory)
+	assetpreview.dll + 0x4eaaf8
+CDmElementFramework (hierarchy CDmElementFramework: CBaseAppSystem<class IDmElementFramework>, IDmElementFramework, CBaseAppSystem<class IAppSystem>, IAppSystem)
+	assetpreview.dll + 0x4eaa10
+CDmFormatUpdater_animflags (hierarchy CDmFormatUpdater_animflags: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebc20
+CDmFormatUpdater_dmx (hierarchy CDmFormatUpdater_dmx: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb30
+CDmFormatUpdater_facial_animation (hierarchy CDmFormatUpdater_facial_animation: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb70
+CDmFormatUpdater_gui (hierarchy CDmFormatUpdater_gui: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebbe0
+CDmFormatUpdater_model (hierarchy CDmFormatUpdater_model: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb78
+CDmFormatUpdater_movieobjects (hierarchy CDmFormatUpdater_movieobjects: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb38
+CDmFormatUpdater_mp_anim (hierarchy CDmFormatUpdater_mp_anim: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebba8
+CDmFormatUpdater_mp_bonemask (hierarchy CDmFormatUpdater_mp_bonemask: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebbd8
+CDmFormatUpdater_mp_eyes (hierarchy CDmFormatUpdater_mp_eyes: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebbd0
+CDmFormatUpdater_mp_hitbox (hierarchy CDmFormatUpdater_mp_hitbox: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebbb8
+CDmFormatUpdater_mp_keyvalues (hierarchy CDmFormatUpdater_mp_keyvalues: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebbc8
+CDmFormatUpdater_mp_materialgroup (hierarchy CDmFormatUpdater_mp_materialgroup: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebbc0
+CDmFormatUpdater_mp_model (hierarchy CDmFormatUpdater_mp_model: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebba0
+CDmFormatUpdater_mp_physics (hierarchy CDmFormatUpdater_mp_physics: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebbb0
+CDmFormatUpdater_mp_preprocess (hierarchy CDmFormatUpdater_mp_preprocess: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb90
+CDmFormatUpdater_mp_root (hierarchy CDmFormatUpdater_mp_root: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb98
+CDmFormatUpdater_pcf (hierarchy CDmFormatUpdater_pcf: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb60
+CDmFormatUpdater_preset (hierarchy CDmFormatUpdater_preset: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb68
+CDmFormatUpdater_schema (hierarchy CDmFormatUpdater_schema: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebbe8
+CDmFormatUpdater_sfm (hierarchy CDmFormatUpdater_sfm: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb40
+CDmFormatUpdater_sfm_session (hierarchy CDmFormatUpdater_sfm_session: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb50
+CDmFormatUpdater_sfm_settings (hierarchy CDmFormatUpdater_sfm_settings: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb48
+CDmFormatUpdater_sfm_trackgroup (hierarchy CDmFormatUpdater_sfm_trackgroup: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb58
+CDmFormatUpdater_vanim (hierarchy CDmFormatUpdater_vanim: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebc18
+CDmFormatUpdater_ved (hierarchy CDmFormatUpdater_ved: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb80
+CDmFormatUpdater_virtualvolumetexture (hierarchy CDmFormatUpdater_virtualvolumetexture: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebc08
+CDmFormatUpdater_vmap (hierarchy CDmFormatUpdater_vmap: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebc10
+CDmFormatUpdater_vmks (hierarchy CDmFormatUpdater_vmks: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebb88
+CDmFormatUpdater_vtex (hierarchy CDmFormatUpdater_vtex: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebbf0
+CDmFormatUpdater_world (hierarchy CDmFormatUpdater_world: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebbf8
+CDmFormatUpdater_worldnode (hierarchy CDmFormatUpdater_worldnode: IDmFormatUpdater)
+	assetpreview.dll + 0x4ebc00
+CDmSerializerBinary (hierarchy CDmSerializerBinary: IDmSerializer)
+	assetpreview.dll + 0x4eb068
+	assetpreview.dll + 0x4eb080
+CDmSerializerKeyValues (hierarchy CDmSerializerKeyValues: IDmSerializer)
+	assetpreview.dll + 0x4eab90
+CDmSerializerKeyValues2 (hierarchy CDmSerializerKeyValues2: IDmSerializer)
+	assetpreview.dll + 0x4eade0
+	assetpreview.dll + 0x4eae90
+	assetpreview.dll + 0x4eaf40
+CDmSerializers (hierarchy CDmSerializers: CBaseAppSystem<class IDmSerializers>, IDmSerializers, IAppSystem)
+	assetpreview.dll + 0x4eb5c0
+CDynamicWidgetFactory<class CQDraggableWidgetList> (hierarchy CDynamicWidgetFactory<class CQDraggableWidgetList>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2340
+CDynamicWidgetFactory<class CQFilteredTreeWidget> (hierarchy CDynamicWidgetFactory<class CQFilteredTreeWidget>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f1db0
+CDynamicWidgetFactory<class CQTreeWidgetWithHover> (hierarchy CDynamicWidgetFactory<class CQTreeWidgetWithHover>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f1da0
+CDynamicWidgetFactory<class QComboBox> (hierarchy CDynamicWidgetFactory<class QComboBox>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2330
+CDynamicWidgetFactory<class QFrame> (hierarchy CDynamicWidgetFactory<class QFrame>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f22b0
+CDynamicWidgetFactory<class QGroupBox> (hierarchy CDynamicWidgetFactory<class QGroupBox>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f22d0
+CDynamicWidgetFactory<class QLabel> (hierarchy CDynamicWidgetFactory<class QLabel>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2280
+CDynamicWidgetFactory<class QLineEdit> (hierarchy CDynamicWidgetFactory<class QLineEdit>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2290
+CDynamicWidgetFactory<class QListWidget> (hierarchy CDynamicWidgetFactory<class QListWidget>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2690
+CDynamicWidgetFactory<class QMenu> (hierarchy CDynamicWidgetFactory<class QMenu>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f22c0
+CDynamicWidgetFactory<class QProgressBar> (hierarchy CDynamicWidgetFactory<class QProgressBar>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f22f0
+CDynamicWidgetFactory<class QRadioButton> (hierarchy CDynamicWidgetFactory<class QRadioButton>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2300
+CDynamicWidgetFactory<class QScrollBar> (hierarchy CDynamicWidgetFactory<class QScrollBar>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2310
+CDynamicWidgetFactory<class QSlider> (hierarchy CDynamicWidgetFactory<class QSlider>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f22a0
+CDynamicWidgetFactory<class QSpinBox> (hierarchy CDynamicWidgetFactory<class QSpinBox>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2320
+CDynamicWidgetFactory<class QTextBrowser> (hierarchy CDynamicWidgetFactory<class QTextBrowser>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2350
+CDynamicWidgetFactory<class QTextEdit> (hierarchy CDynamicWidgetFactory<class QTextEdit>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f22e0
+CDynamicWidgetFactory<class QWidget> (hierarchy CDynamicWidgetFactory<class QWidget>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2270
+CDynamicWidgetFactory_Custom<class CQBindableCommandPushButton> (hierarchy CDynamicWidgetFactory_Custom<class CQBindableCommandPushButton>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f26f0
+CDynamicWidgetFactory_Custom<class CQBindableCommandToolButton> (hierarchy CDynamicWidgetFactory_Custom<class CQBindableCommandToolButton>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f26a0
+CDynamicWidgetFactory_Custom<class QCheckBox> (hierarchy CDynamicWidgetFactory_Custom<class QCheckBox>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2460
+CDynamicWidgetFactory_Custom<class QDockWidget> (hierarchy CDynamicWidgetFactory_Custom<class QDockWidget>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f25f0
+CDynamicWidgetFactory_Custom<class QMainWindow> (hierarchy CDynamicWidgetFactory_Custom<class QMainWindow>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f24b0
+CDynamicWidgetFactory_Custom<class QMenuBar> (hierarchy CDynamicWidgetFactory_Custom<class QMenuBar>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2500
+CDynamicWidgetFactory_Custom<class QPushButton> (hierarchy CDynamicWidgetFactory_Custom<class QPushButton>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f23c0
+CDynamicWidgetFactory_Custom<class QScrollArea> (hierarchy CDynamicWidgetFactory_Custom<class QScrollArea>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2550
+CDynamicWidgetFactory_Custom<class QTabWidget> (hierarchy CDynamicWidgetFactory_Custom<class QTabWidget>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f25a0
+CDynamicWidgetFactory_Custom<class QTableWidget> (hierarchy CDynamicWidgetFactory_Custom<class QTableWidget>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2640
+CDynamicWidgetFactory_Custom<class QToolBar> (hierarchy CDynamicWidgetFactory_Custom<class QToolBar>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2740
+CDynamicWidgetFactory_Custom<class QToolButton> (hierarchy CDynamicWidgetFactory_Custom<class QToolButton>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2410
+CDynamicWidgetFactory_Orientation<class QHeaderView> (hierarchy CDynamicWidgetFactory_Orientation<class QHeaderView>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2360
+	assetpreview.dll + 0x4f2378
+CDynamicWidgetFactory_Orientation<class QSplitter> (hierarchy CDynamicWidgetFactory_Orientation<class QSplitter>: CBaseDynamicWidgetFactory)
+	assetpreview.dll + 0x4f2390
+	assetpreview.dll + 0x4f23a8
+CEmptySequence (hierarchy CEmptySequence: ISequence, IBaseSequence)
+	assetpreview.dll + 0x4ece20
+CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> > (hierarchy CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> >: CEntityComponentHelperReferenced<class CScriptComponent>, CEntityComponentHelper)
+	assetpreview.dll + 0x4f7c08
+CGlobalHotkeyCommands (hierarchy CGlobalHotkeyCommands: IBindTarget)
+	assetpreview.dll + 0x569ba0
+CHitBoxObjectDesc (hierarchy CHitBoxObjectDesc: ISceneObjectDescBase<class CToolSceneHitBoxObject>, ISceneObjectDesc)
+	assetpreview.dll + 0x4f4aa8
+CImportActBusy (hierarchy CImportActBusy: CImportKeyValueBase, IDmSerializer)
+	assetpreview.dll + 0x4ebce8
+CImportCommentary (hierarchy CImportCommentary: CImportKeyValueBase, IDmSerializer)
+	assetpreview.dll + 0x4ebcf8
+CImportMKS (hierarchy CImportMKS: IDmSerializer)
+	assetpreview.dll + 0x4ebf40
+CImportSFMV1 (hierarchy CImportSFMV1: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetpreview.dll + 0x568800
+CImportSFMV2 (hierarchy CImportSFMV2: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetpreview.dll + 0x568838
+CImportSFMV3 (hierarchy CImportSFMV3: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetpreview.dll + 0x568858
+CImportSFMV4 (hierarchy CImportSFMV4: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetpreview.dll + 0x568878
+CImportSFMV5 (hierarchy CImportSFMV5: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetpreview.dll + 0x5688a0
+CImportSFMV6 (hierarchy CImportSFMV6: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetpreview.dll + 0x5688b8
+CImportSFMV7 (hierarchy CImportSFMV7: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetpreview.dll + 0x5688d8
+CImportSFMV8 (hierarchy CImportSFMV8: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetpreview.dll + 0x5688f8
+CImportSFMV9 (hierarchy CImportSFMV9: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	assetpreview.dll + 0x568918
+CImportTex (hierarchy CImportTex: IDmSerializer)
+	assetpreview.dll + 0x4ebf68
+CImportVMT (hierarchy CImportVMT: CImportKeyValueBase, IDmSerializer)
+	assetpreview.dll + 0x4ebd08
+CInputLayoutRegistration_s_hColoredVertexLayout (hierarchy CInputLayoutRegistration_s_hColoredVertexLayout: CPostConnectCallback)
+	assetpreview.dll + 0x589940
+CModelInstanceManager (hierarchy CModelInstanceManager: IToolsResourceListener)
+	assetpreview.dll + 0x4f36d0
+CPulseTestGapTypeQueryRegistration (hierarchy CPulseTestGapTypeQueryRegistration: IGapTypeQueryRegistrationForScope)
+	assetpreview.dll + 0x4fdae0
+CQtImageCache (hierarchy CQtImageCache: IQtImageCache)
+	assetpreview.dll + 0x4ece60
+CReadFromBackBufferProceduralLayer (hierarchy CReadFromBackBufferProceduralLayer: IProceduralLayerRenderer)
+	assetpreview.dll + 0x50ed20
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	assetpreview.dll + 0x56b5b0
+CSchemaRegistration_entity2 (hierarchy CSchemaRegistration_entity2: CSchemaRegistration)
+	assetpreview.dll + 0x4f7480
+CSchemaRegistration_pulse_runtime_lib (hierarchy CSchemaRegistration_pulse_runtime_lib: CSchemaRegistration)
+	assetpreview.dll + 0x4f92d8
+CSchemaRegistration_smartprops (hierarchy CSchemaRegistration_smartprops: CSchemaRegistration)
+	assetpreview.dll + 0x507660
+CToolAxisObjectDesc (hierarchy CToolAxisObjectDesc: ISceneObjectDescBase<class CToolSceneAxisObject>, ISceneObjectDesc)
+	assetpreview.dll + 0x4f4838
+CToolGridObjectDesc (hierarchy CToolGridObjectDesc: ISceneObjectDescBase<class CToolSceneGridObject>, ISceneObjectDesc)
+	assetpreview.dll + 0x4f4190
+CToolSceneNodeControllerFactory_CQToolSceneControllerCollisionModel
+	(hierarchy CToolSceneNodeControllerFactory_CQToolSceneControllerCollisionModel: CPostConnectCallback, IToolSceneNodeControllerFactory)
+		assetpreview.dll + 0x5cfda8
+	MI offset 24 (hierarchy IToolSceneNodeControllerFactory)
+		assetpreview.dll + 0x5cfdc0
+CToolSceneNodeControllerFactory_CQToolSceneControllerMaterialPreview
+	(hierarchy CToolSceneNodeControllerFactory_CQToolSceneControllerMaterialPreview: CPostConnectCallback, IToolSceneNodeControllerFactory)
+		assetpreview.dll + 0x5cfdc8
+	MI offset 24 (hierarchy IToolSceneNodeControllerFactory)
+		assetpreview.dll + 0x5cfde0
+CToolSceneNodeControllerFactory_CQToolSceneControllerMeshPreview
+	(hierarchy CToolSceneNodeControllerFactory_CQToolSceneControllerMeshPreview: CPostConnectCallback, IToolSceneNodeControllerFactory)
+		assetpreview.dll + 0x5cfdf0
+	MI offset 24 (hierarchy IToolSceneNodeControllerFactory)
+		assetpreview.dll + 0x5cfe08
+CToolSceneNodeControllerFactory_CQToolSceneControllerModel
+	(hierarchy CToolSceneNodeControllerFactory_CQToolSceneControllerModel: CPostConnectCallback, IToolSceneNodeControllerFactory)
+		assetpreview.dll + 0x5cfe10
+	MI offset 24 (hierarchy IToolSceneNodeControllerFactory)
+		assetpreview.dll + 0x5cfe28
+CToolSceneNodeControllerFactory_CQToolSceneControllerTexture
+	(hierarchy CToolSceneNodeControllerFactory_CQToolSceneControllerTexture: CPostConnectCallback, IToolSceneNodeControllerFactory)
+		assetpreview.dll + 0x5cfe30
+	MI offset 24 (hierarchy IToolSceneNodeControllerFactory)
+		assetpreview.dll + 0x5cfe48
+CToolSceneNodeControllerFactory_CQToolSceneControllerTextureSequence
+	(hierarchy CToolSceneNodeControllerFactory_CQToolSceneControllerTextureSequence: CPostConnectCallback, IToolSceneNodeControllerFactory)
+		assetpreview.dll + 0x5cfe50
+	MI offset 24 (hierarchy IToolSceneNodeControllerFactory)
+		assetpreview.dll + 0x5cfe68
+CUiMaterialPreviewSceneObjectDesc (hierarchy CUiMaterialPreviewSceneObjectDesc: ISceneObjectDescBase<class CUiMaterialPreviewSceneObject>, ISceneObjectDesc)
+	assetpreview.dll + 0x4f40d0
+CVariantSaveDataOps (hierarchy CVariantSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+	assetpreview.dll + 0x4f6b00
+CVertexListSceneObjectDescriptor (hierarchy CVertexListSceneObjectDescriptor: ISceneObjectDescBase<class CVertexListSceneObject>, ISceneObjectDesc)
+	assetpreview.dll + 0x4f3d60
+Concurrency::details::stl_condition_variable_win7 (hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+	assetpreview.dll + 0x58a110
+Concurrency::details::stl_critical_section_win7 (hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+	assetpreview.dll + 0x58a0b8
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>: std::_Ref_count_base)
+	assetpreview.dll + 0x4f5dd0
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_exception> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>: std::_Ref_count_base)
+	assetpreview.dll + 0x4f5d10
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CAssetPreviewToolScene::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CAssetPreviewToolScene::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CAssetPreviewToolScene>, CBindTargetDescriptorBase)
+	assetpreview.dll + 0x5cfef0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CBindableCamera::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CBindableCamera::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CBindableCamera>, CBindTargetDescriptorBase)
+	assetpreview.dll + 0x589880
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGlobalHotkeyCommands::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGlobalHotkeyCommands::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CGlobalHotkeyCommands>, CBindTargetDescriptorBase)
+	assetpreview.dll + 0x569bd0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CLightingControlRig::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CLightingControlRig::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CLightingControlRig>, CBindTargetDescriptorBase)
+	assetpreview.dll + 0x5896d0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQToolSceneWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQToolSceneWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQToolSceneWidget>, CBindTargetDescriptorBase)
+	assetpreview.dll + 0x5895c0
+std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetpreview.dll + 0x4f2700
+std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetpreview.dll + 0x4f26b0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetpreview.dll + 0x4f2470
+std::_Func_impl_no_alloc<void (__cdecl*)(class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetpreview.dll + 0x4f2600
+std::_Func_impl_no_alloc<void (__cdecl*)(class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetpreview.dll + 0x4f24c0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetpreview.dll + 0x4f2510
+std::_Func_impl_no_alloc<void (__cdecl*)(class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetpreview.dll + 0x4f23d0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetpreview.dll + 0x4f2560
+std::_Func_impl_no_alloc<void (__cdecl*)(class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetpreview.dll + 0x4f25b0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetpreview.dll + 0x4f2650
+std::_Func_impl_no_alloc<void (__cdecl*)(class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetpreview.dll + 0x4f2750
+std::_Func_impl_no_alloc<void (__cdecl*)(class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetpreview.dll + 0x4f2420
+std::_Generic_error_category (hierarchy std::_Generic_error_category: std::error_category)
+	assetpreview.dll + 0x4f5e90
+std::_Iostream_error_category2 (hierarchy std::_Iostream_error_category2: std::error_category)
+	assetpreview.dll + 0x4ea890
+std::bad_alloc (hierarchy std::bad_alloc: std::exception)
+	assetpreview.dll + 0x4f5e78
+std::bad_exception (hierarchy std::bad_exception: std::exception)
+	assetpreview.dll + 0x4f5db8

@@ -1,0 +1,83 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropElement_PlaceInSphere (size: 0x320 bytes, project "smartprops", binding @ hammer.dll + 0x1dd3510, scope "hammer.dll") extends CSmartPropElement_Group
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: hammer.dll + 0x1072580"
+^MPropertyFriendlyName "Place In Radius"
+^MPropertyDescription "An element which places multiple instances of its child elements within a radius."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropElement_Group (size: 0xa0 bytes, project "smartprops", binding @ hammer.dll + 0x1dcccb0, scope "hammer.dll") extends CSmartPropElement
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: hammer.dll + 0x101fbc0"
+	^MPropertyFriendlyName "Group"
+	^MPropertyDescription "A group of elements that will all be evaulated."
+	^MVDataOutlinerLabelExpr "m_sLabel"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropElement (size: 0x80 bytes, project "smartprops", binding @ hammer.dll + 0x1dcc910, scope "hammer.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: hammer.dll + 0x101f4d0"
+		^MVDataBase
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		^MPropertyFriendlyName "Smart Prop Element"
+		
+		-----members of class CSmartPropElement-----
+			uint8_t[8] unaccounted(offset 0x0)
+			int32 m_nElementID(offset 0x8, size 0x4, align 0x4)
+				^MPropertySuppressField
+				^MVDataUniqueMonotonicInt "_editor/next_element_id"
+			uint8_t[4] unaccounted(offset 0xc)
+			CSmartPropAttributeBool m_bEnabled(offset 0x10, size 0x40, align 0x8)
+				^MVDataEnableKey
+				^MPropertyDescription "Is this element enabled? If not enabled, this element will not be evaluted and will have no effect on the result."
+				^MPropertySortPriority "10"
+			CUtlVector< CSmartPropSelectionCriteria* > m_SelectionCriteria(offset 0x50, size 0x18, align 0x8)
+				^MPropertyFriendlyName "Selection Criteria"
+				^MVDataPromoteField "2"
+			CUtlVector< CSmartPropModifier* > m_Modifiers(offset 0x68, size 0x18, align 0x8)
+				^MPropertyFriendlyName "Modifiers"
+				^MVDataPromoteField "2"
+		
+	
+	-----members of class CSmartPropElement_Group-----
+		CUtlVector< CSmartPropElement* > m_Children(offset 0x80, size 0x18, align 0x8)
+			^MPropertyFriendlyName "Children"
+			^MPropertyDescription "List of child elements which will appear if this element appears"
+			^MVDataPromoteField "1"
+		CUtlString m_sLabel(offset 0x98, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Label"
+			^MPropertyDescription "Optional text that will appear in the outliner to help organize Smart Prop elements and communicate their purpose to other users."
+	
+
+-----members of class CSmartPropElement_PlaceInSphere-----
+	CSmartPropAttributeRadiusPlacementMode m_PlacementMode(offset 0xa0, size 0x40, align 0x0)
+		^MPropertyDescription "Specifies how the positions are computed based on the radius."
+	CSmartPropAttributeDistributionMode m_DistributionMode(offset 0xe0, size 0x40, align 0x0)
+		^MPropertyDescription "Specifies the method to be used to distribute."
+	CSmartPropAttributeFloat m_flRandomness(offset 0x120, size 0x40, align 0x8)
+		^MPropertySuppressExpr "m_DistributionMode == RANDOM"
+		^MPropertyDescription "0 to 1 value indicating the amout of random offset that should be applied to the reguluarly spaced positions"
+	CSmartPropAttributeVector m_vPlaneUpDirection(offset 0x160, size 0x40, align 0x8)
+		^MPropertySuppressExpr "m_PlacementMode == SPHERE"
+		^MPropertyDescription "Vector up direction of the plane of the circle. This in the local space of the current element."
+	CSmartPropAttributeInt m_nCountMin(offset 0x1a0, size 0x40, align 0x8)
+		^MPropertyDescription "Minimum number of instances of this object and its children to be placed."
+	CSmartPropAttributeInt m_nCountMax(offset 0x1e0, size 0x40, align 0x8)
+		^MPropertyDescription "Maximum number of instances of this object and its children to be placed."
+	CSmartPropAttributeFloat m_flPositionRadiusInner(offset 0x220, size 0x40, align 0x8)
+		^MPropertyDescription "Inner radius from the placement position where the model can appear."
+	CSmartPropAttributeFloat m_flPositionRadiusOuter(offset 0x260, size 0x40, align 0x8)
+		^MPropertyDescription "Outer radius from the placement position where the model can appear."
+	CSmartPropAttributeBool m_bAlignOrientation(offset 0x2a0, size 0x40, align 0x8)
+		^MPropertyDescription "Align the initial orientation of each placed object based on it position on the sphere or circle."
+	CSmartPropAttributeVector m_vAlignDirection(offset 0x2e0, size 0x40, align 0x8)
+		^MPropertyReadonlyExpr "m_bAlignOrientation == false"
+		^MPropertyDescription "Vector in the local space of the child element to be aligned with sphere or circle"
+

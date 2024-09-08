@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SmartPropGridOriginBasis_t(size: 4 bytes, 2 values, project "smartprops", binding @ hammer.dll + 0x1dd2190):
+	CENTER = 0,
+		^MPropertyFriendlyName "Center"
+		^MPropertyDescription "Lay out child elements with their origin at the center of each grid cell."
+	CORNER = 1,
+		^MPropertyFriendlyName "Corner"
+		^MPropertyDescription "Lay out child elements with their origin at the corner of each grid cell."

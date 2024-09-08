@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_DotaTree (size: 0x30 bytes, project "client", binding @ client.dll + 0x482ee40, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+
+-----members of class C_DotaTree-----
+	uint8_t[44] unaccounted(offset 0x0)
+	uint32 m_unOccluderID(offset 0x2c, size 0x4, align 0x4)
+

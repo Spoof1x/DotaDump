@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AnimComponentID (size: 0x4 bytes, project "modellib", binding @ workshopmanager.dll + 0xe8ca00, scope "workshopmanager.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x4f2940"
+^MPropertyEditClassAsString "func: workshopmanager.dll + 0x4f29b0"
+
+-----members of class AnimComponentID-----
+	uint32 m_id(offset 0x0, size 0x4, align 0x4)
+

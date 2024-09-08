@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeProxyVertexMap_t (size: 0x10 bytes, project "physicslib", binding @ vphysics2.dll + 0x392a00, scope "vphysics2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0x133d80"
+
+-----members of class FeProxyVertexMap_t-----
+	CUtlString m_Name(offset 0x0, size 0x8, align 0x8)
+	float32 m_flWeight(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+

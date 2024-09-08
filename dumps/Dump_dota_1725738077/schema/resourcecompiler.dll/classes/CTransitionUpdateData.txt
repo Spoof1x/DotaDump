@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CTransitionUpdateData (size: 0x3 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2432fd0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x79eec0"
+
+-----members of class CTransitionUpdateData-----
+	uint8 m_srcStateIndex(offset 0x0, size 0x1, align 0x1)
+	uint8 m_destStateIndex(offset 0x1, size 0x1, align 0x1)
+	bitfield {
+		uint8_t m_nHandshakeMaskToDisableFirst : 7(offset 0x2, mask = 0x7f)
+		uint8_t m_bDisabled : 1(offset 0x2, mask = 0x80)
+	}
+

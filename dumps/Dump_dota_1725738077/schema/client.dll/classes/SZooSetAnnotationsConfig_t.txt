@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class SZooSetAnnotationsConfig_t (size: 0x18 bytes, project "client", binding @ client.dll + 0x48d6bd0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x1e57740"
+
+-----members of class SZooSetAnnotationsConfig_t-----
+	CUtlVector< SZooSetAnnotations_t > m_allAnnotations(offset 0x0, size 0x18, align 0x8)
+

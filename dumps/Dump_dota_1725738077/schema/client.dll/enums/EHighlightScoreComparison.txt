@@ -1,0 +1,12 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EHighlightScoreComparison(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x488a820):
+	k_eScoreLessThan = 0,
+		^MPropertyFriendlyName "Less Than"
+	k_eScoreLessThanOrEqual = 1,
+		^MPropertyFriendlyName "Less Than Or Equal"
+	k_eScoreEqual = 2,
+		^MPropertyFriendlyName "Equal"
+	k_eScoreGreaterThanOrEqual = 3,
+		^MPropertyFriendlyName "Greater Than Or Equal"
+	k_eScoreGreaterThan = 4,
+		^MPropertyFriendlyName "Greater Than"

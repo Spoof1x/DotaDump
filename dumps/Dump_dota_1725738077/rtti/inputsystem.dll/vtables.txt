@@ -1,0 +1,14 @@
+CInputStackSystem
+	inputsystem.dll + 0x29398(hierarchy CInputStackSystem: CTier2AppSystem<class IInputStackSystem,0>, CTier1AppSystem<class IInputStackSystem,0>, CTier0AppSystem<class IInputStackSystem,0>, CBaseAppSystem<class IInputStackSystem>, IInputStackSystem, IAppSystem)
+CInputSystem
+	inputsystem.dll + 0x2af10(hierarchy CInputSystem: CTier2AppSystem<class IInputSystem,0>, CTier1AppSystem<class IInputSystem,0>, CTier0AppSystem<class IInputSystem,0>, CBaseAppSystem<class IInputSystem>, IInputSystem, IAppSystem)
+CPostConnectCallback
+	inputsystem.dll + 0x218b0(hierarchy CPostConnectCallback)
+CSchemaInstallCallback
+	inputsystem.dll + 0x21b38(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+std::bad_exception
+	inputsystem.dll + 0x22b00(hierarchy std::bad_exception: std::exception)
+std::exception
+	inputsystem.dll + 0x22ad0(hierarchy std::exception)
+type_info
+	inputsystem.dll + 0x21ba8(hierarchy type_info)

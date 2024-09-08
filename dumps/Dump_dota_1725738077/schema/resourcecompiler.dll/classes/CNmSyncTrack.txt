@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmSyncTrack (size: 0xb0 bytes, project "animlib", binding @ resourcecompiler.dll + 0x244ca60, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x87d370"
+
+-----static members of class CNmSyncTrack-----
+	static CNmSyncTrack s_defaultTrack(resourcecompiler.dll + 0x2445410)
+
+-----members of class CNmSyncTrack-----
+	CUtlLeanVectorFixedGrowable< CNmSyncTrack::Event_t, 10 > m_syncEvents(offset 0x0, size 0xa8, align 0x8)
+	int32 m_nStartEventOffset(offset 0xa8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xac)
+

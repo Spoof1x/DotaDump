@@ -1,0 +1,27 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTA_ArcanaDataEntity_FacelessVoid (size: 0x38 bytes, project "client", binding @ client.dll + 0x480f5e0, scope "client.dll") extends CDOTA_ArcanaDataEntity_Base
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MNetworkVarNames "m_nNumPoints int"
+^MNetworkVarNames "m_flShowPopupTime GameTime_t"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CDOTA_ArcanaDataEntity_Base (size: 0x30 bytes, project "client", binding @ client.dll + 0x480f150, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CLASS_UNIDENTIFIED17
+	
+	-----members of class CDOTA_ArcanaDataEntity_Base-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CNetworkVarChainer __m_pChainEntity(offset 0x8, size 0x28, align 0x0)
+			^MNetworkDisable
+			^MNetworkChangeAccessorFieldPathIndex
+	
+
+-----members of class CDOTA_ArcanaDataEntity_FacelessVoid-----
+	int32 m_nNumPoints(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+	GameTime_t m_flShowPopupTime(offset 0x34, size 0x4, align 0x0)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnFacelessVoidArcanaChanged"
+

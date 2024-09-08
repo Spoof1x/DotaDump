@@ -1,0 +1,26 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBoneConstraintDotToMorph (size: 0x60 bytes, project "modellib", binding @ toolframework2.dll + 0x9294e0, scope "toolframework2.dll") extends CBoneConstraintBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x3894c0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBoneConstraintBase (size: 0x28 bytes, project "modellib", binding @ toolframework2.dll + 0x928a30, scope "toolframework2.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: toolframework2.dll + 0x13010"
+	
+	-----members of class CBoneConstraintBase-----
+		uint8_t[40] unaccounted(offset 0x0)
+	
+
+-----members of class CBoneConstraintDotToMorph-----
+	CUtlString m_sBoneName(offset 0x28, size 0x8, align 0x8)
+	CUtlString m_sTargetBoneName(offset 0x30, size 0x8, align 0x8)
+	CUtlString m_sMorphChannelName(offset 0x38, size 0x8, align 0x8)
+	float32[4] m_flRemap(offset 0x40, size 0x10, align 0x4)
+	uint8_t[16] unaccounted(offset 0x50)
+

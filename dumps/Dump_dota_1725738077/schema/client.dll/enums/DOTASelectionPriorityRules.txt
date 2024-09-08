@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTASelectionPriorityRules(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x46fff80):
+	k_DOTASelectionPriorityRules_Manual = 0,
+	k_DOTASelectionPriorityRules_Automatic = 1,

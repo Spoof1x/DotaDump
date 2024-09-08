@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FakeEntityDerivedB_tAPI (size: 0x1 bytes, project "pulse_runtime_lib", binding @ sfm.dll + 0xa036b0, scope "sfm.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MPulseProvideFeatureTag "PulseFakeEntities"
+^MPulseLibraryBindings "ptr: sfm.dll + 0xa03b80"
+
+-----members of class FakeEntityDerivedB_tAPI-----
+	uint8_t[1] unaccounted(offset 0x0)
+

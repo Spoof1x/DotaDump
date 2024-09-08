@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum AnimScriptType(size: 2 bytes, 3 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x2429b70):
+	ANIMSCRIPT_TYPE_INVALID = -1,
+	ANIMSCRIPT_FUSE_GENERAL = 0,
+	ANIMSCRIPT_FUSE_STATEMACHINE = 1,

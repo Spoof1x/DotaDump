@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABehaviorCommandMoveToPosition (size: 0x158 bytes, project "server", binding @ server.dll + 0x3ae4710, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CDOTABehaviorCommandMoveToPosition-----
+	uint8_t[104] unaccounted(offset 0x0)
+	CDOTABehaviorMoveTo m_MoveTo(offset 0x68, size 0xe0, align 0x0)
+	Vector m_vPosition(offset 0x148, size 0xc, align 0x4)
+	bool m_bDirectional(offset 0x154, size 0x1, align 0x1)
+	bool m_bRelative(offset 0x155, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x156)
+

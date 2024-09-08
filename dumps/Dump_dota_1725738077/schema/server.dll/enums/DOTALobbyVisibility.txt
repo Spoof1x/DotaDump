@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTALobbyVisibility(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x38e19a0):
+	DOTALobbyVisibility_Public = 0,
+	DOTALobbyVisibility_Friends = 1,
+	DOTALobbyVisibility_Unlisted = 2,

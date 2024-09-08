@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ModelReference_t (size: 0x10 bytes, project "particles", binding @ particles.dll + 0x51a360, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x81400"
+
+-----members of class ModelReference_t-----
+	CStrongHandle< InfoForResourceTypeCModel > m_model(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "model"
+	float32 m_flRelativeProbabilityOfSpawn(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Relative probability"
+	uint8_t[4] unaccounted(offset 0xc)
+

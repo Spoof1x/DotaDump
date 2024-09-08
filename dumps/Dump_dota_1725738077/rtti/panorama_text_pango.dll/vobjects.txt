@@ -1,0 +1,91 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	panorama_text_pango.dll + 0x2b9730
+CUIFontFilePB (hierarchy CUIFontFilePB: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x2b3820
+CUIFontFilePackagePB (hierarchy CUIFontFilePackagePB: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x2b3868
+CUIFontFilePackagePB_CUIEncryptedFontFilePB (hierarchy CUIFontFilePackagePB_CUIEncryptedFontFilePB: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x2b3848
+google::protobuf::DescriptorProto (hierarchy google::protobuf::DescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e150
+google::protobuf::DescriptorProto_ExtensionRange (hierarchy google::protobuf::DescriptorProto_ExtensionRange: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e238
+google::protobuf::DescriptorProto_ReservedRange (hierarchy google::protobuf::DescriptorProto_ReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e260
+google::protobuf::EnumDescriptorProto (hierarchy google::protobuf::EnumDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e280
+google::protobuf::EnumDescriptorProto_EnumReservedRange (hierarchy google::protobuf::EnumDescriptorProto_EnumReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e2f0
+google::protobuf::EnumOptions (hierarchy google::protobuf::EnumOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e310
+google::protobuf::EnumValueDescriptorProto (hierarchy google::protobuf::EnumValueDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e360
+google::protobuf::EnumValueOptions (hierarchy google::protobuf::EnumValueOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e390
+google::protobuf::ExtensionRangeOptions (hierarchy google::protobuf::ExtensionRangeOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e3e0
+google::protobuf::FieldDescriptorProto (hierarchy google::protobuf::FieldDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e450
+google::protobuf::FieldOptions (hierarchy google::protobuf::FieldOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e4b0
+google::protobuf::FileDescriptorProto (hierarchy google::protobuf::FileDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e540
+google::protobuf::FileDescriptorSet (hierarchy google::protobuf::FileDescriptorSet: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e618
+google::protobuf::FileOptions (hierarchy google::protobuf::FileOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e650
+google::protobuf::GeneratedCodeInfo (hierarchy google::protobuf::GeneratedCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e710
+google::protobuf::GeneratedCodeInfo_Annotation (hierarchy google::protobuf::GeneratedCodeInfo_Annotation: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e740
+google::protobuf::MessageOptions (hierarchy google::protobuf::MessageOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e780
+google::protobuf::MethodDescriptorProto (hierarchy google::protobuf::MethodDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e7d0
+google::protobuf::MethodOptions (hierarchy google::protobuf::MethodOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e810
+google::protobuf::OneofDescriptorProto (hierarchy google::protobuf::OneofDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e428
+google::protobuf::OneofOptions (hierarchy google::protobuf::OneofOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e860
+google::protobuf::ServiceDescriptorProto (hierarchy google::protobuf::ServiceDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e8b0
+google::protobuf::ServiceOptions (hierarchy google::protobuf::ServiceOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e8f0
+google::protobuf::SourceCodeInfo (hierarchy google::protobuf::SourceCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e940
+google::protobuf::SourceCodeInfo_Location (hierarchy google::protobuf::SourceCodeInfo_Location: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e970
+google::protobuf::UninterpretedOption (hierarchy google::protobuf::UninterpretedOption: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e9e0
+google::protobuf::UninterpretedOption_NamePart (hierarchy google::protobuf::UninterpretedOption_NamePart: google::protobuf::Message, google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26e518
+google::protobuf::internal::ImplicitWeakMessage (hierarchy google::protobuf::internal::ImplicitWeakMessage: google::protobuf::MessageLite)
+	panorama_text_pango.dll + 0x26eb40
+google::protobuf::internal::MapFieldAccessor (hierarchy google::protobuf::internal::MapFieldAccessor: google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	panorama_text_pango.dll + 0x26e0e0
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64>: google::protobuf::internal::RepeatedFieldWrapper<__int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	panorama_text_pango.dll + 0x26e0b0
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool>: google::protobuf::internal::RepeatedFieldWrapper<bool>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	panorama_text_pango.dll + 0x26e0d0
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double>: google::protobuf::internal::RepeatedFieldWrapper<double>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	panorama_text_pango.dll + 0x26e0c8
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float>: google::protobuf::internal::RepeatedFieldWrapper<float>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	panorama_text_pango.dll + 0x26e0c0
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int>: google::protobuf::internal::RepeatedFieldWrapper<int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	panorama_text_pango.dll + 0x26e0a0
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64>: google::protobuf::internal::RepeatedFieldWrapper<unsigned __int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	panorama_text_pango.dll + 0x26e0b8
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int>: google::protobuf::internal::RepeatedFieldWrapper<unsigned int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	panorama_text_pango.dll + 0x26e0a8
+google::protobuf::internal::RepeatedPtrFieldMessageAccessor (hierarchy google::protobuf::internal::RepeatedPtrFieldMessageAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class google::protobuf::Message>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	panorama_text_pango.dll + 0x26e0e8
+google::protobuf::internal::RepeatedPtrFieldStringAccessor (hierarchy google::protobuf::internal::RepeatedPtrFieldStringAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	panorama_text_pango.dll + 0x26e0d8
+panorama::CUITextServicesPango (hierarchy panorama::CUITextServicesPango: CTier3AppSystem<class panorama::IUITextServices,0>, CTier2AppSystem<class panorama::IUITextServices,0>, CTier1AppSystem<class panorama::IUITextServices,0>, CTier0AppSystem<class panorama::IUITextServices,0>, CBaseAppSystem<class panorama::IUITextServices>, panorama::IUITextServices, IAppSystem)
+	panorama_text_pango.dll + 0x2b38e0
+std::_Generic_error_category (hierarchy std::_Generic_error_category: std::error_category)
+	panorama_text_pango.dll + 0x29ec30
+std::_Iostream_error_category2 (hierarchy std::_Iostream_error_category2: std::error_category)
+	panorama_text_pango.dll + 0x26e090

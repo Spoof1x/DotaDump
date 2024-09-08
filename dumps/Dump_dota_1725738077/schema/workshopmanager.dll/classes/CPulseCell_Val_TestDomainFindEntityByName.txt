@@ -1,0 +1,42 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_Val_TestDomainFindEntityByName (size: 0x48 bytes, project "pulse_runtime_lib", binding @ workshopmanager.dll + 0xecc830, scope "workshopmanager.dll") extends CPulseCell_BaseValue
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x9055d0"
+^MCellForDomain "TestDomain"
+^MPulseCellMethodBindings "ptr: workshopmanager.dll + 0xecd340"
+^MPulseCellOutflowHookInfo "ptr: workshopmanager.dll + 0x10f03f8"
+^MPropertyFriendlyName "Find Fake Entity"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseValue (size: 0x48 bytes, project "pulse_runtime_lib", binding @ workshopmanager.dll + 0xed20e0, scope "workshopmanager.dll") extends CPulseCell_Base
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x91dc30"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_Base (size: 0x48 bytes, project "pulse_runtime_lib", binding @ workshopmanager.dll + 0xed2be0, scope "workshopmanager.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x91c7c0"
+		
+		-----members of class CPulseCell_Base-----
+			uint8_t[8] unaccounted(offset 0x0)
+			PulseDocNodeID_t m_nEditorNodeID(offset 0x8, size 0x4, align 0x0)
+				^MFgdFromSchemaCompletelySkipField
+			uint8_t[60] unaccounted(offset 0xc)
+		
+	
+	-----members of class CPulseCell_BaseValue-----
+		<no members>
+	
+
+-----members of class CPulseCell_Val_TestDomainFindEntityByName-----
+	<no members>
+

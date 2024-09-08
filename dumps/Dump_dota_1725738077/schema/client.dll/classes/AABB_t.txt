@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AABB_t (size: 0x18 bytes, project "mathlib_extended", binding @ client.dll + 0x4921060, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class AABB_t-----
+	Vector m_vMinBounds(offset 0x0, size 0xc, align 0x4)
+	Vector m_vMaxBounds(offset 0xc, size 0xc, align 0x4)
+

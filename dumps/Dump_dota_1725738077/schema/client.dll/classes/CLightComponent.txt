@@ -1,0 +1,281 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CLightComponent (size: 0x1b0 bytes, project "client", binding @ client.dll + 0x46a2fa0, scope "client.dll") extends CEntityComponent
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_DISALLOWED
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "m_Color Color"
+^MNetworkVarNames "m_SecondaryColor Color"
+^MNetworkVarNames "m_flBrightness float"
+^MNetworkVarNames "m_flBrightnessScale float"
+^MNetworkVarNames "m_flBrightnessMult float"
+^MNetworkVarNames "m_flRange float"
+^MNetworkVarNames "m_flFalloff float"
+^MNetworkVarNames "m_flAttenuation0 float"
+^MNetworkVarNames "m_flAttenuation1 float"
+^MNetworkVarNames "m_flAttenuation2 float"
+^MNetworkVarNames "m_flTheta float"
+^MNetworkVarNames "m_flPhi float"
+^MNetworkVarNames "m_hLightCookie HRenderTextureStrong"
+^MNetworkVarNames "m_nCascades int"
+^MNetworkVarNames "m_nCastShadows int"
+^MNetworkVarNames "m_nShadowWidth int"
+^MNetworkVarNames "m_nShadowHeight int"
+^MNetworkVarNames "m_bRenderDiffuse bool"
+^MNetworkVarNames "m_nRenderSpecular int"
+^MNetworkVarNames "m_bRenderTransmissive bool"
+^MNetworkVarNames "m_flOrthoLightWidth float"
+^MNetworkVarNames "m_flOrthoLightHeight float"
+^MNetworkVarNames "m_nStyle int"
+^MNetworkVarNames "m_Pattern CUtlString"
+^MNetworkVarNames "m_nCascadeRenderStaticObjects int"
+^MNetworkVarNames "m_flShadowCascadeCrossFade float"
+^MNetworkVarNames "m_flShadowCascadeDistanceFade float"
+^MNetworkVarNames "m_flShadowCascadeDistance0 float"
+^MNetworkVarNames "m_flShadowCascadeDistance1 float"
+^MNetworkVarNames "m_flShadowCascadeDistance2 float"
+^MNetworkVarNames "m_flShadowCascadeDistance3 float"
+^MNetworkVarNames "m_nShadowCascadeResolution0 int"
+^MNetworkVarNames "m_nShadowCascadeResolution1 int"
+^MNetworkVarNames "m_nShadowCascadeResolution2 int"
+^MNetworkVarNames "m_nShadowCascadeResolution3 int"
+^MNetworkVarNames "m_bUsesBakedShadowing bool"
+^MNetworkVarNames "m_nShadowPriority int"
+^MNetworkVarNames "m_nBakedShadowIndex int"
+^MNetworkVarNames "m_bRenderToCubemaps bool"
+^MNetworkVarNames "m_nDirectLight int"
+^MNetworkVarNames "m_nIndirectLight int"
+^MNetworkVarNames "m_flFadeMinDist float"
+^MNetworkVarNames "m_flFadeMaxDist float"
+^MNetworkVarNames "m_flShadowFadeMinDist float"
+^MNetworkVarNames "m_flShadowFadeMaxDist float"
+^MNetworkVarNames "m_bEnabled bool"
+^MNetworkVarNames "m_bFlicker bool"
+^MNetworkVarNames "m_bPrecomputedFieldsValid bool"
+^MNetworkVarNames "m_vPrecomputedBoundsMins Vector"
+^MNetworkVarNames "m_vPrecomputedBoundsMaxs Vector"
+^MNetworkVarNames "m_vPrecomputedOBBOrigin Vector"
+^MNetworkVarNames "m_vPrecomputedOBBAngles QAngle"
+^MNetworkVarNames "m_vPrecomputedOBBExtent Vector"
+^MNetworkVarNames "m_flPrecomputedMaxRange float"
+^MNetworkVarNames "m_nFogLightingMode int"
+^MNetworkVarNames "m_flFogContributionStength float"
+^MNetworkVarNames "m_flNearClipPlane float"
+^MNetworkVarNames "m_SkyColor Color"
+^MNetworkVarNames "m_flSkyIntensity float"
+^MNetworkVarNames "m_SkyAmbientBounce Color"
+^MNetworkVarNames "m_bUseSecondaryColor bool"
+^MNetworkVarNames "m_bMixedShadows bool"
+^MNetworkVarNames "m_flLightStyleStartTime GameTime_t"
+^MNetworkVarNames "m_flCapsuleLength float"
+^MNetworkVarNames "m_flMinRoughness float"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CEntityComponent (size: 0x8 bytes, project "entity2", binding @ client.dll + 0x48fa1e0, scope "client.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+	
+	-----members of class CEntityComponent-----
+		uint8_t[8] unaccounted(offset 0x0)
+	
+
+-----static members of class CLightComponent-----
+	static EntComponentInfo_t s_EntComponentInfo(client.dll + 0x46a3cd0)
+	static int32 entity_component_error_class_decl_says_contained_but_impl_is_referenced(client.dll + 0x4b1ba9c)
+
+-----members of class CLightComponent-----
+	uint8_t[48] unaccounted(offset 0x8)
+	CNetworkVarChainer __m_pChainEntity(offset 0x38, size 0x28, align 0x0)
+		^MNetworkDisable
+		^MNetworkChangeAccessorFieldPathIndex
+	uint8_t[21] unaccounted(offset 0x60)
+	Color m_Color(offset 0x75, size 0x4, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	Color m_SecondaryColor(offset 0x79, size 0x4, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	uint8_t[3] unaccounted(offset 0x7d)
+	float32 m_flBrightness(offset 0x80, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flBrightnessScale(offset 0x84, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flBrightnessMult(offset 0x88, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flRange(offset 0x8c, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flFalloff(offset 0x90, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flAttenuation0(offset 0x94, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flAttenuation1(offset 0x98, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flAttenuation2(offset 0x9c, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flTheta(offset 0xa0, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flPhi(offset 0xa4, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	CStrongHandle< InfoForResourceTypeCTextureBase > m_hLightCookie(offset 0xa8, size 0x8, align 0x8)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	int32 m_nCascades(offset 0xb0, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	int32 m_nCastShadows(offset 0xb4, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	int32 m_nShadowWidth(offset 0xb8, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	int32 m_nShadowHeight(offset 0xbc, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	bool m_bRenderDiffuse(offset 0xc0, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	uint8_t[3] unaccounted(offset 0xc1)
+	int32 m_nRenderSpecular(offset 0xc4, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	bool m_bRenderTransmissive(offset 0xc8, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	uint8_t[3] unaccounted(offset 0xc9)
+	float32 m_flOrthoLightWidth(offset 0xcc, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flOrthoLightHeight(offset 0xd0, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	int32 m_nStyle(offset 0xd4, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	CUtlString m_Pattern(offset 0xd8, size 0x8, align 0x8)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	int32 m_nCascadeRenderStaticObjects(offset 0xe0, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flShadowCascadeCrossFade(offset 0xe4, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flShadowCascadeDistanceFade(offset 0xe8, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flShadowCascadeDistance0(offset 0xec, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flShadowCascadeDistance1(offset 0xf0, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flShadowCascadeDistance2(offset 0xf4, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flShadowCascadeDistance3(offset 0xf8, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	int32 m_nShadowCascadeResolution0(offset 0xfc, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	int32 m_nShadowCascadeResolution1(offset 0x100, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	int32 m_nShadowCascadeResolution2(offset 0x104, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	int32 m_nShadowCascadeResolution3(offset 0x108, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	bool m_bUsesBakedShadowing(offset 0x10c, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+		^MNetworkAlias "m_bUsesIndexedBakedLighting"
+	uint8_t[3] unaccounted(offset 0x10d)
+	int32 m_nShadowPriority(offset 0x110, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	int32 m_nBakedShadowIndex(offset 0x114, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	bool m_bRenderToCubemaps(offset 0x118, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	uint8_t[3] unaccounted(offset 0x119)
+	int32 m_nDirectLight(offset 0x11c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nIndirectLight(offset 0x120, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flFadeMinDist(offset 0x124, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flFadeMaxDist(offset 0x128, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flShadowFadeMinDist(offset 0x12c, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flShadowFadeMaxDist(offset 0x130, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	bool m_bEnabled(offset 0x134, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	bool m_bFlicker(offset 0x135, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	bool m_bPrecomputedFieldsValid(offset 0x136, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[1] unaccounted(offset 0x137)
+	Vector m_vPrecomputedBoundsMins(offset 0x138, size 0xc, align 0x4)
+		^MNetworkEnable
+	Vector m_vPrecomputedBoundsMaxs(offset 0x144, size 0xc, align 0x4)
+		^MNetworkEnable
+	Vector m_vPrecomputedOBBOrigin(offset 0x150, size 0xc, align 0x4)
+		^MNetworkEnable
+	QAngle m_vPrecomputedOBBAngles(offset 0x15c, size 0xc, align 0x4)
+		^MNetworkEnable
+	Vector m_vPrecomputedOBBExtent(offset 0x168, size 0xc, align 0x4)
+		^MNetworkEnable
+	float32 m_flPrecomputedMaxRange(offset 0x174, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nFogLightingMode(offset 0x178, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flFogContributionStength(offset 0x17c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flNearClipPlane(offset 0x180, size 0x4, align 0x4)
+		^MNetworkEnable
+	Color m_SkyColor(offset 0x184, size 0x4, align 0x1)
+		^MNetworkEnable
+	float32 m_flSkyIntensity(offset 0x188, size 0x4, align 0x4)
+		^MNetworkEnable
+	Color m_SkyAmbientBounce(offset 0x18c, size 0x4, align 0x1)
+		^MNetworkEnable
+	bool m_bUseSecondaryColor(offset 0x190, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bMixedShadows(offset 0x191, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "MixedShadowsChanged"
+	uint8_t[2] unaccounted(offset 0x192)
+	GameTime_t m_flLightStyleStartTime(offset 0x194, size 0x4, align 0x0)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	float32 m_flCapsuleLength(offset 0x198, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flMinRoughness(offset 0x19c, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "LightRenderingChanged"
+	uint8_t[16] unaccounted(offset 0x1a0)
+

@@ -1,0 +1,42 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTASubChallengeInfo (size: 0x60 bytes, project "client", binding @ client.dll + 0x482eee0, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "nType int"
+^MNetworkVarNames "nTier int"
+^MNetworkVarNames "nSlotID int"
+^MNetworkVarNames "nProgress int"
+^MNetworkVarNames "nCompletionThreshold int"
+^MNetworkVarNames "nPlayerID PlayerID_t"
+^MNetworkVarNames "nQueryIndex int"
+^MNetworkVarNames "nEventID int"
+^MNetworkVarNames "nSequenceID int"
+^MNetworkVarNames "nRequiredHero HeroID_t"
+^MNetworkVarNames "nCompleted int"
+
+-----members of class CDOTASubChallengeInfo-----
+	uint8_t[48] unaccounted(offset 0x0)
+	int32 nType(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 nTier(offset 0x34, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 nSlotID(offset 0x38, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 nProgress(offset 0x3c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 nCompletionThreshold(offset 0x40, size 0x4, align 0x4)
+		^MNetworkEnable
+	PlayerID_t nPlayerID(offset 0x44, size 0x4, align 0x0)
+		^MNetworkEnable
+	int32 nQueryIndex(offset 0x48, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 nEventID(offset 0x4c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 nSequenceID(offset 0x50, size 0x4, align 0x4)
+		^MNetworkEnable
+	HeroID_t nRequiredHero(offset 0x54, size 0x4, align 0x0)
+		^MNetworkEnable
+	int32 nCompleted(offset 0x58, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x5c)
+

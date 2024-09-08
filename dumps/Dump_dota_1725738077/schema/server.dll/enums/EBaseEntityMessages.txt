@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EBaseEntityMessages(size: 4 bytes, 6 values, project "server", binding @ server.dll + 0x38e81d0):
+	EM_PlayJingle = 136,
+	EM_ScreenOverlay = 137,
+	EM_RemoveAllDecals = 138,
+	EM_PropagateForce = 139,
+	EM_DoSpark = 140,
+	EM_FixAngle = 141,

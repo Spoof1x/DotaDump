@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AnimationDecodeDebugDumpElement_t (size: 0x70 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f1280, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x4cac0"
+
+-----members of class AnimationDecodeDebugDumpElement_t-----
+	int32 m_nEntityIndex(offset 0x0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlString m_modelName(offset 0x8, size 0x8, align 0x8)
+	CUtlVector< CUtlString > m_poseParams(offset 0x10, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_decodeOps(offset 0x28, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_internalOps(offset 0x40, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_decodedAnims(offset 0x58, size 0x18, align 0x8)
+

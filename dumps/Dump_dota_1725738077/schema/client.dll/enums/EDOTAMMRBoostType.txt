@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EDOTAMMRBoostType(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x4700110):
+	k_EDOTAMMRBoostType_None = 0,
+	k_EDOTAMMRBoostType_Leader = 1,
+	k_EDOTAMMRBoostType_Follower = 2,

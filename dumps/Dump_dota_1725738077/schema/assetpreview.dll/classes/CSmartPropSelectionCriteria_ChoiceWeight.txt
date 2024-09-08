@@ -1,0 +1,31 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropSelectionCriteria_ChoiceWeight (size: 0x88 bytes, project "smartprops", binding @ assetpreview.dll + 0x50bde0, scope "!GlobalTypes") extends CSmartPropSelectionCriteria
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: assetpreview.dll + 0x3639b0"
+^MVDataComponentValidGrandParents "CSmartPropElement_PickOne"
+^MPropertyFriendlyName "Choice Weight"
+^MPropertyDescription "Specifies a weighting value which affects that likelyhood of selecting this element which picking a choice."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropSelectionCriteria (size: 0x48 bytes, project "smartprops", binding @ assetpreview.dll + 0x5066d0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: assetpreview.dll + 0x159e0"
+	^MVDataBase
+	^MVDataNodeType "1"
+	^MVDataAnonymousNode
+	
+	-----members of class CSmartPropSelectionCriteria-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+			^MVDataEnableKey
+	
+
+-----members of class CSmartPropSelectionCriteria_ChoiceWeight-----
+	CSmartPropAttributeFloat m_flWeight(offset 0x48, size 0x40, align 0x8)
+		^MPropertyDescription "Relative weight of this choice, higher weighted choices are more likely to be selected."
+

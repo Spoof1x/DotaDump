@@ -1,0 +1,28 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphDocStateMachineGraph (size: 0x68 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23df890, scope "!GlobalTypes") extends CNmGraphDocGraph
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x4e6250"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmGraphDocGraph (size: 0x58 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23da4d0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x44f7f0"
+	
+	-----members of class CNmGraphDocGraph-----
+		uint8_t[8] unaccounted(offset 0x0)
+		V_uuid_t m_ID(offset 0x8, size 0x10, align 0x4)
+		uint8_t[8] unaccounted(offset 0x18)
+		CUtlVector< CNmGraphDocNode* > m_nodes(offset 0x20, size 0x18, align 0x8)
+		NmGraphDocGraphType_t m_graphType(offset 0x38, size 0x4, align 0x4)
+		Vector2D m_viewOffset(offset 0x3c, size 0x8, align 0x4)
+		float32 m_flViewZoom(offset 0x44, size 0x4, align 0x4)
+		uint8_t[16] unaccounted(offset 0x48)
+	
+
+-----members of class CNmGraphDocStateMachineGraph-----
+	V_uuid_t m_entryStateID(offset 0x58, size 0x10, align 0x4)
+

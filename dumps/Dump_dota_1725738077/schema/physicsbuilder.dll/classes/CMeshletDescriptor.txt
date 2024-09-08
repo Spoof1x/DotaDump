@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMeshletDescriptor (size: 0x18 bytes, project "modellib", binding @ physicsbuilder.dll + 0xa2f710, scope "physicsbuilder.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: physicsbuilder.dll + 0x3d0d10"
+
+-----members of class CMeshletDescriptor-----
+	PackedAABB_t m_PackedAABB(offset 0x0, size 0x8, align 0x0)
+	CDrawCullingData m_CullingData(offset 0x8, size 0x10, align 0x4)
+

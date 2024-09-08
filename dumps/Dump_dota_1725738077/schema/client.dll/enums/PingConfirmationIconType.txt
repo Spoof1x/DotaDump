@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PingConfirmationIconType(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x489cbf0):
+	PING_CONFIRMATION_STATE_ICON_TYPE_ATTACK = 0,
+	PING_CONFIRMATION_STATE_ICON_TYPE_DEFEND = 1,
+	PING_CONFIRMATION_STATE_ICON_TYPE_SMOKE = 2,

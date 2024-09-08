@@ -1,0 +1,45 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmSyncEventIndexConditionNode::CDefinition (size: 0x18 bytes, project "animlib", binding @ animationsystem.dll + 0x5da970, scope "!GlobalTypes") extends CNmBoolValueNode::CDefinition
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x2f9200"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmBoolValueNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ animationsystem.dll + 0x5e10f0, scope "!GlobalTypes") extends CNmValueNode::CDefinition
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmValueNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ animationsystem.dll + 0x5e1070, scope "!GlobalTypes") extends CNmGraphNode::CDefinition
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmGraphNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ animationsystem.dll + 0x5e0f70, scope "!GlobalTypes")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+			
+			-----members of class CNmGraphNode::CDefinition-----
+				uint8_t[8] unaccounted(offset 0x0)
+				int16 m_nNodeIdx(offset 0x8, size 0x2, align 0x2)
+				uint8_t[6] unaccounted(offset 0xa)
+			
+		
+		-----members of class CNmValueNode::CDefinition-----
+			<no members>
+		
+	
+	-----members of class CNmBoolValueNode::CDefinition-----
+		<no members>
+	
+
+-----members of class CNmSyncEventIndexConditionNode::CDefinition-----
+	int16 m_nSourceStateNodeIdx(offset 0x10, size 0x2, align 0x2)
+	CNmSyncEventIndexConditionNode::TriggerMode_t m_triggerMode(offset 0x12, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x13)
+	int32 m_syncEventIdx(offset 0x14, size 0x4, align 0x4)
+

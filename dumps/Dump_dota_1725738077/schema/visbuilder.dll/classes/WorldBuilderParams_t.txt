@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class WorldBuilderParams_t (size: 0x48 bytes, project "visbuilder", binding @ visbuilder.dll + 0x188ad0, scope "visbuilder.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: visbuilder.dll + 0x4fc10"
+
+-----members of class WorldBuilderParams_t-----
+	float32 m_flMinDrawVolumeSize(offset 0x0, size 0x4, align 0x4)
+	bool m_bBuildBakedLighting(offset 0x4, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x5)
+	BakedLightingInfo_t m_bakedLightingInfo(offset 0x8, size 0x30, align 0x8)
+	uint64 m_nCompileTimestamp(offset 0x38, size 0x8, align 0x8)
+	uint64 m_nCompileFingerprint(offset 0x40, size 0x8, align 0x8)
+

@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMorphRectData (size: 0x28 bytes, project "modellib", binding @ workshopmanager.dll + 0xe8fc50, scope "workshopmanager.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x51e850"
+
+-----members of class CMorphRectData-----
+	int16 m_nXLeftDst(offset 0x0, size 0x2, align 0x2)
+	int16 m_nYTopDst(offset 0x2, size 0x2, align 0x2)
+	float32 m_flUWidthSrc(offset 0x4, size 0x4, align 0x4)
+	float32 m_flVHeightSrc(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlVector< CMorphBundleData > m_bundleDatas(offset 0x10, size 0x18, align 0x8)
+

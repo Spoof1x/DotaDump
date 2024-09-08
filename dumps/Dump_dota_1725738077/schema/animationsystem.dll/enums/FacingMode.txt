@@ -1,0 +1,12 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum FacingMode(size: 1 bytes, 5 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a7500):
+	FacingMode_Invalid = 0,
+		^MPropertyFriendlyName "None"
+	FacingMode_Manual = 1,
+		^MPropertyFriendlyName "Manual Direction"
+	FacingMode_Path = 2,
+		^MPropertyFriendlyName "Path"
+	FacingMode_LookTarget = 3,
+		^MPropertyFriendlyName "Look Target"
+	FacingMode_ManualPosition = 4,
+		^MPropertyFriendlyName "Manual Position"

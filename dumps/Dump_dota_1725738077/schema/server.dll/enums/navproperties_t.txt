@@ -1,0 +1,3 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum navproperties_t(size: 4 bytes, 1 values, project "server", binding @ server.dll + 0x3a58070):
+	NAV_IGNORE = 1,

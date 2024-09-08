@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_ClipDataManager (size: 0x30 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e8b40, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x55d460"
+^MPropertyFriendlyName "Clip Data Manager"
+
+-----members of class CAnimGraphDoc_ClipDataManager-----
+	uint8_t[16] unaccounted(offset 0x0)
+	CUtlHashtable< CUtlString, CSmartPtr< CAnimGraphDoc_ClipData > > m_itemTable(offset 0x10, size 0x20, align 0x8)
+

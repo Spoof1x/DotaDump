@@ -1,0 +1,6 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VsInputSignature_t (size: 0x18 bytes, project "rendersystemdx11", binding @ rendersystemdx11.dll + 0x3eecb0, scope "!GlobalTypes")
+
+-----members of class VsInputSignature_t-----
+	CUtlVector< VsInputSignatureElement_t > m_elems(offset 0x0, size 0x18, align 0x8)
+

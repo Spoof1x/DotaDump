@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmStateEventConditionNode::Condition_t (size: 0x10 bytes, project "animlib", binding @ animationsystem.dll + 0x5da4e0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x2f9e50"
+
+-----members of class CNmStateEventConditionNode::Condition_t-----
+	CGlobalSymbol m_eventID(offset 0x0, size 0x8, align 0x8)
+	NmStateEventTypeCondition_t m_eventTypeCondition(offset 0x8, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x9)
+

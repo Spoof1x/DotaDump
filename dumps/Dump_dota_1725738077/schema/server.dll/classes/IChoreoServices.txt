@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class IChoreoServices (size: 0x8 bytes, project "server", binding @ server.dll + 0x38c9db0, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+
+-----static members of class IChoreoServices-----
+	static uint32 ms_uSequenceId(server.dll + 0x3d0d9a4)
+
+-----members of class IChoreoServices-----
+	uint8_t[8] unaccounted(offset 0x0)
+

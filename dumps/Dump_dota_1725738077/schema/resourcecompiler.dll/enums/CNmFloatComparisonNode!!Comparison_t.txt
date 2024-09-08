@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CNmFloatComparisonNode::Comparison_t(size: 1 bytes, 5 values, project "animlib", binding @ resourcecompiler.dll + 0x2448660):
+	GreaterThanEqual = 0,
+	LessThanEqual = 1,
+	NearEqual = 2,
+	GreaterThan = 3,
+	LessThan = 4,

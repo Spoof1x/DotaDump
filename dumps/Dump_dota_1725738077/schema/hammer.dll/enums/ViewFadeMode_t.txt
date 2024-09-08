@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ViewFadeMode_t(size: 4 bytes, 3 values, project "vmf_to_vmap", binding @ hammer.dll + 0x1de8660):
+	VIEW_FADE_CONSTANT_COLOR = 0,
+	VIEW_FADE_MODULATE = 1,
+	VIEW_FADE_MOD2X = 2,

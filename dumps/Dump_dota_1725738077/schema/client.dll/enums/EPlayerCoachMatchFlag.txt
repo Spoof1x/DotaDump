@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EPlayerCoachMatchFlag(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x46f4620):
+	k_EPlayerCoachMatchFlag_EligibleForRewards = 1,
+	k_EPlayerCoachMatchFlag_PrivateCoach = 2,

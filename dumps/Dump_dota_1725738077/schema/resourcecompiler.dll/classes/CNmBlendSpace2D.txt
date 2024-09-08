@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmBlendSpace2D (size: 0x60 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23da9b0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x4610a0"
+
+-----members of class CNmBlendSpace2D-----
+	CUtlVector< CUtlString > m_pointNames(offset 0x0, size 0x18, align 0x8)
+		^MPropertyResizable "<unidentified non-null meta: resourcecompiler.dll + 0x18cb0d0>"
+	CUtlVector< Vector2D > m_points(offset 0x18, size 0x18, align 0x8)
+		^MPropertyResizable "<unidentified non-null meta: resourcecompiler.dll + 0x18cb0e0>"
+	CUtlVector< uint8 > m_indices(offset 0x30, size 0x18, align 0x8)
+		^MPropertySuppressField
+	CUtlVector< uint8 > m_hullIndices(offset 0x48, size 0x18, align 0x8)
+		^MPropertySuppressField
+

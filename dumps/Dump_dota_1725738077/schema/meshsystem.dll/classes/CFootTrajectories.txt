@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootTrajectories (size: 0x18 bytes, project "modellib", binding @ meshsystem.dll + 0x11ca20, scope "meshsystem.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x97bf0"
+
+-----members of class CFootTrajectories-----
+	CUtlVector< CFootTrajectory > m_trajectories(offset 0x0, size 0x18, align 0x8)
+

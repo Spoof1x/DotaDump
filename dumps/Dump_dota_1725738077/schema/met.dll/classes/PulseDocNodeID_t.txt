@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PulseDocNodeID_t (size: 0x4 bytes, project "pulse_runtime_lib", binding @ met.dll + 0x400aa0, scope "met.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class PulseDocNodeID_t-----
+	static bool IS_TYPESAFE_INTEGER(met.dll + 0x3379d4)
+
+-----members of class PulseDocNodeID_t-----
+	int32 m_Value(offset 0x0, size 0x4, align 0x4)
+

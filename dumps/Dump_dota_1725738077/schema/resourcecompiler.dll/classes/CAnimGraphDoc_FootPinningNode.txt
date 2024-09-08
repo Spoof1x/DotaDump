@@ -1,0 +1,68 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_FootPinningNode (size: 0x90 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f0bd0, scope "!GlobalTypes") extends CAnimGraphDoc_Node
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x59ad70"
+^MPropertyFriendlyName "Foot Pinning"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Node (size: 0x40 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ec330, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Node-----
+		uint8_t[32] unaccounted(offset 0x0)
+		CUtlString m_sName(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		Vector2D m_vecPosition(offset 0x28, size 0x8, align 0x4)
+			^MPropertyGroupName "Debug"
+		AnimNodeID m_nNodeID(offset 0x30, size 0x4, align 0x4)
+			^MPropertyGroupName "Debug"
+		bool m_bDebugThisNode(offset 0x34, size 0x1, align 0x1)
+			^MPropertyGroupName "Debug"
+			^MPropertyFriendlyName "Debug This Node"
+		uint8_t[3] unaccounted(offset 0x35)
+		AnimNodeNetworkMode m_networkMode(offset 0x38, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Network Mode"
+		uint8_t[4] unaccounted(offset 0x3c)
+	
+
+-----members of class CAnimGraphDoc_FootPinningNode-----
+	CAnimGraphDoc_NodeConnection m_inputConnection(offset 0x40, size 0x8, align 0x4)
+		^MPropertyHideField
+	CUtlVector< CFootPinningItem > m_items(offset 0x48, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Feet"
+		^MPropertyAutoExpandSelf
+	FootPinningTimingSource m_eTimingSource(offset 0x60, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Lock Timing Source"
+	float32 m_flBlendTime(offset 0x64, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Blend Time"
+	float32 m_flLockBreakDistance(offset 0x68, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Lock Break Distance"
+	float32 m_flMaxLegStraightAmount(offset 0x6c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Leg Straight Amount"
+		^MPropertyAttributeRange "0 1"
+	bool m_bApplyFootRotationLimits(offset 0x70, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Limit Foot Rotation"
+		^MPropertyGroupName "Foot Rotation Limits"
+	uint8_t[7] unaccounted(offset 0x71)
+	CUtlString m_hipBoneName(offset 0x78, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Hip Bone"
+		^MPropertyAttributeChoiceName "Bone"
+		^MPropertyGroupName "Foot Rotation Limits"
+	bool m_bApplyLegTwistLimits(offset 0x80, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Limit Leg Twist"
+		^MPropertyGroupName "Knee Twist Limits"
+	uint8_t[3] unaccounted(offset 0x81)
+	float32 m_flMaxLegTwist(offset 0x84, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Leg Twist Angle"
+		^MPropertyGroupName "Knee Twist Limits"
+	bool m_bResetChild(offset 0x88, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Reset Child"
+	uint8_t[7] unaccounted(offset 0x89)
+

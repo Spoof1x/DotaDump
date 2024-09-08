@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimFrameBlockAnim (size: 0x20 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24ed640, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x331020"
+
+-----members of class CAnimFrameBlockAnim-----
+	int32 m_nStartFrame(offset 0x0, size 0x4, align 0x4)
+	int32 m_nEndFrame(offset 0x4, size 0x4, align 0x4)
+	CUtlVector< int32 > m_segmentIndexArray(offset 0x8, size 0x18, align 0x8)
+

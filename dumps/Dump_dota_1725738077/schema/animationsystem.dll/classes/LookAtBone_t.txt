@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class LookAtBone_t (size: 0x8 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b14b0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1d9b50"
+
+-----members of class LookAtBone_t-----
+	int32 m_index(offset 0x0, size 0x4, align 0x4)
+	float32 m_weight(offset 0x4, size 0x4, align 0x4)
+

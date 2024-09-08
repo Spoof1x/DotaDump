@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class NmCompressionSettings_t::QuantizationRange_t (size: 0x8 bytes, project "animlib", binding @ resourcecompiler.dll + 0x244c5c0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x87b8e0"
+
+-----members of class NmCompressionSettings_t::QuantizationRange_t-----
+	float32 m_flRangeStart(offset 0x0, size 0x4, align 0x4)
+	float32 m_flRangeLength(offset 0x4, size 0x4, align 0x4)
+

@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTASelectionPriorityChoice(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x46fffd0):
+	k_DOTASelectionPriorityChoice_Invalid = 0,
+	k_DOTASelectionPriorityChoice_FirstPick = 1,
+	k_DOTASelectionPriorityChoice_SecondPick = 2,
+	k_DOTASelectionPriorityChoice_Radiant = 3,
+	k_DOTASelectionPriorityChoice_Dire = 4,

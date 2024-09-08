@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum RequestPause_t(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x4703570):
+	RP_PAUSE = 0,
+	RP_UNPAUSE = 1,
+	RP_TOGGLEPAUSE = 2,

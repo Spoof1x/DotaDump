@@ -1,0 +1,90 @@
+CBaseVDataFileManager
+	steamaudio.dll + 0x1d57b8(hierarchy CBaseVDataFileManager: IVDataResourceListener)
+CDirectProcessor
+	steamaudio.dll + 0x1e85b0(hierarchy CDirectProcessor: IDirectProcessor)
+CEmptySequence
+	steamaudio.dll + 0x1e49b0(hierarchy CEmptySequence: ISequence, IBaseSequence)
+CHybridReverbProcessor
+	steamaudio.dll + 0x1e86d0(hierarchy CHybridReverbProcessor: IHybridReverbProcessor)
+CImpulseResponse
+	steamaudio.dll + 0x1e8668(hierarchy CImpulseResponse: IImpulseResponse)
+CKV3TransferContextBase
+	steamaudio.dll + 0x1dacc0(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferLoadContext
+	steamaudio.dll + 0x1dad30(hierarchy CKV3TransferLoadContext: CKV3TransferContextBase, IErrorListener)
+CKV3TransferSaveContext
+	steamaudio.dll + 0x1dacf8(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CNavArea
+	steamaudio.dll + 0x1d6468(hierarchy CNavArea: CNavPoly)
+CNavHullPresetVDataFileManager
+	steamaudio.dll + 0x1d5920(hierarchy CNavHullPresetVDataFileManager: CVDataFileManager<class CNavHullPresetVData>, CBaseVDataFileManager, IVDataResourceListener)
+CNavHullVDataFileManager
+	steamaudio.dll + 0x1d5878(hierarchy CNavHullVDataFileManager: CVDataFileManager<class CNavHullVData>, CBaseVDataFileManager, IVDataResourceListener)
+CNavMesh
+	steamaudio.dll + 0x1d49e0(hierarchy CNavMesh: INavMovableMeshListener)
+CNavPoly
+	steamaudio.dll + 0x1d6440(hierarchy CNavPoly)
+CPathingProcessor
+	steamaudio.dll + 0x1e8a30(hierarchy CPathingProcessor: IPathingProcessor)
+CPostConnectCallback
+	steamaudio.dll + 0x1da8e0(hierarchy CPostConnectCallback)
+CSchemaInstallCallback
+	steamaudio.dll + 0x1db3f8(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSource3DProcessor
+	steamaudio.dll + 0x1e8560(hierarchy CSource3DProcessor: ISourceProcessor)
+CSteamAudio
+	steamaudio.dll + 0x1e8828(hierarchy CSteamAudio: CTier2AppSystem<class ISteamAudio,0>, CTier1AppSystem<class ISteamAudio,0>, CTier0AppSystem<class ISteamAudio,0>, CBaseAppSystem<class ISteamAudio>, ISteamAudio, IAppSystem)
+CSteamAudioMaterialList
+	steamaudio.dll + 0x1e8d90(hierarchy CSteamAudioMaterialList: CSurfacePropDataTable<class CSteamAudioMaterial>, CSurfacePropDataTableBase)
+CSteamAudioScene
+	steamaudio.dll + 0x1e8c60(hierarchy CSteamAudioScene: ISteamAudioScene)
+CSteamAudioSimulationData
+	steamaudio.dll + 0x1e8600(hierarchy CSteamAudioSimulationData: ISteamAudioSimulationData)
+CSteamAudioSource
+	steamaudio.dll + 0x1e8c38(hierarchy CSteamAudioSource: ISteamAudioSource)
+CVDataFileManager<class CNavHullPresetVData>
+	steamaudio.dll + 0x1d58d8(hierarchy CVDataFileManager<class CNavHullPresetVData>: CBaseVDataFileManager, IVDataResourceListener)
+CVDataFileManager<class CNavHullVData>
+	steamaudio.dll + 0x1d5830(hierarchy CVDataFileManager<class CNavHullVData>: CBaseVDataFileManager, IVDataResourceListener)
+IDirectProcessor
+	steamaudio.dll + 0x1e8cd8(hierarchy IDirectProcessor)
+IHybridReverbProcessor
+	steamaudio.dll + 0x1e87e0(hierarchy IHybridReverbProcessor)
+IImpulseResponse
+	steamaudio.dll + 0x1e89c8(hierarchy IImpulseResponse)
+IPathingProcessor
+	steamaudio.dll + 0x1e8730(hierarchy IPathingProcessor)
+ISourceProcessor
+	steamaudio.dll + 0x1e8be8(hierarchy ISourceProcessor)
+ISteamAudio
+	steamaudio.dll + 0x1e8a68(hierarchy ISteamAudio: IAppSystem)
+ISteamAudioScene
+	steamaudio.dll + 0x1e8768(hierarchy ISteamAudioScene)
+ISteamAudioSimulationData
+	steamaudio.dll + 0x1e8d28(hierarchy ISteamAudioSimulationData)
+ISteamAudioSource
+	steamaudio.dll + 0x1e89a8(hierarchy ISteamAudioSource)
+VDataInitInfo_t
+	steamaudio.dll + 0x1d57e8(hierarchy VDataInitInfo_t: IErrorListener)
+std::_Func_impl_no_alloc<class `private: void __cdecl CNavMesh::CollectAreasAssociatedWithMovableMesh(unsigned int,bool,class CUtlVector<class CNavArea * __ptr64,int,class CUtlMemory<class CNavArea * __ptr64,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,unsigned int const & __ptr64>
+	steamaudio.dll + 0x1d56f0(hierarchy std::_Func_impl_no_alloc<class `private: void __cdecl CNavMesh::CollectAreasAssociatedWithMovableMesh(unsigned int,bool,class CUtlVector<class CNavArea * __ptr64,int,class CUtlMemory<class CNavArea * __ptr64,int> > & __ptr64) __ptr64'::`2'::<lambda_1>,void,unsigned int const & __ptr64>: std::_Func_base<void,unsigned int const & __ptr64>)
+std::_Func_impl_no_alloc<class `public: unsigned int __cdecl CNavGeometryManager::GetMovableMeshId(int)const __ptr64'::`2'::<lambda_1>,void,unsigned int const & __ptr64>
+	steamaudio.dll + 0x1d56b8(hierarchy std::_Func_impl_no_alloc<class `public: unsigned int __cdecl CNavGeometryManager::GetMovableMeshId(int)const __ptr64'::`2'::<lambda_1>,void,unsigned int const & __ptr64>: std::_Func_base<void,unsigned int const & __ptr64>)
+std::_Func_impl_no_alloc<class `public: void __cdecl CNavGeometryManager::UpdateMovableMeshTransform(unsigned int,class matrix3x4a_t const & __ptr64) __ptr64'::`2'::<lambda_1>,void,int const & __ptr64>
+	steamaudio.dll + 0x1d6408(hierarchy std::_Func_impl_no_alloc<class `public: void __cdecl CNavGeometryManager::UpdateMovableMeshTransform(unsigned int,class matrix3x4a_t const & __ptr64) __ptr64'::`2'::<lambda_1>,void,int const & __ptr64>: std::_Func_base<void,int const & __ptr64>)
+std::bad_alloc
+	steamaudio.dll + 0x1d6568(hierarchy std::bad_alloc: std::exception)
+std::bad_array_new_length
+	steamaudio.dll + 0x1d6580(hierarchy std::bad_array_new_length: std::bad_alloc, std::exception)
+std::bad_exception
+	steamaudio.dll + 0x1dbd28(hierarchy std::bad_exception: std::exception)
+std::bad_function_call
+	steamaudio.dll + 0x1dba98(hierarchy std::bad_function_call: std::exception)
+std::exception
+	steamaudio.dll + 0x1d6550(hierarchy std::exception)
+std::length_error
+	steamaudio.dll + 0x1dbae0(hierarchy std::length_error: std::logic_error, std::exception)
+std::logic_error
+	steamaudio.dll + 0x1dbac8(hierarchy std::logic_error: std::exception)
+type_info
+	steamaudio.dll + 0x1dbba0(hierarchy type_info)

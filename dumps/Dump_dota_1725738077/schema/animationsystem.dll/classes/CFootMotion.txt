@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootMotion (size: 0x28 bytes, project "modellib", binding @ animationsystem.dll + 0x5e4330, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x3af330"
+
+-----members of class CFootMotion-----
+	CUtlVector< CFootStride > m_strides(offset 0x0, size 0x18, align 0x8)
+	CUtlString m_name(offset 0x18, size 0x8, align 0x8)
+	bool m_bAdditive(offset 0x20, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x21)
+

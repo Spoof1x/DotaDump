@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NmFrameSnapEventMode_t(size: 4 bytes, 2 values, project "animlib", binding @ animationsystem.dll + 0x5d9860):
+	Floor = 0,
+	Round = 1,

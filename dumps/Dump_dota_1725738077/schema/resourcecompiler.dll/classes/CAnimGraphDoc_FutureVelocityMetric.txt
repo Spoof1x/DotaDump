@@ -1,0 +1,40 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_FutureVelocityMetric (size: 0x38 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f7d30, scope "!GlobalTypes") extends CAnimGraphDoc_MotionMetric
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5d35c0"
+^MPropertyFriendlyName "Future Velocity Metric"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_MotionMetric (size: 0x28 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f69a0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_MotionMetric-----
+		uint8_t[32] unaccounted(offset 0x0)
+		float32 m_flWeight(offset 0x20, size 0x4, align 0x4)
+			^MPropertyHideField
+		uint8_t[4] unaccounted(offset 0x24)
+	
+
+-----members of class CAnimGraphDoc_FutureVelocityMetric-----
+	float32 m_flDistance(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Distance"
+	float32 m_flStoppingDistance(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Stopping Distance"
+	VelocityMetricMode m_eMode(offset 0x30, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Mode"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	bool m_bAutoTargetSpeed(offset 0x31, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Auto-Calculate target speed"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5d7300"
+	uint8_t[2] unaccounted(offset 0x32)
+	float32 m_flManualTargetSpeed(offset 0x34, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Target Speed"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x66c9a0"
+

@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class sSharedCooldownInfo (size: 0x10 bytes, project "client", binding @ client.dll + 0x4827f80, scope "!GlobalTypes")
+
+-----members of class sSharedCooldownInfo-----
+	CUtlString cooldownName(offset 0x0, size 0x8, align 0x8)
+	float32 cooldownLength(offset 0x8, size 0x4, align 0x4)
+	GameTime_t cooldownTime(offset 0xc, size 0x4, align 0x0)
+

@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMotorController (size: 0x20 bytes, project "server", binding @ server.dll + 0x3a612b0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class CMotorController-----
+	uint8_t[8] unaccounted(offset 0x0)
+	float32 m_speed(offset 0x8, size 0x4, align 0x4)
+	float32 m_maxTorque(offset 0xc, size 0x4, align 0x4)
+	Vector m_axis(offset 0x10, size 0xc, align 0x4)
+	float32 m_inertiaFactor(offset 0x1c, size 0x4, align 0x4)
+

@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class sControlGroupElem (size: 0x318 bytes, project "client", binding @ client.dll + 0x487aa10, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class sControlGroupElem-----
+	char[260] m_UnitName(offset 0x0, size 0x104, align 0x1)
+	char[260] m_UnitLabel(offset 0x104, size 0x104, align 0x1)
+	uint8 m_unUnitLabelIndex(offset 0x208, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x209)
+	CHandle< C_BaseEntity > m_hEntity(offset 0x20c, size 0x4, align 0x4)
+	bool m_bIsIllusion(offset 0x210, size 0x1, align 0x1)
+	char[260] m_IllusionLabel(offset 0x211, size 0x104, align 0x1)
+	uint8_t[3] unaccounted(offset 0x315)
+

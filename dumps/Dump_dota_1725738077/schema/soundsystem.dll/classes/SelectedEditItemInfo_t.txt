@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class SelectedEditItemInfo_t (size: 0x18 bytes, project "soundsystem", binding @ soundsystem.dll + 0x39ea20, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x192140"
+
+-----members of class SelectedEditItemInfo_t-----
+	CUtlVector< SosEditItemInfo_t > m_EditItems(offset 0x0, size 0x18, align 0x8)
+

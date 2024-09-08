@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum quest_hud_types_t(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x489d6f0):
+	QUEST_HUD_TYPE_DEFAULT = 0,
+	QUEST_HUD_TYPE_GOLD = 1,
+	QUEST_HUD_TYPE_ATTACK = 2,
+	QUEST_HUD_TYPE_DEFEND = 3,
+	QUEST_NUM_HUD_TYPES = 4,

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CGraphPreviewList (size: 0x28 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bf080, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x15db4b0"
+
+-----members of class CGraphPreviewList-----
+	float32 m_flVolume(offset 0x0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4)
+	CPreviewList m_previewList(offset 0x8, size 0x20, align 0x8)
+

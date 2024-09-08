@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ResetCycleOption(size: 4 bytes, 5 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x242b370):
+	Beginning = 0,
+	SameCycleAsSource = 1,
+	InverseSourceCycle = 2,
+	FixedValue = 3,
+	SameTimeAsSource = 4,

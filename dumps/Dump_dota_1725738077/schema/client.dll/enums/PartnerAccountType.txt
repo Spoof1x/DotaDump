@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PartnerAccountType(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x4704230):
+	PARTNER_NONE = 0,
+	PARTNER_PERFECT_WORLD = 1,
+	PARTNER_INVALID = 3,

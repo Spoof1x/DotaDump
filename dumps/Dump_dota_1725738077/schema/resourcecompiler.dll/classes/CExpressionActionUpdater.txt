@@ -1,0 +1,25 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CExpressionActionUpdater (size: 0x20 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x241bfd0, scope "resourcecompiler.dll") extends CAnimActionUpdater
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x6b1960"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimActionUpdater (size: 0x18 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x241bab0, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimActionUpdater-----
+		uint8_t[24] unaccounted(offset 0x0)
+	
+
+-----members of class CExpressionActionUpdater-----
+	CAnimParamHandle m_hParam(offset 0x18, size 0x2, align 0x1)
+	AnimParamType_t m_eParamType(offset 0x1a, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x1b)
+	AnimScriptHandle m_hScript(offset 0x1c, size 0x4, align 0x4)
+

@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class lerpdata_t (size: 0x40 bytes, project "server", binding @ server.dll + 0x38d1f30, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class lerpdata_t-----
+	CHandle< CBaseEntity > m_hEnt(offset 0x0, size 0x4, align 0x4)
+	MoveType_t m_MoveType(offset 0x4, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x5)
+	GameTime_t m_flStartTime(offset 0x8, size 0x4, align 0x0)
+	Vector m_vecStartOrigin(offset 0xc, size 0xc, align 0x4)
+	uint8_t[8] unaccounted(offset 0x18)
+	Quaternion m_qStartRot(offset 0x20, size 0x10, align 0x10)
+	ParticleIndex_t m_nFXIndex(offset 0x30, size 0x4, align 0x0)
+	uint8_t[12] unaccounted(offset 0x34)
+

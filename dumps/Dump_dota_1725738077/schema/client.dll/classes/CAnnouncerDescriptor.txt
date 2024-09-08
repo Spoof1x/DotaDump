@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnnouncerDescriptor (size: 0x28 bytes, project "client", binding @ client.dll + 0x4744440, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+-----members of class CAnnouncerDescriptor-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlString m_strAnnouncerName(offset 0x8, size 0x8, align 0x8)
+	CUtlString m_strAnnouncerVoiceFile(offset 0x10, size 0x8, align 0x8)
+	itemid_t m_nAnnouncerItemId(offset 0x18, size 0x8, align 0x0)
+	bool m_bItemOwnedByLocalPlayer(offset 0x20, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x21)
+

@@ -1,0 +1,57 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CParticleCollectionVecInput (size: 0x678 bytes, project "particleslib", binding @ particles.dll + 0x505300, scope "!GlobalTypes") extends CParticleVecInput
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x339210"
+^MPropertyCustomEditor "CollectionVecInput()"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleVecInput (size: 0x678 bytes, project "particleslib", binding @ particles.dll + 0x5051e0, scope "!GlobalTypes") extends CParticleInput
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: particles.dll + 0x338f70"
+	^MClassIsParticleVec
+	^MParticleCustomFieldDefaultValue "func: particles.dll + 0x337fa0"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleInput (size: 0x10 bytes, project "particleslib", binding @ particles.dll + 0x505a90, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		^MGetKV3ClassDefaults "func: particles.dll + 0x342380"
+		
+		-----members of class CParticleInput-----
+			uint8_t[16] unaccounted(offset 0x0)
+		
+	
+	-----members of class CParticleVecInput-----
+		ParticleVecType_t m_nType(offset 0x10, size 0x4, align 0x4)
+		Vector m_vLiteralValue(offset 0x14, size 0xc, align 0x4)
+		Color m_LiteralColor(offset 0x20, size 0x4, align 0x1)
+		uint8_t[4] unaccounted(offset 0x24)
+		CParticleNamedValueRef m_NamedValue(offset 0x28, size 0x40, align 0x8)
+		bool m_bFollowNamedValue(offset 0x68, size 0x1, align 0x1)
+		uint8_t[3] unaccounted(offset 0x69)
+		ParticleAttributeIndex_t m_nVectorAttribute(offset 0x6c, size 0x4, align 0x0)
+		Vector m_vVectorAttributeScale(offset 0x70, size 0xc, align 0x4)
+		int32 m_nControlPoint(offset 0x7c, size 0x4, align 0x4)
+		int32 m_nDeltaControlPoint(offset 0x80, size 0x4, align 0x4)
+		Vector m_vCPValueScale(offset 0x84, size 0xc, align 0x4)
+		Vector m_vCPRelativePosition(offset 0x90, size 0xc, align 0x4)
+		Vector m_vCPRelativeDir(offset 0x9c, size 0xc, align 0x4)
+		CParticleFloatInput m_FloatComponentX(offset 0xa8, size 0x160, align 0x8)
+		CParticleFloatInput m_FloatComponentY(offset 0x208, size 0x160, align 0x8)
+		CParticleFloatInput m_FloatComponentZ(offset 0x368, size 0x160, align 0x8)
+		CParticleFloatInput m_FloatInterp(offset 0x4c8, size 0x160, align 0x8)
+		float32 m_flInterpInput0(offset 0x628, size 0x4, align 0x4)
+		float32 m_flInterpInput1(offset 0x62c, size 0x4, align 0x4)
+		Vector m_vInterpOutput0(offset 0x630, size 0xc, align 0x4)
+		Vector m_vInterpOutput1(offset 0x63c, size 0xc, align 0x4)
+		CColorGradient m_Gradient(offset 0x648, size 0x18, align 0x8)
+		Vector m_vRandomMin(offset 0x660, size 0xc, align 0x4)
+		Vector m_vRandomMax(offset 0x66c, size 0xc, align 0x4)
+	
+
+-----members of class CParticleCollectionVecInput-----
+	<no members>
+

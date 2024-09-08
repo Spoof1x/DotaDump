@@ -1,0 +1,12 @@
+CMediaFoundation
+	valve_wmf.dll + 0x1a690(hierarchy CMediaFoundation: CTier3AppSystem<class IMediaFoundation,0>, CTier2AppSystem<class IMediaFoundation,0>, CTier1AppSystem<class IMediaFoundation,0>, CTier0AppSystem<class IMediaFoundation,0>, CBaseAppSystem<class IMediaFoundation>, IMediaFoundation, IAppSystem)
+CPostConnectCallback
+	valve_wmf.dll + 0x12678(hierarchy CPostConnectCallback)
+CSchemaInstallCallback
+	valve_wmf.dll + 0x12760(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+std::bad_exception
+	valve_wmf.dll + 0x13750(hierarchy std::bad_exception: std::exception)
+std::exception
+	valve_wmf.dll + 0x13720(hierarchy std::exception)
+type_info
+	valve_wmf.dll + 0x127d8(hierarchy type_info)

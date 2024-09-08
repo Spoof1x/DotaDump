@@ -1,0 +1,20 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EventServerProcessNetworking_t (size: 0x30 bytes, project "client", binding @ client.dll + 0x47134d0, scope "!GlobalTypes") extends EventSimulate_t
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class EventSimulate_t (size: 0x30 bytes, project "client", binding @ client.dll + 0x4712cc0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	
+	-----members of class EventSimulate_t-----
+		EngineLoopState_t m_LoopState(offset 0x0, size 0x28, align 0x0)
+		bool m_bFirstTick(offset 0x28, size 0x1, align 0x1)
+		bool m_bLastTick(offset 0x29, size 0x1, align 0x1)
+		uint8_t[6] unaccounted(offset 0x2a)
+	
+
+-----members of class EventServerProcessNetworking_t-----
+	<no members>
+

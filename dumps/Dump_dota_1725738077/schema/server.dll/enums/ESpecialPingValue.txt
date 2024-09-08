@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ESpecialPingValue(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x38d4e60):
+	k_ESpecialPingValue_NoData = 16382,
+	k_ESpecialPingValue_Failed = 16383,

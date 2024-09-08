@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimStateMachineUpdater (size: 0x58 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b2740, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1e2d60"
+
+-----members of class CAnimStateMachineUpdater-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlVector< CStateUpdateData > m_states(offset 0x8, size 0x18, align 0x8)
+	CUtlVector< CTransitionUpdateData > m_transitions(offset 0x20, size 0x18, align 0x8)
+	uint8_t[24] unaccounted(offset 0x38)
+	int32 m_startStateIndex(offset 0x50, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x54)
+

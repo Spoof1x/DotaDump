@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PulseRuntimeStateOffset_t (size: 0x2 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xce2eb0, scope "pet.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class PulseRuntimeStateOffset_t-----
+	static bool IS_TYPESAFE_INTEGER(pet.dll + 0x9ffcaa)
+
+-----members of class PulseRuntimeStateOffset_t-----
+	uint16 m_Value(offset 0x0, size 0x2, align 0x2)
+

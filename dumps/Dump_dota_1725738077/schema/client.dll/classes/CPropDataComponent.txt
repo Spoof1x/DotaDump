@@ -1,0 +1,36 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPropDataComponent (size: 0x40 bytes, project "client", binding @ client.dll + 0x46b19c0, scope "client.dll") extends CEntityComponent
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CEntityComponent (size: 0x8 bytes, project "entity2", binding @ client.dll + 0x48fa1e0, scope "client.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+	
+	-----members of class CEntityComponent-----
+		uint8_t[8] unaccounted(offset 0x0)
+	
+
+-----static members of class CPropDataComponent-----
+	static EntComponentInfo_t s_EntComponentInfo(client.dll + 0x46b5220)
+	static int32 entity_component_error_class_decl_says_referenced_but_impl_is_contained(client.dll + 0x4b1e420)
+
+-----members of class CPropDataComponent-----
+	uint8_t[8] unaccounted(offset 0x8)
+	float32 m_flDmgModBullet(offset 0x10, size 0x4, align 0x4)
+	float32 m_flDmgModClub(offset 0x14, size 0x4, align 0x4)
+	float32 m_flDmgModExplosive(offset 0x18, size 0x4, align 0x4)
+	float32 m_flDmgModFire(offset 0x1c, size 0x4, align 0x4)
+	CUtlSymbolLarge m_iszPhysicsDamageTableName(offset 0x20, size 0x8, align 0x8)
+	CUtlSymbolLarge m_iszBasePropData(offset 0x28, size 0x8, align 0x8)
+	int32 m_nInteractions(offset 0x30, size 0x4, align 0x4)
+	bool m_bSpawnMotionDisabled(offset 0x34, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x35)
+	int32 m_nDisableTakePhysicsDamageSpawnFlag(offset 0x38, size 0x4, align 0x4)
+	int32 m_nMotionDisabledSpawnFlag(offset 0x3c, size 0x4, align 0x4)
+

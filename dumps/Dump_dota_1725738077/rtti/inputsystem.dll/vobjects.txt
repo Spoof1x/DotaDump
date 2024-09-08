@@ -1,0 +1,7 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CInputStackSystem (hierarchy CInputStackSystem: CTier2AppSystem<class IInputStackSystem,0>, CTier1AppSystem<class IInputStackSystem,0>, CTier0AppSystem<class IInputStackSystem,0>, CBaseAppSystem<class IInputStackSystem>, IInputStackSystem, IAppSystem)
+	inputsystem.dll + 0x35b70
+CInputSystem (hierarchy CInputSystem: CTier2AppSystem<class IInputSystem,0>, CTier1AppSystem<class IInputSystem,0>, CTier0AppSystem<class IInputSystem,0>, CBaseAppSystem<class IInputSystem>, IInputSystem, IAppSystem)
+	inputsystem.dll + 0x377e0
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	inputsystem.dll + 0x36ae8

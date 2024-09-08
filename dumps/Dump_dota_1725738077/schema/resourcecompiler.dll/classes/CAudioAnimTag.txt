@@ -1,0 +1,54 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAudioAnimTag (size: 0x70 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242d540, scope "resourcecompiler.dll") extends CAnimTagBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x769dc0"
+^MPropertyFriendlyName "Audio Tag"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimTagBase (size: 0x50 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2414f70, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x688a10"
+	
+	-----members of class CAnimTagBase-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CGlobalSymbol m_name(offset 0x18, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		CUtlString m_sComment(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Comment"
+			^MPropertyAttributeEditor "TextBlock()"
+			^MPropertySortPriority "-100"
+		CGlobalSymbol m_group(offset 0x28, size 0x8, align 0x8)
+			^MPropertyHideField
+		AnimTagID m_tagID(offset 0x30, size 0x4, align 0x4)
+			^MPropertyHideField
+		uint8_t[20] unaccounted(offset 0x34)
+		bool m_bIsReferenced(offset 0x48, size 0x1, align 0x1)
+			^MPropertyHideField
+		uint8_t[7] unaccounted(offset 0x49)
+	
+
+-----members of class CAudioAnimTag-----
+	uint8_t[8] unaccounted(offset 0x50)
+	CUtlString m_clipName(offset 0x58, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Sound Event"
+		^MPropertyAttributeEditor "SoundPicker()"
+	CUtlString m_attachmentName(offset 0x60, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Attachment"
+		^MPropertyAttributeChoiceName "Attachment"
+	float32 m_flVolume(offset 0x68, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Volume"
+		^MPropertyAttributeRange "0 1"
+	bool m_bStopWhenTagEnds(offset 0x6c, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Stop on Tag End"
+	bool m_bStopWhenGraphEnds(offset 0x6d, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Stop When Graph Destroyed"
+	bool m_bPlayOnServer(offset 0x6e, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Play on Server"
+	bool m_bPlayOnClient(offset 0x6f, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Play on Client"
+

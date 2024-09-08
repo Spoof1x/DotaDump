@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PulseGraphExecutionHistoryEntry_t (size: 0x18 bytes, project "pulse_runtime_lib", binding @ assetpreview.dll + 0x4f9780, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: assetpreview.dll + 0x2a8d00"
+
+-----members of class PulseGraphExecutionHistoryEntry_t-----
+	PulseCursorID_t nCursorID(offset 0x0, size 0x4, align 0x0)
+	PulseDocNodeID_t nEditorID(offset 0x4, size 0x4, align 0x0)
+	float32 flExecTime(offset 0x8, size 0x4, align 0x4)
+	uint32 unFlags(offset 0xc, size 0x4, align 0x4)
+	CUtlSymbolLarge tagName(offset 0x10, size 0x8, align 0x8)
+

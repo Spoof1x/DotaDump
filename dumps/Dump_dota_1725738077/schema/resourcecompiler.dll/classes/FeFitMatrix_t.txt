@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeFitMatrix_t (size: 0x40 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a1680, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x13686e0"
+
+-----members of class FeFitMatrix_t-----
+	CTransform bone(offset 0x0, size 0x20, align 0x10)
+	Vector vCenter(offset 0x20, size 0xc, align 0x4)
+	uint16 nEnd(offset 0x2c, size 0x2, align 0x2)
+	uint16 nNode(offset 0x2e, size 0x2, align 0x2)
+	uint16 nBeginDynamic(offset 0x30, size 0x2, align 0x2)
+	uint8_t[14] unaccounted(offset 0x32)
+

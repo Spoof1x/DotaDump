@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PlayerUltimateStateOrTime_t(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x4899a60):
+	PLAYER_ULTIMATE_STATE_READY = 0,
+	PLAYER_ULTIMATE_STATE_NO_MANA = -1,
+	PLAYER_ULTIMATE_STATE_NOT_LEVELED = -2,
+	PLAYER_ULTIMATE_STATE_HIDDEN = -3,

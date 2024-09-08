@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class sAcquireHistory (size: 0x60 bytes, project "server", binding @ server.dll + 0x3aefc70, scope "!GlobalTypes")
+
+-----members of class sAcquireHistory-----
+	AbilityID_t m_nAbilityID(offset 0x0, size 0x4, align 0x0)
+	int32 m_nLevel(offset 0x4, size 0x4, align 0x4)
+	int32 m_nGold(offset 0x8, size 0x4, align 0x4)
+	int32 m_nNetWorth(offset 0xc, size 0x4, align 0x4)
+	int32 m_bCombinedItem(offset 0x10, size 0x4, align 0x4)
+	float32 m_fGameTime(offset 0x14, size 0x4, align 0x4)
+	CUtlVector< AbilityID_t > m_vecItemList(offset 0x18, size 0x18, align 0x8)
+	CUtlVector< AbilityID_t > m_vecTalentSkilledList(offset 0x30, size 0x18, align 0x8)
+	CUtlVector< AbilityID_t > m_vecAvailableNeutralItemList(offset 0x48, size 0x18, align 0x8)
+

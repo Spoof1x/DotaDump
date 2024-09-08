@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmIKRigTarget (size: 0x1 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23dfc30, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x4eac30"
+
+-----members of class CNmIKRigTarget-----
+	uint8_t[1] unaccounted(offset 0x0)
+

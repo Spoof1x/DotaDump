@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAI_Expresser (size: 0x78 bytes, project "server", binding @ server.dll + 0x3a39240, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+-----members of class CAI_Expresser-----
+	uint8_t[56] unaccounted(offset 0x0)
+	GameTime_t m_flStopTalkTime(offset 0x38, size 0x4, align 0x0)
+	GameTime_t m_flStopTalkTimeWithoutDelay(offset 0x3c, size 0x4, align 0x0)
+	GameTime_t m_flBlockedTalkTime(offset 0x40, size 0x4, align 0x0)
+	int32 m_voicePitch(offset 0x44, size 0x4, align 0x4)
+	GameTime_t m_flLastTimeAcceptedSpeak(offset 0x48, size 0x4, align 0x0)
+	bool m_bAllowSpeakingInterrupts(offset 0x4c, size 0x1, align 0x1)
+	bool m_bConsiderSceneInvolvementAsSpeech(offset 0x4d, size 0x1, align 0x1)
+	bool m_bSceneEntityDisabled(offset 0x4e, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x4f)
+	int32 m_nLastSpokenPriority(offset 0x50, size 0x4, align 0x4)
+	uint8_t[28] unaccounted(offset 0x54)
+	CBaseFlex* m_pOuter(offset 0x70, size 0x8, align 0x8)
+

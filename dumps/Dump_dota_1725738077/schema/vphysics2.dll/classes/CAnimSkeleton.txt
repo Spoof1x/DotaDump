@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimSkeleton (size: 0xd0 bytes, project "modellib", binding @ vphysics2.dll + 0x3881a0, scope "vphysics2.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0x97fb0"
+
+-----members of class CAnimSkeleton-----
+	uint8_t[16] unaccounted(offset 0x0)
+	CUtlVector< CTransform > m_localSpaceTransforms(offset 0x10, size 0x18, align 0x8)
+	CUtlVector< CTransform > m_modelSpaceTransforms(offset 0x28, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_boneNames(offset 0x40, size 0x18, align 0x8)
+	CUtlVector< CUtlVector< int32 > > m_children(offset 0x58, size 0x18, align 0x8)
+	CUtlVector< int32 > m_parents(offset 0x70, size 0x18, align 0x8)
+	CUtlVector< CAnimFoot > m_feet(offset 0x88, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_morphNames(offset 0xa0, size 0x18, align 0x8)
+	CUtlVector< int32 > m_lodBoneCounts(offset 0xb8, size 0x18, align 0x8)
+

@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTACustomHeroPickRulesPhase_t(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x39f5c10):
+	PHASE_Ban = 0,
+	PHASE_Pick = 1,

@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EventPostAdvanceTick_t (size: 0x40 bytes, project "sfm", binding @ sfm.dll + 0xa239b0, scope "sfm.dll") extends EventSimulate_t
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class EventSimulate_t (size: 0x30 bytes, project "sfm", binding @ sfm.dll + 0xa23bc0, scope "sfm.dll")
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	
+	-----members of class EventSimulate_t-----
+		EngineLoopState_t m_LoopState(offset 0x0, size 0x28, align 0x0)
+		bool m_bFirstTick(offset 0x28, size 0x1, align 0x1)
+		bool m_bLastTick(offset 0x29, size 0x1, align 0x1)
+		uint8_t[6] unaccounted(offset 0x2a)
+	
+
+-----members of class EventPostAdvanceTick_t-----
+	int32 m_nCurrentTick(offset 0x30, size 0x4, align 0x4)
+	int32 m_nCurrentTickThisFrame(offset 0x34, size 0x4, align 0x4)
+	int32 m_nTotalTicksThisFrame(offset 0x38, size 0x4, align 0x4)
+	int32 m_nTotalTicks(offset 0x3c, size 0x4, align 0x4)
+

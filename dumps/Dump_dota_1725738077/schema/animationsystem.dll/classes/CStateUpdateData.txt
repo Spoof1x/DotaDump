@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CStateUpdateData (size: 0x48 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b2660, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1e2ab0"
+
+-----members of class CStateUpdateData-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	AnimScriptHandle m_hScript(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlVector< int32 > m_transitionIndices(offset 0x10, size 0x18, align 0x8)
+	CUtlVector< CStateActionUpdater > m_actions(offset 0x28, size 0x18, align 0x8)
+	AnimStateID m_stateID(offset 0x40, size 0x4, align 0x4)
+	bitfield {
+		uint8_t m_bIsStartState : 1(offset 0x44, mask = 0x1)
+		uint8_t m_bIsEndState : 1(offset 0x44, mask = 0x2)
+		uint8_t m_bIsPassthrough : 1(offset 0x44, mask = 0x4)
+	}
+	uint8_t[3] unaccounted(offset 0x45)
+

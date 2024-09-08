@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_DOTA_TrackingProjectileInfoParticleAPI (size: 0x1 bytes, project "client", binding @ client.dll + 0x4879dc0, scope "client.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MPulseProvideFeatureTag "PulseParticles"
+^MPulseLibraryBindings "ptr: client.dll + 0x487c448"
+^MParticleDomainTag "Tracking Projectile C_DOTA_TrackingProjectileInfoParticleAPI"
+^MPulseDomainHookInfo "ptr: client.dll + 0x487be30"
+
+-----members of class C_DOTA_TrackingProjectileInfoParticleAPI-----
+	uint8_t[1] unaccounted(offset 0x0)
+

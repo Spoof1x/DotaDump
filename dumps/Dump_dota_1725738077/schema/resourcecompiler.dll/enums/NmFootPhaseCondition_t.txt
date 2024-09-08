@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NmFootPhaseCondition_t(size: 1 bytes, 6 values, project "animlib", binding @ resourcecompiler.dll + 0x244bf70):
+	LeftFootDown = 0,
+	LeftFootPassing = 1,
+	LeftPhase = 4,
+	RightFootDown = 2,
+	RightFootPassing = 3,
+	RightPhase = 5,

@@ -1,0 +1,25 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_EmitTagAction (size: 0x30 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23eb510, scope "!GlobalTypes") extends CAnimGraphDoc_Action
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x572ba0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Action (size: 0x28 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23eb450, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Action-----
+		uint8_t[40] unaccounted(offset 0x0)
+	
+
+-----members of class CAnimGraphDoc_EmitTagAction-----
+	AnimTagID m_tag(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Tag"
+		^MPropertyAttributeChoiceName "Tag"
+	uint8_t[4] unaccounted(offset 0x2c)
+

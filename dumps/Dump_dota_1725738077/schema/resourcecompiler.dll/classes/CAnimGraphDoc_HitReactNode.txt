@@ -1,0 +1,104 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_HitReactNode (size: 0xe0 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f14f0, scope "!GlobalTypes") extends CAnimGraphDoc_Node
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5a1670"
+^MPropertyFriendlyName "Procedural Hit Reacts"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Node (size: 0x40 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ec330, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Node-----
+		uint8_t[32] unaccounted(offset 0x0)
+		CUtlString m_sName(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		Vector2D m_vecPosition(offset 0x28, size 0x8, align 0x4)
+			^MPropertyGroupName "Debug"
+		AnimNodeID m_nNodeID(offset 0x30, size 0x4, align 0x4)
+			^MPropertyGroupName "Debug"
+		bool m_bDebugThisNode(offset 0x34, size 0x1, align 0x1)
+			^MPropertyGroupName "Debug"
+			^MPropertyFriendlyName "Debug This Node"
+		uint8_t[3] unaccounted(offset 0x35)
+		AnimNodeNetworkMode m_networkMode(offset 0x38, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Network Mode"
+		uint8_t[4] unaccounted(offset 0x3c)
+	
+
+-----members of class CAnimGraphDoc_HitReactNode-----
+	CAnimGraphDoc_NodeConnection m_inputConnection(offset 0x40, size 0x8, align 0x4)
+		^MPropertyHideField
+	float32 m_flMinDelayBetweenHits(offset 0x48, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Minimum Delay Between Hits"
+	uint8_t[4] unaccounted(offset 0x4c)
+	CUtlString m_triggerParamName(offset 0x50, size 0x8, align 0x8)
+		^MPropertyHideField
+	CUtlString m_hitBoneParamName(offset 0x58, size 0x8, align 0x8)
+		^MPropertyHideField
+	CUtlString m_hitOffsetParamName(offset 0x60, size 0x8, align 0x8)
+		^MPropertyHideField
+	CUtlString m_hitDirectionParamName(offset 0x68, size 0x8, align 0x8)
+		^MPropertyHideField
+	CUtlString m_hitStrengthParamName(offset 0x70, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_triggerParam(offset 0x78, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Trigger Parameter"
+		^MPropertyAttributeChoiceName "BoolParameter"
+	AnimParamID m_hitBoneParam(offset 0x7c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Hit Bone Parameter"
+		^MPropertyAttributeChoiceName "IntParameter"
+	AnimParamID m_hitOffsetParam(offset 0x80, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Hit Offset Parameter"
+		^MPropertyAttributeChoiceName "VectorParameter"
+	AnimParamID m_hitDirectionParam(offset 0x84, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Hit Direction Parameter"
+		^MPropertyAttributeChoiceName "VectorParameter"
+	AnimParamID m_hitStrengthParam(offset 0x88, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Hit Strength Parameter"
+		^MPropertyAttributeChoiceName "FloatParameter"
+	uint8_t[4] unaccounted(offset 0x8c)
+	CUtlString m_weightListName(offset 0x90, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Bone Weights"
+		^MPropertyAttributeChoiceName "BoneMask"
+	CUtlString m_hipBoneName(offset 0x98, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Hip Bone"
+		^MPropertyAttributeChoiceName "Bone"
+	float32 m_flHipBoneTranslationScale(offset 0xa0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Hip Translation Scale"
+	int32 m_nEffectedBoneCount(offset 0xa4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Number of bone effected"
+	float32 m_flMaxImpactForce(offset 0xa8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Impact Force"
+	float32 m_flMinImpactForce(offset 0xac, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Min Impact Force"
+	float32 m_flWhipImpactScale(offset 0xb0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Whip Impact Scale"
+	float32 m_flCounterRotationScale(offset 0xb4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Counter Rotation Scale"
+	float32 m_flDistanceFadeScale(offset 0xb8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Distance Fade Scale"
+	float32 m_flPropagationScale(offset 0xbc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Propagation Scale"
+	float32 m_flWhipDelay(offset 0xc0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Whip Delay Time"
+	float32 m_flSpringStrength(offset 0xc4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Spring Strength"
+	float32 m_flWhipSpringStrength(offset 0xc8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Whip Spring Strength"
+	float32 m_flHipDipSpringStrength(offset 0xcc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Hip Dip Spring Strength"
+	float32 m_flHipDipImpactScale(offset 0xd0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Hip Dip Scale"
+	float32 m_flHipDipDelay(offset 0xd4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Hip Dip Delay Time"
+	bool m_bResetBase(offset 0xd8, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Reset Child"
+	uint8_t[7] unaccounted(offset 0xd9)
+

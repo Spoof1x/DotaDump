@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABehaviorCommandPatrol (size: 0x178 bytes, project "server", binding @ server.dll + 0x3ae4410, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CDOTABehaviorCommandPatrol-----
+	uint8_t[104] unaccounted(offset 0x0)
+	CDOTABehaviorMoveTo m_MoveTo(offset 0x68, size 0xe0, align 0x0)
+	Vector m_vOrderPosition(offset 0x148, size 0xc, align 0x4)
+	uint8_t[4] unaccounted(offset 0x154)
+	CUtlVector< Vector > m_vPatrolPoints(offset 0x158, size 0x18, align 0x8)
+	int32 m_nCurrentTargetIndex(offset 0x170, size 0x4, align 0x4)
+	int32 m_nDirection(offset 0x174, size 0x4, align 0x4)
+

@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABehaviorAttackPhase (size: 0xc8 bytes, project "server", binding @ server.dll + 0x3ae3be0, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CDOTABehaviorAttackPhase-----
+	uint8_t[96] unaccounted(offset 0x0)
+	CHandle< CBaseEntity > m_hTarget(offset 0x60, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x64)
+	CountdownTimer m_attackTimer(offset 0x68, size 0x18, align 0x0)
+	bool m_bAttackComplete(offset 0x80, size 0x1, align 0x1)
+	uint8_t[39] unaccounted(offset 0x81)
+	bool m_bDeny(offset 0xa8, size 0x1, align 0x1)
+	bool m_bCastAttack(offset 0xa9, size 0x1, align 0x1)
+	bool m_bTargetTeleported(offset 0xaa, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0xab)
+	float32 m_flBackswingDuration(offset 0xac, size 0x4, align 0x4)
+	float32 m_flAnimSpeed(offset 0xb0, size 0x4, align 0x4)
+	float32 m_flAttackPortionPriorToTimer(offset 0xb4, size 0x4, align 0x4)
+	HSequence m_iSequence(offset 0xb8, size 0x4, align 0x0)
+	uint8_t[12] unaccounted(offset 0xbc)
+

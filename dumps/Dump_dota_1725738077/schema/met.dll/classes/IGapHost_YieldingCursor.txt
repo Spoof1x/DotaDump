@@ -1,0 +1,32 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class IGapHost_YieldingCursor (size: 0x8 bytes, project "pulse_runtime_lib", binding @ met.dll + 0x404f20, scope "met.dll") extends IGapHost_Cursor
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IGapHost_Cursor (size: 0x8 bytes, project "pulse_runtime_lib", binding @ met.dll + 0x404ea0, scope "met.dll") extends IGapHost_ExecLog
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IGapHost_ExecLog (size: 0x8 bytes, project "pulse_runtime_lib", binding @ met.dll + 0x404e20, scope "met.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		
+		-----members of class IGapHost_ExecLog-----
+			uint8_t[8] unaccounted(offset 0x0)
+		
+	
+	-----members of class IGapHost_Cursor-----
+		<no members>
+	
+
+-----members of class IGapHost_YieldingCursor-----
+	<no members>
+

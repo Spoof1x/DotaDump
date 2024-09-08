@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ScriptedMoveTo_t(size: 4 bytes, 6 values, project "client", binding @ client.dll + 0x46e9210):
+	eWait = 0,
+	eMoveWithGait = 3,
+	eTeleport = 4,
+	eWaitFacing = 5,
+	eObsoleteBackCompat1 = 1,
+		^MPropertySuppressEnumerator
+	eObsoleteBackCompat2 = 2,
+		^MPropertySuppressEnumerator

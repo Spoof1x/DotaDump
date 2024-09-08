@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RnSphereDesc_t (size: 0x28 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a41f0, scope "!GlobalTypes") extends RnShapeDesc_t
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1388840"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class RnShapeDesc_t (size: 0x18 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a4140, scope "!GlobalTypes")
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1388620"
+	
+	-----members of class RnShapeDesc_t-----
+		uint32 m_nCollisionAttributeIndex(offset 0x0, size 0x4, align 0x4)
+		uint32 m_nSurfacePropertyIndex(offset 0x4, size 0x4, align 0x4)
+		CUtlString m_UserFriendlyName(offset 0x8, size 0x8, align 0x8)
+		bool m_bUserFriendlyNameSealed(offset 0x10, size 0x1, align 0x1)
+		bool m_bUserFriendlyNameLong(offset 0x11, size 0x1, align 0x1)
+		uint8_t[2] unaccounted(offset 0x12)
+		uint32 m_nToolMaterialHash(offset 0x14, size 0x4, align 0x4)
+	
+
+-----members of class RnSphereDesc_t-----
+	SphereBase_t< float32 > m_Sphere(offset 0x18, size 0x10, align 0x4)
+

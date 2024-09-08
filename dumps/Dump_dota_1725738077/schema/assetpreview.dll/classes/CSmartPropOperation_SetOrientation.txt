@@ -1,0 +1,67 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_SetOrientation (size: 0x190 bytes, project "smartprops", binding @ assetpreview.dll + 0x509350, scope "!GlobalTypes") extends CSmartPropTransformOperation
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: assetpreview.dll + 0x337320"
+^MPropertyFriendlyName "Transform: Set Orientation"
+^MPropertyDescription "Set the current orientation from a specified forward and up vector."
+^MVDataClassGroup "Transform"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropTransformOperation (size: 0x50 bytes, project "smartprops", binding @ assetpreview.dll + 0x507c50, scope "!GlobalTypes") extends CSmartPropOperation
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: assetpreview.dll + 0x159e0"
+	^MVDataNodeTintColor "-4392"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ assetpreview.dll + 0x5056b0, scope "!GlobalTypes") extends CSmartPropModifier
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: assetpreview.dll + 0x159e0"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ assetpreview.dll + 0x506770, scope "!GlobalTypes")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: assetpreview.dll + 0x159e0"
+			^MVDataBase
+			^MVDataNodeType "1"
+			^MVDataAnonymousNode
+			
+			-----members of class CSmartPropModifier-----
+				uint8_t[8] unaccounted(offset 0x0)
+				CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+					^MVDataEnableKey
+				uint8_t[8] unaccounted(offset 0x48)
+			
+		
+		-----members of class CSmartPropOperation-----
+			<no members>
+		
+	
+	-----members of class CSmartPropTransformOperation-----
+		<no members>
+	
+
+-----members of class CSmartPropOperation_SetOrientation-----
+	CSmartPropAttributeVector m_vForwardVector(offset 0x50, size 0x40, align 0x8)
+		^MPropertyGroupName "+Forward"
+	CSmartPropAttributeCoordinateSpace m_ForwardDirectionSpace(offset 0x90, size 0x40, align 0x0)
+		^MPropertyGroupName "+Forward"
+		^MPropertyDescription "Specifies the coordinate space the forward direction is being specified in"
+	CSmartPropAttributeVector m_vUpVector(offset 0xd0, size 0x40, align 0x8)
+		^MPropertyGroupName "+Up"
+	CSmartPropAttributeCoordinateSpace m_UpDirectionSpace(offset 0x110, size 0x40, align 0x0)
+		^MPropertyGroupName "+Up"
+		^MPropertyDescription "Specifies the coordinate space the up direction is being specified in"
+	CSmartPropAttributeBool m_bPrioritizeUp(offset 0x150, size 0x40, align 0x8)
+		^MPropertyDescription "If the specified vectors are not orthogonal, normally the up vector will be adjusted to make it orthogonal to the forward vector. If prioritize up is true, then the forward vector will be adjusted to be orthogonal to the specified up vector instead."
+

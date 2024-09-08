@@ -1,0 +1,12 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PulseTestEnumColor_t(size: 4 bytes, 5 values, project "pulse_runtime_lib", binding @ resourcecompiler.dll + 0x24a8cf0):
+	BLACK = 0,
+		^MPropertyFriendlyName "Black"
+	WHITE = 1,
+		^MPropertyFriendlyName "White"
+	RED = 2,
+		^MPropertyFriendlyName "Red"
+	GREEN = 3,
+		^MPropertyFriendlyName "Green"
+	BLUE = 4,
+		^MPropertyFriendlyName "Blue"

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class GetVarTarget_t (size: 0x10 bytes, project "pulsedoc_lib", binding @ resourcecompiler.dll + 0x24b2d10, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x14530f0"
+
+-----members of class GetVarTarget_t-----
+	PulseDocNodeID_t nVarDefID(offset 0x0, size 0x4, align 0x0)
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlString strValueEncoded(offset 0x8, size 0x8, align 0x8)
+

@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PetCoopStates_t(size: 4 bytes, 6 values, project "server", binding @ server.dll + 0x3aef630):
+	COOP_IGNORE = 0,
+	COOPTELEPORT_START_PERFORMING = 1,
+	COOPTELEPORT_PLAY_ENDANIM = 2,
+	COOPTELEPORT_PLAY_EXITANIM = 3,
+	COOP_WARD_OBSERVER = 4,
+	COOP_WARD_SENTRY = 5,

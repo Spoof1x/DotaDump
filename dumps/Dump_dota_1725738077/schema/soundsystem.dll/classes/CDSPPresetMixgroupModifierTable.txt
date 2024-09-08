@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDSPPresetMixgroupModifierTable (size: 0x18 bytes, project "soundsystem", binding @ soundsystem.dll + 0x39e6f0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x18fda0"
+^MVDataRoot
+^MVDataNodeType "1"
+
+-----members of class CDSPPresetMixgroupModifierTable-----
+	CUtlVector< CDspPresetModifierList > m_table(offset 0x0, size 0x18, align 0x8)
+		^MPropertyDescription "Table of mixgroup modifiers for effect names."
+		^MPropertyFriendlyName "Modifier Table"
+

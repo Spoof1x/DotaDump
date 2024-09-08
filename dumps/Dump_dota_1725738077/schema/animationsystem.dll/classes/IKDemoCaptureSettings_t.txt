@@ -1,0 +1,26 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class IKDemoCaptureSettings_t (size: 0x28 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a0b60, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x155a30"
+
+-----members of class IKDemoCaptureSettings_t-----
+	CUtlString m_parentBoneName(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Target Parent"
+		^MPropertyAttributeChoiceName "Bone"
+	IKChannelMode m_eMode(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Solver Mode"
+		^MPropertyAttrChangeCallback "func: animationsystem.dll + 0x90eb0"
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlString m_ikChainName(offset 0x10, size 0x8, align 0x8)
+		^MPropertyFriendlyName "IK Chain"
+		^MPropertyAttributeChoiceName "IKChain"
+		^MPropertyAttrStateCallback "func: animationsystem.dll + 0x155aa0"
+	CUtlString m_oneBoneStart(offset 0x18, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Start Bone"
+		^MPropertyAttributeChoiceName "Bone"
+		^MPropertyAttrStateCallback "func: animationsystem.dll + 0x155ab0"
+	CUtlString m_oneBoneEnd(offset 0x20, size 0x8, align 0x8)
+		^MPropertyFriendlyName "End Bone"
+		^MPropertyAttributeChoiceName "Bone"
+		^MPropertyAttrStateCallback "func: animationsystem.dll + 0x155ab0"
+

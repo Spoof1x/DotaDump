@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmIKRigLink (size: 0x8 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23dfbb0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x4e8e90"
+
+-----members of class CNmIKRigLink-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+

@@ -1,0 +1,62 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_FireCursors (size: 0xc8 bytes, project "pulse_runtime_lib", binding @ hammer.dll + 0x1dbff50, scope "hammer.dll") extends CPulseCell_BaseYieldingInflow
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: hammer.dll + 0xf21a90"
+^MCellForDomain "BaseDomain"
+^MPulseCellMethodBindings "ptr: hammer.dll + 0x1dbffc0"
+^MPulseCellOutflowHookInfo "ptr: hammer.dll + 0x20facc8"
+^MPulseCellWithCustomDocNode
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseYieldingInflow (size: 0x48 bytes, project "pulse_runtime_lib", binding @ hammer.dll + 0x1dbdfe0, scope "hammer.dll") extends CPulseCell_BaseFlow
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: hammer.dll + 0xd1200"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseFlow (size: 0x48 bytes, project "pulse_runtime_lib", binding @ hammer.dll + 0x1dbd870, scope "hammer.dll") extends CPulseCell_Base
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: hammer.dll + 0xf0f220"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_Base (size: 0x48 bytes, project "pulse_runtime_lib", binding @ hammer.dll + 0x1dbece0, scope "hammer.dll")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: hammer.dll + 0xf0f100"
+			
+			-----members of class CPulseCell_Base-----
+				uint8_t[8] unaccounted(offset 0x0)
+				PulseDocNodeID_t m_nEditorNodeID(offset 0x8, size 0x4, align 0x0)
+					^MFgdFromSchemaCompletelySkipField
+				uint8_t[60] unaccounted(offset 0xc)
+			
+		
+		-----members of class CPulseCell_BaseFlow-----
+			<no members>
+		
+	
+	-----members of class CPulseCell_BaseYieldingInflow-----
+		<no members>
+	
+
+-----static members of class CPulseCell_FireCursors-----
+	static char* m_pTagName(hammer.dll + 0x160dcb8)
+
+-----members of class CPulseCell_FireCursors-----
+	CUtlVector< CPulse_OutflowConnection > m_Outflows(offset 0x48, size 0x18, align 0x8)
+	bool m_bWaitForChildOutflows(offset 0x60, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x61)
+	CPulse_ResumePoint m_OnFinished(offset 0x68, size 0x30, align 0x0)
+	CPulse_ResumePoint m_OnCanceled(offset 0x98, size 0x30, align 0x0)
+

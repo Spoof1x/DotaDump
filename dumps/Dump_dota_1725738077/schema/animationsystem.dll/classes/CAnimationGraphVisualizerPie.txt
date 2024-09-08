@@ -1,0 +1,31 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimationGraphVisualizerPie (size: 0x80 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a7320, scope "!GlobalTypes") extends CAnimationGraphVisualizerPrimitiveBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x186900"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimationGraphVisualizerPrimitiveBase (size: 0x40 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a6f40, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x186c50"
+	
+	-----members of class CAnimationGraphVisualizerPrimitiveBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CAnimationGraphVisualizerPrimitiveType m_Type(offset 0x8, size 0x4, align 0x4)
+		AnimNodeID[11] m_OwningAnimNodePaths(offset 0xc, size 0x2c, align 0x4)
+		int32 m_nOwningAnimNodePathCount(offset 0x38, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x3c)
+	
+
+-----members of class CAnimationGraphVisualizerPie-----
+	VectorAligned m_vWsCenter(offset 0x40, size 0x10, align 0x10)
+	VectorAligned m_vWsStart(offset 0x50, size 0x10, align 0x10)
+	VectorAligned m_vWsEnd(offset 0x60, size 0x10, align 0x10)
+	Color m_Color(offset 0x70, size 0x4, align 0x1)
+	uint8_t[12] unaccounted(offset 0x74)
+

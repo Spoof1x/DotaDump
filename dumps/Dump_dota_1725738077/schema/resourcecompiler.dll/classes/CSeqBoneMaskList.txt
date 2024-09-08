@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSeqBoneMaskList (size: 0x60 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24f2870, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x356310"
+
+-----members of class CSeqBoneMaskList-----
+	CBufferString m_sName(offset 0x0, size 0x10, align 0x8)
+	CUtlVector< int16 > m_nLocalBoneArray(offset 0x10, size 0x18, align 0x8)
+	CUtlVector< float32 > m_flBoneWeightArray(offset 0x28, size 0x18, align 0x8)
+	float32 m_flDefaultMorphCtrlWeight(offset 0x40, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x44)
+	CUtlVector< CUtlPair< CBufferString, float32 > > m_morphCtrlWeightArray(offset 0x48, size 0x18, align 0x8)
+

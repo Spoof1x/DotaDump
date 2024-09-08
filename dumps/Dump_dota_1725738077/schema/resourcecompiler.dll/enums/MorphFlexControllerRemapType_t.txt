@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum MorphFlexControllerRemapType_t(size: 4 bytes, 4 values, project "modellib", binding @ resourcecompiler.dll + 0x2496bc0):
+	MORPH_FLEXCONTROLLER_REMAP_PASSTHRU = 0,
+	MORPH_FLEXCONTROLLER_REMAP_2WAY = 1,
+	MORPH_FLEXCONTROLLER_REMAP_NWAY = 2,
+	MORPH_FLEXCONTROLLER_REMAP_EYELID = 3,

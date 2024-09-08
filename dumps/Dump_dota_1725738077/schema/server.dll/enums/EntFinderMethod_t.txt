@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EntFinderMethod_t(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x3a715a0):
+	ENT_FIND_METHOD_NEAREST = 0,
+	ENT_FIND_METHOD_FARTHEST = 1,
+	ENT_FIND_METHOD_RANDOM = 2,

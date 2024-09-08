@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ShadowType_t(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x46bb600):
+	SHADOWS_NONE = 0,
+	SHADOWS_SIMPLE = 1,

@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CMsgBattleReport_ELaneOutcome(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x46f43e0):
+	k_eUnknownLaneOutcome = -1,
+	k_eWonLane = 0,
+	k_eLostLane = 1,
+	k_eEvenLane = 2,

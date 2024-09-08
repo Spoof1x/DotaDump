@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeTri_t (size: 0x1c bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a2330, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1362570"
+
+-----members of class FeTri_t-----
+	uint16[3] nNode(offset 0x0, size 0x6, align 0x2)
+	uint8_t[2] unaccounted(offset 0x6)
+	float32 w1(offset 0x8, size 0x4, align 0x4)
+	float32 w2(offset 0xc, size 0x4, align 0x4)
+	float32 v1x(offset 0x10, size 0x4, align 0x4)
+	Vector2D v2(offset 0x14, size 0x8, align 0x4)
+

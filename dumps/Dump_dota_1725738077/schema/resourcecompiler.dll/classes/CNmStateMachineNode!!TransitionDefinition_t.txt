@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmStateMachineNode::TransitionDefinition_t (size: 0x8 bytes, project "animlib", binding @ resourcecompiler.dll + 0x244a940, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x862500"
+
+-----members of class CNmStateMachineNode::TransitionDefinition_t-----
+	int16 m_nTargetStateIdx(offset 0x0, size 0x2, align 0x2)
+	int16 m_nConditionNodeIdx(offset 0x2, size 0x2, align 0x2)
+	int16 m_nTransitionNodeIdx(offset 0x4, size 0x2, align 0x2)
+	bool m_bCanBeForced(offset 0x6, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x7)
+

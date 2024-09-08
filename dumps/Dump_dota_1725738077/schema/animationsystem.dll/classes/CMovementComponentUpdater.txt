@@ -1,0 +1,36 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMovementComponentUpdater (size: 0xa8 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5abdf0, scope "!GlobalTypes") extends CAnimComponentUpdater
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1b4210"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimComponentUpdater (size: 0x30 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5aa800, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+	
+	-----members of class CAnimComponentUpdater-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x18, size 0x8, align 0x8)
+		AnimComponentID m_id(offset 0x20, size 0x4, align 0x4)
+		AnimNodeNetworkMode m_networkMode(offset 0x24, size 0x4, align 0x4)
+		bool m_bStartEnabled(offset 0x28, size 0x1, align 0x1)
+		uint8_t[7] unaccounted(offset 0x29)
+	
+
+-----members of class CMovementComponentUpdater-----
+	CUtlVector< CSmartPtr< CAnimMotorUpdaterBase > > m_motors(offset 0x30, size 0x18, align 0x8)
+	CAnimInputDamping m_facingDamping(offset 0x48, size 0x10, align 0x8)
+	uint8_t[8] unaccounted(offset 0x58)
+	int32 m_nDefaultMotorIndex(offset 0x60, size 0x4, align 0x4)
+	float32 m_flDefaultRunSpeed(offset 0x64, size 0x4, align 0x4)
+	bool m_bMoveVarsDisabled(offset 0x68, size 0x1, align 0x1)
+	bool m_bNetworkPath(offset 0x69, size 0x1, align 0x1)
+	bool m_bNetworkFacing(offset 0x6a, size 0x1, align 0x1)
+	CAnimParamHandle[30] m_paramHandles(offset 0x6b, size 0x3c, align 0x1)
+	uint8_t[1] unaccounted(offset 0xa7)
+

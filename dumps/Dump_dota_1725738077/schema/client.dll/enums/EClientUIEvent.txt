@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EClientUIEvent(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x46ebf50):
+	EClientUIEvent_Invalid = 0,
+	EClientUIEvent_DialogFinished = 1,
+	EClientUIEvent_FireOutput = 2,

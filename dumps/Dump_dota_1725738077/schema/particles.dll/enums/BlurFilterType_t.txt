@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum BlurFilterType_t(size: 4 bytes, 2 values, project "particles", binding @ particles.dll + 0x544b20):
+	BLURFILTER_GAUSSIAN = 0,
+		^MPropertyFriendlyName "Gaussian"
+	BLURFILTER_BOX = 1,
+		^MPropertyFriendlyName "Box"

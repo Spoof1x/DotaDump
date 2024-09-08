@@ -1,0 +1,114 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_MotionMatchingNode (size: 0xd0 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f24d0, scope "!GlobalTypes") extends CAnimGraphDoc_Node
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5ab000"
+^MPropertyFriendlyName "Motion Matching"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Node (size: 0x40 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ec330, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Node-----
+		uint8_t[32] unaccounted(offset 0x0)
+		CUtlString m_sName(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		Vector2D m_vecPosition(offset 0x28, size 0x8, align 0x4)
+			^MPropertyGroupName "Debug"
+		AnimNodeID m_nNodeID(offset 0x30, size 0x4, align 0x4)
+			^MPropertyGroupName "Debug"
+		bool m_bDebugThisNode(offset 0x34, size 0x1, align 0x1)
+			^MPropertyGroupName "Debug"
+			^MPropertyFriendlyName "Debug This Node"
+		uint8_t[3] unaccounted(offset 0x35)
+		AnimNodeNetworkMode m_networkMode(offset 0x38, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Network Mode"
+		uint8_t[4] unaccounted(offset 0x3c)
+	
+
+-----members of class CAnimGraphDoc_MotionMatchingNode-----
+	uint8_t[8] unaccounted(offset 0x40)
+	CUtlVector< CSmartPtr< CAnimGraphDoc_MotionItemGroup > > m_groups(offset 0x48, size 0x18, align 0x8)
+		^MPropertyHideField
+	CUtlVector< CSmartPtr< CAnimGraphDoc_MotionMetric > > m_metrics(offset 0x60, size 0x18, align 0x8)
+		^MPropertyHideField
+	CBlendCurve m_blendCurve(offset 0x78, size 0x8, align 0x4)
+		^MPropertyHideField
+	int32 m_nRandomSeed(offset 0x80, size 0x4, align 0x4)
+		^MPropertyHideField
+	float32 m_flSampleRate(offset 0x84, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Sample Rate"
+		^MPropertyAttributeRange "0.01 0.2"
+	bool m_bSearchEveryTick(offset 0x88, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Search Every Update"
+		^MPropertyGroupName "Search Frequency"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[3] unaccounted(offset 0x89)
+	float32 m_flSearchInterval(offset 0x8c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Search Interval"
+		^MPropertyGroupName "Search Frequency"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x642dd0"
+	bool m_bSearchWhenMotionEnds(offset 0x90, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Search when motion ends"
+		^MPropertyGroupName "Search Frequency"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x642dd0"
+	bool m_bSearchWhenGoalChanges(offset 0x91, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Search when goal changes"
+		^MPropertyGroupName "Search Frequency"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x642dd0"
+	uint8_t[2] unaccounted(offset 0x92)
+	float32 m_flBlendTime(offset 0x94, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Blend Time"
+	float32 m_flSelectionThreshold(offset 0x98, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Selection Threshold"
+	float32 m_flReselectionTimeWindow(offset 0x9c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Re-Selection Time Window"
+	bool m_bLockSelectionWhenWaning(offset 0xa0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Lock Selection When Waning"
+	bool m_bEnableRotationCorrection(offset 0xa1, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Rotation Correction"
+	bool m_bGoalAssist(offset 0xa2, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Goal Assist"
+		^MPropertyGroupName "Goal Assist"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[1] unaccounted(offset 0xa3)
+	float32 m_flGoalAssistDistance(offset 0xa4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Goal Assist Distance"
+		^MPropertyGroupName "Goal Assist"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x642db0"
+	float32 m_flGoalAssistTolerance(offset 0xa8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Goal Assist Tolerance"
+		^MPropertyGroupName "Goal Assist"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x642db0"
+	bool m_bEnableDistanceScaling(offset 0xac, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enable Distance Scaling"
+		^MPropertyGroupName "Distance Scaling"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[3] unaccounted(offset 0xad)
+	float32 m_flDistanceScale_OuterRadius(offset 0xb0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Outer Stopping Radius"
+		^MPropertyGroupName "Distance Scaling"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x642d90"
+	float32 m_flDistanceScale_InnerRadius(offset 0xb4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Inner Stopping Radius"
+		^MPropertyGroupName "Distance Scaling"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x642d90"
+	float32 m_flDistanceScale_MaxScale(offset 0xb8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Maximum Speed Scale"
+		^MPropertyGroupName "Distance Scaling"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x642d90"
+	float32 m_flDistanceScale_MinScale(offset 0xbc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Minimum Speed Scale"
+		^MPropertyGroupName "Distance Scaling"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x642d90"
+	CAnimInputDamping m_distanceScale_Damping(offset 0xc0, size 0x10, align 0x8)
+		^MPropertyFriendlyName "Damping"
+		^MPropertyGroupName "Distance Scaling"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x642d90"
+

@@ -1,0 +1,27 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBoneConstraintPoseSpaceMorph (size: 0xa8 bytes, project "modellib", binding @ animationsystem.dll + 0x5eaad0, scope "!GlobalTypes") extends CBoneConstraintBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x40d520"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBoneConstraintBase (size: 0x28 bytes, project "modellib", binding @ animationsystem.dll + 0x5ea340, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+	
+	-----members of class CBoneConstraintBase-----
+		uint8_t[40] unaccounted(offset 0x0)
+	
+
+-----members of class CBoneConstraintPoseSpaceMorph-----
+	CUtlString m_sBoneName(offset 0x28, size 0x8, align 0x8)
+	CUtlString m_sAttachmentName(offset 0x30, size 0x8, align 0x8)
+	CUtlVector< CUtlString > m_outputMorph(offset 0x38, size 0x18, align 0x8)
+	CUtlVector< CBoneConstraintPoseSpaceMorph::Input_t > m_inputList(offset 0x50, size 0x18, align 0x8)
+	bool m_bClamp(offset 0x68, size 0x1, align 0x1)
+	uint8_t[63] unaccounted(offset 0x69)
+

@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class DOTAFacetAbilityBonus_t (size: 0x28 bytes, project "server", binding @ server.dll + 0x39f4890, scope "server.dll")
+
+-----members of class DOTAFacetAbilityBonus_t-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlVector< float32 > m_vecValues(offset 0x8, size 0x18, align 0x8)
+	EDOTASpecialBonusOperation m_eOperation(offset 0x20, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x21)
+

@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimEncodeDifference (size: 0xa8 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24ee070, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x32ea00"
+
+-----members of class CAnimEncodeDifference-----
+	CUtlVector< CAnimBoneDifference > m_boneArray(offset 0x0, size 0x18, align 0x8)
+	CUtlVector< CAnimMorphDifference > m_morphArray(offset 0x18, size 0x18, align 0x8)
+	CUtlVector< CAnimUserDifference > m_userArray(offset 0x30, size 0x18, align 0x8)
+	CUtlVector< uint8 > m_bHasRotationBitArray(offset 0x48, size 0x18, align 0x8)
+	CUtlVector< uint8 > m_bHasMovementBitArray(offset 0x60, size 0x18, align 0x8)
+	CUtlVector< uint8 > m_bHasMorphBitArray(offset 0x78, size 0x18, align 0x8)
+	CUtlVector< uint8 > m_bHasUserBitArray(offset 0x90, size 0x18, align 0x8)
+

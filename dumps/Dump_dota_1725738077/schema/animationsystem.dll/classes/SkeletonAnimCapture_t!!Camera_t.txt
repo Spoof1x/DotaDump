@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class SkeletonAnimCapture_t::Camera_t (size: 0x30 bytes, project "modellib", binding @ animationsystem.dll + 0x5eb5b0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x4168a0"
+
+-----members of class SkeletonAnimCapture_t::Camera_t-----
+	CTransform m_tmCamera(offset 0x0, size 0x20, align 0x10)
+	float32 m_flTime(offset 0x20, size 0x4, align 0x4)
+	uint8_t[12] unaccounted(offset 0x24)
+

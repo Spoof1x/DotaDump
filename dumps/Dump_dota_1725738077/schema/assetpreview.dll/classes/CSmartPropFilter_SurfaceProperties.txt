@@ -1,0 +1,47 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropFilter_SurfaceProperties (size: 0x80 bytes, project "smartprops", binding @ assetpreview.dll + 0x50d030, scope "!GlobalTypes") extends CSmartPropFilter
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: assetpreview.dll + 0x3735b0"
+^MPropertyFriendlyName "Filter: Surface Properties"
+^MPropertyDescription "Allows the parent element to be conditionally evaluated based on surface properties."
+^MVDataClassGroup "Filter"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropFilter (size: 0x50 bytes, project "smartprops", binding @ assetpreview.dll + 0x50d0c0, scope "!GlobalTypes") extends CSmartPropModifier
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: assetpreview.dll + 0x159e0"
+	^MVDataNodeTintColor "-2565889"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ assetpreview.dll + 0x506770, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: assetpreview.dll + 0x159e0"
+		^MVDataBase
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		
+		-----members of class CSmartPropModifier-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+				^MVDataEnableKey
+			uint8_t[8] unaccounted(offset 0x48)
+		
+	
+	-----members of class CSmartPropFilter-----
+		<no members>
+	
+
+-----members of class CSmartPropFilter_SurfaceProperties-----
+	CUtlVector< CUtlString > m_AllowedSurfaceProperties(offset 0x50, size 0x18, align 0x8)
+		^MPropertyDescription "List of surface properties on which this element is valid. If empty element is not restricted to any specific surfaces."
+	CUtlVector< CUtlString > m_DisallowedSurfaceProperties(offset 0x68, size 0x18, align 0x8)
+		^MPropertyDescription "List of surface properties on which this element is not valid. If empty element is not restricted to any specific surfaces."
+

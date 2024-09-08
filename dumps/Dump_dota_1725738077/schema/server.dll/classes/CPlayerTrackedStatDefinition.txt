@@ -1,0 +1,28 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPlayerTrackedStatDefinition (size: 0x38 bytes, project "server", binding @ server.dll + 0x3add210, scope "server.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: server.dll + 0x194fe10"
+^MVDataRoot
+
+-----members of class CPlayerTrackedStatDefinition-----
+	uint8_t[8] unaccounted(offset 0x0)
+	TrackedStatID_t m_unStatID(offset 0x8, size 0x4, align 0x0)
+		^MPropertyDescription "unique integer ID of this stat"
+		^MVDataUniqueMonotonicInt "_editor/next_player_stat_id"
+		^MPropertyAttributeEditor "locked_int()"
+	EPlayerTrackedStatImpl m_eStatImpl(offset 0xc, size 0x4, align 0x4)
+		^MPropertyDescription "how this stat is implemented"
+	TrackedStatKillEaterData_t m_killEaterData(offset 0x10, size 0x4, align 0x4)
+		^MPropertyDescription "For k_ePlayerTrackedStatImpl_KillEater, what is the kill eater information."
+		^MPropertySuppressExpr "m_eStatImpl != k_ePlayerTrackedStatImpl_KillEater"
+	uint8_t[4] unaccounted(offset 0x14)
+	TrackedStatCombatQueryData_t m_combatQueryData(offset 0x18, size 0x8, align 0x8)
+		^MPropertyDescription "For k_ePlayerTrackedStatImpl_CombatQuery, what is the combat query information."
+		^MPropertySuppressExpr "m_eStatImpl != k_ePlayerTrackedStatImpl_CombatQuery"
+	TrackedStatExpressionData_t m_expressionData(offset 0x20, size 0x10, align 0x8)
+		^MPropertyDescription "For k_ePlayerTrackedStatImpl_Expression, what is the expression information."
+		^MPropertySuppressExpr "m_eStatImpl != k_ePlayerTrackedStatImpl_Expression"
+	TrackedStatHeroAdjectiveData_t m_heroAdjectiveData(offset 0x30, size 0x8, align 0x8)
+		^MPropertyDescription "For k_ePlayerTrackedStatImpl_HeroAdjective, what is the adjective information."
+		^MPropertySuppressExpr "m_eStatImpl != k_ePlayerTrackedStatImpl_HeroAdjective"
+

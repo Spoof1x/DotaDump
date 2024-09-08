@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PostProcessingTonemapParameters_t (size: 0x3c bytes, project "materialsystem2", binding @ materialsystem2.dll + 0x10c600, scope "materialsystem2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: materialsystem2.dll + 0x61580"
+
+-----members of class PostProcessingTonemapParameters_t-----
+	float32 m_flExposureBias(offset 0x0, size 0x4, align 0x4)
+	float32 m_flShoulderStrength(offset 0x4, size 0x4, align 0x4)
+	float32 m_flLinearStrength(offset 0x8, size 0x4, align 0x4)
+	float32 m_flLinearAngle(offset 0xc, size 0x4, align 0x4)
+	float32 m_flToeStrength(offset 0x10, size 0x4, align 0x4)
+	float32 m_flToeNum(offset 0x14, size 0x4, align 0x4)
+	float32 m_flToeDenom(offset 0x18, size 0x4, align 0x4)
+	float32 m_flWhitePoint(offset 0x1c, size 0x4, align 0x4)
+	float32 m_flLuminanceSource(offset 0x20, size 0x4, align 0x4)
+	float32 m_flExposureBiasShadows(offset 0x24, size 0x4, align 0x4)
+	float32 m_flExposureBiasHighlights(offset 0x28, size 0x4, align 0x4)
+	float32 m_flMinShadowLum(offset 0x2c, size 0x4, align 0x4)
+	float32 m_flMaxShadowLum(offset 0x30, size 0x4, align 0x4)
+	float32 m_flMinHighlightLum(offset 0x34, size 0x4, align 0x4)
+	float32 m_flMaxHighlightLum(offset 0x38, size 0x4, align 0x4)
+

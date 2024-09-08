@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CTakeDamageResult (size: 0x18 bytes, project "client", binding @ client.dll + 0x46ba7a0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----static members of class CTakeDamageResult-----
+	static CTakeDamageResult EmptyResult(client.dll + 0x486d360)
+
+-----members of class CTakeDamageResult-----
+	CTakeDamageInfo* m_pOriginatingInfo(offset 0x0, size 0x8, align 0x8)
+	int32 m_nHealthLost(offset 0x8, size 0x4, align 0x4)
+	int32 m_nDamageTaken(offset 0xc, size 0x4, align 0x4)
+	int32 m_nTotalledHealthLost(offset 0x10, size 0x4, align 0x4)
+	int32 m_nTotalledDamageTaken(offset 0x14, size 0x4, align 0x4)
+

@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum StartupBehavior_t(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x48e06f0):
+	UNIT_STARTUP_BEHAVIOR_DEFAULT = 0,
+	UNIT_STARTUP_BEHAVIOR_TAUNT = 1,

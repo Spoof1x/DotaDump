@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmSyncTrack::EventMarker_t (size: 0x10 bytes, project "animlib", binding @ resourcecompiler.dll + 0x244cb20, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x87d4d0"
+
+-----members of class CNmSyncTrack::EventMarker_t-----
+	NmPercent_t m_startTime(offset 0x0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4)
+	CGlobalSymbol m_ID(offset 0x8, size 0x8, align 0x8)
+

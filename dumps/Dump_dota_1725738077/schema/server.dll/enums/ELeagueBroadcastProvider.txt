@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ELeagueBroadcastProvider(size: 4 bytes, 5 values, project "server", binding @ server.dll + 0x38e2260):
+	LEAGUE_BROADCAST_UNKNOWN = 0,
+	LEAGUE_BROADCAST_STEAM = 1,
+	LEAGUE_BROADCAST_TWITCH = 2,
+	LEAGUE_BROADCAST_YOUTUBE = 3,
+	LEAGUE_BROADCAST_OTHER = 100,

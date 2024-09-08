@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum AnimParamNetworkSetting(size: 4 bytes, 3 values, project "animationsystem", binding @ animationsystem.dll + 0x5f3190):
+	Auto = 0,
+		^MPropertyFriendlyName "Auto"
+	AlwaysNetwork = 1,
+		^MPropertyFriendlyName "Always Network"
+	NeverNetwork = 2,
+		^MPropertyFriendlyName "Never Network"

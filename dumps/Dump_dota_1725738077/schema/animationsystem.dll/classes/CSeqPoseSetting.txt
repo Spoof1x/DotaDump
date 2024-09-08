@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSeqPoseSetting (size: 0x40 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5ef7a0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x5a630"
+
+-----members of class CSeqPoseSetting-----
+	CBufferString m_sPoseParameter(offset 0x0, size 0x10, align 0x8)
+	CBufferString m_sAttachment(offset 0x10, size 0x10, align 0x8)
+	CBufferString m_sReferenceSequence(offset 0x20, size 0x10, align 0x8)
+	float32 m_flValue(offset 0x30, size 0x4, align 0x4)
+	bool m_bX(offset 0x34, size 0x1, align 0x1)
+	bool m_bY(offset 0x35, size 0x1, align 0x1)
+	bool m_bZ(offset 0x36, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x37)
+	int32 m_eType(offset 0x38, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x3c)
+

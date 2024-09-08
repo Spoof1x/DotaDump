@@ -1,0 +1,28 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum AnimParamButton_t(size: 4 bytes, 13 values, project "animationsystem", binding @ animationsystem.dll + 0x5f31f0):
+	ANIMPARAM_BUTTON_NONE = 0,
+		^MPropertyFriendlyName "None"
+	ANIMPARAM_BUTTON_DPAD_UP = 1,
+		^MPropertyFriendlyName "Dpad Up"
+	ANIMPARAM_BUTTON_DPAD_RIGHT = 2,
+		^MPropertyFriendlyName "Dpad Right"
+	ANIMPARAM_BUTTON_DPAD_DOWN = 3,
+		^MPropertyFriendlyName "Dpad Down"
+	ANIMPARAM_BUTTON_DPAD_LEFT = 4,
+		^MPropertyFriendlyName "Dpad Left"
+	ANIMPARAM_BUTTON_A = 5,
+		^MPropertyFriendlyName "A"
+	ANIMPARAM_BUTTON_B = 6,
+		^MPropertyFriendlyName "B"
+	ANIMPARAM_BUTTON_X = 7,
+		^MPropertyFriendlyName "X"
+	ANIMPARAM_BUTTON_Y = 8,
+		^MPropertyFriendlyName "Y"
+	ANIMPARAM_BUTTON_LEFT_SHOULDER = 9,
+		^MPropertyFriendlyName "Left Shoulder"
+	ANIMPARAM_BUTTON_RIGHT_SHOULDER = 10,
+		^MPropertyFriendlyName "Right Shoulder"
+	ANIMPARAM_BUTTON_LTRIGGER = 11,
+		^MPropertyFriendlyName "Left Trigger"
+	ANIMPARAM_BUTTON_RTRIGGER = 12,
+		^MPropertyFriendlyName "Right Trigger"

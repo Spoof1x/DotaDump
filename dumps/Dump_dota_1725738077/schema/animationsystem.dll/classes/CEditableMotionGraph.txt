@@ -1,0 +1,29 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CEditableMotionGraph (size: 0x58 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5ad490, scope "!GlobalTypes") extends CMotionGraph
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1c30d0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMotionGraph (size: 0x58 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5ad400, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1c2f50"
+	
+	-----members of class CMotionGraph-----
+		uint8_t[16] unaccounted(offset 0x0)
+		CParamSpanUpdater m_paramSpans(offset 0x10, size 0x18, align 0x8)
+		CUtlVector< TagSpan_t > m_tags(offset 0x28, size 0x18, align 0x8)
+		CSmartPtr< CMotionNode > m_pRootNode(offset 0x40, size 0x8, align 0x8)
+		int32 m_nParameterCount(offset 0x48, size 0x4, align 0x4)
+		int32 m_nConfigStartIndex(offset 0x4c, size 0x4, align 0x4)
+		int32 m_nConfigCount(offset 0x50, size 0x4, align 0x4)
+		bool m_bLoop(offset 0x54, size 0x1, align 0x1)
+		uint8_t[3] unaccounted(offset 0x55)
+	
+
+-----members of class CEditableMotionGraph-----
+	<no members>
+

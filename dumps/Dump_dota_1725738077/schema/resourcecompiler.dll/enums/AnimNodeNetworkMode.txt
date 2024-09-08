@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum AnimNodeNetworkMode(size: 4 bytes, 2 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x2428930):
+	ServerAuthoritative = 0,
+		^MPropertyFriendlyName "Server Authoritative"
+	ClientSimulate = 1,
+		^MPropertyFriendlyName "Client Simulate"

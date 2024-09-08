@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AnimStateID (size: 0x4 bytes, project "modellib", binding @ physicsbuilder.dll + 0xa2d8d0, scope "physicsbuilder.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: physicsbuilder.dll + 0x3bd660"
+^MPropertyEditClassAsString "func: physicsbuilder.dll + 0x3bd9d0"
+
+-----members of class AnimStateID-----
+	uint32 m_id(offset 0x0, size 0x4, align 0x4)
+

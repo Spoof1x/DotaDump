@@ -1,0 +1,27 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CHitboxComponent (size: 0x28 bytes, project "server", binding @ server.dll + 0x3887e20, scope "server.dll") extends CEntityComponent
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "m_bvDisabledHitGroups uint32"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CEntityComponent (size: 0x8 bytes, project "entity2", binding @ server.dll + 0x3afbff0, scope "server.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+	
+	-----members of class CEntityComponent-----
+		uint8_t[8] unaccounted(offset 0x0)
+	
+
+-----static members of class CHitboxComponent-----
+	static EntComponentInfo_t s_EntComponentInfo(server.dll + 0x3888320)
+	static int32 entity_component_error_class_decl_says_referenced_but_impl_is_contained(server.dll + 0x3c6c388)
+
+-----members of class CHitboxComponent-----
+	uint8_t[28] unaccounted(offset 0x8)
+	uint32[1] m_bvDisabledHitGroups(offset 0x24, size 0x4, align 0x4)
+		^MNetworkEnable
+

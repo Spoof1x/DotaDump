@@ -1,0 +1,13 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CPulseSystem (hierarchy CPulseSystem: CTier3AppSystem<class IPulseSystem,0>, CTier2AppSystem<class IPulseSystem,0>, CTier1AppSystem<class IPulseSystem,0>, CTier0AppSystem<class IPulseSystem,0>, CBaseAppSystem<class IPulseSystem>, IPulseSystem, IAppSystem)
+	pulse_system.dll + 0x148850
+CPulseTestGapTypeQueryRegistration (hierarchy CPulseTestGapTypeQueryRegistration: IGapTypeQueryRegistrationForScope)
+	pulse_system.dll + 0x11be00
+CPulseTypeManager (hierarchy CPulseTypeManager: CKV3ResourceTypeManager<111546415280246>, IResourceTypeManager)
+	pulse_system.dll + 0x148918
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	pulse_system.dll + 0x1477b0
+CSchemaRegistration_pulse_runtime_lib (hierarchy CSchemaRegistration_pulse_runtime_lib: CSchemaRegistration)
+	pulse_system.dll + 0x11b068
+CSchemaRegistration_pulse_system (hierarchy CSchemaRegistration_pulse_system: CSchemaRegistration)
+	pulse_system.dll + 0x1293b8

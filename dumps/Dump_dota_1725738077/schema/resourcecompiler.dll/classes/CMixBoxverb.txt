@@ -1,0 +1,104 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMixBoxverb (size: 0x70 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bc0e0, scope "!GlobalTypes") extends CMixPropertyBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1595620"
+^MPropertyFriendlyName "VMix Shoebox Reverb Node"
+^MPropertyDescription "A simple reverb that approximates the reflections of a box-shaped room."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMixPropertyBase (size: 0x20 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bbaa0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x157f160"
+	
+	-----members of class CMixPropertyBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+			^MPropertyDescription "Node name"
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "1"
+		CUtlString m_Comment(offset 0x10, size 0x8, align 0x8)
+			^MPropertyDescription "Description of how this is used  the graph for people reading the graph"
+			^MPropertySortPriority "-2"
+		bool m_bActive(offset 0x18, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bSolo(offset 0x19, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bEditProperties(offset 0x1a, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		uint8_t[5] unaccounted(offset 0x1b)
+	
+
+-----members of class CMixBoxverb-----
+	float32 m_flSizeMax(offset 0x20, size 0x4, align 0x4)
+		^MPropertyDescription "The reverb can be parameterized either by a delay range (min/max delay in milliseconds) OR by a delay size for each dimension of a box (width/height/depth).<br>If you set width, height, or depth to anything other than zero, these min/max fields will not be used."
+		^MPropertyFriendlyName "Max Size (milliseconds)"
+		^MPropertyAttributeRange "0.0 1000.0"
+	float32 m_flSizeMin(offset 0x24, size 0x4, align 0x4)
+		^MPropertyDescription "The reverb can be parameterized either by a delay range (min/max delay in milliseconds) OR by a delay size for each dimension of a box (width/height/depth).<br>If you set width, height, or depth to anything other than zero, these min/max fields will not be used."
+		^MPropertyFriendlyName "Min Size (milliseconds)"
+		^MPropertyAttributeRange "0.0 1000.0"
+	float32 m_flComplexity(offset 0x28, size 0x4, align 0x4)
+		^MPropertyDescription "The complexity is how many delays are spread along the total delay length.  Max is 12.  More delays will give your space more reflections (more geometric complexity)."
+		^MPropertyFriendlyName "Complexity"
+		^MPropertyAttributeRange "1.01 12.0"
+	float32 m_flModDepth(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyDescription "This is a percentage of the delay length to modulate. 100 means you will modulate between 0 and the max delay.  10 means the delay will modulate between 90 and 100 percent of max delay."
+		^MPropertyFriendlyName "Mod Depth (milliseconds)"
+		^MPropertyAttributeRange "0.0 100"
+	float32 m_flModRate(offset 0x30, size 0x4, align 0x4)
+		^MPropertyDescription "This is the rate at which the delay length changes.  1 means change the delay every delaytime milliseconds.  2 means change the delay after 2*delaytime milliseconds."
+		^MPropertyFriendlyName "Mod Rate (# of delay intervals before mod)"
+		^MPropertyAttributeRange "0.0 10.0"
+	bool m_bParallel(offset 0x34, size 0x1, align 0x1)
+		^MPropertyDescription "If true the filter is applied to the signal before output.  If false the filter is applied while feeding back into each delay line."
+		^MPropertyFriendlyName "Parallalelize Filter"
+	uint8_t[3] unaccounted(offset 0x35)
+	VMixFilterDesc_t m_filterType(offset 0x38, size 0x10, align 0x4)
+		^MPropertyDescription "Configure the filter to apply to the delay output.  Usually this should be a lowpass filter."
+		^MPropertyFriendlyName "Filter Type"
+		^MPropertyGroupName "Filter"
+	float32 m_flWidth(offset 0x48, size 0x4, align 0x4)
+		^MPropertyDescription "If width, height, or depth is set min/max size will be ignored.  These dimensions are the size of the room in milliseconds to first reflection."
+		^MPropertyFriendlyName "Width (milliseconds)"
+		^MPropertyAttributeRange "0 1000.0"
+	float32 m_flHeight(offset 0x4c, size 0x4, align 0x4)
+		^MPropertyDescription "If width, height, or depth is set min/max size will be ignored.  These dimensions are the size of the room in milliseconds to first reflection."
+		^MPropertyFriendlyName "Height (milliseconds)"
+		^MPropertyAttributeRange "0 1000.0"
+	float32 m_flDepth(offset 0x50, size 0x4, align 0x4)
+		^MPropertyDescription "If width, height, or depth is set min/max size will be ignored.  These dimensions are the size of the room in milliseconds to first reflection."
+		^MPropertyFriendlyName "Depth (milliseconds)"
+		^MPropertyAttributeRange "0 1000.0"
+	float32 m_flFeedbackScale(offset 0x54, size 0x4, align 0x4)
+		^MPropertyDescription "How much of the signal to send to the delay lines.  How loud the reflections are."
+		^MPropertyFriendlyName "Feedback Scale"
+		^MPropertyAttributeRange "0 1"
+	float32 m_flFeedbackWidth(offset 0x58, size 0x4, align 0x4)
+		^MPropertyDescription "Additional amp on the width dimension reflections.  Note negative numbers mean this feedback bypasses the filter (predelay)."
+		^MPropertyFriendlyName "Width Reflectivity"
+		^MPropertyAttributeRange "-1.0 1.0"
+	float32 m_flFeedbackHeight(offset 0x5c, size 0x4, align 0x4)
+		^MPropertyDescription "Additional amp on the height dimension reflections.  Note negative numbers mean this feedback bypasses the filter (predelay)."
+		^MPropertyFriendlyName "Height Reflectivity"
+		^MPropertyAttributeRange "-1.0 1.0"
+	float32 m_flFeedbackDepth(offset 0x60, size 0x4, align 0x4)
+		^MPropertyDescription "Additional amp on the depth dimension reflections.  Note negative numbers mean this feedback bypasses the filter (predelay)."
+		^MPropertyFriendlyName "Depth  Reflectivity"
+		^MPropertyAttributeRange "-1.0 1.0"
+	float32 m_flOutputGain(offset 0x64, size 0x4, align 0x4)
+		^MPropertyDescription "Amplification at output in dB for tuning."
+		^MPropertyFriendlyName "Output Gain (dB)"
+		^MPropertyAttributeRange "-24.0 -0.1"
+	float32 m_flTaps(offset 0x68, size 0x4, align 0x4)
+		^MPropertyDescription "If zero there are no extra taps.  If non-zero there will be 3 extra taps and this value will adjust their relative phase."
+		^MPropertyFriendlyName "Extra Tap Scale"
+		^MPropertyAttributeRange "0 0.333"
+	uint8_t[4] unaccounted(offset 0x6c)
+

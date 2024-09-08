@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimSequenceParams (size: 0x8 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24ed470, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x332180"
+
+-----members of class CAnimSequenceParams-----
+	float32 m_flFadeInTime(offset 0x0, size 0x4, align 0x4)
+	float32 m_flFadeOutTime(offset 0x4, size 0x4, align 0x4)
+

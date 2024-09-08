@@ -1,0 +1,34 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropRoot (size: 0xc8 bytes, project "smartprops", binding @ resourcecompiler.dll + 0x24b4920, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x151fe30"
+^MSmartPropClassVersion "0"
+^MVDataRoot
+^MVDataSingleton
+^MVDataFileExtension "vsmart"
+^MVDataPreviewWidget "smart_prop"
+^MVDataGroupNodeClass "<unidentified non-null meta: resourcecompiler.dll + 0x1ca6770>"
+^MVDataUsesComponentEditor
+^MPropertyFriendlyName "Smart Prop Root"
+^MPropertyDescription "Root of a smart prop, contains a list of elements to evaluate."
+
+-----members of class CSmartPropRoot-----
+	int32 m_nContentVersion(offset 0x0, size 0x4, align 0x4)
+		^MPropertyDescription "Specifies the current version of this smart prop. Any existing references to this smart prop with an older version number will not automatically update."
+	uint8_t[4] unaccounted(offset 0x4)
+	CSmartPropAttributeInt m_nMaxDepth(offset 0x8, size 0x40, align 0x8)
+		^MPropertyDescription "Maximum depth of smart prop evaluation stack during evaluation."
+	CUtlVector< CSmartPropVariable* > m_Variables(offset 0x48, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Variables"
+		^MVDataPromoteField "2"
+	CUtlVector< CSmartPropChoice* > m_Choices(offset 0x60, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Choices"
+		^MVDataPromoteField "2"
+	CUtlVector< CSmartPropElement* > m_Children(offset 0x78, size 0x18, align 0x8)
+		^MPropertyDescription "List of the root level elements making up the smart prop definition, each element may be an entire tree."
+		^MVDataPromoteField "1"
+	CUtlVector< CSmartPropModifier* > m_Modifiers(offset 0x90, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Modifiers"
+		^MVDataPromoteField "2"
+	uint8_t[32] unaccounted(offset 0xa8)
+

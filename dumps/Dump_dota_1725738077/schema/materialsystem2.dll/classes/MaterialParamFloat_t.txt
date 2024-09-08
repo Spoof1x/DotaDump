@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class MaterialParamFloat_t (size: 0x10 bytes, project "materialsystem2", binding @ materialsystem2.dll + 0x10d070, scope "!GlobalTypes") extends MaterialParam_t
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: materialsystem2.dll + 0x660a0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class MaterialParam_t (size: 0x8 bytes, project "materialsystem2", binding @ materialsystem2.dll + 0x10cda0, scope "!GlobalTypes")
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: materialsystem2.dll + 0x659c0"
+	
+	-----members of class MaterialParam_t-----
+		CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	
+
+-----members of class MaterialParamFloat_t-----
+	float32 m_flValue(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+

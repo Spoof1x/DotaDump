@@ -1,0 +1,35 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_State (size: 0x78 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f4b30, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5c0620"
+^MPropertyFriendlyName "Animation State"
+^MPropertyExtendedEditor "StatePropertyEditor"
+
+-----members of class CAnimGraphDoc_State-----
+	uint8_t[40] unaccounted(offset 0x0)
+	CUtlVector< CSmartPtr< CAnimGraphDoc_StateTransition > > m_transitions(offset 0x28, size 0x18, align 0x8)
+		^MPropertySuppressField
+	CUtlVector< CStateAction > m_actions(offset 0x40, size 0x18, align 0x8)
+		^MPropertyHideField
+	CUtlString m_name(offset 0x58, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Name"
+		^MPropertySortPriority "100"
+	CUtlString m_sComment(offset 0x60, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Comment"
+		^MPropertyAttributeEditor "TextBlock()"
+		^MPropertySortPriority "-100"
+	AnimStateID m_stateID(offset 0x68, size 0x4, align 0x4)
+		^MPropertyHideField
+	Vector2D m_position(offset 0x6c, size 0x8, align 0x4)
+		^MPropertyHideField
+	bool m_bIsStartState(offset 0x74, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Start State"
+	bool m_bIsEndtState(offset 0x75, size 0x1, align 0x1)
+		^MPropertyFriendlyName "End State"
+	bool m_bIsInputToGraph(offset 0x76, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Show Input To Graph"
+	bool m_bIsPassthrough(offset 0x77, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Passthrough"
+

@@ -1,0 +1,34 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootPinningItem (size: 0x38 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f0960, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x59ab50"
+^MPropertyFriendlyName "Item"
+^MPropertyElementNameFn "func: resourcecompiler.dll + 0x5b06e0"
+
+-----members of class CFootPinningItem-----
+	CUtlString m_footName(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Foot"
+		^MPropertyAttributeChoiceName "Foot"
+	CUtlString m_targetBoneName(offset 0x8, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Target Bone"
+		^MPropertyAttributeChoiceName "Bone"
+	CUtlString m_ikChainName(offset 0x10, size 0x8, align 0x8)
+		^MPropertyFriendlyName "IK Chain"
+		^MPropertyAttributeChoiceName "IKChain"
+	AnimTagID m_tag(offset 0x18, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Tag"
+		^MPropertyAttributeChoiceName "Tag"
+	uint8_t[4] unaccounted(offset 0x1c)
+	CUtlString m_paramName(offset 0x20, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_param(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Parameter"
+		^MPropertyAttributeChoiceName "BoolParameter"
+	float32 m_flMaxRotationLeft(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Left Rotation"
+		^MPropertyAttributeRange "0 180"
+	float32 m_flMaxRotationRight(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Max Right Rotation"
+		^MPropertyAttributeRange "0 180"
+	uint8_t[4] unaccounted(offset 0x34)
+

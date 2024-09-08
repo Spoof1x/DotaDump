@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABehaviorCommandVampireThrall (size: 0x180 bytes, project "server", binding @ server.dll + 0x3ae4620, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CDOTABehaviorCommandVampireThrall-----
+	uint8_t[104] unaccounted(offset 0x0)
+	CDOTABehaviorMoveTo m_MoveTo(offset 0x68, size 0xe0, align 0x0)
+	CHandle< CBaseEntity > m_hTarget(offset 0x148, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x14c)
+	float32 m_flTargetRange(offset 0x150, size 0x4, align 0x4)
+	bool m_bDeny(offset 0x154, size 0x1, align 0x1)
+	bool m_bInvisBreak(offset 0x155, size 0x1, align 0x1)
+	bool m_bNightmareAttack(offset 0x156, size 0x1, align 0x1)
+	bool m_bTurningToTarget(offset 0x157, size 0x1, align 0x1)
+	bool m_bHasPositionOrder(offset 0x158, size 0x1, align 0x1)
+	bool m_bIsAggressive(offset 0x159, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x15a)
+	float32 m_flTargetAngle(offset 0x15c, size 0x4, align 0x4)
+	Vector m_vFollowOffset(offset 0x160, size 0xc, align 0x4)
+	Vector m_vMoveToPosition(offset 0x16c, size 0xc, align 0x4)
+	CHandle< CBaseEntity > m_hMaster(offset 0x178, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x17c)
+

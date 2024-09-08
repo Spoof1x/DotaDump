@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SteamAudioHRTFInterpolationType_t(size: 4 bytes, 2 values, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bbba0):
+	SA_HRTFINTEROP_NEAREST = 0,
+		^MPropertyFriendlyName "Nearest"
+	SA_HRTFINTEROP_BILINEAR = 1,
+		^MPropertyFriendlyName "Bilinear"

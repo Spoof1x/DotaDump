@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EntityRenderAttribute_t (size: 0x48 bytes, project "client", binding @ client.dll + 0x46e2890, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_ID CUtlStringToken"
+^MNetworkVarNames "m_Values Vector4D"
+
+-----members of class EntityRenderAttribute_t-----
+	uint8_t[48] unaccounted(offset 0x0)
+	CUtlStringToken m_ID(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+	Vector4D m_Values(offset 0x34, size 0x10, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x44)
+

@@ -1,0 +1,14 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CMsgBattleReport_Role(size: 4 bytes, 6 values, project "client", binding @ client.dll + 0x46f4200):
+	k_eUnknownRole = -1,
+		^MPropertySuppressEnumerator
+	k_eSafelane = 0,
+		^MPropertyFriendlyName "Safe Lane"
+	k_eMidlane = 1,
+		^MPropertyFriendlyName "Mid Lane"
+	k_eOfflane = 2,
+		^MPropertyFriendlyName "Off Lane"
+	k_eSupport = 3,
+		^MPropertyFriendlyName "Support"
+	k_eHardSupport = 4,
+		^MPropertyFriendlyName "Hard Support"

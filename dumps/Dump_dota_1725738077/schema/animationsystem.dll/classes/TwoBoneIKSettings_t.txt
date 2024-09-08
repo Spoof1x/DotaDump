@@ -1,0 +1,28 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TwoBoneIKSettings_t (size: 0x160 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a6950, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1824f0"
+
+-----members of class TwoBoneIKSettings_t-----
+	IkEndEffectorType m_endEffectorType(offset 0x0, size 0x4, align 0x4)
+	uint8_t[12] unaccounted(offset 0x4)
+	CAnimAttachment m_endEffectorAttachment(offset 0x10, size 0x80, align 0x10)
+	IkTargetType m_targetType(offset 0x90, size 0x4, align 0x4)
+	uint8_t[12] unaccounted(offset 0x94)
+	CAnimAttachment m_targetAttachment(offset 0xa0, size 0x80, align 0x10)
+	int32 m_targetBoneIndex(offset 0x120, size 0x4, align 0x4)
+	CAnimParamHandle m_hPositionParam(offset 0x124, size 0x2, align 0x1)
+	CAnimParamHandle m_hRotationParam(offset 0x126, size 0x2, align 0x1)
+	bool m_bAlwaysUseFallbackHinge(offset 0x128, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x129)
+	VectorAligned m_vLsFallbackHingeAxis(offset 0x130, size 0x10, align 0x10)
+	int32 m_nFixedBoneIndex(offset 0x140, size 0x4, align 0x4)
+	int32 m_nMiddleBoneIndex(offset 0x144, size 0x4, align 0x4)
+	int32 m_nEndBoneIndex(offset 0x148, size 0x4, align 0x4)
+	bool m_bMatchTargetOrientation(offset 0x14c, size 0x1, align 0x1)
+	bool m_bConstrainTwist(offset 0x14d, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x14e)
+	float32 m_flMaxTwist(offset 0x150, size 0x4, align 0x4)
+	uint8_t[12] unaccounted(offset 0x154)
+

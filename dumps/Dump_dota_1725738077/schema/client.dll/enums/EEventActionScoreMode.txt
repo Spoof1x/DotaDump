@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EEventActionScoreMode(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x4700850):
+	k_eEventActionScoreMode_Add = 0,
+	k_eEventActionScoreMode_Min = 1,

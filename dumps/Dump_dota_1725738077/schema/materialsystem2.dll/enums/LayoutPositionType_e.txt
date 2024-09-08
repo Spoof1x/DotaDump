@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum LayoutPositionType_e(size: 4 bytes, 3 values, project "materialsystem2", binding @ materialsystem2.dll + 0x10c9c0):
+	LAYOUTPOSITIONTYPE_VIEWPORT_RELATIVE = 0,
+	LAYOUTPOSITIONTYPE_FRACTIONAL = 1,
+	LAYOUTPOSITIONTYPE_NONE = 2,

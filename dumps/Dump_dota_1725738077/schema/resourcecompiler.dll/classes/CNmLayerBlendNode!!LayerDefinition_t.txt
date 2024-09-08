@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmLayerBlendNode::LayerDefinition_t (size: 0xc bytes, project "animlib", binding @ resourcecompiler.dll + 0x24495f0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x852c40"
+
+-----members of class CNmLayerBlendNode::LayerDefinition_t-----
+	int16 m_nInputNodeIdx(offset 0x0, size 0x2, align 0x2)
+	int16 m_nWeightValueNodeIdx(offset 0x2, size 0x2, align 0x2)
+	int16 m_nBoneMaskValueNodeIdx(offset 0x4, size 0x2, align 0x2)
+	int16 m_nRootMotionWeightValueNodeIdx(offset 0x6, size 0x2, align 0x2)
+	bool m_bIsSynchronized(offset 0x8, size 0x1, align 0x1)
+	bool m_bIgnoreEvents(offset 0x9, size 0x1, align 0x1)
+	bool m_bIsStateMachineLayer(offset 0xa, size 0x1, align 0x1)
+	NmPoseBlendMode_t m_blendMode(offset 0xb, size 0x1, align 0x1)
+

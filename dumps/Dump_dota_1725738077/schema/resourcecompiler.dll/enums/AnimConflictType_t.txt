@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum AnimConflictType_t(size: 4 bytes, 3 values, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e6e60):
+	NONE = 0,
+	ID = 1,
+	NAME = 2,

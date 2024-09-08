@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAudioMorphData (size: 0x68 bytes, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39b980, scope "soundsystem.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x27a570"
+
+-----members of class CAudioMorphData-----
+	CUtlVector< float32 > m_times(offset 0x0, size 0x18, align 0x8)
+	CUtlVector< uint32 > m_nameHashCodes(offset 0x18, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_nameStrings(offset 0x30, size 0x18, align 0x8)
+	CUtlVector< CUtlVector< float32 > > m_samples(offset 0x48, size 0x18, align 0x8)
+	float32 m_flEaseIn(offset 0x60, size 0x4, align 0x4)
+	float32 m_flEaseOut(offset 0x64, size 0x4, align 0x4)
+

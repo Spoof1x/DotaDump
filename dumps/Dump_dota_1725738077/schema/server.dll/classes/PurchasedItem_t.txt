@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PurchasedItem_t (size: 0x8 bytes, project "server", binding @ server.dll + 0x3ab45c0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class PurchasedItem_t-----
+	int32 nItemID(offset 0x0, size 0x4, align 0x4)
+	float32 flPurchaseTime(offset 0x4, size 0x4, align 0x4)
+

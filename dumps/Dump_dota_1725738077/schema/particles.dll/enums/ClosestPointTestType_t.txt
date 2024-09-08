@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ClosestPointTestType_t(size: 4 bytes, 3 values, project "particles", binding @ particles.dll + 0x519510):
+	PARTICLE_CLOSEST_TYPE_BOX = 0,
+		^MPropertyFriendlyName "Box"
+	PARTICLE_CLOSEST_TYPE_CAPSULE = 1,
+		^MPropertyFriendlyName "Capsule"
+	PARTICLE_CLOSEST_TYPE_HYBRID = 2,
+		^MPropertyFriendlyName "Hybrid Box/Capsule"

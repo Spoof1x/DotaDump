@@ -1,0 +1,27 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmTransitionEvent (size: 0x28 bytes, project "animlib", binding @ resourcecompiler.dll + 0x244c280, scope "resourcecompiler.dll") extends CNmEvent
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x8793d0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmEvent (size: 0x18 bytes, project "animlib", binding @ resourcecompiler.dll + 0x244c820, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CNmEvent-----
+		uint8_t[8] unaccounted(offset 0x0)
+		float32 m_flStartTimeSeconds(offset 0x8, size 0x4, align 0x4)
+		float32 m_flDurationSeconds(offset 0xc, size 0x4, align 0x4)
+		CGlobalSymbol m_syncID(offset 0x10, size 0x8, align 0x8)
+	
+
+-----members of class CNmTransitionEvent-----
+	NmTransitionRule_t m_rule(offset 0x18, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x19)
+	CGlobalSymbol m_ID(offset 0x20, size 0x8, align 0x8)
+

@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CHitBoxSetList (size: 0x18 bytes, project "modellib", binding @ meshsystem.dll + 0x118050, scope "meshsystem.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x65970"
+
+-----members of class CHitBoxSetList-----
+	CUtlVector< CHitBoxSet > m_HitBoxSets(offset 0x0, size 0x18, align 0x8)
+

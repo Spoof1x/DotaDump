@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CNmFloatAngleMathNode::Operation_t(size: 1 bytes, 4 values, project "animlib", binding @ resourcecompiler.dll + 0x24486b0):
+	ClampTo180 = 0,
+	ClampTo360 = 1,
+	FlipHemisphere = 2,
+	FlipHemisphereNegate = 3,

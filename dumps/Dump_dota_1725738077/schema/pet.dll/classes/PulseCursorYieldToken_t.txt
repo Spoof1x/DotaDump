@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PulseCursorYieldToken_t (size: 0x4 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xce34e0, scope "pet.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class PulseCursorYieldToken_t-----
+	static bool IS_TYPESAFE_INTEGER(pet.dll + 0xa01828)
+
+-----members of class PulseCursorYieldToken_t-----
+	int32 m_Value(offset 0x0, size 0x4, align 0x4)
+

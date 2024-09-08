@@ -1,0 +1,34 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VPhysicsCollisionAttribute_t (size: 0x30 bytes, project "server", binding @ server.dll + 0x389d470, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_nInteractsAs uint64"
+^MNetworkVarNames "m_nInteractsWith uint64"
+^MNetworkVarNames "m_nInteractsExclude uint64"
+^MNetworkVarNames "m_nEntityId uint32"
+^MNetworkVarNames "m_nOwnerId uint32"
+^MNetworkVarNames "m_nHierarchyId uint16"
+^MNetworkVarNames "m_nCollisionGroup uint8"
+^MNetworkVarNames "m_nCollisionFunctionMask uint8"
+
+-----members of class VPhysicsCollisionAttribute_t-----
+	uint8_t[8] unaccounted(offset 0x0)
+	uint64 m_nInteractsAs(offset 0x8, size 0x8, align 0x8)
+		^MNetworkEnable
+	uint64 m_nInteractsWith(offset 0x10, size 0x8, align 0x8)
+		^MNetworkEnable
+	uint64 m_nInteractsExclude(offset 0x18, size 0x8, align 0x8)
+		^MNetworkEnable
+	uint32 m_nEntityId(offset 0x20, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint32 m_nOwnerId(offset 0x24, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint16 m_nHierarchyId(offset 0x28, size 0x2, align 0x2)
+		^MNetworkEnable
+	uint8 m_nCollisionGroup(offset 0x2a, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8 m_nCollisionFunctionMask(offset 0x2b, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x2c)
+

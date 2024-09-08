@@ -1,0 +1,21 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class IGapHost_Cursor (size: 0x8 bytes, project "pulse_runtime_lib", binding @ server.dll + 0x3b2a8e0, scope "server.dll") extends IGapHost_ExecLog
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IGapHost_ExecLog (size: 0x8 bytes, project "pulse_runtime_lib", binding @ server.dll + 0x3b2a860, scope "server.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	
+	-----members of class IGapHost_ExecLog-----
+		uint8_t[8] unaccounted(offset 0x0)
+	
+
+-----members of class IGapHost_Cursor-----
+	<no members>
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ItemDropData_t (size: 0x28 bytes, project "server", binding @ server.dll + 0x3ae5ef0, scope "!GlobalTypes")
+
+-----members of class ItemDropData_t-----
+	CUtlVector< CUtlString > sItemNames(offset 0x0, size 0x18, align 0x8)
+	float32 flChance(offset 0x18, size 0x4, align 0x4)
+	int32 nReqLevel(offset 0x1c, size 0x4, align 0x4)
+	bool bMustBeChampion(offset 0x20, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x21)
+

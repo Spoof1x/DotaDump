@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ResourceId_t (size: 0x8 bytes, project "resourcefile", binding @ schemasystem.dll + 0x53140, scope "schemasystem.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class ResourceId_t-----
+	static bool IS_TYPESAFE_INTEGER(schemasystem.dll + 0x3a8d4)
+
+-----members of class ResourceId_t-----
+	uint64 m_Value(offset 0x0, size 0x8, align 0x8)
+

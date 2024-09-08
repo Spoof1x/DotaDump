@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EPrivateCoachingSessionMemberFlag(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x46f45d0):
+	k_EPrivateCoachingSessionMemberFlag_Requester = 1,
+	k_EPrivateCoachingSessionMemberFlag_Coach = 2,
+	k_EPrivateCoachingSessionMemberFlag_LeftSession = 4,

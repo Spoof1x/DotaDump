@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CInterpolatedValue (size: 0x14 bytes, project "client", binding @ client.dll + 0x46e6400, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class CInterpolatedValue-----
+	float32 m_flStartTime(offset 0x0, size 0x4, align 0x4)
+	float32 m_flEndTime(offset 0x4, size 0x4, align 0x4)
+	float32 m_flStartValue(offset 0x8, size 0x4, align 0x4)
+	float32 m_flEndValue(offset 0xc, size 0x4, align 0x4)
+	int32 m_nInterpType(offset 0x10, size 0x4, align 0x4)
+

@@ -1,0 +1,47 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class View3DOptionsEditableData_t (size: 0x50 bytes, project "hammer", binding @ hammer.dll + 0x1e0a390, scope "!GlobalTypes")
+
+-----members of class View3DOptionsEditableData_t-----
+	bool bReverseY(offset 0x0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Reverse Y"
+	uint8_t[3] unaccounted(offset 0x1)
+	float32 flPanSpeed(offset 0x4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Pan Speed"
+	int32 nForwardSpeedMax(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Forward speed max (world units/sec)"
+	int32 nTimeToMaxSpeed(offset 0xc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Time to max speed (ms)"
+	int32 flFOV(offset 0x10, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Field of View (degrees)"
+	uint8_t[4] unaccounted(offset 0x14)
+	CUtlString szResolutionGate(offset 0x18, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Resolution Gate"
+	int32 iBackPlane(offset 0x20, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Backplane distance"
+	float32 flNearPlane(offset 0x24, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Nearplane distance"
+	float32 flShadowFarPlane(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Default light_environment draw distance"
+	bool bMouseWheelControlsFarPlane(offset 0x2c, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Alt+Mouse wheel adjusts backplane distance"
+	uint8_t[3] unaccounted(offset 0x2d)
+	int32 nMouseMoveZoomSensitivity(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Zoom sensitivity using mouse move"
+	int32 nMouseWheelZoomSensitivity(offset 0x34, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Zoom sensitivity using mousewheel"
+	int32 nCameraTargetDist(offset 0x38, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Default distance of camera from point it is set to center view on"
+	int32 iGridIntensity(offset 0x3c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Grid Intensity"
+	float32 fSelectionOverlayAlpha(offset 0x40, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Alpha of selection mask (0..1)"
+	bool bShowSelectionOutline(offset 0x44, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Outline selected objects"
+	bool bSelectionOutlineDepth(offset 0x45, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Use depth for selection outline"
+	uint8_t[2] unaccounted(offset 0x46)
+	float32 fToolsVisSSAORadiusScale(offset 0x48, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Unlit SSAO Radius Scale"
+	float32 fToolsVisSSAOPowerScale(offset 0x4c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Unlit SSAO Power Scale"
+

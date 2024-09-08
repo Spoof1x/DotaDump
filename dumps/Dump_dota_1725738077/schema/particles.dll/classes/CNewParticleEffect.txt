@@ -1,0 +1,55 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNewParticleEffect (size: 0xc8 bytes, project "particleslib", binding @ particles.dll + 0x506350, scope "!GlobalTypes") extends IParticleEffect
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IParticleEffect (size: 0x8 bytes, project "particleslib", binding @ particles.dll + 0x505c70, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	
+	-----members of class IParticleEffect-----
+		uint8_t[8] unaccounted(offset 0x0)
+	
+
+-----members of class CNewParticleEffect-----
+	uint8_t[8] unaccounted(offset 0x8)
+	CNewParticleEffect* m_pNext(offset 0x10, size 0x8, align 0x8)
+	CNewParticleEffect* m_pPrev(offset 0x18, size 0x8, align 0x8)
+	IParticleCollection* m_pParticles(offset 0x20, size 0x8, align 0x8)
+	char* m_pDebugName(offset 0x28, size 0x8, align 0x8)
+	bitfield {
+		uint8_t m_bDontRemove : 1(offset 0x30, mask = 0x1)
+		uint8_t m_bRemove : 1(offset 0x30, mask = 0x2)
+		uint8_t m_bNeedsBBoxUpdate : 1(offset 0x30, mask = 0x4)
+		uint8_t m_bIsFirstFrame : 1(offset 0x30, mask = 0x8)
+		uint8_t m_bAutoUpdateBBox : 1(offset 0x30, mask = 0x10)
+		uint8_t m_bAllocated : 1(offset 0x30, mask = 0x20)
+		uint8_t m_bSimulate : 1(offset 0x30, mask = 0x40)
+		uint8_t m_bShouldPerformCullCheck : 1(offset 0x30, mask = 0x80)
+		uint8_t m_bForceNoDraw : 1(offset 0x31, mask = 0x1)
+		uint8_t m_bShouldSave : 1(offset 0x31, mask = 0x2)
+		uint8_t m_bDisableAggregation : 1(offset 0x31, mask = 0x4)
+		uint8_t m_bShouldSimulateDuringGamePaused : 1(offset 0x31, mask = 0x8)
+		uint8_t m_bShouldCheckFoW : 1(offset 0x31, mask = 0x10)
+	}
+	uint8_t[14] unaccounted(offset 0x32)
+	Vector m_vSortOrigin(offset 0x40, size 0xc, align 0x4)
+	float32 m_flScale(offset 0x4c, size 0x4, align 0x4)
+	PARTICLE_EHANDLE__* m_hOwner(offset 0x50, size 0x8, align 0x8)
+	CParticleProperty* m_pOwningParticleProperty(offset 0x58, size 0x8, align 0x8)
+	uint8_t[16] unaccounted(offset 0x60)
+	float32 m_flFreezeTransitionStart(offset 0x70, size 0x4, align 0x4)
+	float32 m_flFreezeTransitionDuration(offset 0x74, size 0x4, align 0x4)
+	float32 m_flFreezeTransitionOverride(offset 0x78, size 0x4, align 0x4)
+	bool m_bFreezeTransitionActive(offset 0x7c, size 0x1, align 0x1)
+	bool m_bFreezeTargetState(offset 0x7d, size 0x1, align 0x1)
+	bool m_bCanFreeze(offset 0x7e, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x7f)
+	Vector m_LastMin(offset 0x80, size 0xc, align 0x4)
+	Vector m_LastMax(offset 0x8c, size 0xc, align 0x4)
+	CSplitScreenSlot m_nSplitScreenUser(offset 0x98, size 0x4, align 0x4)
+	Vector m_vecAggregationCenter(offset 0x9c, size 0xc, align 0x4)
+	uint8_t[24] unaccounted(offset 0xa8)
+	int32 m_RefCount(offset 0xc0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc4)
+

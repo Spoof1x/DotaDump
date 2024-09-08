@@ -1,0 +1,76 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CQuaternionAnimParameter (size: 0xa0 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2432d50, scope "resourcecompiler.dll") extends CConcreteAnimParameter
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x79de00"
+^MPropertyFriendlyName "Quaternion Parameter"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CConcreteAnimParameter (size: 0x80 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x24324b0, scope "resourcecompiler.dll") extends CAnimParameterBase
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimParameterBase (size: 0x70 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x24151c0, scope "resourcecompiler.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+		
+		-----members of class CAnimParameterBase-----
+			uint8_t[24] unaccounted(offset 0x0)
+			CGlobalSymbol m_name(offset 0x18, size 0x8, align 0x8)
+				^MPropertyFriendlyName "Name"
+				^MPropertySortPriority "100"
+			CUtlString m_sComment(offset 0x20, size 0x8, align 0x8)
+				^MPropertyFriendlyName "Comment"
+				^MPropertyAttributeEditor "TextBlock()"
+				^MPropertySortPriority "-100"
+			CUtlString m_group(offset 0x28, size 0x8, align 0x8)
+				^MPropertyReadOnly
+			AnimParamID m_id(offset 0x30, size 0x4, align 0x4)
+				^MPropertyReadOnly
+			uint8_t[20] unaccounted(offset 0x34)
+			CUtlString m_componentName(offset 0x48, size 0x8, align 0x8)
+				^MPropertyHideField
+				^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+			uint8_t[24] unaccounted(offset 0x50)
+			bool m_bNetworkingRequested(offset 0x68, size 0x1, align 0x1)
+				^MPropertyHideField
+			bool m_bIsReferenced(offset 0x69, size 0x1, align 0x1)
+				^MPropertyHideField
+			uint8_t[6] unaccounted(offset 0x6a)
+		
+	
+	-----members of class CConcreteAnimParameter-----
+		AnimParamButton_t m_previewButton(offset 0x70, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Preview Button"
+		AnimParamNetworkSetting m_eNetworkSetting(offset 0x74, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Network"
+		bool m_bUseMostRecentValue(offset 0x78, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Force Latest Value"
+		bool m_bAutoReset(offset 0x79, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Auto Reset"
+		bool m_bGameWritable(offset 0x7a, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Game Writable"
+			^MPropertyGroupName "+Permissions"
+			^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x799200"
+		bool m_bGraphWritable(offset 0x7b, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Graph Writable"
+			^MPropertyGroupName "+Permissions"
+			^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x799200"
+		uint8_t[4] unaccounted(offset 0x7c)
+	
+
+-----members of class CQuaternionAnimParameter-----
+	Quaternion m_defaultValue(offset 0x80, size 0x10, align 0x10)
+		^MPropertyFriendlyName "Default Value"
+	bool m_bInterpolate(offset 0x90, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Interpolate"
+	uint8_t[15] unaccounted(offset 0x91)
+

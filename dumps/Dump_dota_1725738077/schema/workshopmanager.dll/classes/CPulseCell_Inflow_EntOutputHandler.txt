@@ -1,0 +1,59 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_Inflow_EntOutputHandler (size: 0x98 bytes, project "pulse_runtime_lib", binding @ workshopmanager.dll + 0xed1d90, scope "workshopmanager.dll") extends CPulseCell_Inflow_BaseEntrypoint
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x91d6f0"
+^MCellForDomain "BaseDomain"
+^MPulseCellMethodBindings "ptr: workshopmanager.dll + 0xed3110"
+^MPulseCellOutflowHookInfo "ptr: workshopmanager.dll + 0x10fa418"
+^MPulseCellWithCustomDocNode
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_Inflow_BaseEntrypoint (size: 0x70 bytes, project "pulse_runtime_lib", binding @ workshopmanager.dll + 0xed18d0, scope "workshopmanager.dll") extends CPulseCell_BaseFlow
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x91cbf0"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseFlow (size: 0x48 bytes, project "pulse_runtime_lib", binding @ workshopmanager.dll + 0xed1770, scope "workshopmanager.dll") extends CPulseCell_Base
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x91c8e0"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_Base (size: 0x48 bytes, project "pulse_runtime_lib", binding @ workshopmanager.dll + 0xed2be0, scope "workshopmanager.dll")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x91c7c0"
+			
+			-----members of class CPulseCell_Base-----
+				uint8_t[8] unaccounted(offset 0x0)
+				PulseDocNodeID_t m_nEditorNodeID(offset 0x8, size 0x4, align 0x0)
+					^MFgdFromSchemaCompletelySkipField
+				uint8_t[60] unaccounted(offset 0xc)
+			
+		
+		-----members of class CPulseCell_BaseFlow-----
+			<no members>
+		
+	
+	-----members of class CPulseCell_Inflow_BaseEntrypoint-----
+		PulseRuntimeChunkIndex_t m_EntryChunk(offset 0x48, size 0x4, align 0x0)
+		uint8_t[4] unaccounted(offset 0x4c)
+		PulseRegisterMap_t m_RegisterMap(offset 0x50, size 0x20, align 0x8)
+	
+
+-----members of class CPulseCell_Inflow_EntOutputHandler-----
+	CUtlSymbolLarge m_SourceEntity(offset 0x70, size 0x8, align 0x8)
+	CUtlSymbolLarge m_SourceOutput(offset 0x78, size 0x8, align 0x8)
+	CUtlSymbolLarge m_TargetInput(offset 0x80, size 0x8, align 0x8)
+	CPulseValueFullType m_ExpectedParamType(offset 0x88, size 0x10, align 0x8)
+

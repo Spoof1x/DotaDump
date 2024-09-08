@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class IntervalTimer (size: 0x10 bytes, project "client", binding @ client.dll + 0x46ea1a0, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkNoBase
+| SCHEMA_CF1_INFO_TAG_MDisableDataDescValidation
+^MNetworkVarNames "m_timestamp GameTime_t"
+^MNetworkVarNames "m_nWorldGroupId WorldGroupId_t"
+
+-----members of class IntervalTimer-----
+	uint8_t[8] unaccounted(offset 0x0)
+	GameTime_t m_timestamp(offset 0x8, size 0x4, align 0x0)
+		^MNetworkEnable
+	WorldGroupId_t m_nWorldGroupId(offset 0xc, size 0x4, align 0x4)
+		^MNetworkEnable
+

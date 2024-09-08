@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CRegionSVM (size: 0x30 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a5310, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x138a4c0"
+
+-----members of class CRegionSVM-----
+	CUtlVector< RnPlane_t > m_Planes(offset 0x0, size 0x18, align 0x8)
+	CUtlVector< uint32 > m_Nodes(offset 0x18, size 0x18, align 0x8)
+

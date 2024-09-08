@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CModuleManifests (size: 0x18 bytes, project "toolutils2", binding @ assetsystem.dll + 0x4d79b0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: assetsystem.dll + 0x303750"
+
+-----members of class CModuleManifests-----
+	CUtlVector< CManifestInfo > m_Manifests(offset 0x0, size 0x18, align 0x8)
+

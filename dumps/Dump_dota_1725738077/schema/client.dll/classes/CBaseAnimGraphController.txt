@@ -1,0 +1,78 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBaseAnimGraphController (size: 0x3c8 bytes, project "client", binding @ client.dll + 0x46e2740, scope "client.dll") extends CSkeletonAnimationController
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_hSequence HSequence"
+^MNetworkVarNames "m_flSeqStartTime GameTime_t"
+^MNetworkVarNames "m_flSeqFixedCycle float"
+^MNetworkVarNames "m_nAnimLoopMode AnimLoopMode_t"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSkeletonAnimationController (size: 0x10 bytes, project "client", binding @ client.dll + 0x46e8800, scope "!GlobalTypes") extends ISkeletonAnimationController
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class ISkeletonAnimationController (size: 0x8 bytes, project "client", binding @ client.dll + 0x46e8760, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+		
+		-----members of class ISkeletonAnimationController-----
+			uint8_t[8] unaccounted(offset 0x0)
+		
+	
+	-----members of class CSkeletonAnimationController-----
+		CSkeletonInstance* m_pSkeletonInstance(offset 0x8, size 0x8, align 0x8)
+			^MNetworkDisable
+	
+
+-----members of class CBaseAnimGraphController-----
+	uint8_t[8] unaccounted(offset 0x10)
+	bool m_bSequenceFinished(offset 0x18, size 0x1, align 0x1)
+		^MNetworkDisable
+	uint8_t[3] unaccounted(offset 0x19)
+	float32 m_flSoundSyncTime(offset 0x1c, size 0x4, align 0x4)
+		^MNetworkDisable
+	uint32 m_nActiveIKChainMask(offset 0x20, size 0x4, align 0x4)
+		^MNetworkDisable
+	HSequence m_hSequence(offset 0x24, size 0x4, align 0x0)
+		^MNetworkEnable
+		^MNetworkSerializer "minusone"
+		^MNetworkChangeCallback "OnNetworkedSequenceChanged"
+		^MNetworkPriority "32"
+	GameTime_t m_flSeqStartTime(offset 0x28, size 0x4, align 0x0)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnNetworkedAnimationChanged"
+		^MNetworkPriority "32"
+	float32 m_flSeqFixedCycle(offset 0x2c, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnNetworkedAnimationChanged"
+		^MNetworkPriority "32"
+	AnimLoopMode_t m_nAnimLoopMode(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnNetworkedAnimationChanged"
+		^MNetworkPriority "32"
+	CNetworkedQuantizedFloat m_flPlaybackRate(offset 0x34, size 0x8, align 0x4)
+		^MNetworkEnable
+		^MNetworkBitCount "10"
+		^MNetworkMinValue "0"
+		^MNetworkMaxValue "5"
+		^MNetworkEncodeFlags "8"
+		^MNetworkPriority "32"
+		^MNetworkChangeCallback "OnNetworkedAnimationChanged"
+	uint8_t[4] unaccounted(offset 0x3c)
+	SequenceFinishNotifyState_t m_nNotifyState(offset 0x40, size 0x1, align 0x1)
+		^MNetworkDisable
+	uint8_t[1] unaccounted(offset 0x41)
+	bool m_bNetworkedAnimationInputsChanged(offset 0x42, size 0x1, align 0x1)
+		^MNetworkDisable
+	bool m_bNetworkedSequenceChanged(offset 0x43, size 0x1, align 0x1)
+		^MNetworkDisable
+	bool m_bLastUpdateSkipped(offset 0x44, size 0x1, align 0x1)
+		^MNetworkDisable
+	uint8_t[3] unaccounted(offset 0x45)
+	GameTime_t m_flPrevAnimUpdateTime(offset 0x48, size 0x4, align 0x0)
+		^MNetworkDisable
+	uint8_t[892] unaccounted(offset 0x4c)
+

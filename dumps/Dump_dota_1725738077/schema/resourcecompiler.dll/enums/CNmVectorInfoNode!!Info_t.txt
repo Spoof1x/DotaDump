@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CNmVectorInfoNode::Info_t(size: 1 bytes, 6 values, project "animlib", binding @ resourcecompiler.dll + 0x244b7e0):
+	X = 0,
+	Y = 1,
+	Z = 2,
+	Length = 3,
+	AngleHorizontal = 4,
+	AngleVertical = 5,

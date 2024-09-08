@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PulseRuntimeCellIndex_t (size: 0x4 bytes, project "pulse_runtime_lib", binding @ toolscenenodes.dll + 0xbefaa0, scope "toolscenenodes.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class PulseRuntimeCellIndex_t-----
+	static bool IS_TYPESAFE_INTEGER(toolscenenodes.dll + 0x9f92c3)
+
+-----members of class PulseRuntimeCellIndex_t-----
+	int32 m_Value(offset 0x0, size 0x4, align 0x4)
+

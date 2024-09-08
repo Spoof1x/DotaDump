@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CTakeDamageSummaryScopeGuard (size: 0x20 bytes, project "server", binding @ server.dll + 0x38a0410, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+-----static members of class CTakeDamageSummaryScopeGuard-----
+	static SummaryTakeDamageInfo_t EmptySummary(server.dll + 0x3a8a010)
+
+-----members of class CTakeDamageSummaryScopeGuard-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlVector< SummaryTakeDamageInfo_t* > m_vecSummaries(offset 0x8, size 0x18, align 0x8)
+

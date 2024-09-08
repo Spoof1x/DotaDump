@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum BlendKeyType(size: 4 bytes, 4 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a3170):
+	BlendKey_UserValue = 0,
+		^MPropertyFriendlyName "User Defined Values"
+	BlendKey_Velocity = 1,
+		^MPropertyFriendlyName "Velocity"
+	BlendKey_Distance = 2,
+		^MPropertyFriendlyName "Distance"
+	BlendKey_RemainingDistance = 3,
+		^MPropertyFriendlyName "Remaining Distance"

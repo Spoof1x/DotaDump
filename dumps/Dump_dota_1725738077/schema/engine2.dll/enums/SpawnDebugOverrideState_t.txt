@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SpawnDebugOverrideState_t(size: 4 bytes, 3 values, project "engine2", binding @ engine2.dll + 0x5355b0):
+	SPAWN_DEBUG_OVERRIDE_NONE = 0,
+	SPAWN_DEBUG_OVERRIDE_FORCE_ENABLED = 1,
+	SPAWN_DEBUG_OVERRIDE_FORCE_DISABLED = 2,

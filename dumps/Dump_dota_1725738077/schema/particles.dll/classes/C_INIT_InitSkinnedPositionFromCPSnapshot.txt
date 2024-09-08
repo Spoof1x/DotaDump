@@ -1,0 +1,151 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_INIT_InitSkinnedPositionFromCPSnapshot (size: 0x360 bytes, project "particles", binding @ particles.dll + 0x5268f0, scope "!GlobalTypes") extends CParticleFunctionInitializer
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: particles.dll + 0x13a6a0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunctionInitializer (size: 0x1c8 bytes, project "particles", binding @ particles.dll + 0x518d00, scope "!GlobalTypes") extends CParticleFunction
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunction (size: 0x1c0 bytes, project "particles", binding @ particles.dll + 0x518010, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+		
+		-----members of class CParticleFunction-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CParticleCollectionFloatInput m_flOpStrength(offset 0x8, size 0x160, align 0x8)
+				^MPropertyFriendlyName "operator strength"
+				^MPropertySortPriority "-100"
+			ParticleEndcapMode_t m_nOpEndCapState(offset 0x168, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end cap state"
+				^MPropertySortPriority "-100"
+			float32 m_flOpStartFadeInTime(offset 0x16c, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade"
+				^MPropertyFriendlyName "operator start fadein"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpEndFadeInTime(offset 0x170, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end fadein"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpStartFadeOutTime(offset 0x174, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator start fadeout"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpEndFadeOutTime(offset 0x178, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end fadeout"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpFadeOscillatePeriod(offset 0x17c, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade oscillate"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			bool m_bNormalizeToStopTime(offset 0x180, size 0x1, align 0x1)
+				^MPropertyFriendlyName "normalize fade times to endcap"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[3] unaccounted(offset 0x181)
+			float32 m_flOpTimeOffsetMin(offset 0x184, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade Time Offset"
+				^MPropertyFriendlyName "operator fade time offset min"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeOffsetMax(offset 0x188, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time offset max"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			int32 m_nOpTimeOffsetSeed(offset 0x18c, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time offset seed"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			int32 m_nOpTimeScaleSeed(offset 0x190, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade Timescale Modifiers"
+				^MPropertyFriendlyName "operator fade time scale seed"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeScaleMin(offset 0x194, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time scale min"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeScaleMax(offset 0x198, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time scale max"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[2] unaccounted(offset 0x19c)
+			bool m_bDisableOperator(offset 0x19e, size 0x1, align 0x1)
+				^MPropertyStartGroup
+				^MPropertySuppressField
+			uint8_t[1] unaccounted(offset 0x19f)
+			CUtlString m_Notes(offset 0x1a0, size 0x8, align 0x8)
+				^MPropertyFriendlyName "operator help and notes"
+				^MParticleHelpField
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[24] unaccounted(offset 0x1a8)
+		
+	
+	-----members of class CParticleFunctionInitializer-----
+		int32 m_nAssociatedEmitterIndex(offset 0x1c0, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Associated emitter Index"
+		uint8_t[4] unaccounted(offset 0x1c4)
+	
+
+-----members of class C_INIT_InitSkinnedPositionFromCPSnapshot-----
+	int32 m_nSnapshotControlPointNumber(offset 0x1c8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "snapshot control point number"
+	int32 m_nControlPointNumber(offset 0x1cc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "control point number"
+	bool m_bRandom(offset 0x1d0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "random order"
+		^MPropertySuppressExpr "m_nIndexType != SNAPSHOT_INDEX_INCREMENT"
+	uint8_t[3] unaccounted(offset 0x1d1)
+	int32 m_nRandomSeed(offset 0x1d4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "random seed"
+		^MPropertySuppressExpr "m_nIndexType != SNAPSHOT_INDEX_INCREMENT"
+	bool m_bRigid(offset 0x1d8, size 0x1, align 0x1)
+		^MPropertyFriendlyName "prepare for rigid lock"
+	bool m_bSetNormal(offset 0x1d9, size 0x1, align 0x1)
+		^MPropertyFriendlyName "set normal"
+	bool m_bIgnoreDt(offset 0x1da, size 0x1, align 0x1)
+		^MPropertyFriendlyName "normal velocity ignore delta time"
+	uint8_t[1] unaccounted(offset 0x1db)
+	float32 m_flMinNormalVelocity(offset 0x1dc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "normal velocity min"
+	float32 m_flMaxNormalVelocity(offset 0x1e0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "normal velocity max"
+	SnapshotIndexType_t m_nIndexType(offset 0x1e4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Snapshot Read Type"
+	CPerParticleFloatInput m_flReadIndex(offset 0x1e8, size 0x160, align 0x8)
+		^MPropertyFriendlyName "Snapshot Index"
+		^MPropertySuppressExpr "m_nIndexType != SNAPSHOT_INDEX_DIRECT"
+	float32 m_flIncrement(offset 0x348, size 0x4, align 0x4)
+		^MPropertyFriendlyName "particle increment amount"
+		^MPropertySuppressExpr "m_nIndexType != SNAPSHOT_INDEX_INCREMENT"
+	int32 m_nFullLoopIncrement(offset 0x34c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Full Loop Increment Amount"
+		^MPropertySuppressExpr "m_nIndexType != SNAPSHOT_INDEX_INCREMENT"
+	int32 m_nSnapShotStartPoint(offset 0x350, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Snapshot start point"
+		^MPropertySuppressExpr "m_nIndexType != SNAPSHOT_INDEX_INCREMENT"
+	float32 m_flBoneVelocity(offset 0x354, size 0x4, align 0x4)
+		^MPropertyFriendlyName "inherited bone velocity"
+	float32 m_flBoneVelocityMax(offset 0x358, size 0x4, align 0x4)
+		^MPropertyFriendlyName "max inherited bone velocity"
+	bool m_bCopyColor(offset 0x35c, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Set Color"
+	bool m_bCopyAlpha(offset 0x35d, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Set Alpha"
+	bool m_bSetRadius(offset 0x35e, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Set Radius"
+	uint8_t[1] unaccounted(offset 0x35f)
+

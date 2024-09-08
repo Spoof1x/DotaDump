@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CEntityIOOutput (size: 0x28 bytes, project "entity2", binding @ sfm.dll + 0x9fb0d0, scope "sfm.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+-----members of class CEntityIOOutput-----
+	uint8_t[24] unaccounted(offset 0x0)
+	CVariantBase< CVariantDefaultAllocator > m_Value(offset 0x18, size 0x10, align 0x8)
+

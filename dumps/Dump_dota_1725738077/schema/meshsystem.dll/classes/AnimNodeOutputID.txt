@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AnimNodeOutputID (size: 0x4 bytes, project "modellib", binding @ meshsystem.dll + 0x11b570, scope "meshsystem.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x8f370"
+^MPropertyEditClassAsString "func: meshsystem.dll + 0x8f7e0"
+
+-----members of class AnimNodeOutputID-----
+	uint32 m_id(offset 0x0, size 0x4, align 0x4)
+

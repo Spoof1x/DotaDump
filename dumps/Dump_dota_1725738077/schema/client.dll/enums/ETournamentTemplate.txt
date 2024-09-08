@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ETournamentTemplate(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x46ec210):
+	k_ETournamentTemplate_None = 0,
+	k_ETournamentTemplate_AutomatedWin3 = 1,

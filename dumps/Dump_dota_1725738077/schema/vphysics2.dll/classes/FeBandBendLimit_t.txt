@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeBandBendLimit_t (size: 0x14 bytes, project "physicslib", binding @ vphysics2.dll + 0x393240, scope "vphysics2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0x12df80"
+
+-----members of class FeBandBendLimit_t-----
+	float32 flDistMin(offset 0x0, size 0x4, align 0x4)
+	float32 flDistMax(offset 0x4, size 0x4, align 0x4)
+	uint16[6] nNode(offset 0x8, size 0xc, align 0x2)
+

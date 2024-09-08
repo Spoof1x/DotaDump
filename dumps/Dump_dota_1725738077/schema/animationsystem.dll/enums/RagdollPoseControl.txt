@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum RagdollPoseControl(size: 4 bytes, 2 values, project "animationsystem", binding @ animationsystem.dll + 0x5f3090):
+	Absolute = 0,
+	Relative = 1,

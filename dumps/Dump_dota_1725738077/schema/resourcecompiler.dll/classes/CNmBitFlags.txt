@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmBitFlags (size: 0x4 bytes, project "animlib", binding @ resourcecompiler.dll + 0x244c8c0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x87c800"
+
+-----static members of class CNmBitFlags-----
+	static uint8 MaxFlags(resourcecompiler.dll + 0x19470f1)
+
+-----members of class CNmBitFlags-----
+	uint32 m_flags(offset 0x0, size 0x4, align 0x4)
+

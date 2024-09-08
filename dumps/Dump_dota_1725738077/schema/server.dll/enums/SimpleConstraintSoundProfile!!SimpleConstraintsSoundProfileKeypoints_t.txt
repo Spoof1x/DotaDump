@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SimpleConstraintSoundProfile::SimpleConstraintsSoundProfileKeypoints_t(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x38ce360):
+	kMIN_THRESHOLD = 0,
+	kMIN_FULL = 1,
+	kHIGHWATER = 2,

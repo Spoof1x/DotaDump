@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class SceneViewId_t (size: 0x10 bytes, project "scenesystem", binding @ scenesystem.dll + 0x5c3dc0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: scenesystem.dll + 0x16f8d0"
+
+-----members of class SceneViewId_t-----
+	uint64 m_nViewId(offset 0x0, size 0x8, align 0x8)
+	uint64 m_nFrameCount(offset 0x8, size 0x8, align 0x8)
+

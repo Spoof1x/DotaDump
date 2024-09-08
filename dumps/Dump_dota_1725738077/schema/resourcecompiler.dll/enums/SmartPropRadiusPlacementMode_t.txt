@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SmartPropRadiusPlacementMode_t(size: 4 bytes, 2 values, project "smartprops", binding @ resourcecompiler.dll + 0x24b4f10):
+	SPHERE = 0,
+		^MPropertyFriendlyName "Place in sphere"
+		^MPropertyDescription "Child elements will be placed within a sphere of the specified radius."
+	CIRCLE = 1,
+		^MPropertyFriendlyName "Place in circle"
+		^MPropertyDescription "Child elements will be placed within a circle of the specified radius."

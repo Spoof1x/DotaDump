@@ -1,0 +1,46 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPlayer_CameraServices (size: 0x158 bytes, project "server", binding @ server.dll + 0x3a310a0, scope "server.dll") extends CPlayerPawnComponent
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "m_PlayerFog fogplayerparams_t"
+^MNetworkVarNames "m_hColorCorrectionCtrl CHandle< CColorCorrection>"
+^MNetworkVarNames "m_hViewEntity CHandle< CBaseEntity>"
+^MNetworkVarNames "m_hTonemapController CHandle< CTonemapController2>"
+^MNetworkVarNames "m_audio audioparams_t"
+^MNetworkVarNames "m_PostProcessingVolumes CHandle<CPostProcessingVolume>"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPlayerPawnComponent (size: 0x40 bytes, project "server", binding @ server.dll + 0x3a34b90, scope "server.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	
+	-----members of class CPlayerPawnComponent-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CNetworkVarChainer __m_pChainEntity(offset 0x8, size 0x28, align 0x0)
+			^MNetworkDisable
+			^MNetworkChangeAccessorFieldPathIndex
+		uint8_t[16] unaccounted(offset 0x30)
+	
+
+-----members of class CPlayer_CameraServices-----
+	fogplayerparams_t m_PlayerFog(offset 0x40, size 0x40, align 0x0)
+		^MNetworkEnable
+	CHandle< CColorCorrection > m_hColorCorrectionCtrl(offset 0x80, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< CBaseEntity > m_hViewEntity(offset 0x84, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< CTonemapController2 > m_hTonemapController(offset 0x88, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkUserGroup "LocalPlayerAndObserversExclusive"
+	uint8_t[4] unaccounted(offset 0x8c)
+	audioparams_t m_audio(offset 0x90, size 0x78, align 0x0)
+		^MNetworkEnable
+		^MNetworkUserGroup "LocalPlayerAndObserversExclusive"
+	CNetworkUtlVectorBase< CHandle< CPostProcessingVolume > > m_PostProcessingVolumes(offset 0x108, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkUserGroup "LocalPlayerAndObserversExclusive"
+	float32 m_flOldPlayerZ(offset 0x120, size 0x4, align 0x4)
+	float32 m_flOldPlayerViewOffsetZ(offset 0x124, size 0x4, align 0x4)
+	uint8_t[24] unaccounted(offset 0x128)
+	CUtlVector< CHandle< CEnvSoundscapeTriggerable > > m_hTriggerSoundscapeList(offset 0x140, size 0x18, align 0x8)
+

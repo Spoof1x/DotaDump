@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FantasyCraftingTrackedStat_t (size: 0x18 bytes, project "client", binding @ client.dll + 0x48916e0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x166de90"
+^MPropertyAutoExpandSelf
+
+-----members of class FantasyCraftingTrackedStat_t-----
+	CUtlString m_sStatName(offset 0x0, size 0x8, align 0x8)
+		^MPropertyDescription "What Stats are we looking for"
+	EFantasyStatType m_eStatType(offset 0x8, size 0x4, align 0x4)
+		^MPropertyDescription "Is the match about the player, the player's team, or the match?"
+	uint32 m_unThresholdValue(offset 0xc, size 0x4, align 0x4)
+		^MPropertyDescription "Threshold Stat Value required"
+	bool m_bThresholdIsMin(offset 0x10, size 0x1, align 0x1)
+		^MPropertyDescription "Is the treshold a min or max?"
+	uint8_t[7] unaccounted(offset 0x11)
+

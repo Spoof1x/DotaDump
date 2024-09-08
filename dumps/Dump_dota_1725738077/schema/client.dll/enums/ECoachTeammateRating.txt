@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ECoachTeammateRating(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x46f4530):
+	k_ECoachTeammateRating_None = 0,
+	k_ECoachTeammateRating_Positive = 1,
+	k_ECoachTeammateRating_Negative = 2,
+	k_ECoachTeammateRating_Abusive = 3,

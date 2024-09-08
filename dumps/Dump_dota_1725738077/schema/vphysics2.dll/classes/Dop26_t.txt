@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class Dop26_t (size: 0x68 bytes, project "physicslib", binding @ vphysics2.dll + 0x394120, scope "vphysics2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0x14c990"
+
+-----members of class Dop26_t-----
+	float32[26] m_flSupport(offset 0x0, size 0x68, align 0x4)
+

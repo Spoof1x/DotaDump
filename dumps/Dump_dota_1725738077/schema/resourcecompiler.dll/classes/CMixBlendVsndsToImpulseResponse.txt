@@ -1,0 +1,71 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMixBlendVsndsToImpulseResponse (size: 0x60 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24c0bf0, scope "!GlobalTypes") extends CMixPropertyBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1602d50"
+^MPropertyFriendlyName "VMix Blend VSnds to Impulse Response Node"
+^MPropertyDescription "Blends up to 8 vsnds to an impulse response."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMixPropertyBase (size: 0x20 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bbaa0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x157f160"
+	
+	-----members of class CMixPropertyBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+			^MPropertyDescription "Node name"
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "1"
+		CUtlString m_Comment(offset 0x10, size 0x8, align 0x8)
+			^MPropertyDescription "Description of how this is used  the graph for people reading the graph"
+			^MPropertySortPriority "-2"
+		bool m_bActive(offset 0x18, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bSolo(offset 0x19, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bEditProperties(offset 0x1a, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		uint8_t[5] unaccounted(offset 0x1b)
+	
+
+-----members of class CMixBlendVsndsToImpulseResponse-----
+	float32 m_flWeight0(offset 0x20, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Weight:0"
+	float32 m_flWeight1(offset 0x24, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Weight:1"
+	float32 m_flWeight2(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Weight:2"
+	float32 m_flWeight3(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Weight:3"
+	float32 m_flWeight4(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Weight:4"
+	float32 m_flWeight5(offset 0x34, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Weight:5"
+	float32 m_flWeight6(offset 0x38, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Weight:6"
+	float32 m_flWeight7(offset 0x3c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Weight:7"
+	float32 m_flPreDelayMS0(offset 0x40, size 0x4, align 0x4)
+		^MPropertyFriendlyName "PreDelayMS:0"
+	float32 m_flPreDelayMS1(offset 0x44, size 0x4, align 0x4)
+		^MPropertyFriendlyName "PreDelayMS:1"
+	float32 m_flPreDelayMS2(offset 0x48, size 0x4, align 0x4)
+		^MPropertyFriendlyName "PreDelayMS:2"
+	float32 m_flPreDelayMS3(offset 0x4c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "PreDelayMS:3"
+	float32 m_flPreDelayMS4(offset 0x50, size 0x4, align 0x4)
+		^MPropertyFriendlyName "PreDelayMS:4"
+	float32 m_flPreDelayMS5(offset 0x54, size 0x4, align 0x4)
+		^MPropertyFriendlyName "PreDelayMS:5"
+	float32 m_flPreDelayMS6(offset 0x58, size 0x4, align 0x4)
+		^MPropertyFriendlyName "PreDelayMS:6"
+	float32 m_flPreDelayMS7(offset 0x5c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "PreDelayMS:7"
+

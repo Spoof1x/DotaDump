@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleLightBehaviorChoiceList_t(size: 4 bytes, 3 values, project "particles", binding @ particles.dll + 0x5448e0):
+	PARTICLE_LIGHT_BEHAVIOR_FOLLOW_DIRECTION = 0,
+		^MPropertyFriendlyName "Follow Direction"
+	PARTICLE_LIGHT_BEHAVIOR_ROPE = 1,
+		^MPropertyFriendlyName "Rope"
+	PARTICLE_LIGHT_BEHAVIOR_TRAILS = 2,
+		^MPropertyFriendlyName "Trails"

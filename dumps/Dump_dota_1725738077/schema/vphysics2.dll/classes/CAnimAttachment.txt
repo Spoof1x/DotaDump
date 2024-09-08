@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimAttachment (size: 0x80 bytes, project "modellib", binding @ vphysics2.dll + 0x38a970, scope "vphysics2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0xb5680"
+
+-----members of class CAnimAttachment-----
+	Quaternion[3] m_influenceRotations(offset 0x0, size 0x30, align 0x10)
+	VectorAligned[3] m_influenceOffsets(offset 0x30, size 0x30, align 0x10)
+	int32[3] m_influenceIndices(offset 0x60, size 0xc, align 0x4)
+	float32[3] m_influenceWeights(offset 0x6c, size 0xc, align 0x4)
+	uint8 m_numInfluences(offset 0x78, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x79)
+

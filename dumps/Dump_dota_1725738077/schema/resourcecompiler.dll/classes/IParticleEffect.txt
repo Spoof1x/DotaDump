@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class IParticleEffect (size: 0x8 bytes, project "particleslib", binding @ resourcecompiler.dll + 0x249fb20, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+
+-----members of class IParticleEffect-----
+	uint8_t[8] unaccounted(offset 0x0)
+

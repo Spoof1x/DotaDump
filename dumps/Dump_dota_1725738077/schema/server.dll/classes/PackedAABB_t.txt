@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PackedAABB_t (size: 0x8 bytes, project "mathlib_extended", binding @ server.dll + 0x3b23210, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class PackedAABB_t-----
+	uint32 m_nPackedMin(offset 0x0, size 0x4, align 0x4)
+	uint32 m_nPackedMax(offset 0x4, size 0x4, align 0x4)
+

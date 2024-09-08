@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAudioPhonemeTag (size: 0xc bytes, project "soundsystem_voicecontainers", binding @ resourcecompiler.dll + 0x24c2510, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x16642d0"
+
+-----members of class CAudioPhonemeTag-----
+	float32 m_flStartTime(offset 0x0, size 0x4, align 0x4)
+	float32 m_flEndTime(offset 0x4, size 0x4, align 0x4)
+	int32 m_nPhonemeCode(offset 0x8, size 0x4, align 0x4)
+

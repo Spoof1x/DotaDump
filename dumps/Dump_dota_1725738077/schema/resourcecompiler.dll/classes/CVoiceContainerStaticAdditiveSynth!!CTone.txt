@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVoiceContainerStaticAdditiveSynth::CTone (size: 0x60 bytes, project "soundsystem_voicecontainers", binding @ resourcecompiler.dll + 0x24c2020, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x165eac0"
+
+-----members of class CVoiceContainerStaticAdditiveSynth::CTone-----
+	CUtlVector< CVoiceContainerStaticAdditiveSynth::CHarmonic > m_harmonics(offset 0x0, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Harmonics"
+	CPiecewiseCurve m_curve(offset 0x18, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Envelope"
+	bool m_bSyncInstances(offset 0x58, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Play All Instances In Sync"
+	uint8_t[7] unaccounted(offset 0x59)
+

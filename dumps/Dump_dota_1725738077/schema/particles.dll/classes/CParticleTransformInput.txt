@@ -1,0 +1,32 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CParticleTransformInput (size: 0x68 bytes, project "particleslib", binding @ particles.dll + 0x505810, scope "!GlobalTypes") extends CParticleInput
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x33ed60"
+^MPropertyCustomEditor "TransformInput()"
+^MClassIsParticleTransform
+^MParticleCustomFieldDefaultValue "func: particles.dll + 0x3372e0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleInput (size: 0x10 bytes, project "particleslib", binding @ particles.dll + 0x505a90, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: particles.dll + 0x342380"
+	
+	-----members of class CParticleInput-----
+		uint8_t[16] unaccounted(offset 0x0)
+	
+
+-----members of class CParticleTransformInput-----
+	ParticleTransformType_t m_nType(offset 0x10, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x14)
+	CParticleNamedValueRef m_NamedValue(offset 0x18, size 0x40, align 0x8)
+	bool m_bFollowNamedValue(offset 0x58, size 0x1, align 0x1)
+	bool m_bSupportsDisabled(offset 0x59, size 0x1, align 0x1)
+	bool m_bUseOrientation(offset 0x5a, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x5b)
+	int32 m_nControlPoint(offset 0x5c, size 0x4, align 0x4)
+	int32 m_nControlPointRangeMax(offset 0x60, size 0x4, align 0x4)
+	float32 m_flEndCPGrowthTime(offset 0x64, size 0x4, align 0x4)
+

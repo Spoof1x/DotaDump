@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PointTemplateOwnerSpawnGroupType_t(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x3896750):
+	INSERT_INTO_POINT_TEMPLATE_SPAWN_GROUP = 0,
+	INSERT_INTO_CURRENTLY_ACTIVE_SPAWN_GROUP = 1,
+	INSERT_INTO_NEWLY_CREATED_SPAWN_GROUP = 2,

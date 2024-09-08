@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTALobbyReadyState(size: 4 bytes, 4 values, project "server", binding @ server.dll + 0x38e1810):
+	DOTALobbyReadyState_UNDECLARED = 0,
+	DOTALobbyReadyState_ACCEPTED = 1,
+	DOTALobbyReadyState_DECLINED = 2,
+	DOTALobbyReadyState_DECLINED_REQUEUE = 3,

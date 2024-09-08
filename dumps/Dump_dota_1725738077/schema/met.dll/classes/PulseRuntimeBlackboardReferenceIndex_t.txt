@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PulseRuntimeBlackboardReferenceIndex_t (size: 0x2 bytes, project "pulse_runtime_lib", binding @ met.dll + 0x4008f0, scope "met.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class PulseRuntimeBlackboardReferenceIndex_t-----
+	static bool IS_TYPESAFE_INTEGER(met.dll + 0x336ba8)
+
+-----members of class PulseRuntimeBlackboardReferenceIndex_t-----
+	int16 m_Value(offset 0x0, size 0x2, align 0x2)
+

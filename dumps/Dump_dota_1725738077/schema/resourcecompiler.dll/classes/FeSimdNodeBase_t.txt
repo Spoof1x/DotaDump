@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeSimdNodeBase_t (size: 0x70 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a3750, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x13653f0"
+
+-----members of class FeSimdNodeBase_t-----
+	uint16[4] nNode(offset 0x0, size 0x8, align 0x2)
+	uint16[4] nNodeX0(offset 0x8, size 0x8, align 0x2)
+	uint16[4] nNodeX1(offset 0x10, size 0x8, align 0x2)
+	uint16[4] nNodeY0(offset 0x18, size 0x8, align 0x2)
+	uint16[4] nNodeY1(offset 0x20, size 0x8, align 0x2)
+	uint16[4] nDummy(offset 0x28, size 0x8, align 0x2)
+	FourQuaternions qAdjust(offset 0x30, size 0x40, align 0x0)
+

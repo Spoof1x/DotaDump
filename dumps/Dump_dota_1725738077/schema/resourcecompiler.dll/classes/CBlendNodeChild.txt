@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBlendNodeChild (size: 0x20 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ed2f0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x57fd60"
+^MPropertyFriendlyName "Blend Item"
+
+-----members of class CBlendNodeChild-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CAnimGraphDoc_NodeConnection m_inputConnection(offset 0x8, size 0x8, align 0x4)
+		^MPropertyHideField
+	CUtlString m_name(offset 0x10, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Name"
+	float32 m_blendValue(offset 0x18, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Blend Value"
+	uint8_t[4] unaccounted(offset 0x1c)
+

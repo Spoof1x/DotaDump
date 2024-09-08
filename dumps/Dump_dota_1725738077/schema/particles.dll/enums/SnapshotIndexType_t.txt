@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SnapshotIndexType_t(size: 4 bytes, 2 values, project "particles", binding @ particles.dll + 0x5186e0):
+	SNAPSHOT_INDEX_INCREMENT = 0,
+		^MPropertyFriendlyName "Increment Index"
+	SNAPSHOT_INDEX_DIRECT = 1,
+		^MPropertyFriendlyName "Direct Set of Index"

@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTA_CM_PICK(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x38e1720):
+	DOTA_CM_RANDOM = 0,
+	DOTA_CM_GOOD_GUYS = 1,
+	DOTA_CM_BAD_GUYS = 2,

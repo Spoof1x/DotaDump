@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CreatureAbilityType(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x3ae5690):
+	CREATURE_ABILITY_OFFENSIVE = 0,
+	CREATURE_ABILITY_DEFENSIVE = 1,
+	CREATURE_ABILITY_ESCAPE = 2,

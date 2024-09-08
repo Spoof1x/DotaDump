@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ScoutState_t(size: 4 bytes, 6 values, project "client", binding @ client.dll + 0x4755d00):
+	SCOUT_STATE_INIT = -1,
+	SCOUT_STATE_IDLE = 0,
+	SCOUT_STATE_AT_BASE = 1,
+	SCOUT_STATE_MOVING = 2,
+	SCOUT_STATE_DEAD = 3,
+	SCOUT_NUM_STATES = 4,

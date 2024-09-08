@@ -1,0 +1,35 @@
+CConCommandMemberAccessor<class CIMEManager>
+	imemanager.dll + 0x27e80(hierarchy CConCommandMemberAccessor<class CIMEManager>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+	imemanager.dll + 0x27e90 MI offset 8(hierarchy ICommandCompletionCallback)
+CConCommandMemberAccessor<class CIMENamesManager>
+	imemanager.dll + 0x26d50(hierarchy CConCommandMemberAccessor<class CIMENamesManager>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+	imemanager.dll + 0x26cd8 MI offset 8(hierarchy ICommandCompletionCallback)
+CIMEManager
+	imemanager.dll + 0x27ea0(hierarchy CIMEManager: CTier2AppSystem<class IIMEManager,0>, CTier1AppSystem<class IIMEManager,0>, CTier0AppSystem<class IIMEManager,0>, CBaseAppSystem<class IIMEManager>, IIMEManager, IAppSystem)
+CIMENamesManager
+	imemanager.dll + 0x26ce8(hierarchy CIMENamesManager)
+CIMENamesManagerVista
+	imemanager.dll + 0x27580(hierarchy CIMENamesManagerVista: CIMENamesManager, ITfCompartmentEventSink, IUnknown, ITfInputProcessorProfileActivationSink, IUnknown)
+	imemanager.dll + 0x27558 MI offset 304(hierarchy ITfCompartmentEventSink: IUnknown, ITfInputProcessorProfileActivationSink, IUnknown)
+	imemanager.dll + 0x27608 MI offset 312(hierarchy ITfInputProcessorProfileActivationSink: IUnknown)
+CPostConnectCallback
+	imemanager.dll + 0x1d810(hierarchy CPostConnectCallback)
+CSchemaInstallCallback
+	imemanager.dll + 0x1d8b8(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CTSF
+	imemanager.dll + 0x27b30(hierarchy CTSF: ITfThreadMgrEventSink, IUnknown, ITfUIElementSink, IUnknown)
+	imemanager.dll + 0x27b80 MI offset 8(hierarchy ITfUIElementSink: IUnknown)
+GFxIMEManagerWin32
+	imemanager.dll + 0x27478(hierarchy GFxIMEManagerWin32: IMEManagerBase)
+GFxIMEVista
+	imemanager.dll + 0x27c00(hierarchy GFxIMEVista: GFxIMEWin32Impl)
+GFxIMEWin32Impl
+	imemanager.dll + 0x27da8(hierarchy GFxIMEWin32Impl)
+IMEManagerBase
+	imemanager.dll + 0x26e10(hierarchy IMEManagerBase)
+std::bad_exception
+	imemanager.dll + 0x1e8a0(hierarchy std::bad_exception: std::exception)
+std::exception
+	imemanager.dll + 0x1e870(hierarchy std::exception)
+type_info
+	imemanager.dll + 0x1d918(hierarchy type_info)

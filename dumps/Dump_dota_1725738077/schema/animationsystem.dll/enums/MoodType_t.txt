@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum MoodType_t(size: 4 bytes, 2 values, project "animationsystem", binding @ animationsystem.dll + 0x5f0ef0):
+	eMoodType_Head = 0,
+		^MPropertyFriendlyName "Head"
+	eMoodType_Body = 1,
+		^MPropertyFriendlyName "Body"

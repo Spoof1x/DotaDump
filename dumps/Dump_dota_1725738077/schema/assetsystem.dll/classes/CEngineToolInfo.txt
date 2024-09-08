@@ -1,0 +1,34 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CEngineToolInfo (size: 0x88 bytes, project "toolutils2", binding @ assetsystem.dll + 0x4d76a0, scope "!GlobalTypes") extends CBaseToolInfo
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: assetsystem.dll + 0x2ffd00"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBaseToolInfo (size: 0x20 bytes, project "toolutils2", binding @ assetsystem.dll + 0x4d74b0, scope "!GlobalTypes")
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: assetsystem.dll + 0x2ff980"
+	
+	-----members of class CBaseToolInfo-----
+		CUtlString m_Name(offset 0x0, size 0x8, align 0x8)
+		CUtlString m_OverrideToolShortcutName(offset 0x8, size 0x8, align 0x8)
+		CUtlString m_FriendlyName(offset 0x10, size 0x8, align 0x8)
+		CUtlString m_ToolIcon(offset 0x18, size 0x8, align 0x8)
+	
+
+-----members of class CEngineToolInfo-----
+	CUtlString m_Library(offset 0x20, size 0x8, align 0x8)
+	CUtlString m_InterfaceName(offset 0x28, size 0x8, align 0x8)
+	bool m_bShowInRevisionSubMenu(offset 0x30, size 0x1, align 0x1)
+	bool m_bIsSecondaryTool(offset 0x31, size 0x1, align 0x1)
+	bool m_bDoNotWarnAboutLargeAssetBatches(offset 0x32, size 0x1, align 0x1)
+	bool m_bIsWorkshopManagerTool(offset 0x33, size 0x1, align 0x1)
+	bool m_bIsWorkshopItemTool(offset 0x34, size 0x1, align 0x1)
+	bool m_bCanHighlightSubassets(offset 0x35, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x36)
+	CUtlVector< CUtlString > m_AssetTypes(offset 0x38, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_LimitToMods(offset 0x50, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_ExcludeFromMods(offset 0x68, size 0x18, align 0x8)
+	uint8_t[8] unaccounted(offset 0x80)
+

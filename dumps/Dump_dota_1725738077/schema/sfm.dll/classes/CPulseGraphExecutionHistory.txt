@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseGraphExecutionHistory (size: 0x78 bytes, project "pulse_runtime_lib", binding @ sfm.dll + 0x9ff2e0, scope "sfm.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: sfm.dll + 0x5b37c0"
+
+-----members of class CPulseGraphExecutionHistory-----
+	PulseGraphInstanceID_t m_nInstanceID(offset 0x0, size 0x4, align 0x0)
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlString m_strFileName(offset 0x8, size 0x8, align 0x8)
+	CUtlVector< PulseGraphExecutionHistoryEntry_t* > m_vecHistory(offset 0x10, size 0x18, align 0x8)
+	CUtlOrderedMap< PulseDocNodeID_t, PulseGraphExecutionHistoryNodeDesc_t* > m_mapCellDesc(offset 0x28, size 0x28, align 0x8)
+	CUtlOrderedMap< PulseCursorID_t, PulseGraphExecutionHistoryCursorDesc_t* > m_mapCursorDesc(offset 0x50, size 0x28, align 0x8)
+

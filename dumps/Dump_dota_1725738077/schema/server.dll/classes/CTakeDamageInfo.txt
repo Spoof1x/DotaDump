@@ -1,0 +1,37 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CTakeDamageInfo (size: 0xb0 bytes, project "server", binding @ server.dll + 0x389f9d0, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+-----static members of class CTakeDamageInfo-----
+	static CTakeDamageInfo EmptyInfo(server.dll + 0x3a89f40)
+
+-----members of class CTakeDamageInfo-----
+	uint8_t[8] unaccounted(offset 0x0)
+	Vector m_vecDamageForce(offset 0x8, size 0xc, align 0x4)
+	Vector m_vecDamagePosition(offset 0x14, size 0xc, align 0x4)
+	Vector m_vecReportedPosition(offset 0x20, size 0xc, align 0x4)
+	Vector m_vecDamageDirection(offset 0x2c, size 0xc, align 0x4)
+	CHandle< CBaseEntity > m_hInflictor(offset 0x38, size 0x4, align 0x4)
+	CHandle< CBaseEntity > m_hAttacker(offset 0x3c, size 0x4, align 0x4)
+	CHandle< CBaseEntity > m_hAbility(offset 0x40, size 0x4, align 0x4)
+	float32 m_flDamage(offset 0x44, size 0x4, align 0x4)
+	float32 m_flTotalledDamage(offset 0x48, size 0x4, align 0x4)
+	int32 m_bitsDamageType(offset 0x4c, size 0x4, align 0x4)
+	int32 m_iDamageCustom(offset 0x50, size 0x4, align 0x4)
+	AmmoIndex_t m_iAmmoType(offset 0x54, size 0x1, align 0x0)
+	uint8_t[11] unaccounted(offset 0x55)
+	float32 m_flOriginalDamage(offset 0x60, size 0x4, align 0x4)
+	bool m_bShouldBleed(offset 0x64, size 0x1, align 0x1)
+	bool m_bShouldSpark(offset 0x65, size 0x1, align 0x1)
+	uint8_t[10] unaccounted(offset 0x66)
+	TakeDamageFlags_t m_nDamageFlags(offset 0x70, size 0x8, align 0x8)
+	int32 m_bitsDotaDamageType(offset 0x78, size 0x4, align 0x4)
+	int32 m_nDotaDamageCategory(offset 0x7c, size 0x4, align 0x4)
+	float32 m_flCombatLogCreditFactor(offset 0x80, size 0x4, align 0x4)
+	int16 m_iRecord(offset 0x84, size 0x2, align 0x2)
+	uint8_t[2] unaccounted(offset 0x86)
+	HSCRIPT m_hScriptInstance(offset 0x88, size 0x8, align 0x8)
+	uint8_t[20] unaccounted(offset 0x90)
+	bool m_bInTakeDamageFlow(offset 0xa4, size 0x1, align 0x1)
+	uint8_t[11] unaccounted(offset 0xa5)
+

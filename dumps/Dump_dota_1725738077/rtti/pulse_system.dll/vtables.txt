@@ -1,0 +1,193 @@
+CGenericExprPart
+	pulse_system.dll + 0x102aa0(hierarchy CGenericExprPart)
+CGenericExpr_Binary
+	pulse_system.dll + 0x102b18(hierarchy CGenericExpr_Binary: CGenericExprPart)
+CGenericExpr_BoolLiteral
+	pulse_system.dll + 0x102cb0(hierarchy CGenericExpr_BoolLiteral: CGenericExprPart)
+CGenericExpr_FloatLiteral
+	pulse_system.dll + 0x102c40(hierarchy CGenericExpr_FloatLiteral: CGenericExprPart)
+CGenericExpr_FunctionCall
+	pulse_system.dll + 0x102d58(hierarchy CGenericExpr_FunctionCall: CGenericExprPart)
+CGenericExpr_IntLiteral
+	pulse_system.dll + 0x102c78(hierarchy CGenericExpr_IntLiteral: CGenericExprPart)
+CGenericExpr_Property
+	pulse_system.dll + 0x102d20(hierarchy CGenericExpr_Property: CGenericExprPart)
+CGenericExpr_StringLiteral
+	pulse_system.dll + 0x102c08(hierarchy CGenericExpr_StringLiteral: CGenericExprPart)
+CGenericExpr_TernaryConditional
+	pulse_system.dll + 0x102bc8(hierarchy CGenericExpr_TernaryConditional: CGenericExprPart)
+CGenericExpr_Unary
+	pulse_system.dll + 0x102ac8(hierarchy CGenericExpr_Unary: CGenericExprPart)
+CGenericExpr_VariableReference
+	pulse_system.dll + 0x102ce8(hierarchy CGenericExpr_VariableReference: CGenericExprPart)
+CKV3ResourceBlockHelper
+	pulse_system.dll + 0x104ab8(hierarchy CKV3ResourceBlockHelper: IAsyncProcessedDataResult)
+CKV3TransferContextBase
+	pulse_system.dll + 0xb78c0(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferLoadContext
+	pulse_system.dll + 0xb7930(hierarchy CKV3TransferLoadContext: CKV3TransferContextBase, IErrorListener)
+CKV3TransferSaveContext
+	pulse_system.dll + 0xb78f8(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CKV3Transfer_UtlSymbolLargeInterface<class CUtlSymbolTableLargeBase<1,2048,class CThreadNullMutex> >
+	pulse_system.dll + 0xad1b8(hierarchy CKV3Transfer_UtlSymbolLargeInterface<class CUtlSymbolTableLargeBase<1,2048,class CThreadNullMutex> >: IKV3TransferInterface_UtlSymbolLarge)
+CPostConnectCallback
+	pulse_system.dll + 0xb8ad0(hierarchy CPostConnectCallback)
+CPulseCell_Base
+	pulse_system.dll + 0xb0780(hierarchy CPulseCell_Base)
+CPulseCell_BaseFlow
+	pulse_system.dll + 0xb07d8(hierarchy CPulseCell_BaseFlow: CPulseCell_Base)
+CPulseCell_BaseRequirement
+	pulse_system.dll + 0xb0830(hierarchy CPulseCell_BaseRequirement: CPulseCell_Base)
+CPulseCell_BaseValue
+	pulse_system.dll + 0xb0a98(hierarchy CPulseCell_BaseValue: CPulseCell_Base)
+CPulseCell_CursorQueue
+	pulse_system.dll + 0x1069e8(hierarchy CPulseCell_CursorQueue: CPulseCell_WaitForCursorsWithTagBase, CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_FireCursors
+	pulse_system.dll + 0xb6550(hierarchy CPulseCell_FireCursors: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_BaseEntrypoint
+	pulse_system.dll + 0xb0888(hierarchy CPulseCell_Inflow_BaseEntrypoint: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_EntOutputHandler
+	pulse_system.dll + 0xb09e8(hierarchy CPulseCell_Inflow_EntOutputHandler: CPulseCell_Inflow_BaseEntrypoint, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_EventHandler
+	pulse_system.dll + 0xb0938(hierarchy CPulseCell_Inflow_EventHandler: CPulseCell_Inflow_BaseEntrypoint, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_GraphHook
+	pulse_system.dll + 0xb0990(hierarchy CPulseCell_Inflow_GraphHook: CPulseCell_Inflow_BaseEntrypoint, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_Method
+	pulse_system.dll + 0xb08e0(hierarchy CPulseCell_Inflow_Method: CPulseCell_Inflow_BaseEntrypoint, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_ObservableVariableListener
+	pulse_system.dll + 0xb0a40(hierarchy CPulseCell_Inflow_ObservableVariableListener: CPulseCell_Inflow_BaseEntrypoint, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_Wait
+	pulse_system.dll + 0xb0be0(hierarchy CPulseCell_Inflow_Wait: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Inflow_Yield
+	pulse_system.dll + 0xb0b48(hierarchy CPulseCell_Inflow_Yield: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_LimitCount
+	pulse_system.dll + 0xb6848(hierarchy CPulseCell_LimitCount: CPulseCell_BaseRequirement, CPulseCell_Base)
+CPulseCell_Outflow_CycleOrdered
+	pulse_system.dll + 0xb0d28(hierarchy CPulseCell_Outflow_CycleOrdered: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Outflow_CycleRandom
+	pulse_system.dll + 0xb0d80(hierarchy CPulseCell_Outflow_CycleRandom: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Outflow_CycleShuffled
+	pulse_system.dll + 0xb0dd8(hierarchy CPulseCell_Outflow_CycleShuffled: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Outflow_IntSwitch
+	pulse_system.dll + 0xb0cd0(hierarchy CPulseCell_Outflow_IntSwitch: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Outflow_StringSwitch
+	pulse_system.dll + 0xb0c78(hierarchy CPulseCell_Outflow_StringSwitch: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Outflow_TestExplicitYesNo
+	pulse_system.dll + 0xb0e88(hierarchy CPulseCell_Outflow_TestExplicitYesNo: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Outflow_TestRandomYesNo
+	pulse_system.dll + 0xb0e30(hierarchy CPulseCell_Outflow_TestRandomYesNo: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_CallExternalMethod
+	pulse_system.dll + 0xb0fe8(hierarchy CPulseCell_Step_CallExternalMethod: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_DebugLog
+	pulse_system.dll + 0xb0f90(hierarchy CPulseCell_Step_DebugLog: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_PublicOutput
+	pulse_system.dll + 0xb0af0(hierarchy CPulseCell_Step_PublicOutput: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_TestDomainCreateFakeEntity
+	pulse_system.dll + 0xb5718(hierarchy CPulseCell_Step_TestDomainCreateFakeEntity: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_TestDomainDestroyFakeEntity
+	pulse_system.dll + 0xb5770(hierarchy CPulseCell_Step_TestDomainDestroyFakeEntity: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_TestDomainEntFire
+	pulse_system.dll + 0xb57c8(hierarchy CPulseCell_Step_TestDomainEntFire: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Step_TestDomainTracepoint
+	pulse_system.dll + 0xb56c0(hierarchy CPulseCell_Step_TestDomainTracepoint: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_TestWaitWithCursorState
+	pulse_system.dll + 0xb58e8(hierarchy CPulseCell_TestWaitWithCursorState: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Test_MultiInflow_NoDefault
+	pulse_system.dll + 0xb5a30(hierarchy CPulseCell_Test_MultiInflow_NoDefault: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Test_MultiInflow_WithDefault
+	pulse_system.dll + 0xb59d8(hierarchy CPulseCell_Test_MultiInflow_WithDefault: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Test_MultiOutflow_WithParams
+	pulse_system.dll + 0xb5a88(hierarchy CPulseCell_Test_MultiOutflow_WithParams: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Test_MultiOutflow_WithParams_Yielding
+	pulse_system.dll + 0xb5ae0(hierarchy CPulseCell_Test_MultiOutflow_WithParams_Yielding: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Test_NoInflow
+	pulse_system.dll + 0xb5980(hierarchy CPulseCell_Test_NoInflow: CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Timeline
+	pulse_system.dll + 0xb6a10(hierarchy CPulseCell_Timeline: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_Unknown
+	pulse_system.dll + 0xb1080(hierarchy CPulseCell_Unknown: CPulseCell_Base)
+CPulseCell_Val_TestDomainFindEntityByName
+	pulse_system.dll + 0xb5890(hierarchy CPulseCell_Val_TestDomainFindEntityByName: CPulseCell_BaseValue, CPulseCell_Base)
+CPulseCell_Val_TestDomainGetEntityName
+	pulse_system.dll + 0xb5838(hierarchy CPulseCell_Val_TestDomainGetEntityName: CPulseCell_BaseValue, CPulseCell_Base)
+CPulseCell_Value_RandomInt
+	pulse_system.dll + 0xb0f38(hierarchy CPulseCell_Value_RandomInt: CPulseCell_BaseValue, CPulseCell_Base)
+CPulseCell_Value_TestValue50
+	pulse_system.dll + 0xb0ee0(hierarchy CPulseCell_Value_TestValue50: CPulseCell_BaseValue, CPulseCell_Base)
+CPulseCell_WaitForCursorsWithTag
+	pulse_system.dll + 0x106640(hierarchy CPulseCell_WaitForCursorsWithTag: CPulseCell_WaitForCursorsWithTagBase, CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseCell_WaitForCursorsWithTagBase
+	pulse_system.dll + 0x106598(hierarchy CPulseCell_WaitForCursorsWithTagBase: CPulseCell_BaseYieldingInflow, CPulseCell_BaseFlow, CPulseCell_Base)
+CPulseGraphDef
+	pulse_system.dll + 0xadcf8(hierarchy CPulseGraphDef: IPulseGraphDef)
+CPulseInterfaceHelpers_Load_NoOp
+	pulse_system.dll + 0xad0e0(hierarchy CPulseInterfaceHelpers_Load_NoOp: CPulseInstanceLoadAPI_NoOp, IPulseInstanceLoadAPI, CKV3TransferInterface_GameTime_Load_NoOp, IKV3TransferInterface_GameTime_Load, CKV3TransferInterface_EHandle_Load_NoOp, IKV3TransferInterface_EHandle_Load)
+	pulse_system.dll + 0xad0f0 MI offset 8(hierarchy CKV3TransferInterface_GameTime_Load_NoOp: IKV3TransferInterface_GameTime_Load, CKV3TransferInterface_EHandle_Load_NoOp, IKV3TransferInterface_EHandle_Load)
+	pulse_system.dll + 0xad100 MI offset 16(hierarchy CKV3TransferInterface_EHandle_Load_NoOp: IKV3TransferInterface_EHandle_Load)
+CPulseInterfaceHelpers_Save_NoOp
+	pulse_system.dll + 0xacd00(hierarchy CPulseInterfaceHelpers_Save_NoOp: CPulseInstanceSaveAPI_NoOp, IPulseInstanceSaveAPI, CKV3TransferInterface_GameTime_Save_NoOp, IKV3TransferInterface_GameTime_Save, CKV3TransferInterface_EHandle_Save_NoOp, IKV3TransferInterface_EHandle_Save)
+	pulse_system.dll + 0xacd10 MI offset 8(hierarchy CKV3TransferInterface_GameTime_Save_NoOp: IKV3TransferInterface_GameTime_Save, CKV3TransferInterface_EHandle_Save_NoOp, IKV3TransferInterface_EHandle_Save)
+	pulse_system.dll + 0xacd20 MI offset 16(hierarchy CKV3TransferInterface_EHandle_Save_NoOp: IKV3TransferInterface_EHandle_Save)
+CPulseSystem
+	pulse_system.dll + 0x1046e8(hierarchy CPulseSystem: CTier3AppSystem<class IPulseSystem,0>, CTier2AppSystem<class IPulseSystem,0>, CTier1AppSystem<class IPulseSystem,0>, CTier0AppSystem<class IPulseSystem,0>, CBaseAppSystem<class IPulseSystem>, IPulseSystem, IAppSystem)
+CPulseTestGapTypeQueryRegistration
+	pulse_system.dll + 0xaee10(hierarchy CPulseTestGapTypeQueryRegistration: IGapTypeQueryRegistrationForScope)
+CPulseTestHandleService
+	pulse_system.dll + 0xaedd8(hierarchy CPulseTestHandleService: IGapTypeQueriesForScope)
+CPulseTypeManager
+	pulse_system.dll + 0x104990(hierarchy CPulseTypeManager: CKV3ResourceTypeManager<111546415280246>, IResourceTypeManager)
+CSchemaInstallCallback
+	pulse_system.dll + 0xb8d68(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_pulse_runtime_lib
+	pulse_system.dll + 0xadc78(hierarchy CSchemaRegistration_pulse_runtime_lib: CSchemaRegistration)
+CSchemaRegistration_pulse_system
+	pulse_system.dll + 0x106b10(hierarchy CSchemaRegistration_pulse_system: CSchemaRegistration)
+FakeEntityDerivedA_t
+	pulse_system.dll + 0xaf2b0(hierarchy FakeEntityDerivedA_t: FakeEntity_t)
+FakeEntityDerivedB_t
+	pulse_system.dll + 0xaf2e8(hierarchy FakeEntityDerivedB_t: FakeEntityDerivedA_t, FakeEntity_t)
+FakeEntity_t
+	pulse_system.dll + 0xaf0d8(hierarchy FakeEntity_t)
+IAsyncProcessedDataResult
+	pulse_system.dll + 0x104aa8(hierarchy IAsyncProcessedDataResult)
+PulseSystemEventBase_t
+	pulse_system.dll + 0x1048f8(hierarchy PulseSystemEventBase_t)
+PulseSystemEventCursorResult_t
+	pulse_system.dll + 0x104ac8(hierarchy PulseSystemEventCursorResult_t: PulseSystemEventBase_t)
+PulseSystemEventObservableVariableChanged_t
+	pulse_system.dll + 0x104a40(hierarchy PulseSystemEventObservableVariableChanged_t: PulseSystemEventBase_t)
+PulseSystemEventYieldResume_t
+	pulse_system.dll + 0x104938(hierarchy PulseSystemEventYieldResume_t: PulseSystemEventBase_t)
+SourceTS
+	pulse_system.dll + 0x104dc8(hierarchy SourceTS: ISourceTS, IPulseSystemListener)
+	pulse_system.dll + 0x104da0 MI offset 8(hierarchy IPulseSystemListener)
+V8HelpersImpl::V8WeakWrapper<class SourceTSHook>
+	pulse_system.dll + 0x105528(hierarchy V8HelpersImpl::V8WeakWrapper<class SourceTSHook>: V8HelpersImpl::V8WeakWrapperBase)
+V8HelpersImpl::V8WeakWrapper<class SourceTSMethod>
+	pulse_system.dll + 0x105508(hierarchy V8HelpersImpl::V8WeakWrapper<class SourceTSMethod>: V8HelpersImpl::V8WeakWrapperBase)
+V8HelpersImpl::V8WeakWrapper<class SourceTSObject>
+	pulse_system.dll + 0x1054f8(hierarchy V8HelpersImpl::V8WeakWrapper<class SourceTSObject>: V8HelpersImpl::V8WeakWrapperBase)
+V8HelpersImpl::V8WeakWrapperBase
+	pulse_system.dll + 0x105518(hierarchy V8HelpersImpl::V8WeakWrapperBase)
+std::_Func_impl_no_alloc<class GapBindingSchemaEnumTraits_t<enum PulseCursorCancelPriority_t>::<lambda_1>,class CPulseValueFullType>
+	pulse_system.dll + 0x103ac8(hierarchy std::_Func_impl_no_alloc<class GapBindingSchemaEnumTraits_t<enum PulseCursorCancelPriority_t>::<lambda_1>,class CPulseValueFullType>: std::_Func_base<class CPulseValueFullType>)
+std::_Func_impl_no_alloc<class GapBindingSchemaEnumTraits_t<enum PulseTestEnumColor_t>::<lambda_2>,class CPulseValueFullType>
+	pulse_system.dll + 0x104c78(hierarchy std::_Func_impl_no_alloc<class GapBindingSchemaEnumTraits_t<enum PulseTestEnumColor_t>::<lambda_2>,class CPulseValueFullType>: std::_Func_base<class CPulseValueFullType>)
+std::_Func_impl_no_alloc<class GapBindingSchemaEnumTraits_t<enum PulseTestEnumShape_t>::<lambda_3>,class CPulseValueFullType>
+	pulse_system.dll + 0x104c40(hierarchy std::_Func_impl_no_alloc<class GapBindingSchemaEnumTraits_t<enum PulseTestEnumShape_t>::<lambda_3>,class CPulseValueFullType>: std::_Func_base<class CPulseValueFullType>)
+std::_Func_impl_no_alloc<class `private: void __cdecl SourceTSDomain::BuildReachableTypeTemplates(void) __ptr64'::`2'::<lambda_1>,void,struct CGapScopedType_t const & __ptr64,class PulseMethodBindingInfo_t const * __ptr64>
+	pulse_system.dll + 0x105058(hierarchy std::_Func_impl_no_alloc<class `private: void __cdecl SourceTSDomain::BuildReachableTypeTemplates(void) __ptr64'::`2'::<lambda_1>,void,struct CGapScopedType_t const & __ptr64,class PulseMethodBindingInfo_t const * __ptr64>: std::_Func_base<void,struct CGapScopedType_t const & __ptr64,class PulseMethodBindingInfo_t const * __ptr64>)
+std::__non_rtti_object
+	pulse_system.dll + 0x107c48(hierarchy std::__non_rtti_object: std::bad_typeid, std::exception)
+std::bad_cast
+	pulse_system.dll + 0x107c18(hierarchy std::bad_cast: std::exception)
+std::bad_exception
+	pulse_system.dll + 0xb9f88(hierarchy std::bad_exception: std::exception)
+std::bad_function_call
+	pulse_system.dll + 0xb8de8(hierarchy std::bad_function_call: std::exception)
+std::bad_typeid
+	pulse_system.dll + 0x107c30(hierarchy std::bad_typeid: std::exception)
+std::exception
+	pulse_system.dll + 0xb8dd0(hierarchy std::exception)
+type_info
+	pulse_system.dll + 0xb9e48(hierarchy type_info)

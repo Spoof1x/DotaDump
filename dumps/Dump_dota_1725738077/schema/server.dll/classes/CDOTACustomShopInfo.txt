@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTACustomShopInfo (size: 0x180 bytes, project "server", binding @ server.dll + 0x39f6390, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkNoBase
+^MNetworkVarNames "m_CustomShopName char"
+^MNetworkVarNames "m_CustomShopItems CDOTACustomShopItemInfo"
+
+-----members of class CDOTACustomShopInfo-----
+	uint8_t[48] unaccounted(offset 0x0)
+	char[256] m_CustomShopName(offset 0x30, size 0x100, align 0x1)
+		^MNetworkEnable
+	CUtlVectorEmbeddedNetworkVar< CDOTACustomShopItemInfo > m_CustomShopItems(offset 0x130, size 0x50, align 0x8)
+		^MNetworkEnable
+

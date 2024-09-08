@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleTraceMissBehavior_t(size: 4 bytes, 3 values, project "particles", binding @ particles.dll + 0x5180e0):
+	PARTICLE_TRACE_MISS_BEHAVIOR_NONE = 0,
+		^MPropertyFriendlyName "Do Nothing"
+	PARTICLE_TRACE_MISS_BEHAVIOR_KILL = 1,
+		^MPropertyFriendlyName "Kill Particle"
+	PARTICLE_TRACE_MISS_BEHAVIOR_TRACE_END = 2,
+		^MPropertyFriendlyName "Place Particle at Trace End"

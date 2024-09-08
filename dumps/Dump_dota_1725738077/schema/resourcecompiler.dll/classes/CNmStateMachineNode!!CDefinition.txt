@@ -1,0 +1,35 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmStateMachineNode::CDefinition (size: 0x138 bytes, project "animlib", binding @ resourcecompiler.dll + 0x244aaf0, scope "resourcecompiler.dll") extends CNmPoseNode::CDefinition
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x862b30"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmPoseNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ resourcecompiler.dll + 0x2445570, scope "resourcecompiler.dll") extends CNmGraphNode::CDefinition
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmGraphNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ resourcecompiler.dll + 0x24454f0, scope "resourcecompiler.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+		
+		-----members of class CNmGraphNode::CDefinition-----
+			uint8_t[8] unaccounted(offset 0x0)
+			int16 m_nNodeIdx(offset 0x8, size 0x2, align 0x2)
+			uint8_t[6] unaccounted(offset 0xa)
+		
+	
+	-----members of class CNmPoseNode::CDefinition-----
+		<no members>
+	
+
+-----members of class CNmStateMachineNode::CDefinition-----
+	CUtlLeanVectorFixedGrowable< CNmStateMachineNode::StateDefinition_t, 5 > m_stateDefinitions(offset 0x10, size 0x120, align 0x8)
+	int16 m_nDefaultStateIndex(offset 0x130, size 0x2, align 0x2)
+	uint8_t[6] unaccounted(offset 0x132)
+

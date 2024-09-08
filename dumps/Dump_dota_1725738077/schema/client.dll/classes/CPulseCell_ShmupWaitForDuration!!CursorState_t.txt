@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_ShmupWaitForDuration::CursorState_t (size: 0xc bytes, project "client", binding @ client.dll + 0x48e4590, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x21d6390"
+
+-----members of class CPulseCell_ShmupWaitForDuration::CursorState_t-----
+	panorama::CPanelPtr m_hPanel(offset 0x0, size 0x8, align 0x4)
+	int32 m_nTargetTick(offset 0x8, size 0x4, align 0x4)
+

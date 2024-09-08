@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RnMesh_t (size: 0xa8 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a4000, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1388150"
+
+-----members of class RnMesh_t-----
+	Vector m_vMin(offset 0x0, size 0xc, align 0x4)
+	Vector m_vMax(offset 0xc, size 0xc, align 0x4)
+	CUtlVector< RnNode_t > m_Nodes(offset 0x18, size 0x18, align 0x8)
+	CUtlVectorSIMDPaddedVector m_Vertices(offset 0x30, size 0x18, align 0x8)
+	CUtlVector< RnTriangle_t > m_Triangles(offset 0x48, size 0x18, align 0x8)
+	CUtlVector< RnWing_t > m_Wings(offset 0x60, size 0x18, align 0x8)
+	CUtlVector< uint8 > m_Materials(offset 0x78, size 0x18, align 0x8)
+	Vector m_vOrthographicAreas(offset 0x90, size 0xc, align 0x4)
+	uint32 m_nFlags(offset 0x9c, size 0x4, align 0x4)
+	uint32 m_nDebugFlags(offset 0xa0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xa4)
+

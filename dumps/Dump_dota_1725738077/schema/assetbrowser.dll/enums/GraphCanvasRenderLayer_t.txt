@@ -1,0 +1,15 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum GraphCanvasRenderLayer_t(size: 4 bytes, 13 values, project "qcontrols", binding @ assetbrowser.dll + 0x1d4410):
+	INVALID = -1,
+	COMMENTS = 0,
+	CONNECTIONS_BACKGROUND = 1,
+	GROUP_BACKGROUND = 2,
+	DEFAULT = 3,
+	NODES = 4,
+	CONNECTIONS_FOREGROUND = 5,
+	COMMENT_OVERLAY = 6,
+	DEBUGGER_OVERLAY = 7,
+	SELECTION_OVERLAY = 8,
+	HOVER_OVERLAY = 9,
+	STANDARD_LAYER_COUNT = 10,
+	SPECIAL_LAYER_HOVER_TOOLTIP = 11,

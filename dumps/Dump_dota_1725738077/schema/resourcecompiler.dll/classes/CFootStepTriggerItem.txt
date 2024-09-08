@@ -1,0 +1,20 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFootStepTriggerItem (size: 0x40 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f0e00, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x59e240"
+^MPropertyFriendlyName "Item"
+^MPropertyElementNameFn "func: resourcecompiler.dll + 0x5b06e0"
+
+-----members of class CFootStepTriggerItem-----
+	CUtlString m_footName(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Foot"
+		^MPropertyAttributeChoiceName "Foot"
+	StepPhase m_triggerPhase(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Trigger Phase"
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlVector< CGlobalSymbol > m_tagNames(offset 0x10, size 0x18, align 0x8)
+		^MPropertyHideField
+	CUtlVector< AnimTagID > m_tagIDs(offset 0x28, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Tags"
+		^MPropertyAttributeChoiceName "Tag"
+

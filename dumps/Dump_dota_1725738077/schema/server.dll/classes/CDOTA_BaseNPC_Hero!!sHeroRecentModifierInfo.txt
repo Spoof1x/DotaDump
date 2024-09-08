@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTA_BaseNPC_Hero::sHeroRecentModifierInfo (size: 0x10 bytes, project "server", binding @ server.dll + 0x3aee8a0, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CDOTA_BaseNPC_Hero::sHeroRecentModifierInfo-----
+	PlayerID_t nSourcePlayerID(offset 0x0, size 0x4, align 0x0)
+	bool bBuff(offset 0x4, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x5)
+	int32 nAbilityIndex(offset 0x8, size 0x4, align 0x4)
+	GameTime_t fTime(offset 0xc, size 0x4, align 0x0)
+

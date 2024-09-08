@@ -1,0 +1,3 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EGCEconBaseMsg(size: 4 bytes, 1 values, project "client", binding @ client.dll + 0x4703f10):
+	k_EMsgGCGenericResult = 2579,

@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SceneOnPlayerDeath_t(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x3a7c410):
+	SCENE_ONPLAYERDEATH_DO_NOTHING = 0,
+	SCENE_ONPLAYERDEATH_CANCEL = 1,

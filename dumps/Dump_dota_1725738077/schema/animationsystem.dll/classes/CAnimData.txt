@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimData (size: 0x70 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f17a0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x4b790"
+
+-----members of class CAnimData-----
+	uint8_t[16] unaccounted(offset 0x0)
+	CBufferString m_name(offset 0x10, size 0x10, align 0x8)
+	CUtlVector< CAnimDesc > m_animArray(offset 0x20, size 0x18, align 0x8)
+	CUtlVector< CAnimDecoder > m_decoderArray(offset 0x38, size 0x18, align 0x8)
+	int32 m_nMaxUniqueFrameIndex(offset 0x50, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x54)
+	CUtlVector< CAnimFrameSegment > m_segmentArray(offset 0x58, size 0x18, align 0x8)
+

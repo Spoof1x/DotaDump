@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CEmitTagActionUpdater (size: 0x20 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242d210, scope "resourcecompiler.dll") extends CAnimActionUpdater
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x768470"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimActionUpdater (size: 0x18 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x241bab0, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimActionUpdater-----
+		uint8_t[24] unaccounted(offset 0x0)
+	
+
+-----members of class CEmitTagActionUpdater-----
+	int32 m_nTagIndex(offset 0x18, size 0x4, align 0x4)
+	bool m_bIsZeroDuration(offset 0x1c, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x1d)
+

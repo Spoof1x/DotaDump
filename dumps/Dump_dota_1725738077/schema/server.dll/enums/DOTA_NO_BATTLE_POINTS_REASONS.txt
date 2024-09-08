@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTA_NO_BATTLE_POINTS_REASONS(size: 4 bytes, 4 values, project "server", binding @ server.dll + 0x38e1c70):
+	NO_BATTLE_POINTS_WRONG_LOBBY_TYPE = 1,
+	NO_BATTLE_POINTS_PRACTICE_BOTS = 2,
+	NO_BATTLE_POINTS_CHEATS_ENABLED = 3,
+	NO_BATTLE_POINTS_LOW_PRIORITY = 4,

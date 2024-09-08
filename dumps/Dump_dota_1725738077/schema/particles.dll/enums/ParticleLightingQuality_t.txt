@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleLightingQuality_t(size: 4 bytes, 3 values, project "particles", binding @ particles.dll + 0x518ad0):
+	PARTICLE_LIGHTING_PER_PARTICLE = 0,
+		^MPropertyFriendlyName "Per-Particle Lighting"
+	PARTICLE_LIGHTING_PER_VERTEX = 1,
+		^MPropertyFriendlyName "Per-Vertex Lighting"
+	PARTICLE_LIGHTING_PER_PIXEL = -1,
+		^MPropertyFriendlyName "Per-Pixel Lighting"

@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSSDSMsg_PreLayer (size: 0x38 bytes, project "scenesystem", binding @ scenesystem.dll + 0x5c3c00, scope "!GlobalTypes") extends CSSDSMsg_LayerBase
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: scenesystem.dll + 0x171930"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSSDSMsg_LayerBase (size: 0x38 bytes, project "scenesystem", binding @ scenesystem.dll + 0x5c3ea0, scope "!GlobalTypes")
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: scenesystem.dll + 0x1705d0"
+	
+	-----members of class CSSDSMsg_LayerBase-----
+		SceneViewId_t m_viewId(offset 0x0, size 0x10, align 0x8)
+		CUtlString m_ViewName(offset 0x10, size 0x8, align 0x8)
+		int32 m_nLayerIndex(offset 0x18, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x1c)
+		uint64 m_nLayerId(offset 0x20, size 0x8, align 0x8)
+		CUtlString m_LayerName(offset 0x28, size 0x8, align 0x8)
+		CUtlString m_displayText(offset 0x30, size 0x8, align 0x8)
+	
+
+-----members of class CSSDSMsg_PreLayer-----
+	<no members>
+

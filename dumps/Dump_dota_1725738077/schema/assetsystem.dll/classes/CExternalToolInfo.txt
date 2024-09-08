@@ -1,0 +1,30 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CExternalToolInfo (size: 0x80 bytes, project "toolutils2", binding @ assetsystem.dll + 0x4d7830, scope "!GlobalTypes") extends CBaseToolInfo
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: assetsystem.dll + 0x300340"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBaseToolInfo (size: 0x20 bytes, project "toolutils2", binding @ assetsystem.dll + 0x4d74b0, scope "!GlobalTypes")
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: assetsystem.dll + 0x2ff980"
+	
+	-----members of class CBaseToolInfo-----
+		CUtlString m_Name(offset 0x0, size 0x8, align 0x8)
+		CUtlString m_OverrideToolShortcutName(offset 0x8, size 0x8, align 0x8)
+		CUtlString m_FriendlyName(offset 0x10, size 0x8, align 0x8)
+		CUtlString m_ToolIcon(offset 0x18, size 0x8, align 0x8)
+	
+
+-----members of class CExternalToolInfo-----
+	CUtlString m_Executable(offset 0x20, size 0x8, align 0x8)
+	CUtlString m_Args(offset 0x28, size 0x8, align 0x8)
+	CUtlString m_ArgsWithLineColumn(offset 0x30, size 0x8, align 0x8)
+	CUtlString m_WorkingDir(offset 0x38, size 0x8, align 0x8)
+	CUtlString m_MatchSystemExecutable(offset 0x40, size 0x8, align 0x8)
+	CUtlVector< CUtlString > m_SupportedExts(offset 0x48, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_PriorityExts(offset 0x60, size 0x18, align 0x8)
+	bool m_bDebugCommandline(offset 0x78, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x79)
+

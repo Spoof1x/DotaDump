@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseGraphDef (size: 0x178 bytes, project "pulse_runtime_lib", binding @ assetpreview.dll + 0x4ff1c0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: assetpreview.dll + 0x2bc120"
+
+-----members of class CPulseGraphDef-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlSymbolLarge m_DomainIdentifier(offset 0x8, size 0x8, align 0x8)
+	CUtlSymbolLarge m_ParentMapName(offset 0x10, size 0x8, align 0x8)
+	CUtlSymbolLarge m_ParentXmlName(offset 0x18, size 0x8, align 0x8)
+	CUtlVector< CUtlSymbolLarge > m_vecGameBlackboards(offset 0x20, size 0x18, align 0x8)
+	CUtlVector< CPulse_Chunk* > m_Chunks(offset 0x38, size 0x18, align 0x8)
+	CUtlVector< CPulseCell_Base* > m_Cells(offset 0x50, size 0x18, align 0x8)
+	CUtlVector< CPulse_Variable > m_Vars(offset 0x68, size 0x18, align 0x8)
+	CUtlVector< CPulse_PublicOutput > m_PublicOutputs(offset 0x80, size 0x18, align 0x8)
+	CUtlVector< CPulse_InvokeBinding* > m_InvokeBindings(offset 0x98, size 0x18, align 0x8)
+	CUtlVector< CPulse_CallInfo* > m_CallInfos(offset 0xb0, size 0x18, align 0x8)
+	CUtlVector< CPulse_Constant > m_Constants(offset 0xc8, size 0x18, align 0x8)
+	CUtlVector< CPulse_DomainValue > m_DomainValues(offset 0xe0, size 0x18, align 0x8)
+	CUtlVector< CPulse_BlackboardReference > m_BlackboardReferences(offset 0xf8, size 0x18, align 0x8)
+	CUtlVector< CPulse_OutputConnection* > m_OutputConnections(offset 0x110, size 0x18, align 0x8)
+	uint8_t[80] unaccounted(offset 0x128)
+

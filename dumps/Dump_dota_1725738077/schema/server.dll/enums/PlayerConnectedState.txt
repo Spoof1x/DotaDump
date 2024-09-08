@@ -1,0 +1,9 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PlayerConnectedState(size: 4 bytes, 7 values, project "server", binding @ server.dll + 0x38a0010):
+	PlayerNeverConnected = -1,
+	PlayerConnected = 0,
+	PlayerConnecting = 1,
+	PlayerReconnecting = 2,
+	PlayerDisconnecting = 3,
+	PlayerDisconnected = 4,
+	PlayerReserved = 5,

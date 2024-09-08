@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AggregateSceneObject_t (size: 0x78 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24f3a70, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x366720"
+
+-----members of class AggregateSceneObject_t-----
+	ObjectTypeFlags_t m_allFlags(offset 0x0, size 0x4, align 0x4)
+	ObjectTypeFlags_t m_anyFlags(offset 0x4, size 0x4, align 0x4)
+	int16 m_nLayer(offset 0x8, size 0x2, align 0x2)
+	uint8_t[6] unaccounted(offset 0xa)
+	CUtlVector< AggregateMeshInfo_t > m_aggregateMeshes(offset 0x10, size 0x18, align 0x8)
+	CUtlVector< AggregateLODSetup_t > m_lodSetups(offset 0x28, size 0x18, align 0x8)
+	CUtlVector< uint16 > m_visClusterMembership(offset 0x40, size 0x18, align 0x8)
+	CUtlVector< matrix3x4_t > m_fragmentTransforms(offset 0x58, size 0x18, align 0x8)
+	CStrongHandle< InfoForResourceTypeCModel > m_renderableModel(offset 0x70, size 0x8, align 0x8)
+

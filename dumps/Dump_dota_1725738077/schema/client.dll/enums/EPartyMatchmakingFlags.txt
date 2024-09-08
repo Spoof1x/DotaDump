@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EPartyMatchmakingFlags(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x46ff4f0):
+	k_EPartyMatchmakingFlags_None = 0,
+	k_EPartyMatchmakingFlags_LargeRankSpread = 1,

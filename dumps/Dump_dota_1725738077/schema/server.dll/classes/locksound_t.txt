@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class locksound_t (size: 0x20 bytes, project "server", binding @ server.dll + 0x38cdd40, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class locksound_t-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlSymbolLarge sLockedSound(offset 0x8, size 0x8, align 0x8)
+	CUtlSymbolLarge sUnlockedSound(offset 0x10, size 0x8, align 0x8)
+	GameTime_t flwaitSound(offset 0x18, size 0x4, align 0x0)
+	uint8_t[4] unaccounted(offset 0x1c)
+

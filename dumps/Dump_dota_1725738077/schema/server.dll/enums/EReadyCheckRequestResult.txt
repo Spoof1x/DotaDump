@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EReadyCheckRequestResult(size: 4 bytes, 5 values, project "server", binding @ server.dll + 0x38db180):
+	k_EReadyCheckRequestResult_Success = 0,
+	k_EReadyCheckRequestResult_AlreadyInProgress = 1,
+	k_EReadyCheckRequestResult_NotInParty = 2,
+	k_EReadyCheckRequestResult_SendError = 3,
+	k_EReadyCheckRequestResult_UnknownError = 4,

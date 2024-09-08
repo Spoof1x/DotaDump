@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSoundContainerReference (size: 0x18 bytes, project "soundsystem_voicecontainers", binding @ resourcecompiler.dll + 0x24c13b0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1652ca0"
+^MPropertyFriendlyName "Sound"
+^MPropertyDescription "Reference to a vsnd file or another container."
+
+-----members of class CSoundContainerReference-----
+	bool m_bUseReference(offset 0x0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Use Vsnd File"
+	uint8_t[7] unaccounted(offset 0x1)
+	CStrongHandle< InfoForResourceTypeCVoiceContainerBase > m_sound(offset 0x8, size 0x8, align 0x8)
+		^MPropertySuppressExpr "m_bUseReference == 0"
+		^MPropertyFriendlyName "Vsnd File"
+	CVoiceContainerBase* m_pSound(offset 0x10, size 0x8, align 0x8)
+		^MPropertySuppressExpr "m_bUseReference == 1"
+		^MPropertyFriendlyName "Vsnd Container"
+

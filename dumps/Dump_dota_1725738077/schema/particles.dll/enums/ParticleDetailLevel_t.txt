@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleDetailLevel_t(size: 4 bytes, 4 values, project "particles", binding @ particles.dll + 0x51a3d0):
+	PARTICLEDETAIL_LOW = 0,
+		^MPropertyFriendlyName "Low"
+	PARTICLEDETAIL_MEDIUM = 1,
+		^MPropertyFriendlyName "Medium"
+	PARTICLEDETAIL_HIGH = 2,
+		^MPropertyFriendlyName "High"
+	PARTICLEDETAIL_ULTRA = 3,
+		^MPropertyFriendlyName "Ultra"

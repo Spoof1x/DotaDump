@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMotionSearchDB (size: 0xb8 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242fdc0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x77fec0"
+
+-----members of class CMotionSearchDB-----
+	CMotionSearchNode m_rootNode(offset 0x0, size 0x80, align 0x8)
+	CProductQuantizer m_residualQuantizer(offset 0x80, size 0x20, align 0x8)
+	CUtlVector< MotionDBIndex > m_codeIndices(offset 0xa0, size 0x18, align 0x8)
+

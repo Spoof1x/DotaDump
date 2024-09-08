@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBasePulseGraphInstance (size: 0xf8 bytes, project "pulse_runtime_lib", binding @ toolscenenodes.dll + 0xbeed90, scope "toolscenenodes.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MPulseInstanceDomainInfo "ptr: toolscenenodes.dll + 0xbf96b0"
+^MPulseDomainHiddenInTool
+
+-----members of class CBasePulseGraphInstance-----
+	uint8_t[248] unaccounted(offset 0x0)
+

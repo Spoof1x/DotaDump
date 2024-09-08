@@ -1,0 +1,38 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_GraphMotionItem (size: 0x100 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f6900, scope "!GlobalTypes") extends CAnimGraphDoc_MotionItem
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5cf220"
+^MPropertyFriendlyName "Motion Graph"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_MotionItem (size: 0xa8 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f6640, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_MotionItem-----
+		uint8_t[40] unaccounted(offset 0x0)
+		CAnimGraphDoc_MotionParameterManager m_paramManager(offset 0x28, size 0x28, align 0x8)
+			^MPropertyHideField
+		CUtlVector< CSmartPtr< CAnimGraphDoc_TagSpan > > m_blockSpans(offset 0x50, size 0x18, align 0x8)
+			^MPropertyHideField
+		CUtlVector< CSmartPtr< CAnimGraphDoc_TagSpan > > m_tagSpans(offset 0x68, size 0x18, align 0x8)
+			^MPropertyHideField
+		CUtlVector< CSmartPtr< CAnimGraphDoc_ParamSpan > > m_paramSpans(offset 0x80, size 0x18, align 0x8)
+			^MPropertyHideField
+		uint8_t[8] unaccounted(offset 0x98)
+		bool m_bLoop(offset 0xa0, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Loop"
+		uint8_t[7] unaccounted(offset 0xa1)
+	
+
+-----members of class CAnimGraphDoc_GraphMotionItem-----
+	CUtlString m_name(offset 0xa8, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Name"
+	CAnimGraphDoc_MotionNodeManager m_nodeManager(offset 0xb0, size 0x50, align 0x8)
+		^MPropertyHideField
+

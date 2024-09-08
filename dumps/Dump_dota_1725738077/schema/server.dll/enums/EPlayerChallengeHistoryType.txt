@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EPlayerChallengeHistoryType(size: 4 bytes, 6 values, project "server", binding @ server.dll + 0x38e2730):
+	k_EPlayerChallengeHistoryType_Invalid = 0,
+	k_EPlayerChallengeHistoryType_KillEater = 1,
+	k_EPlayerChallengeHistoryType_DotaPlusRelic = 2,
+	k_EPlayerChallengeHistoryType_DotaPlusHeroPlayerChallenge = 3,
+	k_EPlayerChallengeHistoryType_InGameEventChallenge = 4,
+	k_EPlayerChallengeHistoryType_GuildContract = 5,

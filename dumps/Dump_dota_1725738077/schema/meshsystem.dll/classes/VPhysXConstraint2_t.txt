@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VPhysXConstraint2_t (size: 0x100 bytes, project "modellib", binding @ meshsystem.dll + 0x11a020, scope "meshsystem.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x77640"
+
+-----members of class VPhysXConstraint2_t-----
+	uint32 m_nFlags(offset 0x0, size 0x4, align 0x4)
+	uint16 m_nParent(offset 0x4, size 0x2, align 0x2)
+	uint16 m_nChild(offset 0x6, size 0x2, align 0x2)
+	VPhysXConstraintParams_t m_params(offset 0x8, size 0xf8, align 0x4)
+

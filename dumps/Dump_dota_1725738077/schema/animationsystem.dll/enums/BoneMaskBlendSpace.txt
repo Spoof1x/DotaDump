@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum BoneMaskBlendSpace(size: 4 bytes, 4 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a2820):
+	BlendSpace_Parent = 0,
+		^MPropertyFriendlyName "Parent Space"
+	BlendSpace_Model = 1,
+		^MPropertyFriendlyName "Model Space"
+	BlendSpace_Model_RotationOnly = 2,
+		^MPropertyFriendlyName "Model Space, Rotation Only"
+	BlendSpace_Model_TranslationOnly = 3,
+		^MPropertyFriendlyName "Model Space, Translation Only"

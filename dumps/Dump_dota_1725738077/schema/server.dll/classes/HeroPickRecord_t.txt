@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class HeroPickRecord_t (size: 0xc bytes, project "server", binding @ server.dll + 0x39fd080, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class HeroPickRecord_t-----
+	HeroPickType eType(offset 0x0, size 0x4, align 0x4)
+	HeroID_t nHeroID(offset 0x4, size 0x4, align 0x0)
+	int32 nTeam(offset 0x8, size 0x4, align 0x4)
+

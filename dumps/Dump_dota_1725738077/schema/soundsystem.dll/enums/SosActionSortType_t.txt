@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SosActionSortType_t(size: 4 bytes, 2 values, project "soundsystem", binding @ soundsystem.dll + 0x39fe50):
+	SOS_SORTTYPE_HIGHEST = 0,
+		^MPropertyFriendlyName "Highest"
+	SOS_SORTTYPE_LOWEST = 1,
+		^MPropertyFriendlyName "Lowest"

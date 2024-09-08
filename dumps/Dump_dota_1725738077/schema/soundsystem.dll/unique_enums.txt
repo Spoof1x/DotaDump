@@ -1,0 +1,13 @@
+ActionType_t
+SosActionSortType_t
+SosActionStopType_t
+SosEditItemType_t
+SosGroupType_t
+VMixChannelOperation_t
+VMixFilterSlope_t
+VMixFilterType_t
+VMixLFOShape_t
+VMixPannerType_t
+VMixProcessorType_t
+VMixSubgraphSwitchInterpolationType_t
+soundlevel_t

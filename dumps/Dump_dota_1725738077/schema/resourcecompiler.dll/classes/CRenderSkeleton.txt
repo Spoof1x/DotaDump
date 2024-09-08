@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CRenderSkeleton (size: 0x50 bytes, project "modellib", binding @ resourcecompiler.dll + 0x2495db0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x115fb70"
+
+-----members of class CRenderSkeleton-----
+	CUtlVector< RenderSkeletonBone_t > m_bones(offset 0x0, size 0x18, align 0x8)
+	uint8_t[24] unaccounted(offset 0x18)
+	CUtlVector< int32 > m_boneParents(offset 0x30, size 0x18, align 0x8)
+	int32 m_nBoneWeightCount(offset 0x48, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4c)
+

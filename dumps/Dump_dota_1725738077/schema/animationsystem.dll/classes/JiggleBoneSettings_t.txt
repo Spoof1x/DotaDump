@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class JiggleBoneSettings_t (size: 0x2c bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a29b0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x15fe70"
+
+-----members of class JiggleBoneSettings_t-----
+	int32 m_nBoneIndex(offset 0x0, size 0x4, align 0x4)
+	float32 m_flSpringStrength(offset 0x4, size 0x4, align 0x4)
+	float32 m_flMaxTimeStep(offset 0x8, size 0x4, align 0x4)
+	float32 m_flDamping(offset 0xc, size 0x4, align 0x4)
+	Vector m_vBoundsMaxLS(offset 0x10, size 0xc, align 0x4)
+	Vector m_vBoundsMinLS(offset 0x1c, size 0xc, align 0x4)
+	JiggleBoneSimSpace m_eSimSpace(offset 0x28, size 0x4, align 0x4)
+

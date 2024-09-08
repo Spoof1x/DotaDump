@@ -1,0 +1,35 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSingleplayRules (size: 0xc8 bytes, project "server", binding @ server.dll + 0x38a1390, scope "server.dll") extends CGameRules
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CGameRules (size: 0xc0 bytes, project "server", binding @ server.dll + 0x389e6d0, scope "server.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+	| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+	^MNetworkVarNames "m_nTotalPausedTicks int"
+	^MNetworkVarNames "m_nPauseStartTick int"
+	^MNetworkVarNames "m_bGamePaused bool"
+	
+	-----members of class CGameRules-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CNetworkVarChainer __m_pChainEntity(offset 0x8, size 0x28, align 0x0)
+			^MNetworkDisable
+			^MNetworkChangeAccessorFieldPathIndex
+		char[128] m_szQuestName(offset 0x30, size 0x80, align 0x1)
+		int32 m_nQuestPhase(offset 0xb0, size 0x4, align 0x4)
+		int32 m_nTotalPausedTicks(offset 0xb4, size 0x4, align 0x4)
+			^MNetworkEnable
+		int32 m_nPauseStartTick(offset 0xb8, size 0x4, align 0x4)
+			^MNetworkEnable
+		bool m_bGamePaused(offset 0xbc, size 0x1, align 0x1)
+			^MNetworkEnable
+		uint8_t[3] unaccounted(offset 0xbd)
+	
+
+-----members of class CSingleplayRules-----
+	bool m_bSinglePlayerGameEnding(offset 0xc0, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0xc1)
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ParticlePreviewBodyGroup_t (size: 0x10 bytes, project "particles", binding @ particles.dll + 0x519200, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x78f20"
+
+-----members of class ParticlePreviewBodyGroup_t-----
+	CUtlString m_bodyGroupName(offset 0x0, size 0x8, align 0x8)
+	int32 m_nValue(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+

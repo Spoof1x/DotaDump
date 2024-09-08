@@ -1,0 +1,49 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_ComputeCrossProduct3D (size: 0xd8 bytes, project "smartprops", binding @ pet.dll + 0xd1dca0, scope "pet.dll") extends CSmartPropOperation
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: pet.dll + 0x940950"
+^MPropertyFriendlyName "Cross Product"
+^MPropertyDescription "Compute a dot or cross product between two 3D vectors"
+^MVDataClassGroup "Compute"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ pet.dll + 0xd1aa80, scope "pet.dll") extends CSmartPropModifier
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: pet.dll + 0x623c0"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ pet.dll + 0xd1bb40, scope "pet.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: pet.dll + 0x623c0"
+		^MVDataBase
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		
+		-----members of class CSmartPropModifier-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+				^MVDataEnableKey
+			uint8_t[8] unaccounted(offset 0x48)
+		
+	
+	-----members of class CSmartPropOperation-----
+		<no members>
+	
+
+-----members of class CSmartPropOperation_ComputeCrossProduct3D-----
+	CUtlString m_OutputVariableName(offset 0x50, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Output Variable"
+		^MPropertyAttributeEditor "SmartPropItemNameEditor( Variable:Vector3 )"
+	CSmartPropAttributeVector m_InputVectorA(offset 0x58, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Vector A"
+	CSmartPropAttributeVector m_InputVectorB(offset 0x98, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Vector B"
+

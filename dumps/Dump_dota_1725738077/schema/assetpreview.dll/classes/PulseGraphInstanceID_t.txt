@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PulseGraphInstanceID_t (size: 0x4 bytes, project "pulse_runtime_lib", binding @ assetpreview.dll + 0x4fa280, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class PulseGraphInstanceID_t-----
+	static bool IS_TYPESAFE_INTEGER(assetpreview.dll + 0x409348)
+
+-----members of class PulseGraphInstanceID_t-----
+	uint32 m_Value(offset 0x0, size 0x4, align 0x4)
+

@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMatch3OpponentActionInstanceDefinition (size: 0x20 bytes, project "client", binding @ client.dll + 0x48df7b0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x215c8f0"
+
+-----members of class CMatch3OpponentActionInstanceDefinition-----
+	CUtlString m_sActionName(offset 0x0, size 0x8, align 0x8)
+	float32 m_flCooldown(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+	KeyValues3 m_kvActionParams(offset 0x10, size 0x10, align 0x8)
+

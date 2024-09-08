@@ -1,0 +1,281 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class DataTeamPlayer_t (size: 0x558 bytes, project "client", binding @ client.dll + 0x489c8e0, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_iReliableGold int"
+^MNetworkVarNames "m_iUnreliableGold int"
+^MNetworkVarNames "m_iStartingPosition int"
+^MNetworkVarNames "m_iTotalEarnedGold int"
+^MNetworkVarNames "m_iTotalEarnedXP int"
+^MNetworkVarNames "m_iSharedGold int"
+^MNetworkVarNames "m_iHeroKillGold int"
+^MNetworkVarNames "m_iCreepKillGold int"
+^MNetworkVarNames "m_iNeutralKillGold int"
+^MNetworkVarNames "m_iCourierGold int"
+^MNetworkVarNames "m_iBountyGold int"
+^MNetworkVarNames "m_iRoshanGold int"
+^MNetworkVarNames "m_iBuildingGold int"
+^MNetworkVarNames "m_iOtherGold int"
+^MNetworkVarNames "m_iComebackGold int"
+^MNetworkVarNames "m_iExperimentalGold int"
+^MNetworkVarNames "m_iExperimental2Gold int"
+^MNetworkVarNames "m_iCreepDenyGold int"
+^MNetworkVarNames "m_iTPScrollsPurchased int"
+^MNetworkVarNames "m_flCustomStats float"
+^MNetworkVarNames "m_iIncomeGold int"
+^MNetworkVarNames "m_iWardKillGold int"
+^MNetworkVarNames "m_iAbilityGold int"
+^MNetworkVarNames "m_iNetWorth int"
+^MNetworkVarNames "m_iDenyCount int"
+^MNetworkVarNames "m_iLastHitCount int"
+^MNetworkVarNames "m_iLastHitStreak int"
+^MNetworkVarNames "m_iLastHitMultikill int"
+^MNetworkVarNames "m_iNearbyCreepDeathCount int"
+^MNetworkVarNames "m_iClaimedDenyCount int"
+^MNetworkVarNames "m_iClaimedMissCount int"
+^MNetworkVarNames "m_iMissCount int"
+^MNetworkVarNames "m_nPossibleHeroSelection HeroID_t"
+^MNetworkVarNames "m_nPossibleHeroFacetSelection HeroFacetID_t"
+^MNetworkVarNames "m_flBuybackCooldownTime GameTime_t"
+^MNetworkVarNames "m_flBuybackGoldLimitTime GameTime_t"
+^MNetworkVarNames "m_flBuybackCostTime float"
+^MNetworkVarNames "m_flCustomBuybackCooldown float"
+^MNetworkVarNames "m_fStuns float"
+^MNetworkVarNames "m_fHealing float"
+^MNetworkVarNames "m_fRegeneratedHealth float"
+^MNetworkVarNames "m_iTowerKills int"
+^MNetworkVarNames "m_iRoshanKills int"
+^MNetworkVarNames "m_hCameraTarget EHANDLE"
+^MNetworkVarNames "m_hOverrideSelectionEntity EHANDLE"
+^MNetworkVarNames "m_iObserverWardsPlaced int"
+^MNetworkVarNames "m_iSentryWardsPlaced int"
+^MNetworkVarNames "m_iCreepsStacked int"
+^MNetworkVarNames "m_iCampsStacked int"
+^MNetworkVarNames "m_iRunePickups int"
+^MNetworkVarNames "m_iGoldSpentOnSupport int"
+^MNetworkVarNames "m_iHeroDamage int"
+^MNetworkVarNames "m_iTowerDamage int"
+^MNetworkVarNames "m_iWardsPurchased int"
+^MNetworkVarNames "m_iWardsDestroyed int"
+^MNetworkVarNames "m_PreGameInventory CDOTA_UnitInventory"
+^MNetworkVarNames "m_nKillsPerOpposingTeamMember int"
+^MNetworkVarNames "m_iSuggestedAbilities AbilityID_t"
+^MNetworkVarNames "m_fSuggestedAbilityWeights float"
+^MNetworkVarNames "m_iSuggestedPregameItems AbilityID_t"
+^MNetworkVarNames "m_iSuggestedItemSequences AbilityID_t"
+^MNetworkVarNames "m_iSuggestedWeightedItems WeightedAbilitySuggestion_t"
+^MNetworkVarNames "m_iSuggestedTopNItems WeightedAbilitySuggestion_t"
+^MNetworkVarNames "m_iSuggestedNeutralItems WeightedAbilitySuggestion_t"
+^MNetworkVarNames "m_iSuggestedHeroes HeroID_t"
+^MNetworkVarNames "m_flSuggestedHeroesWeights float"
+^MNetworkVarNames "m_iDamageByTypeReceivedPreReduction int"
+^MNetworkVarNames "m_iDamageByTypeReceivedPostReduction int"
+^MNetworkVarNames "m_iOutgoingDamageByTypePreReduction int"
+^MNetworkVarNames "m_iOutgoingDamageByTypePostReduction int"
+^MNetworkVarNames "m_uSelectedOverworldID OverworldID_t"
+^MNetworkVarNames "m_uSelectedOverworldTokenRewards OverworldTokenID_t"
+^MNetworkVarNames "m_iCommandsIssued int"
+^MNetworkVarNames "m_iGoldSpentOnConsumables int"
+^MNetworkVarNames "m_iGoldSpentOnItems int"
+^MNetworkVarNames "m_iGoldSpentOnBuybacks int"
+^MNetworkVarNames "m_iGoldLostToDeath int"
+^MNetworkVarNames "m_bIsNewPlayer bool"
+^MNetworkVarNames "m_bIsGuidePlayer bool"
+^MNetworkVarNames "m_iPlayerSteamID uint64"
+^MNetworkVarNames "m_iSmokesUsed int"
+^MNetworkVarNames "m_iNeutralTokensFound int"
+^MNetworkVarNames "m_iWatchersTaken int"
+^MNetworkVarNames "m_iLotusesTaken int"
+^MNetworkVarNames "m_iTormentorKills int"
+^MNetworkVarNames "m_iCourierKills int"
+
+-----members of class DataTeamPlayer_t-----
+	uint8_t[48] unaccounted(offset 0x0)
+	int32 m_iReliableGold(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkPriority "48"
+	int32 m_iUnreliableGold(offset 0x34, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkPriority "48"
+	int32 m_iStartingPosition(offset 0x38, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnStartingPositionsChanged"
+	int32 m_iTotalEarnedGold(offset 0x3c, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkPriority "32"
+	int32 m_iTotalEarnedXP(offset 0x40, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iSharedGold(offset 0x44, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iHeroKillGold(offset 0x48, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iCreepKillGold(offset 0x4c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iNeutralKillGold(offset 0x50, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iCourierGold(offset 0x54, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iBountyGold(offset 0x58, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iRoshanGold(offset 0x5c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iBuildingGold(offset 0x60, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iOtherGold(offset 0x64, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iComebackGold(offset 0x68, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iExperimentalGold(offset 0x6c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iExperimental2Gold(offset 0x70, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iCreepDenyGold(offset 0x74, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iTPScrollsPurchased(offset 0x78, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flCustomStats(offset 0x7c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iIncomeGold(offset 0x80, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iWardKillGold(offset 0x84, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iAbilityGold(offset 0x88, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iNetWorth(offset 0x8c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iDenyCount(offset 0x90, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iLastHitCount(offset 0x94, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iLastHitStreak(offset 0x98, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iLastHitMultikill(offset 0x9c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iNearbyCreepDeathCount(offset 0xa0, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iClaimedDenyCount(offset 0xa4, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iClaimedMissCount(offset 0xa8, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iMissCount(offset 0xac, size 0x4, align 0x4)
+		^MNetworkEnable
+	HeroID_t m_nPossibleHeroSelection(offset 0xb0, size 0x4, align 0x0)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnSelectionDirty"
+	HeroFacetID_t m_nPossibleHeroFacetSelection(offset 0xb4, size 0x4, align 0x0)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnSelectionDirty"
+	GameTime_t m_flBuybackCooldownTime(offset 0xb8, size 0x4, align 0x0)
+		^MNetworkEnable
+	GameTime_t m_flBuybackGoldLimitTime(offset 0xbc, size 0x4, align 0x0)
+		^MNetworkEnable
+	float32 m_flBuybackCostTime(offset 0xc0, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flCustomBuybackCooldown(offset 0xc4, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_fStuns(offset 0xc8, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_fHealing(offset 0xcc, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_fRegeneratedHealth(offset 0xd0, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iTowerKills(offset 0xd4, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iRoshanKills(offset 0xd8, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hCameraTarget(offset 0xdc, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hOverrideSelectionEntity(offset 0xe0, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iObserverWardsPlaced(offset 0xe4, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iSentryWardsPlaced(offset 0xe8, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iCreepsStacked(offset 0xec, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iCampsStacked(offset 0xf0, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iRunePickups(offset 0xf4, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iGoldSpentOnSupport(offset 0xf8, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iHeroDamage(offset 0xfc, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iTowerDamage(offset 0x100, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iWardsPurchased(offset 0x104, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iWardsDestroyed(offset 0x108, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x10c)
+	C_DOTA_UnitInventory m_PreGameInventory(offset 0x110, size 0xd0, align 0x0)
+		^MNetworkEnable
+	int32[24] m_nKillsPerOpposingTeamMember(offset 0x1e0, size 0x60, align 0x4)
+		^MNetworkEnable
+	AbilityID_t[5] m_iSuggestedAbilities(offset 0x240, size 0x14, align 0x4)
+		^MNetworkEnable
+	float32[5] m_fSuggestedAbilityWeights(offset 0x254, size 0x14, align 0x4)
+		^MNetworkEnable
+	AbilityID_t[15] m_iSuggestedPregameItems(offset 0x268, size 0x3c, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnSuggestedItemsChanged"
+	AbilityID_t[30] m_iSuggestedItemSequences(offset 0x2a4, size 0x78, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnSuggestedItemsChanged"
+	WeightedAbilitySuggestion_t[15] m_iSuggestedWeightedItems(offset 0x31c, size 0x78, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnSuggestedItemsChanged"
+	WeightedAbilitySuggestion_t[3] m_iSuggestedTopNItems(offset 0x394, size 0x18, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnSuggestedItemsChanged"
+	WeightedAbilitySuggestion_t[30] m_iSuggestedNeutralItems(offset 0x3ac, size 0xf0, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnSuggestedItemsChanged"
+	HeroID_t[10] m_iSuggestedHeroes(offset 0x49c, size 0x28, align 0x4)
+		^MNetworkEnable
+	float32[10] m_flSuggestedHeroesWeights(offset 0x4c4, size 0x28, align 0x4)
+		^MNetworkEnable
+	int32[3] m_iDamageByTypeReceivedPreReduction(offset 0x4ec, size 0xc, align 0x4)
+		^MNetworkEnable
+	int32[3] m_iDamageByTypeReceivedPostReduction(offset 0x4f8, size 0xc, align 0x4)
+		^MNetworkEnable
+	int32[3] m_iOutgoingDamageByTypePreReduction(offset 0x504, size 0xc, align 0x4)
+		^MNetworkEnable
+	int32[3] m_iOutgoingDamageByTypePostReduction(offset 0x510, size 0xc, align 0x4)
+		^MNetworkEnable
+	OverworldID_t m_uSelectedOverworldID(offset 0x51c, size 0x1, align 0x0)
+		^MNetworkEnable
+	OverworldTokenID_t[3] m_uSelectedOverworldTokenRewards(offset 0x51d, size 0x3, align 0x1)
+		^MNetworkEnable
+	int32 m_iCommandsIssued(offset 0x520, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iGoldSpentOnConsumables(offset 0x524, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iGoldSpentOnItems(offset 0x528, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iGoldSpentOnBuybacks(offset 0x52c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iGoldLostToDeath(offset 0x530, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bIsNewPlayer(offset 0x534, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bIsGuidePlayer(offset 0x535, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0x536)
+	uint64 m_iPlayerSteamID(offset 0x538, size 0x8, align 0x8)
+		^MNetworkEnable
+		^MNetworkEncoder "fixed64"
+		^MNetworkChangeCallback "OnPlayerSteamIDsChanged"
+	int32 m_iSmokesUsed(offset 0x540, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iNeutralTokensFound(offset 0x544, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iWatchersTaken(offset 0x548, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iLotusesTaken(offset 0x54c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iTormentorKills(offset 0x550, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iCourierKills(offset 0x554, size 0x4, align 0x4)
+		^MNetworkEnable
+

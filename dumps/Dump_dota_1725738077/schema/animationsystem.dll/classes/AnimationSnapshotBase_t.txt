@@ -1,0 +1,20 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AnimationSnapshotBase_t (size: 0x110 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f1020, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x4df90"
+
+-----members of class AnimationSnapshotBase_t-----
+	float32 m_flRealTime(offset 0x0, size 0x4, align 0x4)
+	uint8_t[12] unaccounted(offset 0x4)
+	matrix3x4a_t m_rootToWorld(offset 0x10, size 0x30, align 0x10)
+	bool m_bBonesInWorldSpace(offset 0x40, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x41)
+	CUtlVector< uint32 > m_boneSetupMask(offset 0x48, size 0x18, align 0x8)
+	CUtlVector< matrix3x4a_t > m_boneTransforms(offset 0x60, size 0x18, align 0x8)
+	CUtlVector< float32 > m_flexControllers(offset 0x78, size 0x18, align 0x8)
+	AnimationSnapshotType_t m_SnapshotType(offset 0x90, size 0x4, align 0x4)
+	bool m_bHasDecodeDump(offset 0x94, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x95)
+	AnimationDecodeDebugDumpElement_t m_DecodeDump(offset 0x98, size 0x70, align 0x8)
+	uint8_t[8] unaccounted(offset 0x108)
+

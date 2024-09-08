@@ -1,0 +1,11 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CJavaScriptTypeManager (hierarchy CJavaScriptTypeManager: IResourceTypeManager)
+	v8system.dll + 0x2c440
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	v8system.dll + 0x2d3e8
+CSource2V8System (hierarchy CSource2V8System: CTier2AppSystem<class ISource2V8System,0>, CTier1AppSystem<class ISource2V8System,0>, CTier0AppSystem<class ISource2V8System,0>, CBaseAppSystem<class ISource2V8System>, ISource2V8System, IAppSystem)
+	v8system.dll + 0x2c470
+CTypeScriptTypeManager (hierarchy CTypeScriptTypeManager: IResourceTypeManager)
+	v8system.dll + 0x2c438
+V8ArrayBufferAllocator (hierarchy V8ArrayBufferAllocator: v8::ArrayBuffer::Allocator)
+	v8system.dll + 0x2c468

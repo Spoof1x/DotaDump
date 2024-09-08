@@ -1,0 +1,621 @@
+CContentSourceMap
+	panorama.dll + 0x40e1e0(hierarchy CContentSourceMap: panorama::IContentSourceMap)
+CDragStartCallbacks
+	panorama.dll + 0x43bb80(hierarchy CDragStartCallbacks: panorama::IDragStartCallbacks, panorama::IUIJSObject)
+CKV3TransferContextBase
+	panorama.dll + 0x413bf8(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferLoadContext
+	panorama.dll + 0x413c68(hierarchy CKV3TransferLoadContext: CKV3TransferContextBase, IErrorListener)
+CKV3TransferSaveContext
+	panorama.dll + 0x413c30(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CLayoutContent
+	panorama.dll + 0x40e258(hierarchy CLayoutContent: panorama::ILayoutContent, CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+CLayoutContentParsed
+	panorama.dll + 0x40e2f8(hierarchy CLayoutContentParsed: CLayoutContent, panorama::ILayoutContent, CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+CLayoutContentResource
+	panorama.dll + 0x40e328(hierarchy CLayoutContentResource: CLayoutContent, panorama::ILayoutContent, CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+CMultipleCallResults<class panorama::CLoadFileURLTask,struct HTTPRequestCompleted_t>
+	panorama.dll + 0x438f70(hierarchy CMultipleCallResults<class panorama::CLoadFileURLTask,struct HTTPRequestCompleted_t>: CCallbackBase)
+CNoOpFileSystem
+	panorama.dll + 0x4312c0(hierarchy CNoOpFileSystem: panorama::IUIFileSystem)
+CPanoramaTypeManager
+	panorama.dll + 0x429d18(hierarchy CPanoramaTypeManager: IResourceTypeManager)
+CPanoramaUIEngine
+	panorama.dll + 0x4279f0(hierarchy CPanoramaUIEngine: CTier3AppSystem<class IPanoramaUIEngine,0>, CTier2AppSystem<class IPanoramaUIEngine,0>, CTier1AppSystem<class IPanoramaUIEngine,0>, CTier0AppSystem<class IPanoramaUIEngine,0>, CBaseAppSystem<class IPanoramaUIEngine>, IPanoramaUIEngine, IAppSystem)
+CPostConnectCallback
+	panorama.dll + 0x413060(hierarchy CPostConnectCallback)
+CSHA1
+	panorama.dll + 0x43ddf0(hierarchy CSHA1)
+CSchemaInstallCallback
+	panorama.dll + 0x413d58(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_panorama_content
+	panorama.dll + 0x40ef50(hierarchy CSchemaRegistration_panorama_content: CSchemaRegistration)
+CSimpleErrorListener
+	panorama.dll + 0x43bd18(hierarchy CSimpleErrorListener: IErrorListener)
+CVectorGraphic
+	panorama.dll + 0x438f90(hierarchy CVectorGraphic: IVectorGraphic)
+Concurrency::details::stl_condition_variable_win7
+	panorama.dll + 0x418570(hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+Concurrency::details::stl_critical_section_win7
+	panorama.dll + 0x417668(hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+DNameStatusNode
+	panorama.dll + 0x419c58(hierarchy DNameStatusNode: DNameNode)
+IRefCounted
+	panorama.dll + 0x42a038(hierarchy IRefCounted)
+IVideoPlayer
+	panorama.dll + 0x4395e0(hierarchy IVideoPlayer)
+charNode
+	panorama.dll + 0x419be0(hierarchy charNode: DNameNode)
+google::protobuf::DescriptorBuilder::OptionInterpreter::AggregateOptionFinder
+	panorama.dll + 0x3bb110(hierarchy google::protobuf::DescriptorBuilder::OptionInterpreter::AggregateOptionFinder: google::protobuf::TextFormat::Finder)
+google::protobuf::DescriptorDatabase
+	panorama.dll + 0x3bd920(hierarchy google::protobuf::DescriptorDatabase)
+google::protobuf::DescriptorProto
+	panorama.dll + 0x3b65c0(hierarchy google::protobuf::DescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::DescriptorProto_ExtensionRange
+	panorama.dll + 0x3b64a0(hierarchy google::protobuf::DescriptorProto_ExtensionRange: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::DescriptorProto_ReservedRange
+	panorama.dll + 0x3b6530(hierarchy google::protobuf::DescriptorProto_ReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::DynamicMessage
+	panorama.dll + 0x3bdbb8(hierarchy google::protobuf::DynamicMessage: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::DynamicMessageFactory
+	panorama.dll + 0x3bdb38(hierarchy google::protobuf::DynamicMessageFactory: google::protobuf::MessageFactory)
+google::protobuf::EncodedDescriptorDatabase
+	panorama.dll + 0x3bd958(hierarchy google::protobuf::EncodedDescriptorDatabase: google::protobuf::DescriptorDatabase)
+google::protobuf::EnumDescriptorProto
+	panorama.dll + 0x3b6890(hierarchy google::protobuf::EnumDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::EnumDescriptorProto_EnumReservedRange
+	panorama.dll + 0x3b6800(hierarchy google::protobuf::EnumDescriptorProto_EnumReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::EnumOptions
+	panorama.dll + 0x3b6d10(hierarchy google::protobuf::EnumOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::EnumValueDescriptorProto
+	panorama.dll + 0x3b6920(hierarchy google::protobuf::EnumValueDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::EnumValueOptions
+	panorama.dll + 0x3b6da0(hierarchy google::protobuf::EnumValueOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::ExtensionRangeOptions
+	panorama.dll + 0x3b6650(hierarchy google::protobuf::ExtensionRangeOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FatalException
+	panorama.dll + 0x3bb720(hierarchy google::protobuf::FatalException: std::exception)
+google::protobuf::FieldDescriptorProto
+	panorama.dll + 0x3b66e0(hierarchy google::protobuf::FieldDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FieldOptions
+	panorama.dll + 0x3b6bf0(hierarchy google::protobuf::FieldOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FileDescriptorProto
+	panorama.dll + 0x3b6410(hierarchy google::protobuf::FileDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FileDescriptorSet
+	panorama.dll + 0x3b6380(hierarchy google::protobuf::FileDescriptorSet: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::FileOptions
+	panorama.dll + 0x3b6ad0(hierarchy google::protobuf::FileOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::GeneratedCodeInfo
+	panorama.dll + 0x3b7220(hierarchy google::protobuf::GeneratedCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::GeneratedCodeInfo_Annotation
+	panorama.dll + 0x3b7190(hierarchy google::protobuf::GeneratedCodeInfo_Annotation: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::MessageFactory
+	panorama.dll + 0x3b7470(hierarchy google::protobuf::MessageFactory)
+google::protobuf::MessageOptions
+	panorama.dll + 0x3b6b60(hierarchy google::protobuf::MessageOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::MethodDescriptorProto
+	panorama.dll + 0x3b6a40(hierarchy google::protobuf::MethodDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::MethodOptions
+	panorama.dll + 0x3b6ec0(hierarchy google::protobuf::MethodOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::OneofDescriptorProto
+	panorama.dll + 0x3b6770(hierarchy google::protobuf::OneofDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::OneofOptions
+	panorama.dll + 0x3b6c80(hierarchy google::protobuf::OneofOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::ServiceDescriptorProto
+	panorama.dll + 0x3b69b0(hierarchy google::protobuf::ServiceDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::ServiceOptions
+	panorama.dll + 0x3b6e30(hierarchy google::protobuf::ServiceOptions: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::SourceCodeInfo
+	panorama.dll + 0x3b7100(hierarchy google::protobuf::SourceCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::SourceCodeInfo_Location
+	panorama.dll + 0x3b7070(hierarchy google::protobuf::SourceCodeInfo_Location: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::TextFormat::BaseTextGenerator
+	panorama.dll + 0x3bb7c8(hierarchy google::protobuf::TextFormat::BaseTextGenerator)
+google::protobuf::TextFormat::FastFieldValuePrinter
+	panorama.dll + 0x3bb7f8(hierarchy google::protobuf::TextFormat::FastFieldValuePrinter)
+google::protobuf::TextFormat::Finder
+	panorama.dll + 0x3b87c0(hierarchy google::protobuf::TextFormat::Finder)
+google::protobuf::TextFormat::Parser::ParserImpl::ParserErrorCollector
+	panorama.dll + 0x3bbb50(hierarchy google::protobuf::TextFormat::Parser::ParserImpl::ParserErrorCollector: google::protobuf::io::ErrorCollector)
+google::protobuf::TextFormat::Printer::DebugStringFieldValuePrinter
+	panorama.dll + 0x3bc0d8(hierarchy google::protobuf::TextFormat::Printer::DebugStringFieldValuePrinter: google::protobuf::TextFormat::FastFieldValuePrinter)
+google::protobuf::TextFormat::Printer::TextGenerator
+	panorama.dll + 0x3bc080(hierarchy google::protobuf::TextFormat::Printer::TextGenerator: google::protobuf::TextFormat::BaseTextGenerator)
+google::protobuf::UninterpretedOption
+	panorama.dll + 0x3b6fe0(hierarchy google::protobuf::UninterpretedOption: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::UninterpretedOption_NamePart
+	panorama.dll + 0x3b6f50(hierarchy google::protobuf::UninterpretedOption_NamePart: google::protobuf::Message, google::protobuf::MessageLite)
+google::protobuf::ZeroCopyCodedInputStream
+	panorama.dll + 0x3b7410(hierarchy google::protobuf::ZeroCopyCodedInputStream: google::protobuf::io::ZeroCopyInputStream)
+google::protobuf::`anonymous namespace'::AggregateErrorCollector
+	panorama.dll + 0x3bb140(hierarchy google::protobuf::`anonymous namespace'::AggregateErrorCollector: google::protobuf::io::ErrorCollector)
+google::protobuf::`anonymous namespace'::GeneratedMessageFactory
+	panorama.dll + 0x3b77e8(hierarchy google::protobuf::`anonymous namespace'::GeneratedMessageFactory: google::protobuf::MessageFactory)
+google::protobuf::internal::DynamicMapField
+	panorama.dll + 0x3bc610(hierarchy google::protobuf::internal::DynamicMapField: google::protobuf::internal::TypeDefinedMapFieldBase<class google::protobuf::MapKey,class google::protobuf::MapValueRef>, google::protobuf::internal::MapFieldBase)
+google::protobuf::internal::ImplicitWeakMessage
+	panorama.dll + 0x3bc340(hierarchy google::protobuf::internal::ImplicitWeakMessage: google::protobuf::MessageLite)
+google::protobuf::internal::MapFieldAccessor
+	panorama.dll + 0x3b7488(hierarchy google::protobuf::internal::MapFieldAccessor: google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::MapFieldBase
+	panorama.dll + 0x3bc570(hierarchy google::protobuf::internal::MapFieldBase)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64>
+	panorama.dll + 0x3b79f8(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64>: google::protobuf::internal::RepeatedFieldWrapper<__int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool>
+	panorama.dll + 0x3b7c58(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool>: google::protobuf::internal::RepeatedFieldWrapper<bool>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double>
+	panorama.dll + 0x3b7bc0(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double>: google::protobuf::internal::RepeatedFieldWrapper<double>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float>
+	panorama.dll + 0x3b7b28(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float>: google::protobuf::internal::RepeatedFieldWrapper<float>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int>
+	panorama.dll + 0x3b78c8(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int>: google::protobuf::internal::RepeatedFieldWrapper<int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64>
+	panorama.dll + 0x3b7a90(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64>: google::protobuf::internal::RepeatedFieldWrapper<unsigned __int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int>
+	panorama.dll + 0x3b7960(hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int>: google::protobuf::internal::RepeatedFieldWrapper<unsigned int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedPtrFieldMessageAccessor
+	panorama.dll + 0x3b7660(hierarchy google::protobuf::internal::RepeatedPtrFieldMessageAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class google::protobuf::Message>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::internal::RepeatedPtrFieldStringAccessor
+	panorama.dll + 0x3b75c0(hierarchy google::protobuf::internal::RepeatedPtrFieldStringAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+google::protobuf::io::ArrayInputStream
+	panorama.dll + 0x3bd388(hierarchy google::protobuf::io::ArrayInputStream: google::protobuf::io::ZeroCopyInputStream)
+google::protobuf::io::ErrorCollector
+	panorama.dll + 0x3b7e18(hierarchy google::protobuf::io::ErrorCollector)
+google::protobuf::io::StringOutputStream
+	panorama.dll + 0x3bd3b8(hierarchy google::protobuf::io::StringOutputStream: google::protobuf::io::ZeroCopyOutputStream)
+google::protobuf::io::ZeroCopyInputStream
+	panorama.dll + 0x3b72b8(hierarchy google::protobuf::io::ZeroCopyInputStream)
+google::protobuf::io::ZeroCopyOutputStream
+	panorama.dll + 0x3b72e8(hierarchy google::protobuf::io::ZeroCopyOutputStream)
+pDNameNode
+	panorama.dll + 0x419c30(hierarchy pDNameNode: DNameNode)
+pairNode
+	panorama.dll + 0x419c80(hierarchy pairNode: DNameNode)
+panorama::CContentASTNode<enum ELayoutNodeType>
+	panorama.dll + 0x40e2c0(hierarchy panorama::CContentASTNode<enum ELayoutNodeType>: panorama::IContentASTNode<enum ELayoutNodeType>)
+panorama::CImageData
+	panorama.dll + 0x4391d0(hierarchy panorama::CImageData: CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+panorama::CImageDecodeThread
+	panorama.dll + 0x439118(hierarchy panorama::CImageDecodeThread: CThread)
+panorama::CImageDecodeWorkItem
+	panorama.dll + 0x439178(hierarchy panorama::CImageDecodeWorkItem: panorama::IImageDecodeWorkItem)
+panorama::CImageLoaderTask
+	panorama.dll + 0x4391b8(hierarchy panorama::CImageLoaderTask)
+panorama::CImageProxySource
+	panorama.dll + 0x438fb0(hierarchy panorama::CImageProxySource: panorama::IImageSource, panorama::IUIJSObject)
+panorama::CImageResourceManager
+	panorama.dll + 0x4390c0(hierarchy panorama::CImageResourceManager: panorama::IUIImageManager)
+panorama::CJSFile
+	panorama.dll + 0x43de00(hierarchy panorama::CJSFile: CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+panorama::CLayoutFile
+	panorama.dll + 0x43ddc8(hierarchy panorama::CLayoutFile: CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>, panorama::IUILayoutFile)
+	panorama.dll + 0x43ddd8 MI offset 16(hierarchy panorama::IUILayoutFile)
+panorama::CLayoutManager
+	panorama.dll + 0x43de10(hierarchy panorama::CLayoutManager: panorama::IUILayoutManager)
+panorama::CLoadFileLocalTask
+	panorama.dll + 0x439058(hierarchy panorama::CLoadFileLocalTask: panorama::CImageLoaderTask)
+panorama::CLoadFileURLTask
+	panorama.dll + 0x4390a8(hierarchy panorama::CLoadFileURLTask: panorama::CImageLoaderTask)
+panorama::CLoadFromSvgTask
+	panorama.dll + 0x439040(hierarchy panorama::CLoadFromSvgTask: panorama::CImageLoaderTask)
+panorama::CLoadFromVTexTask
+	panorama.dll + 0x439070(hierarchy panorama::CLoadFromVTexTask: panorama::CImageLoaderTask)
+panorama::CLoadInMemoryImageTask
+	panorama.dll + 0x439028(hierarchy panorama::CLoadInMemoryImageTask: panorama::CImageLoaderTask)
+panorama::CLocalization
+	panorama.dll + 0x43f388(hierarchy panorama::CLocalization: panorama::IUILocalization, ILocalizationChangeCallback)
+	panorama.dll + 0x43f378 MI offset 8(hierarchy ILocalizationChangeCallback)
+panorama::CLocalizationStringDerived
+	panorama.dll + 0x43f278(hierarchy panorama::CLocalizationStringDerived: panorama::ILocalizationString)
+panorama::CLocalizationStringRaw
+	panorama.dll + 0x43f318(hierarchy panorama::CLocalizationStringRaw: panorama::IMutableLocalizationString, panorama::ILocalizationString)
+panorama::CMouseCursorTexture
+	panorama.dll + 0x43ad20(hierarchy panorama::CMouseCursorTexture)
+panorama::CPanelImageSource
+	panorama.dll + 0x439298(hierarchy panorama::CPanelImageSource: panorama::IImageSource, panorama::IUIJSObject)
+panorama::CPanelStyle
+	panorama.dll + 0x44c230(hierarchy panorama::CPanelStyle: panorama::IUIPanelStyle)
+panorama::CPanoramaStartupManifestListener
+	panorama.dll + 0x429718(hierarchy panorama::CPanoramaStartupManifestListener: IToolsResourceListener)
+panorama::CPanoramaVideoPlayer
+	panorama.dll + 0x439510(hierarchy panorama::CPanoramaVideoPlayer: CRefCounted1<class IVideoPlayer,class CRefCountServiceBase<class CRefMT> >, IVideoPlayer, CRefCountServiceBase<class CRefMT>)
+panorama::CRenderCommandList
+	panorama.dll + 0x43f7a0(hierarchy panorama::CRenderCommandList: CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+panorama::CSource2DoubleBufferedTexture
+	panorama.dll + 0x429fd0(hierarchy panorama::CSource2DoubleBufferedTexture: CRefCounted1<class panorama::IUIDoubleBufferedTexture,class CRefCountServiceBase<class CRefMT> >, panorama::IUIDoubleBufferedTexture, panorama::IUITexture, IRefCounted, CRefCountServiceBase<class CRefMT>)
+panorama::CSource2DoubleBufferedYUVA420Texture
+	panorama.dll + 0x429f60(hierarchy panorama::CSource2DoubleBufferedYUVA420Texture: CRefCounted1<class panorama::IUIDoubleBufferedYUVA420Texture,class CRefCountServiceBase<class CRefMT> >, panorama::IUIDoubleBufferedYUVA420Texture, panorama::IUITexture, IRefCounted, CRefCountServiceBase<class CRefMT>)
+panorama::CSource2PanelImageSourceTexture
+	panorama.dll + 0x429ef8(hierarchy panorama::CSource2PanelImageSourceTexture: CRefCounted1<class panorama::IUIPanelImageSourceTexture,class CRefCountServiceBase<class CRefMT> >, panorama::IUIPanelImageSourceTexture, panorama::IUITexture, IRefCounted, CRefCountServiceBase<class CRefMT>)
+panorama::CSource2Surface
+	panorama.dll + 0x427c80(hierarchy panorama::CSource2Surface: ITextureResidencyListener, panorama::IUI3DSurface, panorama::IUITextTextureStorage, panorama::IUITextTextureProvider, IShaderReloadListener)
+	panorama.dll + 0x427b30 MI offset 8(hierarchy panorama::IUI3DSurface: panorama::IUITextTextureStorage, panorama::IUITextTextureProvider, IShaderReloadListener)
+	panorama.dll + 0x427b00 MI offset 16(hierarchy panorama::IUITextTextureStorage: panorama::IUITextTextureProvider, IShaderReloadListener)
+	panorama.dll + 0x427ae0 MI offset 24(hierarchy panorama::IUITextTextureProvider: IShaderReloadListener)
+	panorama.dll + 0x427ac8 MI offset 32(hierarchy IShaderReloadListener)
+panorama::CSource2UIFileSystem
+	panorama.dll + 0x429c58(hierarchy panorama::CSource2UIFileSystem: panorama::IUIFileSystem)
+panorama::CSource2UITexture
+	panorama.dll + 0x42a058(hierarchy panorama::CSource2UITexture: CRefCounted1<class panorama::IUITexture,class CRefCountServiceBase<class CRefMT> >, panorama::IUITexture, IRefCounted, CRefCountServiceBase<class CRefMT>)
+panorama::CStyleFactoryWrapper
+	panorama.dll + 0x430938(hierarchy panorama::CStyleFactoryWrapper: panorama::IUIStyleFactory)
+panorama::CStyleFile
+	panorama.dll + 0x43ebf8(hierarchy panorama::CStyleFile: CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+panorama::CStyleFileSet
+	panorama.dll + 0x434bc0(hierarchy panorama::CStyleFileSet: CRefCounted1<class panorama::IUIStyleFileSet,class CRefCountServiceBase<class CRefMT> >, panorama::IUIStyleFileSet, IRefCounted, CRefCountServiceBase<class CRefMT>)
+panorama::CStyleProperty
+	panorama.dll + 0x44bd00(hierarchy panorama::CStyleProperty)
+panorama::CStylePropertyAlign
+	panorama.dll + 0x4433a8(hierarchy panorama::CStylePropertyAlign: panorama::CStyleProperty)
+panorama::CStylePropertyAnimationProperties
+	panorama.dll + 0x443450(hierarchy panorama::CStylePropertyAnimationProperties: panorama::CStyleProperty)
+panorama::CStylePropertyBackgroundBlur
+	panorama.dll + 0x446e70(hierarchy panorama::CStylePropertyBackgroundBlur: panorama::CStylePropertyBlurBase, panorama::CStyleProperty)
+panorama::CStylePropertyBackgroundColor
+	panorama.dll + 0x44a630(hierarchy panorama::CStylePropertyBackgroundColor: panorama::CStylePropertyFillColor, panorama::CStyleProperty)
+panorama::CStylePropertyBackgroundImage
+	panorama.dll + 0x44bc48(hierarchy panorama::CStylePropertyBackgroundImage: panorama::CStyleProperty)
+panorama::CStylePropertyBackgroundImgOpacity
+	panorama.dll + 0x441a10(hierarchy panorama::CStylePropertyBackgroundImgOpacity: panorama::CStyleProperty)
+panorama::CStylePropertyBlur
+	panorama.dll + 0x447230(hierarchy panorama::CStylePropertyBlur: panorama::CStylePropertyBlurBase, panorama::CStyleProperty)
+panorama::CStylePropertyBlurBase
+	panorama.dll + 0x446f08(hierarchy panorama::CStylePropertyBlurBase: panorama::CStyleProperty)
+panorama::CStylePropertyBorder
+	panorama.dll + 0x44a270(hierarchy panorama::CStylePropertyBorder: panorama::CStyleProperty)
+panorama::CStylePropertyBorderBrush
+	panorama.dll + 0x445170(hierarchy panorama::CStylePropertyBorderBrush: panorama::CStylePropertyFillColor, panorama::CStyleProperty)
+panorama::CStylePropertyBorderImage
+	panorama.dll + 0x44bbb0(hierarchy panorama::CStylePropertyBorderImage: panorama::CStyleProperty)
+panorama::CStylePropertyBorderRadius
+	panorama.dll + 0x445c88(hierarchy panorama::CStylePropertyBorderRadius: panorama::CStyleProperty)
+panorama::CStylePropertyBoxShadow
+	panorama.dll + 0x4487f0(hierarchy panorama::CStylePropertyBoxShadow: panorama::CStyleProperty)
+panorama::CStylePropertyBrightness
+	panorama.dll + 0x4474b0(hierarchy panorama::CStylePropertyBrightness: panorama::CStyleProperty)
+panorama::CStylePropertyClip
+	panorama.dll + 0x444f18(hierarchy panorama::CStylePropertyClip: panorama::CStyleProperty)
+panorama::CStylePropertyContextMenuArrowPosition
+	panorama.dll + 0x4422c0(hierarchy panorama::CStylePropertyContextMenuArrowPosition: panorama::CStylePropertyContextUIArrowPosition, panorama::CStylePropertyContextUIComponentPosition, panorama::CStyleProperty)
+panorama::CStylePropertyContextMenuBodyPosition
+	panorama.dll + 0x442560(hierarchy panorama::CStylePropertyContextMenuBodyPosition: panorama::CStylePropertyContextUIBodyPosition, panorama::CStylePropertyContextUIComponentPosition, panorama::CStyleProperty)
+panorama::CStylePropertyContextMenuPosition
+	panorama.dll + 0x442820(hierarchy panorama::CStylePropertyContextMenuPosition: panorama::CStylePropertyContextUIPosition, panorama::CStyleProperty)
+panorama::CStylePropertyContextUIComponentPosition
+	panorama.dll + 0x442ae0(hierarchy panorama::CStylePropertyContextUIComponentPosition: panorama::CStyleProperty)
+panorama::CStylePropertyContextUIPosition
+	panorama.dll + 0x442e00(hierarchy panorama::CStylePropertyContextUIPosition: panorama::CStyleProperty)
+panorama::CStylePropertyContrast
+	panorama.dll + 0x447350(hierarchy panorama::CStylePropertyContrast: panorama::CStyleProperty)
+panorama::CStylePropertyDimensionsBase<class panorama::CStylePropertyMargin>
+	panorama.dll + 0x443ea0(hierarchy panorama::CStylePropertyDimensionsBase<class panorama::CStylePropertyMargin>: panorama::CStyleProperty)
+panorama::CStylePropertyDimensionsBase<class panorama::CStylePropertyPadding>
+	panorama.dll + 0x448ec0(hierarchy panorama::CStylePropertyDimensionsBase<class panorama::CStylePropertyPadding>: panorama::CStyleProperty)
+panorama::CStylePropertyEntranceSound
+	panorama.dll + 0x442080(hierarchy panorama::CStylePropertyEntranceSound: panorama::CStylePropertySound, panorama::CStyleProperty)
+panorama::CStylePropertyExitSound
+	panorama.dll + 0x441ed0(hierarchy panorama::CStylePropertyExitSound: panorama::CStylePropertySound, panorama::CStyleProperty)
+panorama::CStylePropertyFillColor
+	panorama.dll + 0x44ae08(hierarchy panorama::CStylePropertyFillColor: panorama::CStyleProperty)
+panorama::CStylePropertyFlowChildren
+	panorama.dll + 0x4440c0(hierarchy panorama::CStylePropertyFlowChildren: panorama::CStyleProperty)
+panorama::CStylePropertyFont
+	panorama.dll + 0x448e28(hierarchy panorama::CStylePropertyFont: panorama::CStyleProperty)
+panorama::CStylePropertyForegroundColor
+	panorama.dll + 0x449100(hierarchy panorama::CStylePropertyForegroundColor: panorama::CStylePropertyFillColor, panorama::CStyleProperty)
+panorama::CStylePropertyHeight
+	panorama.dll + 0x4445e0(hierarchy panorama::CStylePropertyHeight: panorama::CStyleProperty)
+panorama::CStylePropertyHueShift
+	panorama.dll + 0x4477b0(hierarchy panorama::CStylePropertyHueShift: panorama::CStyleProperty)
+panorama::CStylePropertyIgnoreParentFlow
+	panorama.dll + 0x443fd0(hierarchy panorama::CStylePropertyIgnoreParentFlow: panorama::CStyleProperty)
+panorama::CStylePropertyImageShadow
+	panorama.dll + 0x4480e8(hierarchy panorama::CStylePropertyImageShadow: panorama::CStyleProperty)
+panorama::CStylePropertyLayoutPosition
+	panorama.dll + 0x441ba0(hierarchy panorama::CStylePropertyLayoutPosition: panorama::CStyleProperty)
+panorama::CStylePropertyLineHeight
+	panorama.dll + 0x444ce0(hierarchy panorama::CStylePropertyLineHeight: panorama::CStyleProperty)
+panorama::CStylePropertyMargin
+	panorama.dll + 0x443f38(hierarchy panorama::CStylePropertyMargin: panorama::CStylePropertyDimensionsBase<class panorama::CStylePropertyMargin>, panorama::CStyleProperty)
+panorama::CStylePropertyMaxHeight
+	panorama.dll + 0x443140(hierarchy panorama::CStylePropertyMaxHeight: panorama::CStyleProperty)
+panorama::CStylePropertyMaxWidth
+	panorama.dll + 0x4431d8(hierarchy panorama::CStylePropertyMaxWidth: panorama::CStyleProperty)
+panorama::CStylePropertyMinHeight
+	panorama.dll + 0x443270(hierarchy panorama::CStylePropertyMinHeight: panorama::CStyleProperty)
+panorama::CStylePropertyMinWidth
+	panorama.dll + 0x443308(hierarchy panorama::CStylePropertyMinWidth: panorama::CStyleProperty)
+panorama::CStylePropertyMixBlendMode
+	panorama.dll + 0x446048(hierarchy panorama::CStylePropertyMixBlendMode: panorama::CStyleProperty)
+panorama::CStylePropertyOpacity
+	panorama.dll + 0x44a7a8(hierarchy panorama::CStylePropertyOpacity: panorama::CStyleProperty)
+panorama::CStylePropertyOpacityBrush
+	panorama.dll + 0x441908(hierarchy panorama::CStylePropertyOpacityBrush: panorama::CStylePropertyFillColor, panorama::CStyleProperty)
+panorama::CStylePropertyOpacityMask
+	panorama.dll + 0x44ad70(hierarchy panorama::CStylePropertyOpacityMask: panorama::CStyleProperty)
+panorama::CStylePropertyOverflow
+	panorama.dll + 0x449440(hierarchy panorama::CStylePropertyOverflow: panorama::CStyleProperty)
+panorama::CStylePropertyPadding
+	panorama.dll + 0x448f58(hierarchy panorama::CStylePropertyPadding: panorama::CStylePropertyDimensionsBase<class panorama::CStylePropertyPadding>, panorama::CStyleProperty)
+panorama::CStylePropertyPerspective
+	panorama.dll + 0x444aa8(hierarchy panorama::CStylePropertyPerspective: panorama::CStyleProperty)
+panorama::CStylePropertyPerspectiveOrigin
+	panorama.dll + 0x444900(hierarchy panorama::CStylePropertyPerspectiveOrigin: panorama::CStyleProperty)
+panorama::CStylePropertyPosition
+	panorama.dll + 0x441798(hierarchy panorama::CStylePropertyPosition: panorama::CStyleProperty)
+panorama::CStylePropertyRotate2DCentered
+	panorama.dll + 0x4469a0(hierarchy panorama::CStylePropertyRotate2DCentered: panorama::CStyleProperty)
+panorama::CStylePropertySaturation
+	panorama.dll + 0x447650(hierarchy panorama::CStylePropertySaturation: panorama::CStyleProperty)
+panorama::CStylePropertyScale2DCentered
+	panorama.dll + 0x447f08(hierarchy panorama::CStylePropertyScale2DCentered: panorama::CStyleProperty)
+panorama::CStylePropertySound
+	panorama.dll + 0x441f68(hierarchy panorama::CStylePropertySound: panorama::CStyleProperty)
+panorama::CStylePropertyTextAlign
+	panorama.dll + 0x447cf8(hierarchy panorama::CStylePropertyTextAlign: panorama::CStyleProperty)
+panorama::CStylePropertyTextDecoration
+	panorama.dll + 0x4467f0(hierarchy panorama::CStylePropertyTextDecoration: panorama::CStyleProperty)
+panorama::CStylePropertyTextDecorationStyle
+	panorama.dll + 0x446698(hierarchy panorama::CStylePropertyTextDecorationStyle: panorama::CStyleProperty)
+panorama::CStylePropertyTextLetterSpacing
+	panorama.dll + 0x4483f8(hierarchy panorama::CStylePropertyTextLetterSpacing: panorama::CStyleProperty)
+panorama::CStylePropertyTextOverflow
+	panorama.dll + 0x4463e8(hierarchy panorama::CStylePropertyTextOverflow: panorama::CStyleProperty)
+panorama::CStylePropertyTextShadow
+	panorama.dll + 0x4482c8(hierarchy panorama::CStylePropertyTextShadow: panorama::CStyleProperty)
+panorama::CStylePropertyTextTransform
+	panorama.dll + 0x446538(hierarchy panorama::CStylePropertyTextTransform: panorama::CStyleProperty)
+panorama::CStylePropertyTextureSampleMode
+	panorama.dll + 0x445e48(hierarchy panorama::CStylePropertyTextureSampleMode: panorama::CStyleProperty)
+panorama::CStylePropertyTooltipArrowPosition
+	panorama.dll + 0x442a48(hierarchy panorama::CStylePropertyTooltipArrowPosition: panorama::CStylePropertyContextUIArrowPosition, panorama::CStylePropertyContextUIComponentPosition, panorama::CStyleProperty)
+panorama::CStylePropertyTooltipBodyPosition
+	panorama.dll + 0x442d68(hierarchy panorama::CStylePropertyTooltipBodyPosition: panorama::CStylePropertyContextUIBodyPosition, panorama::CStylePropertyContextUIComponentPosition, panorama::CStyleProperty)
+panorama::CStylePropertyTooltipPosition
+	panorama.dll + 0x4430a8(hierarchy panorama::CStylePropertyTooltipPosition: panorama::CStylePropertyContextUIPosition, panorama::CStyleProperty)
+panorama::CStylePropertyTransform3D
+	panorama.dll + 0x44aa80(hierarchy panorama::CStylePropertyTransform3D: panorama::CStyleProperty)
+panorama::CStylePropertyTransformOrigin
+	panorama.dll + 0x444768(hierarchy panorama::CStylePropertyTransformOrigin: panorama::CStyleProperty)
+panorama::CStylePropertyTransitionProperties
+	panorama.dll + 0x443e08(hierarchy panorama::CStylePropertyTransitionProperties: panorama::CStyleProperty)
+panorama::CStylePropertyUIScale
+	panorama.dll + 0x441db8(hierarchy panorama::CStylePropertyUIScale: panorama::CStyleProperty)
+panorama::CStylePropertyVisible
+	panorama.dll + 0x444250(hierarchy panorama::CStylePropertyVisible: panorama::CStyleProperty)
+panorama::CStylePropertyWashColor
+	panorama.dll + 0x448998(hierarchy panorama::CStylePropertyWashColor: panorama::CStyleProperty)
+panorama::CStylePropertyWhiteSpace
+	panorama.dll + 0x447920(hierarchy panorama::CStylePropertyWhiteSpace: panorama::CStyleProperty)
+panorama::CStylePropertyWidth
+	panorama.dll + 0x441680(hierarchy panorama::CStylePropertyWidth: panorama::CStyleProperty)
+panorama::CStylePropertyWorldBlur
+	panorama.dll + 0x446b58(hierarchy panorama::CStylePropertyWorldBlur: panorama::CStylePropertyBlurBase, panorama::CStyleProperty)
+panorama::CStylePropertyZIndex
+	panorama.dll + 0x447b80(hierarchy panorama::CStylePropertyZIndex: panorama::CStyleProperty)
+panorama::CSvgDecodeWorkItem
+	panorama.dll + 0x439158(hierarchy panorama::CSvgDecodeWorkItem: panorama::IImageDecodeWorkItem)
+panorama::CTopLevelWindow
+	panorama.dll + 0x435970(hierarchy panorama::CTopLevelWindow: panorama::IUIWindow)
+panorama::CTopLevelWindowSource2
+	panorama.dll + 0x42a500(hierarchy panorama::CTopLevelWindowSource2: panorama::CTopLevelWindow, panorama::IUIWindow, IIMEUIView)
+	panorama.dll + 0x42a4e0 MI offset 344(hierarchy IIMEUIView)
+panorama::CTransform3D
+	panorama.dll + 0x43c6c0(hierarchy panorama::CTransform3D)
+panorama::CTransformRotate3D
+	panorama.dll + 0x43c640(hierarchy panorama::CTransformRotate3D: panorama::CTransform3D)
+panorama::CTransformScale3D
+	panorama.dll + 0x43c680(hierarchy panorama::CTransformScale3D: panorama::CTransform3D)
+panorama::CTransformSkew3D
+	panorama.dll + 0x43c600(hierarchy panorama::CTransformSkew3D: panorama::CTransform3D)
+panorama::CTransformTranslate3D
+	panorama.dll + 0x43c700(hierarchy panorama::CTransformTranslate3D: panorama::CTransform3D)
+panorama::CUIEngine
+	panorama.dll + 0x430980(hierarchy panorama::CUIEngine: panorama::IUIEngine)
+panorama::CUIEngineSource2
+	panorama.dll + 0x429798(hierarchy panorama::CUIEngineSource2: panorama::CUIEngine, panorama::IUIEngine, IToolsResourceListener, IRenderDeviceEventListener)
+	panorama.dll + 0x429780 MI offset 3008(hierarchy IToolsResourceListener: IRenderDeviceEventListener)
+	panorama.dll + 0x429758 MI offset 3016(hierarchy IRenderDeviceEventListener)
+panorama::CUIEvent<0,bool>
+	panorama.dll + 0x432c28(hierarchy panorama::CUIEvent<0,bool>: panorama::IUIEvent)
+panorama::CUIEvent<0,char const * __ptr64>
+	panorama.dll + 0x432d68(hierarchy panorama::CUIEvent<0,char const * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<0,class IVideoPlayer * __ptr64>
+	panorama.dll + 0x432cc8(hierarchy panorama::CUIEvent<0,class IVideoPlayer * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<0,class panorama::CBaseSymbol<1> >
+	panorama.dll + 0x432de0(hierarchy panorama::CUIEvent<0,class panorama::CBaseSymbol<1> >: panorama::IUIEvent)
+panorama::CUIEvent<0,class panorama::CBaseSymbol<1>,unsigned int,unsigned int,unsigned int>
+	panorama.dll + 0x432f88(hierarchy panorama::CUIEvent<0,class panorama::CBaseSymbol<1>,unsigned int,unsigned int,unsigned int>: panorama::IUIEvent)
+panorama::CUIEvent<0,class panorama::CImageProxySource * __ptr64>
+	panorama.dll + 0x438f48(hierarchy panorama::CUIEvent<0,class panorama::CImageProxySource * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<0,class panorama::CPanelPtr<class panorama::IUIPanel> >
+	panorama.dll + 0x432e80(hierarchy panorama::CUIEvent<0,class panorama::CPanelPtr<class panorama::IUIPanel> >: panorama::IUIEvent)
+panorama::CUIEvent<0,class panorama::CPanelPtr<class panorama::IUIPanel>,char const * __ptr64>
+	panorama.dll + 0x430468(hierarchy panorama::CUIEvent<0,class panorama::CPanelPtr<class panorama::IUIPanel>,char const * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<0,class panorama::CPanelPtr<class panorama::IUIPanel>,class v8::Global<class v8::Function> * __ptr64,class panorama::CBaseSymbol<1>,int,unsigned int>
+	panorama.dll + 0x430818(hierarchy panorama::CUIEvent<0,class panorama::CPanelPtr<class panorama::IUIPanel>,class v8::Global<class v8::Function> * __ptr64,class panorama::CBaseSymbol<1>,int,unsigned int>: panorama::IUIEvent)
+panorama::CUIEvent<0,class panorama::CVideoPlayerAudioRenderer * __ptr64,int,int>
+	panorama.dll + 0x4394e8(hierarchy panorama::CUIEvent<0,class panorama::CVideoPlayerAudioRenderer * __ptr64,int,int>: panorama::IUIEvent)
+panorama::CUIEvent<0,class panorama::CVideoPlayerAudioRenderer * __ptr64>
+	panorama.dll + 0x439498(hierarchy panorama::CUIEvent<0,class panorama::CVideoPlayerAudioRenderer * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<0,class panorama::CVideoPlayerEventDispatcher * __ptr64,enum EVideoPlayerEvent>
+	panorama.dll + 0x4394c0(hierarchy panorama::CUIEvent<0,class panorama::CVideoPlayerEventDispatcher * __ptr64,enum EVideoPlayerEvent>: panorama::IUIEvent)
+panorama::CUIEvent<0,class panorama::IUIWindow * __ptr64>
+	panorama.dll + 0x42a440(hierarchy panorama::CUIEvent<0,class panorama::IUIWindow * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<0,enum panorama::EActiveControllerType>
+	panorama.dll + 0x432d18(hierarchy panorama::CUIEvent<0,enum panorama::EActiveControllerType>: panorama::IUIEvent)
+panorama::CUIEvent<0,enum panorama::GamePadCode>
+	panorama.dll + 0x432d90(hierarchy panorama::CUIEvent<0,enum panorama::GamePadCode>: panorama::IUIEvent)
+panorama::CUIEvent<0,float,class panorama::IUIEvent * __ptr64>
+	panorama.dll + 0x432fb0(hierarchy panorama::CUIEvent<0,float,class panorama::IUIEvent * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<0,int>
+	panorama.dll + 0x432db8(hierarchy panorama::CUIEvent<0,int>: panorama::IUIEvent)
+panorama::CUIEvent<0>
+	panorama.dll + 0x42a4b8(hierarchy panorama::CUIEvent<0>: panorama::IUIEvent)
+panorama::CUIEvent<1,bool,char const * __ptr64>
+	panorama.dll + 0x432f60(hierarchy panorama::CUIEvent<1,bool,char const * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<1,bool>
+	panorama.dll + 0x432cf0(hierarchy panorama::CUIEvent<1,bool>: panorama::IUIEvent)
+panorama::CUIEvent<1,char const * __ptr64,char const * __ptr64>
+	panorama.dll + 0x433028(hierarchy panorama::CUIEvent<1,char const * __ptr64,char const * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<1,char const * __ptr64,class panorama::IUIEvent * __ptr64>
+	panorama.dll + 0x432fd8(hierarchy panorama::CUIEvent<1,char const * __ptr64,class panorama::IUIEvent * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<1,char const * __ptr64>
+	panorama.dll + 0x432d40(hierarchy panorama::CUIEvent<1,char const * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<1,class panorama::CPanelPtr<class panorama::IUIPanel> >
+	panorama.dll + 0x432ca0(hierarchy panorama::CUIEvent<1,class panorama::CPanelPtr<class panorama::IUIPanel> >: panorama::IUIEvent)
+panorama::CUIEvent<1,class panorama::CPanoramaSymbol,char const * __ptr64>
+	panorama.dll + 0x433050(hierarchy panorama::CUIEvent<1,class panorama::CPanoramaSymbol,char const * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<1,class panorama::CPanoramaSymbol,class panorama::CPanoramaSymbol>
+	panorama.dll + 0x433118(hierarchy panorama::CUIEvent<1,class panorama::CPanoramaSymbol,class panorama::CPanoramaSymbol>: panorama::IUIEvent)
+panorama::CUIEvent<1,class panorama::CPanoramaSymbol,class panorama::IUIEvent * __ptr64>
+	panorama.dll + 0x433000(hierarchy panorama::CUIEvent<1,class panorama::CPanoramaSymbol,class panorama::IUIEvent * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<1,class panorama::CPanoramaSymbol,float,float>
+	panorama.dll + 0x4330c8(hierarchy panorama::CUIEvent<1,class panorama::CPanoramaSymbol,float,float>: panorama::IUIEvent)
+panorama::CUIEvent<1,class panorama::CPanoramaSymbol,float>
+	panorama.dll + 0x4330f0(hierarchy panorama::CUIEvent<1,class panorama::CPanoramaSymbol,float>: panorama::IUIEvent)
+panorama::CUIEvent<1,class panorama::CPanoramaSymbol>
+	panorama.dll + 0x432e58(hierarchy panorama::CUIEvent<1,class panorama::CPanoramaSymbol>: panorama::IUIEvent)
+panorama::CUIEvent<1,class panorama::CStyleSymbol>
+	panorama.dll + 0x432e30(hierarchy panorama::CUIEvent<1,class panorama::CStyleSymbol>: panorama::IUIEvent)
+panorama::CUIEvent<1,class panorama::IDragStartCallbacks * __ptr64>
+	panorama.dll + 0x432c78(hierarchy panorama::CUIEvent<1,class panorama::IDragStartCallbacks * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<1,class panorama::IImageSource * __ptr64>
+	panorama.dll + 0x432c50(hierarchy panorama::CUIEvent<1,class panorama::IImageSource * __ptr64>: panorama::IUIEvent)
+panorama::CUIEvent<1,class panorama::ILocalizationString const * __ptr64,int>
+	panorama.dll + 0x433078(hierarchy panorama::CUIEvent<1,class panorama::ILocalizationString const * __ptr64,int>: panorama::IUIEvent)
+panorama::CUIEvent<1,enum panorama::EPanelEventSource_t>
+	panorama.dll + 0x432ea8(hierarchy panorama::CUIEvent<1,enum panorama::EPanelEventSource_t>: panorama::IUIEvent)
+panorama::CUIEvent<1,enum panorama::ScrollBehavior_t,bool>
+	panorama.dll + 0x4330a0(hierarchy panorama::CUIEvent<1,enum panorama::ScrollBehavior_t,bool>: panorama::IUIEvent)
+panorama::CUIEvent<1,int,int,float,float>
+	panorama.dll + 0x432ee8(hierarchy panorama::CUIEvent<1,int,int,float,float>: panorama::IUIEvent)
+panorama::CUIEvent<1,int,int,int,int>
+	panorama.dll + 0x432f10(hierarchy panorama::CUIEvent<1,int,int,int,int>: panorama::IUIEvent)
+panorama::CUIEvent<1,int>
+	panorama.dll + 0x432e08(hierarchy panorama::CUIEvent<1,int>: panorama::IUIEvent)
+panorama::CUIEvent<1>
+	panorama.dll + 0x432f38(hierarchy panorama::CUIEvent<1>: panorama::IUIEvent)
+panorama::CUIInputEngine
+	panorama.dll + 0x43bd50(hierarchy panorama::CUIInputEngine: panorama::IUIInput)
+panorama::CUIPanel
+	panorama.dll + 0x434c20(hierarchy panorama::CUIPanel: panorama::IUIPanel, panorama::IUIDialogVariableSource)
+panorama::CUIRenderDeviceSource2
+	panorama.dll + 0x42a0b8(hierarchy panorama::CUIRenderDeviceSource2: panorama::IUIRenderDevice)
+panorama::CUIRenderEngine
+	panorama.dll + 0x44d368(hierarchy panorama::CUIRenderEngine: panorama::IUIRenderEngine)
+panorama::CUIRenderEngine::CUIAnimationThread
+	panorama.dll + 0x44d328(hierarchy panorama::CUIRenderEngine::CUIAnimationThread: CThread)
+panorama::CUIRenderEngine::CUIRenderThread
+	panorama.dll + 0x44d2e8(hierarchy panorama::CUIRenderEngine::CUIRenderThread: CThread)
+panorama::CUISoundSystemSource2
+	panorama.dll + 0x42a178(hierarchy panorama::CUISoundSystemSource2: panorama::IUISoundSystem)
+panorama::CUIWindowInput
+	panorama.dll + 0x43bbd0(hierarchy panorama::CUIWindowInput: panorama::IUIWindowInput)
+panorama::CVideoPlayerAudioRenderer
+	panorama.dll + 0x4396c0(hierarchy panorama::CVideoPlayerAudioRenderer: IVideoPlayerAudioCallback)
+panorama::CVideoPlayerEventDispatcher
+	panorama.dll + 0x4396b0(hierarchy panorama::CVideoPlayerEventDispatcher: IVideoPlayerEventCallback)
+panorama::CVideoPlayerVideoRenderer
+	panorama.dll + 0x439730(hierarchy panorama::CVideoPlayerVideoRenderer: IVideoPlayerVideoCallback)
+panorama::IContentASTNode<enum ELayoutNodeType>
+	panorama.dll + 0x40e288(hierarchy panorama::IContentASTNode<enum ELayoutNodeType>)
+panorama::IContentSourceMap
+	panorama.dll + 0x40e1c8(hierarchy panorama::IContentSourceMap)
+panorama::IImageDecodeWorkItem
+	panorama.dll + 0x439198(hierarchy panorama::IImageDecodeWorkItem)
+panorama::ILocalizationString
+	panorama.dll + 0x43f2c8(hierarchy panorama::ILocalizationString)
+panorama::IUI3DSurface
+	panorama.dll + 0x427ce8(hierarchy panorama::IUI3DSurface)
+panorama::IUIDialogVariableSource
+	panorama.dll + 0x4356d0(hierarchy panorama::IUIDialogVariableSource)
+panorama::IUIEngine
+	panorama.dll + 0x430e38(hierarchy panorama::IUIEngine)
+panorama::IUIEvent
+	panorama.dll + 0x42a490(hierarchy panorama::IUIEvent)
+panorama::IUIFileSystem
+	panorama.dll + 0x429cb8(hierarchy panorama::IUIFileSystem)
+panorama::IUIJSObject
+	panorama.dll + 0x438fa0(hierarchy panorama::IUIJSObject)
+panorama::IUISoundSystem
+	panorama.dll + 0x42a1d8(hierarchy panorama::IUISoundSystem)
+panorama::IUITextTextureProvider
+	panorama.dll + 0x427c98(hierarchy panorama::IUITextTextureProvider)
+panorama::IUITextTextureStorage
+	panorama.dll + 0x427cb8(hierarchy panorama::IUITextTextureStorage)
+pcharNode
+	panorama.dll + 0x419c08(hierarchy pcharNode: DNameNode)
+std::_Facet_base
+	panorama.dll + 0x3b8588(hierarchy std::_Facet_base)
+std::_Func_impl_no_alloc<class `public: __cdecl `public: virtual void __cdecl CLayoutContentParsed::ResolveEachReference(class std::function<void __cdecl(char const * __ptr64,class std::function<void __cdecl(char const * __ptr64)> const & __ptr64,class std::function<void __cdecl(char const * __ptr64,bool)> const & __ptr64)> const & __ptr64) __ptr64'::`2'::<lambda_1>::operator()(struct panorama::CContentASTNode<enum ELayoutNodeType> * __ptr64)const __ptr64'::`2'::<lambda_1>,void,char const * __ptr64>
+	panorama.dll + 0x40ea20(hierarchy std::_Func_impl_no_alloc<class `public: __cdecl `public: virtual void __cdecl CLayoutContentParsed::ResolveEachReference(class std::function<void __cdecl(char const * __ptr64,class std::function<void __cdecl(char const * __ptr64)> const & __ptr64,class std::function<void __cdecl(char const * __ptr64,bool)> const & __ptr64)> const & __ptr64) __ptr64'::`2'::<lambda_1>::operator()(struct panorama::CContentASTNode<enum ELayoutNodeType> * __ptr64)const __ptr64'::`2'::<lambda_1>,void,char const * __ptr64>: std::_Func_base<void,char const * __ptr64>)
+std::_Func_impl_no_alloc<class `public: __cdecl `public: virtual void __cdecl CLayoutContentParsed::ResolveEachReference(class std::function<void __cdecl(char const * __ptr64,class std::function<void __cdecl(char const * __ptr64)> const & __ptr64,class std::function<void __cdecl(char const * __ptr64,bool)> const & __ptr64)> const & __ptr64) __ptr64'::`2'::<lambda_1>::operator()(struct panorama::CContentASTNode<enum ELayoutNodeType> * __ptr64)const __ptr64'::`2'::<lambda_2>,void,char const * __ptr64,bool>
+	panorama.dll + 0x40ea58(hierarchy std::_Func_impl_no_alloc<class `public: __cdecl `public: virtual void __cdecl CLayoutContentParsed::ResolveEachReference(class std::function<void __cdecl(char const * __ptr64,class std::function<void __cdecl(char const * __ptr64)> const & __ptr64,class std::function<void __cdecl(char const * __ptr64,bool)> const & __ptr64)> const & __ptr64) __ptr64'::`2'::<lambda_1>::operator()(struct panorama::CContentASTNode<enum ELayoutNodeType> * __ptr64)const __ptr64'::`2'::<lambda_2>,void,char const * __ptr64,bool>: std::_Func_base<void,char const * __ptr64,bool>)
+std::_Func_impl_no_alloc<class `public: static class panorama::ILayoutContent * __ptr64 __cdecl panorama::ILayoutContent::LoadFromResourceFile(struct ResourceBindingBase_t const * __ptr64,struct ResourceFileHeader_t const * __ptr64,void * __ptr64,int)'::`2'::<lambda_2>,void,char const * __ptr64,class std::function<void __cdecl(char const * __ptr64)> const & __ptr64,class std::function<void __cdecl(char const * __ptr64,bool)> const & __ptr64>
+	panorama.dll + 0x40ea90(hierarchy std::_Func_impl_no_alloc<class `public: static class panorama::ILayoutContent * __ptr64 __cdecl panorama::ILayoutContent::LoadFromResourceFile(struct ResourceBindingBase_t const * __ptr64,struct ResourceFileHeader_t const * __ptr64,void * __ptr64,int)'::`2'::<lambda_2>,void,char const * __ptr64,class std::function<void __cdecl(char const * __ptr64)> const & __ptr64,class std::function<void __cdecl(char const * __ptr64,bool)> const & __ptr64>: std::_Func_base<void,char const * __ptr64,class std::function<void __cdecl(char const * __ptr64)> const & __ptr64,class std::function<void __cdecl(char const * __ptr64,bool)> const & __ptr64>)
+std::_Func_impl_no_alloc<class `public: virtual class std::shared_ptr<class IAsyncReadRequest2> __cdecl panorama::CSource2UIFileSystem::LoadFileIntoBufferAsync(char const * __ptr64,class CUtlBuffer & __ptr64,bool,class CUtlDelegate<void __cdecl(char const * __ptr64,class CUtlBuffer & __ptr64,bool)>) __ptr64'::`2'::<lambda_1>,void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>
+	panorama.dll + 0x429608(hierarchy std::_Func_impl_no_alloc<class `public: virtual class std::shared_ptr<class IAsyncReadRequest2> __cdecl panorama::CSource2UIFileSystem::LoadFileIntoBufferAsync(char const * __ptr64,class CUtlBuffer & __ptr64,bool,class CUtlDelegate<void __cdecl(char const * __ptr64,class CUtlBuffer & __ptr64,bool)>) __ptr64'::`2'::<lambda_1>,void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>: std::_Func_base<void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>)
+std::_Generic_error_category
+	panorama.dll + 0x3bec00(hierarchy std::_Generic_error_category: std::error_category)
+std::_Iostream_error_category2
+	panorama.dll + 0x3b8528(hierarchy std::_Iostream_error_category2: std::error_category)
+std::_System_error
+	panorama.dll + 0x3beae0(hierarchy std::_System_error: std::runtime_error, std::exception)
+std::__non_rtti_object
+	panorama.dll + 0x44d810(hierarchy std::__non_rtti_object: std::bad_typeid, std::exception)
+std::bad_alloc
+	panorama.dll + 0x3b30d8(hierarchy std::bad_alloc: std::exception)
+std::bad_array_new_length
+	panorama.dll + 0x3b30f0(hierarchy std::bad_array_new_length: std::bad_alloc, std::exception)
+std::bad_cast
+	panorama.dll + 0x3b8500(hierarchy std::bad_cast: std::exception)
+std::bad_exception
+	panorama.dll + 0x418548(hierarchy std::bad_exception: std::exception)
+std::bad_function_call
+	panorama.dll + 0x4175f0(hierarchy std::bad_function_call: std::exception)
+std::bad_typeid
+	panorama.dll + 0x44d7f8(hierarchy std::bad_typeid: std::exception)
+std::basic_ios<char,struct std::char_traits<char> >
+	panorama.dll + 0x3b9f80(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_iostream<char,struct std::char_traits<char> >
+	panorama.dll + 0x3b9fb8 MI offset 32(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>, std::basic_ostream<char,struct std::char_traits<char> >, std::basic_ios<char,struct std::char_traits<char> >, std::ios_base, std::_Iosb<int>)
+std::basic_istream<char,struct std::char_traits<char> >
+	panorama.dll + 0x3b9f90 MI offset 24(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_ostream<char,struct std::char_traits<char> >
+	panorama.dll + 0x3b9fa8 MI offset 16(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>)
+std::basic_streambuf<char,struct std::char_traits<char> >
+	panorama.dll + 0x3b9fc8(hierarchy std::basic_streambuf<char,struct std::char_traits<char> >)
+std::basic_stringbuf<char,struct std::char_traits<char>,class std::allocator<char> >
+	panorama.dll + 0x3ba048(hierarchy std::basic_stringbuf<char,struct std::char_traits<char>,class std::allocator<char> >: std::basic_streambuf<char,struct std::char_traits<char> >)
+std::basic_stringstream<char,struct std::char_traits<char>,class std::allocator<char> >
+	panorama.dll + 0x3ba0c8 MI offset 152(hierarchy std::basic_ios<char,struct std::char_traits<char> >: std::ios_base, std::_Iosb<int>, std::basic_ostream<char,struct std::char_traits<char> >, std::basic_ios<char,struct std::char_traits<char> >, std::ios_base, std::_Iosb<int>)
+std::ctype<char>
+	panorama.dll + 0x3b85b8(hierarchy std::ctype<char>: std::ctype_base, std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::error_category
+	panorama.dll + 0x3bebc8(hierarchy std::error_category)
+std::exception
+	panorama.dll + 0x3b30c0(hierarchy std::exception)
+std::ios_base
+	panorama.dll + 0x3b8618(hierarchy std::ios_base: std::_Iosb<int>)
+std::ios_base::failure
+	panorama.dll + 0x3beb20(hierarchy std::ios_base::failure: std::system_error, std::_System_error, std::runtime_error, std::exception)
+std::length_error
+	panorama.dll + 0x417638(hierarchy std::length_error: std::logic_error, std::exception)
+std::locale::_Locimp
+	panorama.dll + 0x418518(hierarchy std::locale::_Locimp: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::logic_error
+	panorama.dll + 0x417620(hierarchy std::logic_error: std::exception)
+std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >
+	panorama.dll + 0x3bb518(hierarchy std::num_put<char,class std::ostreambuf_iterator<char,struct std::char_traits<char> > >: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::numpunct<char>
+	panorama.dll + 0x3bb5c0(hierarchy std::numpunct<char>: std::locale::facet, std::_Facet_base, std::_Crt_new_delete)
+std::out_of_range
+	panorama.dll + 0x417650(hierarchy std::out_of_range: std::logic_error, std::exception)
+std::runtime_error
+	panorama.dll + 0x3beac0(hierarchy std::runtime_error: std::exception)
+std::system_error
+	panorama.dll + 0x3beb00(hierarchy std::system_error: std::_System_error, std::runtime_error, std::exception)
+type_info
+	panorama.dll + 0x4187c0(hierarchy type_info)

@@ -1,0 +1,11 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EGuildEventAuditAction(size: 4 bytes, 9 values, project "client", binding @ client.dll + 0x46f3970):
+	k_EGuildEventAuditAction_Invalid = 0,
+	k_EGuildEventAuditAction_DevGrant = 1,
+	k_EGuildEventAuditAction_CompleteContract = 2,
+	k_EGuildEventAuditAction_CompleteChallenge = 3,
+	k_EGuildEventAuditAction_CompleteMatch_Winner = 4,
+	k_EGuildEventAuditAction_ChallengeProgress = 5,
+	k_EGuildEventAuditAction_CompleteMatch_Loser = 6,
+	k_EGuildEventAuditAction_WeeklyLeaderboard = 7,
+	k_EGuildEventAuditAction_ManualGrant = 8,

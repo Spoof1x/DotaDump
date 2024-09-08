@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ResponseParams (size: 0x20 bytes, project "scenefilecache", binding @ scenefilecache.dll + 0x6add0, scope "scenefilecache.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class ResponseParams-----
+	uint8_t[16] unaccounted(offset 0x0)
+	int16 odds(offset 0x10, size 0x2, align 0x2)
+	int16 flags(offset 0x12, size 0x2, align 0x2)
+	uint8_t[4] unaccounted(offset 0x14)
+	ResponseFollowup* m_pFollowup(offset 0x18, size 0x8, align 0x8)
+

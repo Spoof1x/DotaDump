@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VPhysXAggregateData_t (size: 0x138 bytes, project "modellib", binding @ animationsystem.dll + 0x5e6580, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x3d3f90"
+
+-----members of class VPhysXAggregateData_t-----
+	uint16 m_nFlags(offset 0x0, size 0x2, align 0x2)
+	uint16 m_nRefCounter(offset 0x2, size 0x2, align 0x2)
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlVector< uint32 > m_bonesHash(offset 0x8, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_boneNames(offset 0x20, size 0x18, align 0x8)
+	CUtlVector< uint16 > m_indexNames(offset 0x38, size 0x18, align 0x8)
+	CUtlVector< uint16 > m_indexHash(offset 0x50, size 0x18, align 0x8)
+	CUtlVector< matrix3x4a_t > m_bindPose(offset 0x68, size 0x18, align 0x8)
+	CUtlVector< VPhysXBodyPart_t > m_parts(offset 0x80, size 0x18, align 0x8)
+	CUtlVector< VPhysXConstraint2_t > m_constraints2(offset 0x98, size 0x18, align 0x8)
+	CUtlVector< VPhysXJoint_t > m_joints(offset 0xb0, size 0x18, align 0x8)
+	PhysFeModelDesc_t* m_pFeModel(offset 0xc8, size 0x8, align 0x8)
+	CUtlVector< uint16 > m_boneParents(offset 0xd0, size 0x18, align 0x8)
+	CUtlVector< uint32 > m_surfacePropertyHashes(offset 0xe8, size 0x18, align 0x8)
+	CUtlVector< VPhysXCollisionAttributes_t > m_collisionAttributes(offset 0x100, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_debugPartNames(offset 0x118, size 0x18, align 0x8)
+	CUtlString m_embeddedKeyvalues(offset 0x130, size 0x8, align 0x8)
+

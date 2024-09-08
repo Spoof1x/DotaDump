@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_ConflictManager (size: 0x38 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e8be0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x55f890"
+
+-----members of class CAnimGraphDoc_ConflictManager-----
+	uint8_t[24] unaccounted(offset 0x0)
+	CUtlVector< CSmartPtr< CAnimConflictBase > > m_conflicts(offset 0x18, size 0x18, align 0x8)
+	uint8_t[8] unaccounted(offset 0x30)
+

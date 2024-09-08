@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NmTargetWarpAlgorithm_t(size: 1 bytes, 4 values, project "animlib", binding @ animationsystem.dll + 0x5d9c10):
+	Lerp = 0,
+	Hermite = 1,
+	HermiteFeaturePreserving = 2,
+	Bezier = 3,

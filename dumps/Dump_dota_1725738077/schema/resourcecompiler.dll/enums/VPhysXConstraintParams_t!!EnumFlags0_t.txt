@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum VPhysXConstraintParams_t::EnumFlags0_t(size: 4 bytes, 4 values, project "modellib", binding @ resourcecompiler.dll + 0x2497050):
+	FLAG0_SHIFT_INTERPENETRATE = 0,
+	FLAG0_SHIFT_CONSTRAIN = 1,
+	FLAG0_SHIFT_BREAKABLE_FORCE = 2,
+	FLAG0_SHIFT_BREAKABLE_TORQUE = 3,

@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNetworkTransmitComponent (size: 0x1a0 bytes, project "server", binding @ server.dll + 0x3887f30, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+
+-----static members of class CNetworkTransmitComponent-----
+	static int32 s_nDebugStateChange(server.dll + 0x3c6c370)
+	static int32 s_nWatchTransmitEntity(server.dll + 0x3886f68)
+	static bool s_bUseNetworkVars(server.dll + 0x3886f6c)
+	static bool s_bNetworkVarPerFieldTracking(server.dll + 0x3886f6d)
+	static bool s_bNetworkVarValidate(server.dll + 0x3c6c374)
+	static bool s_bUsingPVSConvars(server.dll + 0x3c6c375)
+
+-----members of class CNetworkTransmitComponent-----
+	uint8_t[364] unaccounted(offset 0x0)
+	uint8 m_nTransmitStateOwnedCounter(offset 0x16c, size 0x1, align 0x1)
+	uint8_t[51] unaccounted(offset 0x16d)
+

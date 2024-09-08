@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSosSoundEventGroupListSchema (size: 0x18 bytes, project "soundsystem", binding @ soundsystem.dll + 0x39ec30, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x19bde0"
+
+-----members of class CSosSoundEventGroupListSchema-----
+	CUtlVector< CSosSoundEventGroupSchema > m_groupList(offset 0x0, size 0x18, align 0x8)
+		^MPropertyAutoExpandSelf
+		^MPropertyFriendlyName "Groups"
+

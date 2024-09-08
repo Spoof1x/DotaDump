@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CResponseCriteriaSet (size: 0x28 bytes, project "client", binding @ client.dll + 0x4711a70, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+-----members of class CResponseCriteriaSet-----
+	uint8_t[32] unaccounted(offset 0x0)
+	int32 m_nNumPrefixedContexts(offset 0x20, size 0x4, align 0x4)
+	bool m_bOverrideOnAppend(offset 0x24, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x25)
+

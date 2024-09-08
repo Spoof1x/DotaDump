@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FantasyCraftOperationBucket_t (size: 0x28 bytes, project "server", binding @ server.dll + 0x3aab0a0, scope "server.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: server.dll + 0x17158d0"
+^MPropertyAutoExpandSelf
+
+-----members of class FantasyCraftOperationBucket_t-----
+	uint16 m_unOperationCount(offset 0x0, size 0x2, align 0x2)
+		^MPropertyDescription "How many operations should the user get from this bucket"
+	uint8_t[6] unaccounted(offset 0x2)
+	CUtlVector< FantasyCraftOperation_t > m_vecOperations(offset 0x8, size 0x18, align 0x8)
+	uint8_t[8] unaccounted(offset 0x20)
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeSoftParent_t (size: 0x8 bytes, project "physicslib", binding @ vphysics2.dll + 0x390790, scope "vphysics2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0x1303a0"
+
+-----members of class FeSoftParent_t-----
+	int32 nParent(offset 0x0, size 0x4, align 0x4)
+	float32 flAlpha(offset 0x4, size 0x4, align 0x4)
+

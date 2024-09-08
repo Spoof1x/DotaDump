@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPoseHandle (size: 0x4 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a6e20, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x185af0"
+
+-----members of class CPoseHandle-----
+	uint16 m_nIndex(offset 0x0, size 0x2, align 0x2)
+	PoseType_t m_eType(offset 0x2, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x3)
+

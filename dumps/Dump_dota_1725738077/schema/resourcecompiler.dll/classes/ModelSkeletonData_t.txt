@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ModelSkeletonData_t (size: 0xa8 bytes, project "modellib", binding @ resourcecompiler.dll + 0x2499be0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11a2700"
+
+-----members of class ModelSkeletonData_t-----
+	CUtlVector< CUtlString > m_boneName(offset 0x0, size 0x18, align 0x8)
+	CUtlVector< int16 > m_nParent(offset 0x18, size 0x18, align 0x8)
+	CUtlVector< float32 > m_boneSphere(offset 0x30, size 0x18, align 0x8)
+	CUtlVector< uint32 > m_nFlag(offset 0x48, size 0x18, align 0x8)
+	CUtlVector< Vector > m_bonePosParent(offset 0x60, size 0x18, align 0x8)
+	CUtlVector< QuaternionStorage > m_boneRotParent(offset 0x78, size 0x18, align 0x8)
+	CUtlVector< float32 > m_boneScaleParent(offset 0x90, size 0x18, align 0x8)
+

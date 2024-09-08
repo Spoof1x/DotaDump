@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FantasyCraftSetupData_t (size: 0xb8 bytes, project "server", binding @ server.dll + 0x3aab300, scope "server.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: server.dll + 0x1715da0"
+^MPropertyAutoExpandSelf
+
+-----members of class FantasyCraftSetupData_t-----
+	FantasyCraftDataID_t m_unID(offset 0x0, size 0x2, align 0x0)
+		^MPropertyDescription "Unique identifier for this set of crafting data"
+	uint8_t[6] unaccounted(offset 0x2)
+	CUtlVector< FantasyCraftingTitleData_t > m_vecPrefixes(offset 0x8, size 0x18, align 0x8)
+	CUtlVector< FantasyCraftingTitleData_t > m_vecSuffixes(offset 0x20, size 0x18, align 0x8)
+	CUtlVector< FantasyCraftingGemData_t > m_vecGems(offset 0x38, size 0x18, align 0x8)
+	CUtlVector< FantasyCraftingShapeData_t > m_vecShapes(offset 0x50, size 0x18, align 0x8)
+	CUtlVector< FantasyCraftingQualityData_t > m_vecQualities(offset 0x68, size 0x18, align 0x8)
+	CUtlVector< FantasyCraftingTabletData_t > m_vecTablets(offset 0x80, size 0x18, align 0x8)
+	CUtlVector< FantasyCraftOperationBucket_t > m_vecOperations(offset 0x98, size 0x18, align 0x8)
+	uint8_t[8] unaccounted(offset 0xb0)
+

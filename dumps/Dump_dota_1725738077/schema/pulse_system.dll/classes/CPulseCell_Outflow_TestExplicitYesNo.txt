@@ -1,0 +1,46 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_Outflow_TestExplicitYesNo (size: 0xa8 bytes, project "pulse_runtime_lib", binding @ pulse_system.dll + 0x11dcb0, scope "pulse_system.dll") extends CPulseCell_BaseFlow
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: pulse_system.dll + 0x4c560"
+^MCellForDomain "BaseDomain"
+^MPulseCellMethodBindings "ptr: pulse_system.dll + 0x11e490"
+^MPulseCellOutflowHookInfo "ptr: pulse_system.dll + 0x130e10"
+^MPropertyFriendlyName "[Test] Explicit Yes/No Outflow"
+^MPropertyDescription "Test node that picks between two outflows as specified in the test domain."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseFlow (size: 0x48 bytes, project "pulse_runtime_lib", binding @ pulse_system.dll + 0x11c8e0, scope "pulse_system.dll") extends CPulseCell_Base
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: pulse_system.dll + 0x49900"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_Base (size: 0x48 bytes, project "pulse_runtime_lib", binding @ pulse_system.dll + 0x11dd50, scope "pulse_system.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: pulse_system.dll + 0x497e0"
+		
+		-----members of class CPulseCell_Base-----
+			uint8_t[8] unaccounted(offset 0x0)
+			PulseDocNodeID_t m_nEditorNodeID(offset 0x8, size 0x4, align 0x0)
+				^MFgdFromSchemaCompletelySkipField
+			uint8_t[60] unaccounted(offset 0xc)
+		
+	
+	-----members of class CPulseCell_BaseFlow-----
+		<no members>
+	
+
+-----members of class CPulseCell_Outflow_TestExplicitYesNo-----
+	CPulse_OutflowConnection m_Yes(offset 0x48, size 0x30, align 0x0)
+		^MPropertyFriendlyName "Yes"
+	CPulse_OutflowConnection m_No(offset 0x78, size 0x30, align 0x0)
+		^MPropertyFriendlyName "No"
+

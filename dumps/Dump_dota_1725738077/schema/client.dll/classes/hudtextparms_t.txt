@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class hudtextparms_t (size: 0x14 bytes, project "client", binding @ client.dll + 0x46bbc70, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class hudtextparms_t-----
+	Color color1(offset 0x0, size 0x4, align 0x1)
+	Color color2(offset 0x4, size 0x4, align 0x1)
+	uint8 effect(offset 0x8, size 0x1, align 0x1)
+	uint8 channel(offset 0x9, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0xa)
+	float32 x(offset 0xc, size 0x4, align 0x4)
+	float32 y(offset 0x10, size 0x4, align 0x4)
+

@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ParticleChildrenInfo_t (size: 0x20 bytes, project "particles", binding @ particles.dll + 0x519d80, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x808e0"
+
+-----members of class ParticleChildrenInfo_t-----
+	CStrongHandle< InfoForResourceTypeIParticleSystemDefinition > m_ChildRef(offset 0x0, size 0x8, align 0x8)
+		^MPropertySuppressField
+	float32 m_flDelay(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "delay"
+	bool m_bEndCap(offset 0xc, size 0x1, align 0x1)
+		^MPropertyFriendlyName "end cap effect"
+	bool m_bDisableChild(offset 0xd, size 0x1, align 0x1)
+		^MPropertySuppressField
+	uint8_t[2] unaccounted(offset 0xe)
+	ParticleDetailLevel_t m_nDetailLevel(offset 0x10, size 0x4, align 0x4)
+		^MPropertyFriendlyName "disable at detail levels below"
+	uint8_t[12] unaccounted(offset 0x14)
+

@@ -1,0 +1,36 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CChoiceUpdateNode (size: 0xb8 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a3ff0, scope "!GlobalTypes") extends CAnimUpdateNodeBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x16ede0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimUpdateNodeBase (size: 0x58 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b28c0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+	
+	-----members of class CAnimUpdateNodeBase-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CAnimNodePath m_nodePath(offset 0x18, size 0x30, align 0x4)
+		AnimNodeNetworkMode m_networkMode(offset 0x48, size 0x4, align 0x4)
+		uint8_t[4] unaccounted(offset 0x4c)
+		CUtlString m_name(offset 0x50, size 0x8, align 0x8)
+	
+
+-----members of class CChoiceUpdateNode-----
+	CUtlVector< CAnimUpdateNodeRef > m_children(offset 0x58, size 0x18, align 0x8)
+	CUtlVector< float32 > m_weights(offset 0x70, size 0x18, align 0x8)
+	CUtlVector< float32 > m_blendTimes(offset 0x88, size 0x18, align 0x8)
+	ChoiceMethod m_choiceMethod(offset 0xa0, size 0x4, align 0x4)
+	ChoiceChangeMethod m_choiceChangeMethod(offset 0xa4, size 0x4, align 0x4)
+	ChoiceBlendMethod m_blendMethod(offset 0xa8, size 0x4, align 0x4)
+	float32 m_blendTime(offset 0xac, size 0x4, align 0x4)
+	bool m_bCrossFade(offset 0xb0, size 0x1, align 0x1)
+	bool m_bResetChosen(offset 0xb1, size 0x1, align 0x1)
+	bool m_bDontResetSameSelection(offset 0xb2, size 0x1, align 0x1)
+	uint8_t[5] unaccounted(offset 0xb3)
+

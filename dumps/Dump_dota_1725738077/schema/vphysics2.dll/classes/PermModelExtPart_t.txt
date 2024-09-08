@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PermModelExtPart_t (size: 0x40 bytes, project "modellib", binding @ vphysics2.dll + 0x388ee0, scope "vphysics2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0x9afb0"
+
+-----members of class PermModelExtPart_t-----
+	CTransform m_Transform(offset 0x0, size 0x20, align 0x10)
+	CUtlString m_Name(offset 0x20, size 0x8, align 0x8)
+	int32 m_nParent(offset 0x28, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x2c)
+	CStrongHandle< InfoForResourceTypeCModel > m_refModel(offset 0x30, size 0x8, align 0x8)
+	uint8_t[8] unaccounted(offset 0x38)
+

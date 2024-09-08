@@ -1,0 +1,57 @@
+CConCommandMemberAccessor<class CSchemaSystem>
+	schemasystem.dll + 0x46058(hierarchy CConCommandMemberAccessor<class CSchemaSystem>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+	schemasystem.dll + 0x46360 MI offset 8(hierarchy ICommandCompletionCallback)
+CExampleSchemaVData_PolymorphicBase
+	schemasystem.dll + 0x3ab78(hierarchy CExampleSchemaVData_PolymorphicBase)
+CExampleSchemaVData_PolymorphicDerivedA
+	schemasystem.dll + 0x3aba0(hierarchy CExampleSchemaVData_PolymorphicDerivedA: CExampleSchemaVData_PolymorphicBase)
+CExampleSchemaVData_PolymorphicDerivedB
+	schemasystem.dll + 0x3abc8(hierarchy CExampleSchemaVData_PolymorphicDerivedB: CExampleSchemaVData_PolymorphicBase)
+CKV3TransferContextBase
+	schemasystem.dll + 0x3ca78(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferSaveContext
+	schemasystem.dll + 0x3cab0(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CPostConnectCallback
+	schemasystem.dll + 0x3c9a8(hierarchy CPostConnectCallback)
+CSchemaInstallCallback
+	schemasystem.dll + 0x3cb80(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_resourcefile
+	schemasystem.dll + 0x3a858(hierarchy CSchemaRegistration_resourcefile: CSchemaRegistration)
+CSchemaRegistration_schemalib
+	schemasystem.dll + 0x3b560(hierarchy CSchemaRegistration_schemalib: CSchemaRegistration)
+CSchemaRegistration_schemasystem
+	schemasystem.dll + 0x4a8a8(hierarchy CSchemaRegistration_schemasystem: CSchemaRegistration)
+CSchemaSystem
+	schemasystem.dll + 0x461e0(hierarchy CSchemaSystem: CTier2AppSystem<class ISchemaSystem,0>, CTier1AppSystem<class ISchemaSystem,0>, CTier0AppSystem<class ISchemaSystem,0>, CBaseAppSystem<class ISchemaSystem>, ISchemaSystem, IAppSystem)
+CSchemaSystemTypeScope
+	schemasystem.dll + 0x463c0(hierarchy CSchemaSystemTypeScope: ISchemaSystemTypeScope)
+CSchemaType
+	schemasystem.dll + 0x46600(hierarchy CSchemaType)
+CSchemaType_Atomic
+	schemasystem.dll + 0x464e0(hierarchy CSchemaType_Atomic: CSchemaType)
+CSchemaType_Atomic_CollectionOfT
+	schemasystem.dll + 0x46770(hierarchy CSchemaType_Atomic_CollectionOfT: CSchemaType_Atomic_T, CSchemaType_Atomic, CSchemaType)
+CSchemaType_Atomic_I
+	schemasystem.dll + 0x46570(hierarchy CSchemaType_Atomic_I: CSchemaType_Atomic, CSchemaType)
+CSchemaType_Atomic_T
+	schemasystem.dll + 0x46098(hierarchy CSchemaType_Atomic_T: CSchemaType_Atomic, CSchemaType)
+CSchemaType_Atomic_TT
+	schemasystem.dll + 0x46128(hierarchy CSchemaType_Atomic_TT: CSchemaType_Atomic_T, CSchemaType_Atomic, CSchemaType)
+CSchemaType_Bitfield
+	schemasystem.dll + 0x45fc8(hierarchy CSchemaType_Bitfield: CSchemaType)
+CSchemaType_Builtin
+	schemasystem.dll + 0x466b8(hierarchy CSchemaType_Builtin: CSchemaType)
+CSchemaType_DeclaredClass
+	schemasystem.dll + 0x46800(hierarchy CSchemaType_DeclaredClass: CSchemaType)
+CSchemaType_DeclaredEnum
+	schemasystem.dll + 0x45f10(hierarchy CSchemaType_DeclaredEnum: CSchemaType)
+CSchemaType_FixedArray
+	schemasystem.dll + 0x468e0(hierarchy CSchemaType_FixedArray: CSchemaType)
+CSchemaType_Ptr
+	schemasystem.dll + 0x46998(hierarchy CSchemaType_Ptr: CSchemaType)
+std::bad_exception
+	schemasystem.dll + 0x3dd78(hierarchy std::bad_exception: std::exception)
+std::exception
+	schemasystem.dll + 0x3cce8(hierarchy std::exception)
+type_info
+	schemasystem.dll + 0x3dcb8(hierarchy type_info)

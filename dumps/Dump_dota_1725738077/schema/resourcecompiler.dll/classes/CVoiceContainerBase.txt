@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVoiceContainerBase (size: 0xb8 bytes, project "soundsystem_voicecontainers", binding @ resourcecompiler.dll + 0x24c1160, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x16526a0"
+^MVDataRoot
+^MVDataNodeType "1"
+^MFgdFromSchemaEditablePolymorphicThisClass
+^MVDataFileExtension "vsnd"
+^MPropertyFriendlyName "VSND Container"
+^MPropertyDescription "Voice Container Base"
+
+-----static members of class CVoiceContainerBase-----
+	static bool bAudioFinishedPlaying(resourcecompiler.dll + 0x1cfbf90)
+	static bool bAudioStillPlaying(resourcecompiler.dll + 0x1cfbf91)
+
+-----members of class CVoiceContainerBase-----
+	uint8_t[56] unaccounted(offset 0x0)
+	CVSound m_vSound(offset 0x38, size 0x80, align 0x8)
+		^MPropertySuppressField
+

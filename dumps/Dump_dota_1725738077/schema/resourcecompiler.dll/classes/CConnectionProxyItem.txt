@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CConnectionProxyItem (size: 0x18 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f2c50, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5b0670"
+^MPropertyFriendlyName "Input Item"
+^MPropertyElementNameFn "func: resourcecompiler.dll + 0x5b06e0"
+
+-----members of class CConnectionProxyItem-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Name"
+	AnimNodeOutputID m_outputID(offset 0x8, size 0x4, align 0x4)
+		^MPropertyHideField
+	CAnimGraphDoc_NodeConnection m_inputConnection(offset 0xc, size 0x8, align 0x4)
+		^MPropertyHideField
+	uint8_t[4] unaccounted(offset 0x14)
+

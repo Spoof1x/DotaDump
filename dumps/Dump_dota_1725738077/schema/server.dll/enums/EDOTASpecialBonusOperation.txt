@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EDOTASpecialBonusOperation(size: 1 bytes, 6 values, project "server", binding @ server.dll + 0x39f4610):
+	SPECIAL_BONUS_ADD = 0,
+	SPECIAL_BONUS_MULTIPLY = 1,
+	SPECIAL_BONUS_SUBTRACT = 2,
+	SPECIAL_BONUS_PERCENTAGE_ADD = 3,
+	SPECIAL_BONUS_PERCENTAGE_SUBTRACT = 4,
+	SPECIAL_BONUS_SET = 5,

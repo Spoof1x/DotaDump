@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_NodeManager (size: 0x48 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e8c80, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x560630"
+
+-----members of class CAnimGraphDoc_NodeManager-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlHashtable< AnimNodeID, CSmartPtr< CAnimGraphDoc_Node > > m_nodes(offset 0x8, size 0x20, align 0x8)
+		^MPropertyHideField
+	uint8_t[32] unaccounted(offset 0x28)
+

@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class MatchID_t (size: 0x8 bytes, project "server", binding @ server.dll + 0x39fd840, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class MatchID_t-----
+	static bool IS_TYPESAFE_INTEGER(server.dll + 0x2d252f3)
+
+-----members of class MatchID_t-----
+	uint64 m_Value(offset 0x0, size 0x8, align 0x8)
+

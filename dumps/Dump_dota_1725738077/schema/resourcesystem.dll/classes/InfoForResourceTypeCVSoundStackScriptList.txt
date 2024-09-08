@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class InfoForResourceTypeCVSoundStackScriptList (size: 0x1 bytes, project "resourcesystem", binding @ resourcesystem.dll + 0x63720, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MResourceTypeForInfoType "vsndstck"
+
+-----members of class InfoForResourceTypeCVSoundStackScriptList-----
+	uint8_t[1] unaccounted(offset 0x0)
+

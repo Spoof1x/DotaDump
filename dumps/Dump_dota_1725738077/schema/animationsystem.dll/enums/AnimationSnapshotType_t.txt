@@ -1,0 +1,9 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum AnimationSnapshotType_t(size: 4 bytes, 7 values, project "animationsystem", binding @ animationsystem.dll + 0x5f13c0):
+	ANIMATION_SNAPSHOT_SERVER_SIMULATION = 0,
+	ANIMATION_SNAPSHOT_CLIENT_SIMULATION = 1,
+	ANIMATION_SNAPSHOT_CLIENT_PREDICTION = 2,
+	ANIMATION_SNAPSHOT_CLIENT_INTERPOLATION = 3,
+	ANIMATION_SNAPSHOT_CLIENT_RENDER = 4,
+	ANIMATION_SNAPSHOT_FINAL_COMPOSITE = 5,
+	ANIMATION_SNAPSHOT_MAX = 6,

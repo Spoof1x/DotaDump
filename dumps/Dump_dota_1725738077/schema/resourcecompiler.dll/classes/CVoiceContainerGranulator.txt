@@ -1,0 +1,39 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVoiceContainerGranulator (size: 0x188 bytes, project "soundsystem_voicecontainers", binding @ resourcecompiler.dll + 0x24c2b90, scope "!GlobalTypes") extends CVoiceContainerBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x166a280"
+^MPropertyFriendlyName "Granulator Container"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CVoiceContainerBase (size: 0xb8 bytes, project "soundsystem_voicecontainers", binding @ resourcecompiler.dll + 0x24c1160, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x16526a0"
+	^MVDataRoot
+	^MVDataNodeType "1"
+	^MFgdFromSchemaEditablePolymorphicThisClass
+	^MVDataFileExtension "vsnd"
+	^MPropertyFriendlyName "VSND Container"
+	^MPropertyDescription "Voice Container Base"
+	
+	-----static members of class CVoiceContainerBase-----
+		static bool bAudioFinishedPlaying(resourcecompiler.dll + 0x1cfbf90)
+		static bool bAudioStillPlaying(resourcecompiler.dll + 0x1cfbf91)
+	
+	-----members of class CVoiceContainerBase-----
+		uint8_t[56] unaccounted(offset 0x0)
+		CVSound m_vSound(offset 0x38, size 0x80, align 0x8)
+			^MPropertySuppressField
+	
+
+-----members of class CVoiceContainerGranulator-----
+	float32 m_flGrainLength(offset 0xb8, size 0x4, align 0x4)
+	float32 m_flGrainCrossfadeAmount(offset 0xbc, size 0x4, align 0x4)
+	float32 m_flStartJitter(offset 0xc0, size 0x4, align 0x4)
+	float32 m_flPlaybackJitter(offset 0xc4, size 0x4, align 0x4)
+	CStrongHandle< InfoForResourceTypeCVoiceContainerBase > m_sourceAudio(offset 0xc8, size 0x8, align 0x8)
+	uint8_t[184] unaccounted(offset 0xd0)
+

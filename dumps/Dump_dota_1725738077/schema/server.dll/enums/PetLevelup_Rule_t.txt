@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PetLevelup_Rule_t(size: 4 bytes, 4 values, project "server", binding @ server.dll + 0x3af3cb0):
+	PETLEVELFROM_NOTHING = 0,
+	PETLEVELFROM_KILLEATER = 1,
+	PETLEVELFROM_COMPENDIUM_LEVEL = 2,
+	NUM_PETLEVELUPRULES = 3,

@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class DOTAOutgoingBonus_t (size: 0x18 bytes, project "server", binding @ server.dll + 0x39f49b0, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class DOTAOutgoingBonus_t-----
+	char* m_pszAbilityName(offset 0x0, size 0x8, align 0x8)
+	char* m_pszSpecialName(offset 0x8, size 0x8, align 0x8)
+	float32 m_fValue(offset 0x10, size 0x4, align 0x4)
+	EDOTASpecialBonusOperation m_eOperation(offset 0x14, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x15)
+

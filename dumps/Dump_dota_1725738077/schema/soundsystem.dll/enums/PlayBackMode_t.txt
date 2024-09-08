@@ -1,0 +1,12 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PlayBackMode_t(size: 4 bytes, 5 values, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39a6c0):
+	Random = 0,
+		^MPropertyFriendlyName "Random"
+	RandomNoRepeats = 1,
+		^MPropertyFriendlyName "Random No Repeats"
+	RandomAvoidLast = 2,
+		^MPropertyFriendlyName "Random Avoid Last"
+	Sequential = 3,
+		^MPropertyFriendlyName "Sequential"
+	RandomWeights = 4,
+		^MPropertyFriendlyName "Random With Weights"

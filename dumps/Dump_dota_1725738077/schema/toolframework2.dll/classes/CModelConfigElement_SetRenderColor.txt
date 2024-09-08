@@ -1,0 +1,26 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CModelConfigElement_SetRenderColor (size: 0x50 bytes, project "modellib", binding @ toolframework2.dll + 0x92a3f0, scope "toolframework2.dll") extends CModelConfigElement
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x3aae40"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CModelConfigElement (size: 0x48 bytes, project "modellib", binding @ toolframework2.dll + 0x92a9d0, scope "toolframework2.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: toolframework2.dll + 0x13010"
+	
+	-----members of class CModelConfigElement-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_ElementName(offset 0x8, size 0x8, align 0x8)
+		CUtlVector< CModelConfigElement* > m_NestedElements(offset 0x10, size 0x18, align 0x8)
+		uint8_t[32] unaccounted(offset 0x28)
+	
+
+-----members of class CModelConfigElement_SetRenderColor-----
+	Color m_Color(offset 0x48, size 0x4, align 0x1)
+	uint8_t[4] unaccounted(offset 0x4c)
+

@@ -1,0 +1,12 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CMsgBattleReport_CompareContext(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x46f4270):
+	k_eCompareContextInvalid = -1,
+		^MPropertySuppressEnumerator
+	k_eAbsoluteValue = 0,
+		^MPropertyFriendlyName "Overall Value"
+	k_ePlayersOfSimilarRank = 1,
+		^MPropertyFriendlyName "Vs Rank Population"
+	k_eAllPlayers = 2,
+		^MPropertyFriendlyName "Vs All Players"
+	k_ePlayersPersonalHistory = 3,
+		^MPropertyFriendlyName "Vs Personal History"

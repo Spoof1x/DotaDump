@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ELeaguePhase(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x4700660):
+	LEAGUE_PHASE_UNSET = 0,
+	LEAGUE_PHASE_REGIONAL_QUALIFIER = 1,
+	LEAGUE_PHASE_GROUP_STAGE = 2,
+	LEAGUE_PHASE_MAIN_EVENT = 3,

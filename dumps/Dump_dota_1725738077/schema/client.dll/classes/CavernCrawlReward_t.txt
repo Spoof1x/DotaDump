@@ -1,0 +1,20 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CavernCrawlReward_t (size: 0x38 bytes, project "client", binding @ client.dll + 0x488c7f0, scope "!GlobalTypes")
+
+-----members of class CavernCrawlReward_t-----
+	uint32 m_nActionID(offset 0x0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlString m_rewardName(offset 0x8, size 0x8, align 0x8)
+	CavernCrawlItemType_t m_nItemType(offset 0x10, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x11)
+	CUtlString m_locString(offset 0x18, size 0x8, align 0x8)
+	CUtlString m_tooltipString(offset 0x20, size 0x8, align 0x8)
+	CUtlString m_image(offset 0x28, size 0x8, align 0x8)
+	CavernCrawlRewardType_t m_nStyleUnlockRewardType(offset 0x30, size 0x1, align 0x0)
+	uint8 m_nPriority(offset 0x31, size 0x1, align 0x1)
+	style_index_t m_nBundleItemDefStyle(offset 0x32, size 0x1, align 0x0)
+	bool m_bImageIsBundleItemDef(offset 0x33, size 0x1, align 0x1)
+	bool m_bCannotBeReplacedWithUltraRareReward(offset 0x34, size 0x1, align 0x1)
+	bool m_bIsUltraRareReward(offset 0x35, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x36)
+

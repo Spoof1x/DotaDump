@@ -1,0 +1,106 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_TraceInDirection (size: 0x3d0 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfea20, scope "toolscenenodes.dll") extends CSmartPropOperation_Trace
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x69f570"
+^MPropertyFriendlyName "Transform: Trace In Direction"
+^MPropertyDescription "Perform a trace in a direction from a specified origin and stop when a surface is hit."
+^MVDataClassGroup "Transform"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation_Trace (size: 0x310 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfe900, scope "toolscenenodes.dll") extends CSmartPropTransformOperation
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropTransformOperation (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfc0a0, scope "toolscenenodes.dll") extends CSmartPropOperation
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+		^MVDataNodeTintColor "-4392"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbf9bc0, scope "toolscenenodes.dll") extends CSmartPropModifier
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+			
+				|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfac80, scope "toolscenenodes.dll")
+				| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+				| SCHEMA_CF1_IS_ABSTRACT
+				| SCHEMA_CF1_CONSTRUCT_ALLOWED
+				| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+				^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+				^MVDataBase
+				^MVDataNodeType "1"
+				^MVDataAnonymousNode
+				
+				-----members of class CSmartPropModifier-----
+					uint8_t[8] unaccounted(offset 0x0)
+					CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+						^MVDataEnableKey
+					uint8_t[8] unaccounted(offset 0x48)
+				
+			
+			-----members of class CSmartPropOperation-----
+				<no members>
+			
+		
+		-----members of class CSmartPropTransformOperation-----
+			<no members>
+		
+	
+	-----members of class CSmartPropOperation_Trace-----
+		CSmartPropAttributeVector m_Origin(offset 0x50, size 0x40, align 0x8)
+			^MPropertyStartGroup "+Origin"
+			^MPropertyDescription "Specifies the origin point for the start of the trace. To trace from the current position, set to < 0, 0, 0 > and set the coordinate space to Element Space"
+		CSmartPropAttributeCoordinateSpace m_OriginSpace(offset 0x90, size 0x40, align 0x0)
+			^MPropertyDescription "Coordinate space the origin is specified in. Using Element space allows specifying a value relative to the current position. However, world space should generally be used when for variable values."
+		CSmartPropAttributeFloat m_flOriginOffset(offset 0xd0, size 0x40, align 0x8)
+			^MPropertyDescription "Offset to apply to the specified origin along the trace direction to compute the starting point of the trace."
+		CSmartPropAttributeFloat m_flSurfaceUpInfluence(offset 0x110, size 0x40, align 0x8)
+			^MPropertyStartGroup "+Result"
+			^MPropertySortPriority "-1"
+			^MPropertyDescription "How much should the surface normal up direction influence the final orientation. [ 0, 1 ] where 0 = don't modify the orientation, 1 = completely re-orient to match the surface."
+		CSmartPropAttributeTraceNoHit m_nNoHitResult(offset 0x150, size 0x40, align 0x0)
+			^MPropertySortPriority "-1"
+			^MPropertyFriendlyName "If No Surface Hit"
+			^MPropertyDescription "Specifies the behavior when the trace does not hit a surface."
+		CSmartPropAttributeBool m_bIgnoreToolMaterials(offset 0x190, size 0x40, align 0x8)
+			^MPropertyStartGroup "Trace filtering"
+			^MPropertySortPriority "-2"
+			^MPropertyDescription "Do not trace against tool materials (attribute 'tools.toolsmaterial')."
+		CSmartPropAttributeBool m_bIgnoreSky(offset 0x1d0, size 0x40, align 0x8)
+			^MPropertySortPriority "-2"
+			^MPropertyDescription "Do not trace against sky materials (attribute 'mapbuilder.sky')."
+		CSmartPropAttributeBool m_bIgnoreNoDraw(offset 0x210, size 0x40, align 0x8)
+			^MPropertySortPriority "-2"
+			^MPropertyDescription "Do not trace against no draw materials (material attribute 'mapbuilder.nodraw')."
+		CSmartPropAttributeBool m_bIgnoreTranslucent(offset 0x250, size 0x40, align 0x8)
+			^MPropertySortPriority "-2"
+			^MPropertyDescription "Do not trace against translucent materials (materials with 'alphatest' or 'translucent' attributes)."
+		CSmartPropAttributeBool m_bIgnoreModels(offset 0x290, size 0x40, align 0x8)
+			^MPropertySortPriority "-2"
+			^MPropertyDescription "Do not trace against any models (only hit world geometry)."
+		CSmartPropAttributeBool m_bIgnoreEntities(offset 0x2d0, size 0x40, align 0x8)
+			^MPropertySortPriority "-2"
+			^MPropertyDescription "Do not trace against dynamic entities which may move in game."
+	
+
+-----members of class CSmartPropOperation_TraceInDirection-----
+	CSmartPropAttributeVector m_vTraceDirection(offset 0x310, size 0x40, align 0x8)
+		^MPropertyStartGroup "+Trace Direction"
+	CSmartPropAttributeCoordinateSpace m_DirectionSpace(offset 0x350, size 0x40, align 0x0)
+		^MPropertyDescription "Specifies the coordinate space the trace direction vector is specified in."
+	CSmartPropAttributeFloat m_flTraceLength(offset 0x390, size 0x40, align 0x8)
+		^MPropertyDescription "Maximum length of the trace. Surfaces beyond this distance will not be hit."
+

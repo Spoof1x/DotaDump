@@ -1,0 +1,99 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropElement_Layout2DGrid (size: 0x3a0 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xc00100, scope "toolscenenodes.dll") extends CSmartPropElement_Group
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x6c6420"
+^MPropertyFriendlyName "Layout Grid"
+^MPropertyDescription "Generates set of child instances arranged in a regular grid layout."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropElement_Group (size: 0xa0 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfa6e0, scope "toolscenenodes.dll") extends CSmartPropElement
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x684120"
+	^MPropertyFriendlyName "Group"
+	^MPropertyDescription "A group of elements that will all be evaulated."
+	^MVDataOutlinerLabelExpr "m_sLabel"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropElement (size: 0x80 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfa340, scope "toolscenenodes.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x683a30"
+		^MVDataBase
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		^MPropertyFriendlyName "Smart Prop Element"
+		
+		-----members of class CSmartPropElement-----
+			uint8_t[8] unaccounted(offset 0x0)
+			int32 m_nElementID(offset 0x8, size 0x4, align 0x4)
+				^MPropertySuppressField
+				^MVDataUniqueMonotonicInt "_editor/next_element_id"
+			uint8_t[4] unaccounted(offset 0xc)
+			CSmartPropAttributeBool m_bEnabled(offset 0x10, size 0x40, align 0x8)
+				^MVDataEnableKey
+				^MPropertyDescription "Is this element enabled? If not enabled, this element will not be evaluted and will have no effect on the result."
+				^MPropertySortPriority "10"
+			CUtlVector< CSmartPropSelectionCriteria* > m_SelectionCriteria(offset 0x50, size 0x18, align 0x8)
+				^MPropertyFriendlyName "Selection Criteria"
+				^MVDataPromoteField "2"
+			CUtlVector< CSmartPropModifier* > m_Modifiers(offset 0x68, size 0x18, align 0x8)
+				^MPropertyFriendlyName "Modifiers"
+				^MVDataPromoteField "2"
+		
+	
+	-----members of class CSmartPropElement_Group-----
+		CUtlVector< CSmartPropElement* > m_Children(offset 0x80, size 0x18, align 0x8)
+			^MPropertyFriendlyName "Children"
+			^MPropertyDescription "List of child elements which will appear if this element appears"
+			^MVDataPromoteField "1"
+		CUtlString m_sLabel(offset 0x98, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Label"
+			^MPropertyDescription "Optional text that will appear in the outliner to help organize Smart Prop elements and communicate their purpose to other users."
+	
+
+-----members of class CSmartPropElement_Layout2DGrid-----
+	CSmartPropAttributeFloat m_flWidth(offset 0xa0, size 0x40, align 0x8)
+		^MPropertyDescription "Overall grid dimension along X axis."
+		^MPropertyAttributeRange "biased 0 4096"
+	CSmartPropAttributeFloat m_flLength(offset 0xe0, size 0x40, align 0x8)
+		^MPropertyDescription "Overall grid dimension along Y axis."
+		^MPropertyAttributeRange "biased 0 4096"
+	CSmartPropAttributeBool m_bVerticalLength(offset 0x120, size 0x40, align 0x8)
+		^MPropertyDescription "Layout length vertically (Along Z axis instead of Y)."
+	CSmartPropAttributeGridPlacementMode m_GridArrangement(offset 0x160, size 0x40, align 0x0)
+		^MPropertyDescription "ARRAY: Grid is a specific number of grid divisions. FILL: The boundary is filled with as many as will fit at the specified cell spacing."
+	CSmartPropAttributeGridOriginMode m_GridOriginMode(offset 0x1a0, size 0x40, align 0x0)
+		^MPropertyDescription "Specifies the overall grid origin location. Corner origin grids default to quadrant I, but may be expressed in others using negative values for Width and/or Length."
+	CSmartPropAttributeInt m_nCountW(offset 0x1e0, size 0x40, align 0x8)
+		^MPropertyDescription "Grid segments along width axis."
+		^MPropertyAttributeRange "1 64"
+		^MPropertySuppressExpr "m_GridArrangement == FILL"
+	CSmartPropAttributeInt m_nCountL(offset 0x220, size 0x40, align 0x8)
+		^MPropertyDescription "Grid segments along Length axis."
+		^MPropertyAttributeRange "1 64"
+		^MPropertySuppressExpr "m_GridArrangement == FILL"
+	CSmartPropAttributeFloat m_flSpacingWidth(offset 0x260, size 0x40, align 0x8)
+		^MPropertyDescription "Minimum Width of filled grid cells."
+		^MPropertyAttributeRange "biased 0 1024"
+		^MPropertySuppressExpr "m_GridArrangement == SEGMENT"
+	CSmartPropAttributeFloat m_flSpacingLength(offset 0x2a0, size 0x40, align 0x8)
+		^MPropertyDescription "Minimum Length of filled grid cells."
+		^MPropertyAttributeRange "biased 0 1024"
+		^MPropertySuppressExpr "m_GridArrangement == SEGMENT"
+	CSmartPropAttributeBool m_bAlternateShift(offset 0x2e0, size 0x40, align 0x8)
+		^MPropertyDescription "Shifts every other cell row and/or column."
+		^MPropertySuppressExpr "m_GridArrangement == FILL"
+	CSmartPropAttributeFloat m_flAlternateShiftWidth(offset 0x320, size 0x40, align 0x8)
+		^MPropertyDescription "Vary cell shift in X."
+		^MPropertyAttributeRange "biased 0 1024"
+		^MPropertySuppressExpr "m_GridArrangement == FILL || m_bAlternateShift == false"
+	CSmartPropAttributeFloat m_flAlternateShiftLength(offset 0x360, size 0x40, align 0x8)
+		^MPropertyDescription "Vary cell shift in Y."
+		^MPropertyAttributeRange "biased 0 1024"
+		^MPropertySuppressExpr "m_GridArrangement == FILL || m_bAlternateShift == false"
+

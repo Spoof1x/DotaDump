@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FantasyGemShape_t (size: 0x1 bytes, project "client", binding @ client.dll + 0x4890d10, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class FantasyGemShape_t-----
+	static bool IS_TYPESAFE_INTEGER(client.dll + 0x39dcc01)
+
+-----members of class FantasyGemShape_t-----
+	uint8 m_Value(offset 0x0, size 0x1, align 0x1)
+

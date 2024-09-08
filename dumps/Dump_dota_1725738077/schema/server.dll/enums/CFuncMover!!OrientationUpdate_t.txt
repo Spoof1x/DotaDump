@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CFuncMover::OrientationUpdate_t(size: 4 bytes, 6 values, project "server", binding @ server.dll + 0x38ca3e0):
+	ORIENTATION_FORWARD_PATH = 0,
+	ORIENTATION_FORWARD_PATH_AND_FIXED_PITCH = 1,
+	ORIENTATION_FORWARD_PATH_AND_UP_CONTROL_POINT = 2,
+	ORIENTATION_MATCH_CONTROL_POINT = 3,
+	ORIENTATION_FIXED = 4,
+	ORIENTATION_FACE_PLAYER = 5,

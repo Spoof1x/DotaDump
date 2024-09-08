@@ -1,0 +1,41 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVoiceContainerLoopTrigger (size: 0xe0 bytes, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39bcc0, scope "soundsystem.dll") extends CVoiceContainerBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x27e3d0"
+^MPropertyFriendlyName "LoopTrigger"
+^MPropertyDescription "Continuously retriggers a sound and optionally fades to the new instance."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CVoiceContainerBase (size: 0xb8 bytes, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39a000, scope "soundsystem.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: soundsystem.dll + 0x264ea0"
+	^MVDataRoot
+	^MVDataNodeType "1"
+	^MFgdFromSchemaEditablePolymorphicThisClass
+	^MVDataFileExtension "vsnd"
+	^MPropertyFriendlyName "VSND Container"
+	^MPropertyDescription "Voice Container Base"
+	
+	-----static members of class CVoiceContainerBase-----
+		static bool bAudioFinishedPlaying(soundsystem.dll + 0x3214e4)
+		static bool bAudioStillPlaying(soundsystem.dll + 0x3214e5)
+	
+	-----members of class CVoiceContainerBase-----
+		uint8_t[56] unaccounted(offset 0x0)
+		CVSound m_vSound(offset 0x38, size 0x80, align 0x8)
+			^MPropertySuppressField
+	
+
+-----members of class CVoiceContainerLoopTrigger-----
+	CSoundContainerReference m_sound(offset 0xb8, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Vsnd Reference"
+	float32 m_flRetriggerTimeMin(offset 0xd0, size 0x4, align 0x4)
+	float32 m_flRetriggerTimeMax(offset 0xd4, size 0x4, align 0x4)
+	float32 m_flFadeTime(offset 0xd8, size 0x4, align 0x4)
+	bool m_bCrossFade(offset 0xdc, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0xdd)
+

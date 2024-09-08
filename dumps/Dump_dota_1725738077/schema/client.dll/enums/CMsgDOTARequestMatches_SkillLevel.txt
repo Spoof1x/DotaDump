@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CMsgDOTARequestMatches_SkillLevel(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x46f39c0):
+	CMsgDOTARequestMatches_SkillLevel_Any = 0,
+	CMsgDOTARequestMatches_SkillLevel_Normal = 1,
+	CMsgDOTARequestMatches_SkillLevel_High = 2,
+	CMsgDOTARequestMatches_SkillLevel_VeryHigh = 3,

@@ -1,0 +1,7 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CResponseQueue (size: 0x60 bytes, project "server", binding @ server.dll + 0x3a39530, scope "!GlobalTypes")
+
+-----members of class CResponseQueue-----
+	uint8_t[72] unaccounted(offset 0x0)
+	CUtlVector< CAI_Expresser* > m_ExpresserTargets(offset 0x48, size 0x18, align 0x8)
+

@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeTwistConstraint_t (size: 0xc bytes, project "physicslib", binding @ vphysics2.dll + 0x393460, scope "vphysics2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0x12e380"
+
+-----members of class FeTwistConstraint_t-----
+	uint16 nNodeOrient(offset 0x0, size 0x2, align 0x2)
+	uint16 nNodeEnd(offset 0x2, size 0x2, align 0x2)
+	float32 flTwistRelax(offset 0x4, size 0x4, align 0x4)
+	float32 flSwingRelax(offset 0x8, size 0x4, align 0x4)
+

@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CShmupTrackDefinition (size: 0x28 bytes, project "client", binding @ client.dll + 0x48e37b0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x21d0bc0"
+^MVDataRoot
+
+-----members of class CShmupTrackDefinition-----
+	CUtlString m_strName(offset 0x0, size 0x8, align 0x8)
+	CUtlVector< CShmupEventTime > m_vecEvents(offset 0x8, size 0x18, align 0x8)
+	uint8_t[8] unaccounted(offset 0x20)
+

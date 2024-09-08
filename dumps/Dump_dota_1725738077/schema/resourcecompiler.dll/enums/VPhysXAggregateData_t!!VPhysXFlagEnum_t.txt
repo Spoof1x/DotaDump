@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum VPhysXAggregateData_t::VPhysXFlagEnum_t(size: 4 bytes, 3 values, project "modellib", binding @ resourcecompiler.dll + 0x24970f0):
+	FLAG_IS_POLYSOUP_GEOMETRY = 1,
+	FLAG_LEVEL_COLLISION = 16,
+	FLAG_IGNORE_SCALE_OBSOLETE_DO_NOT_USE = 32,

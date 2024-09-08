@@ -1,0 +1,21 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EngineCountdownTimer (size: 0x18 bytes, project "client", binding @ client.dll + 0x46e8150, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+| SCHEMA_CF1_INFO_TAG_MNetworkNoBase
+^MNetworkVarNames "m_duration float32"
+^MNetworkVarNames "m_timestamp float32"
+^MNetworkVarNames "m_timescale float32"
+
+-----members of class EngineCountdownTimer-----
+	uint8_t[8] unaccounted(offset 0x0)
+	float32 m_duration(offset 0x8, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_timestamp(offset 0xc, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_timescale(offset 0x10, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x14)
+

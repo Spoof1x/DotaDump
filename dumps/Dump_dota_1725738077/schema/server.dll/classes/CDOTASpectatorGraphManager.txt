@@ -1,0 +1,52 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTASpectatorGraphManager (size: 0x9e0 bytes, project "server", binding @ server.dll + 0x3aba2f0, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+| SCHEMA_CF1_INFO_TAG_MNetworkNoBase
+^MNetworkVarNames "m_rgRadiantTotalEarnedGold int"
+^MNetworkVarNames "m_rgDireTotalEarnedGold int"
+^MNetworkVarNames "m_rgRadiantTotalEarnedXP int"
+^MNetworkVarNames "m_rgDireTotalEarnedXP int"
+^MNetworkVarNames "m_rgRadiantNetWorth int"
+^MNetworkVarNames "m_rgDireNetWorth int"
+^MNetworkVarNames "m_flTotalEarnedGoldStartTime GameTime_t"
+^MNetworkVarNames "m_flTotalEarnedGoldEndTime GameTime_t"
+^MNetworkVarNames "m_nGoldGraphVersion int"
+^MNetworkVarNames "m_rgRadiantWinChance int"
+
+-----members of class CDOTASpectatorGraphManager-----
+	uint8_t[40] unaccounted(offset 0x0)
+	CNetworkVarChainer __m_pChainEntity(offset 0x28, size 0x28, align 0x0)
+		^MNetworkDisable
+		^MNetworkChangeAccessorFieldPathIndex
+	bool m_bTrackingTeamStats(offset 0x50, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x51)
+	GameTime_t m_flStartTime(offset 0x54, size 0x4, align 0x0)
+	int32[64] m_rgRadiantTotalEarnedGold(offset 0x58, size 0x100, align 0x4)
+		^MNetworkEnable
+	int32[64] m_rgDireTotalEarnedGold(offset 0x158, size 0x100, align 0x4)
+		^MNetworkEnable
+	int32[64] m_rgRadiantTotalEarnedXP(offset 0x258, size 0x100, align 0x4)
+		^MNetworkEnable
+	int32[64] m_rgDireTotalEarnedXP(offset 0x358, size 0x100, align 0x4)
+		^MNetworkEnable
+	int32[64] m_rgRadiantNetWorth(offset 0x458, size 0x100, align 0x4)
+		^MNetworkEnable
+	int32[64] m_rgDireNetWorth(offset 0x558, size 0x100, align 0x4)
+		^MNetworkEnable
+	GameTime_t m_flTotalEarnedGoldStartTime(offset 0x658, size 0x4, align 0x0)
+		^MNetworkEnable
+	GameTime_t m_flTotalEarnedGoldEndTime(offset 0x65c, size 0x4, align 0x0)
+		^MNetworkEnable
+	int32 m_nGoldGraphVersion(offset 0x660, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32[64] m_rgRadiantWinChance(offset 0x664, size 0x100, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x764)
+	CountdownTimer m_TeamStatsUpdateTimer(offset 0x768, size 0x18, align 0x0)
+	CountdownTimer m_HeroInventorySnapshotTimer(offset 0x780, size 0x18, align 0x0)
+	CUtlVector< sPlayerSnapshot >[24] m_vecPlayerSnapshots(offset 0x798, size 0x240, align 0x8)
+	int32 m_event_dota_player_killed(offset 0x9d8, size 0x4, align 0x4)
+	int32 m_event_server_pre_shutdown(offset 0x9dc, size 0x4, align 0x4)
+

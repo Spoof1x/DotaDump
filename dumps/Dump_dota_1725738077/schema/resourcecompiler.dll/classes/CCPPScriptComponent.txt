@@ -1,0 +1,35 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CCPPScriptComponent (size: 0x50 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e99f0, scope "!GlobalTypes") extends CAnimGraphDoc_Component
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x569000"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Component (size: 0x38 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e9570, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Component-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CUtlString m_group(offset 0x18, size 0x8, align 0x8)
+			^MPropertyHideField
+		uint8_t[8] unaccounted(offset 0x20)
+		AnimComponentID m_id(offset 0x28, size 0x4, align 0x4)
+			^MPropertyHideField
+		bool m_bStartEnabled(offset 0x2c, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Start Enabled"
+		uint8_t[3] unaccounted(offset 0x2d)
+		int32 m_nPriority(offset 0x30, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Priority"
+		AnimNodeNetworkMode m_networkMode(offset 0x34, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Network Mode"
+	
+
+-----members of class CCPPScriptComponent-----
+	CUtlVector< CUtlString > m_scriptsToRun(offset 0x38, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Scripts"
+

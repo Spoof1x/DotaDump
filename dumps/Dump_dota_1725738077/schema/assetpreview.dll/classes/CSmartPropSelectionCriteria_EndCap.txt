@@ -1,0 +1,33 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropSelectionCriteria_EndCap (size: 0xc8 bytes, project "smartprops", binding @ assetpreview.dll + 0x50b440, scope "!GlobalTypes") extends CSmartPropSelectionCriteria
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: assetpreview.dll + 0x359490"
+^MVDataComponentValidGrandParents "CSmartPropElement_FitOnLine"
+^MPropertyFriendlyName "End Cap Settings"
+^MPropertyDescription "Specifies that this is a special part that should be used at the start or end of the line."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropSelectionCriteria (size: 0x48 bytes, project "smartprops", binding @ assetpreview.dll + 0x5066d0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: assetpreview.dll + 0x159e0"
+	^MVDataBase
+	^MVDataNodeType "1"
+	^MVDataAnonymousNode
+	
+	-----members of class CSmartPropSelectionCriteria-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+			^MVDataEnableKey
+	
+
+-----members of class CSmartPropSelectionCriteria_EndCap-----
+	CSmartPropAttributeBool m_bStart(offset 0x48, size 0x40, align 0x8)
+		^MPropertyDescription "Is this an element which should be placed at the start of the line."
+	CSmartPropAttributeBool m_bEnd(offset 0x88, size 0x40, align 0x8)
+		^MPropertyDescription "Is this an element which should be placed at the end of the line."
+

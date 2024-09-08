@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ETeamFanContentStatus(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x47009f0):
+	TEAM_FAN_CONTENT_STATUS_INVALID = 0,
+	TEAM_FAN_CONTENT_STATUS_PENDING = 1,
+	TEAM_FAN_CONTENT_STATUS_EVALUATED = 2,

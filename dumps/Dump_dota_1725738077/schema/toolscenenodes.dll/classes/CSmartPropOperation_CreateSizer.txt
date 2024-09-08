@@ -1,0 +1,103 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_CreateSizer (size: 0x3c8 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfcd70, scope "toolscenenodes.dll") extends CSmartPropTransformOperation
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x69d620"
+^MPropertyFriendlyName "Create Sizer"
+^MPropertyDescription "Create a sizer that will be displayed at the current location, allowing the user to manipulate the specified set of size values."
+^MVDataClassGroup "Manipulators"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropTransformOperation (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfc0a0, scope "toolscenenodes.dll") extends CSmartPropOperation
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+	^MVDataNodeTintColor "-4392"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbf9bc0, scope "toolscenenodes.dll") extends CSmartPropModifier
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfac80, scope "toolscenenodes.dll")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+			^MVDataBase
+			^MVDataNodeType "1"
+			^MVDataAnonymousNode
+			
+			-----members of class CSmartPropModifier-----
+				uint8_t[8] unaccounted(offset 0x0)
+				CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+					^MVDataEnableKey
+				uint8_t[8] unaccounted(offset 0x48)
+			
+		
+		-----members of class CSmartPropOperation-----
+			<no members>
+		
+	
+	-----members of class CSmartPropTransformOperation-----
+		<no members>
+	
+
+-----members of class CSmartPropOperation_CreateSizer-----
+	CUtlString m_Name(offset 0x50, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Name"
+		^MPropertyDescription "Name used to identify the sizer. Must be unique within the paraent element."
+	CSmartPropAttributeBool m_bDisplayModel(offset 0x58, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Display Model"
+		^MPropertyDescription "If enabled a model will be displayed at the position of the sizer that can be used to select the sizer in Hammer."
+	CSmartPropAttributeFloat m_flInitialMinX(offset 0x98, size 0x40, align 0x8)
+		^MPropertyGroupName "X-Axis Size"
+	CSmartPropAttributeFloat m_flInitialMaxX(offset 0xd8, size 0x40, align 0x8)
+		^MPropertyGroupName "X-Axis Size"
+	CSmartPropAttributeFloat m_flConstraintMinX(offset 0x118, size 0x40, align 0x8)
+		^MPropertyGroupName "X-Axis Size"
+	CSmartPropAttributeFloat m_flConstraintMaxX(offset 0x158, size 0x40, align 0x8)
+		^MPropertyGroupName "X-Axis Size"
+	CUtlString m_OutputVariableMinX(offset 0x198, size 0x8, align 0x8)
+		^MPropertyGroupName "X-Axis Size"
+		^MPropertyAttributeEditor "SmartPropItemNameEditor( Variable:Float )"
+	CUtlString m_OutputVariableMaxX(offset 0x1a0, size 0x8, align 0x8)
+		^MPropertyGroupName "X-Axis Size"
+		^MPropertyAttributeEditor "SmartPropItemNameEditor( Variable:Float )"
+	CSmartPropAttributeFloat m_flInitialMinY(offset 0x1a8, size 0x40, align 0x8)
+		^MPropertyGroupName "Y-Axis Size"
+	CSmartPropAttributeFloat m_flInitialMaxY(offset 0x1e8, size 0x40, align 0x8)
+		^MPropertyGroupName "Y-Axis Size"
+	CSmartPropAttributeFloat m_flConstraintMinY(offset 0x228, size 0x40, align 0x8)
+		^MPropertyGroupName "Y-Axis Size"
+	CSmartPropAttributeFloat m_flConstraintMaxY(offset 0x268, size 0x40, align 0x8)
+		^MPropertyGroupName "Y-Axis Size"
+	CUtlString m_OutputVariableMinY(offset 0x2a8, size 0x8, align 0x8)
+		^MPropertyGroupName "Y-Axis Size"
+		^MPropertyAttributeEditor "SmartPropItemNameEditor( Variable:Float )"
+	CUtlString m_OutputVariableMaxY(offset 0x2b0, size 0x8, align 0x8)
+		^MPropertyGroupName "Y-Axis Size"
+		^MPropertyAttributeEditor "SmartPropItemNameEditor( Variable:Float )"
+	CSmartPropAttributeFloat m_flInitialMinZ(offset 0x2b8, size 0x40, align 0x8)
+		^MPropertyGroupName "Z-Axis Size"
+	CSmartPropAttributeFloat m_flInitialMaxZ(offset 0x2f8, size 0x40, align 0x8)
+		^MPropertyGroupName "Z-Axis Size"
+	CSmartPropAttributeFloat m_flConstraintMinZ(offset 0x338, size 0x40, align 0x8)
+		^MPropertyGroupName "Z-Axis Size"
+	CSmartPropAttributeFloat m_flConstraintMaxZ(offset 0x378, size 0x40, align 0x8)
+		^MPropertyGroupName "Z-Axis Size"
+	CUtlString m_OutputVariableMinZ(offset 0x3b8, size 0x8, align 0x8)
+		^MPropertyGroupName "Z-Axis Size"
+		^MPropertyAttributeEditor "SmartPropItemNameEditor( Variable:Float )"
+	CUtlString m_OutputVariableMaxZ(offset 0x3c0, size 0x8, align 0x8)
+		^MPropertyGroupName "Z-Axis Size"
+		^MPropertyAttributeEditor "SmartPropItemNameEditor( Variable:Float )"
+

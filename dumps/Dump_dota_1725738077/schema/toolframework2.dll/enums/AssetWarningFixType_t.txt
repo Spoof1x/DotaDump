@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum AssetWarningFixType_t(size: 4 bytes, 3 values, project "toolutils2", binding @ toolframework2.dll + 0x935080):
+	NONE = 0,
+	VMDL_CONVERT_TO_MODELDOC = 1,
+	VMAP_MANUAL_RECOMPILE = 2,

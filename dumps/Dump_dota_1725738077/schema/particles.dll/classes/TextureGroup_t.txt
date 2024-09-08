@@ -1,0 +1,35 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TextureGroup_t (size: 0xb58 bytes, project "particles", binding @ particles.dll + 0x544930, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x2f6060"
+
+-----members of class TextureGroup_t-----
+	bool m_bEnabled(offset 0x0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Enabled"
+	bool m_bReplaceTextureWithGradient(offset 0x1, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Author Texture As Gradient"
+		^MPropertySuppressExpr "( m_nTextureType == SPRITECARD_TEXTURE_NORMALMAP || m_nTextureType == SPRITECARD_TEXTURE_ANIMMOTIONVEC || m_nTextureType == SPRITECARD_TEXTURE_6POINT_XYZ_A || m_nTextureType == SPRITECARD_TEXTURE_6POINT_NEGXYZ_E )"
+	uint8_t[6] unaccounted(offset 0x2)
+	CStrongHandle< InfoForResourceTypeCTextureBase > m_hTexture(offset 0x8, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Texture"
+		^MPropertySuppressExpr "m_bReplaceTextureWithGradient"
+		^MPropertyAttributeEditor "AssetBrowse( vtex, *showassetpreview )"
+	CColorGradient m_Gradient(offset 0x10, size 0x18, align 0x8)
+		^MPropertyFriendlyName "Gradient"
+		^MPropertySuppressExpr "!m_bReplaceTextureWithGradient"
+	SpriteCardTextureType_t m_nTextureType(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Texture Type"
+	SpriteCardTextureChannel_t m_nTextureChannels(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Channel Mix"
+		^MPropertySuppressExpr "( m_nTextureType == SPRITECARD_TEXTURE_NORMALMAP || m_nTextureType == SPRITECARD_TEXTURE_ANIMMOTIONVEC || m_nTextureType == SPRITECARD_TEXTURE_6POINT_XYZ_A || m_nTextureType == SPRITECARD_TEXTURE_6POINT_NEGXYZ_E )"
+	ParticleTextureLayerBlendType_t m_nTextureBlendMode(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Mix Blend Mode"
+		^MPropertySuppressExpr "( m_nTextureType == SPRITECARD_TEXTURE_NORMALMAP || m_nTextureType == SPRITECARD_TEXTURE_ANIMMOTIONVEC || m_nTextureType == SPRITECARD_TEXTURE_6POINT_XYZ_A || m_nTextureType == SPRITECARD_TEXTURE_6POINT_NEGXYZ_E )"
+	uint8_t[4] unaccounted(offset 0x34)
+	CParticleCollectionRendererFloatInput m_flTextureBlend(offset 0x38, size 0x160, align 0x8)
+		^MPropertyFriendlyName "Blend Amount"
+		^MPropertySuppressExpr "( m_nTextureType == SPRITECARD_TEXTURE_NORMALMAP || m_nTextureType == SPRITECARD_TEXTURE_ANIMMOTIONVEC || m_nTextureType == SPRITECARD_TEXTURE_6POINT_XYZ_A || m_nTextureType == SPRITECARD_TEXTURE_6POINT_NEGXYZ_E )"
+	TextureControls_t m_TextureControls(offset 0x198, size 0x9c0, align 0x8)
+		^MPropertyFriendlyName "Texture Controls"
+		^MPropertySuppressExpr "( m_nTextureType == SPRITECARD_TEXTURE_NORMALMAP || m_nTextureType == SPRITECARD_TEXTURE_ANIMMOTIONVEC || m_nTextureType == SPRITECARD_TEXTURE_6POINT_XYZ_A || m_nTextureType == SPRITECARD_TEXTURE_6POINT_NEGXYZ_E )"
+

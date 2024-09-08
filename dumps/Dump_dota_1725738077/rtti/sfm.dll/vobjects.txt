@@ -1,0 +1,764 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CAttributeDictSaveDataOps (hierarchy CAttributeDictSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+	sfm.dll + 0x9faab0
+CDataModel (hierarchy CDataModel: CBaseAppSystem<class IDataModel>, IDataModel, CBaseAppSystem<class IAppSystem>, IAppSystem)
+	sfm.dll + 0xaaab20
+CDmAbstractElementFactory<class CDmeCurveInfo> (hierarchy CDmAbstractElementFactory<class CDmeCurveInfo>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcb20
+CDmAbstractElementFactory<class CDmeLog> (hierarchy CDmAbstractElementFactory<class CDmeLog>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcd70
+CDmAbstractElementFactory<class CDmeLogLayer> (hierarchy CDmAbstractElementFactory<class CDmeLogLayer>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fc8d0
+CDmAbstractElementFactory<class CDmeOperator> (hierarchy CDmAbstractElementFactory<class CDmeOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe278
+CDmElementFactory<class CDmElement> (hierarchy CDmElementFactory<class CDmElement>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9f8568
+	sfm.dll + 0x9f8590
+CDmElementFactory<class CDmeAmbientLight> (hierarchy CDmElementFactory<class CDmeAmbientLight>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fde30
+CDmElementFactory<class CDmeAnimationList> (hierarchy CDmElementFactory<class CDmeAnimationList>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdc78
+CDmElementFactory<class CDmeAnimationSet> (hierarchy CDmElementFactory<class CDmeAnimationSet>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd980
+CDmElementFactory<class CDmeAttachment> (hierarchy CDmElementFactory<class CDmeAttachment>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdc50
+CDmElementFactory<class CDmeAttributeReference> (hierarchy CDmElementFactory<class CDmeAttributeReference>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe9b0
+CDmElementFactory<class CDmeAxisSystem> (hierarchy CDmElementFactory<class CDmeAxisSystem>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd890
+CDmElementFactory<class CDmeBaseGameLight> (hierarchy CDmElementFactory<class CDmeBaseGameLight>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa0f8c8
+CDmElementFactory<class CDmeBookmark> (hierarchy CDmElementFactory<class CDmeBookmark>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe298
+CDmElementFactory<class CDmeBookmarkSet> (hierarchy CDmElementFactory<class CDmeBookmarkSet>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe2c0
+CDmElementFactory<class CDmeCamera> (hierarchy CDmElementFactory<class CDmeCamera>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdfc0
+CDmElementFactory<class CDmeChannel> (hierarchy CDmElementFactory<class CDmeChannel>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdae8
+CDmElementFactory<class CDmeChannelsClip> (hierarchy CDmElementFactory<class CDmeChannelsClip>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdf20
+CDmElementFactory<class CDmeClip> (hierarchy CDmElementFactory<class CDmeClip>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fded0
+CDmElementFactory<class CDmeColorCorrectionFXClip> (hierarchy CDmElementFactory<class CDmeColorCorrectionFXClip>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa26740
+CDmElementFactory<class CDmeCombinationDominationRule> (hierarchy CDmElementFactory<class CDmeCombinationDominationRule>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdcc8
+CDmElementFactory<class CDmeCombinationInputControl> (hierarchy CDmElementFactory<class CDmeCombinationInputControl>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdca0
+CDmElementFactory<class CDmeCombinationOperator> (hierarchy CDmElementFactory<class CDmeCombinationOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdcf0
+CDmElementFactory<class CDmeComponent> (hierarchy CDmElementFactory<class CDmeComponent>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd388
+CDmElementFactory<class CDmeConnectionOperator> (hierarchy CDmElementFactory<class CDmeConnectionOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe048
+CDmElementFactory<class CDmeConstraintSlave> (hierarchy CDmElementFactory<class CDmeConstraintSlave>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd590
+CDmElementFactory<class CDmeConstraintTarget> (hierarchy CDmElementFactory<class CDmeConstraintTarget>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd568
+CDmElementFactory<class CDmeControlGroup> (hierarchy CDmElementFactory<class CDmeControlGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdfe8
+CDmElementFactory<class CDmeDCCMakefile> (hierarchy CDmElementFactory<class CDmeDCCMakefile>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd4a0
+CDmElementFactory<class CDmeDag> (hierarchy CDmElementFactory<class CDmeDag>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe228
+CDmElementFactory<class CDmeDirectionalLight> (hierarchy CDmElementFactory<class CDmeDirectionalLight>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fddb8
+CDmElementFactory<class CDmeDotaHealthBar> (hierarchy CDmElementFactory<class CDmeDotaHealthBar>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa103a8
+CDmElementFactory<class CDmeDotaHealthBarFXClip> (hierarchy CDmElementFactory<class CDmeDotaHealthBarFXClip>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa26768
+CDmElementFactory<class CDmeEditorAttributeInfo> (hierarchy CDmElementFactory<class CDmeEditorAttributeInfo>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdb10
+CDmElementFactory<class CDmeEditorBoolChoicesInfo> (hierarchy CDmElementFactory<class CDmeEditorBoolChoicesInfo>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdb60
+CDmElementFactory<class CDmeEditorChoicesInfo> (hierarchy CDmElementFactory<class CDmeEditorChoicesInfo>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdb38
+CDmElementFactory<class CDmeEditorIntChoicesInfo> (hierarchy CDmElementFactory<class CDmeEditorIntChoicesInfo>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdb88
+CDmElementFactory<class CDmeEditorStringChoicesInfo> (hierarchy CDmElementFactory<class CDmeEditorStringChoicesInfo>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdbb0
+CDmElementFactory<class CDmeEditorType> (hierarchy CDmElementFactory<class CDmeEditorType>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdbd8
+CDmElementFactory<class CDmeEditorTypeDictionary> (hierarchy CDmElementFactory<class CDmeEditorTypeDictionary>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdc00
+CDmElementFactory<class CDmeEnginePostFXClip> (hierarchy CDmElementFactory<class CDmeEnginePostFXClip>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa26790
+CDmElementFactory<class CDmeExportTags> (hierarchy CDmElementFactory<class CDmeExportTags>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe0e8
+CDmElementFactory<class CDmeExpressionOperator> (hierarchy CDmElementFactory<class CDmeExpressionOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe200
+CDmElementFactory<class CDmeFXClip> (hierarchy CDmElementFactory<class CDmeFXClip>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdf48
+CDmElementFactory<class CDmeFaceSet> (hierarchy CDmElementFactory<class CDmeFaceSet>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdd68
+CDmElementFactory<class CDmeFilmClip> (hierarchy CDmElementFactory<class CDmeFilmClip>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdf70
+CDmElementFactory<class CDmeFlexRuleBase> (hierarchy CDmElementFactory<class CDmeFlexRuleBase>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd7c8
+CDmElementFactory<class CDmeFlexRuleExpression> (hierarchy CDmElementFactory<class CDmeFlexRuleExpression>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd818
+CDmElementFactory<class CDmeFlexRuleLocalVar> (hierarchy CDmElementFactory<class CDmeFlexRuleLocalVar>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd840
+CDmElementFactory<class CDmeFlexRulePassThrough> (hierarchy CDmElementFactory<class CDmeFlexRulePassThrough>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd7f0
+CDmElementFactory<class CDmeFlexRules> (hierarchy CDmElementFactory<class CDmeFlexRules>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd868
+CDmElementFactory<class CDmeGameCommand> (hierarchy CDmElementFactory<class CDmeGameCommand>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa267b8
+CDmElementFactory<class CDmeGameDirectionalLight> (hierarchy CDmElementFactory<class CDmeGameDirectionalLight>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa0f940
+CDmElementFactory<class CDmeGameLight> (hierarchy CDmElementFactory<class CDmeGameLight>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa0f8f0
+CDmElementFactory<class CDmeGameModel> (hierarchy CDmElementFactory<class CDmeGameModel>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa10228
+CDmElementFactory<class CDmeGameOrthoLight> (hierarchy CDmElementFactory<class CDmeGameOrthoLight>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa0f990
+CDmElementFactory<class CDmeGameParticleSystem> (hierarchy CDmElementFactory<class CDmeGameParticleSystem>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa267e0
+CDmElementFactory<class CDmeGamePointLight> (hierarchy CDmElementFactory<class CDmeGamePointLight>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa0f918
+CDmElementFactory<class CDmeGameSound> (hierarchy CDmElementFactory<class CDmeGameSound>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd218
+CDmElementFactory<class CDmeGameSpotLight> (hierarchy CDmElementFactory<class CDmeGameSpotLight>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa0f968
+CDmElementFactory<class CDmeGlobalFlexControllerOperator> (hierarchy CDmElementFactory<class CDmeGlobalFlexControllerOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa10200
+CDmElementFactory<class CDmeGraphEditorCurve> (hierarchy CDmElementFactory<class CDmeGraphEditorCurve>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa10260
+CDmElementFactory<class CDmeGraphEditorState> (hierarchy CDmElementFactory<class CDmeGraphEditorState>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa0f8a0
+CDmElementFactory<class CDmeHSLGrainFXClip> (hierarchy CDmElementFactory<class CDmeHSLGrainFXClip>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa26808
+CDmElementFactory<class CDmeJoint> (hierarchy CDmElementFactory<class CDmeJoint>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdd18
+CDmElementFactory<class CDmeLight> (hierarchy CDmElementFactory<class CDmeLight>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdd90
+CDmElementFactory<class CDmeMakefile> (hierarchy CDmElementFactory<class CDmeMakefile>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe1b0
+CDmElementFactory<class CDmeMaterial> (hierarchy CDmElementFactory<class CDmeMaterial>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdf98
+CDmElementFactory<class CDmeMayaAnimationMakefile> (hierarchy CDmElementFactory<class CDmeMayaAnimationMakefile>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd518
+CDmElementFactory<class CDmeMayaMakefile> (hierarchy CDmElementFactory<class CDmeMayaMakefile>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd4c8
+CDmElementFactory<class CDmeMayaModelMakefile> (hierarchy CDmElementFactory<class CDmeMayaModelMakefile>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd4f0
+CDmElementFactory<class CDmeMesh> (hierarchy CDmElementFactory<class CDmeMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe0c0
+CDmElementFactory<class CDmeModel> (hierarchy CDmElementFactory<class CDmeModel>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdea8
+CDmElementFactory<class CDmeMorphOperator> (hierarchy CDmElementFactory<class CDmeMorphOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fde58
+CDmElementFactory<class CDmePackColorOperator> (hierarchy CDmElementFactory<class CDmePackColorOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd9d0
+CDmElementFactory<class CDmePackQAngleOperator> (hierarchy CDmElementFactory<class CDmePackQAngleOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fda70
+CDmElementFactory<class CDmePackQuaternionOperator> (hierarchy CDmElementFactory<class CDmePackQuaternionOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fda98
+CDmElementFactory<class CDmePackVMatrixOperator> (hierarchy CDmElementFactory<class CDmePackVMatrixOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdac0
+CDmElementFactory<class CDmePackVector2Operator> (hierarchy CDmElementFactory<class CDmePackVector2Operator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd9f8
+CDmElementFactory<class CDmePackVector3Operator> (hierarchy CDmElementFactory<class CDmePackVector3Operator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fda20
+CDmElementFactory<class CDmePackVector4Operator> (hierarchy CDmElementFactory<class CDmePackVector4Operator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fda48
+CDmElementFactory<class CDmePhonemeMapping> (hierarchy CDmElementFactory<class CDmePhonemeMapping>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe250
+CDmElementFactory<class CDmePointLight> (hierarchy CDmElementFactory<class CDmePointLight>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdde0
+CDmElementFactory<class CDmePreset> (hierarchy CDmElementFactory<class CDmePreset>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd908
+CDmElementFactory<class CDmePresetGroup> (hierarchy CDmElementFactory<class CDmePresetGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd958
+CDmElementFactory<class CDmePresetGroupInfo> (hierarchy CDmElementFactory<class CDmePresetGroupInfo>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd9a8
+CDmElementFactory<class CDmeProceduralPresetSettings> (hierarchy CDmElementFactory<class CDmeProceduralPresetSettings>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd930
+CDmElementFactory<class CDmeProjectedLight> (hierarchy CDmElementFactory<class CDmeProjectedLight>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa0f9b8
+CDmElementFactory<class CDmeRigAimConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigAimConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd650
+CDmElementFactory<class CDmeRigBaseConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigBaseConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd5b8
+CDmElementFactory<class CDmeRigHandle> (hierarchy CDmElementFactory<class CDmeRigHandle>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe138
+CDmElementFactory<class CDmeRigIKConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigIKConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd6f8
+CDmElementFactory<class CDmeRigOrientConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigOrientConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd618
+CDmElementFactory<class CDmeRigParentConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigParentConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd6c0
+CDmElementFactory<class CDmeRigPointConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigPointConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd5e0
+CDmElementFactory<class CDmeRigRotationConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigRotationConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd688
+CDmElementFactory<class CDmeRigSplineConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigSplineConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd790
+CDmElementFactory<class CDmeRigTwistConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigTwistConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd758
+CDmElementFactory<class CDmeRigTwistSlave> (hierarchy CDmElementFactory<class CDmeRigTwistSlave>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd730
+CDmElementFactory<class CDmeShape> (hierarchy CDmElementFactory<class CDmeShape>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe160
+CDmElementFactory<class CDmeSingleIndexedComponent> (hierarchy CDmElementFactory<class CDmeSingleIndexedComponent>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd3b0
+CDmElementFactory<class CDmeSkyBox> (hierarchy CDmElementFactory<class CDmeSkyBox>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa0f9e8
+CDmElementFactory<class CDmeSound> (hierarchy CDmElementFactory<class CDmeSound>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd1f0
+CDmElementFactory<class CDmeSoundClip> (hierarchy CDmElementFactory<class CDmeSoundClip>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdef8
+CDmElementFactory<class CDmeSoundEvent> (hierarchy CDmElementFactory<class CDmeSoundEvent>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd240
+CDmElementFactory<class CDmeSource> (hierarchy CDmElementFactory<class CDmeSource>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe188
+CDmElementFactory<class CDmeSourceDCCFile> (hierarchy CDmElementFactory<class CDmeSourceDCCFile>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd3d8
+CDmElementFactory<class CDmeSourceMayaAnimationFile> (hierarchy CDmElementFactory<class CDmeSourceMayaAnimationFile>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd450
+CDmElementFactory<class CDmeSourceMayaFile> (hierarchy CDmElementFactory<class CDmeSourceMayaFile>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd400
+CDmElementFactory<class CDmeSourceMayaModelFile> (hierarchy CDmElementFactory<class CDmeSourceMayaModelFile>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd428
+CDmElementFactory<class CDmeSourceXSIFile> (hierarchy CDmElementFactory<class CDmeSourceXSIFile>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd478
+CDmElementFactory<class CDmeSpotLight> (hierarchy CDmElementFactory<class CDmeSpotLight>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fde08
+CDmElementFactory<class CDmeTextFXClip> (hierarchy CDmElementFactory<class CDmeTextFXClip>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa26830
+CDmElementFactory<class CDmeTextureOverlayFXClip> (hierarchy CDmElementFactory<class CDmeTextureOverlayFXClip>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa26858
+CDmElementFactory<class CDmeTexturePlane> (hierarchy CDmElementFactory<class CDmeTexturePlane>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa0fa10
+CDmElementFactory<class CDmeTimeFrame> (hierarchy CDmElementFactory<class CDmeTimeFrame>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fde80
+CDmElementFactory<class CDmeTimeSelection> (hierarchy CDmElementFactory<class CDmeTimeSelection>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdd40
+CDmElementFactory<class CDmeTrack> (hierarchy CDmElementFactory<class CDmeTrack>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe020
+CDmElementFactory<class CDmeTrackGroup> (hierarchy CDmElementFactory<class CDmeTrackGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe098
+CDmElementFactory<class CDmeTransform> (hierarchy CDmElementFactory<class CDmeTransform>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe110
+CDmElementFactory<class CDmeTransformControl> (hierarchy CDmElementFactory<class CDmeTransformControl>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe070
+CDmElementFactory<class CDmeTransformList> (hierarchy CDmElementFactory<class CDmeTransformList>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fdc28
+CDmElementFactory<class CDmeTransformOperator> (hierarchy CDmElementFactory<class CDmeTransformOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fe1d8
+CDmElementFactory<class CDmeTypedCurveInfo<bool> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<bool> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcb90
+CDmElementFactory<class CDmeTypedCurveInfo<class CUtlSymbolLarge> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class CUtlSymbolLarge> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fccd0
+CDmElementFactory<class CDmeTypedCurveInfo<class Color> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class Color> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcbb8
+CDmElementFactory<class CDmeTypedCurveInfo<class DmeTime_t> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class DmeTime_t> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fccf8
+CDmElementFactory<class CDmeTypedCurveInfo<class QAngle> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class QAngle> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcc58
+CDmElementFactory<class CDmeTypedCurveInfo<class QuaternionStorage> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class QuaternionStorage> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcc80
+CDmElementFactory<class CDmeTypedCurveInfo<class VMatrix> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class VMatrix> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcca8
+CDmElementFactory<class CDmeTypedCurveInfo<class Vec2D<float> > > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class Vec2D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcbe0
+CDmElementFactory<class CDmeTypedCurveInfo<class Vec3D<float> > > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class Vec3D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcc08
+CDmElementFactory<class CDmeTypedCurveInfo<class Vec4D<float> > > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class Vec4D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcc30
+CDmElementFactory<class CDmeTypedCurveInfo<float> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<float> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcb68
+CDmElementFactory<class CDmeTypedCurveInfo<int> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<int> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcb40
+CDmElementFactory<class CDmeTypedCurveInfo<unsigned __int64> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<unsigned __int64> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcd20
+CDmElementFactory<class CDmeTypedCurveInfo<unsigned char> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<unsigned char> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcd48
+CDmElementFactory<class CDmeTypedLog<bool> > (hierarchy CDmElementFactory<class CDmeTypedLog<bool> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcde0
+CDmElementFactory<class CDmeTypedLog<class CUtlSymbolLarge> > (hierarchy CDmElementFactory<class CDmeTypedLog<class CUtlSymbolLarge> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcf20
+CDmElementFactory<class CDmeTypedLog<class Color> > (hierarchy CDmElementFactory<class CDmeTypedLog<class Color> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fce08
+CDmElementFactory<class CDmeTypedLog<class DmeTime_t> > (hierarchy CDmElementFactory<class CDmeTypedLog<class DmeTime_t> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcf48
+CDmElementFactory<class CDmeTypedLog<class QAngle> > (hierarchy CDmElementFactory<class CDmeTypedLog<class QAngle> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcea8
+CDmElementFactory<class CDmeTypedLog<class QuaternionStorage> > (hierarchy CDmElementFactory<class CDmeTypedLog<class QuaternionStorage> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fced0
+CDmElementFactory<class CDmeTypedLog<class VMatrix> > (hierarchy CDmElementFactory<class CDmeTypedLog<class VMatrix> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcef8
+CDmElementFactory<class CDmeTypedLog<class Vec2D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLog<class Vec2D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fce30
+CDmElementFactory<class CDmeTypedLog<class Vec3D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLog<class Vec3D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fce58
+CDmElementFactory<class CDmeTypedLog<class Vec4D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLog<class Vec4D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fce80
+CDmElementFactory<class CDmeTypedLog<float> > (hierarchy CDmElementFactory<class CDmeTypedLog<float> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcdb8
+CDmElementFactory<class CDmeTypedLog<int> > (hierarchy CDmElementFactory<class CDmeTypedLog<int> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcd90
+CDmElementFactory<class CDmeTypedLog<unsigned __int64> > (hierarchy CDmElementFactory<class CDmeTypedLog<unsigned __int64> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcf70
+CDmElementFactory<class CDmeTypedLog<unsigned char> > (hierarchy CDmElementFactory<class CDmeTypedLog<unsigned char> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcf98
+CDmElementFactory<class CDmeTypedLogLayer<bool> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<bool> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fc940
+CDmElementFactory<class CDmeTypedLogLayer<class CUtlSymbolLarge> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class CUtlSymbolLarge> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fca80
+CDmElementFactory<class CDmeTypedLogLayer<class Color> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class Color> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fc968
+CDmElementFactory<class CDmeTypedLogLayer<class DmeTime_t> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class DmeTime_t> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcaa8
+CDmElementFactory<class CDmeTypedLogLayer<class QAngle> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class QAngle> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fca08
+CDmElementFactory<class CDmeTypedLogLayer<class QuaternionStorage> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class QuaternionStorage> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fca30
+CDmElementFactory<class CDmeTypedLogLayer<class VMatrix> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class VMatrix> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fca58
+CDmElementFactory<class CDmeTypedLogLayer<class Vec2D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class Vec2D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fc990
+CDmElementFactory<class CDmeTypedLogLayer<class Vec3D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class Vec3D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fc9b8
+CDmElementFactory<class CDmeTypedLogLayer<class Vec4D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class Vec4D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fc9e0
+CDmElementFactory<class CDmeTypedLogLayer<float> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<float> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fc918
+CDmElementFactory<class CDmeTypedLogLayer<int> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<int> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fc8f0
+CDmElementFactory<class CDmeTypedLogLayer<unsigned __int64> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<unsigned __int64> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcad0
+CDmElementFactory<class CDmeTypedLogLayer<unsigned char> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<unsigned char> >: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fcaf8
+CDmElementFactory<class CDmeUnpackColorOperator> (hierarchy CDmElementFactory<class CDmeUnpackColorOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd0d8
+CDmElementFactory<class CDmeUnpackQAngleOperator> (hierarchy CDmElementFactory<class CDmeUnpackQAngleOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd178
+CDmElementFactory<class CDmeUnpackQuaternionOperator> (hierarchy CDmElementFactory<class CDmeUnpackQuaternionOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd1a0
+CDmElementFactory<class CDmeUnpackVMatrixOperator> (hierarchy CDmElementFactory<class CDmeUnpackVMatrixOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd1c8
+CDmElementFactory<class CDmeUnpackVector2Operator> (hierarchy CDmElementFactory<class CDmeUnpackVector2Operator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd100
+CDmElementFactory<class CDmeUnpackVector3Operator> (hierarchy CDmElementFactory<class CDmeUnpackVector3Operator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd128
+CDmElementFactory<class CDmeUnpackVector4Operator> (hierarchy CDmElementFactory<class CDmeUnpackVector4Operator>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd150
+CDmElementFactory<class CDmeVertexData> (hierarchy CDmElementFactory<class CDmeVertexData>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd338
+CDmElementFactory<class CDmeVertexDataBase> (hierarchy CDmElementFactory<class CDmeVertexDataBase>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd310
+CDmElementFactory<class CDmeVertexDeltaData> (hierarchy CDmElementFactory<class CDmeVertexDeltaData>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd360
+CDmElementFactory<class CDmeViewportFXClip> (hierarchy CDmElementFactory<class CDmeViewportFXClip>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0xa26888
+CDmElementFactory<class CDmeXSIMakefile> (hierarchy CDmElementFactory<class CDmeXSIMakefile>: CDmElementFactoryInternal, IDmElementFactory)
+	sfm.dll + 0x9fd540
+CDmElementFactoryDefault (hierarchy CDmElementFactoryDefault: IDmElementFactory)
+	sfm.dll + 0x9f85b8
+CDmElementFramework (hierarchy CDmElementFramework: CBaseAppSystem<class IDmElementFramework>, IDmElementFramework, CBaseAppSystem<class IAppSystem>, IAppSystem)
+	sfm.dll + 0x9f85e0
+CDmFormatUpdater_animflags (hierarchy CDmFormatUpdater_animflags: IDmFormatUpdater)
+	sfm.dll + 0x9f9780
+CDmFormatUpdater_dmx (hierarchy CDmFormatUpdater_dmx: IDmFormatUpdater)
+	sfm.dll + 0x9f9690
+CDmFormatUpdater_facial_animation (hierarchy CDmFormatUpdater_facial_animation: IDmFormatUpdater)
+	sfm.dll + 0x9f96d0
+CDmFormatUpdater_gui (hierarchy CDmFormatUpdater_gui: IDmFormatUpdater)
+	sfm.dll + 0x9f9740
+CDmFormatUpdater_model (hierarchy CDmFormatUpdater_model: IDmFormatUpdater)
+	sfm.dll + 0x9f96d8
+CDmFormatUpdater_movieobjects (hierarchy CDmFormatUpdater_movieobjects: IDmFormatUpdater)
+	sfm.dll + 0x9f9698
+CDmFormatUpdater_mp_anim (hierarchy CDmFormatUpdater_mp_anim: IDmFormatUpdater)
+	sfm.dll + 0x9f9708
+CDmFormatUpdater_mp_bonemask (hierarchy CDmFormatUpdater_mp_bonemask: IDmFormatUpdater)
+	sfm.dll + 0x9f9738
+CDmFormatUpdater_mp_eyes (hierarchy CDmFormatUpdater_mp_eyes: IDmFormatUpdater)
+	sfm.dll + 0x9f9730
+CDmFormatUpdater_mp_hitbox (hierarchy CDmFormatUpdater_mp_hitbox: IDmFormatUpdater)
+	sfm.dll + 0x9f9718
+CDmFormatUpdater_mp_keyvalues (hierarchy CDmFormatUpdater_mp_keyvalues: IDmFormatUpdater)
+	sfm.dll + 0x9f9728
+CDmFormatUpdater_mp_materialgroup (hierarchy CDmFormatUpdater_mp_materialgroup: IDmFormatUpdater)
+	sfm.dll + 0x9f9720
+CDmFormatUpdater_mp_model (hierarchy CDmFormatUpdater_mp_model: IDmFormatUpdater)
+	sfm.dll + 0x9f9700
+CDmFormatUpdater_mp_physics (hierarchy CDmFormatUpdater_mp_physics: IDmFormatUpdater)
+	sfm.dll + 0x9f9710
+CDmFormatUpdater_mp_preprocess (hierarchy CDmFormatUpdater_mp_preprocess: IDmFormatUpdater)
+	sfm.dll + 0x9f96f0
+CDmFormatUpdater_mp_root (hierarchy CDmFormatUpdater_mp_root: IDmFormatUpdater)
+	sfm.dll + 0x9f96f8
+CDmFormatUpdater_pcf (hierarchy CDmFormatUpdater_pcf: IDmFormatUpdater)
+	sfm.dll + 0x9f96c0
+CDmFormatUpdater_preset (hierarchy CDmFormatUpdater_preset: IDmFormatUpdater)
+	sfm.dll + 0x9f96c8
+CDmFormatUpdater_schema (hierarchy CDmFormatUpdater_schema: IDmFormatUpdater)
+	sfm.dll + 0x9f9748
+CDmFormatUpdater_sfm (hierarchy CDmFormatUpdater_sfm: IDmFormatUpdater)
+	sfm.dll + 0x9f96a0
+CDmFormatUpdater_sfm_session (hierarchy CDmFormatUpdater_sfm_session: IDmFormatUpdater)
+	sfm.dll + 0x9f96b0
+CDmFormatUpdater_sfm_settings (hierarchy CDmFormatUpdater_sfm_settings: IDmFormatUpdater)
+	sfm.dll + 0x9f96a8
+CDmFormatUpdater_sfm_trackgroup (hierarchy CDmFormatUpdater_sfm_trackgroup: IDmFormatUpdater)
+	sfm.dll + 0x9f96b8
+CDmFormatUpdater_vanim (hierarchy CDmFormatUpdater_vanim: IDmFormatUpdater)
+	sfm.dll + 0x9f9778
+CDmFormatUpdater_ved (hierarchy CDmFormatUpdater_ved: IDmFormatUpdater)
+	sfm.dll + 0x9f96e0
+CDmFormatUpdater_virtualvolumetexture (hierarchy CDmFormatUpdater_virtualvolumetexture: IDmFormatUpdater)
+	sfm.dll + 0x9f9768
+CDmFormatUpdater_vmap (hierarchy CDmFormatUpdater_vmap: IDmFormatUpdater)
+	sfm.dll + 0x9f9770
+CDmFormatUpdater_vmks (hierarchy CDmFormatUpdater_vmks: IDmFormatUpdater)
+	sfm.dll + 0x9f96e8
+CDmFormatUpdater_vtex (hierarchy CDmFormatUpdater_vtex: IDmFormatUpdater)
+	sfm.dll + 0x9f9750
+CDmFormatUpdater_world (hierarchy CDmFormatUpdater_world: IDmFormatUpdater)
+	sfm.dll + 0x9f9758
+CDmFormatUpdater_worldnode (hierarchy CDmFormatUpdater_worldnode: IDmFormatUpdater)
+	sfm.dll + 0x9f9760
+CDmSerializerBinary (hierarchy CDmSerializerBinary: IDmSerializer)
+	sfm.dll + 0x9f8b98
+	sfm.dll + 0x9f8bb0
+CDmSerializerKeyValues (hierarchy CDmSerializerKeyValues: IDmSerializer)
+	sfm.dll + 0x9f86c8
+CDmSerializerKeyValues2 (hierarchy CDmSerializerKeyValues2: IDmSerializer)
+	sfm.dll + 0x9f8910
+	sfm.dll + 0x9f89c0
+	sfm.dll + 0x9f8a70
+CDmSerializers (hierarchy CDmSerializers: CBaseAppSystem<class IDmSerializers>, IDmSerializers, IAppSystem)
+	sfm.dll + 0x9f9120
+CDynamicWidgetFactory<class CQDraggableWidgetList> (hierarchy CDynamicWidgetFactory<class CQDraggableWidgetList>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17098
+CDynamicWidgetFactory<class CQFilteredTreeWidget> (hierarchy CDynamicWidgetFactory<class CQFilteredTreeWidget>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa16b60
+CDynamicWidgetFactory<class CQTreeWidgetWithHover> (hierarchy CDynamicWidgetFactory<class CQTreeWidgetWithHover>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa16b50
+CDynamicWidgetFactory<class QComboBox> (hierarchy CDynamicWidgetFactory<class QComboBox>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17088
+CDynamicWidgetFactory<class QFrame> (hierarchy CDynamicWidgetFactory<class QFrame>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17008
+CDynamicWidgetFactory<class QGroupBox> (hierarchy CDynamicWidgetFactory<class QGroupBox>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17028
+CDynamicWidgetFactory<class QLabel> (hierarchy CDynamicWidgetFactory<class QLabel>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa16fd8
+CDynamicWidgetFactory<class QLineEdit> (hierarchy CDynamicWidgetFactory<class QLineEdit>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa16fe8
+CDynamicWidgetFactory<class QListWidget> (hierarchy CDynamicWidgetFactory<class QListWidget>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa173f0
+CDynamicWidgetFactory<class QMenu> (hierarchy CDynamicWidgetFactory<class QMenu>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17018
+CDynamicWidgetFactory<class QProgressBar> (hierarchy CDynamicWidgetFactory<class QProgressBar>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17048
+CDynamicWidgetFactory<class QRadioButton> (hierarchy CDynamicWidgetFactory<class QRadioButton>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17058
+CDynamicWidgetFactory<class QScrollBar> (hierarchy CDynamicWidgetFactory<class QScrollBar>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17068
+CDynamicWidgetFactory<class QSlider> (hierarchy CDynamicWidgetFactory<class QSlider>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa16ff8
+CDynamicWidgetFactory<class QSpinBox> (hierarchy CDynamicWidgetFactory<class QSpinBox>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17078
+CDynamicWidgetFactory<class QTextBrowser> (hierarchy CDynamicWidgetFactory<class QTextBrowser>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa170a8
+CDynamicWidgetFactory<class QTextEdit> (hierarchy CDynamicWidgetFactory<class QTextEdit>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17038
+CDynamicWidgetFactory<class QWidget> (hierarchy CDynamicWidgetFactory<class QWidget>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa16fc8
+CDynamicWidgetFactory_Custom<class CQBindableCommandPushButton> (hierarchy CDynamicWidgetFactory_Custom<class CQBindableCommandPushButton>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17450
+CDynamicWidgetFactory_Custom<class CQBindableCommandToolButton> (hierarchy CDynamicWidgetFactory_Custom<class CQBindableCommandToolButton>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17400
+CDynamicWidgetFactory_Custom<class QCheckBox> (hierarchy CDynamicWidgetFactory_Custom<class QCheckBox>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa171c0
+CDynamicWidgetFactory_Custom<class QDockWidget> (hierarchy CDynamicWidgetFactory_Custom<class QDockWidget>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17350
+CDynamicWidgetFactory_Custom<class QMainWindow> (hierarchy CDynamicWidgetFactory_Custom<class QMainWindow>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17210
+CDynamicWidgetFactory_Custom<class QMenuBar> (hierarchy CDynamicWidgetFactory_Custom<class QMenuBar>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17260
+CDynamicWidgetFactory_Custom<class QPushButton> (hierarchy CDynamicWidgetFactory_Custom<class QPushButton>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17120
+CDynamicWidgetFactory_Custom<class QScrollArea> (hierarchy CDynamicWidgetFactory_Custom<class QScrollArea>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa172b0
+CDynamicWidgetFactory_Custom<class QTabWidget> (hierarchy CDynamicWidgetFactory_Custom<class QTabWidget>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17300
+CDynamicWidgetFactory_Custom<class QTableWidget> (hierarchy CDynamicWidgetFactory_Custom<class QTableWidget>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa173a0
+CDynamicWidgetFactory_Custom<class QToolBar> (hierarchy CDynamicWidgetFactory_Custom<class QToolBar>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa174a0
+CDynamicWidgetFactory_Custom<class QToolButton> (hierarchy CDynamicWidgetFactory_Custom<class QToolButton>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa17170
+CDynamicWidgetFactory_Orientation<class QHeaderView> (hierarchy CDynamicWidgetFactory_Orientation<class QHeaderView>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa170b8
+	sfm.dll + 0xa170d0
+CDynamicWidgetFactory_Orientation<class QSplitter> (hierarchy CDynamicWidgetFactory_Orientation<class QSplitter>: CBaseDynamicWidgetFactory)
+	sfm.dll + 0xa170e8
+	sfm.dll + 0xa17100
+CEmptySequence (hierarchy CEmptySequence: ISequence, IBaseSequence)
+	sfm.dll + 0x9fc8b0
+CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> > (hierarchy CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> >: CEntityComponentHelperReferenced<class CScriptComponent>, CEntityComponentHelper)
+	sfm.dll + 0x9fac88
+CEntityMsg (hierarchy CEntityMsg: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26420
+CFSIOReadBinary (hierarchy CFSIOReadBinary: IFileReadBinary)
+	sfm.dll + 0xa10e50
+CFbxSystem (hierarchy CFbxSystem: CBaseAppSystem<class IFbxSystem>, IFbxSystem, IAppSystem)
+	sfm.dll + 0x9fbf18
+CGlobalHotkeyCommands (hierarchy CGlobalHotkeyCommands: IBindTarget)
+	sfm.dll + 0xaf6850
+CHitBoxObjectDesc (hierarchy CHitBoxObjectDesc: ISceneObjectDescBase<class CToolSceneHitBoxObject>, ISceneObjectDesc)
+	sfm.dll + 0xa11678
+CIFMTool
+	(hierarchy CIFMTool: CBaseToolSystem2, CTier3AppSystem<class IToolSystem2,0>, CTier2AppSystem<class IToolSystem2,0>, CTier1AppSystem<class IToolSystem2,0>, CTier0AppSystem<class IToolSystem2,0>, CBaseAppSystem<class IToolSystem2>, IToolSystem2, IAppSystem, IDmNotify)
+		sfm.dll + 0xaf7a00
+	MI offset 48 (hierarchy IDmNotify)
+		sfm.dll + 0xaf7a30
+CImportActBusy (hierarchy CImportActBusy: CImportKeyValueBase, IDmSerializer)
+	sfm.dll + 0x9f9848
+CImportCommentary (hierarchy CImportCommentary: CImportKeyValueBase, IDmSerializer)
+	sfm.dll + 0x9f9858
+CImportMKS (hierarchy CImportMKS: IDmSerializer)
+	sfm.dll + 0x9f9aa0
+CImportSFMV1 (hierarchy CImportSFMV1: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	sfm.dll + 0xaad340
+CImportSFMV2 (hierarchy CImportSFMV2: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	sfm.dll + 0xaad378
+CImportSFMV3 (hierarchy CImportSFMV3: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	sfm.dll + 0xaad398
+CImportSFMV4 (hierarchy CImportSFMV4: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	sfm.dll + 0xaad3b8
+CImportSFMV5 (hierarchy CImportSFMV5: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	sfm.dll + 0xaad3e0
+CImportSFMV6 (hierarchy CImportSFMV6: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	sfm.dll + 0xaad3f8
+CImportSFMV7 (hierarchy CImportSFMV7: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	sfm.dll + 0xaad418
+CImportSFMV8 (hierarchy CImportSFMV8: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	sfm.dll + 0xaad438
+CImportSFMV9 (hierarchy CImportSFMV9: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	sfm.dll + 0xaad458
+CImportTex (hierarchy CImportTex: IDmSerializer)
+	sfm.dll + 0x9f9ac8
+CImportVMT (hierarchy CImportVMT: CImportKeyValueBase, IDmSerializer)
+	sfm.dll + 0x9f9868
+CInputLayoutRegistration_s_hColoredVertexLayout (hierarchy CInputLayoutRegistration_s_hColoredVertexLayout: CPostConnectCallback)
+	sfm.dll + 0xaee1b8
+CLightVolumetricsObjectDesc (hierarchy CLightVolumetricsObjectDesc: ISceneObjectDescBase<class CSceneLightVolumetricsObject>, ISceneObjectDesc)
+	sfm.dll + 0xa269e0
+CModelInstanceManager (hierarchy CModelInstanceManager: IToolsResourceListener)
+	sfm.dll + 0xa10e60
+CMsgPlayerInfo (hierarchy CMsgPlayerInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26388
+CMsgQAngle (hierarchy CMsgQAngle: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26508
+CMsgQuaternion (hierarchy CMsgQuaternion: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26490
+CMsgRGBA (hierarchy CMsgRGBA: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26468
+CMsgTransform (hierarchy CMsgTransform: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa261c8
+CMsgVector (hierarchy CMsgVector: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa264e0
+CMsgVector2D (hierarchy CMsgVector2D: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26248
+CMsg_CVars (hierarchy CMsg_CVars: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26530
+CMsg_CVars_CVar (hierarchy CMsg_CVars_CVar: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26588
+CNETMsg_DebugOverlay (hierarchy CNETMsg_DebugOverlay: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa262c0
+CNETMsg_NOP (hierarchy CNETMsg_NOP: google::protobuf::internal::ZeroFieldsBase, google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa263e0
+CNETMsg_SetConVar (hierarchy CNETMsg_SetConVar: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26368
+CNETMsg_SignonState (hierarchy CNETMsg_SignonState: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26150
+CNETMsg_SpawnGroup_Load (hierarchy CNETMsg_SpawnGroup_Load: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26080
+CNETMsg_SpawnGroup_LoadCompleted (hierarchy CNETMsg_SpawnGroup_LoadCompleted: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa263c0
+CNETMsg_SpawnGroup_ManifestUpdate (hierarchy CNETMsg_SpawnGroup_ManifestUpdate: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa261a0
+CNETMsg_SpawnGroup_SetCreationTick (hierarchy CNETMsg_SpawnGroup_SetCreationTick: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26440
+CNETMsg_SpawnGroup_Unload (hierarchy CNETMsg_SpawnGroup_Unload: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa263f8
+CNETMsg_SplitScreenUser (hierarchy CNETMsg_SplitScreenUser: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa261f8
+CNETMsg_StringCmd (hierarchy CNETMsg_StringCmd: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26560
+CNETMsg_Tick (hierarchy CNETMsg_Tick: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26270
+CPulseTestGapTypeQueryRegistration (hierarchy CPulseTestGapTypeQueryRegistration: IGapTypeQueryRegistrationForScope)
+	sfm.dll + 0xa037a0
+CQtImageCache (hierarchy CQtImageCache: IQtImageCache)
+	sfm.dll + 0xa159b0
+CSFMDebugDraw (hierarchy CSFMDebugDraw: IDmDebugDraw)
+	sfm.dll + 0xa26710
+CSFMGeometrySceneObjectDesc (hierarchy CSFMGeometrySceneObjectDesc: ISceneObjectDescBase<class CSFMGeometrySceneObject>, ISceneObjectDesc)
+	sfm.dll + 0xa26a00
+CSFMParticleSystemQuery (hierarchy CSFMParticleSystemQuery: IParticleSystemQuery, IParticleEHandleHelper)
+	sfm.dll + 0xa22de0
+CSFMPhonemeExtractor (hierarchy CSFMPhonemeExtractor: ISFMPhonemeExtractor)
+	sfm.dll + 0xa10350
+CSFMSoundSampleCache (hierarchy CSFMSoundSampleCache: ISFMSoundSampleCache)
+	sfm.dll + 0xa266d0
+CSFMTextureOverlaySceneObjectDesc (hierarchy CSFMTextureOverlaySceneObjectDesc: ISceneObjectDescBase<class CSFMTextureOverlaySceneObject>, ISceneObjectDesc)
+	sfm.dll + 0xa26a18
+CSFMTexturePlaneSceneObjectDesc (hierarchy CSFMTexturePlaneSceneObjectDesc: ISceneObjectDescBase<class CSFMTexturePlaneSceneObject>, ISceneObjectDesc)
+	sfm.dll + 0xa26a30
+CSVCMsgList_GameEvents (hierarchy CSVCMsgList_GameEvents: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26218
+CSVCMsgList_GameEvents_event_t (hierarchy CSVCMsgList_GameEvents_event_t: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa264b8
+CSVCMsg_GameEvent (hierarchy CSVCMsg_GameEvent: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26110
+CSVCMsg_GameEvent_key_t (hierarchy CSVCMsg_GameEvent_key_t: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa26040
+CSVCMsg_GameSessionConfiguration (hierarchy CSVCMsg_GameSessionConfiguration: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0xa25fd0
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	sfm.dll + 0xad01d0
+CSchemaRegistration_entity2 (hierarchy CSchemaRegistration_entity2: CSchemaRegistration)
+	sfm.dll + 0x9fa500
+CSchemaRegistration_pulse_runtime_lib (hierarchy CSchemaRegistration_pulse_runtime_lib: CSchemaRegistration)
+	sfm.dll + 0x9fefa0
+CSchemaRegistration_sfm (hierarchy CSchemaRegistration_sfm: CSchemaRegistration)
+	sfm.dll + 0xa26a50
+CToolAxisObjectDesc (hierarchy CToolAxisObjectDesc: ISceneObjectDescBase<class CToolSceneAxisObject>, ISceneObjectDesc)
+	sfm.dll + 0xa11688
+CToolGridObjectDesc (hierarchy CToolGridObjectDesc: ISceneObjectDescBase<class CToolSceneGridObject>, ISceneObjectDesc)
+	sfm.dll + 0xa11578
+CVariantSaveDataOps (hierarchy CVariantSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+	sfm.dll + 0x9f9b80
+CVertexListSceneObjectDescriptor (hierarchy CVertexListSceneObjectDescriptor: ISceneObjectDescBase<class CVertexListSceneObject>, ISceneObjectDesc)
+	sfm.dll + 0xa114f0
+Concurrency::details::stl_condition_variable_win7 (hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+	sfm.dll + 0xaee8c0
+Concurrency::details::stl_critical_section_win7 (hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+	sfm.dll + 0xaee868
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>: std::_Ref_count_base)
+	sfm.dll + 0xa13890
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_exception> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>: std::_Ref_count_base)
+	sfm.dll + 0xa137d0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CBindableCamera::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CBindableCamera::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CBindableCamera>, CBindTargetDescriptorBase)
+	sfm.dll + 0xaf6ba0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGlobalHotkeyCommands::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGlobalHotkeyCommands::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CGlobalHotkeyCommands>, CBindTargetDescriptorBase)
+	sfm.dll + 0xaf6880
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CLightingControlRig::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CLightingControlRig::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CLightingControlRig>, CBindTargetDescriptorBase)
+	sfm.dll + 0xaf6a20
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQToolSceneWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQToolSceneWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQToolSceneWidget>, CBindTargetDescriptorBase)
+	sfm.dll + 0xaf69a0
+google::protobuf::DescriptorProto (hierarchy google::protobuf::DescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f70c0
+google::protobuf::DescriptorProto_ExtensionRange (hierarchy google::protobuf::DescriptorProto_ExtensionRange: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f71a8
+google::protobuf::DescriptorProto_ReservedRange (hierarchy google::protobuf::DescriptorProto_ReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f71d0
+google::protobuf::EnumDescriptorProto (hierarchy google::protobuf::EnumDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f71f0
+google::protobuf::EnumDescriptorProto_EnumReservedRange (hierarchy google::protobuf::EnumDescriptorProto_EnumReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7260
+google::protobuf::EnumOptions (hierarchy google::protobuf::EnumOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7280
+google::protobuf::EnumValueDescriptorProto (hierarchy google::protobuf::EnumValueDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f72d0
+google::protobuf::EnumValueOptions (hierarchy google::protobuf::EnumValueOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7300
+google::protobuf::ExtensionRangeOptions (hierarchy google::protobuf::ExtensionRangeOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7350
+google::protobuf::FieldDescriptorProto (hierarchy google::protobuf::FieldDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f73c0
+google::protobuf::FieldOptions (hierarchy google::protobuf::FieldOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7420
+google::protobuf::FileDescriptorProto (hierarchy google::protobuf::FileDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f74b0
+google::protobuf::FileDescriptorSet (hierarchy google::protobuf::FileDescriptorSet: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7588
+google::protobuf::FileOptions (hierarchy google::protobuf::FileOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f75c0
+google::protobuf::GeneratedCodeInfo (hierarchy google::protobuf::GeneratedCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7680
+google::protobuf::GeneratedCodeInfo_Annotation (hierarchy google::protobuf::GeneratedCodeInfo_Annotation: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f76b0
+google::protobuf::MessageOptions (hierarchy google::protobuf::MessageOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f76f0
+google::protobuf::MethodDescriptorProto (hierarchy google::protobuf::MethodDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7740
+google::protobuf::MethodOptions (hierarchy google::protobuf::MethodOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7780
+google::protobuf::OneofDescriptorProto (hierarchy google::protobuf::OneofDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7398
+google::protobuf::OneofOptions (hierarchy google::protobuf::OneofOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f77d0
+google::protobuf::ServiceDescriptorProto (hierarchy google::protobuf::ServiceDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7820
+google::protobuf::ServiceOptions (hierarchy google::protobuf::ServiceOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7860
+google::protobuf::SourceCodeInfo (hierarchy google::protobuf::SourceCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f78b0
+google::protobuf::SourceCodeInfo_Location (hierarchy google::protobuf::SourceCodeInfo_Location: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f78e0
+google::protobuf::UninterpretedOption (hierarchy google::protobuf::UninterpretedOption: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7950
+google::protobuf::UninterpretedOption_NamePart (hierarchy google::protobuf::UninterpretedOption_NamePart: google::protobuf::Message, google::protobuf::MessageLite)
+	sfm.dll + 0x9f7488
+google::protobuf::internal::ImplicitWeakMessage (hierarchy google::protobuf::internal::ImplicitWeakMessage: google::protobuf::MessageLite)
+	sfm.dll + 0x9f7b40
+google::protobuf::internal::MapFieldAccessor (hierarchy google::protobuf::internal::MapFieldAccessor: google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	sfm.dll + 0x9f7a30
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64>: google::protobuf::internal::RepeatedFieldWrapper<__int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	sfm.dll + 0x9f7a00
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool>: google::protobuf::internal::RepeatedFieldWrapper<bool>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	sfm.dll + 0x9f7a20
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double>: google::protobuf::internal::RepeatedFieldWrapper<double>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	sfm.dll + 0x9f7a18
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float>: google::protobuf::internal::RepeatedFieldWrapper<float>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	sfm.dll + 0x9f7a10
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int>: google::protobuf::internal::RepeatedFieldWrapper<int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	sfm.dll + 0x9f79f0
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64>: google::protobuf::internal::RepeatedFieldWrapper<unsigned __int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	sfm.dll + 0x9f7a08
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int>: google::protobuf::internal::RepeatedFieldWrapper<unsigned int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	sfm.dll + 0x9f79f8
+google::protobuf::internal::RepeatedPtrFieldMessageAccessor (hierarchy google::protobuf::internal::RepeatedPtrFieldMessageAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class google::protobuf::Message>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	sfm.dll + 0x9f7a38
+google::protobuf::internal::RepeatedPtrFieldStringAccessor (hierarchy google::protobuf::internal::RepeatedPtrFieldStringAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	sfm.dll + 0x9f7a28
+std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	sfm.dll + 0xa17460
+std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	sfm.dll + 0xa17410
+std::_Func_impl_no_alloc<void (__cdecl*)(class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	sfm.dll + 0xa171d0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	sfm.dll + 0xa17360
+std::_Func_impl_no_alloc<void (__cdecl*)(class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	sfm.dll + 0xa17220
+std::_Func_impl_no_alloc<void (__cdecl*)(class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	sfm.dll + 0xa17270
+std::_Func_impl_no_alloc<void (__cdecl*)(class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	sfm.dll + 0xa17130
+std::_Func_impl_no_alloc<void (__cdecl*)(class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	sfm.dll + 0xa172c0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	sfm.dll + 0xa17310
+std::_Func_impl_no_alloc<void (__cdecl*)(class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	sfm.dll + 0xa173b0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	sfm.dll + 0xa174b0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	sfm.dll + 0xa17180
+std::_Generic_error_category (hierarchy std::_Generic_error_category: std::error_category)
+	sfm.dll + 0xa137b0
+std::_Iostream_error_category2 (hierarchy std::_Iostream_error_category2: std::error_category)
+	sfm.dll + 0x9f79e0
+std::bad_alloc (hierarchy std::bad_alloc: std::exception)
+	sfm.dll + 0xa13938
+std::bad_exception (hierarchy std::bad_exception: std::exception)
+	sfm.dll + 0xa13878

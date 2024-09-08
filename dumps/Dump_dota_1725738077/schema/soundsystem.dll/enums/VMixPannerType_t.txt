@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum VMixPannerType_t(size: 4 bytes, 2 values, project "soundsystem_lowlevel", binding @ soundsystem.dll + 0x398270):
+	PANNER_TYPE_LINEAR = 0,
+	PANNER_TYPE_EQUAL_POWER = 1,

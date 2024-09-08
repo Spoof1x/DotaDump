@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleLightFogLightingMode_t(size: 4 bytes, 3 values, project "particles", binding @ particles.dll + 0x518830):
+	PARTICLE_LIGHT_FOG_LIGHTING_MODE_NONE = 0,
+		^MPropertyFriendlyName "None"
+	PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC = 2,
+		^MPropertyFriendlyName "Dynamic Fog with Shadows"
+	PARTICLE_LIGHT_FOG_LIGHTING_MODE_DYNAMIC_NOSHADOWS = 4,
+		^MPropertyFriendlyName "Dynamic Fog No Shadows"

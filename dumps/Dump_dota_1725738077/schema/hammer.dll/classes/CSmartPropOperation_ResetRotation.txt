@@ -1,0 +1,63 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_ResetRotation (size: 0x150 bytes, project "smartprops", binding @ hammer.dll + 0x1dcfb00, scope "hammer.dll") extends CSmartPropTransformOperation
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: hammer.dll + 0x103b300"
+^MPropertyFriendlyName "Transform: Reset Rotation"
+^MPropertyDescription "Reset the current rotation such the element only inherits the object level rotation, but does not inherit the rotation applied to its parent."
+^MVDataClassGroup "Transform"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropTransformOperation (size: 0x50 bytes, project "smartprops", binding @ hammer.dll + 0x1dce670, scope "hammer.dll") extends CSmartPropOperation
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: hammer.dll + 0xd1200"
+	^MVDataNodeTintColor "-4392"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ hammer.dll + 0x1dcc190, scope "hammer.dll") extends CSmartPropModifier
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: hammer.dll + 0xd1200"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ hammer.dll + 0x1dcd250, scope "hammer.dll")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: hammer.dll + 0xd1200"
+			^MVDataBase
+			^MVDataNodeType "1"
+			^MVDataAnonymousNode
+			
+			-----members of class CSmartPropModifier-----
+				uint8_t[8] unaccounted(offset 0x0)
+				CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+					^MVDataEnableKey
+				uint8_t[8] unaccounted(offset 0x48)
+			
+		
+		-----members of class CSmartPropOperation-----
+			<no members>
+		
+	
+	-----members of class CSmartPropTransformOperation-----
+		<no members>
+	
+
+-----members of class CSmartPropOperation_ResetRotation-----
+	CSmartPropAttributeBool m_bIgnoreObjectRotation(offset 0x50, size 0x40, align 0x8)
+		^MPropertyDescription "If enabled, the rotation will be reset to a world space instead of object space, meaning any rotation applied to the object in Hammer will be ignored."
+	CSmartPropAttributeBool m_bResetPitch(offset 0x90, size 0x40, align 0x8)
+		^MPropertyDescription "Should the pitch (rotation around left vector) value be reset."
+	CSmartPropAttributeBool m_bResetYaw(offset 0xd0, size 0x40, align 0x8)
+		^MPropertyDescription "Should the yaw (roation around the up vector) value be reset."
+	CSmartPropAttributeBool m_bResetRoll(offset 0x110, size 0x40, align 0x8)
+		^MPropertyDescription "Should the roll (rotation around forward vector) value be reset."
+

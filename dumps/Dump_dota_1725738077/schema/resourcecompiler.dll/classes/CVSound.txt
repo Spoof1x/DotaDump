@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVSound (size: 0x80 bytes, project "soundsystem_voicecontainers", binding @ resourcecompiler.dll + 0x24c1890, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x16592d0"
+
+-----members of class CVSound-----
+	int32 m_nRate(offset 0x0, size 0x4, align 0x4)
+	CVSoundFormat_t m_nFormat(offset 0x4, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x5)
+	uint32 m_nChannels(offset 0x8, size 0x4, align 0x4)
+	int32 m_nLoopStart(offset 0xc, size 0x4, align 0x4)
+	uint32 m_nSampleCount(offset 0x10, size 0x4, align 0x4)
+	float32 m_flDuration(offset 0x14, size 0x4, align 0x4)
+	CUtlVector< CAudioSentence > m_Sentences(offset 0x18, size 0x18, align 0x8)
+	uint32 m_nStreamingSize(offset 0x30, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x34)
+	CUtlVector< int32 > m_nSeekTable(offset 0x38, size 0x18, align 0x8)
+	int32 m_nLoopEnd(offset 0x50, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x54)
+	CUtlBinaryBlock m_encodedHeader(offset 0x58, size 0x18, align 0x8)
+		^MFgdFromSchemaCompletelySkipField
+	uint8_t[16] unaccounted(offset 0x70)
+

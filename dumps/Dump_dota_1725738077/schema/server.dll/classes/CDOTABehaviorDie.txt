@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABehaviorDie (size: 0x78 bytes, project "server", binding @ server.dll + 0x3ae5430, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CDOTABehaviorDie-----
+	uint8_t[96] unaccounted(offset 0x0)
+	CountdownTimer m_timer(offset 0x60, size 0x18, align 0x0)
+

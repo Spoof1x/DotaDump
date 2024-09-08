@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SubclassVDataChangeType_t(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x46bb1d0):
+	SUBCLASS_VDATA_CREATED = 0,
+	SUBCLASS_VDATA_SUBCLASS_CHANGED = 1,
+	SUBCLASS_VDATA_RELOADED = 2,

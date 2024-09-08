@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AnimationDecodeDebugDump_t (size: 0x20 bytes, project "scenesystem", binding @ scenesystem.dll + 0x5c38a0, scope "scenesystem.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: scenesystem.dll + 0x16c300"
+
+-----members of class AnimationDecodeDebugDump_t-----
+	AnimationProcessingType_t m_processingType(offset 0x0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlVector< AnimationDecodeDebugDumpElement_t > m_elems(offset 0x8, size 0x18, align 0x8)
+

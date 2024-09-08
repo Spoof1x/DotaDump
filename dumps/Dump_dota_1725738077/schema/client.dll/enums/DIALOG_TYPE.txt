@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DIALOG_TYPE(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x47036b0):
+	DIALOG_MSG = 0,
+	DIALOG_MENU = 1,
+	DIALOG_TEXT = 2,
+	DIALOG_ENTRY = 3,
+	DIALOG_ASKCONNECT = 4,

@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleHitboxDataSelection_t(size: 4 bytes, 2 values, project "particles", binding @ particles.dll + 0x5189e0):
+	PARTICLE_HITBOX_AVERAGE_SPEED = 0,
+		^MPropertyFriendlyName "Average Hitbox Speed"
+	PARTICLE_HITBOX_COUNT = 1,
+		^MPropertyFriendlyName "Hitbox Count"

@@ -1,0 +1,5 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CAvi (hierarchy CAvi: CTier3AppSystem<class IAvi,0>, CTier2AppSystem<class IAvi,0>, CTier1AppSystem<class IAvi,0>, CTier0AppSystem<class IAvi,0>, CBaseAppSystem<class IAvi>, IAvi, IAppSystem)
+	valve_avi.dll + 0x22310
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	valve_avi.dll + 0x230d8

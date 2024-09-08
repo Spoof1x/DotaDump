@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RenderSkeletonBone_t (size: 0x60 bytes, project "modellib", binding @ vphysics2.dll + 0x38b2a0, scope "vphysics2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0xb6690"
+
+-----members of class RenderSkeletonBone_t-----
+	CUtlString m_boneName(offset 0x0, size 0x8, align 0x8)
+	CUtlString m_parentName(offset 0x8, size 0x8, align 0x8)
+	matrix3x4_t m_invBindPose(offset 0x10, size 0x30, align 0x4)
+	SkeletonBoneBounds_t m_bbox(offset 0x40, size 0x18, align 0x4)
+	float32 m_flSphereRadius(offset 0x58, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x5c)
+

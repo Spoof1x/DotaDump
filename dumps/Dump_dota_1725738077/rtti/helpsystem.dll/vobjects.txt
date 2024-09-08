@@ -1,0 +1,105 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CDynamicWidgetFactory<class CQDraggableWidgetList> (hierarchy CDynamicWidgetFactory<class CQDraggableWidgetList>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96700
+CDynamicWidgetFactory<class CQFilteredTreeWidget> (hierarchy CDynamicWidgetFactory<class CQFilteredTreeWidget>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x97340
+CDynamicWidgetFactory<class CQTextEditSuppressShortcuts> (hierarchy CDynamicWidgetFactory<class CQTextEditSuppressShortcuts>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x98ae0
+CDynamicWidgetFactory<class CQTreeWidgetWithHover> (hierarchy CDynamicWidgetFactory<class CQTreeWidgetWithHover>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x97330
+CDynamicWidgetFactory<class QComboBox> (hierarchy CDynamicWidgetFactory<class QComboBox>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x966f0
+CDynamicWidgetFactory<class QFrame> (hierarchy CDynamicWidgetFactory<class QFrame>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96670
+CDynamicWidgetFactory<class QGroupBox> (hierarchy CDynamicWidgetFactory<class QGroupBox>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96690
+CDynamicWidgetFactory<class QLabel> (hierarchy CDynamicWidgetFactory<class QLabel>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96640
+CDynamicWidgetFactory<class QLineEdit> (hierarchy CDynamicWidgetFactory<class QLineEdit>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96650
+CDynamicWidgetFactory<class QListWidget> (hierarchy CDynamicWidgetFactory<class QListWidget>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96a50
+CDynamicWidgetFactory<class QMenu> (hierarchy CDynamicWidgetFactory<class QMenu>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96680
+CDynamicWidgetFactory<class QProgressBar> (hierarchy CDynamicWidgetFactory<class QProgressBar>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x966b0
+CDynamicWidgetFactory<class QRadioButton> (hierarchy CDynamicWidgetFactory<class QRadioButton>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x966c0
+CDynamicWidgetFactory<class QScrollBar> (hierarchy CDynamicWidgetFactory<class QScrollBar>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x966d0
+CDynamicWidgetFactory<class QSlider> (hierarchy CDynamicWidgetFactory<class QSlider>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96660
+CDynamicWidgetFactory<class QSpinBox> (hierarchy CDynamicWidgetFactory<class QSpinBox>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x966e0
+CDynamicWidgetFactory<class QTextBrowser> (hierarchy CDynamicWidgetFactory<class QTextBrowser>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96710
+CDynamicWidgetFactory<class QTextEdit> (hierarchy CDynamicWidgetFactory<class QTextEdit>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x966a0
+CDynamicWidgetFactory<class QWidget> (hierarchy CDynamicWidgetFactory<class QWidget>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96630
+CDynamicWidgetFactory_Custom<class CQBindableCommandPushButton> (hierarchy CDynamicWidgetFactory_Custom<class CQBindableCommandPushButton>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96ab0
+CDynamicWidgetFactory_Custom<class CQBindableCommandToolButton> (hierarchy CDynamicWidgetFactory_Custom<class CQBindableCommandToolButton>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96a60
+CDynamicWidgetFactory_Custom<class QCheckBox> (hierarchy CDynamicWidgetFactory_Custom<class QCheckBox>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96820
+CDynamicWidgetFactory_Custom<class QDockWidget> (hierarchy CDynamicWidgetFactory_Custom<class QDockWidget>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x969b0
+CDynamicWidgetFactory_Custom<class QMainWindow> (hierarchy CDynamicWidgetFactory_Custom<class QMainWindow>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96870
+CDynamicWidgetFactory_Custom<class QMenuBar> (hierarchy CDynamicWidgetFactory_Custom<class QMenuBar>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x968c0
+CDynamicWidgetFactory_Custom<class QPushButton> (hierarchy CDynamicWidgetFactory_Custom<class QPushButton>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96780
+CDynamicWidgetFactory_Custom<class QScrollArea> (hierarchy CDynamicWidgetFactory_Custom<class QScrollArea>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96910
+CDynamicWidgetFactory_Custom<class QTabWidget> (hierarchy CDynamicWidgetFactory_Custom<class QTabWidget>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96960
+CDynamicWidgetFactory_Custom<class QTableWidget> (hierarchy CDynamicWidgetFactory_Custom<class QTableWidget>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96a00
+CDynamicWidgetFactory_Custom<class QToolBar> (hierarchy CDynamicWidgetFactory_Custom<class QToolBar>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96b00
+CDynamicWidgetFactory_Custom<class QToolButton> (hierarchy CDynamicWidgetFactory_Custom<class QToolButton>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x967d0
+CDynamicWidgetFactory_Orientation<class QHeaderView> (hierarchy CDynamicWidgetFactory_Orientation<class QHeaderView>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96720
+	helpsystem.dll + 0x96738
+CDynamicWidgetFactory_Orientation<class QSplitter> (hierarchy CDynamicWidgetFactory_Orientation<class QSplitter>: CBaseDynamicWidgetFactory)
+	helpsystem.dll + 0x96750
+	helpsystem.dll + 0x96768
+CGlobalHotkeyCommands (hierarchy CGlobalHotkeyCommands: IBindTarget)
+	helpsystem.dll + 0x9e060
+CHelpSystem (hierarchy CHelpSystem: CTier3AppSystem<class IHelpSystem,0>, CTier2AppSystem<class IHelpSystem,0>, CTier1AppSystem<class IHelpSystem,0>, CTier0AppSystem<class IHelpSystem,0>, CBaseAppSystem<class IHelpSystem>, IHelpSystem, IAppSystem)
+	helpsystem.dll + 0x98a10
+CQtImageCache (hierarchy CQtImageCache: IQtImageCache)
+	helpsystem.dll + 0x971d0
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	helpsystem.dll + 0x9fde8
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGlobalHotkeyCommands::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGlobalHotkeyCommands::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CGlobalHotkeyCommands>, CBindTargetDescriptorBase)
+	helpsystem.dll + 0x9e090
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQHelpEditorWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQHelpEditorWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQHelpEditorWidget>, CBindTargetDescriptorBase)
+	helpsystem.dll + 0xa0b10
+std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	helpsystem.dll + 0x96ac0
+std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	helpsystem.dll + 0x96a70
+std::_Func_impl_no_alloc<void (__cdecl*)(class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	helpsystem.dll + 0x96830
+std::_Func_impl_no_alloc<void (__cdecl*)(class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	helpsystem.dll + 0x969c0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	helpsystem.dll + 0x96880
+std::_Func_impl_no_alloc<void (__cdecl*)(class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	helpsystem.dll + 0x968d0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	helpsystem.dll + 0x96790
+std::_Func_impl_no_alloc<void (__cdecl*)(class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	helpsystem.dll + 0x96920
+std::_Func_impl_no_alloc<void (__cdecl*)(class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	helpsystem.dll + 0x96970
+std::_Func_impl_no_alloc<void (__cdecl*)(class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	helpsystem.dll + 0x96a10
+std::_Func_impl_no_alloc<void (__cdecl*)(class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	helpsystem.dll + 0x96b10
+std::_Func_impl_no_alloc<void (__cdecl*)(class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	helpsystem.dll + 0x967e0

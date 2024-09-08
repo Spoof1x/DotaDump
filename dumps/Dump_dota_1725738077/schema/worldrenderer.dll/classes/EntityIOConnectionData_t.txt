@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EntityIOConnectionData_t (size: 0x30 bytes, project "worldrenderer", binding @ worldrenderer.dll + 0x10ec30, scope "worldrenderer.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: worldrenderer.dll + 0x2c440"
+
+-----members of class EntityIOConnectionData_t-----
+	CUtlString m_outputName(offset 0x0, size 0x8, align 0x8)
+	uint32 m_targetType(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlString m_targetName(offset 0x10, size 0x8, align 0x8)
+	CUtlString m_inputName(offset 0x18, size 0x8, align 0x8)
+	CUtlString m_overrideParam(offset 0x20, size 0x8, align 0x8)
+	float32 m_flDelay(offset 0x28, size 0x4, align 0x4)
+	int32 m_nTimesToFire(offset 0x2c, size 0x4, align 0x4)
+

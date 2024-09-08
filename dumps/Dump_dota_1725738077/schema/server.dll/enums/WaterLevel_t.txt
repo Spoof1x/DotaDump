@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum WaterLevel_t(size: 1 bytes, 6 values, project "server", binding @ server.dll + 0x38a04d0):
+	WL_NotInWater = 0,
+	WL_Feet = 1,
+	WL_Waist = 2,
+	WL_Chest = 3,
+	WL_FullyUnderwater = 4,
+	WL_Count = 5,

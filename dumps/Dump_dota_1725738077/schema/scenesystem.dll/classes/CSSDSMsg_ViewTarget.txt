@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSSDSMsg_ViewTarget (size: 0x30 bytes, project "scenesystem", binding @ scenesystem.dll + 0x5c3f10, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: scenesystem.dll + 0x170c50"
+
+-----members of class CSSDSMsg_ViewTarget-----
+	CUtlString m_Name(offset 0x0, size 0x8, align 0x8)
+	uint64 m_TextureId(offset 0x8, size 0x8, align 0x8)
+	int32 m_nWidth(offset 0x10, size 0x4, align 0x4)
+	int32 m_nHeight(offset 0x14, size 0x4, align 0x4)
+	int32 m_nRequestedWidth(offset 0x18, size 0x4, align 0x4)
+	int32 m_nRequestedHeight(offset 0x1c, size 0x4, align 0x4)
+	int32 m_nNumMipLevels(offset 0x20, size 0x4, align 0x4)
+	int32 m_nDepth(offset 0x24, size 0x4, align 0x4)
+	int32 m_nMultisampleNumSamples(offset 0x28, size 0x4, align 0x4)
+	int32 m_nFormat(offset 0x2c, size 0x4, align 0x4)
+

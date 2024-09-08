@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_MotionParameterManager (size: 0x28 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f5fc0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5cafd0"
+
+-----members of class CAnimGraphDoc_MotionParameterManager-----
+	uint8_t[16] unaccounted(offset 0x0)
+	CUtlVector< CSmartPtr< CAnimGraphDoc_MotionParameter > > m_params(offset 0x10, size 0x18, align 0x8)
+

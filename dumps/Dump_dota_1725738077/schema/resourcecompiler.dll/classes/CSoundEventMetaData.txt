@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSoundEventMetaData (size: 0x8 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24f2bb0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x361530"
+
+-----members of class CSoundEventMetaData-----
+	CStrongHandle< InfoForResourceTypeCVMixListResource > m_soundEventVMix(offset 0x0, size 0x8, align 0x8)
+

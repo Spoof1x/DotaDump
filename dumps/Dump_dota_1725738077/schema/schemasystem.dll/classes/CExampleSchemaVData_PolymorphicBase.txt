@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CExampleSchemaVData_PolymorphicBase (size: 0x10 bytes, project "resourcefile", binding @ schemasystem.dll + 0x53340, scope "schemasystem.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: schemasystem.dll + 0x1fe40"
+
+-----members of class CExampleSchemaVData_PolymorphicBase-----
+	uint8_t[8] unaccounted(offset 0x0)
+	int32 m_nBase(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+

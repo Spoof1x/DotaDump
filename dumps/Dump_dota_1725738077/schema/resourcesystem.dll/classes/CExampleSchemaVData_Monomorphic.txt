@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CExampleSchemaVData_Monomorphic (size: 0x8 bytes, project "resourcefile", binding @ resourcesystem.dll + 0x60d60, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcesystem.dll + 0x29b50"
+
+-----members of class CExampleSchemaVData_Monomorphic-----
+	int32 m_nExample1(offset 0x0, size 0x4, align 0x4)
+	int32 m_nExample2(offset 0x4, size 0x4, align 0x4)
+

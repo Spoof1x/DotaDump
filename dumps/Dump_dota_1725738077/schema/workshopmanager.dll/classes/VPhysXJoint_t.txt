@@ -1,0 +1,42 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VPhysXJoint_t (size: 0xc0 bytes, project "modellib", binding @ workshopmanager.dll + 0xe8eae0, scope "workshopmanager.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x5060f0"
+
+-----members of class VPhysXJoint_t-----
+	uint16 m_nType(offset 0x0, size 0x2, align 0x2)
+	uint16 m_nBody1(offset 0x2, size 0x2, align 0x2)
+	uint16 m_nBody2(offset 0x4, size 0x2, align 0x2)
+	uint16 m_nFlags(offset 0x6, size 0x2, align 0x2)
+	uint8_t[8] unaccounted(offset 0x8)
+	CTransform m_Frame1(offset 0x10, size 0x20, align 0x10)
+	CTransform m_Frame2(offset 0x30, size 0x20, align 0x10)
+	bool m_bEnableCollision(offset 0x50, size 0x1, align 0x1)
+	bool m_bEnableLinearLimit(offset 0x51, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x52)
+	VPhysXRange_t m_LinearLimit(offset 0x54, size 0x8, align 0x4)
+	bool m_bEnableLinearMotor(offset 0x5c, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x5d)
+	Vector m_vLinearTargetVelocity(offset 0x60, size 0xc, align 0x4)
+	float32 m_flMaxForce(offset 0x6c, size 0x4, align 0x4)
+	bool m_bEnableSwingLimit(offset 0x70, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x71)
+	VPhysXRange_t m_SwingLimit(offset 0x74, size 0x8, align 0x4)
+	bool m_bEnableTwistLimit(offset 0x7c, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x7d)
+	VPhysXRange_t m_TwistLimit(offset 0x80, size 0x8, align 0x4)
+	bool m_bEnableAngularMotor(offset 0x88, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x89)
+	Vector m_vAngularTargetVelocity(offset 0x8c, size 0xc, align 0x4)
+	float32 m_flMaxTorque(offset 0x98, size 0x4, align 0x4)
+	float32 m_flLinearFrequency(offset 0x9c, size 0x4, align 0x4)
+	float32 m_flLinearDampingRatio(offset 0xa0, size 0x4, align 0x4)
+	float32 m_flAngularFrequency(offset 0xa4, size 0x4, align 0x4)
+	float32 m_flAngularDampingRatio(offset 0xa8, size 0x4, align 0x4)
+	float32 m_flFriction(offset 0xac, size 0x4, align 0x4)
+	float32 m_flElasticity(offset 0xb0, size 0x4, align 0x4)
+	float32 m_flElasticDamping(offset 0xb4, size 0x4, align 0x4)
+	float32 m_flPlasticity(offset 0xb8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xbc)
+

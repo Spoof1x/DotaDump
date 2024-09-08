@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAssetWarningCheck (size: 0x68 bytes, project "toolutils2", binding @ toolframework2.dll + 0x935340, scope "toolframework2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x47c2e0"
+
+-----members of class CAssetWarningCheck-----
+	CUtlString m_AssetType(offset 0x0, size 0x8, align 0x8)
+	CBufferString m_RequireSearchableIntKey(offset 0x8, size 0x10, align 0x8)
+	int32 m_RequireSearchableIntValue(offset 0x18, size 0x4, align 0x4)
+	bool m_bOnlyWarnIfGameFilePresent(offset 0x1c, size 0x1, align 0x1)
+	bool m_bOnlyWarnIfContentFilePresent(offset 0x1d, size 0x1, align 0x1)
+	bool m_bOnlyWarnAddons(offset 0x1e, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x1f)
+	CUtlVector< CUtlString > m_ExcludeAddonNames(offset 0x20, size 0x18, align 0x8)
+	CUtlString m_FixDescription(offset 0x38, size 0x8, align 0x8)
+	AssetWarningFixType_t m_FixType(offset 0x40, size 0x4, align 0x4)
+	uint8_t[36] unaccounted(offset 0x44)
+

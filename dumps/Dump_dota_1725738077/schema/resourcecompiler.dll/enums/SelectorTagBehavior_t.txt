@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SelectorTagBehavior_t(size: 4 bytes, 3 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x242b0e0):
+	SelectorTagBehavior_OnWhileCurrent = 0,
+		^MPropertyFriendlyName "Active While Current"
+	SelectorTagBehavior_OffWhenFinished = 1,
+		^MPropertyFriendlyName "Off When Finished"
+	SelectorTagBehavior_OffBeforeFinished = 2,
+		^MPropertyFriendlyName "Off Before Finished"

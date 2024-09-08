@@ -1,0 +1,74 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CEnvWindShared (size: 0x258 bytes, project "server", binding @ server.dll + 0x389e3c0, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+| SCHEMA_CF1_INFO_TAG_MClassHasEntityLimitedDataDesc
+^MNetworkVarNames "m_flStartTime GameTime_t"
+^MNetworkVarNames "m_iWindSeed uint32"
+^MNetworkVarNames "m_iMinWind uint16"
+^MNetworkVarNames "m_iMaxWind uint16"
+^MNetworkVarNames "m_windRadius int32"
+^MNetworkVarNames "m_iMinGust uint16"
+^MNetworkVarNames "m_iMaxGust uint16"
+^MNetworkVarNames "m_flMinGustDelay float32"
+^MNetworkVarNames "m_flMaxGustDelay float32"
+^MNetworkVarNames "m_flGustDuration float32"
+^MNetworkVarNames "m_iGustDirChange uint16"
+^MNetworkVarNames "m_location Vector"
+^MNetworkVarNames "m_iInitialWindDir uint16"
+^MNetworkVarNames "m_flInitialWindSpeed float32"
+
+-----members of class CEnvWindShared-----
+	uint8_t[8] unaccounted(offset 0x0)
+	GameTime_t m_flStartTime(offset 0x8, size 0x4, align 0x0)
+		^MNetworkEnable
+	uint32 m_iWindSeed(offset 0xc, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint16 m_iMinWind(offset 0x10, size 0x2, align 0x2)
+		^MNetworkEnable
+	uint16 m_iMaxWind(offset 0x12, size 0x2, align 0x2)
+		^MNetworkEnable
+	int32 m_windRadius(offset 0x14, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint16 m_iMinGust(offset 0x18, size 0x2, align 0x2)
+		^MNetworkEnable
+	uint16 m_iMaxGust(offset 0x1a, size 0x2, align 0x2)
+		^MNetworkEnable
+	float32 m_flMinGustDelay(offset 0x1c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flMaxGustDelay(offset 0x20, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flGustDuration(offset 0x24, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint16 m_iGustDirChange(offset 0x28, size 0x2, align 0x2)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0x2a)
+	Vector m_location(offset 0x2c, size 0xc, align 0x4)
+		^MNetworkEnable
+		^MNetworkEncoder "coord"
+	int32 m_iszGustSound(offset 0x38, size 0x4, align 0x4)
+	int32 m_iWindDir(offset 0x3c, size 0x4, align 0x4)
+	float32 m_flWindSpeed(offset 0x40, size 0x4, align 0x4)
+	Vector m_currentWindVector(offset 0x44, size 0xc, align 0x4)
+	Vector m_CurrentSwayVector(offset 0x50, size 0xc, align 0x4)
+	Vector m_PrevSwayVector(offset 0x5c, size 0xc, align 0x4)
+	uint16 m_iInitialWindDir(offset 0x68, size 0x2, align 0x2)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0x6a)
+	float32 m_flInitialWindSpeed(offset 0x6c, size 0x4, align 0x4)
+		^MNetworkEnable
+	CEntityIOOutput m_OnGustStart(offset 0x70, size 0x28, align 0x0)
+	CEntityIOOutput m_OnGustEnd(offset 0x98, size 0x28, align 0x0)
+	GameTime_t m_flVariationTime(offset 0xc0, size 0x4, align 0x0)
+	GameTime_t m_flSwayTime(offset 0xc4, size 0x4, align 0x0)
+	GameTime_t m_flSimTime(offset 0xc8, size 0x4, align 0x0)
+	GameTime_t m_flSwitchTime(offset 0xcc, size 0x4, align 0x0)
+	float32 m_flAveWindSpeed(offset 0xd0, size 0x4, align 0x4)
+	bool m_bGusting(offset 0xd4, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0xd5)
+	float32 m_flWindAngleVariation(offset 0xd8, size 0x4, align 0x4)
+	float32 m_flWindSpeedVariation(offset 0xdc, size 0x4, align 0x4)
+	CHandle< CBaseEntity > m_hEntOwner(offset 0xe0, size 0x4, align 0x4)
+	uint8_t[372] unaccounted(offset 0xe4)
+

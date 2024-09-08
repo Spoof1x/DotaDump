@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TimedKillEvent_t (size: 0xc bytes, project "server", binding @ server.dll + 0x3ab3ff0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class TimedKillEvent_t-----
+	int32 m_nKillTime(offset 0x0, size 0x4, align 0x4)
+	float32 m_flKillValue(offset 0x4, size 0x4, align 0x4)
+	PlayerID_t m_nPlayerID(offset 0x8, size 0x4, align 0x0)
+

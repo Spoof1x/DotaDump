@@ -1,0 +1,60 @@
+CBaseUndoable
+	scenefilecache.dll + 0x4ef30(hierarchy CBaseUndoable: IUndoable)
+CChoreoSceneDataTypeManager
+	scenefilecache.dll + 0x5f660(hierarchy CChoreoSceneDataTypeManager: IResourceTypeManager)
+CChoreoStringPool
+	scenefilecache.dll + 0x5f648(hierarchy CChoreoStringPool: IChoreoStringPool)
+CGameResponseSystem
+	scenefilecache.dll + 0x5f120(hierarchy CGameResponseSystem: CResponseSystem, IResponseSystem, CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+	scenefilecache.dll + 0x5f080 MI offset 8(hierarchy CRefCounted<class CRefCountServiceBase<class CRefMT> >: CRefCountServiceBase<class CRefMT>)
+CKV3TransferContextBase
+	scenefilecache.dll + 0x52bd8(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferLoadContext
+	scenefilecache.dll + 0x52c48(hierarchy CKV3TransferLoadContext: CKV3TransferContextBase, IErrorListener)
+CKV3TransferSaveContext
+	scenefilecache.dll + 0x52c10(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CPostConnectCallback
+	scenefilecache.dll + 0x52b78(hierarchy CPostConnectCallback)
+CResponseDoc_Node
+	scenefilecache.dll + 0x4f848(hierarchy CResponseDoc_Node)
+CResponseDoc_Requirement
+	scenefilecache.dll + 0x4f3d8(hierarchy CResponseDoc_Requirement: CResponseDoc_Node)
+CResponseDoc_Response
+	scenefilecache.dll + 0x4f598(hierarchy CResponseDoc_Response: CResponseDoc_Node)
+CResponseDoc_ResponseGroup
+	scenefilecache.dll + 0x4f770(hierarchy CResponseDoc_ResponseGroup: CResponseDoc_Node)
+CResponseDoc_Root
+	scenefilecache.dll + 0x4efa0(hierarchy CResponseDoc_Root: CBaseUndoable, IUndoable)
+CResponseDoc_Rule
+	scenefilecache.dll + 0x4f800(hierarchy CResponseDoc_Rule: CResponseDoc_Node)
+CResponseRulesFileCache
+	scenefilecache.dll + 0x5f180(hierarchy CResponseRulesFileCache: CTier1AppSystem<class IResponseRulesFileCache,0>, CTier0AppSystem<class IResponseRulesFileCache,0>, CBaseAppSystem<class IResponseRulesFileCache>, IResponseRulesFileCache, IAppSystem, IToolsResourceListener)
+	scenefilecache.dll + 0x5f168 MI offset 8(hierarchy IToolsResourceListener)
+CResponseRulesTypeManager
+	scenefilecache.dll + 0x5f090(hierarchy CResponseRulesTypeManager: IResourceTypeManager)
+CResponseSystem
+	scenefilecache.dll + 0x4fce0(hierarchy CResponseSystem: IResponseSystem, CRefCounted<class CRefCountServiceBase<class CRefMT> >, CRefCountServiceBase<class CRefMT>)
+	scenefilecache.dll + 0x4fd28 MI offset 8(hierarchy CRefCounted<class CRefCountServiceBase<class CRefMT> >: CRefCountServiceBase<class CRefMT>)
+CSceneFileCache
+	scenefilecache.dll + 0x5f6f8(hierarchy CSceneFileCache: CTier2AppSystem<class ISceneFileCache,0>, CTier1AppSystem<class ISceneFileCache,0>, CTier0AppSystem<class ISceneFileCache,0>, CBaseAppSystem<class ISceneFileCache>, ISceneFileCache, CBaseAppSystem<class IAppSystem>, IAppSystem, IAddonListChangeNotify)
+	scenefilecache.dll + 0x5f780 MI offset 40(hierarchy IAddonListChangeNotify)
+CSchemaInstallCallback
+	scenefilecache.dll + 0x53408(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_scenefilecache
+	scenefilecache.dll + 0x5fbd8(hierarchy CSchemaRegistration_scenefilecache: CSchemaRegistration)
+IResponseSystem
+	scenefilecache.dll + 0x4fca0(hierarchy IResponseSystem)
+std::_Func_impl_no_alloc<class `protected: void __cdecl CResponseFileParser::ComputeMatcher(struct Criteria * __ptr64) __ptr64'::`2'::<lambda_1>,float,char const * __ptr64,bool & __ptr64>
+	scenefilecache.dll + 0x51888(hierarchy std::_Func_impl_no_alloc<class `protected: void __cdecl CResponseFileParser::ComputeMatcher(struct Criteria * __ptr64) __ptr64'::`2'::<lambda_1>,float,char const * __ptr64,bool & __ptr64>: std::_Func_base<float,char const * __ptr64,bool & __ptr64>)
+std::_Func_impl_no_alloc<class `public: bool __cdecl CResponseSystem::Compare(char const * __ptr64,struct Criteria * __ptr64,bool) __ptr64'::`2'::<lambda_1>,float,char const * __ptr64,bool & __ptr64>
+	scenefilecache.dll + 0x4ffe8(hierarchy std::_Func_impl_no_alloc<class `public: bool __cdecl CResponseSystem::Compare(char const * __ptr64,struct Criteria * __ptr64,bool) __ptr64'::`2'::<lambda_1>,float,char const * __ptr64,bool & __ptr64>: std::_Func_base<float,char const * __ptr64,bool & __ptr64>)
+std::_Func_impl_no_alloc<class `void __cdecl ComputeMatcher(struct Criteria * __ptr64,class CResponseSystem * __ptr64)'::`2'::<lambda_1>,float,char const * __ptr64,bool & __ptr64>
+	scenefilecache.dll + 0x4fc50(hierarchy std::_Func_impl_no_alloc<class `void __cdecl ComputeMatcher(struct Criteria * __ptr64,class CResponseSystem * __ptr64)'::`2'::<lambda_1>,float,char const * __ptr64,bool & __ptr64>: std::_Func_base<float,char const * __ptr64,bool & __ptr64>)
+std::bad_exception
+	scenefilecache.dll + 0x54768(hierarchy std::bad_exception: std::exception)
+std::bad_function_call
+	scenefilecache.dll + 0x53588(hierarchy std::bad_function_call: std::exception)
+std::exception
+	scenefilecache.dll + 0x4eec8(hierarchy std::exception)
+type_info
+	scenefilecache.dll + 0x54560(hierarchy type_info)

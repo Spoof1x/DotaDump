@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ETalentContentStatus(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x4700ae0):
+	TALENT_CONTENT_STATUS_INVALID = 0,
+	TALENT_CONTENT_STATUS_PENDING = 1,
+	TALENT_CONTENT_STATUS_EVALUATED = 2,

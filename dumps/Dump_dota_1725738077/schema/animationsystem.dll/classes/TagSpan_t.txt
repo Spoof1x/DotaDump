@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TagSpan_t (size: 0xc bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a6d20, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1850c0"
+
+-----members of class TagSpan_t-----
+	int32 m_tagIndex(offset 0x0, size 0x4, align 0x4)
+	float32 m_startCycle(offset 0x4, size 0x4, align 0x4)
+	float32 m_endCycle(offset 0x8, size 0x4, align 0x4)
+

@@ -1,0 +1,11 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum FuseVariableType_t(size: 1 bytes, 9 values, project "mathlib_extended", binding @ server.dll + 0x3b22e80):
+	INVALID = 0,
+	BOOL = 1,
+	INT8 = 2,
+	INT16 = 3,
+	INT32 = 4,
+	UINT8 = 5,
+	UINT16 = 6,
+	UINT32 = 7,
+	FLOAT32 = 8,

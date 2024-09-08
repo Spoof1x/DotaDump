@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class GameTime_t (size: 0x4 bytes, project "entity2", binding @ engine2.dll + 0x530390, scope "engine2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedFloatType
+
+-----static members of class GameTime_t-----
+	static bool IS_TYPESAFE_FLOAT(engine2.dll + 0x415ee2)
+	static GameTime_t Zero(engine2.dll + 0x415ee4)
+
+-----members of class GameTime_t-----
+	float32 m_Value(offset 0x0, size 0x4, align 0x4)
+

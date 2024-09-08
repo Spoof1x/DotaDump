@@ -1,0 +1,28 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNavVolumeBreadthFirstSearch (size: 0xb8 bytes, project "server", binding @ server.dll + 0x38d4d70, scope "!GlobalTypes") extends CNavVolumeCalculatedVector
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNavVolumeCalculatedVector (size: 0x98 bytes, project "server", binding @ server.dll + 0x38d4cb0, scope "!GlobalTypes") extends CNavVolume
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNavVolume (size: 0x70 bytes, project "navlib", binding @ server.dll + 0x3b23e70, scope "server.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		
+		-----members of class CNavVolume-----
+			uint8_t[112] unaccounted(offset 0x0)
+		
+	
+	-----members of class CNavVolumeCalculatedVector-----
+		uint8_t[40] unaccounted(offset 0x70)
+	
+
+-----members of class CNavVolumeBreadthFirstSearch-----
+	uint8_t[8] unaccounted(offset 0x98)
+	Vector m_vStartPos(offset 0xa0, size 0xc, align 0x4)
+	float32 m_flSearchDist(offset 0xac, size 0x4, align 0x4)
+	uint8_t[8] unaccounted(offset 0xb0)
+

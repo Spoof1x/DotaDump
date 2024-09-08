@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVectorQuantizer (size: 0x20 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242fb00, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x780530"
+
+-----members of class CVectorQuantizer-----
+	CUtlVector< float32 > m_centroidVectors(offset 0x0, size 0x18, align 0x8)
+	int32 m_nCentroids(offset 0x18, size 0x4, align 0x4)
+	int32 m_nDimensions(offset 0x1c, size 0x4, align 0x4)
+

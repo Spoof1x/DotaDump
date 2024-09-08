@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTALowPriorityBanType(size: 4 bytes, 4 values, project "server", binding @ server.dll + 0x38e1770):
+	DOTA_LOW_PRIORITY_BAN_ABANDON = 0,
+	DOTA_LOW_PRIORITY_BAN_REPORTS = 1,
+	DOTA_LOW_PRIORITY_BAN_SECONDARY_ABANDON = 2,
+	DOTA_LOW_PRIORITY_BAN_PRE_GAME_ROLE = 3,

@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EMaterialLayer_t (size: 0x50 bytes, project "met", binding @ met.dll + 0x410cc0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: met.dll + 0x9c7c0"
+
+-----members of class EMaterialLayer_t-----
+	CUtlVector< CUtlString > m_VariableNames(offset 0x0, size 0x18, align 0x8)
+	CUtlVector< CUtlPair< CUtlString, CUtlString > > m_HiddenVariableUiNames(offset 0x18, size 0x18, align 0x8)
+	int32 m_ReferenceVariableIndex(offset 0x30, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x34)
+	CUtlString m_RefType(offset 0x38, size 0x8, align 0x8)
+	CUtlString m_RefFileEnding(offset 0x40, size 0x8, align 0x8)
+	bool m_bActive(offset 0x48, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x49)
+

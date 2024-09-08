@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulse_Chunk (size: 0x58 bytes, project "pulse_runtime_lib", binding @ pet.dll + 0xce7d20, scope "pet.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: pet.dll + 0x14dfe0"
+
+-----members of class CPulse_Chunk-----
+	CUtlLeanVector< PGDInstruction_t > m_Instructions(offset 0x0, size 0x10, align 0x8)
+	CUtlLeanVector< CPulse_RegisterInfo > m_Registers(offset 0x10, size 0x10, align 0x8)
+	CUtlLeanVector< PulseDocNodeID_t > m_InstructionEditorIDs(offset 0x20, size 0x10, align 0x8)
+	uint8_t[40] unaccounted(offset 0x30)
+

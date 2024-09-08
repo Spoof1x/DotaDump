@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class DynamicMeshDeformParams_t (size: 0xc bytes, project "modellib", binding @ hammer.dll + 0x1dae7f0, scope "hammer.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: hammer.dll + 0xd85f50"
+
+-----members of class DynamicMeshDeformParams_t-----
+	float32 m_flTensionCompressScale(offset 0x0, size 0x4, align 0x4)
+	float32 m_flTensionStretchScale(offset 0x4, size 0x4, align 0x4)
+	bool m_bRecomputeSmoothNormalsAfterAnimation(offset 0x8, size 0x1, align 0x1)
+	bool m_bComputeDynamicMeshTensionAfterAnimation(offset 0x9, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0xa)
+

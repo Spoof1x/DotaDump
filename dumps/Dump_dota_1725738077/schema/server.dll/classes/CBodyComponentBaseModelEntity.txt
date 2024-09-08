@@ -1,0 +1,63 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBodyComponentBaseModelEntity (size: 0x470 bytes, project "server", binding @ server.dll + 0x38c8620, scope "server.dll") extends CBodyComponentSkeletonInstance
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_DISALLOWED
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBodyComponentSkeletonInstance (size: 0x470 bytes, project "server", binding @ server.dll + 0x38880e0, scope "server.dll") extends CBodyComponent
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_DISALLOWED
+	| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+	^MNetworkVarNames "m_skeletonInstance CSkeletonInstance"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBodyComponent (size: 0x50 bytes, project "server", binding @ server.dll + 0x3887fa0, scope "server.dll") extends CEntityComponent
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_DISALLOWED
+		| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CEntityComponent (size: 0x8 bytes, project "entity2", binding @ server.dll + 0x3afbff0, scope "server.dll")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+			| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+			
+			-----members of class CEntityComponent-----
+				uint8_t[8] unaccounted(offset 0x0)
+			
+		
+		-----static members of class CBodyComponent-----
+			static EntComponentInfo_t s_EntComponentInfo(server.dll + 0x3888160)
+			static int32 entity_component_error_class_decl_says_contained_but_impl_is_referenced(server.dll + 0x3c6c378)
+		
+		-----members of class CBodyComponent-----
+			CGameSceneNode* m_pSceneNode(offset 0x8, size 0x8, align 0x8)
+				^MNetworkDisable
+			uint8_t[16] unaccounted(offset 0x10)
+			CNetworkVarChainer __m_pChainEntity(offset 0x20, size 0x28, align 0x0)
+				^MNetworkDisable
+				^MNetworkChangeAccessorFieldPathIndex
+			uint8_t[8] unaccounted(offset 0x48)
+		
+	
+	-----static members of class CBodyComponentSkeletonInstance-----
+		static EntComponentInfo_t s_EntComponentInfo(server.dll + 0x3888240)
+		static int32 entity_component_error_class_decl_says_contained_but_impl_is_referenced(server.dll + 0x3c6c380)
+	
+	-----members of class CBodyComponentSkeletonInstance-----
+		CSkeletonInstance m_skeletonInstance(offset 0x50, size 0x420, align 0x0)
+			^MNetworkEnable
+	
+
+-----static members of class CBodyComponentBaseModelEntity-----
+	static EntComponentInfo_t s_EntComponentInfo(server.dll + 0x3a22a30)
+	static int32 entity_component_error_class_decl_says_contained_but_impl_is_referenced(server.dll + 0x3e4b770)
+
+-----members of class CBodyComponentBaseModelEntity-----
+	<no members>
+

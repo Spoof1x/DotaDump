@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum FootPinningTimingSource(size: 4 bytes, 3 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a4ac0):
+	FootMotion = 0,
+	Tag = 1,
+	Parameter = 2,

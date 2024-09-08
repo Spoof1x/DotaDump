@@ -1,0 +1,805 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CAttributeDictSaveDataOps (hierarchy CAttributeDictSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+	toolscenenodes.dll + 0xc131d0
+CBakedLightingTargetInvalid (hierarchy CBakedLightingTargetInvalid: IBakedLightingOperations)
+	toolscenenodes.dll + 0x9e2f00
+CBakedLightingTargetLightProbe (hierarchy CBakedLightingTargetLightProbe: IBakedLightingOperations)
+	toolscenenodes.dll + 0x9e2f20
+CBakedLightingTargetMesh (hierarchy CBakedLightingTargetMesh: IBakedLightingOperations)
+	toolscenenodes.dll + 0x9e2f08
+CBakedLightingTargetModel (hierarchy CBakedLightingTargetModel: IBakedLightingOperations)
+	toolscenenodes.dll + 0x9e2f10
+CBakedLightingTargetSmartProp (hierarchy CBakedLightingTargetSmartProp: IBakedLightingOperations)
+	toolscenenodes.dll + 0x9e2f28
+CBakedLightingTargetStaticOverlay (hierarchy CBakedLightingTargetStaticOverlay: IBakedLightingOperations)
+	toolscenenodes.dll + 0x9e2f18
+CDataModel (hierarchy CDataModel: CBaseAppSystem<class IDataModel>, IDataModel, CBaseAppSystem<class IAppSystem>, IAppSystem)
+	toolscenenodes.dll + 0xc5fa00
+CDefaultToolAttrTableForStruct<class CMapCable> (hierarchy CDefaultToolAttrTableForStruct<class CMapCable>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe0b80
+CDefaultToolAttrTableForStruct<class CMapDeformer> (hierarchy CDefaultToolAttrTableForStruct<class CMapDeformer>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbd9b48
+CDefaultToolAttrTableForStruct<class CMapDeformerLattice> (hierarchy CDefaultToolAttrTableForStruct<class CMapDeformerLattice>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe1148
+CDefaultToolAttrTableForStruct<class CMapDeformerSimple> (hierarchy CDefaultToolAttrTableForStruct<class CMapDeformerSimple>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe1280
+CDefaultToolAttrTableForStruct<class CMapDocMaterialAdjustStruct> (hierarchy CDefaultToolAttrTableForStruct<class CMapDocMaterialAdjustStruct>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe6c58
+CDefaultToolAttrTableForStruct<class CMapDocTestStruct> (hierarchy CDefaultToolAttrTableForStruct<class CMapDocTestStruct>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe73a8
+CDefaultToolAttrTableForStruct<class CMapGroup> (hierarchy CDefaultToolAttrTableForStruct<class CMapGroup>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbda180
+CDefaultToolAttrTableForStruct<class CMapInstance> (hierarchy CDefaultToolAttrTableForStruct<class CMapInstance>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbd9d30
+CDefaultToolAttrTableForStruct<class CMapNavLink> (hierarchy CDefaultToolAttrTableForStruct<class CMapNavLink>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe46e0
+CDefaultToolAttrTableForStruct<class CMapNode> (hierarchy CDefaultToolAttrTableForStruct<class CMapNode>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbd40e0
+CDefaultToolAttrTableForStruct<class CMapNodeReference> (hierarchy CDefaultToolAttrTableForStruct<class CMapNodeReference>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbd9f08
+CDefaultToolAttrTableForStruct<class CMapPath> (hierarchy CDefaultToolAttrTableForStruct<class CMapPath>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbdfdc0
+CDefaultToolAttrTableForStruct<class CMapPathNode> (hierarchy CDefaultToolAttrTableForStruct<class CMapPathNode>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbdfd50
+CDefaultToolAttrTableForStruct<class CMapPrefab> (hierarchy CDefaultToolAttrTableForStruct<class CMapPrefab>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbd9da8
+CDefaultToolAttrTableForStruct<class CMapSmartProp> (hierarchy CDefaultToolAttrTableForStruct<class CMapSmartProp>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbdfe88
+CDefaultToolAttrTableForStruct<class CMapSmartPropLocator> (hierarchy CDefaultToolAttrTableForStruct<class CMapSmartPropLocator>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe67a0
+CDefaultToolAttrTableForStruct<class CMapStaticOverlay> (hierarchy CDefaultToolAttrTableForStruct<class CMapStaticOverlay>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe6860
+CDefaultToolAttrTableForStruct<class CMapTerrainDetail> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainDetail>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe6cc0
+CDefaultToolAttrTableForStruct<class CMapTerrainElement> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainElement>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbdfe28
+CDefaultToolAttrTableForStruct<class CMapTerrainGrass> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainGrass>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe6de0
+CDefaultToolAttrTableForStruct<class CMapTerrainGround> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainGround>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe6e40
+CDefaultToolAttrTableForStruct<class CMapTerrainGroupBase> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainGroupBase>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe6eb8
+CDefaultToolAttrTableForStruct<class CMapTerrainGroupInputs> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainGroupInputs>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe6eb0
+CDefaultToolAttrTableForStruct<class CMapTerrainGroupOutputs> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainGroupOutputs>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe6ea8
+CDefaultToolAttrTableForStruct<class CMapTerrainLayerComposite> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainLayerComposite>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe70a0
+CDefaultToolAttrTableForStruct<class CMapTerrainLayerImage> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainLayerImage>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe7138
+CDefaultToolAttrTableForStruct<class CMapTerrainLayerPaintable> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainLayerPaintable>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe71a0
+CDefaultToolAttrTableForStruct<class CMapTerrainLayerWorldHeight> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainLayerWorldHeight>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe7208
+CDefaultToolAttrTableForStruct<class CMapTerrainPrefab> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainPrefab>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe7278
+CDefaultToolAttrTableForStruct<class CMapTestNode> (hierarchy CDefaultToolAttrTableForStruct<class CMapTestNode>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe72e0
+CDefaultToolAttrTableForStruct<class CMapTileMesh> (hierarchy CDefaultToolAttrTableForStruct<class CMapTileMesh>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbdc338
+CDefaultToolAttrTableForStruct<class CSteamAudioAmbisonicValues> (hierarchy CDefaultToolAttrTableForStruct<class CSteamAudioAmbisonicValues>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbeb6a8
+CDefaultToolAttrTableForStruct<class CSteamAudioBandValues> (hierarchy CDefaultToolAttrTableForStruct<class CSteamAudioBandValues>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbeb6b0
+CDefaultToolAttrTableForStruct<class CSteamAudioImportedProbeBoxNode> (hierarchy CDefaultToolAttrTableForStruct<class CSteamAudioImportedProbeBoxNode>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbeb5d8
+CDefaultToolAttrTableForStruct<class CSteamAudioImportedProbeNode> (hierarchy CDefaultToolAttrTableForStruct<class CSteamAudioImportedProbeNode>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbeb638
+CDefaultToolAttrTableForStruct<class CSteamAudioSignal> (hierarchy CDefaultToolAttrTableForStruct<class CSteamAudioSignal>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbeb6a0
+CDefaultToolAttrTableForStruct<class CTerrainInput> (hierarchy CDefaultToolAttrTableForStruct<class CTerrainInput>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbe6d28
+CDefaultToolAttrTableForStruct<class CTileMeshFace> (hierarchy CDefaultToolAttrTableForStruct<class CTileMeshFace>: IToolAttr_Table)
+	toolscenenodes.dll + 0xbeb780
+CDmAbstractElementFactory<class CDmeCurveInfo> (hierarchy CDmAbstractElementFactory<class CDmeCurveInfo>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed408
+CDmAbstractElementFactory<class CDmeLog> (hierarchy CDmAbstractElementFactory<class CDmeLog>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed658
+CDmAbstractElementFactory<class CDmeLogLayer> (hierarchy CDmAbstractElementFactory<class CDmeLogLayer>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed1b8
+CDmAbstractElementFactory<class CDmeOperator> (hierarchy CDmAbstractElementFactory<class CDmeOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecdd0
+CDmElementFactory<class CDmElement> (hierarchy CDmElementFactory<class CDmElement>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbb0018
+	toolscenenodes.dll + 0xbb0040
+CDmElementFactory<class CDmExtraVertexData> (hierarchy CDmElementFactory<class CDmExtraVertexData>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4588
+CDmElementFactory<class CDmExtraVertexStream> (hierarchy CDmElementFactory<class CDmExtraVertexStream>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4560
+CDmElementFactory<class CDmeAnimationSet> (hierarchy CDmElementFactory<class CDmeAnimationSet>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedb00
+CDmElementFactory<class CDmeAttributeReference> (hierarchy CDmElementFactory<class CDmeAttributeReference>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed190
+CDmElementFactory<class CDmeAxisSystem> (hierarchy CDmElementFactory<class CDmeAxisSystem>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedb50
+CDmElementFactory<class CDmeBookmark> (hierarchy CDmElementFactory<class CDmeBookmark>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedc18
+CDmElementFactory<class CDmeBookmarkSet> (hierarchy CDmElementFactory<class CDmeBookmarkSet>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedc40
+CDmElementFactory<class CDmeCamera> (hierarchy CDmElementFactory<class CDmeCamera>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedd40
+CDmElementFactory<class CDmeChannel> (hierarchy CDmElementFactory<class CDmeChannel>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecdf0
+CDmElementFactory<class CDmeChannelsClip> (hierarchy CDmElementFactory<class CDmeChannelsClip>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbeda10
+CDmElementFactory<class CDmeClip> (hierarchy CDmElementFactory<class CDmeClip>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed9c0
+CDmElementFactory<class CDmeCombinationDominationRule> (hierarchy CDmElementFactory<class CDmeCombinationDominationRule>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecd08
+CDmElementFactory<class CDmeCombinationInputControl> (hierarchy CDmElementFactory<class CDmeCombinationInputControl>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecce0
+CDmElementFactory<class CDmeCombinationOperator> (hierarchy CDmElementFactory<class CDmeCombinationOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecd30
+CDmElementFactory<class CDmeComponent> (hierarchy CDmElementFactory<class CDmeComponent>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecd58
+CDmElementFactory<class CDmeConnectionData> (hierarchy CDmElementFactory<class CDmeConnectionData>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4698
+CDmElementFactory<class CDmeConnectionOperator> (hierarchy CDmElementFactory<class CDmeConnectionOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedd90
+CDmElementFactory<class CDmeConstraintSlave> (hierarchy CDmElementFactory<class CDmeConstraintSlave>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbece40
+CDmElementFactory<class CDmeConstraintTarget> (hierarchy CDmElementFactory<class CDmeConstraintTarget>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbece18
+CDmElementFactory<class CDmeControlGroup> (hierarchy CDmElementFactory<class CDmeControlGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbeddb8
+CDmElementFactory<class CDmeDag> (hierarchy CDmElementFactory<class CDmeDag>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbeccb8
+CDmElementFactory<class CDmeDotaTileGrid> (hierarchy CDmElementFactory<class CDmeDotaTileGrid>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe13e8
+CDmElementFactory<class CDmeDrawCallSnapshot> (hierarchy CDmElementFactory<class CDmeDrawCallSnapshot>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd40b8
+CDmElementFactory<class CDmeExpressionOperator> (hierarchy CDmElementFactory<class CDmeExpressionOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedd68
+CDmElementFactory<class CDmeFXClip> (hierarchy CDmElementFactory<class CDmeFXClip>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbeda38
+CDmElementFactory<class CDmeFaceSet> (hierarchy CDmElementFactory<class CDmeFaceSet>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecc68
+CDmElementFactory<class CDmeFilmClip> (hierarchy CDmElementFactory<class CDmeFilmClip>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbeda60
+CDmElementFactory<class CDmeFlexRuleBase> (hierarchy CDmElementFactory<class CDmeFlexRuleBase>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed0c8
+CDmElementFactory<class CDmeFlexRuleExpression> (hierarchy CDmElementFactory<class CDmeFlexRuleExpression>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed118
+CDmElementFactory<class CDmeFlexRuleLocalVar> (hierarchy CDmElementFactory<class CDmeFlexRuleLocalVar>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed140
+CDmElementFactory<class CDmeFlexRulePassThrough> (hierarchy CDmElementFactory<class CDmeFlexRulePassThrough>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed0f0
+CDmElementFactory<class CDmeFlexRules> (hierarchy CDmElementFactory<class CDmeFlexRules>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed168
+CDmElementFactory<class CDmeGameSound> (hierarchy CDmElementFactory<class CDmeGameSound>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedcf0
+CDmElementFactory<class CDmeJoint> (hierarchy CDmElementFactory<class CDmeJoint>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedba0
+CDmElementFactory<class CDmeMaterial> (hierarchy CDmElementFactory<class CDmeMaterial>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecc40
+CDmElementFactory<class CDmeMesh> (hierarchy CDmElementFactory<class CDmeMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecc18
+CDmElementFactory<class CDmeModel> (hierarchy CDmElementFactory<class CDmeModel>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed0a0
+CDmElementFactory<class CDmeNavData> (hierarchy CDmElementFactory<class CDmeNavData>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xc12218
+CDmElementFactory<class CDmeNavEditMesh> (hierarchy CDmElementFactory<class CDmeNavEditMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xc121f0
+CDmElementFactory<class CDmeNodeInstanceData> (hierarchy CDmElementFactory<class CDmeNodeInstanceData>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbdfcc8
+CDmElementFactory<class CDmePhonemeMapping> (hierarchy CDmElementFactory<class CDmePhonemeMapping>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedde0
+CDmElementFactory<class CDmePlugList> (hierarchy CDmElementFactory<class CDmePlugList>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd46c0
+CDmElementFactory<class CDmePolygonMesh> (hierarchy CDmElementFactory<class CDmePolygonMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xc121c8
+CDmElementFactory<class CDmePolygonMeshDataArray> (hierarchy CDmElementFactory<class CDmePolygonMeshDataArray>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xc12178
+CDmElementFactory<class CDmePolygonMeshDataStream> (hierarchy CDmElementFactory<class CDmePolygonMeshDataStream>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xc12150
+CDmElementFactory<class CDmePolygonMeshSubdivisionData> (hierarchy CDmElementFactory<class CDmePolygonMeshSubdivisionData>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xc121a0
+CDmElementFactory<class CDmePolygonMeshSubdivisiondataBinding> (hierarchy CDmElementFactory<class CDmePolygonMeshSubdivisiondataBinding>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xc12128
+CDmElementFactory<class CDmePreset> (hierarchy CDmElementFactory<class CDmePreset>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbeda88
+CDmElementFactory<class CDmePresetGroup> (hierarchy CDmElementFactory<class CDmePresetGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedad8
+CDmElementFactory<class CDmePresetGroupInfo> (hierarchy CDmElementFactory<class CDmePresetGroupInfo>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedb28
+CDmElementFactory<class CDmeProceduralPresetSettings> (hierarchy CDmElementFactory<class CDmeProceduralPresetSettings>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedab0
+CDmElementFactory<class CDmeReferencedMeshSnapshot> (hierarchy CDmElementFactory<class CDmeReferencedMeshSnapshot>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4090
+CDmElementFactory<class CDmeRigAimConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigAimConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecf00
+CDmElementFactory<class CDmeRigBaseConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigBaseConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbece68
+CDmElementFactory<class CDmeRigIKConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigIKConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecfa8
+CDmElementFactory<class CDmeRigOrientConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigOrientConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecec8
+CDmElementFactory<class CDmeRigParentConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigParentConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecf70
+CDmElementFactory<class CDmeRigPointConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigPointConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbece90
+CDmElementFactory<class CDmeRigRotationConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigRotationConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecf38
+CDmElementFactory<class CDmeRigSplineConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigSplineConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed040
+CDmElementFactory<class CDmeRigTwistConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigTwistConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed008
+CDmElementFactory<class CDmeRigTwistSlave> (hierarchy CDmElementFactory<class CDmeRigTwistSlave>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecfe0
+CDmElementFactory<class CDmeShape> (hierarchy CDmElementFactory<class CDmeShape>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecc90
+CDmElementFactory<class CDmeSingleIndexedComponent> (hierarchy CDmElementFactory<class CDmeSingleIndexedComponent>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecd80
+CDmElementFactory<class CDmeSound> (hierarchy CDmElementFactory<class CDmeSound>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedcc8
+CDmElementFactory<class CDmeSoundClip> (hierarchy CDmElementFactory<class CDmeSoundClip>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed9e8
+CDmElementFactory<class CDmeSoundEvent> (hierarchy CDmElementFactory<class CDmeSoundEvent>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedd18
+CDmElementFactory<class CDmeTileMesh> (hierarchy CDmElementFactory<class CDmeTileMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbeb758
+CDmElementFactory<class CDmeTileSetMapInfo> (hierarchy CDmElementFactory<class CDmeTileSetMapInfo>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe13c0
+CDmElementFactory<class CDmeTimeFrame> (hierarchy CDmElementFactory<class CDmeTimeFrame>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedbf0
+CDmElementFactory<class CDmeTimeSelection> (hierarchy CDmElementFactory<class CDmeTimeSelection>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedbc8
+CDmElementFactory<class CDmeTrack> (hierarchy CDmElementFactory<class CDmeTrack>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedc78
+CDmElementFactory<class CDmeTrackGroup> (hierarchy CDmElementFactory<class CDmeTrackGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedca0
+CDmElementFactory<class CDmeTransform> (hierarchy CDmElementFactory<class CDmeTransform>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecda8
+CDmElementFactory<class CDmeTransformControl> (hierarchy CDmElementFactory<class CDmeTransformControl>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed078
+CDmElementFactory<class CDmeTransformList> (hierarchy CDmElementFactory<class CDmeTransformList>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbedb78
+CDmElementFactory<class CDmeTypedCurveInfo<bool> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<bool> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed478
+CDmElementFactory<class CDmeTypedCurveInfo<class CUtlSymbolLarge> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class CUtlSymbolLarge> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed5b8
+CDmElementFactory<class CDmeTypedCurveInfo<class Color> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class Color> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed4a0
+CDmElementFactory<class CDmeTypedCurveInfo<class DmeTime_t> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class DmeTime_t> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed5e0
+CDmElementFactory<class CDmeTypedCurveInfo<class QAngle> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class QAngle> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed540
+CDmElementFactory<class CDmeTypedCurveInfo<class QuaternionStorage> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class QuaternionStorage> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed568
+CDmElementFactory<class CDmeTypedCurveInfo<class VMatrix> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class VMatrix> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed590
+CDmElementFactory<class CDmeTypedCurveInfo<class Vec2D<float> > > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class Vec2D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed4c8
+CDmElementFactory<class CDmeTypedCurveInfo<class Vec3D<float> > > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class Vec3D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed4f0
+CDmElementFactory<class CDmeTypedCurveInfo<class Vec4D<float> > > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class Vec4D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed518
+CDmElementFactory<class CDmeTypedCurveInfo<float> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<float> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed450
+CDmElementFactory<class CDmeTypedCurveInfo<int> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<int> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed428
+CDmElementFactory<class CDmeTypedCurveInfo<unsigned __int64> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<unsigned __int64> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed608
+CDmElementFactory<class CDmeTypedCurveInfo<unsigned char> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<unsigned char> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed630
+CDmElementFactory<class CDmeTypedLog<bool> > (hierarchy CDmElementFactory<class CDmeTypedLog<bool> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed6c8
+CDmElementFactory<class CDmeTypedLog<class CUtlSymbolLarge> > (hierarchy CDmElementFactory<class CDmeTypedLog<class CUtlSymbolLarge> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed808
+CDmElementFactory<class CDmeTypedLog<class Color> > (hierarchy CDmElementFactory<class CDmeTypedLog<class Color> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed6f0
+CDmElementFactory<class CDmeTypedLog<class DmeTime_t> > (hierarchy CDmElementFactory<class CDmeTypedLog<class DmeTime_t> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed830
+CDmElementFactory<class CDmeTypedLog<class QAngle> > (hierarchy CDmElementFactory<class CDmeTypedLog<class QAngle> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed790
+CDmElementFactory<class CDmeTypedLog<class QuaternionStorage> > (hierarchy CDmElementFactory<class CDmeTypedLog<class QuaternionStorage> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed7b8
+CDmElementFactory<class CDmeTypedLog<class VMatrix> > (hierarchy CDmElementFactory<class CDmeTypedLog<class VMatrix> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed7e0
+CDmElementFactory<class CDmeTypedLog<class Vec2D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLog<class Vec2D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed718
+CDmElementFactory<class CDmeTypedLog<class Vec3D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLog<class Vec3D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed740
+CDmElementFactory<class CDmeTypedLog<class Vec4D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLog<class Vec4D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed768
+CDmElementFactory<class CDmeTypedLog<float> > (hierarchy CDmElementFactory<class CDmeTypedLog<float> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed6a0
+CDmElementFactory<class CDmeTypedLog<int> > (hierarchy CDmElementFactory<class CDmeTypedLog<int> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed678
+CDmElementFactory<class CDmeTypedLog<unsigned __int64> > (hierarchy CDmElementFactory<class CDmeTypedLog<unsigned __int64> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed858
+CDmElementFactory<class CDmeTypedLog<unsigned char> > (hierarchy CDmElementFactory<class CDmeTypedLog<unsigned char> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed880
+CDmElementFactory<class CDmeTypedLogLayer<bool> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<bool> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed228
+CDmElementFactory<class CDmeTypedLogLayer<class CUtlSymbolLarge> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class CUtlSymbolLarge> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed368
+CDmElementFactory<class CDmeTypedLogLayer<class Color> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class Color> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed250
+CDmElementFactory<class CDmeTypedLogLayer<class DmeTime_t> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class DmeTime_t> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed390
+CDmElementFactory<class CDmeTypedLogLayer<class QAngle> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class QAngle> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed2f0
+CDmElementFactory<class CDmeTypedLogLayer<class QuaternionStorage> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class QuaternionStorage> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed318
+CDmElementFactory<class CDmeTypedLogLayer<class VMatrix> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class VMatrix> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed340
+CDmElementFactory<class CDmeTypedLogLayer<class Vec2D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class Vec2D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed278
+CDmElementFactory<class CDmeTypedLogLayer<class Vec3D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class Vec3D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed2a0
+CDmElementFactory<class CDmeTypedLogLayer<class Vec4D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class Vec4D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed2c8
+CDmElementFactory<class CDmeTypedLogLayer<float> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<float> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed200
+CDmElementFactory<class CDmeTypedLogLayer<int> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<int> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed1d8
+CDmElementFactory<class CDmeTypedLogLayer<unsigned __int64> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<unsigned __int64> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed3b8
+CDmElementFactory<class CDmeTypedLogLayer<unsigned char> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<unsigned char> >: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbed3e0
+CDmElementFactory<class CDmeVertexData> (hierarchy CDmElementFactory<class CDmeVertexData>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecbc8
+CDmElementFactory<class CDmeVertexDataBase> (hierarchy CDmElementFactory<class CDmeVertexDataBase>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecba0
+CDmElementFactory<class CDmeVertexDeltaData> (hierarchy CDmElementFactory<class CDmeVertexDeltaData>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbecbf0
+CDmElementFactory<class CEdgeSelectionSetDataElement> (hierarchy CDmElementFactory<class CEdgeSelectionSetDataElement>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4718
+CDmElementFactory<class CEditGameClassProps> (hierarchy CDmElementFactory<class CEditGameClassProps>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4328
+CDmElementFactory<class CFaceSelectionSetDataElement> (hierarchy CDmElementFactory<class CFaceSelectionSetDataElement>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4040
+CDmElementFactory<class CGrassMaterialSlot> (hierarchy CDmElementFactory<class CGrassMaterialSlot>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe93f0
+CDmElementFactory<class CImagePlaneNode> (hierarchy CDmElementFactory<class CImagePlaneNode>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe0490
+CDmElementFactory<class CManifestInstance> (hierarchy CDmElementFactory<class CManifestInstance>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe0af0
+CDmElementFactory<class CMapAtom> (hierarchy CDmElementFactory<class CMapAtom>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd44d8
+CDmElementFactory<class CMapBox> (hierarchy CDmElementFactory<class CMapBox>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe0b50
+CDmElementFactory<class CMapCable> (hierarchy CDmElementFactory<class CMapCable>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe0cd8
+CDmElementFactory<class CMapCordon> (hierarchy CDmElementFactory<class CMapCordon>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe0d38
+CDmElementFactory<class CMapDeformer> (hierarchy CDmElementFactory<class CMapDeformer>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd9bc0
+CDmElementFactory<class CMapDeformerLattice> (hierarchy CDmElementFactory<class CMapDeformerLattice>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe1258
+CDmElementFactory<class CMapDeformerSimple> (hierarchy CDmElementFactory<class CMapDeformerSimple>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe1300
+CDmElementFactory<class CMapDotaGridnavMarkup> (hierarchy CDmElementFactory<class CMapDotaGridnavMarkup>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe1360
+CDmElementFactory<class CMapDotaTileGrid> (hierarchy CDmElementFactory<class CMapDotaTileGrid>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe1410
+CDmElementFactory<class CMapEntity> (hierarchy CDmElementFactory<class CMapEntity>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd9f48
+CDmElementFactory<class CMapEntityIONode> (hierarchy CDmElementFactory<class CMapEntityIONode>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd46e8
+CDmElementFactory<class CMapGameDataNode> (hierarchy CDmElementFactory<class CMapGameDataNode>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4350
+CDmElementFactory<class CMapGlobalTileGridMaps> (hierarchy CDmElementFactory<class CMapGlobalTileGridMaps>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe3d10
+CDmElementFactory<class CMapGrassTile> (hierarchy CDmElementFactory<class CMapGrassTile>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe3da8
+CDmElementFactory<class CMapGrassTileCollection> (hierarchy CDmElementFactory<class CMapGrassTileCollection>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe4198
+CDmElementFactory<class CMapGroup> (hierarchy CDmElementFactory<class CMapGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbda1c0
+CDmElementFactory<class CMapGroupProxy> (hierarchy CDmElementFactory<class CMapGroupProxy>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe41f8
+CDmElementFactory<class CMapInstance> (hierarchy CDmElementFactory<class CMapInstance>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd9d70
+CDmElementFactory<class CMapIsoSurface> (hierarchy CDmElementFactory<class CMapIsoSurface>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbda228
+CDmElementFactory<class CMapLatticeControlPointLocator> (hierarchy CDmElementFactory<class CMapLatticeControlPointLocator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe1230
+CDmElementFactory<class CMapLocator> (hierarchy CDmElementFactory<class CMapLocator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbdfff8
+CDmElementFactory<class CMapMesh> (hierarchy CDmElementFactory<class CMapMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd5198
+CDmElementFactory<class CMapMeshBase> (hierarchy CDmElementFactory<class CMapMeshBase>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd5130
+CDmElementFactory<class CMapNavData> (hierarchy CDmElementFactory<class CMapNavData>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe46a8
+CDmElementFactory<class CMapNavLink> (hierarchy CDmElementFactory<class CMapNavLink>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe4850
+CDmElementFactory<class CMapNavLinkLocator> (hierarchy CDmElementFactory<class CMapNavLinkLocator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe4748
+CDmElementFactory<class CMapNavMesh> (hierarchy CDmElementFactory<class CMapNavMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbdff88
+CDmElementFactory<class CMapNode> (hierarchy CDmElementFactory<class CMapNode>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd44a0
+CDmElementFactory<class CMapOpaqueDataBlob> (hierarchy CDmElementFactory<class CMapOpaqueDataBlob>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe48b0
+CDmElementFactory<class CMapPath> (hierarchy CDmElementFactory<class CMapPath>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbdfdf8
+CDmElementFactory<class CMapPathNode> (hierarchy CDmElementFactory<class CMapPathNode>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbdfd90
+CDmElementFactory<class CMapPhysicsPin> (hierarchy CDmElementFactory<class CMapPhysicsPin>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe4910
+CDmElementFactory<class CMapPoint> (hierarchy CDmElementFactory<class CMapPoint>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4068
+CDmElementFactory<class CMapPrefab> (hierarchy CDmElementFactory<class CMapPrefab>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd9e18
+CDmElementFactory<class CMapPrefabSubInstance> (hierarchy CDmElementFactory<class CMapPrefabSubInstance>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe5260
+CDmElementFactory<class CMapProxy> (hierarchy CDmElementFactory<class CMapProxy>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe52c8
+CDmElementFactory<class CMapProxyInstance> (hierarchy CDmElementFactory<class CMapProxyInstance>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbda048
+CDmElementFactory<class CMapRootElement> (hierarchy CDmElementFactory<class CMapRootElement>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4638
+CDmElementFactory<class CMapSelectionSet> (hierarchy CDmElementFactory<class CMapSelectionSet>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd45b0
+CDmElementFactory<class CMapSmartProp> (hierarchy CDmElementFactory<class CMapSmartProp>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbdfec8
+CDmElementFactory<class CMapSmartPropLocator> (hierarchy CDmElementFactory<class CMapSmartPropLocator>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe67d8
+CDmElementFactory<class CMapSpawnGroup> (hierarchy CDmElementFactory<class CMapSpawnGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe6838
+CDmElementFactory<class CMapStaticOverlay> (hierarchy CDmElementFactory<class CMapStaticOverlay>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe68a0
+CDmElementFactory<class CMapTerrain> (hierarchy CDmElementFactory<class CMapTerrain>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe6c98
+CDmElementFactory<class CMapTerrainDetail> (hierarchy CDmElementFactory<class CMapTerrainDetail>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe6d00
+CDmElementFactory<class CMapTerrainElement> (hierarchy CDmElementFactory<class CMapTerrainElement>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe6d68
+CDmElementFactory<class CMapTerrainFeature> (hierarchy CDmElementFactory<class CMapTerrainFeature>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbdfe60
+CDmElementFactory<class CMapTerrainGrass> (hierarchy CDmElementFactory<class CMapTerrainGrass>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe6e18
+CDmElementFactory<class CMapTerrainGround> (hierarchy CDmElementFactory<class CMapTerrainGround>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe6e80
+CDmElementFactory<class CMapTerrainGroup> (hierarchy CDmElementFactory<class CMapTerrainGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe6fc8
+CDmElementFactory<class CMapTerrainGroupBase> (hierarchy CDmElementFactory<class CMapTerrainGroupBase>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe6fa0
+CDmElementFactory<class CMapTerrainGroupInputs> (hierarchy CDmElementFactory<class CMapTerrainGroupInputs>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe6ff0
+CDmElementFactory<class CMapTerrainGroupOutputs> (hierarchy CDmElementFactory<class CMapTerrainGroupOutputs>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe7018
+CDmElementFactory<class CMapTerrainLayer> (hierarchy CDmElementFactory<class CMapTerrainLayer>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe7078
+CDmElementFactory<class CMapTerrainLayerComposite> (hierarchy CDmElementFactory<class CMapTerrainLayerComposite>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe7110
+CDmElementFactory<class CMapTerrainLayerImage> (hierarchy CDmElementFactory<class CMapTerrainLayerImage>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe7178
+CDmElementFactory<class CMapTerrainLayerPaintable> (hierarchy CDmElementFactory<class CMapTerrainLayerPaintable>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe71e0
+CDmElementFactory<class CMapTerrainLayerWorldHeight> (hierarchy CDmElementFactory<class CMapTerrainLayerWorldHeight>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe7248
+CDmElementFactory<class CMapTerrainPrefab> (hierarchy CDmElementFactory<class CMapTerrainPrefab>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe72b0
+CDmElementFactory<class CMapTestNode> (hierarchy CDmElementFactory<class CMapTestNode>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe7380
+CDmElementFactory<class CMapTile> (hierarchy CDmElementFactory<class CMapTile>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe73e8
+CDmElementFactory<class CMapTileGrid> (hierarchy CDmElementFactory<class CMapTileGrid>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbdfd28
+CDmElementFactory<class CMapTileMesh> (hierarchy CDmElementFactory<class CMapTileMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbdc378
+CDmElementFactory<class CMapTileMeshGroup> (hierarchy CDmElementFactory<class CMapTileMeshGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe9280
+CDmElementFactory<class CMapTileObject> (hierarchy CDmElementFactory<class CMapTileObject>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe92e0
+CDmElementFactory<class CMapTileProxy> (hierarchy CDmElementFactory<class CMapTileProxy>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe9340
+CDmElementFactory<class CMapTileSet> (hierarchy CDmElementFactory<class CMapTileSet>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe9468
+CDmElementFactory<class CMapTransform> (hierarchy CDmElementFactory<class CMapTransform>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe03f8
+CDmElementFactory<class CMapVariableChoice> (hierarchy CDmElementFactory<class CMapVariableChoice>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd3fe8
+CDmElementFactory<class CMapVariableChoiceGroup> (hierarchy CDmElementFactory<class CMapVariableChoiceGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4010
+CDmElementFactory<class CMapVariableSet> (hierarchy CDmElementFactory<class CMapVariableSet>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd3fc0
+CDmElementFactory<class CMapVisCluster> (hierarchy CDmElementFactory<class CMapVisCluster>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe9e70
+CDmElementFactory<class CMapVisData> (hierarchy CDmElementFactory<class CMapVisData>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe9ed0
+CDmElementFactory<class CMapWeightedGroup> (hierarchy CDmElementFactory<class CMapWeightedGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbdc000
+CDmElementFactory<class CMapWorld> (hierarchy CDmElementFactory<class CMapWorld>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd49e8
+CDmElementFactory<class CMapWorldLayer> (hierarchy CDmElementFactory<class CMapWorldLayer>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbdf990
+CDmElementFactory<class CObjectSelectionSetDataElement> (hierarchy CDmElementFactory<class CObjectSelectionSetDataElement>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4508
+CDmElementFactory<class CPerLayerGrassData> (hierarchy CDmElementFactory<class CPerLayerGrassData>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe93c8
+CDmElementFactory<class CSelectionSetDataElement> (hierarchy CDmElementFactory<class CSelectionSetDataElement>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4770
+CDmElementFactory<class CSteamAudioData> (hierarchy CDmElementFactory<class CSteamAudioData>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbeafa0
+CDmElementFactory<class CSteamAudioImportedProbeBoxNode> (hierarchy CDmElementFactory<class CSteamAudioImportedProbeBoxNode>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbeb610
+CDmElementFactory<class CSteamAudioImportedProbeNode> (hierarchy CDmElementFactory<class CSteamAudioImportedProbeNode>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbeb678
+CDmElementFactory<class CSteamAudioProbeBoxNode> (hierarchy CDmElementFactory<class CSteamAudioProbeBoxNode>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe9f30
+CDmElementFactory<class CSteamAudioProbeNode> (hierarchy CDmElementFactory<class CSteamAudioProbeNode>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbeac30
+CDmElementFactory<class CStoredCamera> (hierarchy CDmElementFactory<class CStoredCamera>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4610
+CDmElementFactory<class CStoredCameras> (hierarchy CDmElementFactory<class CStoredCameras>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd45e8
+CDmElementFactory<class CTileSetGrassParameters> (hierarchy CDmElementFactory<class CTileSetGrassParameters>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe9418
+CDmElementFactory<class CTileSetMaterialSet> (hierarchy CDmElementFactory<class CTileSetMaterialSet>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe9440
+CDmElementFactory<class CTileSetProperty> (hierarchy CDmElementFactory<class CTileSetProperty>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbe93a0
+CDmElementFactory<class CVertexSelectionSetDataElement> (hierarchy CDmElementFactory<class CVertexSelectionSetDataElement>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd4748
+CDmElementFactory<class CVisibilityMgr> (hierarchy CDmElementFactory<class CVisibilityMgr>: CDmElementFactoryInternal, IDmElementFactory)
+	toolscenenodes.dll + 0xbd9d08
+CDmElementFactoryDefault (hierarchy CDmElementFactoryDefault: IDmElementFactory)
+	toolscenenodes.dll + 0xbb0000
+CDmElementFramework (hierarchy CDmElementFramework: CBaseAppSystem<class IDmElementFramework>, IDmElementFramework, CBaseAppSystem<class IAppSystem>, IAppSystem)
+	toolscenenodes.dll + 0xbb0580
+CDmFormatUpdater_animflags (hierarchy CDmFormatUpdater_animflags: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1080
+CDmFormatUpdater_dmx (hierarchy CDmFormatUpdater_dmx: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0f90
+CDmFormatUpdater_facial_animation (hierarchy CDmFormatUpdater_facial_animation: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0fd0
+CDmFormatUpdater_gui (hierarchy CDmFormatUpdater_gui: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1040
+CDmFormatUpdater_model (hierarchy CDmFormatUpdater_model: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0fd8
+CDmFormatUpdater_movieobjects (hierarchy CDmFormatUpdater_movieobjects: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0f98
+CDmFormatUpdater_mp_anim (hierarchy CDmFormatUpdater_mp_anim: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1008
+CDmFormatUpdater_mp_bonemask (hierarchy CDmFormatUpdater_mp_bonemask: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1038
+CDmFormatUpdater_mp_eyes (hierarchy CDmFormatUpdater_mp_eyes: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1030
+CDmFormatUpdater_mp_hitbox (hierarchy CDmFormatUpdater_mp_hitbox: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1018
+CDmFormatUpdater_mp_keyvalues (hierarchy CDmFormatUpdater_mp_keyvalues: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1028
+CDmFormatUpdater_mp_materialgroup (hierarchy CDmFormatUpdater_mp_materialgroup: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1020
+CDmFormatUpdater_mp_model (hierarchy CDmFormatUpdater_mp_model: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1000
+CDmFormatUpdater_mp_physics (hierarchy CDmFormatUpdater_mp_physics: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1010
+CDmFormatUpdater_mp_preprocess (hierarchy CDmFormatUpdater_mp_preprocess: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0ff0
+CDmFormatUpdater_mp_root (hierarchy CDmFormatUpdater_mp_root: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0ff8
+CDmFormatUpdater_pcf (hierarchy CDmFormatUpdater_pcf: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0fc0
+CDmFormatUpdater_preset (hierarchy CDmFormatUpdater_preset: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0fc8
+CDmFormatUpdater_schema (hierarchy CDmFormatUpdater_schema: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1048
+CDmFormatUpdater_sfm (hierarchy CDmFormatUpdater_sfm: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0fa0
+CDmFormatUpdater_sfm_session (hierarchy CDmFormatUpdater_sfm_session: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0fb0
+CDmFormatUpdater_sfm_settings (hierarchy CDmFormatUpdater_sfm_settings: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0fa8
+CDmFormatUpdater_sfm_trackgroup (hierarchy CDmFormatUpdater_sfm_trackgroup: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0fb8
+CDmFormatUpdater_vanim (hierarchy CDmFormatUpdater_vanim: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1078
+CDmFormatUpdater_ved (hierarchy CDmFormatUpdater_ved: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0fe0
+CDmFormatUpdater_virtualvolumetexture (hierarchy CDmFormatUpdater_virtualvolumetexture: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1068
+CDmFormatUpdater_vmap (hierarchy CDmFormatUpdater_vmap: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1070
+CDmFormatUpdater_vmks (hierarchy CDmFormatUpdater_vmks: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb0fe8
+CDmFormatUpdater_vtex (hierarchy CDmFormatUpdater_vtex: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1050
+CDmFormatUpdater_world (hierarchy CDmFormatUpdater_world: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1058
+CDmFormatUpdater_worldnode (hierarchy CDmFormatUpdater_worldnode: IDmFormatUpdater)
+	toolscenenodes.dll + 0xbb1060
+CDmSerializerBinary (hierarchy CDmSerializerBinary: IDmSerializer)
+	toolscenenodes.dll + 0xbb0538
+	toolscenenodes.dll + 0xbb0550
+CDmSerializerKeyValues (hierarchy CDmSerializerKeyValues: IDmSerializer)
+	toolscenenodes.dll + 0xbb0068
+CDmSerializerKeyValues2 (hierarchy CDmSerializerKeyValues2: IDmSerializer)
+	toolscenenodes.dll + 0xbb02b0
+	toolscenenodes.dll + 0xbb0360
+	toolscenenodes.dll + 0xbb0410
+CDmSerializers (hierarchy CDmSerializers: CBaseAppSystem<class IDmSerializers>, IDmSerializers, IAppSystem)
+	toolscenenodes.dll + 0xbb0a20
+CDynamicWidgetFactory<class CQDraggableWidgetList> (hierarchy CDynamicWidgetFactory<class CQDraggableWidgetList>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2cf08
+CDynamicWidgetFactory<class CQFilteredTreeWidget> (hierarchy CDynamicWidgetFactory<class CQFilteredTreeWidget>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2c920
+CDynamicWidgetFactory<class CQTreeWidgetWithHover> (hierarchy CDynamicWidgetFactory<class CQTreeWidgetWithHover>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2c910
+CDynamicWidgetFactory<class QComboBox> (hierarchy CDynamicWidgetFactory<class QComboBox>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2cef8
+CDynamicWidgetFactory<class QFrame> (hierarchy CDynamicWidgetFactory<class QFrame>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2ce78
+CDynamicWidgetFactory<class QGroupBox> (hierarchy CDynamicWidgetFactory<class QGroupBox>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2ce98
+CDynamicWidgetFactory<class QLabel> (hierarchy CDynamicWidgetFactory<class QLabel>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2ce48
+CDynamicWidgetFactory<class QLineEdit> (hierarchy CDynamicWidgetFactory<class QLineEdit>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2ce58
+CDynamicWidgetFactory<class QListWidget> (hierarchy CDynamicWidgetFactory<class QListWidget>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2d260
+CDynamicWidgetFactory<class QMenu> (hierarchy CDynamicWidgetFactory<class QMenu>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2ce88
+CDynamicWidgetFactory<class QProgressBar> (hierarchy CDynamicWidgetFactory<class QProgressBar>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2ceb8
+CDynamicWidgetFactory<class QRadioButton> (hierarchy CDynamicWidgetFactory<class QRadioButton>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2cec8
+CDynamicWidgetFactory<class QScrollBar> (hierarchy CDynamicWidgetFactory<class QScrollBar>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2ced8
+CDynamicWidgetFactory<class QSlider> (hierarchy CDynamicWidgetFactory<class QSlider>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2ce68
+CDynamicWidgetFactory<class QSpinBox> (hierarchy CDynamicWidgetFactory<class QSpinBox>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2cee8
+CDynamicWidgetFactory<class QTextBrowser> (hierarchy CDynamicWidgetFactory<class QTextBrowser>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2cf18
+CDynamicWidgetFactory<class QTextEdit> (hierarchy CDynamicWidgetFactory<class QTextEdit>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2cea8
+CDynamicWidgetFactory<class QWidget> (hierarchy CDynamicWidgetFactory<class QWidget>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2ce38
+CDynamicWidgetFactory_Custom<class CQBindableCommandPushButton> (hierarchy CDynamicWidgetFactory_Custom<class CQBindableCommandPushButton>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2d2c0
+CDynamicWidgetFactory_Custom<class CQBindableCommandToolButton> (hierarchy CDynamicWidgetFactory_Custom<class CQBindableCommandToolButton>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2d270
+CDynamicWidgetFactory_Custom<class QCheckBox> (hierarchy CDynamicWidgetFactory_Custom<class QCheckBox>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2d030
+CDynamicWidgetFactory_Custom<class QDockWidget> (hierarchy CDynamicWidgetFactory_Custom<class QDockWidget>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2d1c0
+CDynamicWidgetFactory_Custom<class QMainWindow> (hierarchy CDynamicWidgetFactory_Custom<class QMainWindow>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2d080
+CDynamicWidgetFactory_Custom<class QMenuBar> (hierarchy CDynamicWidgetFactory_Custom<class QMenuBar>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2d0d0
+CDynamicWidgetFactory_Custom<class QPushButton> (hierarchy CDynamicWidgetFactory_Custom<class QPushButton>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2cf90
+CDynamicWidgetFactory_Custom<class QScrollArea> (hierarchy CDynamicWidgetFactory_Custom<class QScrollArea>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2d120
+CDynamicWidgetFactory_Custom<class QTabWidget> (hierarchy CDynamicWidgetFactory_Custom<class QTabWidget>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2d170
+CDynamicWidgetFactory_Custom<class QTableWidget> (hierarchy CDynamicWidgetFactory_Custom<class QTableWidget>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2d210
+CDynamicWidgetFactory_Custom<class QToolBar> (hierarchy CDynamicWidgetFactory_Custom<class QToolBar>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2d310
+CDynamicWidgetFactory_Custom<class QToolButton> (hierarchy CDynamicWidgetFactory_Custom<class QToolButton>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2cfe0
+CDynamicWidgetFactory_Orientation<class QHeaderView> (hierarchy CDynamicWidgetFactory_Orientation<class QHeaderView>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2cf28
+	toolscenenodes.dll + 0xc2cf40
+CDynamicWidgetFactory_Orientation<class QSplitter> (hierarchy CDynamicWidgetFactory_Orientation<class QSplitter>: CBaseDynamicWidgetFactory)
+	toolscenenodes.dll + 0xc2cf58
+	toolscenenodes.dll + 0xc2cf70
+CEmptySequence (hierarchy CEmptySequence: ISequence, IBaseSequence)
+	toolscenenodes.dll + 0xbecad8
+CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> > (hierarchy CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> >: CEntityComponentHelperReferenced<class CScriptComponent>, CEntityComponentHelper)
+	toolscenenodes.dll + 0xc133a8
+CGlobalHotkeyCommands (hierarchy CGlobalHotkeyCommands: IBindTarget)
+	toolscenenodes.dll + 0xd3a938
+CHammerClipboard (hierarchy CHammerClipboard: IHammerClipboard)
+	toolscenenodes.dll + 0xbda0f0
+CHistory (hierarchy CHistory: CUndoHistory)
+	toolscenenodes.dll + 0xc69ba0
+CImportActBusy (hierarchy CImportActBusy: CImportKeyValueBase, IDmSerializer)
+	toolscenenodes.dll + 0xbb1148
+CImportCommentary (hierarchy CImportCommentary: CImportKeyValueBase, IDmSerializer)
+	toolscenenodes.dll + 0xbb1158
+CImportMKS (hierarchy CImportMKS: IDmSerializer)
+	toolscenenodes.dll + 0xbb13a0
+CImportSFMV1 (hierarchy CImportSFMV1: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	toolscenenodes.dll + 0xc625c0
+CImportSFMV2 (hierarchy CImportSFMV2: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	toolscenenodes.dll + 0xc625f8
+CImportSFMV3 (hierarchy CImportSFMV3: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	toolscenenodes.dll + 0xc62618
+CImportSFMV4 (hierarchy CImportSFMV4: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	toolscenenodes.dll + 0xc62638
+CImportSFMV5 (hierarchy CImportSFMV5: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	toolscenenodes.dll + 0xc62660
+CImportSFMV6 (hierarchy CImportSFMV6: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	toolscenenodes.dll + 0xc62678
+CImportSFMV7 (hierarchy CImportSFMV7: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	toolscenenodes.dll + 0xc62698
+CImportSFMV8 (hierarchy CImportSFMV8: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	toolscenenodes.dll + 0xc626b8
+CImportSFMV9 (hierarchy CImportSFMV9: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	toolscenenodes.dll + 0xc626d8
+CImportTex (hierarchy CImportTex: IDmSerializer)
+	toolscenenodes.dll + 0xbb13c8
+CImportVMT (hierarchy CImportVMT: CImportKeyValueBase, IDmSerializer)
+	toolscenenodes.dll + 0xbb1168
+CInputLayoutRegistration_s_hColoredVertexLayout (hierarchy CInputLayoutRegistration_s_hColoredVertexLayout: CPostConnectCallback)
+	toolscenenodes.dll + 0xcf6248
+CMapFGDFromAssetRegistry (hierarchy CMapFGDFromAssetRegistry: CFGDFromAssetRegistry, IToolsResourceListener)
+	toolscenenodes.dll + 0xbd4140
+CMaterialListVirtualAttribute
+	(hierarchy CMaterialListVirtualAttribute: IBaseToolAttr, IToolAttr_Array)
+		toolscenenodes.dll + 0xbe6908
+	MI offset 8 (hierarchy IToolAttr_Array)
+		toolscenenodes.dll + 0xbe6910
+CMaterialVirtualAttribute
+	(hierarchy CMaterialVirtualAttribute: IBaseToolAttr, IToolAttr_Value)
+		toolscenenodes.dll + 0xbe6930
+	MI offset 8 (hierarchy IToolAttr_Value)
+		toolscenenodes.dll + 0xbe6938
+CModelInstanceManager (hierarchy CModelInstanceManager: IToolsResourceListener)
+	toolscenenodes.dll + 0xc0f680
+CNavHullPresetVDataFileManager (hierarchy CNavHullPresetVDataFileManager: CVDataFileManager<class CNavHullPresetVData>, CBaseVDataFileManager, IVDataResourceListener)
+	toolscenenodes.dll + 0xbee5e0
+CNavHullVDataFileManager (hierarchy CNavHullVDataFileManager: CVDataFileManager<class CNavHullVData>, CBaseVDataFileManager, IVDataResourceListener)
+	toolscenenodes.dll + 0xbee4e0
+CPulseTestGapTypeQueryRegistration (hierarchy CPulseTestGapTypeQueryRegistration: IGapTypeQueryRegistrationForScope)
+	toolscenenodes.dll + 0xbf3540
+CQtImageCache (hierarchy CQtImageCache: IQtImageCache)
+	toolscenenodes.dll + 0xc2b2e0
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	toolscenenodes.dll + 0xcd8110
+CSchemaRegistration_entity2 (hierarchy CSchemaRegistration_entity2: CSchemaRegistration)
+	toolscenenodes.dll + 0xc12c20
+CSchemaRegistration_pulse_runtime_lib (hierarchy CSchemaRegistration_pulse_runtime_lib: CSchemaRegistration)
+	toolscenenodes.dll + 0xbeed40
+CSchemaRegistration_smartprops (hierarchy CSchemaRegistration_smartprops: CSchemaRegistration)
+	toolscenenodes.dll + 0xbfbb70
+CToolAttrHost (hierarchy CToolAttrHost: IToolAttrHost)
+	toolscenenodes.dll + 0xc0fc10
+CToolSceneNodeFactory (hierarchy CToolSceneNodeFactory: CTier3AppSystem<class IToolSceneNodeFactory,0>, CTier2AppSystem<class IToolSceneNodeFactory,0>, CTier1AppSystem<class IToolSceneNodeFactory,0>, CTier0AppSystem<class IToolSceneNodeFactory,0>, CBaseAppSystem<class IToolSceneNodeFactory>, IToolSceneNodeFactory, IAppSystem)
+	toolscenenodes.dll + 0xc2db70
+CVariantSaveDataOps (hierarchy CVariantSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+	toolscenenodes.dll + 0xc122a0
+CVertexListSceneObjectDescriptor (hierarchy CVertexListSceneObjectDescriptor: ISceneObjectDescBase<class CVertexListSceneObject>, ISceneObjectDesc)
+	toolscenenodes.dll + 0xc0fa80
+Concurrency::details::stl_condition_variable_win7 (hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+	toolscenenodes.dll + 0xd3ba10
+Concurrency::details::stl_critical_section_win7 (hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+	toolscenenodes.dll + 0xd3b9b8
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>: std::_Ref_count_base)
+	toolscenenodes.dll + 0xc2d7b0
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_exception> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>: std::_Ref_count_base)
+	toolscenenodes.dll + 0xc2d6f0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGlobalHotkeyCommands::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGlobalHotkeyCommands::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CGlobalHotkeyCommands>, CBindTargetDescriptorBase)
+	toolscenenodes.dll + 0xd3a970
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQSessionCycleWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQSessionCycleWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQSessionCycleWidget>, CBindTargetDescriptorBase)
+	toolscenenodes.dll + 0xcf63f0
+std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	toolscenenodes.dll + 0xc2d2d0
+std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	toolscenenodes.dll + 0xc2d280
+std::_Func_impl_no_alloc<void (__cdecl*)(class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	toolscenenodes.dll + 0xc2d040
+std::_Func_impl_no_alloc<void (__cdecl*)(class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	toolscenenodes.dll + 0xc2d1d0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	toolscenenodes.dll + 0xc2d090
+std::_Func_impl_no_alloc<void (__cdecl*)(class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	toolscenenodes.dll + 0xc2d0e0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	toolscenenodes.dll + 0xc2cfa0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	toolscenenodes.dll + 0xc2d130
+std::_Func_impl_no_alloc<void (__cdecl*)(class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	toolscenenodes.dll + 0xc2d180
+std::_Func_impl_no_alloc<void (__cdecl*)(class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	toolscenenodes.dll + 0xc2d220
+std::_Func_impl_no_alloc<void (__cdecl*)(class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	toolscenenodes.dll + 0xc2d320
+std::_Func_impl_no_alloc<void (__cdecl*)(class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	toolscenenodes.dll + 0xc2cff0
+std::_Generic_error_category (hierarchy std::_Generic_error_category: std::error_category)
+	toolscenenodes.dll + 0xc10988
+std::_Iostream_error_category2 (hierarchy std::_Iostream_error_category2: std::error_category)
+	toolscenenodes.dll + 0xbd45d8
+std::bad_alloc (hierarchy std::bad_alloc: std::exception)
+	toolscenenodes.dll + 0xc2d858
+std::bad_exception (hierarchy std::bad_exception: std::exception)
+	toolscenenodes.dll + 0xc2d798

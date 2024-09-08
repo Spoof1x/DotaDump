@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum IkTargetType(size: 4 bytes, 4 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x2425680):
+	IkTarget_Attachment = 0,
+		^MPropertyFriendlyName "Attachment"
+	IkTarget_Bone = 1,
+		^MPropertyFriendlyName "Bone"
+	IkTarget_Parameter_ModelSpace = 2,
+		^MPropertyFriendlyName "Parameter (Model Space)"
+	IkTarget_Parameter_WorldSpace = 3,
+		^MPropertyFriendlyName "Parameter (World Space)"

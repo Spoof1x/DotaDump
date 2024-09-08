@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum IChoreoServices::ScriptState_t(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x46e9390):
+	SCRIPT_PLAYING = 0,
+	SCRIPT_WAIT = 1,
+	SCRIPT_POST_IDLE = 2,
+	SCRIPT_CLEANUP = 3,
+	SCRIPT_MOVE_TO_MARK = 4,

@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CavernCrawlRewardType_t (size: 0x1 bytes, project "server", binding @ server.dll + 0x3aa5010, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class CavernCrawlRewardType_t-----
+	static bool IS_TYPESAFE_INTEGER(server.dll + 0x2f17e48)
+
+-----members of class CavernCrawlRewardType_t-----
+	uint8 m_Value(offset 0x0, size 0x1, align 0x1)
+

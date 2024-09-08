@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class GameTime_t (size: 0x4 bytes, project "entity2", binding @ toolscenenodes.dll + 0xc13f70, scope "toolscenenodes.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedFloatType
+
+-----static members of class GameTime_t-----
+	static bool IS_TYPESAFE_FLOAT(toolscenenodes.dll + 0xa3079a)
+	static GameTime_t Zero(toolscenenodes.dll + 0xa3079c)
+
+-----members of class GameTime_t-----
+	float32 m_Value(offset 0x0, size 0x4, align 0x4)
+

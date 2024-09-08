@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFlexDesc (size: 0x8 bytes, project "modellib", binding @ meshsystem.dll + 0x116310, scope "meshsystem.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x40180"
+
+-----members of class CFlexDesc-----
+	CUtlString m_szFacs(offset 0x0, size 0x8, align 0x8)
+

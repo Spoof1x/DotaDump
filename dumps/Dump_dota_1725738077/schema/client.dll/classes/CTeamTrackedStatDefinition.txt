@@ -1,0 +1,21 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CTeamTrackedStatDefinition (size: 0x30 bytes, project "client", binding @ client.dll + 0x48a3280, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x189ea80"
+^MVDataRoot
+
+-----members of class CTeamTrackedStatDefinition-----
+	uint8_t[8] unaccounted(offset 0x0)
+	TrackedStatID_t m_unStatID(offset 0x8, size 0x4, align 0x0)
+		^MPropertyDescription "unique integer ID of this stat"
+		^MVDataUniqueMonotonicInt "_editor/next_team_stat_id"
+		^MPropertyAttributeEditor "locked_int()"
+	ETeamTrackedStatImpl m_eStatImpl(offset 0xc, size 0x4, align 0x4)
+		^MPropertyDescription "how this stat is implemented"
+	TrackedStatExpressionData_t m_expressionData(offset 0x10, size 0x10, align 0x8)
+		^MPropertyDescription "For k_eTeamTrackedStatImpl_Expression, what is the expression information."
+		^MPropertySuppressExpr "m_eStatImpl != k_ePlayerTrackedStatImpl_Expression"
+	TrackedStatAggregateData_t m_aggregateData(offset 0x20, size 0x10, align 0x8)
+		^MPropertyDescription "For k_eTeamTrackedStatImpl_PlayerAggregate, what is the aggregate information."
+		^MPropertySuppressExpr "m_eStatImpl != k_eTeamTrackedStatImpl_PlayerAggregate"
+

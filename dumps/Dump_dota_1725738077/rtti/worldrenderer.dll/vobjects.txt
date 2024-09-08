@@ -1,0 +1,54 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CAttributeDictSaveDataOps (hierarchy CAttributeDictSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+	worldrenderer.dll + 0x10ba50
+CConCommandMemberAccessor<class CWorldRendererMgr>
+	(hierarchy CConCommandMemberAccessor<class CWorldRendererMgr>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		worldrenderer.dll + 0x1602d0
+		worldrenderer.dll + 0x160300
+		worldrenderer.dll + 0x160330
+		worldrenderer.dll + 0x160360
+		worldrenderer.dll + 0x160390
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		worldrenderer.dll + 0x1602d8
+		worldrenderer.dll + 0x160308
+		worldrenderer.dll + 0x160338
+		worldrenderer.dll + 0x160368
+		worldrenderer.dll + 0x160398
+CEmptySequence (hierarchy CEmptySequence: ISequence, IBaseSequence)
+	worldrenderer.dll + 0x10cf20
+CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> > (hierarchy CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> >: CEntityComponentHelperReferenced<class CScriptComponent>, CEntityComponentHelper)
+	worldrenderer.dll + 0x10bc28
+CEntityMgr (hierarchy CEntityMgr: CTypesafeIntrospectedToKV3TypeManager<495874631030,struct PermEntityLumpData_t>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager)
+	worldrenderer.dll + 0x1600f0
+CGrassTileObjectDesc (hierarchy CGrassTileObjectDesc: ISceneObjectDesc)
+	worldrenderer.dll + 0x1106e0
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	worldrenderer.dll + 0x157af0
+CSchemaRegistration_entity2 (hierarchy CSchemaRegistration_entity2: CSchemaRegistration)
+	worldrenderer.dll + 0x10b4a0
+CSchemaRegistration_worldrenderer (hierarchy CSchemaRegistration_worldrenderer: CSchemaRegistration)
+	worldrenderer.dll + 0x110910
+CVariantSaveDataOps (hierarchy CVariantSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+	worldrenderer.dll + 0x10ab18
+CVoxelVisibilityTypeManager (hierarchy CVoxelVisibilityTypeManager: IResourceTypeManager)
+	worldrenderer.dll + 0x1600e8
+CWorldManager (hierarchy CWorldManager: CDefaultIntrospectedToKV3TypeManager<431316170614,struct World_t>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager)
+	worldrenderer.dll + 0x1600c8
+CWorldNodeManager (hierarchy CWorldNodeManager: CTypesafeIntrospectedToKV3TypeManager<431366240118,struct WorldNode_t>, CBaseIntrospectedToKV3TypeManager, IResourceTypeManager)
+	worldrenderer.dll + 0x1600a8
+CWorldRendererMgr (hierarchy CWorldRendererMgr: CTier3AppSystem<class IWorldRendererMgr,0>, CTier2AppSystem<class IWorldRendererMgr,0>, CTier1AppSystem<class IWorldRendererMgr,0>, CTier0AppSystem<class IWorldRendererMgr,0>, CBaseAppSystem<class IWorldRendererMgr>, IWorldRendererMgr, IAppSystem)
+	worldrenderer.dll + 0x160080
+Concurrency::details::stl_condition_variable_win7 (hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+	worldrenderer.dll + 0x158140
+Concurrency::details::stl_critical_section_win7 (hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+	worldrenderer.dll + 0x1580e8
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>: std::_Ref_count_base)
+	worldrenderer.dll + 0x10da90
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_exception> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>: std::_Ref_count_base)
+	worldrenderer.dll + 0x10d9d0
+std::_Generic_error_category (hierarchy std::_Generic_error_category: std::error_category)
+	worldrenderer.dll + 0x10db50
+std::bad_alloc (hierarchy std::bad_alloc: std::exception)
+	worldrenderer.dll + 0x10db38
+std::bad_exception (hierarchy std::bad_exception: std::exception)
+	worldrenderer.dll + 0x10da78

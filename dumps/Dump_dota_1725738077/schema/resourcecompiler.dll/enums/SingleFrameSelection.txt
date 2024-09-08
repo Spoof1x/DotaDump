@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SingleFrameSelection(size: 4 bytes, 3 values, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e7d50):
+	FirstFrame = 0,
+		^MPropertyFriendlyName "First Frame"
+	LastFrame = 1,
+		^MPropertyFriendlyName "Last Frame"
+	SpecificFrame = 2,
+		^MPropertyFriendlyName "Specific Frame"

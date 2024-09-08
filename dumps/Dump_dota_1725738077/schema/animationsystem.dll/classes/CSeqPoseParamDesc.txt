@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSeqPoseParamDesc (size: 0x20 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5ef480, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x5c420"
+
+-----members of class CSeqPoseParamDesc-----
+	CBufferString m_sName(offset 0x0, size 0x10, align 0x8)
+	float32 m_flStart(offset 0x10, size 0x4, align 0x4)
+	float32 m_flEnd(offset 0x14, size 0x4, align 0x4)
+	float32 m_flLoop(offset 0x18, size 0x4, align 0x4)
+	bool m_bLooping(offset 0x1c, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x1d)
+

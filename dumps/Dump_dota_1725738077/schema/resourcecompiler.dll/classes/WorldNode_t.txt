@@ -1,0 +1,20 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class WorldNode_t (size: 0x140 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24f3c30, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x368250"
+
+-----members of class WorldNode_t-----
+	CUtlVector< SceneObject_t > m_sceneObjects(offset 0x0, size 0x18, align 0x8)
+	CUtlVector< InfoOverlayData_t > m_infoOverlays(offset 0x18, size 0x18, align 0x8)
+	CUtlVector< uint16 > m_visClusterMembership(offset 0x30, size 0x18, align 0x8)
+	CUtlVector< AggregateSceneObject_t > m_aggregateSceneObjects(offset 0x48, size 0x18, align 0x8)
+	CUtlVector< ClutterSceneObject_t > m_clutterSceneObjects(offset 0x60, size 0x18, align 0x8)
+	CUtlVector< ExtraVertexStreamOverride_t > m_extraVertexStreamOverrides(offset 0x78, size 0x18, align 0x8)
+	CUtlVector< MaterialOverride_t > m_materialOverrides(offset 0x90, size 0x18, align 0x8)
+	CUtlVector< WorldNodeOnDiskBufferData_t > m_extraVertexStreams(offset 0xa8, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_layerNames(offset 0xc0, size 0x18, align 0x8)
+	CUtlVector< uint8 > m_sceneObjectLayerIndices(offset 0xd8, size 0x18, align 0x8)
+	CUtlVector< uint8 > m_overlayLayerIndices(offset 0xf0, size 0x18, align 0x8)
+	CUtlString m_grassFileName(offset 0x108, size 0x8, align 0x8)
+	BakedLightingInfo_t m_nodeLightingInfo(offset 0x110, size 0x30, align 0x8)
+

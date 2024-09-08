@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPhysicsShake (size: 0x18 bytes, project "server", binding @ server.dll + 0x3a4e800, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class CPhysicsShake-----
+	uint8_t[8] unaccounted(offset 0x0)
+	Vector m_force(offset 0x8, size 0xc, align 0x4)
+	uint8_t[4] unaccounted(offset 0x14)
+

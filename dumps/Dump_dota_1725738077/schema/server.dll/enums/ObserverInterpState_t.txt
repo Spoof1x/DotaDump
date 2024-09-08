@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ObserverInterpState_t(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x3a34ab0):
+	OBSERVER_INTERP_NONE = 0,
+	OBSERVER_INTERP_TRAVELING = 1,
+	OBSERVER_INTERP_SETTLING = 2,

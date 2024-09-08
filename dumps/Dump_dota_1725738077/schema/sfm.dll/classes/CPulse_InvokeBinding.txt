@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulse_InvokeBinding (size: 0x88 bytes, project "pulse_runtime_lib", binding @ sfm.dll + 0xa04b00, scope "sfm.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: sfm.dll + 0x5c5890"
+
+-----members of class CPulse_InvokeBinding-----
+	PulseRegisterMap_t m_RegisterMap(offset 0x0, size 0x20, align 0x8)
+	CUtlSymbolLarge m_FuncName(offset 0x20, size 0x8, align 0x8)
+	PulseRuntimeCellIndex_t m_nCellIndex(offset 0x28, size 0x4, align 0x0)
+	PulseRuntimeChunkIndex_t m_nSrcChunk(offset 0x2c, size 0x4, align 0x0)
+	int32 m_nSrcInstruction(offset 0x30, size 0x4, align 0x4)
+	uint8_t[84] unaccounted(offset 0x34)
+

@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSequenceTransitioner2 (size: 0x158 bytes, project "server", binding @ server.dll + 0x3881fa0, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CSequenceTransitioner2-----
+	CNetworkedSequenceOperation m_currentOp(offset 0x0, size 0x28, align 0x0)
+	float32 m_flCurrentPlaybackRate(offset 0x28, size 0x4, align 0x4)
+	GameTime_t m_flCurrentAnimTime(offset 0x2c, size 0x4, align 0x0)
+	TransitioningLayer_t[4] m_transitioningLayers(offset 0x30, size 0x120, align 0x8)
+	CBaseAnimatingController* m_pOwner(offset 0x150, size 0x8, align 0x8)
+

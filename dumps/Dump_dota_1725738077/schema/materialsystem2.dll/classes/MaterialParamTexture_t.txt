@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class MaterialParamTexture_t (size: 0x10 bytes, project "materialsystem2", binding @ materialsystem2.dll + 0x10ccb0, scope "!GlobalTypes") extends MaterialParam_t
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: materialsystem2.dll + 0x66c80"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class MaterialParam_t (size: 0x8 bytes, project "materialsystem2", binding @ materialsystem2.dll + 0x10cda0, scope "!GlobalTypes")
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: materialsystem2.dll + 0x659c0"
+	
+	-----members of class MaterialParam_t-----
+		CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+	
+
+-----members of class MaterialParamTexture_t-----
+	CStrongHandle< InfoForResourceTypeCTextureBase > m_pValue(offset 0x8, size 0x8, align 0x8)
+

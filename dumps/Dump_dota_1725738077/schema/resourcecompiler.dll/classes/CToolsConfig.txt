@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CToolsConfig (size: 0x48 bytes, project "toolutils2", binding @ resourcecompiler.dll + 0x24d2950, scope "resourcecompiler.dll")
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x171ecf0"
+
+-----members of class CToolsConfig-----
+	CUtlVector< CEngineToolInfo > m_EngineTools(offset 0x0, size 0x18, align 0x8)
+	CUtlVector< CExternalToolInfo > m_ExternalTools(offset 0x18, size 0x18, align 0x8)
+	CUtlVector< CUtlString > m_EngineModulesThatReferenceAssets(offset 0x30, size 0x18, align 0x8)
+

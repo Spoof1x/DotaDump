@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DetailCombo_t(size: 4 bytes, 4 values, project "particles", binding @ particles.dll + 0x51a780):
+	DETAIL_COMBO_OFF = 0,
+		^MPropertyFriendlyName "Off"
+	DETAIL_COMBO_ADD = 1,
+		^MPropertyFriendlyName "Add"
+	DETAIL_COMBO_ADD_SELF_ILLUM = 2,
+		^MPropertyFriendlyName "Add + Self Illum"
+	DETAIL_COMBO_MOD2X = 3,
+		^MPropertyFriendlyName "Mod2X"

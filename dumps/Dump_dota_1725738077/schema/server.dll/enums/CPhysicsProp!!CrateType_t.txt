@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CPhysicsProp::CrateType_t(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x38cf4b0):
+	CRATE_SPECIFIC_ITEM = 0,
+	CRATE_TYPE_COUNT = 1,

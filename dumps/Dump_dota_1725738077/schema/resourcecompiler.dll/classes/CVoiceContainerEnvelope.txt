@@ -1,0 +1,38 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVoiceContainerEnvelope (size: 0xc8 bytes, project "soundsystem_voicecontainers", binding @ resourcecompiler.dll + 0x24c1980, scope "!GlobalTypes") extends CVoiceContainerBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x165b460"
+^MPropertyFriendlyName "Envelope VSND"
+^MPropertyDescription "Plays sound with envelope."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CVoiceContainerBase (size: 0xb8 bytes, project "soundsystem_voicecontainers", binding @ resourcecompiler.dll + 0x24c1160, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x16526a0"
+	^MVDataRoot
+	^MVDataNodeType "1"
+	^MFgdFromSchemaEditablePolymorphicThisClass
+	^MVDataFileExtension "vsnd"
+	^MPropertyFriendlyName "VSND Container"
+	^MPropertyDescription "Voice Container Base"
+	
+	-----static members of class CVoiceContainerBase-----
+		static bool bAudioFinishedPlaying(resourcecompiler.dll + 0x1cfbf90)
+		static bool bAudioStillPlaying(resourcecompiler.dll + 0x1cfbf91)
+	
+	-----members of class CVoiceContainerBase-----
+		uint8_t[56] unaccounted(offset 0x0)
+		CVSound m_vSound(offset 0x38, size 0x80, align 0x8)
+			^MPropertySuppressField
+	
+
+-----members of class CVoiceContainerEnvelope-----
+	CStrongHandle< InfoForResourceTypeCVoiceContainerBase > m_sound(offset 0xb8, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Vsnd File"
+	CVoiceContainerAnalysisBase* m_analysisContainer(offset 0xc0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Container Analyzers"
+

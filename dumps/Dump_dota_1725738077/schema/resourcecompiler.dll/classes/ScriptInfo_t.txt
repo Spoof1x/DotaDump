@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ScriptInfo_t (size: 0x58 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x2429c60, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x73d970"
+
+-----members of class ScriptInfo_t-----
+	CUtlString m_code(offset 0x0, size 0x8, align 0x8)
+	CUtlVector< CAnimParamHandle > m_paramsModified(offset 0x8, size 0x18, align 0x8)
+	CUtlVector< int32 > m_proxyReadParams(offset 0x20, size 0x18, align 0x8)
+	CUtlVector< int32 > m_proxyWriteParams(offset 0x38, size 0x18, align 0x8)
+	AnimScriptType m_eScriptType(offset 0x50, size 0x2, align 0x2)
+	uint8_t[6] unaccounted(offset 0x52)
+

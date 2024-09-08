@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EAnimValueSource(size: 4 bytes, 2 values, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e6eb0):
+	Constant = 0,
+	Parameter = 1,

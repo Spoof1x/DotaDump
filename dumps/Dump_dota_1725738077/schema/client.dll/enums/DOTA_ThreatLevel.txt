@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTA_ThreatLevel(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x48cda90):
+	DOTA_THREATLEVEL_Ultra = 0,
+	DOTA_THREATLEVEL_High = 1,
+	DOTA_THREATLEVEL_Medium = 2,
+	DOTA_THREATLEVEL_Low = 3,
+	DOTA_THREATLEVEL_None = 4,

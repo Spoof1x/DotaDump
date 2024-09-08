@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFlexDesc (size: 0x8 bytes, project "modellib", binding @ physicsbuilder.dll + 0xa32510, scope "physicsbuilder.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: physicsbuilder.dll + 0x3faa90"
+
+-----members of class CFlexDesc-----
+	CUtlString m_szFacs(offset 0x0, size 0x8, align 0x8)
+

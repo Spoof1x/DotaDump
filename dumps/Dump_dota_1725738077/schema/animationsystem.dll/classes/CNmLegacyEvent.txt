@@ -1,0 +1,25 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmLegacyEvent (size: 0x40 bytes, project "animlib", binding @ animationsystem.dll + 0x5de350, scope "!GlobalTypes") extends CNmEvent
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x324900"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmEvent (size: 0x18 bytes, project "animlib", binding @ animationsystem.dll + 0x5dd230, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+	
+	-----members of class CNmEvent-----
+		uint8_t[8] unaccounted(offset 0x0)
+		float32 m_flStartTimeSeconds(offset 0x8, size 0x4, align 0x4)
+		float32 m_flDurationSeconds(offset 0xc, size 0x4, align 0x4)
+		CGlobalSymbol m_syncID(offset 0x10, size 0x8, align 0x8)
+	
+
+-----members of class CNmLegacyEvent-----
+	uint8_t[40] unaccounted(offset 0x18)
+

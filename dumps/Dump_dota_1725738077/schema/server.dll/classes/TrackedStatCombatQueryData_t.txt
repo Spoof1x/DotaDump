@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TrackedStatCombatQueryData_t (size: 0x8 bytes, project "server", binding @ server.dll + 0x3adcdd0, scope "server.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: server.dll + 0x194f650"
+^MPropertyAutoExpandSelf
+
+-----members of class TrackedStatCombatQueryData_t-----
+	CUtlString strCombatQueryPath(offset 0x0, size 0x8, align 0x8)
+		^MPropertyDescription "the combat query file"
+

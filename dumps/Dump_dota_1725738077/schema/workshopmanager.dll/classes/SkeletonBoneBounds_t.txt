@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class SkeletonBoneBounds_t (size: 0x18 bytes, project "modellib", binding @ workshopmanager.dll + 0xe91490, scope "workshopmanager.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: workshopmanager.dll + 0x528090"
+
+-----members of class SkeletonBoneBounds_t-----
+	Vector m_vecCenter(offset 0x0, size 0xc, align 0x4)
+	Vector m_vecSize(offset 0xc, size 0xc, align 0x4)
+

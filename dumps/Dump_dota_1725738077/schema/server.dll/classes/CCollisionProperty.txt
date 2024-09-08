@@ -1,0 +1,68 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CCollisionProperty (size: 0xb0 bytes, project "server", binding @ server.dll + 0x389dab0, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "m_collisionAttribute VPhysicsCollisionAttribute_t"
+^MNetworkVarNames "m_vecMins Vector"
+^MNetworkVarNames "m_vecMaxs Vector"
+^MNetworkVarNames "m_usSolidFlags uint8"
+^MNetworkVarNames "m_nSolidType SolidType_t"
+^MNetworkVarNames "m_triggerBloat uint8"
+^MNetworkVarNames "m_nSurroundType SurroundingBoundsType_t"
+^MNetworkVarNames "m_CollisionGroup uint8"
+^MNetworkVarNames "m_nEnablePhysics uint8"
+^MNetworkVarNames "m_vecSpecifiedSurroundingMins Vector"
+^MNetworkVarNames "m_vecSpecifiedSurroundingMaxs Vector"
+^MNetworkVarNames "m_vCapsuleCenter1 Vector"
+^MNetworkVarNames "m_vCapsuleCenter2 Vector"
+^MNetworkVarNames "m_flCapsuleRadius float"
+
+-----members of class CCollisionProperty-----
+	uint8_t[16] unaccounted(offset 0x0)
+	VPhysicsCollisionAttribute_t m_collisionAttribute(offset 0x10, size 0x30, align 0x0)
+		^MNetworkEnable
+		^MNetworkChangeCallback "CollisionAttributeChanged"
+	Vector m_vecMins(offset 0x40, size 0xc, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnUpdateOBB"
+	Vector m_vecMaxs(offset 0x4c, size 0xc, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnUpdateOBB"
+	uint8_t[2] unaccounted(offset 0x58)
+	uint8 m_usSolidFlags(offset 0x5a, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnUpdateSolidFlags"
+	SolidType_t m_nSolidType(offset 0x5b, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnUpdateSolidType"
+	uint8 m_triggerBloat(offset 0x5c, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "MarkSurroundingBoundsDirty"
+	SurroundingBoundsType_t m_nSurroundType(offset 0x5d, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "MarkSurroundingBoundsDirty"
+	uint8 m_CollisionGroup(offset 0x5e, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8 m_nEnablePhysics(offset 0x5f, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnUpdateEnablePhysics"
+	float32 m_flBoundingRadius(offset 0x60, size 0x4, align 0x4)
+	Vector m_vecSpecifiedSurroundingMins(offset 0x64, size 0xc, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "MarkSurroundingBoundsDirty"
+	Vector m_vecSpecifiedSurroundingMaxs(offset 0x70, size 0xc, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "MarkSurroundingBoundsDirty"
+	Vector m_vecSurroundingMaxs(offset 0x7c, size 0xc, align 0x4)
+	Vector m_vecSurroundingMins(offset 0x88, size 0xc, align 0x4)
+	Vector m_vCapsuleCenter1(offset 0x94, size 0xc, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnUpdateCapsule"
+	Vector m_vCapsuleCenter2(offset 0xa0, size 0xc, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnUpdateCapsule"
+	float32 m_flCapsuleRadius(offset 0xac, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnUpdateCapsule"
+

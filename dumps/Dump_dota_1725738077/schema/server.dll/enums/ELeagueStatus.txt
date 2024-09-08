@@ -1,0 +1,9 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ELeagueStatus(size: 4 bytes, 7 values, project "server", binding @ server.dll + 0x38e2030):
+	LEAGUE_STATUS_UNSET = 0,
+	LEAGUE_STATUS_UNSUBMITTED = 1,
+	LEAGUE_STATUS_SUBMITTED = 2,
+	LEAGUE_STATUS_ACCEPTED = 3,
+	LEAGUE_STATUS_REJECTED = 4,
+	LEAGUE_STATUS_CONCLUDED = 5,
+	LEAGUE_STATUS_DELETED = 6,

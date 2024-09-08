@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PulseGraphExecutionHistoryCursorDesc_t (size: 0x28 bytes, project "pulse_runtime_lib", binding @ assetpreview.dll + 0x4f9500, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: assetpreview.dll + 0x2a9480"
+
+-----members of class PulseGraphExecutionHistoryCursorDesc_t-----
+	CUtlVector< PulseCursorID_t > vecAncestorCursorIDs(offset 0x0, size 0x18, align 0x8)
+	PulseDocNodeID_t nSpawnNodeID(offset 0x18, size 0x4, align 0x0)
+	PulseDocNodeID_t nRetiredAtNodeID(offset 0x1c, size 0x4, align 0x0)
+	float32 flLastReferenced(offset 0x20, size 0x4, align 0x4)
+	int32 nLastValidEntryIdx(offset 0x24, size 0x4, align 0x4)
+

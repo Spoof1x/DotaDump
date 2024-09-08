@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class sPlayerSnapshot (size: 0x30 bytes, project "client", binding @ client.dll + 0x48c3260, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class sPlayerSnapshot-----
+	AbilityID_t[10] m_nItemAbilityID(offset 0x0, size 0x28, align 0x4)
+	float32 m_fGameTime(offset 0x28, size 0x4, align 0x4)
+	uint8 unKills(offset 0x2c, size 0x1, align 0x1)
+	uint8 unDeaths(offset 0x2d, size 0x1, align 0x1)
+	uint8 unAssists(offset 0x2e, size 0x1, align 0x1)
+	uint8 unLevel(offset 0x2f, size 0x1, align 0x1)
+

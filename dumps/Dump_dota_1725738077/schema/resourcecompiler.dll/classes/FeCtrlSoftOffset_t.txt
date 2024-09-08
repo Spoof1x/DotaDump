@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeCtrlSoftOffset_t (size: 0x14 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a0660, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x13664a0"
+
+-----members of class FeCtrlSoftOffset_t-----
+	uint16 nCtrlParent(offset 0x0, size 0x2, align 0x2)
+	uint16 nCtrlChild(offset 0x2, size 0x2, align 0x2)
+	Vector vOffset(offset 0x4, size 0xc, align 0x4)
+	float32 flAlpha(offset 0x10, size 0x4, align 0x4)
+

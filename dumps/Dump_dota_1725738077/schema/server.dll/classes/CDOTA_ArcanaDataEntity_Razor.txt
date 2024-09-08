@@ -1,0 +1,25 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTA_ArcanaDataEntity_Razor (size: 0x38 bytes, project "server", binding @ server.dll + 0x39f6030, scope "server.dll") extends CDOTA_ArcanaDataEntity_Base
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MNetworkVarNames "m_nEmpoweredKills int"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CDOTA_ArcanaDataEntity_Base (size: 0x30 bytes, project "server", binding @ server.dll + 0x39f5db0, scope "server.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CLASS_UNIDENTIFIED17
+	
+	-----members of class CDOTA_ArcanaDataEntity_Base-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CNetworkVarChainer __m_pChainEntity(offset 0x8, size 0x28, align 0x0)
+			^MNetworkDisable
+			^MNetworkChangeAccessorFieldPathIndex
+	
+
+-----members of class CDOTA_ArcanaDataEntity_Razor-----
+	int32 m_nEmpoweredKills(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnRazorArcanaChanged"
+	uint8_t[4] unaccounted(offset 0x34)
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFlexRule (size: 0x20 bytes, project "modellib", binding @ resourcecompiler.dll + 0x2496d60, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1170fa0"
+
+-----members of class CFlexRule-----
+	int32 m_nFlex(offset 0x0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlVector< CFlexOp > m_FlexOps(offset 0x8, size 0x18, align 0x8)
+

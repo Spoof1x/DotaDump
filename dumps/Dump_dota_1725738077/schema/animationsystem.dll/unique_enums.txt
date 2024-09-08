@@ -1,0 +1,8 @@
+AnimParamButton_t
+AnimParamNetworkSetting
+AnimParamType_t
+AnimPoseControl
+BoneTransformSpace_t
+FootstepLandedFootSoundType_t
+MoodType_t
+RagdollPoseControl

@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VMixOscDesc_t (size: 0xc bytes, project "soundsystem_lowlevel", binding @ soundsystem.dll + 0x399ad0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x22eb80"
+
+-----members of class VMixOscDesc_t-----
+	VMixLFOShape_t oscType(offset 0x0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Type"
+	float32 m_freq(offset 0x4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Frequency (Hz)"
+		^MPropertyAttributeRange "0.1 16000"
+	float32 m_flPhase(offset 0x8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Phase (degrees)"
+		^MPropertyAttributeRange "0 360"
+

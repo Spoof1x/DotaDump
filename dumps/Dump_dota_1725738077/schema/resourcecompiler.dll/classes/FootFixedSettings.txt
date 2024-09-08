@@ -1,0 +1,20 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FootFixedSettings (size: 0x40 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242a8e0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x745a20"
+
+-----members of class FootFixedSettings-----
+	TraceSettings_t m_traceSettings(offset 0x0, size 0x8, align 0x4)
+	uint8_t[8] unaccounted(offset 0x8)
+	VectorAligned m_vFootBaseBindPosePositionMS(offset 0x10, size 0x10, align 0x10)
+	float32 m_flFootBaseLength(offset 0x20, size 0x4, align 0x4)
+	float32 m_flMaxRotationLeft(offset 0x24, size 0x4, align 0x4)
+	float32 m_flMaxRotationRight(offset 0x28, size 0x4, align 0x4)
+	int32 m_footstepLandedTagIndex(offset 0x2c, size 0x4, align 0x4)
+	bool m_bEnableTracing(offset 0x30, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x31)
+	float32 m_flTraceAngleBlend(offset 0x34, size 0x4, align 0x4)
+	int32 m_nDisableTagIndex(offset 0x38, size 0x4, align 0x4)
+	int32 m_nFootIndex(offset 0x3c, size 0x4, align 0x4)
+

@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphDefinition::ExternalGraphSlot_t (size: 0x10 bytes, project "animlib", binding @ resourcecompiler.dll + 0x2445220, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x816fa0"
+
+-----members of class CNmGraphDefinition::ExternalGraphSlot_t-----
+	int16 m_nNodeIdx(offset 0x0, size 0x2, align 0x2)
+	uint8_t[6] unaccounted(offset 0x2)
+	CGlobalSymbol m_slotID(offset 0x8, size 0x8, align 0x8)
+

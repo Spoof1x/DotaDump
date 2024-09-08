@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EOverwatchConviction(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x46f90f0):
+	k_EOverwatchConviction_None = 0,
+	k_EOverwatchConviction_NotGuilty = 1,
+	k_EOverwatchConviction_GuiltUnclear = 2,
+	k_EOverwatchConviction_Guilty = 3,

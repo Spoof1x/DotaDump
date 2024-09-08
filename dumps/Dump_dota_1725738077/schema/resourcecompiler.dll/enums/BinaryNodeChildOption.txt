@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum BinaryNodeChildOption(size: 4 bytes, 2 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x241c7d0):
+	Child1 = 0,
+		^MPropertyFriendlyName "Child 1"
+	Child2 = 1,
+		^MPropertyFriendlyName "Child 2"

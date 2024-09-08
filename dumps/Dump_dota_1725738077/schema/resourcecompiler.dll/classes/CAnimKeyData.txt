@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimKeyData (size: 0x78 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24ecfd0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x328e00"
+
+-----members of class CAnimKeyData-----
+	CBufferString m_name(offset 0x0, size 0x10, align 0x8)
+	CUtlVector< CAnimBone > m_boneArray(offset 0x10, size 0x18, align 0x8)
+	CUtlVector< CAnimUser > m_userArray(offset 0x28, size 0x18, align 0x8)
+	CUtlVector< CBufferString > m_morphArray(offset 0x40, size 0x18, align 0x8)
+	int32 m_nChannelElements(offset 0x58, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x5c)
+	CUtlVector< CAnimDataChannelDesc > m_dataChannelArray(offset 0x60, size 0x18, align 0x8)
+

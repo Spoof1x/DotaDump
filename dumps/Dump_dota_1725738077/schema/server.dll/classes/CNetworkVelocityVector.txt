@@ -1,0 +1,26 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNetworkVelocityVector (size: 0x28 bytes, project "server", binding @ server.dll + 0x38cb5d0, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+^MNetworkVarsAtomic
+
+-----members of class CNetworkVelocityVector-----
+	uint8_t[16] unaccounted(offset 0x0)
+	CNetworkedQuantizedFloat m_vecX(offset 0x10, size 0x8, align 0x4)
+		^MNetworkBitCount "18"
+		^MNetworkMinValue "-4096"
+		^MNetworkMaxValue "4096"
+		^MNetworkEncodeFlags "4"
+		^MNetworkChangeCallback "CNetworkVelocityVector"
+	CNetworkedQuantizedFloat m_vecY(offset 0x18, size 0x8, align 0x4)
+		^MNetworkBitCount "18"
+		^MNetworkMinValue "-4096"
+		^MNetworkMaxValue "4096"
+		^MNetworkEncodeFlags "4"
+		^MNetworkChangeCallback "CNetworkVelocityVector"
+	CNetworkedQuantizedFloat m_vecZ(offset 0x20, size 0x8, align 0x4)
+		^MNetworkBitCount "18"
+		^MNetworkMinValue "-4096"
+		^MNetworkMaxValue "4096"
+		^MNetworkEncodeFlags "4"
+		^MNetworkChangeCallback "CNetworkVelocityVector"
+

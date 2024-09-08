@@ -1,0 +1,122 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_OP_SetCPOrientationToGroundNormal (size: 0x270 bytes, project "particles", binding @ particles.dll + 0x533dd0, scope "!GlobalTypes") extends CParticleFunctionOperator
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: particles.dll + 0x1f40e0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunctionOperator (size: 0x1c0 bytes, project "particles", binding @ particles.dll + 0x518610, scope "!GlobalTypes") extends CParticleFunction
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunction (size: 0x1c0 bytes, project "particles", binding @ particles.dll + 0x518010, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+		
+		-----members of class CParticleFunction-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CParticleCollectionFloatInput m_flOpStrength(offset 0x8, size 0x160, align 0x8)
+				^MPropertyFriendlyName "operator strength"
+				^MPropertySortPriority "-100"
+			ParticleEndcapMode_t m_nOpEndCapState(offset 0x168, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end cap state"
+				^MPropertySortPriority "-100"
+			float32 m_flOpStartFadeInTime(offset 0x16c, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade"
+				^MPropertyFriendlyName "operator start fadein"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpEndFadeInTime(offset 0x170, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end fadein"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpStartFadeOutTime(offset 0x174, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator start fadeout"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpEndFadeOutTime(offset 0x178, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end fadeout"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpFadeOscillatePeriod(offset 0x17c, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade oscillate"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			bool m_bNormalizeToStopTime(offset 0x180, size 0x1, align 0x1)
+				^MPropertyFriendlyName "normalize fade times to endcap"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[3] unaccounted(offset 0x181)
+			float32 m_flOpTimeOffsetMin(offset 0x184, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade Time Offset"
+				^MPropertyFriendlyName "operator fade time offset min"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeOffsetMax(offset 0x188, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time offset max"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			int32 m_nOpTimeOffsetSeed(offset 0x18c, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time offset seed"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			int32 m_nOpTimeScaleSeed(offset 0x190, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade Timescale Modifiers"
+				^MPropertyFriendlyName "operator fade time scale seed"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeScaleMin(offset 0x194, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time scale min"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeScaleMax(offset 0x198, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time scale max"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[2] unaccounted(offset 0x19c)
+			bool m_bDisableOperator(offset 0x19e, size 0x1, align 0x1)
+				^MPropertyStartGroup
+				^MPropertySuppressField
+			uint8_t[1] unaccounted(offset 0x19f)
+			CUtlString m_Notes(offset 0x1a0, size 0x8, align 0x8)
+				^MPropertyFriendlyName "operator help and notes"
+				^MParticleHelpField
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[24] unaccounted(offset 0x1a8)
+		
+	
+	-----members of class CParticleFunctionOperator-----
+		<no members>
+	
+
+-----members of class C_OP_SetCPOrientationToGroundNormal-----
+	float32 m_flInterpRate(offset 0x1c0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "interpolation rate"
+	float32 m_flMaxTraceLength(offset 0x1c4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "max trace length"
+	float32 m_flTolerance(offset 0x1c8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "CP movement tolerance"
+	float32 m_flTraceOffset(offset 0x1cc, size 0x4, align 0x4)
+		^MPropertyFriendlyName "trace offset"
+	char[128] m_CollisionGroupName(offset 0x1d0, size 0x80, align 0x1)
+		^MPropertyFriendlyName "collision group"
+	ParticleTraceSet_t m_nTraceSet(offset 0x250, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Trace Set"
+	int32 m_nInputCP(offset 0x254, size 0x4, align 0x4)
+		^MPropertyFriendlyName "CP to trace from"
+	int32 m_nOutputCP(offset 0x258, size 0x4, align 0x4)
+		^MPropertyFriendlyName "CP to set"
+	uint8_t[12] unaccounted(offset 0x25c)
+	bool m_bIncludeWater(offset 0x268, size 0x1, align 0x1)
+		^MPropertyFriendlyName "include water"
+	uint8_t[7] unaccounted(offset 0x269)
+

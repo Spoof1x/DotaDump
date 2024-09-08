@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum FootLockSubVisualization(size: 4 bytes, 2 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a4270):
+	FOOTLOCKSUBVISUALIZATION_ReachabilityAnalysis = 0,
+		^MPropertyFriendlyName "Reachability Analysis"
+	FOOTLOCKSUBVISUALIZATION_IKSolve = 1,
+		^MPropertyFriendlyName "IK Solve"

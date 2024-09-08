@@ -1,0 +1,54 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CAMDAntiLagDx11 (hierarchy CAMDAntiLagDx11)
+	rendersystemdx11.dll + 0x47e998
+CAftermathDx11 (hierarchy CAftermathDx11)
+	rendersystemdx11.dll + 0x47e9b0
+CColorFormatDx11 (hierarchy CColorFormatDx11: CColorFormatBase)
+	rendersystemdx11.dll + 0x473130
+CConCommandMemberAccessor<class CRenderDeviceBase>
+	(hierarchy CConCommandMemberAccessor<class CRenderDeviceBase>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		rendersystemdx11.dll + 0x468808
+		rendersystemdx11.dll + 0x468838
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		rendersystemdx11.dll + 0x468810
+		rendersystemdx11.dll + 0x468840
+CConCommandMemberAccessor<class CRenderDeviceDx11>
+	(hierarchy CConCommandMemberAccessor<class CRenderDeviceDx11>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		rendersystemdx11.dll + 0x47e9c0
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		rendersystemdx11.dll + 0x47e9c8
+CInputLayoutDict<class CInputLayoutDx11> (hierarchy CInputLayoutDict<class CInputLayoutDx11>)
+	rendersystemdx11.dll + 0x474570
+CNVReflexDx11 (hierarchy CNVReflexDx11)
+	rendersystemdx11.dll + 0x47e970
+CRenderDeviceDx11 (hierarchy CRenderDeviceDx11: CRenderDeviceBase, IRenderDevice)
+	rendersystemdx11.dll + 0x440030
+CRenderDeviceMgrDx11
+	(hierarchy CRenderDeviceMgrDx11: CRenderDeviceMgrBase, CTier2AppSystem<class IRenderDeviceMgr,0>, CTier1AppSystem<class IRenderDeviceMgr,0>, CTier0AppSystem<class IRenderDeviceMgr,0>, CBaseAppSystem<class IRenderDeviceMgr>, IRenderDeviceMgr, IAppSystem, IRenderDeviceMgrBackdoor)
+		rendersystemdx11.dll + 0x3ef1f0
+	MI offset 152 (hierarchy IRenderDeviceMgrBackdoor)
+		rendersystemdx11.dll + 0x3ef288
+CRenderHardwareConfig (hierarchy CRenderHardwareConfig: IRenderHardwareConfig)
+	rendersystemdx11.dll + 0x3ef2b0
+CRenderUtils (hierarchy CRenderUtils: CTier2AppSystem<class IRenderUtils,0>, CTier1AppSystem<class IRenderUtils,0>, CTier0AppSystem<class IRenderUtils,0>, CBaseAppSystem<class IRenderUtils>, IRenderUtils, IAppSystem)
+	rendersystemdx11.dll + 0x3efa58
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	rendersystemdx11.dll + 0x438180
+CSchemaRegistration_rendersystemdx11 (hierarchy CSchemaRegistration_rendersystemdx11: CSchemaRegistration)
+	rendersystemdx11.dll + 0x3efa80
+Concurrency::details::stl_condition_variable_win7 (hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+	rendersystemdx11.dll + 0x4387c0
+Concurrency::details::stl_critical_section_win7 (hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+	rendersystemdx11.dll + 0x438768
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>: std::_Ref_count_base)
+	rendersystemdx11.dll + 0x3ec6c0
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_exception> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>: std::_Ref_count_base)
+	rendersystemdx11.dll + 0x3ec600
+std::_Generic_error_category (hierarchy std::_Generic_error_category: std::error_category)
+	rendersystemdx11.dll + 0x3ec780
+std::_Iostream_error_category2 (hierarchy std::_Iostream_error_category2: std::error_category)
+	rendersystemdx11.dll + 0x3eab88
+std::bad_alloc (hierarchy std::bad_alloc: std::exception)
+	rendersystemdx11.dll + 0x3ec768
+std::bad_exception (hierarchy std::bad_exception: std::exception)
+	rendersystemdx11.dll + 0x3ec6a8

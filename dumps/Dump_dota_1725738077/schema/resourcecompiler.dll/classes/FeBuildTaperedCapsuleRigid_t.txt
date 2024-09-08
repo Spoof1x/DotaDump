@@ -1,0 +1,26 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeBuildTaperedCapsuleRigid_t (size: 0x40 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a1950, scope "!GlobalTypes") extends FeTaperedCapsuleRigid_t
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1368920"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class FeTaperedCapsuleRigid_t (size: 0x30 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a0c80, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1367410"
+	
+	-----members of class FeTaperedCapsuleRigid_t-----
+		fltx4[2] vSphere(offset 0x0, size 0x20, align 0x10)
+		uint16 nNode(offset 0x20, size 0x2, align 0x2)
+		uint16 nCollisionMask(offset 0x22, size 0x2, align 0x2)
+		uint16 nVertexMapIndex(offset 0x24, size 0x2, align 0x2)
+		uint16 nFlags(offset 0x26, size 0x2, align 0x2)
+		uint8_t[8] unaccounted(offset 0x28)
+	
+
+-----members of class FeBuildTaperedCapsuleRigid_t-----
+	int32 m_nPriority(offset 0x30, size 0x4, align 0x4)
+	uint32 m_nVertexMapHash(offset 0x34, size 0x4, align 0x4)
+	uint8_t[8] unaccounted(offset 0x38)
+

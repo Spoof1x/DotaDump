@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum AnimationProcessingType_t(size: 4 bytes, 6 values, project "scenesystem", binding @ scenesystem.dll + 0x5c3af0):
+	ANIMATION_PROCESSING_SERVER_SIMULATION = 0,
+	ANIMATION_PROCESSING_CLIENT_SIMULATION = 1,
+	ANIMATION_PROCESSING_CLIENT_PREDICTION = 2,
+	ANIMATION_PROCESSING_CLIENT_INTERPOLATION = 3,
+	ANIMATION_PROCESSING_CLIENT_RENDER = 4,
+	ANIMATION_PROCESSING_MAX = 5,

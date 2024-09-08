@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VPhysXBodyPart_t (size: 0xa0 bytes, project "modellib", binding @ meshsystem.dll + 0x1196a0, scope "meshsystem.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x769d0"
+
+-----members of class VPhysXBodyPart_t-----
+	uint32 m_nFlags(offset 0x0, size 0x4, align 0x4)
+	float32 m_flMass(offset 0x4, size 0x4, align 0x4)
+	VPhysics2ShapeDef_t m_rnShape(offset 0x8, size 0x78, align 0x8)
+	uint16 m_nCollisionAttributeIndex(offset 0x80, size 0x2, align 0x2)
+	uint16 m_nReserved(offset 0x82, size 0x2, align 0x2)
+	float32 m_flInertiaScale(offset 0x84, size 0x4, align 0x4)
+	float32 m_flLinearDamping(offset 0x88, size 0x4, align 0x4)
+	float32 m_flAngularDamping(offset 0x8c, size 0x4, align 0x4)
+	bool m_bOverrideMassCenter(offset 0x90, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x91)
+	Vector m_vMassCenterOverride(offset 0x94, size 0xc, align 0x4)
+

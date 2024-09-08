@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ValueRemapperInputType_t(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x3a70ae0):
+	InputType_PlayerShootPosition = 0,
+	InputType_PlayerShootPositionAroundAxis = 1,

@@ -1,0 +1,170 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_OP_ControlpointLight (size: 0x6d0 bytes, project "particles", binding @ particles.dll + 0x5325e0, scope "!GlobalTypes") extends CParticleFunctionOperator
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: particles.dll + 0x1bf460"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunctionOperator (size: 0x1c0 bytes, project "particles", binding @ particles.dll + 0x518610, scope "!GlobalTypes") extends CParticleFunction
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleFunction (size: 0x1c0 bytes, project "particles", binding @ particles.dll + 0x518010, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: particles.dll + 0x1c140"
+		
+		-----members of class CParticleFunction-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CParticleCollectionFloatInput m_flOpStrength(offset 0x8, size 0x160, align 0x8)
+				^MPropertyFriendlyName "operator strength"
+				^MPropertySortPriority "-100"
+			ParticleEndcapMode_t m_nOpEndCapState(offset 0x168, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end cap state"
+				^MPropertySortPriority "-100"
+			float32 m_flOpStartFadeInTime(offset 0x16c, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade"
+				^MPropertyFriendlyName "operator start fadein"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpEndFadeInTime(offset 0x170, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end fadein"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpStartFadeOutTime(offset 0x174, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator start fadeout"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpEndFadeOutTime(offset 0x178, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator end fadeout"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpFadeOscillatePeriod(offset 0x17c, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade oscillate"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			bool m_bNormalizeToStopTime(offset 0x180, size 0x1, align 0x1)
+				^MPropertyFriendlyName "normalize fade times to endcap"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[3] unaccounted(offset 0x181)
+			float32 m_flOpTimeOffsetMin(offset 0x184, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade Time Offset"
+				^MPropertyFriendlyName "operator fade time offset min"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeOffsetMax(offset 0x188, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time offset max"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			int32 m_nOpTimeOffsetSeed(offset 0x18c, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time offset seed"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			int32 m_nOpTimeScaleSeed(offset 0x190, size 0x4, align 0x4)
+				^MPropertyStartGroup "Operator Fade Timescale Modifiers"
+				^MPropertyFriendlyName "operator fade time scale seed"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeScaleMin(offset 0x194, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time scale min"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			float32 m_flOpTimeScaleMax(offset 0x198, size 0x4, align 0x4)
+				^MPropertyFriendlyName "operator fade time scale max"
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[2] unaccounted(offset 0x19c)
+			bool m_bDisableOperator(offset 0x19e, size 0x1, align 0x1)
+				^MPropertyStartGroup
+				^MPropertySuppressField
+			uint8_t[1] unaccounted(offset 0x19f)
+			CUtlString m_Notes(offset 0x1a0, size 0x8, align 0x8)
+				^MPropertyFriendlyName "operator help and notes"
+				^MParticleHelpField
+				^MParticleAdvancedField
+				^MPropertySortPriority "-100"
+			uint8_t[24] unaccounted(offset 0x1a8)
+		
+	
+	-----members of class CParticleFunctionOperator-----
+		<no members>
+	
+
+-----members of class C_OP_ControlpointLight-----
+	float32 m_flScale(offset 0x1c0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "initial color bias"
+	uint8_t[1164] unaccounted(offset 0x1c4)
+	int32 m_nControlPoint1(offset 0x650, size 0x4, align 0x4)
+		^MPropertyFriendlyName "light 1 control point"
+	int32 m_nControlPoint2(offset 0x654, size 0x4, align 0x4)
+		^MPropertyFriendlyName "light 2 control point"
+	int32 m_nControlPoint3(offset 0x658, size 0x4, align 0x4)
+		^MPropertyFriendlyName "light 3 control point"
+	int32 m_nControlPoint4(offset 0x65c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "light 4 control point"
+	Vector m_vecCPOffset1(offset 0x660, size 0xc, align 0x4)
+		^MPropertyFriendlyName "light 1 control point offset"
+	Vector m_vecCPOffset2(offset 0x66c, size 0xc, align 0x4)
+		^MPropertyFriendlyName "light 2 control point offset"
+	Vector m_vecCPOffset3(offset 0x678, size 0xc, align 0x4)
+		^MPropertyFriendlyName "light 3 control point offset"
+	Vector m_vecCPOffset4(offset 0x684, size 0xc, align 0x4)
+		^MPropertyFriendlyName "light 4 control point offset"
+	float32 m_LightFiftyDist1(offset 0x690, size 0x4, align 0x4)
+		^MPropertyFriendlyName "light 1 50% distance"
+	float32 m_LightZeroDist1(offset 0x694, size 0x4, align 0x4)
+		^MPropertyFriendlyName "light 1 0% distance"
+	float32 m_LightFiftyDist2(offset 0x698, size 0x4, align 0x4)
+		^MPropertyFriendlyName "light 2 50% distance"
+	float32 m_LightZeroDist2(offset 0x69c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "light 2 0% distance"
+	float32 m_LightFiftyDist3(offset 0x6a0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "light 3 50% distance"
+	float32 m_LightZeroDist3(offset 0x6a4, size 0x4, align 0x4)
+		^MPropertyFriendlyName "light 3 0% distance"
+	float32 m_LightFiftyDist4(offset 0x6a8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "light 4 50% distance"
+	float32 m_LightZeroDist4(offset 0x6ac, size 0x4, align 0x4)
+		^MPropertyFriendlyName "light 4 0% distance"
+	Color m_LightColor1(offset 0x6b0, size 0x4, align 0x1)
+		^MPropertyFriendlyName "light 1 color"
+	Color m_LightColor2(offset 0x6b4, size 0x4, align 0x1)
+		^MPropertyFriendlyName "light 2 color"
+	Color m_LightColor3(offset 0x6b8, size 0x4, align 0x1)
+		^MPropertyFriendlyName "light 3 color"
+	Color m_LightColor4(offset 0x6bc, size 0x4, align 0x1)
+		^MPropertyFriendlyName "light 4 color"
+	bool m_bLightType1(offset 0x6c0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "light 1 type 0=point 1=spot"
+	bool m_bLightType2(offset 0x6c1, size 0x1, align 0x1)
+		^MPropertyFriendlyName "light 2 type 0=point 1=spot"
+	bool m_bLightType3(offset 0x6c2, size 0x1, align 0x1)
+		^MPropertyFriendlyName "light 3 type 0=point 1=spot"
+	bool m_bLightType4(offset 0x6c3, size 0x1, align 0x1)
+		^MPropertyFriendlyName "light 4 type 0=point 1=spot"
+	bool m_bLightDynamic1(offset 0x6c4, size 0x1, align 0x1)
+		^MPropertyFriendlyName "light 1 dynamic light"
+	bool m_bLightDynamic2(offset 0x6c5, size 0x1, align 0x1)
+		^MPropertyFriendlyName "light 2 dynamic light"
+	bool m_bLightDynamic3(offset 0x6c6, size 0x1, align 0x1)
+		^MPropertyFriendlyName "light 3 dynamic light"
+	bool m_bLightDynamic4(offset 0x6c7, size 0x1, align 0x1)
+		^MPropertyFriendlyName "light 4 dynamic light"
+	bool m_bUseNormal(offset 0x6c8, size 0x1, align 0x1)
+		^MPropertyFriendlyName "compute normals from control points"
+	bool m_bUseHLambert(offset 0x6c9, size 0x1, align 0x1)
+		^MPropertyFriendlyName "half-lambert normals"
+	uint8_t[4] unaccounted(offset 0x6ca)
+	bool m_bClampLowerRange(offset 0x6ce, size 0x1, align 0x1)
+		^MPropertyFriendlyName "clamp minimum light value to initial color"
+	bool m_bClampUpperRange(offset 0x6cf, size 0x1, align 0x1)
+		^MPropertyFriendlyName "clamp maximum light value to initial color"
+

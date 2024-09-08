@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EQueryCvarValueStatus(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x4703660):
+	eQueryCvarValueStatus_ValueIntact = 0,
+	eQueryCvarValueStatus_CvarNotFound = 1,
+	eQueryCvarValueStatus_NotACvar = 2,
+	eQueryCvarValueStatus_CvarProtected = 3,

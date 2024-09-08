@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EntitySubclassScope_t(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x389ff00):
+	SUBCLASS_SCOPE_NONE = -1,
+	SUBCLASS_SCOPE_COUNT = 0,

@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphDefinition (size: 0x130 bytes, project "animlib", binding @ animationsystem.dll + 0x5e15f0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x347290"
+
+-----members of class CNmGraphDefinition-----
+	CUtlVector< int16 > m_persistentNodeIndices(offset 0x0, size 0x18, align 0x8)
+	int16 m_nRootNodeIdx(offset 0x18, size 0x2, align 0x2)
+	uint8_t[6] unaccounted(offset 0x1a)
+	CUtlVector< CGlobalSymbol > m_controlParameterIDs(offset 0x20, size 0x18, align 0x8)
+	CUtlVector< CGlobalSymbol > m_virtualParameterIDs(offset 0x38, size 0x18, align 0x8)
+	CUtlVector< int16 > m_virtualParameterNodeIndices(offset 0x50, size 0x18, align 0x8)
+	CUtlVector< CNmGraphDefinition::ChildGraphSlot_t > m_childGraphSlots(offset 0x68, size 0x18, align 0x8)
+	CUtlVector< CNmGraphDefinition::ExternalGraphSlot_t > m_externalGraphSlots(offset 0x80, size 0x18, align 0x8)
+	uint8_t[112] unaccounted(offset 0x98)
+	CUtlVector< CUtlString > m_nodePaths(offset 0x108, size 0x18, align 0x8)
+	V_uuid_t m_runtimeVersionID(offset 0x120, size 0x10, align 0x4)
+

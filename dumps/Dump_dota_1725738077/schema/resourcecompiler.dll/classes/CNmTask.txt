@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmTask (size: 0x30 bytes, project "animlib", binding @ resourcecompiler.dll + 0x244d630, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+
+-----members of class CNmTask-----
+	uint8_t[48] unaccounted(offset 0x0)
+

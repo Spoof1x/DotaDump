@@ -1,0 +1,32 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PingConfirmationState_t (size: 0xb0 bytes, project "server", binding @ server.dll + 0x3ab4890, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_nInitiatingPlayerID int"
+^MNetworkVarNames "m_PingWheelMessageID int"
+^MNetworkVarNames "m_flActiveUntilTime float"
+^MNetworkVarNames "m_vLocation Vector2D"
+^MNetworkVarNames "m_nPingedEntityEntIndex int"
+^MNetworkVarNames "m_nID int"
+^MNetworkVarNames "m_IconType PingConfirmationIconType"
+^MNetworkVarNames "m_nAgreeState int"
+
+-----members of class PingConfirmationState_t-----
+	uint8_t[48] unaccounted(offset 0x0)
+	int32 m_nInitiatingPlayerID(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_PingWheelMessageID(offset 0x34, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flActiveUntilTime(offset 0x38, size 0x4, align 0x4)
+		^MNetworkEnable
+	Vector2D m_vLocation(offset 0x3c, size 0x8, align 0x4)
+		^MNetworkEnable
+	int32 m_nPingedEntityEntIndex(offset 0x44, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nID(offset 0x48, size 0x4, align 0x4)
+		^MNetworkEnable
+	PingConfirmationIconType m_IconType(offset 0x4c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32[24] m_nAgreeState(offset 0x50, size 0x60, align 0x4)
+		^MNetworkEnable
+

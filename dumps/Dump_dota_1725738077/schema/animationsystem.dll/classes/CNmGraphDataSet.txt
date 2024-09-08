@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphDataSet (size: 0x48 bytes, project "animlib", binding @ animationsystem.dll + 0x5e1450, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x345cb0"
+
+-----members of class CNmGraphDataSet-----
+	CGlobalSymbol m_variationID(offset 0x0, size 0x8, align 0x8)
+	CStrongHandle< InfoForResourceTypeCNmSkeleton > m_skeleton(offset 0x8, size 0x8, align 0x8)
+	CUtlVector< CStrongHandleVoid > m_resources(offset 0x10, size 0x18, align 0x8)
+	uint8_t[32] unaccounted(offset 0x28)
+

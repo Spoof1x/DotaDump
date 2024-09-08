@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class NodeData_t (size: 0x50 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24f4440, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x36e910"
+
+-----members of class NodeData_t-----
+	int32 m_nParent(offset 0x0, size 0x4, align 0x4)
+	Vector m_vOrigin(offset 0x4, size 0xc, align 0x4)
+	Vector m_vMinBounds(offset 0x10, size 0xc, align 0x4)
+	Vector m_vMaxBounds(offset 0x1c, size 0xc, align 0x4)
+	float32 m_flMinimumDistance(offset 0x28, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x2c)
+	CUtlVector< int32 > m_ChildNodeIndices(offset 0x30, size 0x18, align 0x8)
+	CUtlString m_worldNodePrefix(offset 0x48, size 0x8, align 0x8)
+

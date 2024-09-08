@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class SceneObject_t (size: 0x88 bytes, project "visbuilder", binding @ visbuilder.dll + 0x187740, scope "visbuilder.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: visbuilder.dll + 0x41660"
+
+-----members of class SceneObject_t-----
+	uint32 m_nObjectID(offset 0x0, size 0x4, align 0x4)
+	Vector4D[3] m_vTransform(offset 0x4, size 0x30, align 0x4)
+	float32 m_flFadeStartDistance(offset 0x34, size 0x4, align 0x4)
+	float32 m_flFadeEndDistance(offset 0x38, size 0x4, align 0x4)
+	Vector4D m_vTintColor(offset 0x3c, size 0x10, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4c)
+	CUtlString m_skin(offset 0x50, size 0x8, align 0x8)
+	ObjectTypeFlags_t m_nObjectTypeFlags(offset 0x58, size 0x4, align 0x4)
+	Vector m_vLightingOrigin(offset 0x5c, size 0xc, align 0x4)
+	int16 m_nOverlayRenderOrder(offset 0x68, size 0x2, align 0x2)
+	int16 m_nLODOverride(offset 0x6a, size 0x2, align 0x2)
+	int32 m_nCubeMapPrecomputedHandshake(offset 0x6c, size 0x4, align 0x4)
+	int32 m_nLightProbeVolumePrecomputedHandshake(offset 0x70, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x74)
+	CStrongHandle< InfoForResourceTypeCModel > m_renderableModel(offset 0x78, size 0x8, align 0x8)
+	CStrongHandle< InfoForResourceTypeCRenderMesh > m_renderable(offset 0x80, size 0x8, align 0x8)
+

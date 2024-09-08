@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSeqAutoLayerFlag (size: 0x8 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f0820, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x50980"
+
+-----members of class CSeqAutoLayerFlag-----
+	bool m_bPost(offset 0x0, size 0x1, align 0x1)
+	bool m_bSpline(offset 0x1, size 0x1, align 0x1)
+	bool m_bXFade(offset 0x2, size 0x1, align 0x1)
+	bool m_bNoBlend(offset 0x3, size 0x1, align 0x1)
+	bool m_bLocal(offset 0x4, size 0x1, align 0x1)
+	bool m_bPose(offset 0x5, size 0x1, align 0x1)
+	bool m_bFetchFrame(offset 0x6, size 0x1, align 0x1)
+	bool m_bSubtract(offset 0x7, size 0x1, align 0x1)
+

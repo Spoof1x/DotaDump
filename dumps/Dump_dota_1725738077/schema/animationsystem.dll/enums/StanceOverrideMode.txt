@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum StanceOverrideMode(size: 4 bytes, 2 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a5ea0):
+	Sequence = 0,
+	Node = 1,

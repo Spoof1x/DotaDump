@@ -1,0 +1,7 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EntInput_t (size: 0x30 bytes, project "entity2", binding @ server.dll + 0x3afc060, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class EntInput_t-----
+	uint8_t[48] unaccounted(offset 0x0)
+

@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EAnimConflictIndex_t(size: 4 bytes, 4 values, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e0ec0):
+	EAC_FIRST = 0,
+	EAC_SECOND = 1,
+	EAC_COUNT = 2,
+	EAC_NONE = 2,

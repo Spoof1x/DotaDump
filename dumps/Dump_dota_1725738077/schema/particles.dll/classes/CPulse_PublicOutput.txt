@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulse_PublicOutput (size: 0x20 bytes, project "pulse_runtime_lib", binding @ particles.dll + 0x50e450, scope "particles.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x380460"
+
+-----members of class CPulse_PublicOutput-----
+	CUtlSymbolLarge m_Name(offset 0x0, size 0x8, align 0x8)
+	CUtlString m_Description(offset 0x8, size 0x8, align 0x8)
+	CPulseValueFullType m_ParamType(offset 0x10, size 0x10, align 0x8)
+

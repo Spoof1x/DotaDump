@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum AmmoFlags_t(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x38c7da0):
+	AMMO_FORCE_DROP_IF_CARRIED = 1,
+	AMMO_RESERVE_STAYS_WITH_WEAPON = 2,
+	AMMO_FLAG_MAX = 2,
+		^MPropertySuppressEnumerator
+		^MEnumeratorIsNotAFlag

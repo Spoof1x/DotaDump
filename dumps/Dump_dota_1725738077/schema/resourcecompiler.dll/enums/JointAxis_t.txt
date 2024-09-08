@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum JointAxis_t(size: 4 bytes, 4 values, project "physicslib", binding @ resourcecompiler.dll + 0x24a4e70):
+	JOINT_AXIS_X = 0,
+	JOINT_AXIS_Y = 1,
+	JOINT_AXIS_Z = 2,
+	JOINT_AXIS_COUNT = 3,

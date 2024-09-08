@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFlexController (size: 0x18 bytes, project "modellib", binding @ hammer.dll + 0x1db2250, scope "hammer.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: hammer.dll + 0xdad2a0"
+
+-----members of class CFlexController-----
+	CUtlString m_szName(offset 0x0, size 0x8, align 0x8)
+	CUtlString m_szType(offset 0x8, size 0x8, align 0x8)
+	float32 min(offset 0x10, size 0x4, align 0x4)
+	float32 max(offset 0x14, size 0x4, align 0x4)
+

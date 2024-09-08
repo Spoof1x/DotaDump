@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum IKTargetSource(size: 4 bytes, 3 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x242c130):
+	IKTARGETSOURCE_Bone = 0,
+		^MPropertyFriendlyName "Bone"
+	IKTARGETSOURCE_AnimgraphParameter = 1,
+		^MPropertyFriendlyName "Animgraph Parameter"
+	IKTARGETSOURCE_COUNT = 2,

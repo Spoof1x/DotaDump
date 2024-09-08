@@ -1,0 +1,75 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropOperation_CreateLocator (size: 0x1d8 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfc6d0, scope "toolscenenodes.dll") extends CSmartPropTransformOperation
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x69d280"
+^MPropertyFriendlyName "Create Locator"
+^MPropertyDescription "Create a locator with the current transform. The locator may optionally be configurable, so that its transform can be modified in Hammer."
+^MVDataClassGroup "Manipulators"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropTransformOperation (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfc0a0, scope "toolscenenodes.dll") extends CSmartPropOperation
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+	^MVDataNodeTintColor "-4392"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropOperation (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbf9bc0, scope "toolscenenodes.dll") extends CSmartPropModifier
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropModifier (size: 0x50 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfac80, scope "toolscenenodes.dll")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+			^MVDataBase
+			^MVDataNodeType "1"
+			^MVDataAnonymousNode
+			
+			-----members of class CSmartPropModifier-----
+				uint8_t[8] unaccounted(offset 0x0)
+				CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+					^MVDataEnableKey
+				uint8_t[8] unaccounted(offset 0x48)
+			
+		
+		-----members of class CSmartPropOperation-----
+			<no members>
+		
+	
+	-----members of class CSmartPropTransformOperation-----
+		<no members>
+	
+
+-----members of class CSmartPropOperation_CreateLocator-----
+	CUtlString m_LocatorName(offset 0x50, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Name"
+		^MPropertyAttributeEditor "SmartPropItemNameEditor( Locator )"
+		^MPropertyDescription "Name of the locator. This can be used to reference the locator in this element or its children. If the locator is configurable, the locator will be identified by this name in Hammer."
+	CSmartPropAttributeVector m_vOffset(offset 0x58, size 0x40, align 0x8)
+		^MPropertyDescription "Offset of the locator relative to the current transform. This allows the locator to be created at an offset location without applying that offset to the current transform."
+	CSmartPropAttributeFloat m_flDisplayScale(offset 0x98, size 0x40, align 0x8)
+		^MPropertyDescription "Scale to apply only to the locator model"
+	CSmartPropAttributeBool m_bConfigurable(offset 0xd8, size 0x40, align 0x8)
+		^MPropertyDescription "Controls whether or not the locator can be edited in a smart prop configuration. If enabled an editable locator will appear when the smart prop is placed in Hammer. Any changes to that locator will modify the current transform."
+	CSmartPropAttributeBool m_bAllowTranslation(offset 0x118, size 0x40, align 0x8)
+		^MPropertyReadonlyExpr "m_bConfigurable == false"
+		^MPropertyGroupName "Configuration"
+	CSmartPropAttributeBool m_bAllowRotation(offset 0x158, size 0x40, align 0x8)
+		^MPropertyReadonlyExpr "m_bConfigurable == false"
+		^MPropertyGroupName "Configuration"
+	CSmartPropAttributeBool m_bAllowScale(offset 0x198, size 0x40, align 0x8)
+		^MPropertyReadonlyExpr "m_bConfigurable == false"
+		^MPropertyGroupName "Configuration"
+		^MPropertyDescription "Controls whether or not the configuration of the locator can include scale. If enabled scale can be applied to the editable locator in Hammer. If disabled the scale will not be editable and the current scale will be used."
+

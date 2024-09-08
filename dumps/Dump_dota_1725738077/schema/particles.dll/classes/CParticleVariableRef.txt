@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CParticleVariableRef (size: 0x40 bytes, project "particleslib", binding @ particles.dll + 0x505a10, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x340e00"
+^MPropertyCustomEditor "ParticleVariableRef()"
+
+-----members of class CParticleVariableRef-----
+	CKV3MemberNameWithStorage m_variableName(offset 0x0, size 0x38, align 0x8)
+	PulseValueType_t m_variableType(offset 0x38, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x3c)
+

@@ -1,0 +1,11 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ApplyColorMode_t(size: 4 bytes, 3 values, project "smartprops", binding @ toolscenenodes.dll + 0xbfbfe0):
+	MULTIPLY_OBJECT = 0,
+		^MPropertyFriendlyName "Mulitply object tint"
+		^MPropertyDescription "Multiply with the object level color tint and replace the current color value."
+	MULTIPLY_CURRENT = 1,
+		^MPropertyFriendlyName "Multiply current tint"
+		^MPropertyDescription "Multiply with the current color tint value."
+	REPLACE = 2,
+		^MPropertyFriendlyName "Replace tint"
+		^MPropertyDescription "Replace the current color tint value completely, overwriting any object level tint."

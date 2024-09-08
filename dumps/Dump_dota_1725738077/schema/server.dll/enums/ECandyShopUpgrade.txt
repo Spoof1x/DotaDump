@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ECandyShopUpgrade(size: 4 bytes, 4 values, project "server", binding @ server.dll + 0x38e27d0):
+	k_ECandyShopUpgradeInvalid = -1,
+	k_ECandyShopUpgrade_InventorySize = 0,
+	k_ECandyShopUpgrade_RewardShelf = 1,
+	k_ECandyShopUpgrade_ExtraExchangeRecipe = 2,

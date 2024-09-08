@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class InGamePredictionData_t (size: 0x38 bytes, project "client", binding @ client.dll + 0x48974b0, scope "client.dll")
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_nID uint32"
+^MNetworkVarNames "m_nValue uint32"
+^MNetworkVarNames "m_nRawValue uint32"
+^MNetworkVarNames "m_nValueState uint8"
+^MNetworkVarNames "m_bValueIsMask bool"
+
+-----members of class InGamePredictionData_t-----
+	uint8_t[40] unaccounted(offset 0x0)
+	uint32 m_nID(offset 0x28, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint32 m_nValue(offset 0x2c, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint32 m_nRawValue(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8 m_nValueState(offset 0x34, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bValueIsMask(offset 0x35, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0x36)
+

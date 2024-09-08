@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EDOTAFightingGameAILevel(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x4891d50):
+	FG_AI_LEVEL_NONE = -1,
+	FG_AI_LEVEL_EASY = 0,
+	FG_AI_LEVEL_MEDIUM = 1,
+	FG_AI_LEVEL_HARD = 2,

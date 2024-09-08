@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CNmGraphDocOrientationWarpNode::OffsetType_t(size: 4 bytes, 2 values, project "animdoclib", binding @ resourcecompiler.dll + 0x23d9b70):
+	RelativeToCharacter = 0,
+	RelativeToOriginalRootMotion = 1,

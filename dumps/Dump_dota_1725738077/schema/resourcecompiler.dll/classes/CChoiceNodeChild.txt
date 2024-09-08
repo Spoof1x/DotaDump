@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CChoiceNodeChild (size: 0x18 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ee9d0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x589700"
+^MPropertyFriendlyName "Choice Item"
+^MPropertyElementNameFn "func: resourcecompiler.dll + 0x629eb0"
+
+-----members of class CChoiceNodeChild-----
+	CAnimGraphDoc_NodeConnection m_inputConnection(offset 0x0, size 0x8, align 0x4)
+		^MPropertyHideField
+	CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Name"
+	float32 m_weight(offset 0x10, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Weight"
+	float32 m_blendTime(offset 0x14, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Blend Time"
+

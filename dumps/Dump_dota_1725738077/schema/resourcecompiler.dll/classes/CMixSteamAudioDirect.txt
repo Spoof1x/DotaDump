@@ -1,0 +1,68 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMixSteamAudioDirect (size: 0x40 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24c0800, scope "!GlobalTypes") extends CMixPropertyBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x15ff0a0"
+^MPropertyFriendlyName "VMix Steam Audio Direct Node"
+^MPropertyDescription "Applies steam audio model for direct audio.  This includes modeling the loss due to transmission in air, directivity and occlusion effects."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMixPropertyBase (size: 0x20 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bbaa0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x157f160"
+	
+	-----members of class CMixPropertyBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+			^MPropertyDescription "Node name"
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "1"
+		CUtlString m_Comment(offset 0x10, size 0x8, align 0x8)
+			^MPropertyDescription "Description of how this is used  the graph for people reading the graph"
+			^MPropertySortPriority "-2"
+		bool m_bActive(offset 0x18, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bSolo(offset 0x19, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bEditProperties(offset 0x1a, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		uint8_t[5] unaccounted(offset 0x1b)
+	
+
+-----members of class CMixSteamAudioDirect-----
+	bool m_bApplyDistanceAttenuation(offset 0x20, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Apply Distance Attenuation"
+	bool m_bApplyAirAbsorption(offset 0x21, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Apply Air Absorption"
+	bool m_bApplyDirectivity(offset 0x22, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Apply Directivity"
+	bool m_bApplyOcclusion(offset 0x23, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Apply Occlusion"
+	bool m_bApplyTransmission(offset 0x24, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Apply Transmission"
+	uint8_t[3] unaccounted(offset 0x25)
+	float32 m_flDipoleWeight(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Dipole Weight"
+		^MPropertyAttributeRange "0.0 1.0"
+	float32 m_flDipolePower(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Dipole Power"
+		^MPropertyAttributeRange "0.0 4.0"
+	float32 m_flOcclusion(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Occlusion Value"
+		^MPropertyAttributeRange "0.0 1.0"
+	float32 m_flTransmissionLow(offset 0x34, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Transmission Value (Low Freq)"
+		^MPropertyAttributeRange "0.0 1.0"
+	float32 m_flTransmissionMid(offset 0x38, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Transmission Value (Mid Freq)"
+		^MPropertyAttributeRange "0.0 1.0"
+	float32 m_flTransmissionHigh(offset 0x3c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Transmission Value (High Freq)"
+		^MPropertyAttributeRange "0.0 1.0"
+

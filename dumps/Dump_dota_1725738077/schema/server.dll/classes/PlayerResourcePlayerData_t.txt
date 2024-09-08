@@ -1,0 +1,122 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PlayerResourcePlayerData_t (size: 0xf0 bytes, project "server", binding @ server.dll + 0x3ab2b20, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "m_bIsValid bool"
+^MNetworkVarNames "m_iszPlayerName string_t"
+^MNetworkVarNames "m_iPlayerTeam int"
+^MNetworkVarNames "m_bFullyJoinedServer bool"
+^MNetworkVarNames "m_bFakeClient bool"
+^MNetworkVarNames "m_bIsBroadcaster bool"
+^MNetworkVarNames "m_iBroadcasterChannel uint32"
+^MNetworkVarNames "m_iBroadcasterChannelSlot uint32"
+^MNetworkVarNames "m_bIsBroadcasterChannelCameraman bool"
+^MNetworkVarNames "m_iConnectionState int"
+^MNetworkVarNames "m_iPlayerSteamID uint64"
+^MNetworkVarNames "m_eCoachTeam DOTATeam_t"
+^MNetworkVarNames "m_vecPrivateCoachPlayerIDs PlayerID_t"
+^MNetworkVarNames "m_unCoachRating CoachRating_t"
+^MNetworkVarNames "m_eLiveSpectatorTeam DOTATeam_t"
+^MNetworkVarNames "m_nLiveSpectatorSpectatedHeroIndex int"
+^MNetworkVarNames "m_bIsPlusSubscriber bool"
+^MNetworkVarNames "m_bWasMVPLastGame bool"
+^MNetworkVarNames "m_nCavernCrawlMapVariant CavernCrawlMapVariant_t"
+^MNetworkVarNames "m_eAccoladeType int"
+^MNetworkVarNames "m_unAccoladeData uint64"
+^MNetworkVarNames "m_iRankTier int"
+^MNetworkVarNames "m_iLeaderboardRank int"
+^MNetworkVarNames "m_eMmrBoostType int"
+^MNetworkVarNames "m_iTitle int"
+^MNetworkVarNames "m_unFavTeamPacked uint64"
+^MNetworkVarNames "m_nPlayerSlot CPlayerSlot"
+^MNetworkVarNames "m_bIsBot bool"
+^MNetworkVarNames "m_bHasNeutralTier bool"
+^MNetworkVarNames "m_bHasRedeemedNeutralTier bool"
+^MNetworkVarNames "m_nCommLevel int"
+^MNetworkVarNames "m_nBehaviorLevel int"
+^MNetworkVarNames "m_flLastCommsTime float"
+
+-----members of class PlayerResourcePlayerData_t-----
+	uint8_t[48] unaccounted(offset 0x0)
+	bool m_bIsValid(offset 0x30, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[7] unaccounted(offset 0x31)
+	CUtlSymbolLarge m_iszPlayerName(offset 0x38, size 0x8, align 0x8)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnPlayerNamesChanged"
+	int32 m_iPlayerTeam(offset 0x40, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnTeamChanged"
+	bool m_bFullyJoinedServer(offset 0x44, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bFakeClient(offset 0x45, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnFakeClientChanged"
+	bool m_bIsBroadcaster(offset 0x46, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[1] unaccounted(offset 0x47)
+	uint32 m_iBroadcasterChannel(offset 0x48, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint32 m_iBroadcasterChannelSlot(offset 0x4c, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bIsBroadcasterChannelCameraman(offset 0x50, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x51)
+	int32 m_iConnectionState(offset 0x54, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnPlayerConnectionStateChanged"
+	uint64 m_iPlayerSteamID(offset 0x58, size 0x8, align 0x8)
+		^MNetworkEnable
+		^MNetworkEncoder "fixed64"
+		^MNetworkChangeCallback "OnPlayerSteamIDsChanged"
+	DOTATeam_t m_eCoachTeam(offset 0x60, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x64)
+	CNetworkUtlVectorBase< PlayerID_t > m_vecPrivateCoachPlayerIDs(offset 0x68, size 0x18, align 0x8)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnPlayerCoachedPlayerIDsChanged"
+	uint32 m_unCoachRating(offset 0x80, size 0x4, align 0x4)
+		^MNetworkEnable
+	DOTATeam_t m_eLiveSpectatorTeam(offset 0x84, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nLiveSpectatorSpectatedHeroIndex(offset 0x88, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bIsPlusSubscriber(offset 0x8c, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bWasMVPLastGame(offset 0x8d, size 0x1, align 0x1)
+		^MNetworkEnable
+	CavernCrawlMapVariant_t m_nCavernCrawlMapVariant(offset 0x8e, size 0x1, align 0x0)
+		^MNetworkEnable
+	uint8_t[1] unaccounted(offset 0x8f)
+	int32[3] m_eAccoladeType(offset 0x90, size 0xc, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x9c)
+	uint64[3] m_unAccoladeData(offset 0xa0, size 0x18, align 0x8)
+		^MNetworkEnable
+	int32 m_iRankTier(offset 0xb8, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iLeaderboardRank(offset 0xbc, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_eMmrBoostType(offset 0xc0, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iTitle(offset 0xc4, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint64 m_unFavTeamPacked(offset 0xc8, size 0x8, align 0x8)
+		^MNetworkEnable
+	CPlayerSlot m_nPlayerSlot(offset 0xd0, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bIsBot(offset 0xd4, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool[5] m_bHasNeutralTier(offset 0xd5, size 0x5, align 0x1)
+		^MNetworkEnable
+	bool[5] m_bHasRedeemedNeutralTier(offset 0xda, size 0x5, align 0x1)
+		^MNetworkEnable
+	uint8_t[1] unaccounted(offset 0xdf)
+	int32 m_nCommLevel(offset 0xe0, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nBehaviorLevel(offset 0xe4, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flLastCommsTime(offset 0xe8, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0xec)
+

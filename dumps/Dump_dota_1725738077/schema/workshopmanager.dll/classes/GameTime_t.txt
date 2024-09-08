@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class GameTime_t (size: 0x4 bytes, project "entity2", binding @ workshopmanager.dll + 0xeac780, scope "workshopmanager.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedFloatType
+
+-----static members of class GameTime_t-----
+	static bool IS_TYPESAFE_FLOAT(workshopmanager.dll + 0xc1feaa)
+	static GameTime_t Zero(workshopmanager.dll + 0xc1feac)
+
+-----members of class GameTime_t-----
+	float32 m_Value(offset 0x0, size 0x4, align 0x4)
+

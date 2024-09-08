@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropMaterialReplacement (size: 0x80 bytes, project "smartprops", binding @ pet.dll + 0xd1ea80, scope "pet.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: pet.dll + 0x9414b0"
+
+-----members of class CSmartPropMaterialReplacement-----
+	CSmartPropAttributeMaterialName m_OriginalMaterial(offset 0x0, size 0x40, align 0x8)
+		^MPropertyAttributeEditor "SmartPropAttributeEditor(MaterialInSmartProp)"
+		^MPropertyFriendlyName "Original Material"
+		^MPropertyDescription "Original material to replace. This is the material specified in the model, including any material group asignment within the model. Does not consider any existing material overrides specified within the smart prop."
+	CSmartPropAttributeMaterialName m_ReplacementMaterial(offset 0x40, size 0x40, align 0x8)
+		^MPropertyFriendlyName "New Material"
+		^MPropertyDescription "New material to replace the original material with."
+

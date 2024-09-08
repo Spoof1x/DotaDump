@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EShowcaseType(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x46f8a20):
+	k_eShowcaseType_Invalid = 0,
+	k_eShowcaseType_Profile = 1,
+	k_eShowcaseType_MiniProfile = 2,
+	k_eShowcaseType_DefaultProfile = 3,
+	k_eShowcaseType_DefaultMiniProfile = 4,

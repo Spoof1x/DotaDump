@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EWaveform(size: 1 bytes, 5 values, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39b610):
+	Sine = 0,
+	Square = 1,
+	Saw = 2,
+	Triangle = 3,
+	Noise = 4,

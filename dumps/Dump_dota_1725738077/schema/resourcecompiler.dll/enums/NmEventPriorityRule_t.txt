@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NmEventPriorityRule_t(size: 1 bytes, 2 values, project "animdoclib", binding @ resourcecompiler.dll + 0x23d9810):
+	HighestWeight = 0,
+	HighestPercentageThrough = 1,

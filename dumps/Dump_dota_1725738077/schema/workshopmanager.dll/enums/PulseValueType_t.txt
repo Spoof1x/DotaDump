@@ -1,0 +1,44 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PulseValueType_t(size: 4 bytes, 21 values, project "pulse_runtime_lib", binding @ workshopmanager.dll + 0xeca9a0):
+	PVAL_INVALID = -1,
+		^MPropertyFriendlyName "Void"
+	PVAL_BOOL = 0,
+		^MPropertyFriendlyName "Boolean"
+	PVAL_INT = 1,
+		^MPropertyFriendlyName "Integer"
+	PVAL_FLOAT = 2,
+		^MPropertyFriendlyName "Float"
+	PVAL_STRING = 3,
+		^MPropertyFriendlyName "String"
+	PVAL_VEC3 = 4,
+		^MPropertyFriendlyName "Vector3"
+	PVAL_TRANSFORM = 5,
+		^MPropertyFriendlyName "Transform"
+	PVAL_COLOR_RGB = 6,
+		^MPropertyFriendlyName "Color"
+	PVAL_EHANDLE = 7,
+		^MPropertyFriendlyName "Entity Handle"
+	PVAL_RESOURCE = 8,
+		^MPropertyFriendlyName "Resource"
+	PVAL_SNDEVT_GUID = 9,
+		^MPropertyFriendlyName "SoundEvent Instance Handle"
+	PVAL_SNDEVT_NAME = 10,
+		^MPropertyFriendlyName "SoundEvent"
+	PVAL_ENTITY_NAME = 11,
+		^MPropertyFriendlyName "Entity Name"
+	PVAL_OPAQUE_HANDLE = 12,
+		^MPropertyFriendlyName "Opaque Handle"
+	PVAL_TYPESAFE_INT = 13,
+		^MPropertyFriendlyName "Typesafe Int"
+	PVAL_CURSOR_FLOW = 14,
+		^MPropertySuppressEnumerator
+	PVAL_ANY = 15,
+		^MPropertyFriendlyName "Any"
+	PVAL_SCHEMA_ENUM = 16,
+		^MPropertyFriendlyName "Schema Enum"
+	PVAL_PANORAMA_PANEL_HANDLE = 17,
+		^MPropertyFriendlyName "Panorama Panel Handle"
+	PVAL_TEST_HANDLE = 18,
+		^MPropertyFriendlyName "Test Handle"
+	PVAL_COUNT = 19,
+		^MPropertySuppressEnumerator

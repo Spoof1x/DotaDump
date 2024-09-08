@@ -1,0 +1,11 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SmartPropChoiceSelectionMode_t(size: 4 bytes, 3 values, project "smartprops", binding @ hammer.dll + 0x1dcd130):
+	RANDOM = 0,
+		^MPropertyFriendlyName "Random"
+		^MPropertyDescription "Randomly pick a choice. If the choices have weights, the weights will be used to determine the probability of picking a given choice"
+	FIRST = 1,
+		^MPropertyFriendlyName "First"
+		^MPropertyDescription "Pick the first valid choice. Selection criteria may be added to a choice to determine if it is valid."
+	SPECIFIC = 2,
+		^MPropertyFriendlyName "Specific"
+		^MPropertyDescription "Pick a choice specified by an additional authored value."

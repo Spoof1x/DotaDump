@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class constraint_hingeparams_t (size: 0x40 bytes, project "vphysics2", binding @ vphysics2.dll + 0x399470, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class constraint_hingeparams_t-----
+	Vector worldPosition(offset 0x0, size 0xc, align 0x4)
+	Vector worldAxisDirection(offset 0xc, size 0xc, align 0x4)
+	constraint_axislimit_t hingeAxis(offset 0x18, size 0x10, align 0x0)
+	constraint_breakableparams_t constraint(offset 0x28, size 0x18, align 0x0)
+

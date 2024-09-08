@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NmTransitionRule_t(size: 1 bytes, 3 values, project "animlib", binding @ resourcecompiler.dll + 0x244c170):
+	AllowTransition = 0,
+		^MPropertyFriendlyName "Fully Allowed"
+	ConditionallyAllowTransition = 1,
+		^MPropertyFriendlyName "Conditionally Allowed"
+	BlockTransition = 2,
+		^MPropertyFriendlyName "Blocked"

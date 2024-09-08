@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CRopeOverlapHit (size: 0x20 bytes, project "client", binding @ client.dll + 0x46e6d80, scope "!GlobalTypes")
+
+-----members of class CRopeOverlapHit-----
+	CHandle< C_BaseEntity > m_hEntity(offset 0x0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlVector< int32 > m_vecOverlappingLinks(offset 0x8, size 0x18, align 0x8)
+

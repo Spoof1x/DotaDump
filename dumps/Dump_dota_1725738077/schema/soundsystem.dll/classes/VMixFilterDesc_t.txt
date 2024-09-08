@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VMixFilterDesc_t (size: 0x10 bytes, project "soundsystem_lowlevel", binding @ soundsystem.dll + 0x3984e0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x22bb40"
+
+-----members of class VMixFilterDesc_t-----
+	VMixFilterType_t m_nFilterType(offset 0x0, size 0x2, align 0x2)
+	VMixFilterSlope_t m_nFilterSlope(offset 0x2, size 0x1, align 0x1)
+	bool m_bEnabled(offset 0x3, size 0x1, align 0x1)
+	float32 m_fldbGain(offset 0x4, size 0x4, align 0x4)
+	float32 m_flCutoffFreq(offset 0x8, size 0x4, align 0x4)
+	float32 m_flQ(offset 0xc, size 0x4, align 0x4)
+

@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSeqIKLock (size: 0xc bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f05c0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x51d70"
+
+-----members of class CSeqIKLock-----
+	float32 m_flPosWeight(offset 0x0, size 0x4, align 0x4)
+	float32 m_flAngleWeight(offset 0x4, size 0x4, align 0x4)
+	int16 m_nLocalBone(offset 0x8, size 0x2, align 0x2)
+	bool m_bBonesOrientedAlongPositiveX(offset 0xa, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0xb)
+

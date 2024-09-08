@@ -1,0 +1,55 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVoiceContainerShapedNoise (size: 0x190 bytes, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39b550, scope "soundsystem.dll") extends CVoiceContainerBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x2747b0"
+^MPropertyFriendlyName "Wind Generator Container"
+^MPropertyDescription "This is a synth meant to generate whoosh noises."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CVoiceContainerBase (size: 0xb8 bytes, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39a000, scope "soundsystem.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: soundsystem.dll + 0x264ea0"
+	^MVDataRoot
+	^MVDataNodeType "1"
+	^MFgdFromSchemaEditablePolymorphicThisClass
+	^MVDataFileExtension "vsnd"
+	^MPropertyFriendlyName "VSND Container"
+	^MPropertyDescription "Voice Container Base"
+	
+	-----static members of class CVoiceContainerBase-----
+		static bool bAudioFinishedPlaying(soundsystem.dll + 0x3214e4)
+		static bool bAudioStillPlaying(soundsystem.dll + 0x3214e5)
+	
+	-----members of class CVoiceContainerBase-----
+		uint8_t[56] unaccounted(offset 0x0)
+		CVSound m_vSound(offset 0x38, size 0x80, align 0x8)
+			^MPropertySuppressField
+	
+
+-----members of class CVoiceContainerShapedNoise-----
+	bool m_bUseCurveForFrequency(offset 0xb8, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0xb9)
+	float32 m_flFrequency(offset 0xbc, size 0x4, align 0x4)
+		^MPropertySuppressExpr "m_bUseCurveForFrequency == 1"
+	CPiecewiseCurve m_frequencySweep(offset 0xc0, size 0x40, align 0x8)
+		^MPropertySuppressExpr "m_bUseCurveForFrequency == 0"
+		^MPropertyFriendlyName "Frequency Sweep"
+	bool m_bUseCurveForResonance(offset 0x100, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x101)
+	float32 m_flResonance(offset 0x104, size 0x4, align 0x4)
+		^MPropertySuppressExpr "m_bUseCurveForResonance == 1"
+	CPiecewiseCurve m_resonanceSweep(offset 0x108, size 0x40, align 0x8)
+		^MPropertySuppressExpr "m_bUseCurveForResonance == 0"
+		^MPropertyFriendlyName "Resonance Sweep"
+	bool m_bUseCurveForAmplitude(offset 0x148, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x149)
+	float32 m_flGainInDecibels(offset 0x14c, size 0x4, align 0x4)
+		^MPropertySuppressExpr "m_bUseCurveForAmplitude == 1"
+	CPiecewiseCurve m_gainSweep(offset 0x150, size 0x40, align 0x8)
+		^MPropertySuppressExpr "m_bUseCurveForAmplitude == 0"
+		^MPropertyFriendlyName "Gain Sweep (in Decibels)"
+

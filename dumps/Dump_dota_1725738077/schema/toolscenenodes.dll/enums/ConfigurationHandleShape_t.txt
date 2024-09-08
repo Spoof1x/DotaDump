@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ConfigurationHandleShape_t(size: 4 bytes, 4 values, project "smartprops", binding @ toolscenenodes.dll + 0xc00190):
+	NONE = 0,
+		^MPropertyFriendlyName "None"
+	SQUARE = 1,
+		^MPropertyFriendlyName "Square"
+	CIRCLE = 2,
+		^MPropertyFriendlyName "Circle"
+	DIAMOND = 3,
+		^MPropertyFriendlyName "Diamond"

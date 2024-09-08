@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class JiggleBoneSettingsList_t (size: 0x18 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a2a50, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x160270"
+
+-----members of class JiggleBoneSettingsList_t-----
+	CUtlVector< JiggleBoneSettings_t > m_boneSettings(offset 0x0, size 0x18, align 0x8)
+

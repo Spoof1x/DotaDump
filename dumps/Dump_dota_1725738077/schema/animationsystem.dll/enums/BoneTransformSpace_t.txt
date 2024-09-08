@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum BoneTransformSpace_t(size: 4 bytes, 4 values, project "animationsystem", binding @ animationsystem.dll + 0x5f32a0):
+	BoneTransformSpace_Invalid = -1,
+		^MPropertyFriendlyName "Invalid"
+	BoneTransformSpace_Parent = 0,
+		^MPropertyFriendlyName "Parent Space"
+	BoneTransformSpace_Model = 1,
+		^MPropertyFriendlyName "Model Space"
+	BoneTransformSpace_World = 2,
+		^MPropertyFriendlyName "World Space"

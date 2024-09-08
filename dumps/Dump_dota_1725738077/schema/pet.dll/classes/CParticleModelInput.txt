@@ -1,0 +1,27 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CParticleModelInput (size: 0x60 bytes, project "particleslib", binding @ pet.dll + 0xce15b0, scope "pet.dll") extends CParticleInput
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: pet.dll + 0x101620"
+^MPropertyCustomEditor "ModelInput()"
+^MClassIsParticleModel
+^MParticleCustomFieldDefaultValue "func: pet.dll + 0x100f10"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CParticleInput (size: 0x10 bytes, project "particleslib", binding @ pet.dll + 0xce1ec0, scope "pet.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: pet.dll + 0x10b3e0"
+	
+	-----members of class CParticleInput-----
+		uint8_t[16] unaccounted(offset 0x0)
+	
+
+-----members of class CParticleModelInput-----
+	ParticleModelType_t m_nType(offset 0x10, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x14)
+	CParticleNamedValueRef m_NamedValue(offset 0x18, size 0x40, align 0x8)
+	int32 m_nControlPoint(offset 0x58, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x5c)
+

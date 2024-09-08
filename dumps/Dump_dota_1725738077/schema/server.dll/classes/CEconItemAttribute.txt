@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CEconItemAttribute (size: 0x38 bytes, project "server", binding @ server.dll + 0x3af4f60, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "m_iAttributeDefinitionIndex attrib_definition_index_t"
+^MNetworkVarNames "m_flValue float"
+
+-----members of class CEconItemAttribute-----
+	uint8_t[48] unaccounted(offset 0x0)
+	attrib_definition_index_t m_iAttributeDefinitionIndex(offset 0x30, size 0x2, align 0x0)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0x32)
+	float32 m_flValue(offset 0x34, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkAlias "m_iRawValue32"
+

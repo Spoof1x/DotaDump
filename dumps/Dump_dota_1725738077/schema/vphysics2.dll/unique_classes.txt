@@ -1,0 +1,5 @@
+IPhysicsPlayerController
+constraint_axislimit_t
+constraint_breakableparams_t
+constraint_hingeparams_t
+vphysics_save_cphysicsbody_t

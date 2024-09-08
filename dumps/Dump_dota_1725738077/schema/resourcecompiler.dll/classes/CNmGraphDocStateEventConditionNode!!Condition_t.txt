@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphDocStateEventConditionNode::Condition_t (size: 0x10 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23d9360, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x419f70"
+
+-----members of class CNmGraphDocStateEventConditionNode::Condition_t-----
+	CGlobalSymbol m_eventID(offset 0x0, size 0x8, align 0x8)
+		^MPropertyAttributeEditor "AnimGraphID()"
+	NmStateEventTypeCondition_t m_type(offset 0x8, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x9)
+

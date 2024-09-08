@@ -1,0 +1,9 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ELeagueRegion(size: 4 bytes, 7 values, project "server", binding @ server.dll + 0x38e2080):
+	LEAGUE_REGION_UNSET = 0,
+	LEAGUE_REGION_NA = 1,
+	LEAGUE_REGION_SA = 2,
+	LEAGUE_REGION_WEU = 3,
+	LEAGUE_REGION_EEU = 4,
+	LEAGUE_REGION_CHINA = 5,
+	LEAGUE_REGION_SEA = 6,

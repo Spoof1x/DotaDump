@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CNmFloatMathNode::Operator_t(size: 1 bytes, 4 values, project "animlib", binding @ resourcecompiler.dll + 0x2448610):
+	Add = 0,
+	Sub = 1,
+	Mul = 2,
+	Div = 3,

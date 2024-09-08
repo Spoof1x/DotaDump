@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TraceSettings_t (size: 0x8 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242a720, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x7456b0"
+
+-----members of class TraceSettings_t-----
+	float32 m_flTraceHeight(offset 0x0, size 0x4, align 0x4)
+	float32 m_flTraceRadius(offset 0x4, size 0x4, align 0x4)
+

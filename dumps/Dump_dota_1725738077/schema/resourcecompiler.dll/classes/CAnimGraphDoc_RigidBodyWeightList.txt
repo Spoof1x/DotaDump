@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_RigidBodyWeightList (size: 0x28 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ea4c0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x56d520"
+
+-----members of class CAnimGraphDoc_RigidBodyWeightList-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+	CUtlVector< CRigidBodyWeight > m_weights(offset 0x10, size 0x18, align 0x8)
+

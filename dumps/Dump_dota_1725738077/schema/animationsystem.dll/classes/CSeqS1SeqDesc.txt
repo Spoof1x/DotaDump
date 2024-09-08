@@ -1,0 +1,21 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSeqS1SeqDesc (size: 0x120 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5efc00, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x57e90"
+
+-----members of class CSeqS1SeqDesc-----
+	CBufferString m_sName(offset 0x0, size 0x10, align 0x8)
+	CSeqSeqDescFlag m_flags(offset 0x10, size 0xb, align 0x1)
+	uint8_t[5] unaccounted(offset 0x1b)
+	CSeqMultiFetch m_fetch(offset 0x20, size 0x70, align 0x8)
+	int32 m_nLocalWeightlist(offset 0x90, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x94)
+	CUtlVector< CSeqAutoLayer > m_autoLayerArray(offset 0x98, size 0x18, align 0x8)
+	CUtlVector< CSeqIKLock > m_IKLockArray(offset 0xb0, size 0x18, align 0x8)
+	CSeqTransition m_transition(offset 0xc8, size 0x8, align 0x4)
+	KeyValues3 m_SequenceKeys(offset 0xd0, size 0x10, align 0x8)
+	CBufferString m_LegacyKeyValueText(offset 0xe0, size 0x10, align 0x8)
+		^MKV3TransferName "m_keyValueText"
+	CUtlVector< CAnimActivity > m_activityArray(offset 0xf0, size 0x18, align 0x8)
+	CUtlVector< CFootMotion > m_footMotion(offset 0x108, size 0x18, align 0x8)
+

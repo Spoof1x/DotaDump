@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ParamSpanSample_t (size: 0x18 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a7e30, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x198510"
+
+-----members of class ParamSpanSample_t-----
+	CAnimVariant m_value(offset 0x0, size 0x11, align 0x1)
+	uint8_t[3] unaccounted(offset 0x11)
+	float32 m_flCycle(offset 0x14, size 0x4, align 0x4)
+

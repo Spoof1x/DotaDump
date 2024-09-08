@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseTestScriptLib (size: 0x1 bytes, project "pulse_runtime_lib", binding @ particles.dll + 0x50faf0, scope "particles.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+^MPulseLibraryBindings "ptr: particles.dll + 0x50fb60"
+^MPropertyDescription "Testing script helpers."
+
+-----members of class CPulseTestScriptLib-----
+	uint8_t[1] unaccounted(offset 0x0)
+

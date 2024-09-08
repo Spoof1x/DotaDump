@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class InfoOverlayData_t (size: 0x70 bytes, project "visbuilder", binding @ visbuilder.dll + 0x187950, scope "visbuilder.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: visbuilder.dll + 0x42f70"
+
+-----members of class InfoOverlayData_t-----
+	matrix3x4_t m_transform(offset 0x0, size 0x30, align 0x4)
+	float32 m_flWidth(offset 0x30, size 0x4, align 0x4)
+	float32 m_flHeight(offset 0x34, size 0x4, align 0x4)
+	float32 m_flDepth(offset 0x38, size 0x4, align 0x4)
+	Vector2D m_vUVStart(offset 0x3c, size 0x8, align 0x4)
+	Vector2D m_vUVEnd(offset 0x44, size 0x8, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4c)
+	CStrongHandle< InfoForResourceTypeIMaterial2 > m_pMaterial(offset 0x50, size 0x8, align 0x8)
+	int32 m_nRenderOrder(offset 0x58, size 0x4, align 0x4)
+	Vector4D m_vTintColor(offset 0x5c, size 0x10, align 0x4)
+	int32 m_nSequenceOverride(offset 0x6c, size 0x4, align 0x4)
+

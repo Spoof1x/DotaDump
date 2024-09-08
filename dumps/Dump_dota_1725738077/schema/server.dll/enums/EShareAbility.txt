@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EShareAbility(size: 4 bytes, 3 values, project "server", binding @ server.dll + 0x39f5ad0):
+	ITEM_FULLY_SHAREABLE = 0,
+	ITEM_PARTIALLY_SHAREABLE = 1,
+	ITEM_NOT_SHAREABLE = 2,

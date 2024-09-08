@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VMixDiffusorDesc_t (size: 0x10 bytes, project "soundsystem_lowlevel", binding @ soundsystem.dll + 0x3987f0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x22c8b0"
+
+-----members of class VMixDiffusorDesc_t-----
+	float32 m_flSize(offset 0x0, size 0x4, align 0x4)
+	float32 m_flComplexity(offset 0x4, size 0x4, align 0x4)
+	float32 m_flFeedback(offset 0x8, size 0x4, align 0x4)
+	float32 m_flOutputGain(offset 0xc, size 0x4, align 0x4)
+

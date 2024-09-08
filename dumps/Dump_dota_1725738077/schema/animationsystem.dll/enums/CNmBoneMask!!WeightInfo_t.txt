@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CNmBoneMask::WeightInfo_t(size: 1 bytes, 3 values, project "animlib", binding @ animationsystem.dll + 0x5d9390):
+	Zero = 0,
+	Mixed = 1,
+	One = 2,

@@ -1,0 +1,11 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CNmGraphDocTransitionNode::TimeMatchMode_t(size: 4 bytes, 9 values, project "animdoclib", binding @ resourcecompiler.dll + 0x23da050):
+	None = 0,
+	Synchronized = 1,
+	MatchSourceSyncEventIndex = 2,
+	MatchSourceSyncEventPercentage = 3,
+	MatchSourceSyncEventIndexAndPercentage = 4,
+	MatchSyncEventID = 5,
+	MatchClosestSyncEventID = 6,
+	MatchSyncEventIDAndPercentage = 7,
+	MatchClosestSyncEventIDAndPercentage = 8,

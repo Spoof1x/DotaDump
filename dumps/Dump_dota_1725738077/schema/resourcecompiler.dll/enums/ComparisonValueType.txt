@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ComparisonValueType(size: 1 bytes, 2 values, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e8520):
+	COMPARISONVALUETYPE_FIXEDVALUE = 0,
+	COMPARISONVALUETYPE_PARAMETER = 1,

@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum FieldNetworkOption(size: 4 bytes, 3 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a15b0):
+	Auto = 0,
+		^MPropertyFriendlyName "Auto"
+	ForceEnable = 1,
+		^MPropertyFriendlyName "Enable Replication"
+	ForceDisable = 2,
+		^MPropertyFriendlyName "Disable Replication"

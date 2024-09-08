@@ -1,0 +1,47 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmSpeedScaleBaseNode::CDefinition (size: 0x20 bytes, project "animlib", binding @ animationsystem.dll + 0x5e0550, scope "!GlobalTypes") extends CNmPassthroughNode::CDefinition
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x33d630"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmPassthroughNode::CDefinition (size: 0x18 bytes, project "animlib", binding @ animationsystem.dll + 0x5dfe80, scope "!GlobalTypes") extends CNmPoseNode::CDefinition
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x338d30"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmPoseNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ animationsystem.dll + 0x5e0ff0, scope "!GlobalTypes") extends CNmGraphNode::CDefinition
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmGraphNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ animationsystem.dll + 0x5e0f70, scope "!GlobalTypes")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+			
+			-----members of class CNmGraphNode::CDefinition-----
+				uint8_t[8] unaccounted(offset 0x0)
+				int16 m_nNodeIdx(offset 0x8, size 0x2, align 0x2)
+				uint8_t[6] unaccounted(offset 0xa)
+			
+		
+		-----members of class CNmPoseNode::CDefinition-----
+			<no members>
+		
+	
+	-----members of class CNmPassthroughNode::CDefinition-----
+		int16 m_nChildNodeIdx(offset 0x10, size 0x2, align 0x2)
+		uint8_t[6] unaccounted(offset 0x12)
+	
+
+-----members of class CNmSpeedScaleBaseNode::CDefinition-----
+	int16 m_nInputValueNodeIdx(offset 0x18, size 0x2, align 0x2)
+	uint8_t[2] unaccounted(offset 0x1a)
+	float32 m_flDefaultInputValue(offset 0x1c, size 0x4, align 0x4)
+

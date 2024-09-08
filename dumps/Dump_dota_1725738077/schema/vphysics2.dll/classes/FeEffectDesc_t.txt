@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeEffectDesc_t (size: 0x20 bytes, project "physicslib", binding @ vphysics2.dll + 0x392440, scope "vphysics2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0x133720"
+
+-----members of class FeEffectDesc_t-----
+	CUtlString sName(offset 0x0, size 0x8, align 0x8)
+	uint32 nNameHash(offset 0x8, size 0x4, align 0x4)
+	int32 nType(offset 0xc, size 0x4, align 0x4)
+	KeyValues3 m_Params(offset 0x10, size 0x10, align 0x8)
+

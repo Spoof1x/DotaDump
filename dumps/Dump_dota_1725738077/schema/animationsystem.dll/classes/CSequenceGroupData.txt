@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSequenceGroupData (size: 0x138 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5ef240, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x5dd50"
+
+-----members of class CSequenceGroupData-----
+	uint8_t[16] unaccounted(offset 0x0)
+	CBufferString m_sName(offset 0x10, size 0x10, align 0x8)
+	uint32 m_nFlags(offset 0x20, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x24)
+	CUtlVector< CBufferString > m_localSequenceNameArray(offset 0x28, size 0x18, align 0x8)
+	CUtlVector< CSeqS1SeqDesc > m_localS1SeqDescArray(offset 0x40, size 0x18, align 0x8)
+	CUtlVector< CSeqS1SeqDesc > m_localMultiSeqDescArray(offset 0x58, size 0x18, align 0x8)
+	CUtlVector< CSeqSynthAnimDesc > m_localSynthAnimDescArray(offset 0x70, size 0x18, align 0x8)
+	CUtlVector< CSeqCmdSeqDesc > m_localCmdSeqDescArray(offset 0x88, size 0x18, align 0x8)
+	CUtlVector< CSeqBoneMaskList > m_localBoneMaskArray(offset 0xa0, size 0x18, align 0x8)
+	CUtlVector< CSeqScaleSet > m_localScaleSetArray(offset 0xb8, size 0x18, align 0x8)
+	CUtlVector< CBufferString > m_localBoneNameArray(offset 0xd0, size 0x18, align 0x8)
+	CBufferString m_localNodeName(offset 0xe8, size 0x10, align 0x8)
+	CUtlVector< CSeqPoseParamDesc > m_localPoseParamArray(offset 0xf8, size 0x18, align 0x8)
+	KeyValues3 m_keyValues(offset 0x110, size 0x10, align 0x8)
+	CUtlVector< CSeqIKLock > m_localIKAutoplayLockArray(offset 0x120, size 0x18, align 0x8)
+

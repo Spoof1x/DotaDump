@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ChoiceBlendMethod(size: 4 bytes, 2 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x242a470):
+	SingleBlendTime = 0,
+		^MPropertyFriendlyName "Single Blend Time"
+	PerChoiceBlendTimes = 1,
+		^MPropertyFriendlyName "Per-Choice Blend Times"

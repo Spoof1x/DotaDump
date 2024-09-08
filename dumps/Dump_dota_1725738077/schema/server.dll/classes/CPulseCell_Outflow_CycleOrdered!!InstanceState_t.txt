@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_Outflow_CycleOrdered::InstanceState_t (size: 0x4 bytes, project "pulse_runtime_lib", binding @ server.dll + 0x3b2db30, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: server.dll + 0x1fe50f0"
+
+-----members of class CPulseCell_Outflow_CycleOrdered::InstanceState_t-----
+	int32 m_nNextIndex(offset 0x0, size 0x4, align 0x4)
+

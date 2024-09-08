@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FantasyCraftingShapeData_t (size: 0x18 bytes, project "client", binding @ client.dll + 0x4891da0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x166f380"
+^MPropertyAutoExpandSelf
+
+-----members of class FantasyCraftingShapeData_t-----
+	FantasyGemShape_t m_unShapeID(offset 0x0, size 0x1, align 0x0)
+		^MPropertyDescription "Unique identifier for the Shape"
+	uint8_t[3] unaccounted(offset 0x1)
+	EFantasyShapeBehavior m_eShapeBehavior(offset 0x4, size 0x4, align 0x4)
+		^MPropertyDescription "Maps the shape to it's code behavior."
+	CUtlString m_sLocName(offset 0x8, size 0x8, align 0x8)
+		^MPropertyDescription "Localization token for the name of the shape"
+	CUtlString m_sLocExplanation(offset 0x10, size 0x8, align 0x8)
+		^MPropertyDescription "Localization token for explaining what the shape does"
+

@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ELeagueDivision(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x4700570):
+	LEAGUE_DIVISION_UNSET = 0,
+	LEAGUE_DIVISION_I = 1,
+	LEAGUE_DIVISION_II = 2,

@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBaseToolInfo (size: 0x20 bytes, project "toolutils2", binding @ toolframework2.dll + 0x934bb0, scope "toolframework2.dll")
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolframework2.dll + 0x476ef0"
+
+-----members of class CBaseToolInfo-----
+	CUtlString m_Name(offset 0x0, size 0x8, align 0x8)
+	CUtlString m_OverrideToolShortcutName(offset 0x8, size 0x8, align 0x8)
+	CUtlString m_FriendlyName(offset 0x10, size 0x8, align 0x8)
+	CUtlString m_ToolIcon(offset 0x18, size 0x8, align 0x8)
+

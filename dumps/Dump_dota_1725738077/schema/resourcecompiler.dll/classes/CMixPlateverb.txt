@@ -1,0 +1,61 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMixPlateverb (size: 0x40 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bc7c0, scope "!GlobalTypes") extends CMixPropertyBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x159bc10"
+^MPropertyFriendlyName "VMix Plateverb Audio Node"
+^MPropertyDescription "Used to create reverb effects based on a model of a reverb plate."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMixPropertyBase (size: 0x20 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bbaa0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x157f160"
+	
+	-----members of class CMixPropertyBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+			^MPropertyDescription "Node name"
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "1"
+		CUtlString m_Comment(offset 0x10, size 0x8, align 0x8)
+			^MPropertyDescription "Description of how this is used  the graph for people reading the graph"
+			^MPropertySortPriority "-2"
+		bool m_bActive(offset 0x18, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bSolo(offset 0x19, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bEditProperties(offset 0x1a, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		uint8_t[5] unaccounted(offset 0x1b)
+	
+
+-----members of class CMixPlateverb-----
+	float32 m_flPrefilter(offset 0x20, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Prefilter"
+		^MPropertyAttributeRange "0.0 1.0"
+	float32 m_flInputDiffusion1(offset 0x24, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Input Diffusion 1"
+		^MPropertyAttributeRange "0.0 1.0"
+	float32 m_flInputDiffusion2(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Input Diffusion 2"
+		^MPropertyAttributeRange "0.0 1.0"
+	float32 m_flDecay(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Decay"
+		^MPropertyAttributeRange "0.0 1.0"
+	float32 m_flDamp(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Dampening Factor"
+		^MPropertyAttributeRange "0.0 1.0"
+	float32 m_flFeedbackDiffusion1(offset 0x34, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Feedback Diffusion 1"
+		^MPropertyAttributeRange "0.0 1.0"
+	float32 m_flFeedbackDiffusion2(offset 0x38, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Feedback Diffusion 1"
+		^MPropertyAttributeRange "0.0 1.0"
+	uint8_t[4] unaccounted(offset 0x3c)
+

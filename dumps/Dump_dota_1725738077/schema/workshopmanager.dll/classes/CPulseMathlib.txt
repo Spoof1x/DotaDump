@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseMathlib (size: 0x1 bytes, project "pulse_runtime_lib", binding @ workshopmanager.dll + 0xed0770, scope "workshopmanager.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MPulseLibraryBindings "ptr: workshopmanager.dll + 0xed07e0"
+^MPropertyDescription "Basic math support."
+
+-----members of class CPulseMathlib-----
+	uint8_t[1] unaccounted(offset 0x0)
+

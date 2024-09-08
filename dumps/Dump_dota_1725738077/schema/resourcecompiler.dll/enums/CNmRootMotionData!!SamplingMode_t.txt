@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CNmRootMotionData::SamplingMode_t(size: 1 bytes, 2 values, project "animlib", binding @ resourcecompiler.dll + 0x244bd40):
+	Delta = 0,
+	WorldSpace = 1,

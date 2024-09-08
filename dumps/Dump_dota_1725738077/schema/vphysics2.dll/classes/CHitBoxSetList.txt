@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CHitBoxSetList (size: 0x18 bytes, project "modellib", binding @ vphysics2.dll + 0x38aac0, scope "vphysics2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0xb82e0"
+
+-----members of class CHitBoxSetList-----
+	CUtlVector< CHitBoxSet > m_HitBoxSets(offset 0x0, size 0x18, align 0x8)
+

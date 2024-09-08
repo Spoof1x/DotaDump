@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EMatchTrackedStatImpl(size: 4 bytes, 5 values, project "server", binding @ server.dll + 0x3adcc60):
+	k_eMatchTrackedStatImpl_Invalid = 0,
+	k_eMatchTrackedStatImpl_Direct = 1,
+	k_eMatchTrackedStatImpl_Expression = 2,
+	k_eMatchTrackedStatImpl_PlayerAggregate = 3,
+	k_eMatchTrackedStatImpl_TeamAggregate = 4,

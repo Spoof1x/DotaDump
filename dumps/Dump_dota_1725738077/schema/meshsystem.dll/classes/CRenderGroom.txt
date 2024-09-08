@@ -1,0 +1,20 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CRenderGroom (size: 0x68 bytes, project "modellib", binding @ meshsystem.dll + 0x118470, scope "meshsystem.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: meshsystem.dll + 0x664b0"
+
+-----members of class CRenderGroom-----
+	CUtlVector< RenderHairStrandInfo_t > m_hairs(offset 0x0, size 0x18, align 0x8)
+	CUtlVector< uint32 > m_hairPositionOffsets(offset 0x18, size 0x18, align 0x8)
+	uint8_t[16] unaccounted(offset 0x30)
+	CStrongHandleCopyable< InfoForResourceTypeIMaterial2 > m_hSimParamsMat(offset 0x40, size 0x8, align 0x8)
+	int32 m_nSegmentsPerHairStrand(offset 0x48, size 0x4, align 0x4)
+	int32 m_nGuideHairCount(offset 0x4c, size 0x4, align 0x4)
+	int32 m_nHairCount(offset 0x50, size 0x4, align 0x4)
+	int32 m_nGroomGroupID(offset 0x54, size 0x4, align 0x4)
+	int32 m_nAttachBoneIdx(offset 0x58, size 0x4, align 0x4)
+	int32 m_nAttachMeshIdx(offset 0x5c, size 0x4, align 0x4)
+	int32 m_nAttachMeshDrawCallIdx(offset 0x60, size 0x4, align 0x4)
+	bool m_bEnableSimulation(offset 0x64, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x65)
+

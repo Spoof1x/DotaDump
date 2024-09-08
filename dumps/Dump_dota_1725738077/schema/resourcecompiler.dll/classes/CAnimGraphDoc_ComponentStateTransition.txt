@@ -1,0 +1,36 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_ComponentStateTransition (size: 0x70 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23eadd0, scope "!GlobalTypes") extends CAnimGraphDoc_StateTransition
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x570c40"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_StateTransition (size: 0x70 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f5080, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5c3740"
+	^MPropertyFriendlyName "Transition"
+	^MPropertyExtendedEditor "StateTransitionPropertyEditor"
+	
+	-----members of class CAnimGraphDoc_StateTransition-----
+		uint8_t[40] unaccounted(offset 0x0)
+		CAnimGraphDoc_ConditionContainer m_conditionList(offset 0x28, size 0x30, align 0x8)
+			^MPropertySuppressField
+		AnimStateID m_srcState(offset 0x58, size 0x4, align 0x4)
+			^MPropertyHideField
+		AnimStateID m_destState(offset 0x5c, size 0x4, align 0x4)
+			^MPropertyHideField
+		CUtlString m_sComment(offset 0x60, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Comment"
+			^MPropertyAttributeEditor "TextBlock()"
+			^MPropertySortPriority "-100"
+		bool m_bDisabled(offset 0x68, size 0x1, align 0x1)
+			^MPropertyFriendlyName "Disable"
+		uint8_t[7] unaccounted(offset 0x69)
+	
+
+-----members of class CAnimGraphDoc_ComponentStateTransition-----
+	<no members>
+

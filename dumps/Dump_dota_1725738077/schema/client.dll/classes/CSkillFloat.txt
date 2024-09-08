@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSkillFloat (size: 0x10 bytes, project "client", binding @ client.dll + 0x46be080, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+^MPropertyCustomEditor "multi_float( 4 )"
+
+-----members of class CSkillFloat-----
+	float32[4] m_pValue(offset 0x0, size 0x10, align 0x4)
+

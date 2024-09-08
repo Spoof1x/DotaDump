@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EventClientPreOutput_t (size: 0x48 bytes, project "engine2", binding @ engine2.dll + 0x534910, scope "engine2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+-----members of class EventClientPreOutput_t-----
+	EngineLoopState_t m_LoopState(offset 0x0, size 0x28, align 0x0)
+	float64 m_flRenderTime(offset 0x28, size 0x8, align 0x8)
+	float64 m_flRenderFrameTime(offset 0x30, size 0x8, align 0x8)
+	float64 m_flRenderFrameTimeUnbounded(offset 0x38, size 0x8, align 0x8)
+	float32 m_flRealTime(offset 0x40, size 0x4, align 0x4)
+	bool m_bRenderOnly(offset 0x44, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x45)
+

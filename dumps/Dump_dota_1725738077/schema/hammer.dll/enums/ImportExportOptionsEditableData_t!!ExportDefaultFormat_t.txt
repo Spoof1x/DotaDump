@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ImportExportOptionsEditableData_t::ExportDefaultFormat_t(size: 4 bytes, 3 values, project "hammer", binding @ hammer.dll + 0x1e0a150):
+	DEFAULT_FORMAT_DMX = 0,
+		^MPropertyFriendlyName "DMX"
+	DEFAULT_FORMAT_OBJ = 1,
+		^MPropertyFriendlyName "OBJ"
+	DEFAULT_FORMAT_FBX = 2,
+		^MPropertyFriendlyName "FBX"

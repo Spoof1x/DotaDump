@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ModelConfigHandle_t (size: 0x4 bytes, project "client", binding @ client.dll + 0x46e2920, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class ModelConfigHandle_t-----
+	static bool IS_TYPESAFE_INTEGER(client.dll + 0x2d6af90)
+
+-----members of class ModelConfigHandle_t-----
+	uint32 m_Value(offset 0x0, size 0x4, align 0x4)
+

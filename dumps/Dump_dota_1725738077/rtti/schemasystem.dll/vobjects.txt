@@ -1,0 +1,43 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CConCommandMemberAccessor<class CSchemaSystem>
+	(hierarchy CConCommandMemberAccessor<class CSchemaSystem>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		schemasystem.dll + 0x5e750
+		schemasystem.dll + 0x5e780
+		schemasystem.dll + 0x5e7b0
+		schemasystem.dll + 0x5e7e0
+		schemasystem.dll + 0x5e810
+		schemasystem.dll + 0x5e840
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		schemasystem.dll + 0x5e758
+		schemasystem.dll + 0x5e788
+		schemasystem.dll + 0x5e7b8
+		schemasystem.dll + 0x5e7e8
+		schemasystem.dll + 0x5e818
+		schemasystem.dll + 0x5e848
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	schemasystem.dll + 0x58058
+CSchemaRegistration_resourcefile (hierarchy CSchemaRegistration_resourcefile: CSchemaRegistration)
+	schemasystem.dll + 0x53008
+CSchemaRegistration_schemalib (hierarchy CSchemaRegistration_schemalib: CSchemaRegistration)
+	schemasystem.dll + 0x53510
+CSchemaRegistration_schemasystem (hierarchy CSchemaRegistration_schemasystem: CSchemaRegistration)
+	schemasystem.dll + 0x54ad0
+CSchemaSystem (hierarchy CSchemaSystem: CTier2AppSystem<class ISchemaSystem,0>, CTier1AppSystem<class ISchemaSystem,0>, CTier0AppSystem<class ISchemaSystem,0>, CBaseAppSystem<class ISchemaSystem>, ISchemaSystem, IAppSystem)
+	schemasystem.dll + 0x5e720
+CSchemaSystemTypeScope (hierarchy CSchemaSystemTypeScope: ISchemaSystemTypeScope)
+	schemasystem.dll + 0x59100
+CSchemaType_Builtin (hierarchy CSchemaType_Builtin: CSchemaType)
+	schemasystem.dll + 0x59218
+	schemasystem.dll + 0x59240
+	schemasystem.dll + 0x59268
+	schemasystem.dll + 0x59290
+	schemasystem.dll + 0x592b8
+	schemasystem.dll + 0x592e0
+	schemasystem.dll + 0x59308
+	schemasystem.dll + 0x59330
+	schemasystem.dll + 0x59358
+	schemasystem.dll + 0x59380
+	schemasystem.dll + 0x593a8
+	schemasystem.dll + 0x593d0
+	schemasystem.dll + 0x593f8
+	schemasystem.dll + 0x59420

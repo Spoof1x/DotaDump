@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ChoiceChangeMethod(size: 4 bytes, 3 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a3df0):
+	OnReset = 0,
+	OnCycleEnd = 1,
+	OnResetOrCycleEnd = 2,

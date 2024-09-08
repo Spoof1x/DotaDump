@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropAttributePickMode (size: 0x40 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbff580, scope "toolscenenodes.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+^MPropertyCustomEditor "SmartPropAttributeEditor(enum:PickMode_t)"
+
+-----members of class CSmartPropAttributePickMode-----
+	uint8_t[64] unaccounted(offset 0x0)
+

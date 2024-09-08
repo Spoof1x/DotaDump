@@ -1,0 +1,20 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ScalarExpressionType_t(size: 4 bytes, 9 values, project "particles", binding @ particles.dll + 0x518b90):
+	SCALAR_EXPRESSION_UNINITIALIZED = -1,
+		^MPropertyFriendlyName "Uninitialized"
+	SCALAR_EXPRESSION_ADD = 0,
+		^MPropertyFriendlyName "Add"
+	SCALAR_EXPRESSION_SUBTRACT = 1,
+		^MPropertyFriendlyName "Subtract"
+	SCALAR_EXPRESSION_MUL = 2,
+		^MPropertyFriendlyName "Multiply"
+	SCALAR_EXPRESSION_DIVIDE = 3,
+		^MPropertyFriendlyName "Divide"
+	SCALAR_EXPRESSION_INPUT_1 = 4,
+		^MPropertyFriendlyName "Input 1"
+	SCALAR_EXPRESSION_MIN = 5,
+		^MPropertyFriendlyName "Min"
+	SCALAR_EXPRESSION_MAX = 6,
+		^MPropertyFriendlyName "Max"
+	SCALAR_EXPRESSION_MOD = 7,
+		^MPropertyFriendlyName "Mod"

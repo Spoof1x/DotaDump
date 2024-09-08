@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CLayerMask (size: 0x18 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24f0970, scope "resourcecompiler.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x3475f0"
+
+-----members of class CLayerMask-----
+	uint8_t[8] unaccounted(offset 0x0)
+	int32 m_nLumMaskCenter(offset 0x8, size 0x4, align 0x4)
+	int32 m_nLumMaskWidth(offset 0xc, size 0x4, align 0x4)
+	int32 m_nLumMaskShape(offset 0x10, size 0x4, align 0x4)
+	bool m_bInverted(offset 0x14, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x15)
+

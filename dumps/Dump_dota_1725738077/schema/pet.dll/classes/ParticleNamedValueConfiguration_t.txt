@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ParticleNamedValueConfiguration_t (size: 0x38 bytes, project "particleslib", binding @ pet.dll + 0xd1a200, scope "pet.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: pet.dll + 0x8f14d0"
+
+-----members of class ParticleNamedValueConfiguration_t-----
+	CUtlString m_ConfigName(offset 0x0, size 0x8, align 0x8)
+	KeyValues3 m_ConfigValue(offset 0x8, size 0x10, align 0x8)
+	ParticleAttachment_t m_iAttachType(offset 0x18, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1c)
+	CUtlString m_BoundEntityPath(offset 0x20, size 0x8, align 0x8)
+	CUtlString m_strEntityScope(offset 0x28, size 0x8, align 0x8)
+	CUtlString m_strAttachmentName(offset 0x30, size 0x8, align 0x8)
+

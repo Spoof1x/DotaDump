@@ -1,0 +1,26 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNavVolumeSphericalShell (size: 0x88 bytes, project "navlib", binding @ resourcecompiler.dll + 0x249f660, scope "!GlobalTypes") extends CNavVolumeSphere
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNavVolumeSphere (size: 0x80 bytes, project "navlib", binding @ resourcecompiler.dll + 0x249f5c0, scope "!GlobalTypes") extends CNavVolume
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNavVolume (size: 0x70 bytes, project "navlib", binding @ resourcecompiler.dll + 0x249f3e0, scope "!GlobalTypes")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		
+		-----members of class CNavVolume-----
+			uint8_t[112] unaccounted(offset 0x0)
+		
+	
+	-----members of class CNavVolumeSphere-----
+		Vector m_vCenter(offset 0x70, size 0xc, align 0x4)
+		float32 m_flRadius(offset 0x7c, size 0x4, align 0x4)
+	
+
+-----members of class CNavVolumeSphericalShell-----
+	float32 m_flRadiusInner(offset 0x80, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x84)
+

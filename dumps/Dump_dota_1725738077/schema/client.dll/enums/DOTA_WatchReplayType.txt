@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTA_WatchReplayType(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x46f3a10):
+	DOTA_WATCH_REPLAY_NORMAL = 0,
+	DOTA_WATCH_REPLAY_HIGHLIGHTS = 1,

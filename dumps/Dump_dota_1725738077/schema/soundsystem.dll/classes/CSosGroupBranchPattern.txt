@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSosGroupBranchPattern (size: 0x10 bytes, project "soundsystem", binding @ soundsystem.dll + 0x39f020, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x199d70"
+
+-----members of class CSosGroupBranchPattern-----
+	uint8_t[8] unaccounted(offset 0x0)
+	bool m_bMatchEventName(offset 0x8, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Event Name"
+	bool m_bMatchEventSubString(offset 0x9, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Sub-String"
+	bool m_bMatchEntIndex(offset 0xa, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Source Entity Index"
+	bool m_bMatchOpvar(offset 0xb, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Opvar Float"
+	bool m_bMatchString(offset 0xc, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Opvar String"
+	uint8_t[3] unaccounted(offset 0xd)
+

@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RnFace_t (size: 0x1 bytes, project "physicslib", binding @ resourcecompiler.dll + 0x24a5250, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x138a250"
+
+-----members of class RnFace_t-----
+	uint8 m_nEdge(offset 0x0, size 0x1, align 0x1)
+

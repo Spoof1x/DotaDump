@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PointWorldTextJustifyHorizontal_t(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x4867550):
+	POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_LEFT = 0,
+	POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_CENTER = 1,
+	POINT_WORLD_TEXT_JUSTIFY_HORIZONTAL_RIGHT = 2,

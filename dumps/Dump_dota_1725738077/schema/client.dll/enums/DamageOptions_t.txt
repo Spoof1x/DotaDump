@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DamageOptions_t(size: 1 bytes, 3 values, project "client", binding @ client.dll + 0x46e5210):
+	DAMAGE_NO = 0,
+	DAMAGE_EVENTS_ONLY = 1,
+	DAMAGE_YES = 2,

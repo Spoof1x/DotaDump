@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EventPreDataUpdate_t (size: 0x10 bytes, project "sfm", binding @ sfm.dll + 0xa23090, scope "sfm.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+-----members of class EventPreDataUpdate_t-----
+	int32 m_nCount(offset 0x0, size 0x4, align 0x4)
+	uint8_t[12] unaccounted(offset 0x4)
+

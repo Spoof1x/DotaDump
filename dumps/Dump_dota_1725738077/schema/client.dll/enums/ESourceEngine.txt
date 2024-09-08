@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ESourceEngine(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x47041e0):
+	k_ESE_Source1 = 0,
+	k_ESE_Source2 = 1,

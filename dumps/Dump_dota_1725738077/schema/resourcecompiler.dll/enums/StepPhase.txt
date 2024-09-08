@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum StepPhase(size: 4 bytes, 2 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x242acf0):
+	StepPhase_OnGround = 0,
+		^MPropertyFriendlyName "On Ground"
+	StepPhase_InAir = 1,
+		^MPropertyFriendlyName "In the Air"

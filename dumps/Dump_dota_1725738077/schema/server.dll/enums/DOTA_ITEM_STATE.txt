@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTA_ITEM_STATE(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x3a14800):
+	DOTA_ITEM_NEEDS_EQUIPPED = 0,
+	DOTA_ITEM_READY = 1,

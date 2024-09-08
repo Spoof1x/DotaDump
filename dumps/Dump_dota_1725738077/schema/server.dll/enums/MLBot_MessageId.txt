@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum MLBot_MessageId(size: 4 bytes, 8 values, project "server", binding @ server.dll + 0x38dadd0):
+	mlbot_MatchMetadata = 1,
+	mlbot_TickBoundary = 2,
+	mlbot_TeamState_Radiant = 3,
+	mlbot_TeamState_Radiant_Delta = 4,
+	mlbot_TeamState_Dire = 5,
+	mlbot_TeamState_Dire_Delta = 6,
+	mlbot_PlayerCommand = 7,
+	mlbot_PlayerOrder = 8,

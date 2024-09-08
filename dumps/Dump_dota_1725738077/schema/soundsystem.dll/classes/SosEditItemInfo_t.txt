@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class SosEditItemInfo_t (size: 0x30 bytes, project "soundsystem", binding @ soundsystem.dll + 0x39eac0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x191d30"
+
+-----members of class SosEditItemInfo_t-----
+	SosEditItemType_t itemType(offset 0x0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlString itemName(offset 0x8, size 0x8, align 0x8)
+	CUtlString itemTypeName(offset 0x10, size 0x8, align 0x8)
+	uint8_t[8] unaccounted(offset 0x18)
+	CUtlString itemKVString(offset 0x20, size 0x8, align 0x8)
+	Vector2D itemPos(offset 0x28, size 0x8, align 0x4)
+

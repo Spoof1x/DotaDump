@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSetParameterActionUpdater (size: 0x30 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x241bbf0, scope "resourcecompiler.dll") extends CAnimActionUpdater
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x6b0760"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimActionUpdater (size: 0x18 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x241bab0, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimActionUpdater-----
+		uint8_t[24] unaccounted(offset 0x0)
+	
+
+-----members of class CSetParameterActionUpdater-----
+	CAnimParamHandle m_hParam(offset 0x18, size 0x2, align 0x1)
+	CAnimVariant m_value(offset 0x1a, size 0x11, align 0x1)
+	uint8_t[5] unaccounted(offset 0x2b)
+

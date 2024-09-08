@@ -1,0 +1,78 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_SelectorNode (size: 0xc8 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e7c50, scope "!GlobalTypes") extends CAnimGraphDoc_Node
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x551a30"
+^MPropertyFriendlyName "Selector"
+^MPropertyExtendedEditor "SelectorPropertiesEditor"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Node (size: 0x40 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ec330, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Node-----
+		uint8_t[32] unaccounted(offset 0x0)
+		CUtlString m_sName(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		Vector2D m_vecPosition(offset 0x28, size 0x8, align 0x4)
+			^MPropertyGroupName "Debug"
+		AnimNodeID m_nNodeID(offset 0x30, size 0x4, align 0x4)
+			^MPropertyGroupName "Debug"
+		bool m_bDebugThisNode(offset 0x34, size 0x1, align 0x1)
+			^MPropertyGroupName "Debug"
+			^MPropertyFriendlyName "Debug This Node"
+		uint8_t[3] unaccounted(offset 0x35)
+		AnimNodeNetworkMode m_networkMode(offset 0x38, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Network Mode"
+		uint8_t[4] unaccounted(offset 0x3c)
+	
+
+-----members of class CAnimGraphDoc_SelectorNode-----
+	CUtlVector< CAnimGraphDoc_NodeConnection > m_children(offset 0x40, size 0x18, align 0x8)
+		^MPropertySuppressField
+	CUtlVector< AnimTagID > m_tags(offset 0x58, size 0x18, align 0x8)
+		^MPropertyHideField
+	SelectionSource_t m_selectionSource(offset 0x70, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Selection Source"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x5e63d0"
+	uint8_t[4] unaccounted(offset 0x74)
+	CUtlString m_boolParamName(offset 0x78, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_boolParamID(offset 0x80, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Bool Parameter"
+		^MPropertyAttributeChoiceName "BoolParameter"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x5e63d0"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x551aa0"
+	uint8_t[4] unaccounted(offset 0x84)
+	CUtlString m_enumParamName(offset 0x88, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_enumParamID(offset 0x90, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Enum Parameter"
+		^MPropertyAttributeChoiceName "EnumParameter"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x5e63d0"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x551ab0"
+	AnimTagID m_tagID(offset 0x94, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Tag Parameter"
+		^MPropertyAttributeChoiceName "Tag"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x5e63d0"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x551ac0"
+	CFloatAnimValue m_blendDuration(offset 0x98, size 0x20, align 0x8)
+		^MPropertyFriendlyName "Blend Duration"
+	SelectorTagBehavior_t m_tagBehavior(offset 0xb8, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Tag Behavior"
+	bool m_bResetOnChange(offset 0xbc, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Reset On Change"
+	bool m_bSyncCyclesOnChange(offset 0xbd, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Start new option at same cycle"
+	bool m_bLockWhenWaning(offset 0xbe, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Lock Selection When Waning"
+	uint8_t[1] unaccounted(offset 0xbf)
+	CBlendCurve m_blendCurve(offset 0xc0, size 0x8, align 0x4)
+		^MPropertyHideField
+

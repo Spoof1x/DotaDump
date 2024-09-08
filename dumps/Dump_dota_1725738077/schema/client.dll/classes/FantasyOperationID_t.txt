@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FantasyOperationID_t (size: 0x2 bytes, project "client", binding @ client.dll + 0x4890f80, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class FantasyOperationID_t-----
+	static bool IS_TYPESAFE_INTEGER(client.dll + 0x39dcf50)
+
+-----members of class FantasyOperationID_t-----
+	uint16 m_Value(offset 0x0, size 0x2, align 0x2)
+

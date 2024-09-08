@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ColorChoice_t (size: 0x80 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfee20, scope "toolscenenodes.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x69fbb0"
+
+-----members of class ColorChoice_t-----
+	CSmartPropAttributeColor m_Color(offset 0x0, size 0x40, align 0x8)
+		^MPropertyDescription "Color to be applied if this choice is selected."
+	CSmartPropAttributeFloat m_flWeight(offset 0x40, size 0x40, align 0x8)
+		^MPropertyDescription "Relative weight of this choice, higher weighted choices are more likely to be selected."
+

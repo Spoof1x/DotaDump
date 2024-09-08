@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum attributeprovidertypes_t(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x48ef4b0):
+	PROVIDER_GENERIC = 0,
+	PROVIDER_WEAPON = 1,

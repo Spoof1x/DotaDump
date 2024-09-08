@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FollowAttachmentSettings_t (size: 0x90 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b0c10, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1d3ad0"
+
+-----members of class FollowAttachmentSettings_t-----
+	CAnimAttachment m_attachment(offset 0x0, size 0x80, align 0x10)
+	int32 m_boneIndex(offset 0x80, size 0x4, align 0x4)
+	bool m_bMatchTranslation(offset 0x84, size 0x1, align 0x1)
+	bool m_bMatchRotation(offset 0x85, size 0x1, align 0x1)
+	uint8_t[10] unaccounted(offset 0x86)
+

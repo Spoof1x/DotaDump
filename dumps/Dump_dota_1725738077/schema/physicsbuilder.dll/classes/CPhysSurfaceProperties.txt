@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPhysSurfaceProperties (size: 0xc0 bytes, project "modellib", binding @ physicsbuilder.dll + 0xa32dd0, scope "physicsbuilder.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: physicsbuilder.dll + 0x4016b0"
+
+-----members of class CPhysSurfaceProperties-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+		^MKV3TransferName "surfacePropertyName"
+	uint32 m_nameHash(offset 0x8, size 0x4, align 0x4)
+	uint32 m_baseNameHash(offset 0xc, size 0x4, align 0x4)
+	uint8_t[8] unaccounted(offset 0x10)
+	bool m_bHidden(offset 0x18, size 0x1, align 0x1)
+		^MKV3TransferName "hidden"
+	uint8_t[7] unaccounted(offset 0x19)
+	CUtlString m_description(offset 0x20, size 0x8, align 0x8)
+		^MKV3TransferName "description"
+	CPhysSurfacePropertiesPhysics m_physics(offset 0x28, size 0x1c, align 0x4)
+		^MKV3TransferName "physics"
+	uint8_t[4] unaccounted(offset 0x44)
+	CPhysSurfacePropertiesSoundNames m_audioSounds(offset 0x48, size 0x58, align 0x8)
+		^MKV3TransferName "audiosounds"
+	CPhysSurfacePropertiesAudio m_audioParams(offset 0xa0, size 0x20, align 0x4)
+		^MKV3TransferName "audioparams"
+

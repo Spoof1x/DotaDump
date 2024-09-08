@@ -1,0 +1,419 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_BaseButton (size: 0x7e8 bytes, project "client", binding @ client.dll + 0x46e07f0, scope "client.dll") extends C_BaseToggle
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "m_glowEntity CHandle< C_BaseModelEntity>"
+^MNetworkVarNames "m_usable bool"
+^MNetworkVarNames "m_szDisplayText string_t"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class C_BaseToggle (size: 0x7d8 bytes, project "client", binding @ client.dll + 0x46e10b0, scope "client.dll") extends C_BaseModelEntity
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class C_BaseModelEntity (size: 0x7d8 bytes, project "client", binding @ client.dll + 0x46e15d0, scope "client.dll") extends C_BaseEntity
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+		^MNetworkVarNames "m_CRenderComponent CRenderComponent::Storage_t"
+		^MNetworkVarNames "m_CHitboxComponent CHitboxComponent::Storage_t"
+		^MNetworkVarNames "m_nRenderMode RenderMode_t"
+		^MNetworkVarNames "m_nRenderFX RenderFx_t"
+		^MNetworkVarNames "m_clrRender Color"
+		^MNetworkVarNames "m_vecRenderAttributes EntityRenderAttribute_t"
+		^MNetworkVarNames "m_bRenderToCubemaps bool"
+		^MNetworkVarNames "m_bNoInterpolate bool"
+		^MNetworkVarNames "m_Collision CCollisionProperty"
+		^MNetworkVarNames "m_Glow CGlowProperty"
+		^MNetworkVarNames "m_flGlowBackfaceMult float"
+		^MNetworkVarNames "m_fadeMinDist float32"
+		^MNetworkVarNames "m_fadeMaxDist float32"
+		^MNetworkVarNames "m_flFadeScale float32"
+		^MNetworkVarNames "m_flShadowStrength float32"
+		^MNetworkVarNames "m_nObjectCulling uint8"
+		^MNetworkVarNames "m_nAddDecal int"
+		^MNetworkVarNames "m_vDecalPosition Vector"
+		^MNetworkVarNames "m_vDecalForwardAxis Vector"
+		^MNetworkVarNames "m_flDecalHealBloodRate float"
+		^MNetworkVarNames "m_flDecalHealHeightRate float"
+		^MNetworkVarNames "m_ConfigEntitiesToPropagateMaterialDecalsTo CHandle< C_BaseModelEntity >"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class C_BaseEntity (size: 0x538 bytes, project "client", binding @ client.dll + 0x46e2fc0, scope "client.dll") extends CEntityInstance
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+			| SCHEMA_CF1_INFO_TAG_MClassHasEntityLimitedDataDesc
+			^MNetworkExcludeByName "m_bClientSideRagdoll"
+			^MNetworkExcludeByName "m_iMaxHealth"
+			^MNetworkExcludeByUserGroup "Player"
+			^MNetworkExcludeByUserGroup "Water"
+			^MNetworkExcludeByUserGroup "LocalPlayerExclusive"
+			^MNetworkExcludeByName "m_spawnflags"
+			^MNetworkExcludeByName "m_bTakesDamage"
+			^MNetworkExcludeByName "m_nTakeDamageFlags"
+			^MNetworkExcludeByName "m_vecAbsVelocity"
+			^MNetworkExcludeByName "m_flSpeed"
+			^MNetworkVarNames "m_CBodyComponent CBodyComponent::Storage_t"
+			^MNetworkVarNames "m_iMaxHealth int32"
+			^MNetworkVarNames "m_iHealth int32"
+			^MNetworkVarNames "m_lifeState uint8"
+			^MNetworkVarNames "m_takedamage DamageOptions_t"
+			^MNetworkVarNames "m_bTakesDamage bool"
+			^MNetworkVarNames "m_nTakeDamageFlags TakeDamageFlags_t"
+			^MNetworkVarNames "m_nPlatformType EntityPlatformTypes_t"
+			^MNetworkVarNames "m_ubInterpolationFrame uint8"
+			^MNetworkVarNames "m_nSubclassID EntitySubclassID_t"
+			^MNetworkVarNames "m_flAnimTime float32"
+			^MNetworkVarNames "m_flSimulationTime float32"
+			^MNetworkVarNames "m_flCreateTime GameTime_t"
+			^MNetworkVarNames "m_flSpeed float"
+			^MNetworkVarNames "m_bClientSideRagdoll bool"
+			^MNetworkVarNames "m_iTeamNum uint8"
+			^MNetworkVarNames "m_spawnflags uint32"
+			^MNetworkVarNames "m_nNextThinkTick GameTick_t"
+			^MNetworkVarNames "m_fFlags uint32"
+			^MNetworkVarNames "m_hEffectEntity CHandle< CBaseEntity>"
+			^MNetworkVarNames "m_hOwnerEntity CHandle< CBaseEntity>"
+			^MNetworkVarNames "m_MoveCollide MoveCollide_t"
+			^MNetworkVarNames "m_MoveType MoveType_t"
+			^MNetworkVarNames "m_flWaterLevel float32"
+			^MNetworkVarNames "m_fEffects uint32"
+			^MNetworkVarNames "m_hGroundEntity CHandle< CBaseEntity>"
+			^MNetworkVarNames "m_nGroundBodyIndex int"
+			^MNetworkVarNames "m_flFriction float32"
+			^MNetworkVarNames "m_flElasticity float32"
+			^MNetworkVarNames "m_flGravityScale float32"
+			^MNetworkVarNames "m_flTimeScale float32"
+			^MNetworkVarNames "m_bAnimatedEveryTick bool"
+			^MNetworkVarNames "m_flNavIgnoreUntilTime GameTime_t"
+			^MNetworkVarNames "m_nBloodType BloodType"
+			
+				|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CEntityInstance (size: 0x38 bytes, project "entity2", binding @ client.dll + 0x48fae50, scope "client.dll")
+				| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+				| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+				| SCHEMA_CF1_CONSTRUCT_DISALLOWED
+				| SCHEMA_CLASS_UNIDENTIFIED17
+				^MNetworkVarNames "m_pEntity CEntityIdentity *"
+				^MNetworkVarNames "m_CScriptComponent CScriptComponent::Storage_t"
+				
+				-----members of class CEntityInstance-----
+					uint8_t[8] unaccounted(offset 0x0)
+					CUtlSymbolLarge m_iszPrivateVScripts(offset 0x8, size 0x8, align 0x8)
+						^MNetworkDisable
+					CEntityIdentity* m_pEntity(offset 0x10, size 0x8, align 0x8)
+						^MNetworkEnable
+						^MNetworkPriority "56"
+					uint8_t[16] unaccounted(offset 0x18)
+					CScriptComponent* m_CScriptComponent(offset 0x28, size 0x8, align 0x8)
+						^MNetworkEnable
+						^MNetworkDisable
+					bool m_bVisibleinPVS(offset 0x30, size 0x1, align 0x1)
+					uint8_t[7] unaccounted(offset 0x31)
+				
+			
+			-----static members of class C_BaseEntity-----
+				static bool sm_bDatadescValidating(client.dll + 0x4b1c4c4)
+				static bool sm_bAccurateTriggerBboxChecks(client.dll + 0x46a6900)
+				static bool sm_bDisableTouchFuncs(client.dll + 0x4d006b8)
+				static bool m_bAllowPrecache(client.dll + 0x4b1c914)
+				static LatchDirtyPermission_t s_nLatchPermissions(client.dll + 0x4d00818)
+				static int32 m_nPredictionRandomSeed(client.dll + 0x46a7290)
+				static CBasePlayerController* m_pPredictionPlayerController(client.dll + 0x4b1cab8)
+				static bool s_bAbsQueriesValid(client.dll + 0x4852bf0)
+				static bool s_bAbsRecomputationEnabled(client.dll + 0x4852bf1)
+				static bool s_bComputingInterpolatedValues(client.dll + 0x4d00dd4)
+				static bool s_bPreventingSetAnimRunAnimEvents(client.dll + 0x4d00dd5)
+				static CUtlVector< C_BaseEntity* > gm_UsableObjects(client.dll + 0x4d00038)
+			
+			-----members of class C_BaseEntity-----
+				CBodyComponent* m_CBodyComponent(offset 0x38, size 0x8, align 0x8)
+					^MNetworkEnable
+					^MNetworkUserGroup "CBodyComponent"
+					^MNetworkAlias "CBodyComponent"
+					^MNetworkTypeAlias "CBodyComponent"
+					^MNetworkPriority "48"
+				CNetworkTransmitComponent m_NetworkTransmitComponent(offset 0x40, size 0x1a0, align 0x0)
+				uint8_t[288] unaccounted(offset 0x1e0)
+				GameTick_t m_nLastThinkTick(offset 0x300, size 0x4, align 0x0)
+				uint8_t[4] unaccounted(offset 0x304)
+				CGameSceneNode* m_pGameSceneNode(offset 0x308, size 0x8, align 0x8)
+				CRenderComponent* m_pRenderComponent(offset 0x310, size 0x8, align 0x8)
+				CCollisionProperty* m_pCollision(offset 0x318, size 0x8, align 0x8)
+				int32 m_iMaxHealth(offset 0x320, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkUserGroup "LocalPlayerExclusive"
+				int32 m_iHealth(offset 0x324, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkSerializer "ClampHealth"
+					^MNetworkUserGroup "Player"
+					^MNetworkPriority "32"
+				uint8 m_lifeState(offset 0x328, size 0x1, align 0x1)
+					^MNetworkEnable
+					^MNetworkUserGroup "Player"
+					^MNetworkPriority "32"
+				DamageOptions_t m_takedamage(offset 0x329, size 0x1, align 0x1)
+					^MNetworkEnable
+				bool m_bTakesDamage(offset 0x32a, size 0x1, align 0x1)
+					^MNetworkEnable
+				uint8_t[5] unaccounted(offset 0x32b)
+				TakeDamageFlags_t m_nTakeDamageFlags(offset 0x330, size 0x8, align 0x8)
+					^MNetworkEnable
+				EntityPlatformTypes_t m_nPlatformType(offset 0x338, size 0x1, align 0x1)
+					^MNetworkEnable
+				uint8 m_ubInterpolationFrame(offset 0x339, size 0x1, align 0x1)
+					^MNetworkEnable
+					^MNetworkChangeCallback "OnInterpolationFrameChanged"
+				uint8_t[2] unaccounted(offset 0x33a)
+				CHandle< C_BaseEntity > m_hSceneObjectController(offset 0x33c, size 0x4, align 0x4)
+				int32 m_nNoInterpolationTick(offset 0x340, size 0x4, align 0x4)
+				int32 m_nVisibilityNoInterpolationTick(offset 0x344, size 0x4, align 0x4)
+				float32 m_flProxyRandomValue(offset 0x348, size 0x4, align 0x4)
+				int32 m_iEFlags(offset 0x34c, size 0x4, align 0x4)
+				uint8 m_nWaterType(offset 0x350, size 0x1, align 0x1)
+				bool m_bInterpolateEvenWithNoModel(offset 0x351, size 0x1, align 0x1)
+				bool m_bPredictionEligible(offset 0x352, size 0x1, align 0x1)
+				bool m_bApplyLayerMatchIDToModel(offset 0x353, size 0x1, align 0x1)
+				CUtlStringToken m_tokLayerMatchID(offset 0x354, size 0x4, align 0x4)
+				CUtlStringToken m_nSubclassID(offset 0x358, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkChangeCallback "OnSubclassIDChanged"
+				uint8_t[12] unaccounted(offset 0x35c)
+				int32 m_nSimulationTick(offset 0x368, size 0x4, align 0x4)
+				int32 m_iCurrentThinkContext(offset 0x36c, size 0x4, align 0x4)
+				CUtlVector< thinkfunc_t > m_aThinkFunctions(offset 0x370, size 0x18, align 0x8)
+				bool m_bDisabledContextThinks(offset 0x388, size 0x1, align 0x1)
+				uint8_t[3] unaccounted(offset 0x389)
+				float32 m_flAnimTime(offset 0x38c, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkPriority "0"
+					^MNetworkSerializer "animTimeSerializer"
+				float32 m_flSimulationTime(offset 0x390, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkPriority "1"
+					^MNetworkSerializer "simulationTimeSerializer"
+					^MNetworkChangeCallback "OnSimulationTimeChanged"
+				uint8 m_nSceneObjectOverrideFlags(offset 0x394, size 0x1, align 0x1)
+				bool m_bHasSuccessfullyInterpolated(offset 0x395, size 0x1, align 0x1)
+				bool m_bHasAddedVarsToInterpolation(offset 0x396, size 0x1, align 0x1)
+				bool m_bRenderEvenWhenNotSuccessfullyInterpolated(offset 0x397, size 0x1, align 0x1)
+				int32[2] m_nInterpolationLatchDirtyFlags(offset 0x398, size 0x8, align 0x4)
+				uint16[11] m_ListEntry(offset 0x3a0, size 0x16, align 0x2)
+				uint8_t[2] unaccounted(offset 0x3b6)
+				GameTime_t m_flCreateTime(offset 0x3b8, size 0x4, align 0x0)
+					^MNetworkEnable
+				float32 m_flSpeed(offset 0x3bc, size 0x4, align 0x4)
+					^MNetworkEnable
+				uint16 m_EntClientFlags(offset 0x3c0, size 0x2, align 0x2)
+				bool m_bClientSideRagdoll(offset 0x3c2, size 0x1, align 0x1)
+					^MNetworkEnable
+				uint8 m_iTeamNum(offset 0x3c3, size 0x1, align 0x1)
+					^MNetworkEnable
+					^MNetworkChangeCallback "OnNetVarTeamNumChanged"
+				uint32 m_spawnflags(offset 0x3c4, size 0x4, align 0x4)
+					^MNetworkEnable
+				GameTick_t m_nNextThinkTick(offset 0x3c8, size 0x4, align 0x0)
+					^MNetworkEnable
+					^MNetworkUserGroup "LocalPlayerExclusive"
+				uint32 m_fFlags(offset 0x3cc, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkPriority "32"
+					^MNetworkUserGroup "Player"
+					^MNetworkChangeCallback "OnFlagsChanged"
+				Vector m_vecAbsVelocity(offset 0x3d0, size 0xc, align 0x4)
+				uint8_t[4] unaccounted(offset 0x3dc)
+				CNetworkVelocityVector m_vecVelocity(offset 0x3e0, size 0x28, align 0x0)
+					^MNetworkEnable
+					^MNetworkUserGroup "LocalPlayerExclusive"
+					^MNetworkChangeCallback "OnLocalVelocityChanged"
+					^MNetworkPriority "32"
+				uint8_t[8] unaccounted(offset 0x408)
+				CHandle< C_BaseEntity > m_hEffectEntity(offset 0x410, size 0x4, align 0x4)
+					^MNetworkEnable
+				CHandle< C_BaseEntity > m_hOwnerEntity(offset 0x414, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkPriority "32"
+				MoveCollide_t m_MoveCollide(offset 0x418, size 0x1, align 0x1)
+					^MNetworkEnable
+				MoveType_t m_MoveType(offset 0x419, size 0x1, align 0x1)
+					^MNetworkEnable
+					^MNetworkChangeCallback "OnMoveTypeChanged"
+				MoveType_t m_nActualMoveType(offset 0x41a, size 0x1, align 0x1)
+				uint8_t[1] unaccounted(offset 0x41b)
+				float32 m_flWaterLevel(offset 0x41c, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkUserGroup "Water"
+					^MNetworkChangeCallback "OnWaterLevelChangeNetworked"
+					^MNetworkBitCount "8"
+					^MNetworkMinValue "0"
+					^MNetworkMaxValue "1"
+					^MNetworkEncodeFlags "8"
+				uint32 m_fEffects(offset 0x420, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkChangeCallback "OnEffectsChanged"
+				CHandle< C_BaseEntity > m_hGroundEntity(offset 0x424, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkPriority "32"
+					^MNetworkUserGroup "Player"
+				int32 m_nGroundBodyIndex(offset 0x428, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkPriority "32"
+					^MNetworkUserGroup "Player"
+				float32 m_flFriction(offset 0x42c, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkBitCount "8"
+					^MNetworkMinValue "0"
+					^MNetworkMaxValue "4"
+					^MNetworkEncodeFlags "1"
+					^MNetworkUserGroup "LocalPlayerExclusive"
+				float32 m_flElasticity(offset 0x430, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkEncoder "coord"
+				float32 m_flGravityScale(offset 0x434, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkUserGroup "LocalPlayerExclusive"
+				float32 m_flTimeScale(offset 0x438, size 0x4, align 0x4)
+					^MNetworkEnable
+					^MNetworkUserGroup "LocalPlayerExclusive"
+				bool m_bAnimatedEveryTick(offset 0x43c, size 0x1, align 0x1)
+					^MNetworkEnable
+					^MNetworkChangeCallback "OnInterpolationAmountChanged"
+				uint8_t[3] unaccounted(offset 0x43d)
+				GameTime_t m_flNavIgnoreUntilTime(offset 0x440, size 0x4, align 0x0)
+					^MNetworkEnable
+					^MNetworkChangeCallback "OnNavIgnoreChanged"
+				uint16 m_hThink(offset 0x444, size 0x2, align 0x2)
+				uint8_t[10] unaccounted(offset 0x446)
+				uint8 m_fBBoxVisFlags(offset 0x450, size 0x1, align 0x1)
+				bool m_bPredictable(offset 0x451, size 0x1, align 0x1)
+				bool m_bRenderWithViewModels(offset 0x452, size 0x1, align 0x1)
+				uint8_t[1] unaccounted(offset 0x453)
+				CSplitScreenSlot m_nSplitUserPlayerPredictionSlot(offset 0x454, size 0x4, align 0x4)
+				int32 m_nFirstPredictableCommand(offset 0x458, size 0x4, align 0x4)
+				int32 m_nLastPredictableCommand(offset 0x45c, size 0x4, align 0x4)
+				CHandle< C_BaseEntity > m_hOldMoveParent(offset 0x460, size 0x4, align 0x4)
+				uint8_t[4] unaccounted(offset 0x464)
+				CParticleProperty m_Particles(offset 0x468, size 0x28, align 0x0)
+				CUtlVector< float32 > m_vecPredictedScriptFloats(offset 0x490, size 0x18, align 0x8)
+				CUtlVector< int32 > m_vecPredictedScriptFloatIDs(offset 0x4a8, size 0x18, align 0x8)
+				uint8_t[24] unaccounted(offset 0x4c0)
+				int32 m_nNextScriptVarRecordID(offset 0x4d8, size 0x4, align 0x4)
+				uint8_t[12] unaccounted(offset 0x4dc)
+				QAngle m_vecAngVelocity(offset 0x4e8, size 0xc, align 0x4)
+				int32 m_DataChangeEventRef(offset 0x4f4, size 0x4, align 0x4)
+				CUtlVector< CEntityHandle > m_dependencies(offset 0x4f8, size 0x18, align 0x8)
+				int32 m_nCreationTick(offset 0x510, size 0x4, align 0x4)
+				uint8_t[9] unaccounted(offset 0x514)
+				bool m_bAnimTimeChanged(offset 0x51d, size 0x1, align 0x1)
+				bool m_bSimulationTimeChanged(offset 0x51e, size 0x1, align 0x1)
+				uint8_t[9] unaccounted(offset 0x51f)
+				CUtlString m_sUniqueHammerID(offset 0x528, size 0x8, align 0x8)
+				BloodType m_nBloodType(offset 0x530, size 0x4, align 0x4)
+					^MNetworkEnable
+				uint8_t[4] unaccounted(offset 0x534)
+			
+		
+		-----members of class C_BaseModelEntity-----
+			CRenderComponent* m_CRenderComponent(offset 0x538, size 0x8, align 0x8)
+				^MNetworkEnable
+				^MNetworkUserGroup "CRenderComponent"
+				^MNetworkAlias "CRenderComponent"
+				^MNetworkTypeAlias "CRenderComponent"
+			CHitboxComponent m_CHitboxComponent(offset 0x540, size 0x28, align 0x0)
+				^MNetworkEnable
+				^MNetworkUserGroup "CHitboxComponent"
+				^MNetworkAlias "CHitboxComponent"
+				^MNetworkTypeAlias "CHitboxComponent"
+			uint8_t[32] unaccounted(offset 0x568)
+			bool m_bInitModelEffects(offset 0x588, size 0x1, align 0x1)
+			bool m_bIsStaticProp(offset 0x589, size 0x1, align 0x1)
+			uint8_t[2] unaccounted(offset 0x58a)
+			int32 m_iViewerID(offset 0x58c, size 0x4, align 0x4)
+			int32 m_iTeamVisibilityBitmask(offset 0x590, size 0x4, align 0x4)
+			int32 m_nLastAddDecal(offset 0x594, size 0x4, align 0x4)
+			int32 m_nDecalsAdded(offset 0x598, size 0x4, align 0x4)
+			int32 m_iOldHealth(offset 0x59c, size 0x4, align 0x4)
+			RenderMode_t m_nRenderMode(offset 0x5a0, size 0x1, align 0x1)
+				^MNetworkEnable
+				^MNetworkChangeCallback "OnRenderModeChanged"
+			bool m_bVisibilityDirtyFlag(offset 0x5a1, size 0x1, align 0x1)
+			RenderFx_t m_nRenderFX(offset 0x5a2, size 0x1, align 0x1)
+				^MNetworkEnable
+			bool m_bAllowFadeInView(offset 0x5a3, size 0x1, align 0x1)
+			uint8_t[28] unaccounted(offset 0x5a4)
+			Color m_clrRender(offset 0x5c0, size 0x4, align 0x1)
+				^MNetworkEnable
+				^MNetworkChangeCallback "OnColorChanged"
+			uint8_t[4] unaccounted(offset 0x5c4)
+			C_UtlVectorEmbeddedNetworkVar< EntityRenderAttribute_t > m_vecRenderAttributes(offset 0x5c8, size 0x50, align 0x8)
+				^MNetworkEnable
+				^MNetworkChangeCallback "OnRenderAttributesChanged"
+			uint8_t[24] unaccounted(offset 0x618)
+			bool m_bRenderToCubemaps(offset 0x630, size 0x1, align 0x1)
+				^MNetworkEnable
+			bool m_bNoInterpolate(offset 0x631, size 0x1, align 0x1)
+				^MNetworkEnable
+			uint8_t[6] unaccounted(offset 0x632)
+			CCollisionProperty m_Collision(offset 0x638, size 0xb0, align 0x0)
+				^MNetworkEnable
+			CGlowProperty m_Glow(offset 0x6e8, size 0x58, align 0x0)
+				^MNetworkEnable
+			float32 m_flGlowBackfaceMult(offset 0x740, size 0x4, align 0x4)
+				^MNetworkEnable
+			float32 m_fadeMinDist(offset 0x744, size 0x4, align 0x4)
+				^MNetworkEnable
+			float32 m_fadeMaxDist(offset 0x748, size 0x4, align 0x4)
+				^MNetworkEnable
+			float32 m_flFadeScale(offset 0x74c, size 0x4, align 0x4)
+				^MNetworkEnable
+			float32 m_flShadowStrength(offset 0x750, size 0x4, align 0x4)
+				^MNetworkEnable
+			uint8 m_nObjectCulling(offset 0x754, size 0x1, align 0x1)
+				^MNetworkEnable
+			uint8_t[3] unaccounted(offset 0x755)
+			int32 m_nAddDecal(offset 0x758, size 0x4, align 0x4)
+				^MNetworkEnable
+			Vector m_vDecalPosition(offset 0x75c, size 0xc, align 0x4)
+				^MNetworkEnable
+			Vector m_vDecalForwardAxis(offset 0x768, size 0xc, align 0x4)
+				^MNetworkEnable
+			float32 m_flDecalHealBloodRate(offset 0x774, size 0x4, align 0x4)
+				^MNetworkEnable
+			float32 m_flDecalHealHeightRate(offset 0x778, size 0x4, align 0x4)
+				^MNetworkEnable
+			uint8_t[4] unaccounted(offset 0x77c)
+			C_NetworkUtlVectorBase< CHandle< C_BaseModelEntity > > m_ConfigEntitiesToPropagateMaterialDecalsTo(offset 0x780, size 0x18, align 0x8)
+				^MNetworkEnable
+			CNetworkViewOffsetVector m_vecViewOffset(offset 0x798, size 0x28, align 0x0)
+				^MNetworkEnable
+				^MNetworkPriority "32"
+				^MNetworkUserGroup "Player"
+				^MNetworkChangeCallback "OnViewOffsetChanged"
+			uint8_t[8] unaccounted(offset 0x7c0)
+			CClientAlphaProperty* m_pClientAlphaProperty(offset 0x7c8, size 0x8, align 0x8)
+			Color m_ClientOverrideTint(offset 0x7d0, size 0x4, align 0x1)
+			bool m_bUseClientOverrideTint(offset 0x7d4, size 0x1, align 0x1)
+			uint8_t[3] unaccounted(offset 0x7d5)
+		
+	
+	-----members of class C_BaseToggle-----
+		<no members>
+	
+
+-----members of class C_BaseButton-----
+	CHandle< C_BaseModelEntity > m_glowEntity(offset 0x7d8, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_usable(offset 0x7dc, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x7dd)
+	CUtlSymbolLarge m_szDisplayText(offset 0x7e0, size 0x8, align 0x8)
+		^MNetworkEnable
+

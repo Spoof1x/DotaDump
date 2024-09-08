@@ -1,0 +1,148 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CEmptySequence (hierarchy CEmptySequence: ISequence, IBaseSequence)
+	visbuilder.dll + 0x185ba0
+CEntityMsg (hierarchy CEntityMsg: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1893f0
+CMsgPlayerInfo (hierarchy CMsgPlayerInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189358
+CMsgQAngle (hierarchy CMsgQAngle: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1894d8
+CMsgQuaternion (hierarchy CMsgQuaternion: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189460
+CMsgRGBA (hierarchy CMsgRGBA: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189438
+CMsgTransform (hierarchy CMsgTransform: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189198
+CMsgVector (hierarchy CMsgVector: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1894b0
+CMsgVector2D (hierarchy CMsgVector2D: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189218
+CMsg_CVars (hierarchy CMsg_CVars: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189500
+CMsg_CVars_CVar (hierarchy CMsg_CVars_CVar: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189558
+CNETMsg_DebugOverlay (hierarchy CNETMsg_DebugOverlay: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189290
+CNETMsg_NOP (hierarchy CNETMsg_NOP: google::protobuf::internal::ZeroFieldsBase, google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1893b0
+CNETMsg_SetConVar (hierarchy CNETMsg_SetConVar: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189338
+CNETMsg_SignonState (hierarchy CNETMsg_SignonState: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189120
+CNETMsg_SpawnGroup_Load (hierarchy CNETMsg_SpawnGroup_Load: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189050
+CNETMsg_SpawnGroup_LoadCompleted (hierarchy CNETMsg_SpawnGroup_LoadCompleted: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189390
+CNETMsg_SpawnGroup_ManifestUpdate (hierarchy CNETMsg_SpawnGroup_ManifestUpdate: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189170
+CNETMsg_SpawnGroup_SetCreationTick (hierarchy CNETMsg_SpawnGroup_SetCreationTick: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189410
+CNETMsg_SpawnGroup_Unload (hierarchy CNETMsg_SpawnGroup_Unload: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1893c8
+CNETMsg_SplitScreenUser (hierarchy CNETMsg_SplitScreenUser: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1891c8
+CNETMsg_StringCmd (hierarchy CNETMsg_StringCmd: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189530
+CNETMsg_Tick (hierarchy CNETMsg_Tick: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189240
+CResourceCompilerMapVisibility
+	(hierarchy CResourceCompilerMapVisibility: CBaseAppSystem<class IResourceTypeCompilerDynamicLoad>, IResourceTypeCompilerDynamicLoad, IAppSystem, IResourceTypeCompiler)
+		visbuilder.dll + 0x1895c0
+	MI offset 8 (hierarchy IResourceTypeCompiler)
+		visbuilder.dll + 0x1895c8
+CSVCMsgList_GameEvents (hierarchy CSVCMsgList_GameEvents: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1891e8
+CSVCMsgList_GameEvents_event_t (hierarchy CSVCMsgList_GameEvents_event_t: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189488
+CSVCMsg_GameEvent (hierarchy CSVCMsg_GameEvent: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1890e0
+CSVCMsg_GameEvent_key_t (hierarchy CSVCMsg_GameEvent_key_t: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x189010
+CSVCMsg_GameSessionConfiguration (hierarchy CSVCMsg_GameSessionConfiguration: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x188fa0
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	visbuilder.dll + 0x194638
+CSchemaRegistration_visbuilder (hierarchy CSchemaRegistration_visbuilder: CSchemaRegistration)
+	visbuilder.dll + 0x189648
+CVisBuilderMgr (hierarchy CVisBuilderMgr: CTier3AppSystem<class IMapBuilderMgr,0>, CTier2AppSystem<class IMapBuilderMgr,0>, CTier1AppSystem<class IMapBuilderMgr,0>, CTier0AppSystem<class IMapBuilderMgr,0>, CBaseAppSystem<class IMapBuilderMgr>, IMapBuilderMgr, IAppSystem)
+	visbuilder.dll + 0x189620
+google::protobuf::DescriptorProto (hierarchy google::protobuf::DescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1850c0
+google::protobuf::DescriptorProto_ExtensionRange (hierarchy google::protobuf::DescriptorProto_ExtensionRange: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1851a8
+google::protobuf::DescriptorProto_ReservedRange (hierarchy google::protobuf::DescriptorProto_ReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1851d0
+google::protobuf::EnumDescriptorProto (hierarchy google::protobuf::EnumDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1851f0
+google::protobuf::EnumDescriptorProto_EnumReservedRange (hierarchy google::protobuf::EnumDescriptorProto_EnumReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185260
+google::protobuf::EnumOptions (hierarchy google::protobuf::EnumOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185280
+google::protobuf::EnumValueDescriptorProto (hierarchy google::protobuf::EnumValueDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1852d0
+google::protobuf::EnumValueOptions (hierarchy google::protobuf::EnumValueOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185300
+google::protobuf::ExtensionRangeOptions (hierarchy google::protobuf::ExtensionRangeOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185350
+google::protobuf::FieldDescriptorProto (hierarchy google::protobuf::FieldDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1853c0
+google::protobuf::FieldOptions (hierarchy google::protobuf::FieldOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185420
+google::protobuf::FileDescriptorProto (hierarchy google::protobuf::FileDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1854b0
+google::protobuf::FileDescriptorSet (hierarchy google::protobuf::FileDescriptorSet: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185588
+google::protobuf::FileOptions (hierarchy google::protobuf::FileOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1855c0
+google::protobuf::GeneratedCodeInfo (hierarchy google::protobuf::GeneratedCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185680
+google::protobuf::GeneratedCodeInfo_Annotation (hierarchy google::protobuf::GeneratedCodeInfo_Annotation: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1856b0
+google::protobuf::MessageOptions (hierarchy google::protobuf::MessageOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1856f0
+google::protobuf::MethodDescriptorProto (hierarchy google::protobuf::MethodDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185740
+google::protobuf::MethodOptions (hierarchy google::protobuf::MethodOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185780
+google::protobuf::OneofDescriptorProto (hierarchy google::protobuf::OneofDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185398
+google::protobuf::OneofOptions (hierarchy google::protobuf::OneofOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1857d0
+google::protobuf::ServiceDescriptorProto (hierarchy google::protobuf::ServiceDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185820
+google::protobuf::ServiceOptions (hierarchy google::protobuf::ServiceOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185860
+google::protobuf::SourceCodeInfo (hierarchy google::protobuf::SourceCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1858b0
+google::protobuf::SourceCodeInfo_Location (hierarchy google::protobuf::SourceCodeInfo_Location: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x1858e0
+google::protobuf::UninterpretedOption (hierarchy google::protobuf::UninterpretedOption: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185950
+google::protobuf::UninterpretedOption_NamePart (hierarchy google::protobuf::UninterpretedOption_NamePart: google::protobuf::Message, google::protobuf::MessageLite)
+	visbuilder.dll + 0x185488
+google::protobuf::internal::ImplicitWeakMessage (hierarchy google::protobuf::internal::ImplicitWeakMessage: google::protobuf::MessageLite)
+	visbuilder.dll + 0x185b40
+google::protobuf::internal::MapFieldAccessor (hierarchy google::protobuf::internal::MapFieldAccessor: google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	visbuilder.dll + 0x185a30
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64>: google::protobuf::internal::RepeatedFieldWrapper<__int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	visbuilder.dll + 0x185a00
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool>: google::protobuf::internal::RepeatedFieldWrapper<bool>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	visbuilder.dll + 0x185a20
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double>: google::protobuf::internal::RepeatedFieldWrapper<double>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	visbuilder.dll + 0x185a18
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float>: google::protobuf::internal::RepeatedFieldWrapper<float>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	visbuilder.dll + 0x185a10
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int>: google::protobuf::internal::RepeatedFieldWrapper<int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	visbuilder.dll + 0x1859f0
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64>: google::protobuf::internal::RepeatedFieldWrapper<unsigned __int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	visbuilder.dll + 0x185a08
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int>: google::protobuf::internal::RepeatedFieldWrapper<unsigned int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	visbuilder.dll + 0x1859f8
+google::protobuf::internal::RepeatedPtrFieldMessageAccessor (hierarchy google::protobuf::internal::RepeatedPtrFieldMessageAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class google::protobuf::Message>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	visbuilder.dll + 0x185a38
+google::protobuf::internal::RepeatedPtrFieldStringAccessor (hierarchy google::protobuf::internal::RepeatedPtrFieldStringAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	visbuilder.dll + 0x185a28
+std::_Generic_error_category (hierarchy std::_Generic_error_category: std::error_category)
+	visbuilder.dll + 0x186620
+std::_Iostream_error_category2 (hierarchy std::_Iostream_error_category2: std::error_category)
+	visbuilder.dll + 0x1859e0

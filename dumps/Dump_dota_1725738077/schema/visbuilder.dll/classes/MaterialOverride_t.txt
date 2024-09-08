@@ -1,0 +1,21 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class MaterialOverride_t (size: 0x18 bytes, project "visbuilder", binding @ visbuilder.dll + 0x187a30, scope "visbuilder.dll") extends BaseSceneObjectOverride_t
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: visbuilder.dll + 0x42440"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class BaseSceneObjectOverride_t (size: 0x4 bytes, project "visbuilder", binding @ visbuilder.dll + 0x187c60, scope "visbuilder.dll")
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: visbuilder.dll + 0x419c0"
+	
+	-----members of class BaseSceneObjectOverride_t-----
+		uint32 m_nSceneObjectIndex(offset 0x0, size 0x4, align 0x4)
+	
+
+-----members of class MaterialOverride_t-----
+	uint32 m_nSubSceneObject(offset 0x4, size 0x4, align 0x4)
+	uint32 m_nDrawCallIndex(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+	CStrongHandle< InfoForResourceTypeIMaterial2 > m_pMaterial(offset 0x10, size 0x8, align 0x8)
+

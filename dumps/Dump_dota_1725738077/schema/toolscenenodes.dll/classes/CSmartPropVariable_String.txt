@@ -1,0 +1,56 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropVariable_String (size: 0x30 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfaf70, scope "toolscenenodes.dll") extends CSmartPropVariable
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0x693650"
+^MPropertyFriendlyName "String"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropVariable (size: 0x28 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfaec0, scope "toolscenenodes.dll") extends CSmartPropParameter
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+	^MVDataRoot
+	^MVDataNodeType "1"
+	^MVDataAnonymousNode
+	^MVDataOutlinerNameExpr "m_VariableName"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropParameter (size: 0x10 bytes, project "smartprops", binding @ toolscenenodes.dll + 0xbfad90, scope "toolscenenodes.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: toolscenenodes.dll + 0xa4540"
+		^MVDataRoot
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		
+		-----members of class CSmartPropParameter-----
+			uint8_t[8] unaccounted(offset 0x0)
+			int32 m_nElementID(offset 0x8, size 0x4, align 0x4)
+				^MPropertySuppressField
+				^MVDataUniqueMonotonicInt "_editor/next_element_id"
+			uint8_t[4] unaccounted(offset 0xc)
+		
+	
+	-----members of class CSmartPropVariable-----
+		CUtlString m_VariableName(offset 0x10, size 0x8, align 0x8)
+		bool m_bExposeAsParameter(offset 0x18, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyDescription "If enabled, this value will be exposed as a parameter that can be set on the smart prop object in hammer."
+		uint8_t[7] unaccounted(offset 0x19)
+		CUtlString m_DisplayName(offset 0x20, size 0x8, align 0x8)
+			^MPropertySortPriority "-1"
+			^MPropertyReadonlyExpr "m_bExposeAsParameter == false"
+			^MPropertyFriendlyName "Parameter Display Name"
+			^MPropertyDescription "Name of the parameter which will appear as a property in the Hammer object properties ui when selecting an object using this smart prop."
+	
+
+-----members of class CSmartPropVariable_String-----
+	CUtlString m_DefaultValue(offset 0x28, size 0x8, align 0x8)
+

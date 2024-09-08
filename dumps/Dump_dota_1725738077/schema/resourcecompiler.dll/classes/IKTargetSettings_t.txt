@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class IKTargetSettings_t (size: 0x28 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242c0b0, scope "resourcecompiler.dll")
+
+-----members of class IKTargetSettings_t-----
+	IKTargetSource m_TargetSource(offset 0x0, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Target Source"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[4] unaccounted(offset 0x4)
+	IKBoneNameAndIndex_t m_Bone(offset 0x8, size 0x10, align 0x0)
+		^MPropertyFriendlyName "Bone"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5e29a0"
+	AnimParamID m_AnimgraphParameterNamePosition(offset 0x18, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Animgraph Position Parameter"
+		^MPropertyAttributeChoiceName "VectorParameter"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5e29b0"
+	AnimParamID m_AnimgraphParameterNameOrientation(offset 0x1c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Animgraph Orientation Parameter"
+		^MPropertyAttributeChoiceName "QuaternionParameter"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5e29b0"
+	IKTargetCoordinateSystem m_TargetCoordSystem(offset 0x20, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Target Coords"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5e29b0"
+	uint8_t[4] unaccounted(offset 0x24)
+

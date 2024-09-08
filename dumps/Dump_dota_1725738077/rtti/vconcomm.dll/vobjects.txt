@@ -1,0 +1,26 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CConCommandMemberAccessor<class CVConComm>
+	(hierarchy CConCommandMemberAccessor<class CVConComm>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		vconcomm.dll + 0x2f288
+		vconcomm.dll + 0x2f2b8
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		vconcomm.dll + 0x2f290
+		vconcomm.dll + 0x2f2c0
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	vconcomm.dll + 0x2e5a8
+CVConActiveStateMessage (hierarchy CVConActiveStateMessage: IVConCommDataReceived)
+	vconcomm.dll + 0x2d480
+CVConChannelPokeMessage (hierarchy CVConChannelPokeMessage: IVConCommDataReceived)
+	vconcomm.dll + 0x2d400
+CVConComm (hierarchy CVConComm: CTier2AppSystem<class IVConComm,0>, CTier1AppSystem<class IVConComm,0>, CTier0AppSystem<class IVConComm,0>, CBaseAppSystem<class IVConComm>, IVConComm, CBaseAppSystem<class IAppSystem>, IAppSystem)
+	vconcomm.dll + 0x2f260
+CVConPingMessage (hierarchy CVConPingMessage: IVConCommDataReceived)
+	vconcomm.dll + 0x2d3f0
+CVConUserNameMessage (hierarchy CVConUserNameMessage: IVConCommDataReceived)
+	vconcomm.dll + 0x2d420
+CVConsoleConVarListener (hierarchy CVConsoleConVarListener: IConVarListener)
+	vconcomm.dll + 0x2d3f8
+CVConsoleLoggingListener (hierarchy CVConsoleLoggingListener: ILoggingListener)
+	vconcomm.dll + 0x2d410
+CVConsoleModuleMappingListener (hierarchy CVConsoleModuleMappingListener: IModuleMappingListener)
+	vconcomm.dll + 0x2d408

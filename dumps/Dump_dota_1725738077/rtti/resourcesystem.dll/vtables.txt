@@ -1,0 +1,75 @@
+CAsyncResourceDataRequest
+	resourcesystem.dll + 0x51638(hierarchy CAsyncResourceDataRequest: IAsyncResourceDataRequest)
+CAsyncResourceDataRequest::CAsyncProcessDataThread
+	resourcesystem.dll + 0x51688(hierarchy CAsyncResourceDataRequest::CAsyncProcessDataThread: CThread)
+CCodeResourceManifestManager
+	resourcesystem.dll + 0x51880(hierarchy CCodeResourceManifestManager: ICodeResourceManifestManager)
+CConCommandMemberAccessor<class CResourceSystemProfiler>
+	resourcesystem.dll + 0x51f68(hierarchy CConCommandMemberAccessor<class CResourceSystemProfiler>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+	resourcesystem.dll + 0x51fe0 MI offset 8(hierarchy ICommandCompletionCallback)
+CDefaultKV3TransferResourceTypeManager<500152235126>
+	resourcesystem.dll + 0x54708(hierarchy CDefaultKV3TransferResourceTypeManager<500152235126>: CKV3ResourceTypeManager<500152235126>, IResourceTypeManager)
+CExampleSchemaVData_PolymorphicBase
+	resourcesystem.dll + 0x47638(hierarchy CExampleSchemaVData_PolymorphicBase)
+CExampleSchemaVData_PolymorphicDerivedA
+	resourcesystem.dll + 0x47660(hierarchy CExampleSchemaVData_PolymorphicDerivedA: CExampleSchemaVData_PolymorphicBase)
+CExampleSchemaVData_PolymorphicDerivedB
+	resourcesystem.dll + 0x47688(hierarchy CExampleSchemaVData_PolymorphicDerivedB: CExampleSchemaVData_PolymorphicBase)
+CKV3ResourceBlockHelper
+	resourcesystem.dll + 0x54918(hierarchy CKV3ResourceBlockHelper: IAsyncProcessedDataResult)
+CKV3TransferContextBase
+	resourcesystem.dll + 0x48ef0(hierarchy CKV3TransferContextBase: IErrorListener)
+CKV3TransferLoadContext
+	resourcesystem.dll + 0x48f60(hierarchy CKV3TransferLoadContext: CKV3TransferContextBase, IErrorListener)
+CKV3TransferSaveContext
+	resourcesystem.dll + 0x48f28(hierarchy CKV3TransferSaveContext: CKV3TransferContextBase, IErrorListener)
+CKV3Transfer_ResourceLoadInterface
+	resourcesystem.dll + 0x547c0(hierarchy CKV3Transfer_ResourceLoadInterface: IKV3TransferInterface_ResourceLoad)
+CLoadingResource
+	resourcesystem.dll + 0x51be8(hierarchy CLoadingResource: IAsyncResourceDataRequestOwner)
+CNullTypeManager
+	resourcesystem.dll + 0x54818(hierarchy CNullTypeManager: IResourceTypeManager)
+CPostConnectCallback
+	resourcesystem.dll + 0x48890(hierarchy CPostConnectCallback)
+CRD_RegisterResourceDataUtils
+	resourcesystem.dll + 0x51b98(hierarchy CRD_RegisterResourceDataUtils: IRD_RegisterResourceDataUtils)
+CResourceConstructor
+	resourcesystem.dll + 0x54908(hierarchy CResourceConstructor: ITSHashConstructor<struct ResourceBindingBase_t>)
+CResourceDeallocatorUtils
+	resourcesystem.dll + 0x51c30(hierarchy CResourceDeallocatorUtils: IResourceDeallocatorUtils)
+CResourceManifestTypeManager
+	resourcesystem.dll + 0x51ff0(hierarchy CResourceManifestTypeManager: IResourceTypeManager)
+CResourceSystem
+	resourcesystem.dll + 0x54458(hierarchy CResourceSystem: CTier2AppSystem<class IResourceSystem,0>, CTier1AppSystem<class IResourceSystem,0>, CTier0AppSystem<class IResourceSystem,0>, CBaseAppSystem<class IResourceSystem>, IResourceSystem, IAppSystem, IResourceSystemUtils, IResourceHandleUtils, IResourceManifestRegistry)
+	resourcesystem.dll + 0x547d0 MI offset 40(hierarchy IResourceSystemUtils: IResourceHandleUtils, IResourceManifestRegistry)
+	resourcesystem.dll + 0x54950 MI offset 48(hierarchy IResourceHandleUtils: IResourceManifestRegistry)
+	resourcesystem.dll + 0x548d0 MI offset 56(hierarchy IResourceManifestRegistry)
+CResourceSystemLeakTracker
+	resourcesystem.dll + 0x54ae8(hierarchy CResourceSystemLeakTracker: IResourceSystemLeakTracker)
+CResourceSystemProfiler
+	resourcesystem.dll + 0x51fa0(hierarchy CResourceSystemProfiler: IResourceSystemProfiler)
+CSchemaInstallCallback
+	resourcesystem.dll + 0x49128(hierarchy CSchemaInstallCallback: CPostConnectCallback)
+CSchemaRegistration_mathlib_extended
+	resourcesystem.dll + 0x45a90(hierarchy CSchemaRegistration_mathlib_extended: CSchemaRegistration)
+CSchemaRegistration_resourcefile
+	resourcesystem.dll + 0x473d8(hierarchy CSchemaRegistration_resourcefile: CSchemaRegistration)
+CSchemaRegistration_resourcesystem
+	resourcesystem.dll + 0x55a28(hierarchy CSchemaRegistration_resourcesystem: CSchemaRegistration)
+CStreamingResourceData
+	resourcesystem.dll + 0x54b10(hierarchy CStreamingResourceData: IAsyncResourceDataRequestOwner)
+CVConResourceProfileCommandHandler
+	resourcesystem.dll + 0x51f90(hierarchy CVConResourceProfileCommandHandler: IVConCommDataReceived)
+CVDataTypeManager
+	resourcesystem.dll + 0x54c90(hierarchy CVDataTypeManager: CKV3ResourceTypeManager<418564367478>, IResourceTypeManager, IVDataTypeManager)
+	resourcesystem.dll + 0x54c78 MI offset 48(hierarchy IVDataTypeManager)
+IAsyncProcessedDataResult
+	resourcesystem.dll + 0x548f8(hierarchy IAsyncProcessedDataResult)
+std::_Func_impl_no_alloc<class `private: void __cdecl CAsyncResourceDataRequest::InitForFileRead(struct ResourceBindingBase_t const * __ptr64,enum ResourceManifestLoadPriority_t,bool,char const * __ptr64) __ptr64'::`2'::<lambda_1>,void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>
+	resourcesystem.dll + 0x516c8(hierarchy std::_Func_impl_no_alloc<class `private: void __cdecl CAsyncResourceDataRequest::InitForFileRead(struct ResourceBindingBase_t const * __ptr64,enum ResourceManifestLoadPriority_t,bool,char const * __ptr64) __ptr64'::`2'::<lambda_1>,void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>: std::_Func_base<void,class IAsyncReadRequest2 * __ptr64,enum AsyncRequestStatus_t>)
+std::bad_exception
+	resourcesystem.dll + 0x4a318(hierarchy std::bad_exception: std::exception)
+std::exception
+	resourcesystem.dll + 0x49190(hierarchy std::exception)
+type_info
+	resourcesystem.dll + 0x4a1d8(hierarchy type_info)

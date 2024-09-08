@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AmmoTypeInfo_t (size: 0x38 bytes, project "server", binding @ server.dll + 0x38c7ec0, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: server.dll + 0x28ea60"
+
+-----members of class AmmoTypeInfo_t-----
+	uint8_t[16] unaccounted(offset 0x0)
+	int32 m_nMaxCarry(offset 0x10, size 0x4, align 0x4)
+	uint8_t[8] unaccounted(offset 0x14)
+	CRangeInt m_nSplashSize(offset 0x1c, size 0x8, align 0x0)
+	AmmoFlags_t m_nFlags(offset 0x24, size 0x4, align 0x4)
+	float32 m_flMass(offset 0x28, size 0x4, align 0x4)
+	CRangeFloat m_flSpeed(offset 0x2c, size 0x8, align 0x0)
+	uint8_t[4] unaccounted(offset 0x34)
+

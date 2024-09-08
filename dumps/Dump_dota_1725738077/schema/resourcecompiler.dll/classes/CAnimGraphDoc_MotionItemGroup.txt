@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_MotionItemGroup (size: 0x70 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f65d0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5ccf60"
+^MPropertyFriendlyName "Motion Clip Group"
+
+-----members of class CAnimGraphDoc_MotionItemGroup-----
+	uint8_t[32] unaccounted(offset 0x0)
+	CUtlVector< CSmartPtr< CAnimGraphDoc_MotionItem > > m_motions(offset 0x20, size 0x18, align 0x8)
+		^MPropertyHideField
+	CUtlString m_name(offset 0x38, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Name"
+	CAnimGraphDoc_ConditionContainer m_conditions(offset 0x40, size 0x30, align 0x8)
+

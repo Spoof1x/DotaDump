@@ -1,0 +1,11 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SolidType_t(size: 1 bytes, 9 values, project "client", binding @ client.dll + 0x4711e40):
+	SOLID_NONE = 0,
+	SOLID_BSP = 1,
+	SOLID_BBOX = 2,
+	SOLID_OBB = 3,
+	SOLID_SPHERE = 4,
+	SOLID_POINT = 5,
+	SOLID_VPHYSICS = 6,
+	SOLID_CAPSULE = 7,
+	SOLID_LAST = 8,

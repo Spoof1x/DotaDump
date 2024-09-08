@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphDocNode (size: 0x48 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23da3b0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+
+-----members of class CNmGraphDocNode-----
+	uint8_t[8] unaccounted(offset 0x0)
+	V_uuid_t m_ID(offset 0x8, size 0x10, align 0x4)
+		^MPropertySuppressField
+	CUtlString m_name(offset 0x18, size 0x8, align 0x8)
+		^MPropertyHideField
+	CUtlString m_floatingComment(offset 0x20, size 0x8, align 0x8)
+	Vector2D m_position(offset 0x28, size 0x8, align 0x4)
+		^MPropertySuppressField
+	uint8_t[8] unaccounted(offset 0x30)
+	CNmGraphDocGraph* m_pChildGraph(offset 0x38, size 0x8, align 0x8)
+		^MPropertySuppressField
+	CNmGraphDocGraph* m_pSecondaryGraph(offset 0x40, size 0x8, align 0x8)
+		^MPropertySuppressField
+

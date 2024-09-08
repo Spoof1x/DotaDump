@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNetworkVarChainer (size: 0x28 bytes, project "entity2", binding @ client.dll + 0x48fb220, scope "client.dll")
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+
+-----members of class CNetworkVarChainer-----
+	uint8_t[32] unaccounted(offset 0x0)
+	ChangeAccessorFieldPathIndex_t m_PathIndex(offset 0x20, size 0x4, align 0x0)
+		^MNetworkDisable
+		^MNetworkChangeAccessorFieldPathIndex
+	uint8_t[4] unaccounted(offset 0x24)
+

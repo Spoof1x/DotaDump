@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimMorphDifference (size: 0x10 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f2860, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x41450"
+
+-----members of class CAnimMorphDifference-----
+	CBufferString m_name(offset 0x0, size 0x10, align 0x8)
+

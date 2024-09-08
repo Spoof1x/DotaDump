@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ParticleLightUnitChoiceList_t(size: 4 bytes, 2 values, project "particles", binding @ particles.dll + 0x5449a0):
+	PARTICLE_LIGHT_UNIT_CANDELAS = 0,
+		^MPropertyFriendlyName "Candelas"
+	PARTICLE_LIGHT_UNIT_LUMENS = 1,
+		^MPropertyFriendlyName "Lumens"

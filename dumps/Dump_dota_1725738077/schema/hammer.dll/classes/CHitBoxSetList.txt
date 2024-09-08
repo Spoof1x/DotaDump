@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CHitBoxSetList (size: 0x18 bytes, project "modellib", binding @ hammer.dll + 0x1dae6f0, scope "hammer.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: hammer.dll + 0xd85e40"
+
+-----members of class CHitBoxSetList-----
+	CUtlVector< CHitBoxSet > m_HitBoxSets(offset 0x0, size 0x18, align 0x8)
+

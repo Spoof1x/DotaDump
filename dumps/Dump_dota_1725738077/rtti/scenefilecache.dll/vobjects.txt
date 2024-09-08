@@ -1,0 +1,19 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CResponseDoc_Node (hierarchy CResponseDoc_Node)
+	scenefilecache.dll + 0x690f0
+CResponseRulesFileCache
+	(hierarchy CResponseRulesFileCache: CTier1AppSystem<class IResponseRulesFileCache,0>, CTier0AppSystem<class IResponseRulesFileCache,0>, CBaseAppSystem<class IResponseRulesFileCache>, IResponseRulesFileCache, IAppSystem, IToolsResourceListener)
+		scenefilecache.dll + 0x6b110
+	MI offset 8 (hierarchy IToolsResourceListener)
+		scenefilecache.dll + 0x6b118
+CResponseRulesTypeManager (hierarchy CResponseRulesTypeManager: IResourceTypeManager)
+	scenefilecache.dll + 0x6aba0
+CSceneFileCache
+	(hierarchy CSceneFileCache: CTier2AppSystem<class ISceneFileCache,0>, CTier1AppSystem<class ISceneFileCache,0>, CTier0AppSystem<class ISceneFileCache,0>, CBaseAppSystem<class ISceneFileCache>, ISceneFileCache, CBaseAppSystem<class IAppSystem>, IAppSystem, IAddonListChangeNotify)
+		scenefilecache.dll + 0x6b280
+	MI offset 40 (hierarchy IAddonListChangeNotify)
+		scenefilecache.dll + 0x6b2a8
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	scenefilecache.dll + 0x6da38
+CSchemaRegistration_scenefilecache (hierarchy CSchemaRegistration_scenefilecache: CSchemaRegistration)
+	scenefilecache.dll + 0x6b328

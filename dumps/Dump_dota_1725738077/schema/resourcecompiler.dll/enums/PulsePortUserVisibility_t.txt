@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PulsePortUserVisibility_t(size: 4 bytes, 3 values, project "pulsedoc_lib", binding @ resourcecompiler.dll + 0x24b2c80):
+	UNSPECIFIED = 0,
+	SHOW = 1,
+	HIDE = 2,

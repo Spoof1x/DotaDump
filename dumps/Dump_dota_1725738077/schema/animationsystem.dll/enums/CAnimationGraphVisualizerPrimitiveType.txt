@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CAnimationGraphVisualizerPrimitiveType(size: 4 bytes, 5 values, project "animgraphlib", binding @ animationsystem.dll + 0x5a6e90):
+	ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Text = 0,
+	ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Sphere = 1,
+	ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Line = 2,
+	ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Pie = 3,
+	ANIMATIONGRAPHVISUALIZERPRIMITIVETYPE_Axis = 4,

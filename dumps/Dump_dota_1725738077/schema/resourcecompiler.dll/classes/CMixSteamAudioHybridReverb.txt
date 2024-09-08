@@ -1,0 +1,61 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMixSteamAudioHybridReverb (size: 0x40 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24c0f70, scope "!GlobalTypes") extends CMixPropertyBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1607c10"
+^MPropertyFriendlyName "VMix Steam Audio Hybrid Reverb Node"
+^MPropertyDescription "Applies Steam Audio Hybrid Reverb."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CMixPropertyBase (size: 0x20 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bbaa0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x157f160"
+	
+	-----members of class CMixPropertyBase-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x8, size 0x8, align 0x8)
+			^MPropertyDescription "Node name"
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "1"
+		CUtlString m_Comment(offset 0x10, size 0x8, align 0x8)
+			^MPropertyDescription "Description of how this is used  the graph for people reading the graph"
+			^MPropertySortPriority "-2"
+		bool m_bActive(offset 0x18, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bSolo(offset 0x19, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		bool m_bEditProperties(offset 0x1a, size 0x1, align 0x1)
+			^MPropertySortPriority "-1"
+			^MPropertyHideField
+		uint8_t[5] unaccounted(offset 0x1b)
+	
+
+-----members of class CMixSteamAudioHybridReverb-----
+	float32 m_flReverbTimeLow(offset 0x20, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Reverb Time (RT60), Low Frequency"
+		^MPropertyAttributeRange "0.1 10.0"
+	float32 m_flReverbTimeMid(offset 0x24, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Reverb Time (RT60), Mid Frequency"
+		^MPropertyAttributeRange "0.1 10.0"
+	float32 m_flReverbTimeHigh(offset 0x28, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Reverb Time (RT60), High Frequency"
+		^MPropertyAttributeRange "0.1 10.0"
+	float32 m_flEQLow(offset 0x2c, size 0x4, align 0x4)
+		^MPropertyFriendlyName "EQ, Low Frequency (dB)"
+		^MPropertyAttributeRange "-24 24"
+	float32 m_flEQMid(offset 0x30, size 0x4, align 0x4)
+		^MPropertyFriendlyName "EQ, Mid Frequency (dB)"
+		^MPropertyAttributeRange "-24 24"
+	float32 m_flEQHigh(offset 0x34, size 0x4, align 0x4)
+		^MPropertyFriendlyName "EQ, High Frequency (dB)"
+		^MPropertyAttributeRange "-24 24"
+	float32 m_flDelay(offset 0x38, size 0x4, align 0x4)
+		^MPropertyFriendlyName "Delay (seconds)"
+		^MPropertyAttributeRange "0.0 5.0"
+	uint8_t[4] unaccounted(offset 0x3c)
+

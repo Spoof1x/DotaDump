@@ -1,0 +1,11 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EHighPriorityMMState(size: 4 bytes, 9 values, project "server", binding @ server.dll + 0x38db0e0):
+	k_EHighPriorityMM_Unknown = 0,
+	k_EHighPriorityMM_MissingMMData = 1,
+	k_EHighPriorityMM_ResourceMissing = 2,
+	k_EHighPriorityMM_ManuallyDisabled = 3,
+	k_EHighPriorityMM_Min_Enabled = 64,
+	k_EHighPriorityMM_AllRolesSelected = 65,
+	k_EHighPriorityMM_UsingResource = 66,
+	k_EHighPriorityMM_FiveStack = 67,
+	k_EHighPriorityMM_HighDemand = 68,

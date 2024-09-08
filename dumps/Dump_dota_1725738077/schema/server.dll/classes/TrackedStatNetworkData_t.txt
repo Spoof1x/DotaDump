@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TrackedStatNetworkData_t (size: 0x30 bytes, project "server", binding @ server.dll + 0x3add870, scope "server.dll")
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+^MNetworkVarNames "unStatID TrackedStatID_t"
+^MNetworkVarNames "unStatValue TrackedStatValue_t"
+
+-----members of class TrackedStatNetworkData_t-----
+	uint8_t[40] unaccounted(offset 0x0)
+	TrackedStatID_t unStatID(offset 0x28, size 0x4, align 0x0)
+		^MNetworkEnable
+	TrackedStatValue_t unStatValue(offset 0x2c, size 0x4, align 0x0)
+		^MNetworkEnable
+

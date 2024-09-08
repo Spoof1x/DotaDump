@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmSkeleton (size: 0x78 bytes, project "animlib", binding @ resourcecompiler.dll + 0x2444c60, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x80f460"
+
+-----members of class CNmSkeleton-----
+	CGlobalSymbol m_ID(offset 0x0, size 0x8, align 0x8)
+	CUtlLeanVector< CGlobalSymbol > m_boneIDs(offset 0x8, size 0x10, align 0x8)
+	CUtlVector< int32 > m_parentIndices(offset 0x18, size 0x18, align 0x8)
+	CUtlVector< CTransform > m_parentSpaceReferencePose(offset 0x30, size 0x18, align 0x8)
+	CUtlVector< CTransform > m_modelSpaceReferencePose(offset 0x48, size 0x18, align 0x8)
+	int32 m_numBonesToSampleAtLowLOD(offset 0x60, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x64)
+	CUtlLeanVector< CNmBoneMask > m_boneMasks(offset 0x68, size 0x10, align 0x8)
+

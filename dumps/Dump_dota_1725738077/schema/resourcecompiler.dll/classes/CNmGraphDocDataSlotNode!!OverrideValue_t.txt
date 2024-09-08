@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphDocDataSlotNode::OverrideValue_t (size: 0xe8 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23d8c80, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x414360"
+
+-----members of class CNmGraphDocDataSlotNode::OverrideValue_t-----
+	CGlobalSymbol m_variationID(offset 0x0, size 0x8, align 0x8)
+	CResourceName m_resourceName(offset 0x8, size 0xe0, align 0x8)
+

@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CHeadLookParams (size: 0x20 bytes, project "server", binding @ server.dll + 0x3af8870, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----static members of class CHeadLookParams-----
+	static CHeadLookParams ms_Defaults(server.dll + 0x3af8b80)
+
+-----members of class CHeadLookParams-----
+	CHeadLookParams::HeadLookPriority_t m_LookPriority(offset 0x0, size 0x4, align 0x4)
+	float32 m_flLookDuration(offset 0x4, size 0x4, align 0x4)
+	INextBotReply* m_pReplyWhenAimed(offset 0x8, size 0x8, align 0x8)
+	char* m_pReasonStr(offset 0x10, size 0x8, align 0x8)
+	bool m_bWaitForSteady(offset 0x18, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x19)
+	float32 m_flEaseInTime(offset 0x1c, size 0x4, align 0x4)
+

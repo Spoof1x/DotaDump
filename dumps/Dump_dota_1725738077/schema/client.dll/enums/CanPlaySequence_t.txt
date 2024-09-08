@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CanPlaySequence_t(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x46e91c0):
+	CANNOT_PLAY = 0,
+	CAN_PLAY_NOW = 1,
+	CAN_PLAY_ENQUEUED = 2,

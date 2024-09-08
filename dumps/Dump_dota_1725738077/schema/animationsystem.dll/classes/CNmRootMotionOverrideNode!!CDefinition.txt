@@ -1,0 +1,52 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmRootMotionOverrideNode::CDefinition (size: 0x30 bytes, project "animlib", binding @ animationsystem.dll + 0x5dc000, scope "!GlobalTypes") extends CNmPassthroughNode::CDefinition
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x310670"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmPassthroughNode::CDefinition (size: 0x18 bytes, project "animlib", binding @ animationsystem.dll + 0x5dfe80, scope "!GlobalTypes") extends CNmPoseNode::CDefinition
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x338d30"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmPoseNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ animationsystem.dll + 0x5e0ff0, scope "!GlobalTypes") extends CNmGraphNode::CDefinition
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmGraphNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ animationsystem.dll + 0x5e0f70, scope "!GlobalTypes")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: animationsystem.dll + 0x316c0"
+			
+			-----members of class CNmGraphNode::CDefinition-----
+				uint8_t[8] unaccounted(offset 0x0)
+				int16 m_nNodeIdx(offset 0x8, size 0x2, align 0x2)
+				uint8_t[6] unaccounted(offset 0xa)
+			
+		
+		-----members of class CNmPoseNode::CDefinition-----
+			<no members>
+		
+	
+	-----members of class CNmPassthroughNode::CDefinition-----
+		int16 m_nChildNodeIdx(offset 0x10, size 0x2, align 0x2)
+		uint8_t[6] unaccounted(offset 0x12)
+	
+
+-----members of class CNmRootMotionOverrideNode::CDefinition-----
+	int16 m_desiredMovingVelocityNodeIdx(offset 0x18, size 0x2, align 0x2)
+	int16 m_desiredFacingDirectionNodeIdx(offset 0x1a, size 0x2, align 0x2)
+	int16 m_linearVelocityLimitNodeIdx(offset 0x1c, size 0x2, align 0x2)
+	int16 m_angularVelocityLimitNodeIdx(offset 0x1e, size 0x2, align 0x2)
+	float32 m_maxLinearVelocity(offset 0x20, size 0x4, align 0x4)
+	float32 m_maxAngularVelocityRadians(offset 0x24, size 0x4, align 0x4)
+	CNmBitFlags m_overrideFlags(offset 0x28, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x2c)
+

@@ -1,0 +1,23 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ToolsOptionsEditableData_t (size: 0x8 bytes, project "hammer", binding @ hammer.dll + 0x1e0a4e0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class ToolsOptionsEditableData_t-----
+	bool bTranslateToolAlignToSurface(offset 0x0, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Translate Tool Align To Surface"
+	bool bRotateToolUseRelativeMode(offset 0x1, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Rotate Tool Use Relative Mode"
+	bool bPivotToolSnapToBBox(offset 0x2, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Pivot Tool Snap To Bounding Box"
+	bool bEdgeSelectionPreviewEdgeLength(offset 0x3, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Show edge length on edge selection preview"
+	bool bShowSelectionBounds(offset 0x4, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Show selection bounding box"
+	bool bShowSelectionDimensions(offset 0x5, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Show selection dimensions"
+	bool bShowSelectedEdgeAngles(offset 0x6, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Show angles between selected edge pairs"
+	bool bConvertMeshHardEdgesFromUVBoundaries(offset 0x7, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Set hard edges from UVs when converting a model to a mesh"
+

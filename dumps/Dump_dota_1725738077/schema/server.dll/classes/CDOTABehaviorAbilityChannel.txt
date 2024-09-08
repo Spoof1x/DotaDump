@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABehaviorAbilityChannel (size: 0x88 bytes, project "server", binding @ server.dll + 0x3ae37d0, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class CDOTABehaviorAbilityChannel-----
+	uint8_t[96] unaccounted(offset 0x0)
+	CountdownTimer m_timer(offset 0x60, size 0x18, align 0x0)
+	float32 m_flAbilityChannelDuration(offset 0x78, size 0x4, align 0x4)
+	CHandle< CBaseEntity > m_hAbility(offset 0x7c, size 0x4, align 0x4)
+	CHandle< CBaseEntity > m_hTarget(offset 0x80, size 0x4, align 0x4)
+	bool m_bCompletedChanneling(offset 0x84, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x85)
+

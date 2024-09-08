@@ -1,0 +1,82 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropElement_PlaceOnPath (size: 0x2c0 bytes, project "smartprops", binding @ hammer.dll + 0x1dd2ea0, scope "hammer.dll") extends CSmartPropElement_Group
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: hammer.dll + 0x106b110"
+^MPropertyFriendlyName "Place on Path"
+^MPropertyDescription "An element which places an instance of its child elements at a specified interval along a path."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropElement_Group (size: 0xa0 bytes, project "smartprops", binding @ hammer.dll + 0x1dcccb0, scope "hammer.dll") extends CSmartPropElement
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: hammer.dll + 0x101fbc0"
+	^MPropertyFriendlyName "Group"
+	^MPropertyDescription "A group of elements that will all be evaulated."
+	^MVDataOutlinerLabelExpr "m_sLabel"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropElement (size: 0x80 bytes, project "smartprops", binding @ hammer.dll + 0x1dcc910, scope "hammer.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: hammer.dll + 0x101f4d0"
+		^MVDataBase
+		^MVDataNodeType "1"
+		^MVDataAnonymousNode
+		^MPropertyFriendlyName "Smart Prop Element"
+		
+		-----members of class CSmartPropElement-----
+			uint8_t[8] unaccounted(offset 0x0)
+			int32 m_nElementID(offset 0x8, size 0x4, align 0x4)
+				^MPropertySuppressField
+				^MVDataUniqueMonotonicInt "_editor/next_element_id"
+			uint8_t[4] unaccounted(offset 0xc)
+			CSmartPropAttributeBool m_bEnabled(offset 0x10, size 0x40, align 0x8)
+				^MVDataEnableKey
+				^MPropertyDescription "Is this element enabled? If not enabled, this element will not be evaluted and will have no effect on the result."
+				^MPropertySortPriority "10"
+			CUtlVector< CSmartPropSelectionCriteria* > m_SelectionCriteria(offset 0x50, size 0x18, align 0x8)
+				^MPropertyFriendlyName "Selection Criteria"
+				^MVDataPromoteField "2"
+			CUtlVector< CSmartPropModifier* > m_Modifiers(offset 0x68, size 0x18, align 0x8)
+				^MPropertyFriendlyName "Modifiers"
+				^MVDataPromoteField "2"
+		
+	
+	-----members of class CSmartPropElement_Group-----
+		CUtlVector< CSmartPropElement* > m_Children(offset 0x80, size 0x18, align 0x8)
+			^MPropertyFriendlyName "Children"
+			^MPropertyDescription "List of child elements which will appear if this element appears"
+			^MVDataPromoteField "1"
+		CUtlString m_sLabel(offset 0x98, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Label"
+			^MPropertyDescription "Optional text that will appear in the outliner to help organize Smart Prop elements and communicate their purpose to other users."
+	
+
+-----members of class CSmartPropElement_PlaceOnPath-----
+	CUtlString m_PathName(offset 0xa0, size 0x8, align 0x8)
+		^MPropertyDescription "Name of the path to use. This path name will show up in the property editor when selecting a placement of this smart prop in Hammer, allowing selection of a path object in the map to use."
+	CSmartPropAttributeFloat m_flSpacing(offset 0xa8, size 0x40, align 0x8)
+		^MPropertyDescription "Spacing between points on the path"
+	CSmartPropAttributeFloat m_flOffsetAlongPath(offset 0xe8, size 0x40, align 0x8)
+		^MPropertyDescription "Offset from the start of the path to place the first point."
+	CSmartPropAttributeVector2D m_vPathOffset(offset 0x128, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Offset from path"
+		^MPropertyDescription "Offset to apply to the path, specifies a horizontal and vertical offset to apply relative to the up direction."
+	CSmartPropAttributeCoordinateSpace m_PathSpace(offset 0x168, size 0x40, align 0x0)
+		^MPropertyFriendlyName "Path Evaluation Space"
+		^MPropertyDescription "Specifies the space in which the provided input path is to be evalauted.<br><br><b>World Space</b>: The input path will be evaluated in world space, such that child elements will be placed directly on the target path regardless of the transform of the smart prop object. <br><b>Object Space</b>: The world space transform of the input path will be ignored and instead the path will be evaluated relative to the transform of the smart prop object. <br><b>Element Space</b>: The world space transform of the input path will be ignored and instead the path will be evaluated relative to the transform of the current element within the smart prop. "
+	CSmartPropAttributeBool m_bUseFixedUpDirection(offset 0x1a8, size 0x40, align 0x8)
+		^MPropertyDescription "If true, treat the specified up direction as fixed up direction to apply to all elements placed on the path. If false the up direction is just an initial direction."
+	CSmartPropAttributeBool m_bUseProjectedDistance(offset 0x1e8, size 0x40, align 0x8)
+		^MPropertyDescription "Compute the spacing distance in the 2d plane defined by the up direction. Most useful when using a fixed up direction, if maintaining a distance in the 2d plane is more important than maintaing distance along the path."
+	CSmartPropAttributeVector m_vUpDirection(offset 0x228, size 0x40, align 0x8)
+		^MPropertyDescription "If not using a fixed up direction, provides an initial up direction which will be used to determine the orientation of first element on the path, after that the elements will incrementally update to follow the path and may not match this direction. If Use Fixed Up direction is specified, then all elements will use this direction to deterime their up direction."
+	CSmartPropAttributeCoordinateSpace m_UpDirectionSpace(offset 0x268, size 0x40, align 0x0)
+		^MPropertyDescription "Space in which the up direction is defined."
+	CUtlVector< Vector > m_DefaultPath(offset 0x2a8, size 0x18, align 0x8)
+		^MPropertyDescription "A set of points defining a path to use when an external path isn't specified. This will be used in the preview and thumbnail for the smart prop. It will also be used when the smart prop is placed in Hammer before a path is selected."
+

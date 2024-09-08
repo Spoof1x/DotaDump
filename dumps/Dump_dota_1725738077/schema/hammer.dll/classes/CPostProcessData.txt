@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPostProcessData (size: 0x20 bytes, project "vmf_to_vmap", binding @ hammer.dll + 0x1de7ec0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: hammer.dll + 0x11a7820"
+
+-----members of class CPostProcessData-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlVector< CColorCorrectionLayer* > m_layers(offset 0x8, size 0x18, align 0x8)
+

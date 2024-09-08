@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ELeagueNodeType(size: 4 bytes, 5 values, project "server", binding @ server.dll + 0x38db5e0):
+	INVALID_NODE_TYPE = 0,
+	BEST_OF_ONE = 1,
+	BEST_OF_THREE = 2,
+	BEST_OF_FIVE = 3,
+	BEST_OF_TWO = 4,

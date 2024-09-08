@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CNmTimeConditionNode::Operator_t(size: 1 bytes, 4 values, project "animlib", binding @ resourcecompiler.dll + 0x244a650):
+	LessThan = 0,
+	LessThanEqual = 1,
+	GreaterThan = 2,
+	GreaterThanEqual = 3,

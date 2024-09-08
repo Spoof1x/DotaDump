@@ -1,0 +1,40 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CConCommandMemberAccessor<class CRenderDeviceBase>
+	(hierarchy CConCommandMemberAccessor<class CRenderDeviceBase>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		rendersystemempty.dll + 0x1adbb8
+		rendersystemempty.dll + 0x1adbe8
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		rendersystemempty.dll + 0x1adbc0
+		rendersystemempty.dll + 0x1adbf0
+CConCommandMemberAccessor<class CTextureManagerBase>
+	(hierarchy CConCommandMemberAccessor<class CTextureManagerBase>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		rendersystemempty.dll + 0x1ae2f0
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		rendersystemempty.dll + 0x1ae2f8
+CRenderContextEmpty (hierarchy CRenderContextEmpty: IRenderContext)
+	rendersystemempty.dll + 0x1390d0
+CRenderDeviceEmpty (hierarchy CRenderDeviceEmpty: CRenderDeviceBase, IRenderDevice)
+	rendersystemempty.dll + 0x1853e0
+CRenderDeviceMgrEmpty (hierarchy CRenderDeviceMgrEmpty: CRenderDeviceMgrBase, CTier2AppSystem<class IRenderDeviceMgr,0>, CTier1AppSystem<class IRenderDeviceMgr,0>, CTier0AppSystem<class IRenderDeviceMgr,0>, CBaseAppSystem<class IRenderDeviceMgr>, IRenderDeviceMgr, IAppSystem)
+	rendersystemempty.dll + 0x1396d0
+CRenderHardwareConfig (hierarchy CRenderHardwareConfig: IRenderHardwareConfig)
+	rendersystemempty.dll + 0x139770
+CRenderUtils (hierarchy CRenderUtils: CTier2AppSystem<class IRenderUtils,0>, CTier1AppSystem<class IRenderUtils,0>, CTier0AppSystem<class IRenderUtils,0>, CBaseAppSystem<class IRenderUtils>, IRenderUtils, IAppSystem)
+	rendersystemempty.dll + 0x139f18
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	rendersystemempty.dll + 0x17d790
+CSchemaRegistration_rendersystemempty (hierarchy CSchemaRegistration_rendersystemempty: CSchemaRegistration)
+	rendersystemempty.dll + 0x139f40
+CTextureManagerEmpty
+	(hierarchy CTextureManagerEmpty: CTextureManagerBase, IResourceTypeManager, IToolsResourceListener)
+		rendersystemempty.dll + 0x1ae2e0
+	MI offset 8 (hierarchy IToolsResourceListener)
+		rendersystemempty.dll + 0x1ae2e8
+Concurrency::details::stl_condition_variable_win7 (hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+	rendersystemempty.dll + 0x17ddb0
+Concurrency::details::stl_critical_section_win7 (hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+	rendersystemempty.dll + 0x17dd58
+std::_Generic_error_category (hierarchy std::_Generic_error_category: std::error_category)
+	rendersystemempty.dll + 0x138040
+std::_Iostream_error_category2 (hierarchy std::_Iostream_error_category2: std::error_category)
+	rendersystemempty.dll + 0x136868

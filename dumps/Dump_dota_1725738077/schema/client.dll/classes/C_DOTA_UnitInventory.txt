@@ -1,0 +1,36 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_DOTA_UnitInventory (size: 0xd0 bytes, project "client", binding @ client.dll + 0x4828130, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+| SCHEMA_CF1_INFO_TAG_MNetworkNoBase
+^MNetworkExcludeByName "m_hInventoryParent"
+^MNetworkVarNames "m_hItems EHANDLE"
+^MNetworkVarNames "m_iParity int"
+^MNetworkVarNames "m_hInventoryParent EHANDLE"
+^MNetworkVarNames "m_bStashEnabled bool"
+^MNetworkVarNames "m_hTransientCastItem EHANDLE"
+
+-----members of class C_DOTA_UnitInventory-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlVector< sSharedCooldownInfo > m_SharedCooldownList(offset 0x8, size 0x18, align 0x8)
+	CHandle< C_BaseEntity >[19] m_hItems(offset 0x20, size 0x4c, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnInventoryChanged"
+	bool[21] m_bItemQueried(offset 0x6c, size 0x15, align 0x1)
+	uint8_t[3] unaccounted(offset 0x81)
+	int32 m_iParity(offset 0x84, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnInventoryParityChanged"
+	CHandle< C_BaseEntity > m_hInventoryParent(offset 0x88, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bIsActive(offset 0x8c, size 0x1, align 0x1)
+	bool m_bStashEnabled(offset 0x8d, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0x8e)
+	CHandle< C_BaseEntity > m_hTransientCastItem(offset 0x90, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[28] unaccounted(offset 0x94)
+	bool m_bSendChangedMsg(offset 0xb0, size 0x1, align 0x1)
+	uint8_t[31] unaccounted(offset 0xb1)
+

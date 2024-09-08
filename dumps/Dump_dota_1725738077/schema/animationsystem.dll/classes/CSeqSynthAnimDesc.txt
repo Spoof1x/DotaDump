@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSeqSynthAnimDesc (size: 0x40 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5efac0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x58bd0"
+
+-----members of class CSeqSynthAnimDesc-----
+	CBufferString m_sName(offset 0x0, size 0x10, align 0x8)
+	CSeqSeqDescFlag m_flags(offset 0x10, size 0xb, align 0x1)
+	uint8_t[1] unaccounted(offset 0x1b)
+	CSeqTransition m_transition(offset 0x1c, size 0x8, align 0x4)
+	int16 m_nLocalBaseReference(offset 0x24, size 0x2, align 0x2)
+	int16 m_nLocalBoneMask(offset 0x26, size 0x2, align 0x2)
+	CUtlVector< CAnimActivity > m_activityArray(offset 0x28, size 0x18, align 0x8)
+

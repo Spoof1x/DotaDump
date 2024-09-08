@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class BoneDemoCaptureSettings_t (size: 0x20 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5a10f0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x155820"
+
+-----members of class BoneDemoCaptureSettings_t-----
+	CUtlString m_boneName(offset 0x0, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Bone"
+		^MPropertyAttributeChoiceName "Bone"
+	float32 m_flErrorSplineRotationMax(offset 0x8, size 0x4, align 0x4)
+		^MPropertySuppressField
+	float32 m_flErrorSplineTranslationMax(offset 0xc, size 0x4, align 0x4)
+		^MPropertySuppressField
+	float32 m_flErrorSplineScaleMax(offset 0x10, size 0x4, align 0x4)
+		^MPropertySuppressField
+	float32 m_flErrorQuantizationRotationMax(offset 0x14, size 0x4, align 0x4)
+		^MPropertySuppressField
+	float32 m_flErrorQuantizationTranslationMax(offset 0x18, size 0x4, align 0x4)
+		^MPropertySuppressField
+	float32 m_flErrorQuantizationScaleMax(offset 0x1c, size 0x4, align 0x4)
+		^MPropertySuppressField
+

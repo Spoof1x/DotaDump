@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CModelConfig (size: 0x28 bytes, project "modellib", binding @ resourcecompiler.dll + 0x249b990, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bc860"
+
+-----members of class CModelConfig-----
+	CUtlString m_ConfigName(offset 0x0, size 0x8, align 0x8)
+	CUtlVector< CModelConfigElement* > m_Elements(offset 0x8, size 0x18, align 0x8)
+	bool m_bTopLevel(offset 0x20, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x21)
+

@@ -1,0 +1,136 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSkeletonInstance (size: 0x420 bytes, project "client", binding @ client.dll + 0x46e9090, scope "client.dll") extends CGameSceneNode
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MClassHasEntityLimitedDataDesc
+^MNetworkVarNames "m_modelState CModelState"
+^MNetworkVarNames "m_bIsAnimationEnabled bool"
+^MNetworkVarNames "m_bUseParentRenderBounds bool"
+^MNetworkVarNames "m_materialGroup CUtlStringToken"
+^MNetworkVarNames "m_nHitboxSet uint8"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CGameSceneNode (size: 0x160 bytes, project "client", binding @ client.dll + 0x46e73f0, scope "client.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+	^MNetworkVarNames "m_hParent CGameSceneNodeHandle"
+	^MNetworkVarNames "m_vecOrigin CNetworkOriginCellCoordQuantizedVector"
+	^MNetworkVarNames "m_angRotation QAngle"
+	^MNetworkVarNames "m_flScale float"
+	^MNetworkVarNames "m_name CUtlStringToken"
+	^MNetworkVarNames "m_hierarchyAttachName CUtlStringToken"
+	
+	-----members of class CGameSceneNode-----
+		uint8_t[16] unaccounted(offset 0x0)
+		CTransform m_nodeToWorld(offset 0x10, size 0x20, align 0x10)
+			^MNetworkDisable
+		CEntityInstance* m_pOwner(offset 0x30, size 0x8, align 0x8)
+			^MNetworkDisable
+		CGameSceneNode* m_pParent(offset 0x38, size 0x8, align 0x8)
+			^MNetworkDisable
+		CGameSceneNode* m_pChild(offset 0x40, size 0x8, align 0x8)
+			^MNetworkDisable
+		CGameSceneNode* m_pNextSibling(offset 0x48, size 0x8, align 0x8)
+			^MNetworkDisable
+		uint8_t[40] unaccounted(offset 0x50)
+		CGameSceneNodeHandle m_hParent(offset 0x78, size 0x10, align 0x0)
+			^MNetworkEnable
+			^MNetworkSerializer "gameSceneNode"
+			^MNetworkChangeCallback "gameSceneNodeHierarchyParentChanged"
+			^MNetworkPriority "32"
+			^MNetworkVarEmbeddedFieldOffsetDelta "8"
+		CNetworkOriginCellCoordQuantizedVector m_vecOrigin(offset 0x88, size 0x30, align 0x0)
+			^MNetworkEnable
+			^MNetworkPriority "32"
+			^MNetworkUserGroup "Origin"
+			^MNetworkChangeCallback "gameSceneNodeLocalOriginChanged"
+		uint8_t[8] unaccounted(offset 0xb8)
+		QAngle m_angRotation(offset 0xc0, size 0xc, align 0x4)
+			^MNetworkEnable
+			^MNetworkPriority "32"
+			^MNetworkSerializer "gameSceneNodeStepSimulationAnglesSerializer"
+			^MNetworkChangeCallback "gameSceneNodeLocalAnglesChanged"
+		float32 m_flScale(offset 0xcc, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkChangeCallback "gameSceneNodeLocalScaleChanged"
+			^MNetworkPriority "32"
+		Vector m_vecAbsOrigin(offset 0xd0, size 0xc, align 0x4)
+			^MNetworkDisable
+		QAngle m_angAbsRotation(offset 0xdc, size 0xc, align 0x4)
+			^MNetworkDisable
+		float32 m_flAbsScale(offset 0xe8, size 0x4, align 0x4)
+			^MNetworkDisable
+		int16 m_nParentAttachmentOrBone(offset 0xec, size 0x2, align 0x2)
+			^MNetworkDisable
+		bool m_bDebugAbsOriginChanges(offset 0xee, size 0x1, align 0x1)
+			^MNetworkDisable
+		bool m_bDormant(offset 0xef, size 0x1, align 0x1)
+			^MNetworkDisable
+		bool m_bForceParentToBeNetworked(offset 0xf0, size 0x1, align 0x1)
+			^MNetworkDisable
+		bitfield {
+			uint8_t m_bDirtyHierarchy : 1(offset 0xf1, mask = 0x1)
+			^MNetworkDisable
+			uint8_t m_bDirtyBoneMergeInfo : 1(offset 0xf1, mask = 0x2)
+			^MNetworkDisable
+			uint8_t m_bNetworkedPositionChanged : 1(offset 0xf1, mask = 0x4)
+			^MNetworkDisable
+			uint8_t m_bNetworkedAnglesChanged : 1(offset 0xf1, mask = 0x8)
+			^MNetworkDisable
+			uint8_t m_bNetworkedScaleChanged : 1(offset 0xf1, mask = 0x10)
+			^MNetworkDisable
+			uint8_t m_bWillBeCallingPostDataUpdate : 1(offset 0xf1, mask = 0x20)
+			^MNetworkDisable
+			uint8_t m_bBoneMergeFlex : 1(offset 0xf1, mask = 0x40)
+			^MNetworkDisable
+			uint8_t unaccounted : 1(offset 0xf1, mask = 0x80)
+			uint8_t m_nLatchAbsOrigin : 2(offset 0xf2, mask = 0x3)
+			^MNetworkDisable
+			uint8_t m_bDirtyBoneMergeBoneToRoot : 1(offset 0xf2, mask = 0x4)
+			^MNetworkDisable
+		}
+		uint8 m_nHierarchicalDepth(offset 0xf3, size 0x1, align 0x1)
+			^MNetworkDisable
+		uint8 m_nHierarchyType(offset 0xf4, size 0x1, align 0x1)
+			^MNetworkDisable
+		uint8 m_nDoNotSetAnimTimeInInvalidatePhysicsCount(offset 0xf5, size 0x1, align 0x1)
+			^MNetworkDisable
+		uint8_t[2] unaccounted(offset 0xf6)
+		CUtlStringToken m_name(offset 0xf8, size 0x4, align 0x4)
+			^MNetworkEnable
+		uint8_t[60] unaccounted(offset 0xfc)
+		CUtlStringToken m_hierarchyAttachName(offset 0x138, size 0x4, align 0x4)
+			^MNetworkEnable
+			^MNetworkChangeCallback "gameSceneNodeHierarchyAttachmentChanged"
+		float32 m_flZOffset(offset 0x13c, size 0x4, align 0x4)
+			^MNetworkDisable
+		float32 m_flClientLocalScale(offset 0x140, size 0x4, align 0x4)
+			^MNetworkDisable
+		Vector m_vRenderOrigin(offset 0x144, size 0xc, align 0x4)
+			^MNetworkDisable
+		uint8_t[16] unaccounted(offset 0x150)
+	
+
+-----members of class CSkeletonInstance-----
+	uint8_t[16] unaccounted(offset 0x160)
+	CModelState m_modelState(offset 0x170, size 0x230, align 0x0)
+		^MNetworkEnable
+	bool m_bIsAnimationEnabled(offset 0x3a0, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bUseParentRenderBounds(offset 0x3a1, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bDisableSolidCollisionsForHierarchy(offset 0x3a2, size 0x1, align 0x1)
+		^MNetworkDisable
+	bitfield {
+		uint8_t m_bDirtyMotionType : 1(offset 0x3a3, mask = 0x1)
+		^MNetworkDisable
+		uint8_t m_bIsGeneratingLatchedParentSpaceState : 1(offset 0x3a3, mask = 0x2)
+		^MNetworkDisable
+	}
+	CUtlStringToken m_materialGroup(offset 0x3a4, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "skeletonMaterialGroupChanged"
+	uint8 m_nHitboxSet(offset 0x3a8, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[119] unaccounted(offset 0x3a9)
+

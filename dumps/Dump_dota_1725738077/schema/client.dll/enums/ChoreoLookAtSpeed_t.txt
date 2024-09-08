@@ -1,0 +1,10 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ChoreoLookAtSpeed_t(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x4711d50):
+	eInvalid = -1,
+		^MPropertySuppressEnumerator
+	eSlow = 0,
+		^MPropertyFriendlyName "Slow"
+	eMedium = 1,
+		^MPropertyFriendlyName "Medium"
+	eFast = 2,
+		^MPropertyFriendlyName "Fast"

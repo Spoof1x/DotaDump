@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum Class_T(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x46bb650):
+	CLASS_NONE = 0,
+	CLASS_PLAYER = 1,
+	CLASS_PLAYER_ALLY = 2,
+	NUM_CLASSIFY_CLASSES = 3,

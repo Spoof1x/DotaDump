@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum GraphCanvasChildLayoutAlgorithm_t(size: 4 bytes, 5 values, project "qcontrols", binding @ assetbrowser.dll + 0x1d44b0):
+	DEFAULT = 0,
+	VBOX = 1,
+	VBOX_REVERSE = 2,
+	HBOX = 3,
+	HBOX_REVERSE = 4,

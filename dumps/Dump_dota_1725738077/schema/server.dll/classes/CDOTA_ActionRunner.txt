@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTA_ActionRunner (size: 0x18 bytes, project "server", binding @ server.dll + 0x3a9d440, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+| SCHEMA_CF1_INFO_TAG_MDisableDataDescValidation
+
+-----members of class CDOTA_ActionRunner-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CModifierParams* m_pEventContext(offset 0x8, size 0x8, align 0x8)
+		^MNetworkDisable
+	CDOTA_BaseNPC* m_pCaster(offset 0x10, size 0x8, align 0x8)
+		^MNetworkDisable
+

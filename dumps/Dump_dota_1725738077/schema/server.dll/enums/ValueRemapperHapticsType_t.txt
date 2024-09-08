@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ValueRemapperHapticsType_t(size: 4 bytes, 2 values, project "server", binding @ server.dll + 0x3a70b80):
+	HaticsType_Default = 0,
+	HaticsType_None = 1,

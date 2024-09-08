@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class sLoadoutItem (size: 0x18 bytes, project "server", binding @ server.dll + 0x3aefee0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class sLoadoutItem-----
+	CUtlSymbolLarge name(offset 0x0, size 0x8, align 0x8)
+	int32 iFlags(offset 0x8, size 0x4, align 0x4)
+	AbilityID_t iAbilityID(offset 0xc, size 0x4, align 0x0)
+	bool bPurchased(offset 0x10, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x11)
+

@@ -1,0 +1,39 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBoneConstraintPoseSpaceBone (size: 0x90 bytes, project "modellib", binding @ hammer.dll + 0x1dacfc0, scope "hammer.dll") extends CBaseConstraint
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: hammer.dll + 0xd5de50"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBaseConstraint (size: 0x68 bytes, project "modellib", binding @ hammer.dll + 0x1dac7e0, scope "hammer.dll") extends CBoneConstraintBase
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: hammer.dll + 0xd1200"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBoneConstraintBase (size: 0x28 bytes, project "modellib", binding @ hammer.dll + 0x1dac6d0, scope "hammer.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: hammer.dll + 0xd1200"
+		
+		-----members of class CBoneConstraintBase-----
+			uint8_t[40] unaccounted(offset 0x0)
+		
+	
+	-----members of class CBaseConstraint-----
+		CUtlString m_name(offset 0x28, size 0x8, align 0x8)
+		Vector m_vUpVector(offset 0x30, size 0xc, align 0x4)
+		uint8_t[4] unaccounted(offset 0x3c)
+		CUtlLeanVector< CConstraintSlave > m_slaves(offset 0x40, size 0x10, align 0x8)
+		CUtlVector< CConstraintTarget > m_targets(offset 0x50, size 0x18, align 0x8)
+	
+
+-----members of class CBoneConstraintPoseSpaceBone-----
+	CUtlVector< CBoneConstraintPoseSpaceBone::Input_t > m_inputList(offset 0x68, size 0x18, align 0x8)
+	uint8_t[16] unaccounted(offset 0x80)
+

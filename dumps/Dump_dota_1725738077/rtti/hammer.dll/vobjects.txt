@@ -1,0 +1,1551 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CAttributeDictSaveDataOps (hierarchy CAttributeDictSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+	hammer.dll + 0x1d69b10
+CBakedLightingTargetInvalid (hierarchy CBakedLightingTargetInvalid: IBakedLightingOperations)
+	hammer.dll + 0x143bf88
+CBakedLightingTargetLightProbe (hierarchy CBakedLightingTargetLightProbe: IBakedLightingOperations)
+	hammer.dll + 0x143bfa8
+CBakedLightingTargetMesh (hierarchy CBakedLightingTargetMesh: IBakedLightingOperations)
+	hammer.dll + 0x143bf90
+CBakedLightingTargetModel (hierarchy CBakedLightingTargetModel: IBakedLightingOperations)
+	hammer.dll + 0x143bf98
+CBakedLightingTargetSmartProp (hierarchy CBakedLightingTargetSmartProp: IBakedLightingOperations)
+	hammer.dll + 0x143bfb0
+CBakedLightingTargetStaticOverlay (hierarchy CBakedLightingTargetStaticOverlay: IBakedLightingOperations)
+	hammer.dll + 0x143bfa0
+CDataModel (hierarchy CDataModel: CBaseAppSystem<class IDataModel>, IDataModel, CBaseAppSystem<class IAppSystem>, IAppSystem)
+	hammer.dll + 0x1fb93f0
+CDefaultToolAttrTableForStruct<class CCameraPathHelper> (hierarchy CDefaultToolAttrTableForStruct<class CCameraPathHelper>: IToolAttr_Table)
+	hammer.dll + 0x1e097c0
+CDefaultToolAttrTableForStruct<class CLavaStreamHelper> (hierarchy CDefaultToolAttrTableForStruct<class CLavaStreamHelper>: IToolAttr_Table)
+	hammer.dll + 0x1e098d0
+CDefaultToolAttrTableForStruct<class CMapCable> (hierarchy CDefaultToolAttrTableForStruct<class CMapCable>: IToolAttr_Table)
+	hammer.dll + 0x1d9cbb0
+CDefaultToolAttrTableForStruct<class CMapDeformer> (hierarchy CDefaultToolAttrTableForStruct<class CMapDeformer>: IToolAttr_Table)
+	hammer.dll + 0x1d9d5c8
+CDefaultToolAttrTableForStruct<class CMapDeformerLattice> (hierarchy CDefaultToolAttrTableForStruct<class CMapDeformerLattice>: IToolAttr_Table)
+	hammer.dll + 0x1d9d5c0
+CDefaultToolAttrTableForStruct<class CMapDeformerSimple> (hierarchy CDefaultToolAttrTableForStruct<class CMapDeformerSimple>: IToolAttr_Table)
+	hammer.dll + 0x1d9d700
+CDefaultToolAttrTableForStruct<class CMapDocMaterialAdjustStruct> (hierarchy CDefaultToolAttrTableForStruct<class CMapDocMaterialAdjustStruct>: IToolAttr_Table)
+	hammer.dll + 0x1d90f28
+CDefaultToolAttrTableForStruct<class CMapDocTestStruct> (hierarchy CDefaultToolAttrTableForStruct<class CMapDocTestStruct>: IToolAttr_Table)
+	hammer.dll + 0x1d9d878
+CDefaultToolAttrTableForStruct<class CMapGroup> (hierarchy CDefaultToolAttrTableForStruct<class CMapGroup>: IToolAttr_Table)
+	hammer.dll + 0x1d98c20
+CDefaultToolAttrTableForStruct<class CMapInstance> (hierarchy CDefaultToolAttrTableForStruct<class CMapInstance>: IToolAttr_Table)
+	hammer.dll + 0x1d98c98
+CDefaultToolAttrTableForStruct<class CMapNavLink> (hierarchy CDefaultToolAttrTableForStruct<class CMapNavLink>: IToolAttr_Table)
+	hammer.dll + 0x1da7a68
+CDefaultToolAttrTableForStruct<class CMapNode> (hierarchy CDefaultToolAttrTableForStruct<class CMapNode>: IToolAttr_Table)
+	hammer.dll + 0x1d90358
+CDefaultToolAttrTableForStruct<class CMapNodeReference> (hierarchy CDefaultToolAttrTableForStruct<class CMapNodeReference>: IToolAttr_Table)
+	hammer.dll + 0x1da4b68
+CDefaultToolAttrTableForStruct<class CMapPath> (hierarchy CDefaultToolAttrTableForStruct<class CMapPath>: IToolAttr_Table)
+	hammer.dll + 0x1d90350
+CDefaultToolAttrTableForStruct<class CMapPathNode> (hierarchy CDefaultToolAttrTableForStruct<class CMapPathNode>: IToolAttr_Table)
+	hammer.dll + 0x1d903b8
+CDefaultToolAttrTableForStruct<class CMapPrefab> (hierarchy CDefaultToolAttrTableForStruct<class CMapPrefab>: IToolAttr_Table)
+	hammer.dll + 0x1d98c90
+CDefaultToolAttrTableForStruct<class CMapSmartProp> (hierarchy CDefaultToolAttrTableForStruct<class CMapSmartProp>: IToolAttr_Table)
+	hammer.dll + 0x1d9d4c8
+CDefaultToolAttrTableForStruct<class CMapSmartPropLocator> (hierarchy CDefaultToolAttrTableForStruct<class CMapSmartPropLocator>: IToolAttr_Table)
+	hammer.dll + 0x1da7868
+CDefaultToolAttrTableForStruct<class CMapStaticOverlay> (hierarchy CDefaultToolAttrTableForStruct<class CMapStaticOverlay>: IToolAttr_Table)
+	hammer.dll + 0x1d90b30
+CDefaultToolAttrTableForStruct<class CMapTerrainDetail> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainDetail>: IToolAttr_Table)
+	hammer.dll + 0x1da81b0
+CDefaultToolAttrTableForStruct<class CMapTerrainElement> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainElement>: IToolAttr_Table)
+	hammer.dll + 0x1d9f0d0
+CDefaultToolAttrTableForStruct<class CMapTerrainGrass> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainGrass>: IToolAttr_Table)
+	hammer.dll + 0x1da4960
+CDefaultToolAttrTableForStruct<class CMapTerrainGround> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainGround>: IToolAttr_Table)
+	hammer.dll + 0x1da4888
+CDefaultToolAttrTableForStruct<class CMapTerrainGroupBase> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainGroupBase>: IToolAttr_Table)
+	hammer.dll + 0x1d9f1f0
+CDefaultToolAttrTableForStruct<class CMapTerrainGroupInputs> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainGroupInputs>: IToolAttr_Table)
+	hammer.dll + 0x1da78d0
+CDefaultToolAttrTableForStruct<class CMapTerrainGroupOutputs> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainGroupOutputs>: IToolAttr_Table)
+	hammer.dll + 0x1da78c8
+CDefaultToolAttrTableForStruct<class CMapTerrainLayerComposite> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainLayerComposite>: IToolAttr_Table)
+	hammer.dll + 0x1da4a28
+CDefaultToolAttrTableForStruct<class CMapTerrainLayerImage> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainLayerImage>: IToolAttr_Table)
+	hammer.dll + 0x1da49c0
+CDefaultToolAttrTableForStruct<class CMapTerrainLayerPaintable> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainLayerPaintable>: IToolAttr_Table)
+	hammer.dll + 0x1da4820
+CDefaultToolAttrTableForStruct<class CMapTerrainLayerWorldHeight> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainLayerWorldHeight>: IToolAttr_Table)
+	hammer.dll + 0x1da48f0
+CDefaultToolAttrTableForStruct<class CMapTerrainPrefab> (hierarchy CDefaultToolAttrTableForStruct<class CMapTerrainPrefab>: IToolAttr_Table)
+	hammer.dll + 0x1d9f1e8
+CDefaultToolAttrTableForStruct<class CMapTestNode> (hierarchy CDefaultToolAttrTableForStruct<class CMapTestNode>: IToolAttr_Table)
+	hammer.dll + 0x1d9d7b0
+CDefaultToolAttrTableForStruct<class CMapTileMesh> (hierarchy CDefaultToolAttrTableForStruct<class CMapTileMesh>: IToolAttr_Table)
+	hammer.dll + 0x1d99520
+CDefaultToolAttrTableForStruct<class CMoverHelper> (hierarchy CDefaultToolAttrTableForStruct<class CMoverHelper>: IToolAttr_Table)
+	hammer.dll + 0x1e09908
+CDefaultToolAttrTableForStruct<class CSteamAudioAmbisonicValues> (hierarchy CDefaultToolAttrTableForStruct<class CSteamAudioAmbisonicValues>: IToolAttr_Table)
+	hammer.dll + 0x1d9d468
+CDefaultToolAttrTableForStruct<class CSteamAudioBandValues> (hierarchy CDefaultToolAttrTableForStruct<class CSteamAudioBandValues>: IToolAttr_Table)
+	hammer.dll + 0x1d9d470
+CDefaultToolAttrTableForStruct<class CSteamAudioImportedProbeBoxNode> (hierarchy CDefaultToolAttrTableForStruct<class CSteamAudioImportedProbeBoxNode>: IToolAttr_Table)
+	hammer.dll + 0x1d9d398
+CDefaultToolAttrTableForStruct<class CSteamAudioImportedProbeNode> (hierarchy CDefaultToolAttrTableForStruct<class CSteamAudioImportedProbeNode>: IToolAttr_Table)
+	hammer.dll + 0x1d9d3f8
+CDefaultToolAttrTableForStruct<class CSteamAudioSignal> (hierarchy CDefaultToolAttrTableForStruct<class CSteamAudioSignal>: IToolAttr_Table)
+	hammer.dll + 0x1d9d460
+CDefaultToolAttrTableForStruct<class CTerrainInput> (hierarchy CDefaultToolAttrTableForStruct<class CTerrainInput>: IToolAttr_Table)
+	hammer.dll + 0x1d9f178
+CDefaultToolAttrTableForStruct<class CTileMeshFace> (hierarchy CDefaultToolAttrTableForStruct<class CTileMeshFace>: IToolAttr_Table)
+	hammer.dll + 0x1da4758
+CDefaultToolAttrTableForStruct<struct GeneralOptionsEditableData_t> (hierarchy CDefaultToolAttrTableForStruct<struct GeneralOptionsEditableData_t>: IToolAttr_Table)
+	hammer.dll + 0x1e0a558
+CDefaultToolAttrTableForStruct<struct ImportExportOptionsEditableData_t> (hierarchy CDefaultToolAttrTableForStruct<struct ImportExportOptionsEditableData_t>: IToolAttr_Table)
+	hammer.dll + 0x1e0a578
+CDefaultToolAttrTableForStruct<struct TexturesOptionsEditableData_t> (hierarchy CDefaultToolAttrTableForStruct<struct TexturesOptionsEditableData_t>: IToolAttr_Table)
+	hammer.dll + 0x1e0a550
+CDefaultToolAttrTableForStruct<struct ToolsOptionsEditableData_t> (hierarchy CDefaultToolAttrTableForStruct<struct ToolsOptionsEditableData_t>: IToolAttr_Table)
+	hammer.dll + 0x1e0a568
+CDefaultToolAttrTableForStruct<struct View2DOptionsEditableData_t> (hierarchy CDefaultToolAttrTableForStruct<struct View2DOptionsEditableData_t>: IToolAttr_Table)
+	hammer.dll + 0x1e0a560
+CDefaultToolAttrTableForStruct<struct View3DOptionsEditableData_t> (hierarchy CDefaultToolAttrTableForStruct<struct View3DOptionsEditableData_t>: IToolAttr_Table)
+	hammer.dll + 0x1e0a570
+CDmAbstractElementFactory<class CDmeCurveInfo> (hierarchy CDmAbstractElementFactory<class CDmeCurveInfo>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4538
+CDmAbstractElementFactory<class CDmeLog> (hierarchy CDmAbstractElementFactory<class CDmeLog>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4788
+CDmAbstractElementFactory<class CDmeLogLayer> (hierarchy CDmAbstractElementFactory<class CDmeLogLayer>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db42e8
+CDmAbstractElementFactory<class CDmeOperator> (hierarchy CDmAbstractElementFactory<class CDmeOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4d48
+CDmElementFactory<class CDmElement> (hierarchy CDmElementFactory<class CDmElement>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d675d0
+	hammer.dll + 0x1d675f8
+CDmElementFactory<class CDmExtraVertexData> (hierarchy CDmElementFactory<class CDmExtraVertexData>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d902b8
+CDmElementFactory<class CDmExtraVertexStream> (hierarchy CDmElementFactory<class CDmExtraVertexStream>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d90290
+CDmElementFactory<class CDmeAnimationList> (hierarchy CDmElementFactory<class CDmeAnimationList>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4108
+CDmElementFactory<class CDmeAnimationSet> (hierarchy CDmElementFactory<class CDmeAnimationSet>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5208
+CDmElementFactory<class CDmeAttributeReference> (hierarchy CDmElementFactory<class CDmeAttributeReference>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5258
+CDmElementFactory<class CDmeAxisSystem> (hierarchy CDmElementFactory<class CDmeAxisSystem>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4040
+CDmElementFactory<class CDmeBookmark> (hierarchy CDmElementFactory<class CDmeBookmark>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5018
+CDmElementFactory<class CDmeBookmarkSet> (hierarchy CDmElementFactory<class CDmeBookmarkSet>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5040
+CDmElementFactory<class CDmeCamera> (hierarchy CDmElementFactory<class CDmeCamera>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5140
+CDmElementFactory<class CDmeChannel> (hierarchy CDmElementFactory<class CDmeChannel>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4130
+CDmElementFactory<class CDmeChannelsClip> (hierarchy CDmElementFactory<class CDmeChannelsClip>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db41a8
+CDmElementFactory<class CDmeClip> (hierarchy CDmElementFactory<class CDmeClip>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4158
+CDmElementFactory<class CDmeCombinationDominationRule> (hierarchy CDmElementFactory<class CDmeCombinationDominationRule>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4248
+CDmElementFactory<class CDmeCombinationInputControl> (hierarchy CDmElementFactory<class CDmeCombinationInputControl>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4220
+CDmElementFactory<class CDmeCombinationOperator> (hierarchy CDmElementFactory<class CDmeCombinationOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4270
+CDmElementFactory<class CDmeComponent> (hierarchy CDmElementFactory<class CDmeComponent>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4cf8
+CDmElementFactory<class CDmeConnectionData> (hierarchy CDmElementFactory<class CDmeConnectionData>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d9c0
+CDmElementFactory<class CDmeConnectionOperator> (hierarchy CDmElementFactory<class CDmeConnectionOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5280
+CDmElementFactory<class CDmeConstraintSlave> (hierarchy CDmElementFactory<class CDmeConstraintSlave>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4d90
+CDmElementFactory<class CDmeConstraintTarget> (hierarchy CDmElementFactory<class CDmeConstraintTarget>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4d68
+CDmElementFactory<class CDmeControlGroup> (hierarchy CDmElementFactory<class CDmeControlGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5398
+CDmElementFactory<class CDmeDCCMakefile> (hierarchy CDmElementFactory<class CDmeDCCMakefile>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4bb8
+CDmElementFactory<class CDmeDag> (hierarchy CDmElementFactory<class CDmeDag>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4018
+CDmElementFactory<class CDmeDotaTileGrid> (hierarchy CDmElementFactory<class CDmeDotaTileGrid>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d91908
+CDmElementFactory<class CDmeDrawCallSnapshot> (hierarchy CDmElementFactory<class CDmeDrawCallSnapshot>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d4a0
+CDmElementFactory<class CDmeExportTags> (hierarchy CDmElementFactory<class CDmeExportTags>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db42c0
+CDmElementFactory<class CDmeExpressionOperator> (hierarchy CDmElementFactory<class CDmeExpressionOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5168
+CDmElementFactory<class CDmeFXClip> (hierarchy CDmElementFactory<class CDmeFXClip>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db41d0
+CDmElementFactory<class CDmeFaceSet> (hierarchy CDmElementFactory<class CDmeFaceSet>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db3fc8
+CDmElementFactory<class CDmeFilmClip> (hierarchy CDmElementFactory<class CDmeFilmClip>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db41f8
+CDmElementFactory<class CDmeFlexRuleBase> (hierarchy CDmElementFactory<class CDmeFlexRuleBase>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db52a8
+CDmElementFactory<class CDmeFlexRuleExpression> (hierarchy CDmElementFactory<class CDmeFlexRuleExpression>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db52f8
+CDmElementFactory<class CDmeFlexRuleLocalVar> (hierarchy CDmElementFactory<class CDmeFlexRuleLocalVar>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5320
+CDmElementFactory<class CDmeFlexRulePassThrough> (hierarchy CDmElementFactory<class CDmeFlexRulePassThrough>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db52d0
+CDmElementFactory<class CDmeFlexRules> (hierarchy CDmElementFactory<class CDmeFlexRules>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5348
+CDmElementFactory<class CDmeGameSound> (hierarchy CDmElementFactory<class CDmeGameSound>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db50f0
+CDmElementFactory<class CDmeImageProcessor> (hierarchy CDmElementFactory<class CDmeImageProcessor>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da8248
+CDmElementFactory<class CDmeInputTexture> (hierarchy CDmElementFactory<class CDmeInputTexture>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da8270
+CDmElementFactory<class CDmeJoint> (hierarchy CDmElementFactory<class CDmeJoint>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4c80
+CDmElementFactory<class CDmeMakefile> (hierarchy CDmElementFactory<class CDmeMakefile>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db40e0
+CDmElementFactory<class CDmeMaterial> (hierarchy CDmElementFactory<class CDmeMaterial>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db3ff0
+CDmElementFactory<class CDmeMayaAnimationMakefile> (hierarchy CDmElementFactory<class CDmeMayaAnimationMakefile>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4c30
+CDmElementFactory<class CDmeMayaMakefile> (hierarchy CDmElementFactory<class CDmeMayaMakefile>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4be0
+CDmElementFactory<class CDmeMayaModelMakefile> (hierarchy CDmElementFactory<class CDmeMayaModelMakefile>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4c08
+CDmElementFactory<class CDmeMesh> (hierarchy CDmElementFactory<class CDmeMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db3e80
+CDmElementFactory<class CDmeModel> (hierarchy CDmElementFactory<class CDmeModel>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db3e58
+CDmElementFactory<class CDmeNavData> (hierarchy CDmElementFactory<class CDmeNavData>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1deb868
+CDmElementFactory<class CDmeNavEditMesh> (hierarchy CDmElementFactory<class CDmeNavEditMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1deb890
+CDmElementFactory<class CDmeNodeInstanceData> (hierarchy CDmElementFactory<class CDmeNodeInstanceData>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da6d38
+CDmElementFactory<class CDmePhonemeMapping> (hierarchy CDmElementFactory<class CDmePhonemeMapping>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db53c0
+CDmElementFactory<class CDmePlugList> (hierarchy CDmElementFactory<class CDmePlugList>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d9e8
+CDmElementFactory<class CDmePolygonMesh> (hierarchy CDmElementFactory<class CDmePolygonMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1deb840
+CDmElementFactory<class CDmePolygonMeshDataArray> (hierarchy CDmElementFactory<class CDmePolygonMeshDataArray>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1deb7f0
+CDmElementFactory<class CDmePolygonMeshDataStream> (hierarchy CDmElementFactory<class CDmePolygonMeshDataStream>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1deb7c8
+CDmElementFactory<class CDmePolygonMeshSubdivisionData> (hierarchy CDmElementFactory<class CDmePolygonMeshSubdivisionData>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1deb818
+CDmElementFactory<class CDmePolygonMeshSubdivisiondataBinding> (hierarchy CDmElementFactory<class CDmePolygonMeshSubdivisiondataBinding>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1deb7a0
+CDmElementFactory<class CDmePreset> (hierarchy CDmElementFactory<class CDmePreset>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5190
+CDmElementFactory<class CDmePresetGroup> (hierarchy CDmElementFactory<class CDmePresetGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db51e0
+CDmElementFactory<class CDmePresetGroupInfo> (hierarchy CDmElementFactory<class CDmePresetGroupInfo>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5230
+CDmElementFactory<class CDmeProceduralPresetSettings> (hierarchy CDmElementFactory<class CDmeProceduralPresetSettings>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db51b8
+CDmElementFactory<class CDmeReferencedMeshSnapshot> (hierarchy CDmElementFactory<class CDmeReferencedMeshSnapshot>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d478
+CDmElementFactory<class CDmeRigAimConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigAimConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4e50
+CDmElementFactory<class CDmeRigBaseConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigBaseConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4db8
+CDmElementFactory<class CDmeRigIKConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigIKConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4ef8
+CDmElementFactory<class CDmeRigOrientConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigOrientConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4e18
+CDmElementFactory<class CDmeRigParentConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigParentConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4ec0
+CDmElementFactory<class CDmeRigPointConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigPointConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4de0
+CDmElementFactory<class CDmeRigRotationConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigRotationConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4e88
+CDmElementFactory<class CDmeRigSplineConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigSplineConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4f90
+CDmElementFactory<class CDmeRigTwistConstraintOperator> (hierarchy CDmElementFactory<class CDmeRigTwistConstraintOperator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4f58
+CDmElementFactory<class CDmeRigTwistSlave> (hierarchy CDmElementFactory<class CDmeRigTwistSlave>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4f30
+CDmElementFactory<class CDmeShape> (hierarchy CDmElementFactory<class CDmeShape>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4cd0
+CDmElementFactory<class CDmeSingleIndexedComponent> (hierarchy CDmElementFactory<class CDmeSingleIndexedComponent>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4d20
+CDmElementFactory<class CDmeSound> (hierarchy CDmElementFactory<class CDmeSound>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db50c8
+CDmElementFactory<class CDmeSoundClip> (hierarchy CDmElementFactory<class CDmeSoundClip>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4180
+CDmElementFactory<class CDmeSoundEvent> (hierarchy CDmElementFactory<class CDmeSoundEvent>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5118
+CDmElementFactory<class CDmeSource> (hierarchy CDmElementFactory<class CDmeSource>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db40b8
+CDmElementFactory<class CDmeSourceDCCFile> (hierarchy CDmElementFactory<class CDmeSourceDCCFile>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4af0
+CDmElementFactory<class CDmeSourceMayaAnimationFile> (hierarchy CDmElementFactory<class CDmeSourceMayaAnimationFile>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4b68
+CDmElementFactory<class CDmeSourceMayaFile> (hierarchy CDmElementFactory<class CDmeSourceMayaFile>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4b18
+CDmElementFactory<class CDmeSourceMayaModelFile> (hierarchy CDmElementFactory<class CDmeSourceMayaModelFile>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4b40
+CDmElementFactory<class CDmeSourceXSIFile> (hierarchy CDmElementFactory<class CDmeSourceXSIFile>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4b90
+CDmElementFactory<class CDmeTextureOutputChannel> (hierarchy CDmElementFactory<class CDmeTextureOutputChannel>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da8298
+CDmElementFactory<class CDmeTileMesh> (hierarchy CDmElementFactory<class CDmeTileMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9f418
+CDmElementFactory<class CDmeTileSetMapInfo> (hierarchy CDmElementFactory<class CDmeTileSetMapInfo>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d918e0
+CDmElementFactory<class CDmeTimeFrame> (hierarchy CDmElementFactory<class CDmeTimeFrame>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4ff0
+CDmElementFactory<class CDmeTimeSelection> (hierarchy CDmElementFactory<class CDmeTimeSelection>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5370
+CDmElementFactory<class CDmeTrack> (hierarchy CDmElementFactory<class CDmeTrack>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db5078
+CDmElementFactory<class CDmeTrackGroup> (hierarchy CDmElementFactory<class CDmeTrackGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db50a0
+CDmElementFactory<class CDmeTransform> (hierarchy CDmElementFactory<class CDmeTransform>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4298
+CDmElementFactory<class CDmeTransformControl> (hierarchy CDmElementFactory<class CDmeTransformControl>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4fc8
+CDmElementFactory<class CDmeTransformList> (hierarchy CDmElementFactory<class CDmeTransformList>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4ca8
+CDmElementFactory<class CDmeTypedCurveInfo<bool> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<bool> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db45a8
+CDmElementFactory<class CDmeTypedCurveInfo<class CUtlSymbolLarge> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class CUtlSymbolLarge> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db46e8
+CDmElementFactory<class CDmeTypedCurveInfo<class Color> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class Color> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db45d0
+CDmElementFactory<class CDmeTypedCurveInfo<class DmeTime_t> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class DmeTime_t> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4710
+CDmElementFactory<class CDmeTypedCurveInfo<class QAngle> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class QAngle> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4670
+CDmElementFactory<class CDmeTypedCurveInfo<class QuaternionStorage> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class QuaternionStorage> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4698
+CDmElementFactory<class CDmeTypedCurveInfo<class VMatrix> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class VMatrix> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db46c0
+CDmElementFactory<class CDmeTypedCurveInfo<class Vec2D<float> > > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class Vec2D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db45f8
+CDmElementFactory<class CDmeTypedCurveInfo<class Vec3D<float> > > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class Vec3D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4620
+CDmElementFactory<class CDmeTypedCurveInfo<class Vec4D<float> > > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<class Vec4D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4648
+CDmElementFactory<class CDmeTypedCurveInfo<float> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<float> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4580
+CDmElementFactory<class CDmeTypedCurveInfo<int> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<int> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4558
+CDmElementFactory<class CDmeTypedCurveInfo<unsigned __int64> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<unsigned __int64> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4738
+CDmElementFactory<class CDmeTypedCurveInfo<unsigned char> > (hierarchy CDmElementFactory<class CDmeTypedCurveInfo<unsigned char> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4760
+CDmElementFactory<class CDmeTypedLog<bool> > (hierarchy CDmElementFactory<class CDmeTypedLog<bool> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db47f8
+CDmElementFactory<class CDmeTypedLog<class CUtlSymbolLarge> > (hierarchy CDmElementFactory<class CDmeTypedLog<class CUtlSymbolLarge> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4938
+CDmElementFactory<class CDmeTypedLog<class Color> > (hierarchy CDmElementFactory<class CDmeTypedLog<class Color> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4820
+CDmElementFactory<class CDmeTypedLog<class DmeTime_t> > (hierarchy CDmElementFactory<class CDmeTypedLog<class DmeTime_t> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4960
+CDmElementFactory<class CDmeTypedLog<class QAngle> > (hierarchy CDmElementFactory<class CDmeTypedLog<class QAngle> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db48c0
+CDmElementFactory<class CDmeTypedLog<class QuaternionStorage> > (hierarchy CDmElementFactory<class CDmeTypedLog<class QuaternionStorage> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db48e8
+CDmElementFactory<class CDmeTypedLog<class VMatrix> > (hierarchy CDmElementFactory<class CDmeTypedLog<class VMatrix> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4910
+CDmElementFactory<class CDmeTypedLog<class Vec2D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLog<class Vec2D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4848
+CDmElementFactory<class CDmeTypedLog<class Vec3D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLog<class Vec3D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4870
+CDmElementFactory<class CDmeTypedLog<class Vec4D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLog<class Vec4D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4898
+CDmElementFactory<class CDmeTypedLog<float> > (hierarchy CDmElementFactory<class CDmeTypedLog<float> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db47d0
+CDmElementFactory<class CDmeTypedLog<int> > (hierarchy CDmElementFactory<class CDmeTypedLog<int> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db47a8
+CDmElementFactory<class CDmeTypedLog<unsigned __int64> > (hierarchy CDmElementFactory<class CDmeTypedLog<unsigned __int64> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4988
+CDmElementFactory<class CDmeTypedLog<unsigned char> > (hierarchy CDmElementFactory<class CDmeTypedLog<unsigned char> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db49b0
+CDmElementFactory<class CDmeTypedLogLayer<bool> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<bool> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4358
+CDmElementFactory<class CDmeTypedLogLayer<class CUtlSymbolLarge> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class CUtlSymbolLarge> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4498
+CDmElementFactory<class CDmeTypedLogLayer<class Color> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class Color> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4380
+CDmElementFactory<class CDmeTypedLogLayer<class DmeTime_t> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class DmeTime_t> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db44c0
+CDmElementFactory<class CDmeTypedLogLayer<class QAngle> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class QAngle> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4420
+CDmElementFactory<class CDmeTypedLogLayer<class QuaternionStorage> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class QuaternionStorage> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4448
+CDmElementFactory<class CDmeTypedLogLayer<class VMatrix> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class VMatrix> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4470
+CDmElementFactory<class CDmeTypedLogLayer<class Vec2D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class Vec2D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db43a8
+CDmElementFactory<class CDmeTypedLogLayer<class Vec3D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class Vec3D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db43d0
+CDmElementFactory<class CDmeTypedLogLayer<class Vec4D<float> > > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<class Vec4D<float> > >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db43f8
+CDmElementFactory<class CDmeTypedLogLayer<float> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<float> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4330
+CDmElementFactory<class CDmeTypedLogLayer<int> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<int> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4308
+CDmElementFactory<class CDmeTypedLogLayer<unsigned __int64> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<unsigned __int64> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db44e8
+CDmElementFactory<class CDmeTypedLogLayer<unsigned char> > (hierarchy CDmElementFactory<class CDmeTypedLogLayer<unsigned char> >: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4510
+CDmElementFactory<class CDmeVertexData> (hierarchy CDmElementFactory<class CDmeVertexData>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db3f78
+CDmElementFactory<class CDmeVertexDataBase> (hierarchy CDmElementFactory<class CDmeVertexDataBase>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db3f50
+CDmElementFactory<class CDmeVertexDeltaData> (hierarchy CDmElementFactory<class CDmeVertexDeltaData>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db3fa0
+CDmElementFactory<class CDmeVtex> (hierarchy CDmElementFactory<class CDmeVtex>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da82c0
+CDmElementFactory<class CDmeXSIMakefile> (hierarchy CDmElementFactory<class CDmeXSIMakefile>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1db4c58
+CDmElementFactory<class CEdgeSelectionSetDataElement> (hierarchy CDmElementFactory<class CEdgeSelectionSetDataElement>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d90f70
+CDmElementFactory<class CEditGameClassProps> (hierarchy CDmElementFactory<class CEditGameClassProps>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d90748
+CDmElementFactory<class CFaceSelectionSetDataElement> (hierarchy CDmElementFactory<class CFaceSelectionSetDataElement>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d90fa0
+CDmElementFactory<class CGrassMaterialSlot> (hierarchy CDmElementFactory<class CGrassMaterialSlot>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9def0
+CDmElementFactory<class CImagePlaneNode> (hierarchy CDmElementFactory<class CImagePlaneNode>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d98db8
+CDmElementFactory<class CManifestInstance> (hierarchy CDmElementFactory<class CManifestInstance>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da7c40
+CDmElementFactory<class CMapAtom> (hierarchy CDmElementFactory<class CMapAtom>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da27e0
+CDmElementFactory<class CMapBox> (hierarchy CDmElementFactory<class CMapBox>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da77d8
+CDmElementFactory<class CMapCable> (hierarchy CDmElementFactory<class CMapCable>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9cd08
+CDmElementFactory<class CMapCordon> (hierarchy CDmElementFactory<class CMapCordon>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9da70
+CDmElementFactory<class CMapDeformer> (hierarchy CDmElementFactory<class CMapDeformer>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d8f0
+CDmElementFactory<class CMapDeformerLattice> (hierarchy CDmElementFactory<class CMapDeformerLattice>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d6d8
+CDmElementFactory<class CMapDeformerSimple> (hierarchy CDmElementFactory<class CMapDeformerSimple>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d780
+CDmElementFactory<class CMapDotaGridnavMarkup> (hierarchy CDmElementFactory<class CMapDotaGridnavMarkup>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da70f8
+CDmElementFactory<class CMapDotaTileGrid> (hierarchy CDmElementFactory<class CMapDotaTileGrid>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d91930
+CDmElementFactory<class CMapEntity> (hierarchy CDmElementFactory<class CMapEntity>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d908d8
+CDmElementFactory<class CMapEntityIONode> (hierarchy CDmElementFactory<class CMapEntityIONode>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9da10
+CDmElementFactory<class CMapGameDataNode> (hierarchy CDmElementFactory<class CMapGameDataNode>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d90770
+CDmElementFactory<class CMapGlobalTileGridMaps> (hierarchy CDmElementFactory<class CMapGlobalTileGridMaps>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da7158
+CDmElementFactory<class CMapGrassTile> (hierarchy CDmElementFactory<class CMapGrassTile>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da7cd8
+CDmElementFactory<class CMapGrassTileCollection> (hierarchy CDmElementFactory<class CMapGrassTileCollection>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da80c8
+CDmElementFactory<class CMapGroup> (hierarchy CDmElementFactory<class CMapGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d98c60
+CDmElementFactory<class CMapGroupProxy> (hierarchy CDmElementFactory<class CMapGroupProxy>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9e9e8
+CDmElementFactory<class CMapInstance> (hierarchy CDmElementFactory<class CMapInstance>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d994f0
+CDmElementFactory<class CMapIsoSurface> (hierarchy CDmElementFactory<class CMapIsoSurface>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da4c20
+CDmElementFactory<class CMapLatticeControlPointLocator> (hierarchy CDmElementFactory<class CMapLatticeControlPointLocator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d6b0
+CDmElementFactory<class CMapLocator> (hierarchy CDmElementFactory<class CMapLocator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da6fb0
+CDmElementFactory<class CMapMesh> (hierarchy CDmElementFactory<class CMapMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d94240
+CDmElementFactory<class CMapMeshBase> (hierarchy CDmElementFactory<class CMapMeshBase>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d90b00
+CDmElementFactory<class CMapNavData> (hierarchy CDmElementFactory<class CMapNavData>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da3de0
+CDmElementFactory<class CMapNavLink> (hierarchy CDmElementFactory<class CMapNavLink>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da7be0
+CDmElementFactory<class CMapNavLinkLocator> (hierarchy CDmElementFactory<class CMapNavLinkLocator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da7ad0
+CDmElementFactory<class CMapNavMesh> (hierarchy CDmElementFactory<class CMapNavMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da6f40
+CDmElementFactory<class CMapNode> (hierarchy CDmElementFactory<class CMapNode>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d90440
+CDmElementFactory<class CMapOpaqueDataBlob> (hierarchy CDmElementFactory<class CMapOpaqueDataBlob>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da8128
+CDmElementFactory<class CMapPath> (hierarchy CDmElementFactory<class CMapPath>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d90390
+CDmElementFactory<class CMapPathNode> (hierarchy CDmElementFactory<class CMapPathNode>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d903f8
+CDmElementFactory<class CMapPhysicsPin> (hierarchy CDmElementFactory<class CMapPhysicsPin>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da3e48
+CDmElementFactory<class CMapPoint> (hierarchy CDmElementFactory<class CMapPoint>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d98bf8
+CDmElementFactory<class CMapPrefab> (hierarchy CDmElementFactory<class CMapPrefab>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d98d08
+CDmElementFactory<class CMapPrefabSubInstance> (hierarchy CDmElementFactory<class CMapPrefabSubInstance>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da6ec8
+CDmElementFactory<class CMapProxy> (hierarchy CDmElementFactory<class CMapProxy>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da2848
+CDmElementFactory<class CMapProxyInstance> (hierarchy CDmElementFactory<class CMapProxyInstance>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d960
+CDmElementFactory<class CMapRootElement> (hierarchy CDmElementFactory<class CMapRootElement>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d904d0
+CDmElementFactory<class CMapSelectionSet> (hierarchy CDmElementFactory<class CMapSelectionSet>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9ee98
+CDmElementFactory<class CMapSmartProp> (hierarchy CDmElementFactory<class CMapSmartProp>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d508
+CDmElementFactory<class CMapSmartPropLocator> (hierarchy CDmElementFactory<class CMapSmartPropLocator>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da78a0
+CDmElementFactory<class CMapSpawnGroup> (hierarchy CDmElementFactory<class CMapSpawnGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da8188
+CDmElementFactory<class CMapStaticOverlay> (hierarchy CDmElementFactory<class CMapStaticOverlay>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d90b70
+CDmElementFactory<class CMapTerrain> (hierarchy CDmElementFactory<class CMapTerrain>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9f1b8
+CDmElementFactory<class CMapTerrainDetail> (hierarchy CDmElementFactory<class CMapTerrainDetail>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da81f0
+CDmElementFactory<class CMapTerrainElement> (hierarchy CDmElementFactory<class CMapTerrainElement>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9f108
+CDmElementFactory<class CMapTerrainFeature> (hierarchy CDmElementFactory<class CMapTerrainFeature>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da47f8
+CDmElementFactory<class CMapTerrainGrass> (hierarchy CDmElementFactory<class CMapTerrainGrass>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da4998
+CDmElementFactory<class CMapTerrainGround> (hierarchy CDmElementFactory<class CMapTerrainGround>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da48c8
+CDmElementFactory<class CMapTerrainGroup> (hierarchy CDmElementFactory<class CMapTerrainGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da79e0
+CDmElementFactory<class CMapTerrainGroupBase> (hierarchy CDmElementFactory<class CMapTerrainGroupBase>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da79b8
+CDmElementFactory<class CMapTerrainGroupInputs> (hierarchy CDmElementFactory<class CMapTerrainGroupInputs>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da7a08
+CDmElementFactory<class CMapTerrainGroupOutputs> (hierarchy CDmElementFactory<class CMapTerrainGroupOutputs>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da7a30
+CDmElementFactory<class CMapTerrainLayer> (hierarchy CDmElementFactory<class CMapTerrainLayer>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9f478
+CDmElementFactory<class CMapTerrainLayerComposite> (hierarchy CDmElementFactory<class CMapTerrainLayerComposite>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da4a98
+CDmElementFactory<class CMapTerrainLayerImage> (hierarchy CDmElementFactory<class CMapTerrainLayerImage>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da4a00
+CDmElementFactory<class CMapTerrainLayerPaintable> (hierarchy CDmElementFactory<class CMapTerrainLayerPaintable>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da4860
+CDmElementFactory<class CMapTerrainLayerWorldHeight> (hierarchy CDmElementFactory<class CMapTerrainLayerWorldHeight>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da4930
+CDmElementFactory<class CMapTerrainPrefab> (hierarchy CDmElementFactory<class CMapTerrainPrefab>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9f228
+CDmElementFactory<class CMapTestNode> (hierarchy CDmElementFactory<class CMapTestNode>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d850
+CDmElementFactory<class CMapTile> (hierarchy CDmElementFactory<class CMapTile>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da0540
+CDmElementFactory<class CMapTileGrid> (hierarchy CDmElementFactory<class CMapTileGrid>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d91138
+CDmElementFactory<class CMapTileMesh> (hierarchy CDmElementFactory<class CMapTileMesh>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d99560
+CDmElementFactory<class CMapTileMeshGroup> (hierarchy CDmElementFactory<class CMapTileMeshGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da2750
+CDmElementFactory<class CMapTileObject> (hierarchy CDmElementFactory<class CMapTileObject>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da4798
+CDmElementFactory<class CMapTileProxy> (hierarchy CDmElementFactory<class CMapTileProxy>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da27b0
+CDmElementFactory<class CMapTileSet> (hierarchy CDmElementFactory<class CMapTileSet>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9df68
+CDmElementFactory<class CMapTransform> (hierarchy CDmElementFactory<class CMapTransform>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d588
+CDmElementFactory<class CMapVariableChoice> (hierarchy CDmElementFactory<class CMapVariableChoice>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9e960
+CDmElementFactory<class CMapVariableChoiceGroup> (hierarchy CDmElementFactory<class CMapVariableChoiceGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9e988
+CDmElementFactory<class CMapVariableSet> (hierarchy CDmElementFactory<class CMapVariableSet>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9e938
+CDmElementFactory<class CMapVisCluster> (hierarchy CDmElementFactory<class CMapVisCluster>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da7838
+CDmElementFactory<class CMapVisData> (hierarchy CDmElementFactory<class CMapVisData>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9cb80
+CDmElementFactory<class CMapWeightedGroup> (hierarchy CDmElementFactory<class CMapWeightedGroup>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da23e0
+CDmElementFactory<class CMapWorld> (hierarchy CDmElementFactory<class CMapWorld>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d91198
+CDmElementFactory<class CMapWorldLayer> (hierarchy CDmElementFactory<class CMapWorldLayer>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da6a00
+CDmElementFactory<class CObjectSelectionSetDataElement> (hierarchy CDmElementFactory<class CObjectSelectionSetDataElement>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d90fd0
+CDmElementFactory<class CPerLayerGrassData> (hierarchy CDmElementFactory<class CPerLayerGrassData>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9dec8
+CDmElementFactory<class CSelectionSetDataElement> (hierarchy CDmElementFactory<class CSelectionSetDataElement>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da6e68
+CDmElementFactory<class CSteamAudioData> (hierarchy CDmElementFactory<class CSteamAudioData>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9cd68
+CDmElementFactory<class CSteamAudioImportedProbeBoxNode> (hierarchy CDmElementFactory<class CSteamAudioImportedProbeBoxNode>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d3d0
+CDmElementFactory<class CSteamAudioImportedProbeNode> (hierarchy CDmElementFactory<class CSteamAudioImportedProbeNode>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9d438
+CDmElementFactory<class CSteamAudioProbeBoxNode> (hierarchy CDmElementFactory<class CSteamAudioProbeBoxNode>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9f4d8
+CDmElementFactory<class CSteamAudioProbeNode> (hierarchy CDmElementFactory<class CSteamAudioProbeNode>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da01d8
+CDmElementFactory<class CStoredCamera> (hierarchy CDmElementFactory<class CStoredCamera>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d904a8
+CDmElementFactory<class CStoredCameras> (hierarchy CDmElementFactory<class CStoredCameras>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d90480
+CDmElementFactory<class CTileSetGrassParameters> (hierarchy CDmElementFactory<class CTileSetGrassParameters>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9df18
+CDmElementFactory<class CTileSetMaterialSet> (hierarchy CDmElementFactory<class CTileSetMaterialSet>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9df40
+CDmElementFactory<class CTileSetProperty> (hierarchy CDmElementFactory<class CTileSetProperty>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d9dea0
+CDmElementFactory<class CVertexSelectionSetDataElement> (hierarchy CDmElementFactory<class CVertexSelectionSetDataElement>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1d90f40
+CDmElementFactory<class CVisibilityMgr> (hierarchy CDmElementFactory<class CVisibilityMgr>: CDmElementFactoryInternal, IDmElementFactory)
+	hammer.dll + 0x1da4af8
+CDmElementFactoryDefault (hierarchy CDmElementFactoryDefault: IDmElementFactory)
+	hammer.dll + 0x1d675b8
+CDmElementFramework (hierarchy CDmElementFramework: CBaseAppSystem<class IDmElementFramework>, IDmElementFramework, CBaseAppSystem<class IAppSystem>, IAppSystem)
+	hammer.dll + 0x1d67b40
+CDmFormatUpdater_animflags (hierarchy CDmFormatUpdater_animflags: IDmFormatUpdater)
+	hammer.dll + 0x1d687e0
+CDmFormatUpdater_dmx (hierarchy CDmFormatUpdater_dmx: IDmFormatUpdater)
+	hammer.dll + 0x1d686f0
+CDmFormatUpdater_facial_animation (hierarchy CDmFormatUpdater_facial_animation: IDmFormatUpdater)
+	hammer.dll + 0x1d68730
+CDmFormatUpdater_gui (hierarchy CDmFormatUpdater_gui: IDmFormatUpdater)
+	hammer.dll + 0x1d687a0
+CDmFormatUpdater_model (hierarchy CDmFormatUpdater_model: IDmFormatUpdater)
+	hammer.dll + 0x1d68738
+CDmFormatUpdater_movieobjects (hierarchy CDmFormatUpdater_movieobjects: IDmFormatUpdater)
+	hammer.dll + 0x1d686f8
+CDmFormatUpdater_mp_anim (hierarchy CDmFormatUpdater_mp_anim: IDmFormatUpdater)
+	hammer.dll + 0x1d68768
+CDmFormatUpdater_mp_bonemask (hierarchy CDmFormatUpdater_mp_bonemask: IDmFormatUpdater)
+	hammer.dll + 0x1d68798
+CDmFormatUpdater_mp_eyes (hierarchy CDmFormatUpdater_mp_eyes: IDmFormatUpdater)
+	hammer.dll + 0x1d68790
+CDmFormatUpdater_mp_hitbox (hierarchy CDmFormatUpdater_mp_hitbox: IDmFormatUpdater)
+	hammer.dll + 0x1d68778
+CDmFormatUpdater_mp_keyvalues (hierarchy CDmFormatUpdater_mp_keyvalues: IDmFormatUpdater)
+	hammer.dll + 0x1d68788
+CDmFormatUpdater_mp_materialgroup (hierarchy CDmFormatUpdater_mp_materialgroup: IDmFormatUpdater)
+	hammer.dll + 0x1d68780
+CDmFormatUpdater_mp_model (hierarchy CDmFormatUpdater_mp_model: IDmFormatUpdater)
+	hammer.dll + 0x1d68760
+CDmFormatUpdater_mp_physics (hierarchy CDmFormatUpdater_mp_physics: IDmFormatUpdater)
+	hammer.dll + 0x1d68770
+CDmFormatUpdater_mp_preprocess (hierarchy CDmFormatUpdater_mp_preprocess: IDmFormatUpdater)
+	hammer.dll + 0x1d68750
+CDmFormatUpdater_mp_root (hierarchy CDmFormatUpdater_mp_root: IDmFormatUpdater)
+	hammer.dll + 0x1d68758
+CDmFormatUpdater_pcf (hierarchy CDmFormatUpdater_pcf: IDmFormatUpdater)
+	hammer.dll + 0x1d68720
+CDmFormatUpdater_preset (hierarchy CDmFormatUpdater_preset: IDmFormatUpdater)
+	hammer.dll + 0x1d68728
+CDmFormatUpdater_schema (hierarchy CDmFormatUpdater_schema: IDmFormatUpdater)
+	hammer.dll + 0x1d687a8
+CDmFormatUpdater_sfm (hierarchy CDmFormatUpdater_sfm: IDmFormatUpdater)
+	hammer.dll + 0x1d68700
+CDmFormatUpdater_sfm_session (hierarchy CDmFormatUpdater_sfm_session: IDmFormatUpdater)
+	hammer.dll + 0x1d68710
+CDmFormatUpdater_sfm_settings (hierarchy CDmFormatUpdater_sfm_settings: IDmFormatUpdater)
+	hammer.dll + 0x1d68708
+CDmFormatUpdater_sfm_trackgroup (hierarchy CDmFormatUpdater_sfm_trackgroup: IDmFormatUpdater)
+	hammer.dll + 0x1d68718
+CDmFormatUpdater_vanim (hierarchy CDmFormatUpdater_vanim: IDmFormatUpdater)
+	hammer.dll + 0x1d687d8
+CDmFormatUpdater_ved (hierarchy CDmFormatUpdater_ved: IDmFormatUpdater)
+	hammer.dll + 0x1d68740
+CDmFormatUpdater_virtualvolumetexture (hierarchy CDmFormatUpdater_virtualvolumetexture: IDmFormatUpdater)
+	hammer.dll + 0x1d687c8
+CDmFormatUpdater_vmap (hierarchy CDmFormatUpdater_vmap: IDmFormatUpdater)
+	hammer.dll + 0x1d687d0
+CDmFormatUpdater_vmks (hierarchy CDmFormatUpdater_vmks: IDmFormatUpdater)
+	hammer.dll + 0x1d68748
+CDmFormatUpdater_vtex (hierarchy CDmFormatUpdater_vtex: IDmFormatUpdater)
+	hammer.dll + 0x1d687b0
+CDmFormatUpdater_world (hierarchy CDmFormatUpdater_world: IDmFormatUpdater)
+	hammer.dll + 0x1d687b8
+CDmFormatUpdater_worldnode (hierarchy CDmFormatUpdater_worldnode: IDmFormatUpdater)
+	hammer.dll + 0x1d687c0
+CDmSerializerBinary (hierarchy CDmSerializerBinary: IDmSerializer)
+	hammer.dll + 0x1d67af8
+	hammer.dll + 0x1d67b10
+CDmSerializerKeyValues (hierarchy CDmSerializerKeyValues: IDmSerializer)
+	hammer.dll + 0x1d67620
+CDmSerializerKeyValues2 (hierarchy CDmSerializerKeyValues2: IDmSerializer)
+	hammer.dll + 0x1d67870
+	hammer.dll + 0x1d67920
+	hammer.dll + 0x1d679d0
+CDmSerializers (hierarchy CDmSerializers: CBaseAppSystem<class IDmSerializers>, IDmSerializers, IAppSystem)
+	hammer.dll + 0x1d68180
+CDynamicWidgetFactory<class CQDraggableWidgetList> (hierarchy CDynamicWidgetFactory<class CQDraggableWidgetList>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8c90
+CDynamicWidgetFactory<class CQFilteredTreeWidget> (hierarchy CDynamicWidgetFactory<class CQFilteredTreeWidget>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8530
+CDynamicWidgetFactory<class CQGenericFilterLineEdit> (hierarchy CDynamicWidgetFactory<class CQGenericFilterLineEdit>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1de45b8
+CDynamicWidgetFactory<class CQTreeWidgetWithHover> (hierarchy CDynamicWidgetFactory<class CQTreeWidgetWithHover>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8520
+CDynamicWidgetFactory<class QComboBox> (hierarchy CDynamicWidgetFactory<class QComboBox>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8c80
+CDynamicWidgetFactory<class QFrame> (hierarchy CDynamicWidgetFactory<class QFrame>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8c00
+CDynamicWidgetFactory<class QGroupBox> (hierarchy CDynamicWidgetFactory<class QGroupBox>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8c20
+CDynamicWidgetFactory<class QLabel> (hierarchy CDynamicWidgetFactory<class QLabel>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8bd0
+CDynamicWidgetFactory<class QLineEdit> (hierarchy CDynamicWidgetFactory<class QLineEdit>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8be0
+CDynamicWidgetFactory<class QListWidget> (hierarchy CDynamicWidgetFactory<class QListWidget>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8fe0
+CDynamicWidgetFactory<class QMenu> (hierarchy CDynamicWidgetFactory<class QMenu>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8c10
+CDynamicWidgetFactory<class QProgressBar> (hierarchy CDynamicWidgetFactory<class QProgressBar>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8c40
+CDynamicWidgetFactory<class QRadioButton> (hierarchy CDynamicWidgetFactory<class QRadioButton>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8c50
+CDynamicWidgetFactory<class QScrollBar> (hierarchy CDynamicWidgetFactory<class QScrollBar>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8c60
+CDynamicWidgetFactory<class QSlider> (hierarchy CDynamicWidgetFactory<class QSlider>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8bf0
+CDynamicWidgetFactory<class QSpinBox> (hierarchy CDynamicWidgetFactory<class QSpinBox>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8c70
+CDynamicWidgetFactory<class QTextBrowser> (hierarchy CDynamicWidgetFactory<class QTextBrowser>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8ca0
+CDynamicWidgetFactory<class QTextEdit> (hierarchy CDynamicWidgetFactory<class QTextEdit>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8c30
+CDynamicWidgetFactory<class QWidget> (hierarchy CDynamicWidgetFactory<class QWidget>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8bc0
+CDynamicWidgetFactory_Custom<class CQBindableCommandPushButton> (hierarchy CDynamicWidgetFactory_Custom<class CQBindableCommandPushButton>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc9040
+CDynamicWidgetFactory_Custom<class CQBindableCommandToolButton> (hierarchy CDynamicWidgetFactory_Custom<class CQBindableCommandToolButton>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8ff0
+CDynamicWidgetFactory_Custom<class QCheckBox> (hierarchy CDynamicWidgetFactory_Custom<class QCheckBox>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8db0
+CDynamicWidgetFactory_Custom<class QDockWidget> (hierarchy CDynamicWidgetFactory_Custom<class QDockWidget>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8f40
+CDynamicWidgetFactory_Custom<class QMainWindow> (hierarchy CDynamicWidgetFactory_Custom<class QMainWindow>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8e00
+CDynamicWidgetFactory_Custom<class QMenuBar> (hierarchy CDynamicWidgetFactory_Custom<class QMenuBar>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8e50
+CDynamicWidgetFactory_Custom<class QPushButton> (hierarchy CDynamicWidgetFactory_Custom<class QPushButton>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8d10
+CDynamicWidgetFactory_Custom<class QScrollArea> (hierarchy CDynamicWidgetFactory_Custom<class QScrollArea>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8ea0
+CDynamicWidgetFactory_Custom<class QTabWidget> (hierarchy CDynamicWidgetFactory_Custom<class QTabWidget>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8ef0
+CDynamicWidgetFactory_Custom<class QTableWidget> (hierarchy CDynamicWidgetFactory_Custom<class QTableWidget>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8f90
+CDynamicWidgetFactory_Custom<class QToolBar> (hierarchy CDynamicWidgetFactory_Custom<class QToolBar>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc9090
+CDynamicWidgetFactory_Custom<class QToolButton> (hierarchy CDynamicWidgetFactory_Custom<class QToolButton>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8d60
+CDynamicWidgetFactory_Orientation<class QHeaderView> (hierarchy CDynamicWidgetFactory_Orientation<class QHeaderView>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8cb0
+	hammer.dll + 0x1dc8cc8
+CDynamicWidgetFactory_Orientation<class QSplitter> (hierarchy CDynamicWidgetFactory_Orientation<class QSplitter>: CBaseDynamicWidgetFactory)
+	hammer.dll + 0x1dc8ce0
+	hammer.dll + 0x1dc8cf8
+CEmptySequence (hierarchy CEmptySequence: ISequence, IBaseSequence)
+	hammer.dll + 0x1dac578
+CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> > (hierarchy CEntityComponentHelperT<class CScriptComponent,class CEntityComponentHelperReferenced<class CScriptComponent> >: CEntityComponentHelperReferenced<class CScriptComponent>, CEntityComponentHelper)
+	hammer.dll + 0x1d69ce8
+CEntityMsg (hierarchy CEntityMsg: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c400
+CFbxSystem (hierarchy CFbxSystem: CBaseAppSystem<class IFbxSystem>, IFbxSystem, IAppSystem)
+	hammer.dll + 0x1d6af28
+CGlobalHotkeyCommands (hierarchy CGlobalHotkeyCommands: IBindTarget)
+	hammer.dll + 0x20fdeb8
+CGridSceneObjectDescriptor (hierarchy CGridSceneObjectDescriptor: ISceneObjectDescBase<class CGridSceneObject>, ISceneObjectDesc)
+	hammer.dll + 0x1e0c850
+CHammerClipboard (hierarchy CHammerClipboard: IHammerClipboard)
+	hammer.dll + 0x1d99420
+CHistory (hierarchy CHistory: CUndoHistory)
+	hammer.dll + 0x1fc6510
+CHitBoxObjectDesc (hierarchy CHitBoxObjectDesc: ISceneObjectDescBase<class CToolSceneHitBoxObject>, ISceneObjectDesc)
+	hammer.dll + 0x1de32a0
+CImportActBusy (hierarchy CImportActBusy: CImportKeyValueBase, IDmSerializer)
+	hammer.dll + 0x1d688a8
+CImportCommentary (hierarchy CImportCommentary: CImportKeyValueBase, IDmSerializer)
+	hammer.dll + 0x1d688b8
+CImportMKS (hierarchy CImportMKS: IDmSerializer)
+	hammer.dll + 0x1d68b00
+CImportSFMV1 (hierarchy CImportSFMV1: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	hammer.dll + 0x1fbbf40
+CImportSFMV2 (hierarchy CImportSFMV2: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	hammer.dll + 0x1fbbf78
+CImportSFMV3 (hierarchy CImportSFMV3: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	hammer.dll + 0x1fbbf98
+CImportSFMV4 (hierarchy CImportSFMV4: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	hammer.dll + 0x1fbbfb8
+CImportSFMV5 (hierarchy CImportSFMV5: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	hammer.dll + 0x1fbbfe0
+CImportSFMV6 (hierarchy CImportSFMV6: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	hammer.dll + 0x1fbbff8
+CImportSFMV7 (hierarchy CImportSFMV7: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	hammer.dll + 0x1fbc018
+CImportSFMV8 (hierarchy CImportSFMV8: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	hammer.dll + 0x1fbc038
+CImportSFMV9 (hierarchy CImportSFMV9: CSFMBaseImporter, CDmeBaseImporter, IDmLegacyUpdater)
+	hammer.dll + 0x1fbc058
+CImportTex (hierarchy CImportTex: IDmSerializer)
+	hammer.dll + 0x1d68b28
+CImportVMT (hierarchy CImportVMT: CImportKeyValueBase, IDmSerializer)
+	hammer.dll + 0x1d688c8
+CInputLayoutRegistration_s_hColoredVertexLayout (hierarchy CInputLayoutRegistration_s_hColoredVertexLayout: CPostConnectCallback)
+	hammer.dll + 0x21404f8
+CMapFGDFromAssetRegistry (hierarchy CMapFGDFromAssetRegistry: CFGDFromAssetRegistry, IToolsResourceListener)
+	hammer.dll + 0x1d90560
+CMaterialListVirtualAttribute
+	(hierarchy CMaterialListVirtualAttribute: IBaseToolAttr, IToolAttr_Array)
+		hammer.dll + 0x1d90bd8
+	MI offset 8 (hierarchy IToolAttr_Array)
+		hammer.dll + 0x1d90be0
+CMaterialVirtualAttribute
+	(hierarchy CMaterialVirtualAttribute: IBaseToolAttr, IToolAttr_Value)
+		hammer.dll + 0x1d90c00
+	MI offset 8 (hierarchy IToolAttr_Value)
+		hammer.dll + 0x1d90c08
+CModelInstanceManager (hierarchy CModelInstanceManager: IToolsResourceListener)
+	hammer.dll + 0x1de1e40
+CMsgPlayerInfo (hierarchy CMsgPlayerInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c368
+CMsgQAngle (hierarchy CMsgQAngle: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c4e8
+CMsgQuaternion (hierarchy CMsgQuaternion: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c470
+CMsgRGBA (hierarchy CMsgRGBA: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c448
+CMsgTransform (hierarchy CMsgTransform: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c1a8
+CMsgVector (hierarchy CMsgVector: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c4c0
+CMsgVector2D (hierarchy CMsgVector2D: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c228
+CMsg_CVars (hierarchy CMsg_CVars: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c510
+CMsg_CVars_CVar (hierarchy CMsg_CVars_CVar: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c568
+CNETMsg_DebugOverlay (hierarchy CNETMsg_DebugOverlay: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c2a0
+CNETMsg_NOP (hierarchy CNETMsg_NOP: google::protobuf::internal::ZeroFieldsBase, google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c3c0
+CNETMsg_SetConVar (hierarchy CNETMsg_SetConVar: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c348
+CNETMsg_SignonState (hierarchy CNETMsg_SignonState: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c130
+CNETMsg_SpawnGroup_Load (hierarchy CNETMsg_SpawnGroup_Load: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c060
+CNETMsg_SpawnGroup_LoadCompleted (hierarchy CNETMsg_SpawnGroup_LoadCompleted: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c3a0
+CNETMsg_SpawnGroup_ManifestUpdate (hierarchy CNETMsg_SpawnGroup_ManifestUpdate: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c180
+CNETMsg_SpawnGroup_SetCreationTick (hierarchy CNETMsg_SpawnGroup_SetCreationTick: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c420
+CNETMsg_SpawnGroup_Unload (hierarchy CNETMsg_SpawnGroup_Unload: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c3d8
+CNETMsg_SplitScreenUser (hierarchy CNETMsg_SplitScreenUser: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c1d8
+CNETMsg_StringCmd (hierarchy CNETMsg_StringCmd: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c540
+CNETMsg_Tick (hierarchy CNETMsg_Tick: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c250
+CNavHullPresetVDataFileManager (hierarchy CNavHullPresetVDataFileManager: CVDataFileManager<class CNavHullPresetVData>, CBaseVDataFileManager, IVDataResourceListener)
+	hammer.dll + 0x1db5bc0
+CNavHullVDataFileManager (hierarchy CNavHullVDataFileManager: CVDataFileManager<class CNavHullVData>, CBaseVDataFileManager, IVDataResourceListener)
+	hammer.dll + 0x1db5ac0
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_AnimgraphPicker> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_AnimgraphPicker>: IPropertyAttributeEditorFactory)
+	hammer.dll + 0x1e0c950
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_BodyGroupChoices> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_BodyGroupChoices>: IPropertyAttributeEditorFactory)
+	hammer.dll + 0x1e0c9c8
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_CustomTagAdder> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_CustomTagAdder>: IPropertyAttributeEditorFactory)
+	hammer.dll + 0x1e0c980
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_EntityPicker> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_EntityPicker>: IPropertyAttributeEditorFactory)
+	hammer.dll + 0x1e0c938
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_ImpulseResponse> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_ImpulseResponse>: IPropertyAttributeEditorFactory)
+	hammer.dll + 0x1e0ca40
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_LODLevelChoices> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_LODLevelChoices>: IPropertyAttributeEditorFactory)
+	hammer.dll + 0x1e0c9b0
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_LinkedProperty> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_LinkedProperty>: IPropertyAttributeEditorFactory)
+	hammer.dll + 0x1e0c920
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_ModelStateChoices> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_ModelStateChoices>: IPropertyAttributeEditorFactory)
+	hammer.dll + 0x1e0c9e0
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_ObjectPicker> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_ObjectPicker>: IPropertyAttributeEditorFactory)
+	hammer.dll + 0x1e0c968
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_SoundPicker> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_SoundPicker>: IPropertyAttributeEditorFactory)
+	hammer.dll + 0x1e0c998
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_SurfaceProp> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_SurfaceProp>: IPropertyAttributeEditorFactory)
+	hammer.dll + 0x1e0c9f8
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_VDataChoice> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_VDataChoice>: IPropertyAttributeEditorFactory)
+	hammer.dll + 0x1e0ca10
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_VDataChoiceWithReferences> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_VDataChoiceWithReferences>: IPropertyAttributeEditorFactory)
+	hammer.dll + 0x1e0ca28
+CPulseTestGapTypeQueryRegistration (hierarchy CPulseTestGapTypeQueryRegistration: IGapTypeQueryRegistrationForScope)
+	hammer.dll + 0x1dbab20
+CQtImageCache (hierarchy CQtImageCache: IQtImageCache)
+	hammer.dll + 0x1dc2b00
+CSVCMsgList_GameEvents (hierarchy CSVCMsgList_GameEvents: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c1f8
+CSVCMsgList_GameEvents_event_t (hierarchy CSVCMsgList_GameEvents_event_t: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c498
+CSVCMsg_GameEvent (hierarchy CSVCMsg_GameEvent: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c0f0
+CSVCMsg_GameEvent_key_t (hierarchy CSVCMsg_GameEvent_key_t: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0c020
+CSVCMsg_GameSessionConfiguration (hierarchy CSVCMsg_GameSessionConfiguration: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1e0bfb0
+CScenePointCloudDesc (hierarchy CScenePointCloudDesc: ISceneObjectDescBase<class CScenePointCloud>, ISceneObjectDesc)
+	hammer.dll + 0x1de2338
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	hammer.dll + 0x2121f68
+CSchemaRegistration_entity2 (hierarchy CSchemaRegistration_entity2: CSchemaRegistration)
+	hammer.dll + 0x1d69560
+CSchemaRegistration_hammer (hierarchy CSchemaRegistration_hammer: CSchemaRegistration)
+	hammer.dll + 0x1e0e7e8
+CSchemaRegistration_mapdoclib (hierarchy CSchemaRegistration_mapdoclib: CSchemaRegistration)
+	hammer.dll + 0x1d98d30
+CSchemaRegistration_modellib (hierarchy CSchemaRegistration_modellib: CSchemaRegistration)
+	hammer.dll + 0x1dac598
+CSchemaRegistration_pulse_runtime_lib (hierarchy CSchemaRegistration_pulse_runtime_lib: CSchemaRegistration)
+	hammer.dll + 0x1db6320
+CSchemaRegistration_smartprops (hierarchy CSchemaRegistration_smartprops: CSchemaRegistration)
+	hammer.dll + 0x1dce140
+CSchemaRegistration_vmf_to_vmap (hierarchy CSchemaRegistration_vmf_to_vmap: CSchemaRegistration)
+	hammer.dll + 0x1de6c00
+CTextListSceneObjectDescriptor (hierarchy CTextListSceneObjectDescriptor: ISceneObjectDescBase<class CTextSceneObject>, ISceneObjectDesc)
+	hammer.dll + 0x1de1e30
+CToolAttrDirectMemberAccess<bool,struct ColorOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<bool,struct ColorOptionsEditableData_t>: IToolAttrConcreteDataAccess<bool>)
+	hammer.dll + 0x6157e08
+	hammer.dll + 0x6157fc8
+CToolAttrDirectMemberAccess<bool,struct GeneralOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<bool,struct GeneralOptionsEditableData_t>: IToolAttrConcreteDataAccess<bool>)
+	hammer.dll + 0x6156328
+	hammer.dll + 0x61564e8
+	hammer.dll + 0x61566a8
+	hammer.dll + 0x6156868
+	hammer.dll + 0x6156a28
+	hammer.dll + 0x6157128
+	hammer.dll + 0x61572e8
+	hammer.dll + 0x61574a8
+	hammer.dll + 0x6157668
+CToolAttrDirectMemberAccess<bool,struct ImportExportOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<bool,struct ImportExportOptionsEditableData_t>: IToolAttrConcreteDataAccess<bool>)
+	hammer.dll + 0x615c4f8
+	hammer.dll + 0x615c6b8
+CToolAttrDirectMemberAccess<bool,struct ToolsOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<bool,struct ToolsOptionsEditableData_t>: IToolAttrConcreteDataAccess<bool>)
+	hammer.dll + 0x615b6a8
+	hammer.dll + 0x615b868
+	hammer.dll + 0x615ba28
+	hammer.dll + 0x615bbe8
+	hammer.dll + 0x615bda8
+	hammer.dll + 0x615bf68
+	hammer.dll + 0x615c128
+	hammer.dll + 0x615c2e8
+CToolAttrDirectMemberAccess<bool,struct View2DOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<bool,struct View2DOptionsEditableData_t>: IToolAttrConcreteDataAccess<bool>)
+	hammer.dll + 0x6158dc8
+	hammer.dll + 0x6158f88
+	hammer.dll + 0x6159308
+CToolAttrDirectMemberAccess<bool,struct View3DOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<bool,struct View3DOptionsEditableData_t>: IToolAttrConcreteDataAccess<bool>)
+	hammer.dll + 0x6159518
+	hammer.dll + 0x615a4d8
+	hammer.dll + 0x615af58
+	hammer.dll + 0x615b118
+CToolAttrDirectMemberAccess<class CUtlString,struct GeneralOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<class CUtlString,struct GeneralOptionsEditableData_t>: IToolAttrConcreteDataAccess<class CUtlString>)
+	hammer.dll + 0x6156bf0
+	hammer.dll + 0x6156db0
+	hammer.dll + 0x6156f70
+CToolAttrDirectMemberAccess<class CUtlString,struct TexturesOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<class CUtlString,struct TexturesOptionsEditableData_t>: IToolAttrConcreteDataAccess<class CUtlString>)
+	hammer.dll + 0x6157c00
+CToolAttrDirectMemberAccess<class CUtlString,struct View3DOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<class CUtlString,struct View3DOptionsEditableData_t>: IToolAttrConcreteDataAccess<class CUtlString>)
+	hammer.dll + 0x6159de0
+CToolAttrDirectMemberAccess<class Color,struct ColorOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<class Color,struct ColorOptionsEditableData_t>: IToolAttrConcreteDataAccess<class Color>)
+	hammer.dll + 0x6158188
+	hammer.dll + 0x6158348
+	hammer.dll + 0x6158508
+	hammer.dll + 0x61586c8
+	hammer.dll + 0x6158888
+	hammer.dll + 0x6158a48
+	hammer.dll + 0x6158c08
+CToolAttrDirectMemberAccess<enum ImportExportOptionsEditableData_t::ExportDefaultFormat_t,struct ImportExportOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<enum ImportExportOptionsEditableData_t::ExportDefaultFormat_t,struct ImportExportOptionsEditableData_t>: IToolAttrConcreteDataAccess<enum ImportExportOptionsEditableData_t::ExportDefaultFormat_t>)
+	hammer.dll + 0x615ca38
+CToolAttrDirectMemberAccess<enum ImportExportOptionsEditableData_t::ExportEncoding_t,struct ImportExportOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<enum ImportExportOptionsEditableData_t::ExportEncoding_t,struct ImportExportOptionsEditableData_t>: IToolAttrConcreteDataAccess<enum ImportExportOptionsEditableData_t::ExportEncoding_t>)
+	hammer.dll + 0x615cbf8
+CToolAttrDirectMemberAccess<enum ImportExportOptionsEditableData_t::ExportFbxUnit_t,struct ImportExportOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<enum ImportExportOptionsEditableData_t::ExportFbxUnit_t,struct ImportExportOptionsEditableData_t>: IToolAttrConcreteDataAccess<enum ImportExportOptionsEditableData_t::ExportFbxUnit_t>)
+	hammer.dll + 0x615c878
+CToolAttrDirectMemberAccess<float,struct GeneralOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<float,struct GeneralOptionsEditableData_t>: IToolAttrConcreteDataAccess<float>)
+	hammer.dll + 0x61579e8
+CToolAttrDirectMemberAccess<float,struct View3DOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<float,struct View3DOptionsEditableData_t>: IToolAttrConcreteDataAccess<float>)
+	hammer.dll + 0x61596d8
+	hammer.dll + 0x615a158
+	hammer.dll + 0x615a318
+	hammer.dll + 0x615ad98
+	hammer.dll + 0x615b2d8
+	hammer.dll + 0x615b498
+CToolAttrDirectMemberAccess<int,struct GeneralOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<int,struct GeneralOptionsEditableData_t>: IToolAttrConcreteDataAccess<int>)
+	hammer.dll + 0x6156168
+	hammer.dll + 0x6157828
+CToolAttrDirectMemberAccess<int,struct View2DOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<int,struct View2DOptionsEditableData_t>: IToolAttrConcreteDataAccess<int>)
+	hammer.dll + 0x6159148
+CToolAttrDirectMemberAccess<int,struct View3DOptionsEditableData_t> (hierarchy CToolAttrDirectMemberAccess<int,struct View3DOptionsEditableData_t>: IToolAttrConcreteDataAccess<int>)
+	hammer.dll + 0x6159898
+	hammer.dll + 0x6159a58
+	hammer.dll + 0x6159c18
+	hammer.dll + 0x6159f98
+	hammer.dll + 0x615a698
+	hammer.dll + 0x615a858
+	hammer.dll + 0x615aa18
+	hammer.dll + 0x615abd8
+CToolAttrHost (hierarchy CToolAttrHost: IToolAttrHost)
+	hammer.dll + 0x1de41e0
+CToolAxisObjectDesc (hierarchy CToolAxisObjectDesc: ISceneObjectDescBase<class CToolSceneAxisObject>, ISceneObjectDesc)
+	hammer.dll + 0x1de2b50
+CToolGridObjectDesc (hierarchy CToolGridObjectDesc: ISceneObjectDescBase<class CToolSceneGridObject>, ISceneObjectDesc)
+	hammer.dll + 0x1de2348
+CUiMaterialPreviewSceneObjectDesc (hierarchy CUiMaterialPreviewSceneObjectDesc: ISceneObjectDescBase<class CUiMaterialPreviewSceneObject>, ISceneObjectDesc)
+	hammer.dll + 0x1de2600
+CVariantSaveDataOps (hierarchy CVariantSaveDataOps: CDefSaveRestoreOps, ISaveRestoreOps)
+	hammer.dll + 0x1d68be0
+CVertexListSceneObjectDescriptor (hierarchy CVertexListSceneObjectDescriptor: ISceneObjectDescBase<class CVertexListSceneObject>, ISceneObjectDesc)
+	hammer.dll + 0x1de1e20
+Concurrency::details::stl_condition_variable_win7 (hierarchy Concurrency::details::stl_condition_variable_win7: Concurrency::details::stl_condition_variable_interface)
+	hammer.dll + 0x6144790
+Concurrency::details::stl_critical_section_win7 (hierarchy Concurrency::details::stl_critical_section_win7: Concurrency::details::stl_critical_section_interface)
+	hammer.dll + 0x6144738
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_alloc>: std::_Ref_count_base)
+	hammer.dll + 0x1dea440
+`anonymous namespace'::_ExceptionPtr_static<class std::bad_exception> (hierarchy `anonymous namespace'::_ExceptionPtr_static<class std::bad_exception>: std::_Ref_count_base)
+	hammer.dll + 0x1dea380
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl C2DCanvasCamera::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl C2DCanvasCamera::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class C2DCanvasCamera>, CBindTargetDescriptorBase)
+	hammer.dll + 0x20fde40
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CAxisRotatorManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CAxisRotatorManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CAxisRotatorManipulator>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6151820
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CBarnLightManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CBarnLightManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CBarnLightManipulator>, CBindTargetDescriptorBase)
+	hammer.dll + 0x61518b0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CBindableCamera::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CBindableCamera::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CBindableCamera>, CBindTargetDescriptorBase)
+	hammer.dll + 0x2140450
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CEditBoxManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CEditBoxManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CEditBoxManipulator>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6152d10
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGizmoManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGizmoManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CGizmoManipulator>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6152e60
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGlobalHotkeyCommands::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGlobalHotkeyCommands::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CGlobalHotkeyCommands>, CBindTargetDescriptorBase)
+	hammer.dll + 0x20fdef0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CHammerApp::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CHammerApp::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CHammerApp>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6152eb0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CHammerEditorSession::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CHammerEditorSession::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CHammerEditorSession>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6153220
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CLightingControlRig::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CLightingControlRig::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CLightingControlRig>, CBindTargetDescriptorBase)
+	hammer.dll + 0x213ffc0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CMapView::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CMapView::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CMapView>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6153c20
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CPointManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CPointManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CPointManipulator>, CBindTargetDescriptorBase)
+	hammer.dll + 0x61545f0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CPointOnLineManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CPointOnLineManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CPointOnLineManipulator>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6154640
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQAutoVisGroupEditor::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQAutoVisGroupEditor::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQAutoVisGroupEditor>, CBindTargetDescriptorBase)
+	hammer.dll + 0x61546c0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQEntityReportDlgUI::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQEntityReportDlgUI::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQEntityReportDlgUI>, CBindTargetDescriptorBase)
+	hammer.dll + 0x20fe170
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQHammerEntityOutputWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQHammerEntityOutputWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQHammerEntityOutputWidget>, CBindTargetDescriptorBase)
+	hammer.dll + 0x20fe390
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQHammerEntityRelayWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQHammerEntityRelayWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQHammerEntityRelayWidget>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6154710
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQHammerObjectPropertyPopup::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQHammerObjectPropertyPopup::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQHammerObjectPropertyPopup>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6154760
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQHammerPaneContainer::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQHammerPaneContainer::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQHammerPaneContainer>, CBindTargetDescriptorBase)
+	hammer.dll + 0x61547b0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQMapChoiceGroupWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQMapChoiceGroupWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQMapChoiceGroupWidget>, CBindTargetDescriptorBase)
+	hammer.dll + 0x20fe940
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQMapManifestWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQMapManifestWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQMapManifestWidget>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6154910
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQMapVariablesWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQMapVariablesWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQMapVariablesWidget>, CBindTargetDescriptorBase)
+	hammer.dll + 0x20fe4c0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQSelectionSetEditor::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQSelectionSetEditor::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQSelectionSetEditor>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6154be0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQSessionCycleWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQSessionCycleWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQSessionCycleWidget>, CBindTargetDescriptorBase)
+	hammer.dll + 0x21401c0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQTerrainGraphEditorView::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQTerrainGraphEditorView::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQTerrainGraphEditorView>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6154c30
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQTerrainGraphEditorWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQTerrainGraphEditorWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQTerrainGraphEditorWidget>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6154c80
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQTileSetMaterialsWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQTileSetMaterialsWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQTileSetMaterialsWidget>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6154d10
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQTileSetPropertyWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQTileSetPropertyWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQTileSetPropertyWidget>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6154d60
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQToolSceneWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQToolSceneWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQToolSceneWidget>, CBindTargetDescriptorBase)
+	hammer.dll + 0x213fd80
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQUVWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQUVWidget::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQUVWidget>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6154db0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CRectangleManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CRectangleManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CRectangleManipulator>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6154e30
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CSphereManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CSphereManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CSphereManipulator>, CBindTargetDescriptorBase)
+	hammer.dll + 0x61552e0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CStaticPointManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CStaticPointManipulator::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CStaticPointManipulator>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155350
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolAssetSpray::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolAssetSpray::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolAssetSpray>, CBindTargetDescriptorBase)
+	hammer.dll + 0x61553c0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolBevel::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolBevel::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolBevel>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155410
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolBlock::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolBlock::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolBlock>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155460
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolBridge::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolBridge::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolBridge>, CBindTargetDescriptorBase)
+	hammer.dll + 0x61554b0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolClipper::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolClipper::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolClipper>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155520
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolConvex::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolConvex::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolConvex>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155570
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolDotaTileEditor::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolDotaTileEditor::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolDotaTileEditor>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155610
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolEdgeArc::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolEdgeArc::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolEdgeArc>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155680
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolEdgeCut::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolEdgeCut::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolEdgeCut>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155710
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolEntity::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolEntity::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolEntity>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155760
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolFaceBevel::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolFaceBevel::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolFaceBevel>, CBindTargetDescriptorBase)
+	hammer.dll + 0x61557c0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolFastTexture::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolFastTexture::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolFastTexture>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155810
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolMeshDisplacement::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolMeshDisplacement::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolMeshDisplacement>, CBindTargetDescriptorBase)
+	hammer.dll + 0x61555c0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolMeshProjection::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolMeshProjection::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolMeshProjection>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155860
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolMirror::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolMirror::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolMirror>, CBindTargetDescriptorBase)
+	hammer.dll + 0x61558b0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolNavMeshPolyclip::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolNavMeshPolyclip::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolNavMeshPolyclip>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155910
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolNavPlaceWalkable::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolNavPlaceWalkable::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolNavPlaceWalkable>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155960
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPainting::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPainting::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolPainting>, CBindTargetDescriptorBase)
+	hammer.dll + 0x61559c0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPath::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPath::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolPath>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155a10
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPhysics::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPhysics::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolPhysics>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155ab0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPickEntity::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPickEntity::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolPickEntity>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155b50
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPivotPicker::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPivotPicker::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolPivotPicker>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155bd0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPolyEdgeSelection::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPolyEdgeSelection::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolPolyEdgeSelection>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155c20
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPolyFaceSelection::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPolyFaceSelection::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolPolyFaceSelection>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155c70
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPolyVertexSelection::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPolyVertexSelection::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolPolyVertexSelection>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155d10
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPolygon::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolPolygon::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolPolygon>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155cc0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolSelection::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolSelection::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolSelection>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155d70
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolStaticOverlay::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolStaticOverlay::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolStaticOverlay>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155dc0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolTerrain::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolTerrain::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolTerrain>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155e20
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolTextureProjection::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolTextureProjection::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolTextureProjection>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155e70
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolThicken::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolThicken::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolThicken>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155ec0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolVertexNormalPaint::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolVertexNormalPaint::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolVertexNormalPaint>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155f10
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolWorkPlane::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CToolWorkPlane::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CToolWorkPlane>, CBindTargetDescriptorBase)
+	hammer.dll + 0x6155f60
+`public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bUseCustom
+	(hierarchy `public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bUseCustom: CConcreteToolAttrDirectMember<bool,struct ColorOptionsEditableData_t>, CConcreteToolAttr<bool,struct ColorOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct ColorOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct ColorOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x6157c80
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x6157df8
+`public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bWhiteOnBlack
+	(hierarchy `public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bWhiteOnBlack: CConcreteToolAttrDirectMember<bool,struct ColorOptionsEditableData_t>, CConcreteToolAttr<bool,struct ColorOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct ColorOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct ColorOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x6157e40
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x6157fb8
+`public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrBrush
+	(hierarchy `public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrBrush: CConcreteToolAttrDirectMember<class Color,struct ColorOptionsEditableData_t>, CConcreteToolAttr<class Color,struct ColorOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<class Color,struct ColorOptionsEditableData_t>, CBaseConcreteToolAttr<class Color,struct ColorOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<class Color>, IToolAttr_Value)
+		hammer.dll + 0x6158700
+	MI offset 376 (hierarchy IToolAttr_TypedValue<class Color>: IToolAttr_Value)
+		hammer.dll + 0x6158878
+`public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrGrid
+	(hierarchy `public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrGrid: CConcreteToolAttrDirectMember<class Color,struct ColorOptionsEditableData_t>, CConcreteToolAttr<class Color,struct ColorOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<class Color,struct ColorOptionsEditableData_t>, CBaseConcreteToolAttr<class Color,struct ColorOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<class Color>, IToolAttr_Value)
+		hammer.dll + 0x6158000
+	MI offset 376 (hierarchy IToolAttr_TypedValue<class Color>: IToolAttr_Value)
+		hammer.dll + 0x6158178
+`public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrGrid10
+	(hierarchy `public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrGrid10: CConcreteToolAttrDirectMember<class Color,struct ColorOptionsEditableData_t>, CConcreteToolAttr<class Color,struct ColorOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<class Color,struct ColorOptionsEditableData_t>, CBaseConcreteToolAttr<class Color,struct ColorOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<class Color>, IToolAttr_Value)
+		hammer.dll + 0x6158380
+	MI offset 376 (hierarchy IToolAttr_TypedValue<class Color>: IToolAttr_Value)
+		hammer.dll + 0x61584f8
+`public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrGrid1024
+	(hierarchy `public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrGrid1024: CConcreteToolAttrDirectMember<class Color,struct ColorOptionsEditableData_t>, CConcreteToolAttr<class Color,struct ColorOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<class Color,struct ColorOptionsEditableData_t>, CBaseConcreteToolAttr<class Color,struct ColorOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<class Color>, IToolAttr_Value)
+		hammer.dll + 0x6158540
+	MI offset 376 (hierarchy IToolAttr_TypedValue<class Color>: IToolAttr_Value)
+		hammer.dll + 0x61586b8
+`public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrGridFractional
+	(hierarchy `public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrGridFractional: CConcreteToolAttrDirectMember<class Color,struct ColorOptionsEditableData_t>, CConcreteToolAttr<class Color,struct ColorOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<class Color,struct ColorOptionsEditableData_t>, CBaseConcreteToolAttr<class Color,struct ColorOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<class Color>, IToolAttr_Value)
+		hammer.dll + 0x61581c0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<class Color>: IToolAttr_Value)
+		hammer.dll + 0x6158338
+`public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrSelection
+	(hierarchy `public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrSelection: CConcreteToolAttrDirectMember<class Color,struct ColorOptionsEditableData_t>, CConcreteToolAttr<class Color,struct ColorOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<class Color,struct ColorOptionsEditableData_t>, CBaseConcreteToolAttr<class Color,struct ColorOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<class Color>, IToolAttr_Value)
+		hammer.dll + 0x61588c0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<class Color>: IToolAttr_Value)
+		hammer.dll + 0x6158a38
+`public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrToolSelection
+	(hierarchy `public: static void __cdecl ColorOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_clrToolSelection: CConcreteToolAttrDirectMember<class Color,struct ColorOptionsEditableData_t>, CConcreteToolAttr<class Color,struct ColorOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<class Color,struct ColorOptionsEditableData_t>, CBaseConcreteToolAttr<class Color,struct ColorOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<class Color>, IToolAttr_Value)
+		hammer.dll + 0x6158a80
+	MI offset 376 (hierarchy IToolAttr_TypedValue<class Color>: IToolAttr_Value)
+		hammer.dll + 0x6158bf8
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_PathEntity
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_PathEntity: CConcreteToolAttrDirectMember<class CUtlString,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<class CUtlString,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<class CUtlString,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<class CUtlString,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<class CUtlString>, IToolAttr_Value)
+		hammer.dll + 0x6156de0
+	MI offset 384 (hierarchy IToolAttr_TypedValue<class CUtlString>: IToolAttr_Value)
+		hammer.dll + 0x6156f60
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_PointEntity
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_PointEntity: CConcreteToolAttrDirectMember<class CUtlString,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<class CUtlString,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<class CUtlString,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<class CUtlString,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<class CUtlString>, IToolAttr_Value)
+		hammer.dll + 0x6156c20
+	MI offset 384 (hierarchy IToolAttr_TypedValue<class CUtlString>: IToolAttr_Value)
+		hammer.dll + 0x6156da0
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_SolidEntity
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_SolidEntity: CConcreteToolAttrDirectMember<class CUtlString,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<class CUtlString,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<class CUtlString,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<class CUtlString,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<class CUtlString>, IToolAttr_Value)
+		hammer.dll + 0x6156a60
+	MI offset 384 (hierarchy IToolAttr_TypedValue<class CUtlString>: IToolAttr_Value)
+		hammer.dll + 0x6156be0
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bMoveSelectedEnabled
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bMoveSelectedEnabled: CConcreteToolAttrDirectMember<bool,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<bool,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x6157320
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x6157498
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bPauseGameOnActivate
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bPauseGameOnActivate: CConcreteToolAttrDirectMember<bool,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<bool,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x61568a0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x6156a18
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bPreviewMotionExtraction
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bPreviewMotionExtraction: CConcreteToolAttrDirectMember<bool,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<bool,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x61574e0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x6157658
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bRenderFullyUnlitAsFullbright
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bRenderFullyUnlitAsFullbright: CConcreteToolAttrDirectMember<bool,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<bool,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x6156360
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x61564d8
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bReportMapCompileCrashes
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bReportMapCompileCrashes: CConcreteToolAttrDirectMember<bool,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<bool,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x6156fa0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x6157118
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bSaveChangesOnBuildMap
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bSaveChangesOnBuildMap: CConcreteToolAttrDirectMember<bool,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<bool,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x61561a0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x6156318
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowSelectionModeChangeNotificationIcons
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowSelectionModeChangeNotificationIcons: CConcreteToolAttrDirectMember<bool,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<bool,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x6156520
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x6156698
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowToolChangeNotificationIcons
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowToolChangeNotificationIcons: CConcreteToolAttrDirectMember<bool,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<bool,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x61566e0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x6156858
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bViewFocusStealing
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bViewFocusStealing: CConcreteToolAttrDirectMember<bool,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<bool,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x6157160
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x61572d8
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_flVertexSnapRadius
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_flVertexSnapRadius: CConcreteToolAttrDirectMember<float,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<float,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<float,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<float,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+		hammer.dll + 0x6157860
+	MI offset 376 (hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+		hammer.dll + 0x61579d8
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_iUndoLevels
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_iUndoLevels: CConcreteToolAttrDirectMember<int,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<int,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<int,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<int,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+		hammer.dll + 0x6155fe0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+		hammer.dll + 0x6156158
+`public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nViewportFontSize
+	(hierarchy `public: static void __cdecl GeneralOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nViewportFontSize: CConcreteToolAttrDirectMember<int,struct GeneralOptionsEditableData_t>, CConcreteToolAttr<int,struct GeneralOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<int,struct GeneralOptionsEditableData_t>, CBaseConcreteToolAttr<int,struct GeneralOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+		hammer.dll + 0x61576a0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+		hammer.dll + 0x6157818
+`public: static void __cdecl ImportExportOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bExportHidden
+	(hierarchy `public: static void __cdecl ImportExportOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bExportHidden: CConcreteToolAttrDirectMember<bool,struct ImportExportOptionsEditableData_t>, CConcreteToolAttr<bool,struct ImportExportOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct ImportExportOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct ImportExportOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x615c530
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x615c6a8
+`public: static void __cdecl ImportExportOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bExportProps
+	(hierarchy `public: static void __cdecl ImportExportOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bExportProps: CConcreteToolAttrDirectMember<bool,struct ImportExportOptionsEditableData_t>, CConcreteToolAttr<bool,struct ImportExportOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct ImportExportOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct ImportExportOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x615c370
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x615c4e8
+`public: static void __cdecl ImportExportOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nExportDefaultFormat
+	(hierarchy `public: static void __cdecl ImportExportOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nExportDefaultFormat: CConcreteToolAttrDirectMember<enum ImportExportOptionsEditableData_t::ExportDefaultFormat_t,struct ImportExportOptionsEditableData_t>, CConcreteToolAttr<enum ImportExportOptionsEditableData_t::ExportDefaultFormat_t,struct ImportExportOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<enum ImportExportOptionsEditableData_t::ExportDefaultFormat_t,struct ImportExportOptionsEditableData_t>, CBaseConcreteToolAttr<enum ImportExportOptionsEditableData_t::ExportDefaultFormat_t,struct ImportExportOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<enum ImportExportOptionsEditableData_t::ExportDefaultFormat_t>, IToolAttr_Value)
+		hammer.dll + 0x615c8b0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<enum ImportExportOptionsEditableData_t::ExportDefaultFormat_t>: IToolAttr_Value)
+		hammer.dll + 0x615ca28
+`public: static void __cdecl ImportExportOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nExportEncoding
+	(hierarchy `public: static void __cdecl ImportExportOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nExportEncoding: CConcreteToolAttrDirectMember<enum ImportExportOptionsEditableData_t::ExportEncoding_t,struct ImportExportOptionsEditableData_t>, CConcreteToolAttr<enum ImportExportOptionsEditableData_t::ExportEncoding_t,struct ImportExportOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<enum ImportExportOptionsEditableData_t::ExportEncoding_t,struct ImportExportOptionsEditableData_t>, CBaseConcreteToolAttr<enum ImportExportOptionsEditableData_t::ExportEncoding_t,struct ImportExportOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<enum ImportExportOptionsEditableData_t::ExportEncoding_t>, IToolAttr_Value)
+		hammer.dll + 0x615ca70
+	MI offset 376 (hierarchy IToolAttr_TypedValue<enum ImportExportOptionsEditableData_t::ExportEncoding_t>: IToolAttr_Value)
+		hammer.dll + 0x615cbe8
+`public: static void __cdecl ImportExportOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nExportFbxUnit
+	(hierarchy `public: static void __cdecl ImportExportOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nExportFbxUnit: CConcreteToolAttrDirectMember<enum ImportExportOptionsEditableData_t::ExportFbxUnit_t,struct ImportExportOptionsEditableData_t>, CConcreteToolAttr<enum ImportExportOptionsEditableData_t::ExportFbxUnit_t,struct ImportExportOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<enum ImportExportOptionsEditableData_t::ExportFbxUnit_t,struct ImportExportOptionsEditableData_t>, CBaseConcreteToolAttr<enum ImportExportOptionsEditableData_t::ExportFbxUnit_t,struct ImportExportOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<enum ImportExportOptionsEditableData_t::ExportFbxUnit_t>, IToolAttr_Value)
+		hammer.dll + 0x615c6f0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<enum ImportExportOptionsEditableData_t::ExportFbxUnit_t>: IToolAttr_Value)
+		hammer.dll + 0x615c868
+`public: static void __cdecl TexturesOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_DefaultMaterialName
+	(hierarchy `public: static void __cdecl TexturesOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_m_DefaultMaterialName: CConcreteToolAttrDirectMember<class CUtlString,struct TexturesOptionsEditableData_t>, CConcreteToolAttr<class CUtlString,struct TexturesOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<class CUtlString,struct TexturesOptionsEditableData_t>, CBaseConcreteToolAttr<class CUtlString,struct TexturesOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<class CUtlString>, IToolAttr_Value)
+		hammer.dll + 0x6157a70
+	MI offset 384 (hierarchy IToolAttr_TypedValue<class CUtlString>: IToolAttr_Value)
+		hammer.dll + 0x6157bf0
+`public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bConvertMeshHardEdgesFromUVBoundaries
+	(hierarchy `public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bConvertMeshHardEdgesFromUVBoundaries: CConcreteToolAttrDirectMember<bool,struct ToolsOptionsEditableData_t>, CConcreteToolAttr<bool,struct ToolsOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct ToolsOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct ToolsOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x615c160
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x615c2d8
+`public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bEdgeSelectionPreviewEdgeLength
+	(hierarchy `public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bEdgeSelectionPreviewEdgeLength: CConcreteToolAttrDirectMember<bool,struct ToolsOptionsEditableData_t>, CConcreteToolAttr<bool,struct ToolsOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct ToolsOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct ToolsOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x615ba60
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x615bbd8
+`public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bPivotToolSnapToBBox
+	(hierarchy `public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bPivotToolSnapToBBox: CConcreteToolAttrDirectMember<bool,struct ToolsOptionsEditableData_t>, CConcreteToolAttr<bool,struct ToolsOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct ToolsOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct ToolsOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x615b8a0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x615ba18
+`public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bRotateToolUseRelativeMode
+	(hierarchy `public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bRotateToolUseRelativeMode: CConcreteToolAttrDirectMember<bool,struct ToolsOptionsEditableData_t>, CConcreteToolAttr<bool,struct ToolsOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct ToolsOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct ToolsOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x615b6e0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x615b858
+`public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowSelectedEdgeAngles
+	(hierarchy `public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowSelectedEdgeAngles: CConcreteToolAttrDirectMember<bool,struct ToolsOptionsEditableData_t>, CConcreteToolAttr<bool,struct ToolsOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct ToolsOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct ToolsOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x615bfa0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x615c118
+`public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowSelectionBounds
+	(hierarchy `public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowSelectionBounds: CConcreteToolAttrDirectMember<bool,struct ToolsOptionsEditableData_t>, CConcreteToolAttr<bool,struct ToolsOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct ToolsOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct ToolsOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x615bc20
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x615bd98
+`public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowSelectionDimensions
+	(hierarchy `public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowSelectionDimensions: CConcreteToolAttrDirectMember<bool,struct ToolsOptionsEditableData_t>, CConcreteToolAttr<bool,struct ToolsOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct ToolsOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct ToolsOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x615bde0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x615bf58
+`public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bTranslateToolAlignToSurface
+	(hierarchy `public: static void __cdecl ToolsOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bTranslateToolAlignToSurface: CConcreteToolAttrDirectMember<bool,struct ToolsOptionsEditableData_t>, CConcreteToolAttr<bool,struct ToolsOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct ToolsOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct ToolsOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x615b520
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x615b698
+`public: static void __cdecl View2DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bNudge
+	(hierarchy `public: static void __cdecl View2DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bNudge: CConcreteToolAttrDirectMember<bool,struct View2DOptionsEditableData_t>, CConcreteToolAttr<bool,struct View2DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct View2DOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct View2DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x6158c40
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x6158db8
+`public: static void __cdecl View2DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowEntityNames
+	(hierarchy `public: static void __cdecl View2DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowEntityNames: CConcreteToolAttrDirectMember<bool,struct View2DOptionsEditableData_t>, CConcreteToolAttr<bool,struct View2DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct View2DOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct View2DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x6159180
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x61592f8
+`public: static void __cdecl View2DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bUsegroupcolors
+	(hierarchy `public: static void __cdecl View2DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bUsegroupcolors: CConcreteToolAttrDirectMember<bool,struct View2DOptionsEditableData_t>, CConcreteToolAttr<bool,struct View2DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct View2DOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct View2DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x6158e00
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x6158f78
+`public: static void __cdecl View2DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_iGridIntensity
+	(hierarchy `public: static void __cdecl View2DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_iGridIntensity: CConcreteToolAttrDirectMember<int,struct View2DOptionsEditableData_t>, CConcreteToolAttr<int,struct View2DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<int,struct View2DOptionsEditableData_t>, CBaseConcreteToolAttr<int,struct View2DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+		hammer.dll + 0x6158fc0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+		hammer.dll + 0x6159138
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bMouseWheelControlsFarPlane
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bMouseWheelControlsFarPlane: CConcreteToolAttrDirectMember<bool,struct View3DOptionsEditableData_t>, CConcreteToolAttr<bool,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x615a350
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x615a4c8
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bReverseY
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bReverseY: CConcreteToolAttrDirectMember<bool,struct View3DOptionsEditableData_t>, CConcreteToolAttr<bool,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x6159390
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x6159508
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bSelectionOutlineDepth
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bSelectionOutlineDepth: CConcreteToolAttrDirectMember<bool,struct View3DOptionsEditableData_t>, CConcreteToolAttr<bool,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x615af90
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x615b108
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowSelectionOutline
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_bShowSelectionOutline: CConcreteToolAttrDirectMember<bool,struct View3DOptionsEditableData_t>, CConcreteToolAttr<bool,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<bool,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<bool,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<bool>, IToolAttr_Value)
+		hammer.dll + 0x615add0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<bool>: IToolAttr_Value)
+		hammer.dll + 0x615af48
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_fSelectionOverlayAlpha
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_fSelectionOverlayAlpha: CConcreteToolAttrDirectMember<float,struct View3DOptionsEditableData_t>, CConcreteToolAttr<float,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<float,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<float,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+		hammer.dll + 0x615ac10
+	MI offset 376 (hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+		hammer.dll + 0x615ad88
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_fToolsVisSSAOPowerScale
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_fToolsVisSSAOPowerScale: CConcreteToolAttrDirectMember<float,struct View3DOptionsEditableData_t>, CConcreteToolAttr<float,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<float,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<float,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+		hammer.dll + 0x615b310
+	MI offset 376 (hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+		hammer.dll + 0x615b488
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_fToolsVisSSAORadiusScale
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_fToolsVisSSAORadiusScale: CConcreteToolAttrDirectMember<float,struct View3DOptionsEditableData_t>, CConcreteToolAttr<float,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<float,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<float,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+		hammer.dll + 0x615b150
+	MI offset 376 (hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+		hammer.dll + 0x615b2c8
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_flFOV
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_flFOV: CConcreteToolAttrDirectMember<int,struct View3DOptionsEditableData_t>, CConcreteToolAttr<int,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<int,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<int,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+		hammer.dll + 0x6159a90
+	MI offset 376 (hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+		hammer.dll + 0x6159c08
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_flNearPlane
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_flNearPlane: CConcreteToolAttrDirectMember<float,struct View3DOptionsEditableData_t>, CConcreteToolAttr<float,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<float,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<float,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+		hammer.dll + 0x6159fd0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+		hammer.dll + 0x615a148
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_flPanSpeed
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_flPanSpeed: CConcreteToolAttrDirectMember<float,struct View3DOptionsEditableData_t>, CConcreteToolAttr<float,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<float,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<float,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+		hammer.dll + 0x6159550
+	MI offset 376 (hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+		hammer.dll + 0x61596c8
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_flShadowFarPlane
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_flShadowFarPlane: CConcreteToolAttrDirectMember<float,struct View3DOptionsEditableData_t>, CConcreteToolAttr<float,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<float,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<float,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<float>, IToolAttr_Value)
+		hammer.dll + 0x615a190
+	MI offset 376 (hierarchy IToolAttr_TypedValue<float>: IToolAttr_Value)
+		hammer.dll + 0x615a308
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_iBackPlane
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_iBackPlane: CConcreteToolAttrDirectMember<int,struct View3DOptionsEditableData_t>, CConcreteToolAttr<int,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<int,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<int,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+		hammer.dll + 0x6159e10
+	MI offset 376 (hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+		hammer.dll + 0x6159f88
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_iGridIntensity
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_iGridIntensity: CConcreteToolAttrDirectMember<int,struct View3DOptionsEditableData_t>, CConcreteToolAttr<int,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<int,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<int,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+		hammer.dll + 0x615aa50
+	MI offset 376 (hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+		hammer.dll + 0x615abc8
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nCameraTargetDist
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nCameraTargetDist: CConcreteToolAttrDirectMember<int,struct View3DOptionsEditableData_t>, CConcreteToolAttr<int,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<int,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<int,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+		hammer.dll + 0x615a890
+	MI offset 376 (hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+		hammer.dll + 0x615aa08
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nForwardSpeedMax
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nForwardSpeedMax: CConcreteToolAttrDirectMember<int,struct View3DOptionsEditableData_t>, CConcreteToolAttr<int,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<int,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<int,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+		hammer.dll + 0x6159710
+	MI offset 376 (hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+		hammer.dll + 0x6159888
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nMouseMoveZoomSensitivity
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nMouseMoveZoomSensitivity: CConcreteToolAttrDirectMember<int,struct View3DOptionsEditableData_t>, CConcreteToolAttr<int,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<int,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<int,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+		hammer.dll + 0x615a510
+	MI offset 376 (hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+		hammer.dll + 0x615a688
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nMouseWheelZoomSensitivity
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nMouseWheelZoomSensitivity: CConcreteToolAttrDirectMember<int,struct View3DOptionsEditableData_t>, CConcreteToolAttr<int,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<int,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<int,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+		hammer.dll + 0x615a6d0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+		hammer.dll + 0x615a848
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nTimeToMaxSpeed
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_nTimeToMaxSpeed: CConcreteToolAttrDirectMember<int,struct View3DOptionsEditableData_t>, CConcreteToolAttr<int,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<int,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<int,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<int>, IToolAttr_Value)
+		hammer.dll + 0x61598d0
+	MI offset 376 (hierarchy IToolAttr_TypedValue<int>: IToolAttr_Value)
+		hammer.dll + 0x6159a48
+`public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_szResolutionGate
+	(hierarchy `public: static void __cdecl View3DOptionsEditableData_t::GetAttributeTable_Impl(class CUtlVector<class IBaseToolAttr * __ptr64,int,class CUtlMemory<class IBaseToolAttr * __ptr64,int> > * __ptr64)'::`2'::CAttr_szResolutionGate: CConcreteToolAttrDirectMember<class CUtlString,struct View3DOptionsEditableData_t>, CConcreteToolAttr<class CUtlString,struct View3DOptionsEditableData_t,void>, CBaseConcreteToolAttrValue<class CUtlString,struct View3DOptionsEditableData_t>, CBaseConcreteToolAttr<class CUtlString,struct View3DOptionsEditableData_t>, CBaseToolAttr, IBaseToolAttr, IToolAttr_TypedValue<class CUtlString>, IToolAttr_Value)
+		hammer.dll + 0x6159c50
+	MI offset 384 (hierarchy IToolAttr_TypedValue<class CUtlString>: IToolAttr_Value)
+		hammer.dll + 0x6159dd0
+google::protobuf::DescriptorProto (hierarchy google::protobuf::DescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d660c0
+google::protobuf::DescriptorProto_ExtensionRange (hierarchy google::protobuf::DescriptorProto_ExtensionRange: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d661a8
+google::protobuf::DescriptorProto_ReservedRange (hierarchy google::protobuf::DescriptorProto_ReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d661d0
+google::protobuf::EnumDescriptorProto (hierarchy google::protobuf::EnumDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d661f0
+google::protobuf::EnumDescriptorProto_EnumReservedRange (hierarchy google::protobuf::EnumDescriptorProto_EnumReservedRange: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66260
+google::protobuf::EnumOptions (hierarchy google::protobuf::EnumOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66280
+google::protobuf::EnumValueDescriptorProto (hierarchy google::protobuf::EnumValueDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d662d0
+google::protobuf::EnumValueOptions (hierarchy google::protobuf::EnumValueOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66300
+google::protobuf::ExtensionRangeOptions (hierarchy google::protobuf::ExtensionRangeOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66350
+google::protobuf::FieldDescriptorProto (hierarchy google::protobuf::FieldDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d663c0
+google::protobuf::FieldOptions (hierarchy google::protobuf::FieldOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66420
+google::protobuf::FileDescriptorProto (hierarchy google::protobuf::FileDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d664b0
+google::protobuf::FileDescriptorSet (hierarchy google::protobuf::FileDescriptorSet: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66588
+google::protobuf::FileOptions (hierarchy google::protobuf::FileOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d665c0
+google::protobuf::GeneratedCodeInfo (hierarchy google::protobuf::GeneratedCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66680
+google::protobuf::GeneratedCodeInfo_Annotation (hierarchy google::protobuf::GeneratedCodeInfo_Annotation: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d666b0
+google::protobuf::MessageOptions (hierarchy google::protobuf::MessageOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d666f0
+google::protobuf::MethodDescriptorProto (hierarchy google::protobuf::MethodDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66740
+google::protobuf::MethodOptions (hierarchy google::protobuf::MethodOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66780
+google::protobuf::OneofDescriptorProto (hierarchy google::protobuf::OneofDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66398
+google::protobuf::OneofOptions (hierarchy google::protobuf::OneofOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d667d0
+google::protobuf::ServiceDescriptorProto (hierarchy google::protobuf::ServiceDescriptorProto: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66820
+google::protobuf::ServiceOptions (hierarchy google::protobuf::ServiceOptions: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66860
+google::protobuf::SourceCodeInfo (hierarchy google::protobuf::SourceCodeInfo: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d668b0
+google::protobuf::SourceCodeInfo_Location (hierarchy google::protobuf::SourceCodeInfo_Location: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d668e0
+google::protobuf::UninterpretedOption (hierarchy google::protobuf::UninterpretedOption: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66950
+google::protobuf::UninterpretedOption_NamePart (hierarchy google::protobuf::UninterpretedOption_NamePart: google::protobuf::Message, google::protobuf::MessageLite)
+	hammer.dll + 0x1d66488
+google::protobuf::internal::ImplicitWeakMessage (hierarchy google::protobuf::internal::ImplicitWeakMessage: google::protobuf::MessageLite)
+	hammer.dll + 0x1d66b40
+google::protobuf::internal::MapFieldAccessor (hierarchy google::protobuf::internal::MapFieldAccessor: google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	hammer.dll + 0x1d66a30
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<__int64>: google::protobuf::internal::RepeatedFieldWrapper<__int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	hammer.dll + 0x1d66a00
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<bool>: google::protobuf::internal::RepeatedFieldWrapper<bool>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	hammer.dll + 0x1d66a20
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<double>: google::protobuf::internal::RepeatedFieldWrapper<double>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	hammer.dll + 0x1d66a18
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<float>: google::protobuf::internal::RepeatedFieldWrapper<float>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	hammer.dll + 0x1d66a10
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<int>: google::protobuf::internal::RepeatedFieldWrapper<int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	hammer.dll + 0x1d669f0
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned __int64>: google::protobuf::internal::RepeatedFieldWrapper<unsigned __int64>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	hammer.dll + 0x1d66a08
+google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int> (hierarchy google::protobuf::internal::RepeatedFieldPrimitiveAccessor<unsigned int>: google::protobuf::internal::RepeatedFieldWrapper<unsigned int>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	hammer.dll + 0x1d669f8
+google::protobuf::internal::RepeatedPtrFieldMessageAccessor (hierarchy google::protobuf::internal::RepeatedPtrFieldMessageAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class google::protobuf::Message>, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	hammer.dll + 0x1d66a38
+google::protobuf::internal::RepeatedPtrFieldStringAccessor (hierarchy google::protobuf::internal::RepeatedPtrFieldStringAccessor: google::protobuf::internal::RepeatedPtrFieldWrapper<class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > >, google::protobuf::internal::RandomAccessRepeatedFieldAccessor, google::protobuf::internal::RepeatedFieldAccessor)
+	hammer.dll + 0x1d66a28
+std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	hammer.dll + 0x1dc9050
+std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	hammer.dll + 0x1dc9000
+std::_Func_impl_no_alloc<void (__cdecl*)(class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	hammer.dll + 0x1dc8dc0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	hammer.dll + 0x1dc8f50
+std::_Func_impl_no_alloc<void (__cdecl*)(class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	hammer.dll + 0x1dc8e10
+std::_Func_impl_no_alloc<void (__cdecl*)(class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	hammer.dll + 0x1dc8e60
+std::_Func_impl_no_alloc<void (__cdecl*)(class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	hammer.dll + 0x1dc8d20
+std::_Func_impl_no_alloc<void (__cdecl*)(class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	hammer.dll + 0x1dc8eb0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	hammer.dll + 0x1dc8f00
+std::_Func_impl_no_alloc<void (__cdecl*)(class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	hammer.dll + 0x1dc8fa0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	hammer.dll + 0x1dc90a0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	hammer.dll + 0x1dc8d70
+std::_Generic_error_category (hierarchy std::_Generic_error_category: std::error_category)
+	hammer.dll + 0x1dea360
+std::_Iostream_error_category2 (hierarchy std::_Iostream_error_category2: std::error_category)
+	hammer.dll + 0x1d669e0
+std::bad_alloc (hierarchy std::bad_alloc: std::exception)
+	hammer.dll + 0x1dea4e8
+std::bad_exception (hierarchy std::bad_exception: std::exception)
+	hammer.dll + 0x1dea428

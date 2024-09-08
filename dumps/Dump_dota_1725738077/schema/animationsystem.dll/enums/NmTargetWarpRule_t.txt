@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum NmTargetWarpRule_t(size: 1 bytes, 4 values, project "animlib", binding @ animationsystem.dll + 0x5d9bc0):
+	WarpXY = 0,
+	WarpZ = 1,
+	WarpXYZ = 2,
+	RotationOnly = 3,

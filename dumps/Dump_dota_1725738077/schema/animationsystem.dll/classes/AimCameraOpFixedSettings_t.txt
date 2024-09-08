@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AimCameraOpFixedSettings_t (size: 0x30 bytes, project "animgraphlib", binding @ animationsystem.dll + 0x5b0b10, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x1d2d60"
+
+-----members of class AimCameraOpFixedSettings_t-----
+	int32 m_nChainIndex(offset 0x0, size 0x4, align 0x4)
+	int32 m_nCameraJointIndex(offset 0x4, size 0x4, align 0x4)
+	int32 m_nPelvisJointIndex(offset 0x8, size 0x4, align 0x4)
+	int32 m_nClavicleLeftJointIndex(offset 0xc, size 0x4, align 0x4)
+	int32 m_nClavicleRightJointIndex(offset 0x10, size 0x4, align 0x4)
+	int32 m_nDepenetrationJointIndex(offset 0x14, size 0x4, align 0x4)
+	CUtlVector< int32 > m_propJoints(offset 0x18, size 0x18, align 0x8)
+

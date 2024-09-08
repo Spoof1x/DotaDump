@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FourQuaternions (size: 0x40 bytes, project "mathlib_extended", binding @ client.dll + 0x4921200, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class FourQuaternions-----
+	fltx4 x(offset 0x0, size 0x10, align 0x10)
+	fltx4 y(offset 0x10, size 0x10, align 0x10)
+	fltx4 z(offset 0x20, size 0x10, align 0x10)
+	fltx4 w(offset 0x30, size 0x10, align 0x10)
+

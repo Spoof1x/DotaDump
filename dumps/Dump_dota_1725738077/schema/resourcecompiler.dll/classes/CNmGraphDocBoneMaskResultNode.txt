@@ -1,0 +1,59 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmGraphDocBoneMaskResultNode (size: 0x100 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23ddfd0, scope "!GlobalTypes") extends CNmGraphDocResultNode
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x4c4170"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmGraphDocResultNode (size: 0x100 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23de080, scope "!GlobalTypes") extends CNmGraphDocFlowNode
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x4c3920"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmGraphDocFlowNode (size: 0xf8 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23df580, scope "!GlobalTypes") extends CNmGraphDocNode
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmGraphDocNode (size: 0x48 bytes, project "animdoclib", binding @ resourcecompiler.dll + 0x23da3b0, scope "!GlobalTypes")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+			
+			-----members of class CNmGraphDocNode-----
+				uint8_t[8] unaccounted(offset 0x0)
+				V_uuid_t m_ID(offset 0x8, size 0x10, align 0x4)
+					^MPropertySuppressField
+				CUtlString m_name(offset 0x18, size 0x8, align 0x8)
+					^MPropertyHideField
+				CUtlString m_floatingComment(offset 0x20, size 0x8, align 0x8)
+				Vector2D m_position(offset 0x28, size 0x8, align 0x4)
+					^MPropertySuppressField
+				uint8_t[8] unaccounted(offset 0x30)
+				CNmGraphDocGraph* m_pChildGraph(offset 0x38, size 0x8, align 0x8)
+					^MPropertySuppressField
+				CNmGraphDocGraph* m_pSecondaryGraph(offset 0x40, size 0x8, align 0x8)
+					^MPropertySuppressField
+			
+		
+		-----members of class CNmGraphDocFlowNode-----
+			CUtlLeanVectorFixedGrowable< NmGraphDocPin_t, 4 > m_inputPins(offset 0x48, size 0x88, align 0x8)
+			CUtlLeanVectorFixedGrowable< NmGraphDocPin_t, 1 > m_outputPins(offset 0xd0, size 0x28, align 0x8)
+		
+	
+	-----members of class CNmGraphDocResultNode-----
+		NmGraphValueType_t m_resultType(offset 0xf8, size 0x1, align 0x1)
+		uint8_t[7] unaccounted(offset 0xf9)
+	
+
+-----members of class CNmGraphDocBoneMaskResultNode-----
+	<no members>
+

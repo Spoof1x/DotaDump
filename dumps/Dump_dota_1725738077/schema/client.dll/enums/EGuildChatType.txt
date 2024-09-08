@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EGuildChatType(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x46f3d80):
+	k_EGuildChatType_Unspecified = 0,
+	k_EGuildChatType_SteamChatGroup = 1,
+	k_EGuildChatType_GC = 2,

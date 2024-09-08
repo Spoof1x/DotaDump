@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmParameterizedBlendNode::Parameterization_t (size: 0x48 bytes, project "animlib", binding @ resourcecompiler.dll + 0x2447060, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x82b5d0"
+
+-----members of class CNmParameterizedBlendNode::Parameterization_t-----
+	CUtlLeanVectorFixedGrowable< CNmParameterizedBlendNode::BlendRange_t, 5 > m_blendRanges(offset 0x0, size 0x40, align 0x8)
+	Range_t m_parameterRange(offset 0x40, size 0x8, align 0x4)
+

@@ -1,0 +1,167 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CAssetBrowserToolSystem
+	(hierarchy CAssetBrowserToolSystem: CTier3AppSystem<class IAssetBrowserSystem,0>, CTier2AppSystem<class IAssetBrowserSystem,0>, CTier1AppSystem<class IAssetBrowserSystem,0>, CTier0AppSystem<class IAssetBrowserSystem,0>, CBaseAppSystem<class IAssetBrowserSystem>, IAssetBrowserSystem, IAppSystem, IAssetTagListener)
+		assetbrowser.dll + 0x1e1180
+	MI offset 40 (hierarchy IAssetTagListener)
+		assetbrowser.dll + 0x1e11a8
+CConCommandMemberAccessor<class CAssetBrowserToolSystem>
+	(hierarchy CConCommandMemberAccessor<class CAssetBrowserToolSystem>: ConCommand, ConCommandRef, ICommandCallback, ICommandCompletionCallback)
+		assetbrowser.dll + 0x1e11b0
+	MI offset 8 (hierarchy ICommandCompletionCallback)
+		assetbrowser.dll + 0x1e11b8
+CDynamicWidgetFactory<class CQDraggableWidgetList> (hierarchy CDynamicWidgetFactory<class CQDraggableWidgetList>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1a98
+CDynamicWidgetFactory<class CQFilteredTreeWidget> (hierarchy CDynamicWidgetFactory<class CQFilteredTreeWidget>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d5898
+CDynamicWidgetFactory<class CQGCD_ActiveStyles> (hierarchy CDynamicWidgetFactory<class CQGCD_ActiveStyles>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d4150
+CDynamicWidgetFactory<class CQGCD_AllProperties> (hierarchy CDynamicWidgetFactory<class CQGCD_AllProperties>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d4160
+CDynamicWidgetFactory<class CQGCD_CommonInfo> (hierarchy CDynamicWidgetFactory<class CQGCD_CommonInfo>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d4170
+CDynamicWidgetFactory<class CQGenericFilterLineEdit> (hierarchy CDynamicWidgetFactory<class CQGenericFilterLineEdit>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d7178
+CDynamicWidgetFactory<class CQGraphCanvasView> (hierarchy CDynamicWidgetFactory<class CQGraphCanvasView>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1e12d0
+CDynamicWidgetFactory<class CQTreeWidgetWithHover> (hierarchy CDynamicWidgetFactory<class CQTreeWidgetWithHover>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d5888
+CDynamicWidgetFactory<class QComboBox> (hierarchy CDynamicWidgetFactory<class QComboBox>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1a88
+CDynamicWidgetFactory<class QFrame> (hierarchy CDynamicWidgetFactory<class QFrame>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1a08
+CDynamicWidgetFactory<class QGroupBox> (hierarchy CDynamicWidgetFactory<class QGroupBox>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1a28
+CDynamicWidgetFactory<class QLabel> (hierarchy CDynamicWidgetFactory<class QLabel>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d19d8
+CDynamicWidgetFactory<class QLineEdit> (hierarchy CDynamicWidgetFactory<class QLineEdit>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d19e8
+CDynamicWidgetFactory<class QListWidget> (hierarchy CDynamicWidgetFactory<class QListWidget>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1df0
+CDynamicWidgetFactory<class QMenu> (hierarchy CDynamicWidgetFactory<class QMenu>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1a18
+CDynamicWidgetFactory<class QProgressBar> (hierarchy CDynamicWidgetFactory<class QProgressBar>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1a48
+CDynamicWidgetFactory<class QRadioButton> (hierarchy CDynamicWidgetFactory<class QRadioButton>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1a58
+CDynamicWidgetFactory<class QScrollBar> (hierarchy CDynamicWidgetFactory<class QScrollBar>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1a68
+CDynamicWidgetFactory<class QSlider> (hierarchy CDynamicWidgetFactory<class QSlider>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d19f8
+CDynamicWidgetFactory<class QSpinBox> (hierarchy CDynamicWidgetFactory<class QSpinBox>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1a78
+CDynamicWidgetFactory<class QTextBrowser> (hierarchy CDynamicWidgetFactory<class QTextBrowser>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1aa8
+CDynamicWidgetFactory<class QTextEdit> (hierarchy CDynamicWidgetFactory<class QTextEdit>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1a38
+CDynamicWidgetFactory<class QWidget> (hierarchy CDynamicWidgetFactory<class QWidget>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d19c8
+CDynamicWidgetFactory_Custom<class CQBindableCommandPushButton> (hierarchy CDynamicWidgetFactory_Custom<class CQBindableCommandPushButton>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1e50
+CDynamicWidgetFactory_Custom<class CQBindableCommandToolButton> (hierarchy CDynamicWidgetFactory_Custom<class CQBindableCommandToolButton>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1e00
+CDynamicWidgetFactory_Custom<class QCheckBox> (hierarchy CDynamicWidgetFactory_Custom<class QCheckBox>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1bc0
+CDynamicWidgetFactory_Custom<class QDockWidget> (hierarchy CDynamicWidgetFactory_Custom<class QDockWidget>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1d50
+CDynamicWidgetFactory_Custom<class QMainWindow> (hierarchy CDynamicWidgetFactory_Custom<class QMainWindow>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1c10
+CDynamicWidgetFactory_Custom<class QMenuBar> (hierarchy CDynamicWidgetFactory_Custom<class QMenuBar>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1c60
+CDynamicWidgetFactory_Custom<class QPushButton> (hierarchy CDynamicWidgetFactory_Custom<class QPushButton>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1b20
+CDynamicWidgetFactory_Custom<class QScrollArea> (hierarchy CDynamicWidgetFactory_Custom<class QScrollArea>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1cb0
+CDynamicWidgetFactory_Custom<class QTabWidget> (hierarchy CDynamicWidgetFactory_Custom<class QTabWidget>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1d00
+CDynamicWidgetFactory_Custom<class QTableWidget> (hierarchy CDynamicWidgetFactory_Custom<class QTableWidget>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1da0
+CDynamicWidgetFactory_Custom<class QToolBar> (hierarchy CDynamicWidgetFactory_Custom<class QToolBar>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1ea0
+CDynamicWidgetFactory_Custom<class QToolButton> (hierarchy CDynamicWidgetFactory_Custom<class QToolButton>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1b70
+CDynamicWidgetFactory_Orientation<class QHeaderView> (hierarchy CDynamicWidgetFactory_Orientation<class QHeaderView>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1ab8
+	assetbrowser.dll + 0x1d1ad0
+CDynamicWidgetFactory_Orientation<class QSplitter> (hierarchy CDynamicWidgetFactory_Orientation<class QSplitter>: CBaseDynamicWidgetFactory)
+	assetbrowser.dll + 0x1d1ae8
+	assetbrowser.dll + 0x1d1b00
+CGCStylePropInfo (hierarchy CGCStylePropInfo)
+	assetbrowser.dll + 0x1d0f90
+	assetbrowser.dll + 0x1d1000
+	assetbrowser.dll + 0x1d1070
+	assetbrowser.dll + 0x1d10e0
+	assetbrowser.dll + 0x1d1150
+	assetbrowser.dll + 0x1d11c0
+	assetbrowser.dll + 0x1d1230
+	assetbrowser.dll + 0x1d12a0
+	assetbrowser.dll + 0x1d1310
+	assetbrowser.dll + 0x1d1380
+	assetbrowser.dll + 0x1d13f0
+	assetbrowser.dll + 0x1d1460
+	assetbrowser.dll + 0x1d14d0
+	assetbrowser.dll + 0x1d1540
+	assetbrowser.dll + 0x1d15b0
+	assetbrowser.dll + 0x1d1620
+	assetbrowser.dll + 0x1d1690
+	assetbrowser.dll + 0x1d1700
+	assetbrowser.dll + 0x1d1770
+	assetbrowser.dll + 0x1d17e0
+	assetbrowser.dll + 0x1d1850
+	assetbrowser.dll + 0x1d18c0
+	assetbrowser.dll + 0x1d1930
+CGlobalHotkeyCommands (hierarchy CGlobalHotkeyCommands: IBindTarget)
+	assetbrowser.dll + 0x1f0018
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_AssetBrowse> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_AssetBrowse>: IPropertyAttributeEditorFactory)
+	assetbrowser.dll + 0x1e1120
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_PanoramaImage> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_PanoramaImage>: IPropertyAttributeEditorFactory)
+	assetbrowser.dll + 0x1e1280
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_PanoramaLayout> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_PanoramaLayout>: IPropertyAttributeEditorFactory)
+	assetbrowser.dll + 0x1e1150
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_PanoramaStyle> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_PanoramaStyle>: IPropertyAttributeEditorFactory)
+	assetbrowser.dll + 0x1e1138
+CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_PanoramaVideo> (hierarchy CPropertyAttributeEditorFactoryBase<class CQAttributeEditor_PanoramaVideo>: IPropertyAttributeEditorFactory)
+	assetbrowser.dll + 0x1e1168
+CQtImageCache (hierarchy CQtImageCache: IQtImageCache)
+	assetbrowser.dll + 0x1d0590
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	assetbrowser.dll + 0x1f1010
+CSchemaRegistration_qcontrols (hierarchy CSchemaRegistration_qcontrols: CSchemaRegistration)
+	assetbrowser.dll + 0x1d1f88
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl C2DCanvasCamera::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl C2DCanvasCamera::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class C2DCanvasCamera>, CBindTargetDescriptorBase)
+	assetbrowser.dll + 0x1efa90
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGlobalHotkeyCommands::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CGlobalHotkeyCommands::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CGlobalHotkeyCommands>, CBindTargetDescriptorBase)
+	assetbrowser.dll + 0x1f0050
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQAssetBrowserMainWnd::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQAssetBrowserMainWnd::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQAssetBrowserMainWnd>, CBindTargetDescriptorBase)
+	assetbrowser.dll + 0x1f24f0
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQAssetGraphView::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQAssetGraphView::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQAssetGraphView>, CBindTargetDescriptorBase)
+	assetbrowser.dll + 0x1f2460
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQGraphCanvasDebugger::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQGraphCanvasDebugger::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQGraphCanvasDebugger>, CBindTargetDescriptorBase)
+	assetbrowser.dll + 0x1f0140
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQGraphCanvasView::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQGraphCanvasView::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQGraphCanvasView>, CBindTargetDescriptorBase)
+	assetbrowser.dll + 0x1ef710
+`public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQGraphCanvasViewMiniMap::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance (hierarchy `public: static class CBindTargetDescriptorBase * __ptr64 __cdecl CQGraphCanvasViewMiniMap::StaticBindableTargetDescriptor(void)'::`2'::CBindableTargetDescriptorInstance: CBindTargetDescriptor<class CQGraphCanvasViewMiniMap>, CBindTargetDescriptorBase)
+	assetbrowser.dll + 0x1efa20
+std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class CQBindableCommandPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetbrowser.dll + 0x1d1e60
+std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class CQBindableCommandToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetbrowser.dll + 0x1d1e10
+std::_Func_impl_no_alloc<void (__cdecl*)(class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QCheckBox * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetbrowser.dll + 0x1d1bd0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QDockWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetbrowser.dll + 0x1d1d60
+std::_Func_impl_no_alloc<void (__cdecl*)(class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QMainWindow * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetbrowser.dll + 0x1d1c20
+std::_Func_impl_no_alloc<void (__cdecl*)(class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QMenuBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetbrowser.dll + 0x1d1c70
+std::_Func_impl_no_alloc<void (__cdecl*)(class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QPushButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetbrowser.dll + 0x1d1b30
+std::_Func_impl_no_alloc<void (__cdecl*)(class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QScrollArea * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetbrowser.dll + 0x1d1cc0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QTabWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetbrowser.dll + 0x1d1d10
+std::_Func_impl_no_alloc<void (__cdecl*)(class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QTableWidget * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetbrowser.dll + 0x1d1db0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QToolBar * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetbrowser.dll + 0x1d1eb0
+std::_Func_impl_no_alloc<void (__cdecl*)(class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64> (hierarchy std::_Func_impl_no_alloc<void (__cdecl*)(class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64),void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>: std::_Func_base<void,class QToolButton * __ptr64,struct CBaseDynamicWidgetFactory::InitContext_t const & __ptr64>)
+	assetbrowser.dll + 0x1d1b80

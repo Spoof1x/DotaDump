@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimUser (size: 0x18 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f2e70, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x3d7b0"
+
+-----members of class CAnimUser-----
+	CBufferString m_name(offset 0x0, size 0x10, align 0x8)
+	int32 m_nType(offset 0x10, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x14)
+

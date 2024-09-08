@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class SummaryTakeDamageInfo_t (size: 0xd8 bytes, project "client", binding @ client.dll + 0x46ba960, scope "!GlobalTypes")
+
+-----members of class SummaryTakeDamageInfo_t-----
+	int32 nSummarisedCount(offset 0x0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4)
+	CTakeDamageInfo info(offset 0x8, size 0xb0, align 0x0)
+	CTakeDamageResult result(offset 0xb8, size 0x18, align 0x0)
+	CHandle< C_BaseEntity > hTarget(offset 0xd0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xd4)
+

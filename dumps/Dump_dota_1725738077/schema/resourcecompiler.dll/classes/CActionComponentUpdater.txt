@@ -1,0 +1,27 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CActionComponentUpdater (size: 0x48 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242e600, scope "resourcecompiler.dll") extends CAnimComponentUpdater
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x7723e0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimComponentUpdater (size: 0x30 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242e770, scope "resourcecompiler.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimComponentUpdater-----
+		uint8_t[24] unaccounted(offset 0x0)
+		CUtlString m_name(offset 0x18, size 0x8, align 0x8)
+		AnimComponentID m_id(offset 0x20, size 0x4, align 0x4)
+		AnimNodeNetworkMode m_networkMode(offset 0x24, size 0x4, align 0x4)
+		bool m_bStartEnabled(offset 0x28, size 0x1, align 0x1)
+		uint8_t[7] unaccounted(offset 0x29)
+	
+
+-----members of class CActionComponentUpdater-----
+	CUtlVector< CSmartPtr< CAnimActionUpdater > > m_actions(offset 0x30, size 0x18, align 0x8)
+

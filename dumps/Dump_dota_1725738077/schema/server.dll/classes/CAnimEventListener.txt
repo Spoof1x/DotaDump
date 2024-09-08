@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimEventListener (size: 0x20 bytes, project "server", binding @ server.dll + 0x388ba10, scope "server.dll") extends CAnimEventListenerBase
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimEventListenerBase (size: 0x20 bytes, project "server", binding @ server.dll + 0x388b990, scope "server.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	
+	-----members of class CAnimEventListenerBase-----
+		uint8_t[32] unaccounted(offset 0x0)
+	
+
+-----members of class CAnimEventListener-----
+	<no members>
+

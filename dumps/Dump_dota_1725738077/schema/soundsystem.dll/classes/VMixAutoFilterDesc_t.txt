@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class VMixAutoFilterDesc_t (size: 0x2c bytes, project "soundsystem_lowlevel", binding @ soundsystem.dll + 0x398d80, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x22ea10"
+
+-----members of class VMixAutoFilterDesc_t-----
+	float32 m_flEnvelopeAmount(offset 0x0, size 0x4, align 0x4)
+	float32 m_flAttackTimeMS(offset 0x4, size 0x4, align 0x4)
+	float32 m_flReleaseTimeMS(offset 0x8, size 0x4, align 0x4)
+	VMixFilterDesc_t m_filter(offset 0xc, size 0x10, align 0x4)
+	float32 m_flLFOAmount(offset 0x1c, size 0x4, align 0x4)
+	float32 m_flLFORate(offset 0x20, size 0x4, align 0x4)
+	float32 m_flPhase(offset 0x24, size 0x4, align 0x4)
+	VMixLFOShape_t m_nLFOShape(offset 0x28, size 0x4, align 0x4)
+

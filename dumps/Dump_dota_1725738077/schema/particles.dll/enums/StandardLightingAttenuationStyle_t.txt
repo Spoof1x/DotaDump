@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum StandardLightingAttenuationStyle_t(size: 4 bytes, 2 values, project "particles", binding @ particles.dll + 0x517f20):
+	LIGHT_STYLE_OLD = 0,
+		^MPropertyFriendlyName "Quadratic/Linear Bias"
+	LIGHT_STYLE_NEW = 1,
+		^MPropertyFriendlyName "Fifty Percent/Zero Percent Distance"

@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ManifestTestResource_t (size: 0x10 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24f0c80, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x353b10"
+
+-----members of class ManifestTestResource_t-----
+	CUtlString m_name(offset 0x0, size 0x8, align 0x8)
+		^MKV3TransferName "name"
+	CStrongHandle< InfoForResourceTypeManifestTestResource_t > m_child(offset 0x8, size 0x8, align 0x8)
+		^MKV3TransferName "child"
+

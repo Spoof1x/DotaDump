@@ -1,0 +1,25 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimDesc (size: 0x1d0 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24ee1f0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x332f00"
+
+-----members of class CAnimDesc-----
+	CBufferString m_name(offset 0x0, size 0x10, align 0x8)
+	CAnimDesc_Flag m_flags(offset 0x10, size 0x8, align 0x1)
+	float32 fps(offset 0x18, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1c)
+	CAnimEncodedFrames m_Data(offset 0x20, size 0xd8, align 0x8)
+		^MKV3TransferName "m_pData"
+	CUtlVector< CAnimMovement > m_movementArray(offset 0xf8, size 0x18, align 0x8)
+	CTransform m_xInitialOffset(offset 0x110, size 0x20, align 0x10)
+	CUtlVector< CAnimEventDefinition > m_eventArray(offset 0x130, size 0x18, align 0x8)
+	CUtlVector< CAnimActivity > m_activityArray(offset 0x148, size 0x18, align 0x8)
+	CUtlVector< CAnimLocalHierarchy > m_hierarchyArray(offset 0x160, size 0x18, align 0x8)
+	float32 framestalltime(offset 0x178, size 0x4, align 0x4)
+	Vector m_vecRootMin(offset 0x17c, size 0xc, align 0x4)
+	Vector m_vecRootMax(offset 0x188, size 0xc, align 0x4)
+	uint8_t[4] unaccounted(offset 0x194)
+	CUtlVector< Vector > m_vecBoneWorldMin(offset 0x198, size 0x18, align 0x8)
+	CUtlVector< Vector > m_vecBoneWorldMax(offset 0x1b0, size 0x18, align 0x8)
+	CAnimSequenceParams m_sequenceParams(offset 0x1c8, size 0x8, align 0x4)
+

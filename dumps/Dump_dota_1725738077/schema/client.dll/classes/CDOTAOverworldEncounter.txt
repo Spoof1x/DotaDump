@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTAOverworldEncounter (size: 0x70 bytes, project "client", binding @ client.dll + 0x4899090, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x1785770"
+^MVDataRoot
+
+-----members of class CDOTAOverworldEncounter-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlString m_sName(offset 0x8, size 0x8, align 0x8)
+	CUtlString m_sTemplate(offset 0x10, size 0x8, align 0x8)
+	CUtlString m_sLocName(offset 0x18, size 0x8, align 0x8)
+	CUtlString m_sLocDescription(offset 0x20, size 0x8, align 0x8)
+	CPanoramaImageName m_sImage(offset 0x28, size 0x10, align 0x8)
+	EOverworldEncounterRewardStyle m_eRewardStyle(offset 0x38, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x3c)
+	CUtlVector< CDOTAOverworldEncounterReward > m_vecRewards(offset 0x40, size 0x18, align 0x8)
+	CUtlString m_sDefaultDialogue(offset 0x58, size 0x8, align 0x8)
+	KeyValues3 m_kvCustomData(offset 0x60, size 0x10, align 0x8)
+

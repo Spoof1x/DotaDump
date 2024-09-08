@@ -1,0 +1,11 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum StateValue(size: 4 bytes, 5 values, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23e8780):
+	TotalTranslation_SourceState = 0,
+		^MPropertyFriendlyName "Total Translation (Source State)"
+	TotalTranslation_TargetState = 1,
+		^MPropertyFriendlyName "Total Translation (Target State)"
+	SourceStateBlendWeight = 2,
+		^MPropertyFriendlyName "Source State Blend Weight"
+	TargetStateBlendWeight = 3,
+		^MPropertyFriendlyName "Target State Blend Weight"
+	Count = 4,

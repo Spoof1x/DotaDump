@@ -1,0 +1,7 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EntOutput_t (size: 0x10 bytes, project "entity2", binding @ assetpreview.dll + 0x4f8110, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class EntOutput_t-----
+	uint8_t[16] unaccounted(offset 0x0)
+

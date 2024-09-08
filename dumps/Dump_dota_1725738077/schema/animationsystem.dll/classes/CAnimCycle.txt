@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimCycle (size: 0x4 bytes, project "modellib", binding @ animationsystem.dll + 0x5e3de0, scope "!GlobalTypes") extends CCycleBase
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x3ae0a0"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CCycleBase (size: 0x4 bytes, project "modellib", binding @ animationsystem.dll + 0x5e3d50, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	^MGetKV3ClassDefaults "func: animationsystem.dll + 0x3adfa0"
+	
+	-----members of class CCycleBase-----
+		float32 m_flCycle(offset 0x0, size 0x4, align 0x4)
+	
+
+-----members of class CAnimCycle-----
+	<no members>
+

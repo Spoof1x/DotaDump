@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum IkEndEffectorType(size: 4 bytes, 2 values, project "animgraphlib", binding @ resourcecompiler.dll + 0x2425610):
+	IkEndEffector_Attachment = 0,
+		^MPropertyFriendlyName "Attachment"
+	IkEndEffector_Bone = 1,
+		^MPropertyFriendlyName "Last Bone in Chain"

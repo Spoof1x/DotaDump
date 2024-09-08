@@ -1,0 +1,47 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CNmVelocityBlendNode::CDefinition (size: 0x40 bytes, project "animlib", binding @ resourcecompiler.dll + 0x24471a0, scope "resourcecompiler.dll") extends CNmParameterizedBlendNode::CDefinition
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x82b980"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmParameterizedBlendNode::CDefinition (size: 0x40 bytes, project "animlib", binding @ resourcecompiler.dll + 0x2446ec0, scope "resourcecompiler.dll") extends CNmPoseNode::CDefinition
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x82b020"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmPoseNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ resourcecompiler.dll + 0x2445570, scope "resourcecompiler.dll") extends CNmGraphNode::CDefinition
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CNmGraphNode::CDefinition (size: 0x10 bytes, project "animlib", binding @ resourcecompiler.dll + 0x24454f0, scope "resourcecompiler.dll")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_IS_ABSTRACT
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+			
+			-----members of class CNmGraphNode::CDefinition-----
+				uint8_t[8] unaccounted(offset 0x0)
+				int16 m_nNodeIdx(offset 0x8, size 0x2, align 0x2)
+				uint8_t[6] unaccounted(offset 0xa)
+			
+		
+		-----members of class CNmPoseNode::CDefinition-----
+			<no members>
+		
+	
+	-----members of class CNmParameterizedBlendNode::CDefinition-----
+		CUtlVectorFixedGrowable< int16, 5 > m_sourceNodeIndices(offset 0x10, size 0x28, align 0x8)
+		int16 m_nInputParameterValueNodeIdx(offset 0x38, size 0x2, align 0x2)
+		bool m_bAllowLooping(offset 0x3a, size 0x1, align 0x1)
+		uint8_t[5] unaccounted(offset 0x3b)
+	
+
+-----members of class CNmVelocityBlendNode::CDefinition-----
+	<no members>
+

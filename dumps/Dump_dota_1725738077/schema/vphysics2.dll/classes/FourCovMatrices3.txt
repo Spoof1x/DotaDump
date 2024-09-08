@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FourCovMatrices3 (size: 0x60 bytes, project "physicslib", binding @ vphysics2.dll + 0x3915d0, scope "vphysics2.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0x1320d0"
+
+-----members of class FourCovMatrices3-----
+	FourVectors m_vDiag(offset 0x0, size 0x30, align 0x10)
+	fltx4 m_flXY(offset 0x30, size 0x10, align 0x10)
+	fltx4 m_flXZ(offset 0x40, size 0x10, align 0x10)
+	fltx4 m_flYZ(offset 0x50, size 0x10, align 0x10)
+

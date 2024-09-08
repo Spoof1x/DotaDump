@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CBoneConstraintPoseSpaceBone::Input_t (size: 0x28 bytes, project "modellib", binding @ workshopmanager.dll + 0xe8c380, scope "workshopmanager.dll")
+
+-----members of class CBoneConstraintPoseSpaceBone::Input_t-----
+	Vector m_inputValue(offset 0x0, size 0xc, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlVector< CTransform > m_outputTransformList(offset 0x10, size 0x18, align 0x8)
+

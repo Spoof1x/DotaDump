@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSelectableSubgraph (size: 0x18 bytes, project "sounddoc_lib", binding @ resourcecompiler.dll + 0x24bf540, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x15e0570"
+
+-----members of class CSelectableSubgraph-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlString file(offset 0x8, size 0x8, align 0x8)
+		^MPropertyFriendlyName "File"
+		^MPropertyAttributeEditor "AssetBrowse( vmix )"
+	CUtlString subgraphName(offset 0x10, size 0x8, align 0x8)
+		^MPropertyFriendlyName "Name"
+		^MPropertyAttributeChoiceName "graph_names"
+

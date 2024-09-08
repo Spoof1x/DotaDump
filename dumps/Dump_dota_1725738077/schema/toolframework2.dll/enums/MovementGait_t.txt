@@ -1,0 +1,14 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum MovementGait_t(size: 1 bytes, 6 values, project "modellib", binding @ toolframework2.dll + 0x92d430):
+	eInvalid = -1,
+		^MPropertyFriendlyName "None"
+	eSlow = 0,
+		^MPropertyFriendlyName "Slow"
+	eMedium = 1,
+		^MPropertyFriendlyName "Medium"
+	eFast = 2,
+		^MPropertyFriendlyName "Fast"
+	eVeryFast = 3,
+		^MPropertyFriendlyName "VeryFast"
+	eCount = 4,
+		^MPropertySuppressEnumerator

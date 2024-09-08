@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FeVertexMapBuild_t (size: 0x30 bytes, project "physicslib", binding @ vphysics2.dll + 0x3926a0, scope "vphysics2.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: vphysics2.dll + 0x133a30"
+
+-----members of class FeVertexMapBuild_t-----
+	CUtlString m_VertexMapName(offset 0x0, size 0x8, align 0x8)
+	uint32 m_nNameHash(offset 0x8, size 0x4, align 0x4)
+	Color m_Color(offset 0xc, size 0x4, align 0x1)
+	float32 m_flVolumetricSolveStrength(offset 0x10, size 0x4, align 0x4)
+	int32 m_nScaleSourceNode(offset 0x14, size 0x4, align 0x4)
+	CUtlVector< float32 > m_Weights(offset 0x18, size 0x18, align 0x8)
+

@@ -1,0 +1,24 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTAOverworldPath (size: 0x40 bytes, project "client", binding @ client.dll + 0x4899810, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x1787000"
+^MVDataRoot
+
+-----members of class CDOTAOverworldPath-----
+	OverworldPathID_t m_unID(offset 0x0, size 0x2, align 0x0)
+		^MVDataUniqueMonotonicInt "_editor/next_id_path"
+		^MPropertyAttributeEditor "locked_int()"
+	OverworldNodeID_t m_unNodeStart(offset 0x2, size 0x2, align 0x0)
+		^MPropertyDescription
+	OverworldNodeID_t m_unNodeEnd(offset 0x4, size 0x2, align 0x0)
+		^MPropertyDescription
+	uint8 m_unCost(offset 0x6, size 0x1, align 0x1)
+		^MPropertyDescription
+	uint8_t[25] unaccounted(offset 0x7)
+	float32 m_flCircleInvRadius(offset 0x20, size 0x4, align 0x4)
+		^MPropertyAttributeRange "-1 1"
+		^MPropertyDescription "0: line, +: curve to the 'right' from node 1 to node 2, -: curve left"
+	uint8_t[4] unaccounted(offset 0x24)
+	CUtlVector< CUtlString > m_vecRequiredTokenNames(offset 0x28, size 0x18, align 0x8)
+		^MPropertyDescription
+

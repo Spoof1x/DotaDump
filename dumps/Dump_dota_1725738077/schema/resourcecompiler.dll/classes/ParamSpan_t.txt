@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ParamSpan_t (size: 0x28 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242cbb0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x763190"
+
+-----members of class ParamSpan_t-----
+	CUtlVector< ParamSpanSample_t > m_samples(offset 0x0, size 0x18, align 0x8)
+	CAnimParamHandle m_hParam(offset 0x18, size 0x2, align 0x1)
+	AnimParamType_t m_eParamType(offset 0x1a, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x1b)
+	float32 m_flStartCycle(offset 0x1c, size 0x4, align 0x4)
+	float32 m_flEndCycle(offset 0x20, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x24)
+

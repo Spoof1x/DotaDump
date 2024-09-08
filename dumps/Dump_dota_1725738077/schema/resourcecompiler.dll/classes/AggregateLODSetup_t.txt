@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class AggregateLODSetup_t (size: 0x28 bytes, project "resourcecompiler", binding @ resourcecompiler.dll + 0x24f3d80, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x365e80"
+
+-----members of class AggregateLODSetup_t-----
+	Vector m_vLODOrigin(offset 0x0, size 0xc, align 0x4)
+	float32 m_fMaxObjectScale(offset 0xc, size 0x4, align 0x4)
+	CUtlVector< float32 > m_fSwitchDistances(offset 0x10, size 0x18, align 0x8)
+

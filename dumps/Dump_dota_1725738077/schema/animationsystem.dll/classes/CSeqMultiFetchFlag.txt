@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSeqMultiFetchFlag (size: 0x6 bytes, project "animationsystem", binding @ animationsystem.dll + 0x5f0240, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: animationsystem.dll + 0x53f90"
+
+-----members of class CSeqMultiFetchFlag-----
+	bool m_bRealtime(offset 0x0, size 0x1, align 0x1)
+	bool m_bCylepose(offset 0x1, size 0x1, align 0x1)
+	bool m_b0D(offset 0x2, size 0x1, align 0x1)
+	bool m_b1D(offset 0x3, size 0x1, align 0x1)
+	bool m_b2D(offset 0x4, size 0x1, align 0x1)
+	bool m_b2D_TRI(offset 0x5, size 0x1, align 0x1)
+

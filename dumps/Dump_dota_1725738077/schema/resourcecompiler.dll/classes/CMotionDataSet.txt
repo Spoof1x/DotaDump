@@ -1,0 +1,10 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMotionDataSet (size: 0x20 bytes, project "animgraphlib", binding @ resourcecompiler.dll + 0x242f7c0, scope "resourcecompiler.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x77d6c0"
+
+-----members of class CMotionDataSet-----
+	CUtlVector< CMotionGraphGroup > m_groups(offset 0x0, size 0x18, align 0x8)
+	int32 m_nDimensionCount(offset 0x18, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1c)
+

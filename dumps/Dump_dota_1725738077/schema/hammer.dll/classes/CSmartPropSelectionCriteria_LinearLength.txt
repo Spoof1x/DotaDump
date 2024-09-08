@@ -1,0 +1,41 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropSelectionCriteria_LinearLength (size: 0x148 bytes, project "smartprops", binding @ hammer.dll + 0x1dd1d70, scope "hammer.dll") extends CSmartPropSelectionCriteria
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: hammer.dll + 0x105d430"
+^MVDataComponentValidGrandParents "CSmartPropElement_FitOnLine"
+^MPropertyFriendlyName "Linear Length"
+^MPropertyDescription "Specifies the length of this element, used when fitting an element on to a line."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CSmartPropSelectionCriteria (size: 0x48 bytes, project "smartprops", binding @ hammer.dll + 0x1dcd1b0, scope "hammer.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: hammer.dll + 0xd1200"
+	^MVDataBase
+	^MVDataNodeType "1"
+	^MVDataAnonymousNode
+	
+	-----members of class CSmartPropSelectionCriteria-----
+		uint8_t[8] unaccounted(offset 0x0)
+		CSmartPropAttributeBool m_bEnabled(offset 0x8, size 0x40, align 0x8)
+			^MVDataEnableKey
+	
+
+-----members of class CSmartPropSelectionCriteria_LinearLength-----
+	CSmartPropAttributeFloat m_flLength(offset 0x48, size 0x40, align 0x8)
+		^MPropertyDescription "Specifies the length of the line that will be taken up if this element is selected."
+	CSmartPropAttributeBool m_bAllowScale(offset 0x88, size 0x40, align 0x8)
+		^MPropertyDescription "Can this object be scaled. If enabled the minimum and maximum lengths must be set to specify the size range of allowable scale."
+	CSmartPropAttributeFloat m_flMinLength(offset 0xc8, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Minimum length"
+		^MPropertySuppressExpr "m_bAllowScale == false"
+		^MPropertyDescription "Minimum allowable length for the object. Must be <= length. If length is 100 and minimum length is 20, then the object may be assigned a scale in the rage [ 0.2, 1.0 ]."
+	CSmartPropAttributeFloat m_flMaxLength(offset 0x108, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Maximum length"
+		^MPropertySuppressExpr "m_bAllowScale == false"
+		^MPropertyDescription "Maximum allowable length for the object. Must be >= length. If length is 100 and maximum length is 160, then the object may be assigned a scale in the rage [ 1.0, 1.6 ]."
+

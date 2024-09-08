@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CStateAction (size: 0x18 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f4920, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5c0360"
+
+-----members of class CStateAction-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CSmartPtr< CAnimGraphDoc_Action > m_pAction(offset 0x8, size 0x8, align 0x8)
+	StateActionBehavior m_eBehavior(offset 0x10, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x14)
+

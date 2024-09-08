@@ -1,0 +1,8 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CSmartPropAttributeGridPlacementMode (size: 0x40 bytes, project "smartprops", binding @ hammer.dll + 0x1dd21e0, scope "hammer.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+^MPropertyCustomEditor "SmartPropAttributeEditor(enum:SmartPropGridPlacementMode_t)"
+
+-----members of class CSmartPropAttributeGridPlacementMode-----
+	uint8_t[64] unaccounted(offset 0x0)
+

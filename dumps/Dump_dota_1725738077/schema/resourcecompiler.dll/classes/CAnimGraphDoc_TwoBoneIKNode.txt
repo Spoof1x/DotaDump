@@ -1,0 +1,97 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAnimGraphDoc_TwoBoneIKNode (size: 0xa0 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23f4640, scope "!GlobalTypes") extends CAnimGraphDoc_Node
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x5bd000"
+^MPropertyFriendlyName "Two-Bone IK"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CAnimGraphDoc_Node (size: 0x40 bytes, project "animgraphdoclib", binding @ resourcecompiler.dll + 0x23ec330, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x11bd30"
+	
+	-----members of class CAnimGraphDoc_Node-----
+		uint8_t[32] unaccounted(offset 0x0)
+		CUtlString m_sName(offset 0x20, size 0x8, align 0x8)
+			^MPropertyFriendlyName "Name"
+			^MPropertySortPriority "100"
+		Vector2D m_vecPosition(offset 0x28, size 0x8, align 0x4)
+			^MPropertyGroupName "Debug"
+		AnimNodeID m_nNodeID(offset 0x30, size 0x4, align 0x4)
+			^MPropertyGroupName "Debug"
+		bool m_bDebugThisNode(offset 0x34, size 0x1, align 0x1)
+			^MPropertyGroupName "Debug"
+			^MPropertyFriendlyName "Debug This Node"
+		uint8_t[3] unaccounted(offset 0x35)
+		AnimNodeNetworkMode m_networkMode(offset 0x38, size 0x4, align 0x4)
+			^MPropertyFriendlyName "Network Mode"
+		uint8_t[4] unaccounted(offset 0x3c)
+	
+
+-----members of class CAnimGraphDoc_TwoBoneIKNode-----
+	CAnimGraphDoc_NodeConnection m_inputConnection(offset 0x40, size 0x8, align 0x4)
+		^MPropertyHideField
+	CUtlString m_ikChainName(offset 0x48, size 0x8, align 0x8)
+		^MPropertyFriendlyName "IK Chain"
+		^MPropertyAttributeChoiceName "IKChain"
+	bool m_bAutoDetectHingeAxis(offset 0x50, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Auto-Detect Hinge Axis"
+	uint8_t[3] unaccounted(offset 0x51)
+	IkEndEffectorType m_endEffectorType(offset 0x54, size 0x4, align 0x4)
+		^MPropertyGroupName "End Effector"
+		^MPropertyFriendlyName "End Effector Type"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	CUtlString m_endEffectorAttachmentName(offset 0x58, size 0x8, align 0x8)
+		^MPropertyGroupName "End Effector"
+		^MPropertyFriendlyName "Attachment"
+		^MPropertyAttributeChoiceName "Attachment"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5bd070"
+	IkTargetType m_targetType(offset 0x60, size 0x4, align 0x4)
+		^MPropertyGroupName "Target"
+		^MPropertyFriendlyName "Target Type"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[4] unaccounted(offset 0x64)
+	CUtlString m_attachmentName(offset 0x68, size 0x8, align 0x8)
+		^MPropertyGroupName "Target"
+		^MPropertyFriendlyName "Attachment"
+		^MPropertyAttributeChoiceName "Attachment"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5bd080"
+	CUtlString m_targetBoneName(offset 0x70, size 0x8, align 0x8)
+		^MPropertyGroupName "Target"
+		^MPropertyFriendlyName "Bone"
+		^MPropertyAttributeChoiceName "Bone"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5bd090"
+	CUtlString m_targetParamName(offset 0x78, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_targetParam(offset 0x80, size 0x4, align 0x4)
+		^MPropertyGroupName "Target"
+		^MPropertyFriendlyName "Position Parameter"
+		^MPropertyAttributeChoiceName "VectorParameter"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5bd0a0"
+	bool m_bMatchTargetOrientation(offset 0x84, size 0x1, align 0x1)
+		^MPropertyGroupName "Target"
+		^MPropertyFriendlyName "Match Target Orientation"
+		^MPropertyAttrChangeCallback "func: resourcecompiler.dll + 0x1c9730"
+	uint8_t[3] unaccounted(offset 0x85)
+	CUtlString m_rotationParamName(offset 0x88, size 0x8, align 0x8)
+		^MPropertyHideField
+	AnimParamID m_rotationParam(offset 0x90, size 0x4, align 0x4)
+		^MPropertyGroupName "Target"
+		^MPropertyFriendlyName "Rotation Parameter"
+		^MPropertyAttributeChoiceName "QuaternionParameter"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5bd0c0"
+	bool m_bConstrainTwist(offset 0x94, size 0x1, align 0x1)
+		^MPropertyGroupName "Target"
+		^MPropertyFriendlyName "Constrain Twist"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5bd0c0"
+	uint8_t[3] unaccounted(offset 0x95)
+	float32 m_flMaxTwist(offset 0x98, size 0x4, align 0x4)
+		^MPropertyGroupName "Target"
+		^MPropertyFriendlyName "Max Twist"
+		^MPropertyAttrStateCallback "func: resourcecompiler.dll + 0x5bd0c0"
+	uint8_t[4] unaccounted(offset 0x9c)
+

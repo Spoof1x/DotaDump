@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum GraphCanvasVisibilityState_t(size: 4 bytes, 3 values, project "qcontrols", binding @ assetbrowser.dll + 0x1d4640):
+	VISIBLE = 0,
+	HIDDEN = 1,
+	COLLAPSE = 2,

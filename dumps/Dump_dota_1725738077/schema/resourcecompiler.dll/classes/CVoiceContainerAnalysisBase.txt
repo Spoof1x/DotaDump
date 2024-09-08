@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CVoiceContainerAnalysisBase (size: 0x50 bytes, project "soundsystem_voicecontainers", binding @ resourcecompiler.dll + 0x24c15a0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: resourcecompiler.dll + 0x1652490"
+^MVDataNodeType "1"
+^MFgdFromSchemaEditablePolymorphicThisClass
+^MPropertyFriendlyName "Analysis Container"
+^MPropertyDescription "Does Not Play Sound, member of CVoiceContainerDefaultDefault"
+
+-----members of class CVoiceContainerAnalysisBase-----
+	uint8_t[8] unaccounted(offset 0x0)
+	bool m_bRegenerateCurveOnCompile(offset 0x8, size 0x1, align 0x1)
+		^MPropertyFriendlyName "Regenerate curve on compile"
+	uint8_t[7] unaccounted(offset 0x9)
+	CPiecewiseCurve m_curve(offset 0x10, size 0x40, align 0x8)
+		^MPropertyFriendlyName "Envelope Curve"
+

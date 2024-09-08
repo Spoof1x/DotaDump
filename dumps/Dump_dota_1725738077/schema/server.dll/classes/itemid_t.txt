@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class itemid_t (size: 0x8 bytes, project "server", binding @ server.dll + 0x3af4dc0, scope "server.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class itemid_t-----
+	static bool IS_TYPESAFE_INTEGER(server.dll + 0x329913b)
+
+-----members of class itemid_t-----
+	uint64 m_Value(offset 0x0, size 0x8, align 0x8)
+

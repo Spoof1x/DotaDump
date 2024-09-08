@@ -1,0 +1,5 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CMediaFoundation (hierarchy CMediaFoundation: CTier3AppSystem<class IMediaFoundation,0>, CTier2AppSystem<class IMediaFoundation,0>, CTier1AppSystem<class IMediaFoundation,0>, CTier0AppSystem<class IMediaFoundation,0>, CBaseAppSystem<class IMediaFoundation>, IMediaFoundation, IAppSystem)
+	valve_wmf.dll + 0x1ea10
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	valve_wmf.dll + 0x1f938

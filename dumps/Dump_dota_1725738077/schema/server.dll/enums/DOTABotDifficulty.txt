@@ -1,0 +1,12 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTABotDifficulty(size: 4 bytes, 10 values, project "server", binding @ server.dll + 0x38e1ae0):
+	BOT_DIFFICULTY_PASSIVE = 0,
+	BOT_DIFFICULTY_EASY = 1,
+	BOT_DIFFICULTY_MEDIUM = 2,
+	BOT_DIFFICULTY_HARD = 3,
+	BOT_DIFFICULTY_UNFAIR = 4,
+	BOT_DIFFICULTY_INVALID = 5,
+	BOT_DIFFICULTY_EXTRA1 = 6,
+	BOT_DIFFICULTY_EXTRA2 = 7,
+	BOT_DIFFICULTY_EXTRA3 = 8,
+	BOT_DIFFICULTY_NPX = 9,

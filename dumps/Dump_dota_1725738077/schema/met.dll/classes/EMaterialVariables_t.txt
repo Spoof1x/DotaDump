@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class EMaterialVariables_t (size: 0x40 bytes, project "met", binding @ met.dll + 0x410d30, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: met.dll + 0x9cd30"
+
+-----members of class EMaterialVariables_t-----
+	bool m_bIsLayeredShader(offset 0x0, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x1)
+	CUtlVector< EMaterialVariable_t > m_Variables(offset 0x8, size 0x18, align 0x8)
+	CUtlVector< EMaterialLayer_t > m_Layers(offset 0x20, size 0x18, align 0x8)
+	uint8_t[8] unaccounted(offset 0x38)
+

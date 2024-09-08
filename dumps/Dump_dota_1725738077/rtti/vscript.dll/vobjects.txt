@@ -1,0 +1,5 @@
+ |||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||
+CSchemaInstallCallback (hierarchy CSchemaInstallCallback: CPostConnectCallback)
+	vscript.dll + 0x129738
+CScriptManager (hierarchy CScriptManager: CTier2AppSystem<class IScriptManager,0>, CTier1AppSystem<class IScriptManager,0>, CTier0AppSystem<class IScriptManager,0>, CBaseAppSystem<class IScriptManager>, IScriptManager, IAppSystem)
+	vscript.dll + 0x1285f0

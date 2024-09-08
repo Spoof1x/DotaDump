@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum JointMotion_t(size: 4 bytes, 3 values, project "physicslib", binding @ vphysics2.dll + 0x38ecb0):
+	JOINT_MOTION_FREE = 0,
+	JOINT_MOTION_LOCKED = 1,
+	JOINT_MOTION_COUNT = 2,

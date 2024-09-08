@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TransitioningLayer_t (size: 0x48 bytes, project "server", binding @ server.dll + 0x3881e90, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+
+-----members of class TransitioningLayer_t-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CNetworkedSequenceOperation m_op(offset 0x8, size 0x28, align 0x0)
+	GameTime_t m_flStartAnimTime(offset 0x30, size 0x4, align 0x0)
+	float32 m_flStartWeight(offset 0x34, size 0x4, align 0x4)
+	GameTime_t m_flAnimTime(offset 0x38, size 0x4, align 0x0)
+	int32 m_nOrder(offset 0x3c, size 0x4, align 0x4)
+	float32 m_flPlaybackRate(offset 0x40, size 0x4, align 0x4)
+	float32 m_flFadeOutDuration(offset 0x44, size 0x4, align 0x4)
+

@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAttributeList (size: 0x60 bytes, project "server", binding @ server.dll + 0x3af4e90, scope "server.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "m_Attributes CEconItemAttribute"
+
+-----members of class CAttributeList-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlVectorEmbeddedNetworkVar< CEconItemAttribute > m_Attributes(offset 0x8, size 0x50, align 0x8)
+		^MNetworkEnable
+		^MNetworkTypeAlias "CUtlVector< CEconItemAttribute >"
+	CAttributeManager* m_pManager(offset 0x58, size 0x8, align 0x8)
+

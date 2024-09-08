@@ -1,0 +1,15 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CEntityComponentHelper (size: 0x28 bytes, project "entity2", binding @ workshopmanager.dll + 0xeac3e0, scope "workshopmanager.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_IS_ABSTRACT
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class CEntityComponentHelper-----
+	uint8_t[8] unaccounted(offset 0x0)
+	uint32 m_flags(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+	EntComponentInfo_t* m_pInfo(offset 0x10, size 0x8, align 0x8)
+	int32 m_nPriority(offset 0x18, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x1c)
+	CEntityComponentHelper* m_pNext(offset 0x20, size 0x8, align 0x8)
+

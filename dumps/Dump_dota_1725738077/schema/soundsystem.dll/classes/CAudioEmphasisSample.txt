@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CAudioEmphasisSample (size: 0x8 bytes, project "soundsystem_voicecontainers", binding @ soundsystem.dll + 0x39b760, scope "soundsystem.dll")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: soundsystem.dll + 0x279d60"
+
+-----members of class CAudioEmphasisSample-----
+	float32 m_flTime(offset 0x0, size 0x4, align 0x4)
+	float32 m_flValue(offset 0x4, size 0x4, align 0x4)
+

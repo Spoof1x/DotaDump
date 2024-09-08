@@ -1,0 +1,57 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_EconItemView (size: 0xc0 bytes, project "client", binding @ client.dll + 0x48f2be0, scope "client.dll") extends IEconItemInterface
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "m_iItemDefinitionIndex item_definition_index_t"
+^MNetworkVarNames "m_iEntityQuality int"
+^MNetworkVarNames "m_iEntityLevel uint32"
+^MNetworkVarNames "m_iItemID itemid_t"
+^MNetworkVarNames "m_iAccountID uint32"
+^MNetworkVarNames "m_iInventoryPosition uint32"
+^MNetworkVarNames "m_bInitialized bool"
+^MNetworkVarNames "m_nOverrideStyle style_index_t"
+^MNetworkVarNames "m_AttributeList CAttributeList"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class IEconItemInterface (size: 0x8 bytes, project "client", binding @ client.dll + 0x48f04b0, scope "!GlobalTypes")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	
+	-----members of class IEconItemInterface-----
+		uint8_t[8] unaccounted(offset 0x0)
+	
+
+-----members of class C_EconItemView-----
+	item_definition_index_t m_iItemDefinitionIndex(offset 0x8, size 0x4, align 0x0)
+		^MNetworkEnable
+	int32 m_iEntityQuality(offset 0xc, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint32 m_iEntityLevel(offset 0x10, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x14)
+	itemid_t m_iItemID(offset 0x18, size 0x8, align 0x0)
+		^MNetworkEnable
+	uint32 m_iAccountID(offset 0x20, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint32 m_iInventoryPosition(offset 0x24, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[8] unaccounted(offset 0x28)
+	bool m_bInitialized(offset 0x30, size 0x1, align 0x1)
+		^MNetworkEnable
+	style_index_t m_nOverrideStyle(offset 0x31, size 0x1, align 0x0)
+		^MNetworkEnable
+	bool m_bIsStoreItem(offset 0x32, size 0x1, align 0x1)
+	bool m_bIsTradeItem(offset 0x33, size 0x1, align 0x1)
+	bool m_bHasComputedAttachedParticles(offset 0x34, size 0x1, align 0x1)
+	bool m_bHasAttachedParticles(offset 0x35, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x36)
+	int32 m_iEntityQuantity(offset 0x38, size 0x4, align 0x4)
+	uint8 m_unClientFlags(offset 0x3c, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x3d)
+	eEconItemOrigin m_unOverrideOrigin(offset 0x40, size 0x4, align 0x4)
+	uint8_t[20] unaccounted(offset 0x44)
+	CAttributeList m_AttributeList(offset 0x58, size 0x60, align 0x0)
+		^MNetworkEnable
+	uint8_t[8] unaccounted(offset 0xb8)
+

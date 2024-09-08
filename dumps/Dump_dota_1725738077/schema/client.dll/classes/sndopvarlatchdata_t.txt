@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class sndopvarlatchdata_t (size: 0x30 bytes, project "client", binding @ client.dll + 0x46b8890, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+
+-----members of class sndopvarlatchdata_t-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlSymbolLarge m_iszStack(offset 0x8, size 0x8, align 0x8)
+	CUtlSymbolLarge m_iszOperator(offset 0x10, size 0x8, align 0x8)
+	CUtlSymbolLarge m_iszOpvar(offset 0x18, size 0x8, align 0x8)
+	float32 m_flVal(offset 0x20, size 0x4, align 0x4)
+	Vector m_vPos(offset 0x24, size 0xc, align 0x4)
+

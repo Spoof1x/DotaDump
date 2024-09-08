@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class ParticleControlPointDriver_t (size: 0x30 bytes, project "particles", binding @ particles.dll + 0x519620, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: particles.dll + 0x7b670"
+
+-----members of class ParticleControlPointDriver_t-----
+	int32 m_iControlPoint(offset 0x0, size 0x4, align 0x4)
+	ParticleAttachment_t m_iAttachType(offset 0x4, size 0x4, align 0x4)
+	CUtlString m_attachmentName(offset 0x8, size 0x8, align 0x8)
+	Vector m_vecOffset(offset 0x10, size 0xc, align 0x4)
+	QAngle m_angOffset(offset 0x1c, size 0xc, align 0x4)
+	CUtlString m_entityName(offset 0x28, size 0x8, align 0x8)
+

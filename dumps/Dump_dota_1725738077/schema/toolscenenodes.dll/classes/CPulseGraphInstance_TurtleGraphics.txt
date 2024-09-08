@@ -1,0 +1,22 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseGraphInstance_TurtleGraphics (size: 0x118 bytes, project "pulse_runtime_lib", binding @ toolscenenodes.dll + 0xbf9360, scope "toolscenenodes.dll") extends CBasePulseGraphInstance
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MPulseInstanceDomainInfo "ptr: toolscenenodes.dll + 0xbf9570"
+^MPulseDomainHookInfo "ptr: toolscenenodes.dll + 0xbf9428"
+^MPulseLibraryBindings "ptr: toolscenenodes.dll + 0xbf9590"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CBasePulseGraphInstance (size: 0xf8 bytes, project "pulse_runtime_lib", binding @ toolscenenodes.dll + 0xbeed90, scope "toolscenenodes.dll")
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	^MPulseInstanceDomainInfo "ptr: toolscenenodes.dll + 0xbf96b0"
+	^MPulseDomainHiddenInTool
+	
+	-----members of class CBasePulseGraphInstance-----
+		uint8_t[248] unaccounted(offset 0x0)
+	
+
+-----members of class CPulseGraphInstance_TurtleGraphics-----
+	uint8_t[32] unaccounted(offset 0xf8)
+
