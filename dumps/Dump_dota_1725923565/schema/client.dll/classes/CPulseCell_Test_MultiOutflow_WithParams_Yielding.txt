@@ -1,0 +1,59 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_Test_MultiOutflow_WithParams_Yielding (size: 0x138 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x492aa30, scope "client.dll") extends CPulseCell_BaseYieldingInflow
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: client.dll + 0x2b824a0"
+^MCellForDomain "TestDomain"
+^MPulseCellMethodBindings "ptr: client.dll + 0x492c100"
+^MPulseCellOutflowHookInfo "ptr: client.dll + 0x492ad00"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseYieldingInflow (size: 0x48 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x49260d0, scope "client.dll") extends CPulseCell_BaseFlow
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: client.dll + 0x2b3d280"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseFlow (size: 0x48 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x4925960, scope "client.dll") extends CPulseCell_Base
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: client.dll + 0x2b3c1b0"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_Base (size: 0x48 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x4926dd0, scope "client.dll")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: client.dll + 0x2b3c090"
+			
+			-----members of class CPulseCell_Base-----
+				uint8_t[8] unaccounted(offset 0x0)
+				PulseDocNodeID_t m_nEditorNodeID(offset 0x8, size 0x4, align 0x0)
+					^MFgdFromSchemaCompletelySkipField
+				uint8_t[60] unaccounted(offset 0xc)
+			
+		
+		-----members of class CPulseCell_BaseFlow-----
+			<no members>
+		
+	
+	-----members of class CPulseCell_BaseYieldingInflow-----
+		<no members>
+	
+
+-----members of class CPulseCell_Test_MultiOutflow_WithParams_Yielding-----
+	SignatureOutflow_Continue m_Out1(offset 0x48, size 0x30, align 0x0)
+		^MPulseCellOutflow_IsDefault
+	SignatureOutflow_Continue m_AsyncChild1(offset 0x78, size 0x30, align 0x0)
+	SignatureOutflow_Continue m_AsyncChild2(offset 0xa8, size 0x30, align 0x0)
+	SignatureOutflow_Resume m_YieldResume1(offset 0xd8, size 0x30, align 0x0)
+	SignatureOutflow_Resume m_YieldResume2(offset 0x108, size 0x30, align 0x0)
+

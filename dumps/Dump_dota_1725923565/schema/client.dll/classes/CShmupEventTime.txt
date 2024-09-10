@@ -1,0 +1,21 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CShmupEventTime (size: 0x60 bytes, project "client", binding @ client.dll + 0x48e36f0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x21d0360"
+^MVDataRoot
+
+-----members of class CShmupEventTime-----
+	float32 m_flDelay(offset 0x0, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlString m_strEventName(offset 0x8, size 0x8, align 0x8)
+	bool m_bPathFlipped(offset 0x10, size 0x1, align 0x1)
+	bool m_bInvertColors(offset 0x11, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x12)
+	int32 m_nCount(offset 0x14, size 0x4, align 0x4)
+	float32 m_flRepeatInterval(offset 0x18, size 0x4, align 0x4)
+	Vector m_vOffset(offset 0x1c, size 0xc, align 0x4)
+	Vector m_vRepeatOffset(offset 0x28, size 0xc, align 0x4)
+	uint8_t[4] unaccounted(offset 0x34)
+	CUtlVector< CShmupEventTime > m_children(offset 0x38, size 0x18, align 0x8)
+	uint8_t[16] unaccounted(offset 0x50)
+

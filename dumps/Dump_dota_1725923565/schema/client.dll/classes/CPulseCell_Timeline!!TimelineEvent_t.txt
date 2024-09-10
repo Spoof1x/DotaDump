@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_Timeline::TimelineEvent_t (size: 0x38 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x492fa20, scope "client.dll")
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x2b91290"
+
+-----members of class CPulseCell_Timeline::TimelineEvent_t-----
+	float32 m_flTimeFromPrevious(offset 0x0, size 0x4, align 0x4)
+	bool m_bPauseForPreviousEvents(offset 0x4, size 0x1, align 0x1)
+	bool m_bCallModeSync(offset 0x5, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x6)
+	CPulse_OutflowConnection m_EventOutflow(offset 0x8, size 0x30, align 0x0)
+

@@ -1,0 +1,28 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMatch3OpponentDefinition (size: 0x1a0 bytes, project "client", binding @ client.dll + 0x48dfb30, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x215d260"
+^MVDataRoot
+
+-----members of class CMatch3OpponentDefinition-----
+	Match3OpponentID_t m_unOpponentID(offset 0x0, size 0x4, align 0x0)
+	uint8_t[12] unaccounted(offset 0x4)
+	CUtlString m_sLocName(offset 0x10, size 0x8, align 0x8)
+	CUtlString m_sLocFlavor(offset 0x18, size 0x8, align 0x8)
+	CUtlString m_sUnitName(offset 0x20, size 0x8, align 0x8)
+	CUtlString m_sModelName(offset 0x28, size 0x8, align 0x8)
+	HeroID_t m_nHeroID(offset 0x30, size 0x4, align 0x0)
+	uint8_t[4] unaccounted(offset 0x34)
+	CUtlVector< CMatch3OpponentHeroItemDefinition > m_vecHeroItems(offset 0x38, size 0x18, align 0x8)
+	int32 m_nHeroPrimarySlotIndex(offset 0x50, size 0x4, align 0x4)
+	int32 m_nHeroModelIndex(offset 0x54, size 0x4, align 0x4)
+	int32 m_nHeroSkinOverride(offset 0x58, size 0x4, align 0x4)
+	Vector m_vModelOffset(offset 0x5c, size 0xc, align 0x4)
+	float32 m_flModelScale(offset 0x68, size 0x4, align 0x4)
+	float32 m_flMaxHealth(offset 0x6c, size 0x4, align 0x4)
+	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIParticleSystemDefinition > > m_sAttackParticleEffect(offset 0x70, size 0xe0, align 0x8)
+	CUtlString m_sAttackImpactSound(offset 0x150, size 0x8, align 0x8)
+	CUtlVector< CMatch3OpponentActionInstanceDefinition > m_vecIntroActions(offset 0x158, size 0x18, align 0x8)
+	CUtlVector< CMatch3OpponentActionInstanceDefinition > m_vecRepeatingActions(offset 0x170, size 0x18, align 0x8)
+	CUtlVector< CMatch3OpponentActionInstanceDefinition > m_vecOutroActions(offset 0x188, size 0x18, align 0x8)
+

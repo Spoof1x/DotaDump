@@ -1,0 +1,56 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_Inflow_GraphHook (size: 0x78 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x4925e60, scope "client.dll") extends CPulseCell_Inflow_BaseEntrypoint
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: client.dll + 0x2b3cd40"
+^MCellForDomain "BaseDomain"
+^MPulseCellMethodBindings "ptr: client.dll + 0x49272d0"
+^MPulseCellOutflowHookInfo "ptr: client.dll + 0x4e5f160"
+^MPulseCellWithCustomDocNode
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_Inflow_BaseEntrypoint (size: 0x70 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x4925ac0, scope "client.dll") extends CPulseCell_BaseFlow
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: client.dll + 0x2b3c4c0"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseFlow (size: 0x48 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x4925960, scope "client.dll") extends CPulseCell_Base
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: client.dll + 0x2b3c1b0"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_Base (size: 0x48 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x4926dd0, scope "client.dll")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: client.dll + 0x2b3c090"
+			
+			-----members of class CPulseCell_Base-----
+				uint8_t[8] unaccounted(offset 0x0)
+				PulseDocNodeID_t m_nEditorNodeID(offset 0x8, size 0x4, align 0x0)
+					^MFgdFromSchemaCompletelySkipField
+				uint8_t[60] unaccounted(offset 0xc)
+			
+		
+		-----members of class CPulseCell_BaseFlow-----
+			<no members>
+		
+	
+	-----members of class CPulseCell_Inflow_BaseEntrypoint-----
+		PulseRuntimeChunkIndex_t m_EntryChunk(offset 0x48, size 0x4, align 0x0)
+		uint8_t[4] unaccounted(offset 0x4c)
+		PulseRegisterMap_t m_RegisterMap(offset 0x50, size 0x20, align 0x8)
+	
+
+-----members of class CPulseCell_Inflow_GraphHook-----
+	CUtlSymbolLarge m_HookName(offset 0x70, size 0x8, align 0x8)
+

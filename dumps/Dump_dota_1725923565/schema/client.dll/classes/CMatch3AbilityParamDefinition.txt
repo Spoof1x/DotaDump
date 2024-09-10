@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMatch3AbilityParamDefinition (size: 0x100 bytes, project "client", binding @ client.dll + 0x48df2a0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x215b770"
+
+-----members of class CMatch3AbilityParamDefinition-----
+	CUtlString name(offset 0x0, size 0x8, align 0x8)
+	float32 value(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlString str(offset 0x10, size 0x8, align 0x8)
+	CResourceName resource(offset 0x18, size 0xe0, align 0x8)
+	CUtlString desc(offset 0xf8, size 0x8, align 0x8)
+

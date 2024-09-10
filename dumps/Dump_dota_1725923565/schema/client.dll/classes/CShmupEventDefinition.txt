@@ -1,0 +1,18 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CShmupEventDefinition (size: 0x40 bytes, project "client", binding @ client.dll + 0x48e3550, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x21cfde0"
+^MVDataRoot
+
+-----members of class CShmupEventDefinition-----
+	uint8_t[8] unaccounted(offset 0x0)
+	EShmupEventType m_type(offset 0x8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlVector< CShmupEventEnemySpawn > m_vecEnemySpawns(offset 0x10, size 0x18, align 0x8)
+		^MPropertySuppressExpr "m_type != k_eShmupEventType_SpawnEnemy"
+	CUtlString m_strPathName(offset 0x28, size 0x8, align 0x8)
+		^MPropertySuppressExpr "m_type != k_eShmupEventType_SpawnEnemy"
+	CUtlString m_strUIEvent(offset 0x30, size 0x8, align 0x8)
+		^MPropertySuppressExpr "m_type != k_eShmupEventType_UI"
+	uint8_t[8] unaccounted(offset 0x38)
+
