@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABattleReportHighlightTier_t (size: 0x20 bytes, project "client", binding @ client.dll + 0x488ad20, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x15b72e0"
+^MPropertyAutoExpandSelf
+
+-----members of class CDOTABattleReportHighlightTier_t-----
+	CMsgBattleReport_HighlightTier m_eTier(offset 0x0, size 0x4, align 0x4)
+		^MPropertyDescription "Tier of the Reward"
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlVector< CDOTABattleReportHighlightCompareContext_t > m_vecCompareContexts(offset 0x8, size 0x18, align 0x8)
+		^MPropertyDescription "Compare Contexts to Achieve Tier"
+		^MPropertyAutoExpandSelf
+

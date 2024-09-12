@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulse_BlackboardReference (size: 0xf8 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x4929a10, scope "client.dll")
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x2b6a920"
+
+-----members of class CPulse_BlackboardReference-----
+	CResourceNameTyped< CWeakHandle< InfoForResourceTypeIPulseGraphDef > > m_hBlackboardResource(offset 0x0, size 0xe0, align 0x8)
+	CUtlSymbolLarge m_BlackboardResource(offset 0xe0, size 0x8, align 0x8)
+	PulseDocNodeID_t m_nNodeID(offset 0xe8, size 0x4, align 0x0)
+	uint8_t[4] unaccounted(offset 0xec)
+	CGlobalSymbol m_NodeName(offset 0xf0, size 0x8, align 0x8)
+

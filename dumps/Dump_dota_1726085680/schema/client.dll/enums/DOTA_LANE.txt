@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTA_LANE(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x4825c90):
+	DOTA_LANE_NONE = 0,
+	DOTA_LANE_TOP = 1,
+	DOTA_LANE_MIDDLE = 2,
+	DOTA_LANE_BOTTOM = 3,
+	DOTA_LANE_MAX = 4,

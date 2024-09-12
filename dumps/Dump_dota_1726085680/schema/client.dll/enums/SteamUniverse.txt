@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum SteamUniverse(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x48cd950):
+	Invalid = 0,
+	Internal = 3,
+	Dev = 4,
+	Beta = 2,
+	Public = 1,

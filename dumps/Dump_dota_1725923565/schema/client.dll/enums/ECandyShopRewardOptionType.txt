@@ -1,8 +1,0 @@
-|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
-enum ECandyShopRewardOptionType(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x488a480):
-	k_eCandyShopRewardOptionType_Invalid = -1,
-		^MPropertySuppressEnumerator
-	k_eCandyShopRewardOptionType_SingleItem = 0,
-	k_eCandyShopRewardOptionType_LootList = 1,
-	k_eCandyShopRewardOptionType_SingleEventAction = 2,
-	k_eCandyShopRewardOptionType_EventPoints = 3,

@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTAOverworldCharacterBase (size: 0x28 bytes, project "client", binding @ client.dll + 0x4898b10, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x17847f0"
+^MVDataRoot
+
+-----members of class CDOTAOverworldCharacterBase-----
+	CPanoramaImageName m_sImage(offset 0x0, size 0x10, align 0x8)
+	CUtlString m_sClassName(offset 0x10, size 0x8, align 0x8)
+	Vector2D m_vSize(offset 0x18, size 0x8, align 0x4)
+	uint16 m_unFrameWidth(offset 0x20, size 0x2, align 0x2)
+	uint16 m_unFrameTime(offset 0x22, size 0x2, align 0x2)
+	uint8_t[4] unaccounted(offset 0x24)
+

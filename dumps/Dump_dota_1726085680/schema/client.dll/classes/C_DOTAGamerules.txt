@@ -1,0 +1,665 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_DOTAGamerules (size: 0xab98 bytes, project "client", binding @ client.dll + 0x48147a0, scope "client.dll") extends C_MultiplayRules
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+^MNetworkVarNames "m_nRuneCycle int"
+^MNetworkReplayCompatField "m_fGameTime OnGameTimeChangedCompat"
+^MNetworkVarNames "m_iMiscHeroPickCounter int"
+^MNetworkVarNames "m_hEndGameCinematicEntity CHandle< CBaseEntity>"
+^MNetworkVarNames "m_hOverlayHealthBarUnit CHandle< CDOTA_BaseNPC>"
+^MNetworkVarNames "m_nOverlayHealthBarType int"
+^MNetworkVarNames "m_bIsInCinematicMode bool"
+^MNetworkVarNames "m_bFreeCourierMode bool"
+^MNetworkVarNames "m_unFanfareGoodGuys uint32"
+^MNetworkVarNames "m_unFanfareBadGuys uint32"
+^MNetworkVarNames "m_nServerGameState int"
+^MNetworkVarNames "m_nServerHeroPickState DOTA_HeroPickState"
+^MNetworkVarNames "m_bAlternateHeroGridsEnabled bool"
+^MNetworkVarNames "m_flStateTransitionTime GameTime_t"
+^MNetworkVarNames "m_flOverride_dota_hero_selection_time float"
+^MNetworkVarNames "m_flOverride_dota_pregame_time float"
+^MNetworkVarNames "m_flOverride_dota_postgame_time float"
+^MNetworkVarNames "m_flOverride_dota_strategy_time float"
+^MNetworkVarNames "m_flOverride_dota_team_showcase_duration float"
+^MNetworkVarNames "m_flOverride_dota_rune_spawn_time float"
+^MNetworkVarNames "m_flShowcaseTime float"
+^MNetworkVarNames "m_flNeutralInitialSpawnOffset float"
+^MNetworkVarNames "m_iGameMode int"
+^MNetworkVarNames "m_hGameModeEntity CHandle< CBaseEntity>"
+^MNetworkVarNames "m_hCustomHeroPickRulesEntity CHandle< CBaseEntity>"
+^MNetworkVarNames "m_flHeroPickStateTransitionTime GameTime_t"
+^MNetworkVarNames "m_iPlayerIDsInControl uint64"
+^MNetworkVarNames "m_bSameHeroSelectionEnabled bool"
+^MNetworkVarNames "m_bUseCustomHeroXPValue bool"
+^MNetworkVarNames "m_bUseBaseGoldBountyOnHeroes bool"
+^MNetworkVarNames "m_bUseUniversalShopMode bool"
+^MNetworkVarNames "m_bHideKillMessageHeaders bool"
+^MNetworkVarNames "m_flHeroMinimapIconScale float"
+^MNetworkVarNames "m_flCreepMinimapIconScale float"
+^MNetworkVarNames "m_bCreepSpawningEnabled bool"
+^MNetworkVarNames "m_flRuneMinimapIconScale float"
+^MNetworkVarNames "m_CustomVictoryMessage char"
+^MNetworkVarNames "m_flCustomGameEndDelay float"
+^MNetworkVarNames "m_flCustomGameSetupAutoLaunchDelay float"
+^MNetworkVarNames "m_flCustomGameSetupTimeout float"
+^MNetworkVarNames "m_flCustomVictoryMessageDuration float"
+^MNetworkVarNames "m_flHeroSelectPenaltyTime float"
+^MNetworkVarNames "m_bCustomGameSetupAutoLaunchEnabled bool"
+^MNetworkVarNames "m_bCustomGameTeamSelectionLocked bool"
+^MNetworkVarNames "m_bCustomGameEnablePickRules bool"
+^MNetworkVarNames "m_bCustomGameAllowHeroPickMusic bool"
+^MNetworkVarNames "m_bCustomGameAllowMusicAtGameStart bool"
+^MNetworkVarNames "m_bCustomGameAllowBattleMusic bool"
+^MNetworkVarNames "m_bCustomGameDisableIK bool"
+^MNetworkVarNames "m_bCustomGameAllowSecondaryAbilitiesOnOtherUnits bool"
+^MNetworkVarNames "m_iCMModePickBanOrder int"
+^MNetworkVarNames "m_iCDModePickBanOrder int"
+^MNetworkVarNames "m_nGGTeam int"
+^MNetworkVarNames "m_flGGEndsAtTime GameTime_t"
+^MNetworkVarNames "m_bGGCalled bool"
+^MNetworkVarNames "m_bWhiteListEnabled bool"
+^MNetworkVarNames "m_bItemWhiteList uint64"
+^MNetworkVarNames "m_nLastHitUIMode int"
+^MNetworkVarNames "m_bHUDTimerTutorialMode bool"
+^MNetworkVarNames "m_fExtraTimeRemaining float"
+^MNetworkVarNames "m_bHeroRespawnEnabled bool"
+^MNetworkVarNames "m_bIsRandomingEnabled bool"
+^MNetworkVarNames "m_iCaptainPlayerIDs PlayerID_t"
+^MNetworkVarNames "m_BannedHeroes HeroID_t"
+^MNetworkVarNames "m_SelectedHeroes HeroID_t"
+^MNetworkVarNames "m_iActiveTeam int"
+^MNetworkVarNames "m_iStartingTeam int"
+^MNetworkVarNames "m_iPenaltyLevelRadiant int"
+^MNetworkVarNames "m_iPenaltyLevelDire int"
+^MNetworkVarNames "m_bIsLoadingScenario bool"
+^MNetworkVarNames "m_vecNewBannedHeroes HeroID_t"
+^MNetworkVarNames "m_vecWhitelistedHeroes HeroID_t"
+^MNetworkVarNames "m_vecBlacklistedHeroes HeroID_t"
+^MNetworkVarNames "m_bHideBlacklistedHeroes bool"
+^MNetworkVarNames "m_nSeriesType int"
+^MNetworkVarNames "m_nRadiantSeriesWins int"
+^MNetworkVarNames "m_nDireSeriesWins int"
+^MNetworkVarNames "m_vecAvailableHerosPerPlayerID CHeroesPerPlayer"
+^MNetworkVarNames "m_vecLockedHerosByPlayerID CHeroesPerPlayer"
+^MNetworkVarNames "m_vecDisabledRandomHerosByPlayerID CHeroesPerPlayer"
+^MNetworkVarNames "m_iGoodTomeCount int"
+^MNetworkVarNames "m_iBadTomeCount int"
+^MNetworkVarNames "m_flPreGameStartTime GameTime_t"
+^MNetworkVarNames "m_flGameStartTime GameTime_t"
+^MNetworkVarNames "m_flGameEndTime GameTime_t"
+^MNetworkVarNames "m_flGameLoadTime float"
+^MNetworkVarNames "m_iCustomGameScore int"
+^MNetworkVarNames "m_nCustomGameDifficulty int"
+^MNetworkVarNames "m_fGoodGlyphCooldown GameTime_t"
+^MNetworkVarNames "m_fBadGlyphCooldown GameTime_t"
+^MNetworkVarNames "m_flGlyphCooldowns GameTime_t"
+^MNetworkVarNames "m_fGoodRadarCooldown GameTime_t"
+^MNetworkVarNames "m_fBadRadarCooldown GameTime_t"
+^MNetworkVarNames "m_flRadarCooldowns GameTime_t"
+^MNetworkVarNames "m_iGoodRadarCharges int"
+^MNetworkVarNames "m_iBadRadarCharges int"
+^MNetworkVarNames "m_iRadarCharges int"
+^MNetworkVarNames "m_flOutpostTimes float"
+^MNetworkVarNames "m_bIsNightstalkerNight bool"
+^MNetworkVarNames "m_bIsTemporaryNight bool"
+^MNetworkVarNames "m_bIsTemporaryDay bool"
+^MNetworkVarNames "m_nRiverType int"
+^MNetworkVarNames "m_nTeamFeaturedPlayerID PlayerID_t"
+^MNetworkVarNames "m_nTeamVersusScreen item_definition_index_t"
+^MNetworkVarNames "m_vecItemStockInfo CDOTA_ItemStockInfo"
+^MNetworkVarNames "m_AssassinMiniGameNetData DOTA_AssassinMinigameNetworkState"
+^MNetworkVarNames "m_nGameWinner int"
+^MNetworkVarNames "m_unMatchID64 MatchID_t"
+^MNetworkVarNames "m_bMatchSignoutComplete bool"
+^MNetworkVarNames "m_hSideShop1 CHandle< CBaseEntity>"
+^MNetworkVarNames "m_hSideShop2 CHandle< CBaseEntity>"
+^MNetworkVarNames "m_hSecretShop1 CHandle< CBaseEntity>"
+^MNetworkVarNames "m_hSecretShop2 CHandle< CBaseEntity>"
+^MNetworkVarNames "m_hTeamFountains EHANDLE"
+^MNetworkVarNames "m_hTeamForts EHANDLE"
+^MNetworkVarNames "m_hTeamShops EHANDLE"
+^MNetworkVarNames "m_hAnnouncerGood CHandle< CBaseEntity>"
+^MNetworkVarNames "m_hAnnouncerBad CHandle< CBaseEntity>"
+^MNetworkVarNames "m_hAnnouncerSpectator CHandle< CBaseEntity>"
+^MNetworkVarNames "m_hAnnouncerGood_KillingSpree CHandle< CBaseEntity>"
+^MNetworkVarNames "m_hAnnouncerBad_KillingSpree CHandle< CBaseEntity>"
+^MNetworkVarNames "m_hAnnouncerSpectator_KillingSpree CHandle< CBaseEntity>"
+^MNetworkVarNames "m_arrTier1TowerDestroyed bool"
+^MNetworkVarNames "m_arrTier2TowerDestroyed bool"
+^MNetworkVarNames "m_arrTier3TowerDestroyed bool"
+^MNetworkVarNames "m_arrMeleeBarracksDestroyed bool"
+^MNetworkVarNames "m_bTier1TowerDestroyed bool"
+^MNetworkVarNames "m_bTier2TowerDestroyed bool"
+^MNetworkVarNames "m_bTier3TowerDestroyed bool"
+^MNetworkVarNames "m_bMeleeBarracksDestroyed bool"
+^MNetworkVarNames "m_iNetTimeOfDay int"
+^MNetworkVarNames "m_flDaytimeStart float"
+^MNetworkVarNames "m_flNighttimeStart float"
+^MNetworkVarNames "m_nLoadedPlayers int"
+^MNetworkVarNames "m_nExpectedPlayers int"
+^MNetworkVarNames "m_iMinimapDebugGridState int"
+^MNetworkVarNames "m_iFoWFrameNumber int"
+^MNetworkVarNames "m_vWeatherWindDirection Vector"
+^MNetworkVarNames "m_vecRequiredPlaytestHeroesStorage HeroID_t"
+^MNetworkVarNames "m_vecRecommendedPlaytestHeroesStorage HeroID_t"
+^MNetworkVarNames "m_bAllRequiredPlaytestHeroesPicked bool"
+^MNetworkVarNames "m_nLastPlaytestPickPhase int"
+^MNetworkVarNames "m_BotDebugPushLane byte"
+^MNetworkVarNames "m_BotDebugDefendLane byte"
+^MNetworkVarNames "m_BotDebugFarmLane byte"
+^MNetworkVarNames "m_BotDebugRoam byte"
+^MNetworkVarNames "m_hBotDebugRoamTarget EHANDLE"
+^MNetworkVarNames "m_BotDebugRoshan byte"
+^MNetworkVarNames "m_nRoshanRespawnPhase ERoshanSpawnPhase"
+^MNetworkVarNames "m_flRoshanRespawnPhaseEndTime GameTime_t"
+^MNetworkVarNames "m_AbilityDraftAbilities CDOTA_AbilityDraftAbilityState"
+^MNetworkVarNames "m_bAbilityDraftCurrentPlayerHasPicked bool"
+^MNetworkVarNames "m_nAbilityDraftPlayerTracker int"
+^MNetworkVarNames "m_nAbilityDraftRoundNumber int"
+^MNetworkVarNames "m_nAbilityDraftAdvanceSteps int"
+^MNetworkVarNames "m_nAbilityDraftPhase int"
+^MNetworkVarNames "m_bIsPlayerDraft bool"
+^MNetworkVarNames "m_ePlayerDraftState DOTA_PlayerDraftState"
+^MNetworkVarNames "m_vecPlayerDraftPickOrder uint8"
+^MNetworkVarNames "m_nPlayerDraftPick int"
+^MNetworkVarNames "m_nPlayerDraftActiveTeam int"
+^MNetworkVarNames "m_flPlayerDraftTimeBank float"
+^MNetworkVarNames "m_nAllDraftPhase int"
+^MNetworkVarNames "m_bAllDraftRadiantFirst bool"
+^MNetworkVarNames "m_bAllowOverrideVPK bool"
+^MNetworkVarNames "m_nARDMHeroesRemaining int"
+^MNetworkVarNames "m_bExperimentalGameplay bool"
+^MNetworkVarNames "m_lobbyType uint32"
+^MNetworkVarNames "m_lobbyLeagueID LeagueID_t"
+^MNetworkVarNames "m_lobbyGameName char"
+^MNetworkVarNames "m_vecHeroStatueLiked CHeroStatueLiked"
+^MNetworkVarNames "m_CustomGameTeamMaxPlayers int"
+^MNetworkVarNames "m_iMutations int"
+^MNetworkVarNames "m_vecIngameEvents CHandle<CIngameEvent_Base>"
+^MNetworkVarNames "m_nPrimaryIngameEventIndex int8"
+^MNetworkVarNames "m_bOfrendaEnabled bool"
+^MNetworkVarNames "m_NeutralSpawnBoxes NeutralSpawnBoxes_t"
+^MNetworkVarNames "m_RegionTriggerBoxes RegionTriggerBoxes_t"
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class C_MultiplayRules (size: 0x40 bytes, project "client", binding @ client.dll + 0x46b7bd0, scope "client.dll") extends C_GameRules
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class C_GameRules (size: 0x40 bytes, project "client", binding @ client.dll + 0x46b7990, scope "client.dll")
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_IS_ABSTRACT
+		| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+		| SCHEMA_CF1_INFO_TAG_MNetworkAssumeNotNetworkable
+		^MNetworkVarNames "m_nTotalPausedTicks int"
+		^MNetworkVarNames "m_nPauseStartTick int"
+		^MNetworkVarNames "m_bGamePaused bool"
+		
+		-----members of class C_GameRules-----
+			uint8_t[8] unaccounted(offset 0x0)
+			CNetworkVarChainer __m_pChainEntity(offset 0x8, size 0x28, align 0x0)
+				^MNetworkDisable
+				^MNetworkChangeAccessorFieldPathIndex
+			int32 m_nTotalPausedTicks(offset 0x30, size 0x4, align 0x4)
+				^MNetworkEnable
+			int32 m_nPauseStartTick(offset 0x34, size 0x4, align 0x4)
+				^MNetworkEnable
+			bool m_bGamePaused(offset 0x38, size 0x1, align 0x1)
+				^MNetworkEnable
+			uint8_t[7] unaccounted(offset 0x39)
+		
+	
+	-----members of class C_MultiplayRules-----
+		<no members>
+	
+
+-----members of class C_DOTAGamerules-----
+	int32 m_nRuneCycle(offset 0x40, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iMiscHeroPickCounter(offset 0x44, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hEndGameCinematicEntity(offset 0x48, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_DOTA_BaseNPC > m_hOverlayHealthBarUnit(offset 0x4c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nOverlayHealthBarType(offset 0x50, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bIsInCinematicMode(offset 0x54, size 0x1, align 0x1)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnCinematicModeChanged"
+	bool m_bIsInClientSideCinematicMode(offset 0x55, size 0x1, align 0x1)
+	bool m_bFreeCourierMode(offset 0x56, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[1] unaccounted(offset 0x57)
+	int32 m_nStartingGold(offset 0x58, size 0x4, align 0x4)
+	int32 m_nGoldPerTick(offset 0x5c, size 0x4, align 0x4)
+	float32 m_flGoldTickTime(offset 0x60, size 0x4, align 0x4)
+	bool m_bItemWhiteListChanged(offset 0x64, size 0x1, align 0x1)
+	bool m_bEnableSuggestAbilities(offset 0x65, size 0x1, align 0x1)
+	bool m_bEnableSuggestItems(offset 0x66, size 0x1, align 0x1)
+	uint8_t[1] unaccounted(offset 0x67)
+	uint32 m_unFanfareGoodGuys(offset 0x68, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint32 m_unFanfareBadGuys(offset 0x6c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iMapType(offset 0x70, size 0x4, align 0x4)
+	int32 m_nServerGameState(offset 0x74, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkAlias "m_nGameState"
+	DOTA_HeroPickState m_nServerHeroPickState(offset 0x78, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkAlias "m_nHeroPickState"
+	int32 m_nGameState(offset 0x7c, size 0x4, align 0x4)
+	DOTA_HeroPickState m_nHeroPickState(offset 0x80, size 0x4, align 0x4)
+	bool m_bAlternateHeroGridsEnabled(offset 0x84, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x85)
+	GameTime_t m_flStateTransitionTime(offset 0x88, size 0x4, align 0x0)
+		^MNetworkEnable
+	float32 m_flOverride_dota_hero_selection_time(offset 0x8c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flOverride_dota_pregame_time(offset 0x90, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flOverride_dota_postgame_time(offset 0x94, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flOverride_dota_strategy_time(offset 0x98, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flOverride_dota_team_showcase_duration(offset 0x9c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flOverride_dota_rune_spawn_time(offset 0xa0, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32[15] m_flShowcaseTime(offset 0xa4, size 0x3c, align 0x4)
+		^MNetworkEnable
+	float32 m_flNeutralInitialSpawnOffset(offset 0xe0, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iGameMode(offset 0xe4, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hGameModeEntity(offset 0xe8, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnGameModeEntityChanged"
+	CHandle< C_BaseEntity > m_hCustomHeroPickRulesEntity(offset 0xec, size 0x4, align 0x4)
+		^MNetworkEnable
+	GameTime_t m_flHeroPickStateTransitionTime(offset 0xf0, size 0x4, align 0x0)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0xf4)
+	uint64 m_iPlayerIDsInControl(offset 0xf8, size 0x8, align 0x8)
+		^MNetworkEnable
+		^MNetworkEncoder "fixed64"
+	bool m_bSameHeroSelectionEnabled(offset 0x100, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bUseCustomHeroXPValue(offset 0x101, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bUseBaseGoldBountyOnHeroes(offset 0x102, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bUseUniversalShopMode(offset 0x103, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bHideKillMessageHeaders(offset 0x104, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x105)
+	float32 m_flHeroMinimapIconScale(offset 0x108, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flCreepMinimapIconScale(offset 0x10c, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bCreepSpawningEnabled(offset 0x110, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x111)
+	float32 m_flRuneMinimapIconScale(offset 0x114, size 0x4, align 0x4)
+		^MNetworkEnable
+	char[256] m_CustomVictoryMessage(offset 0x118, size 0x100, align 0x1)
+		^MNetworkEnable
+	float32 m_flCustomGameEndDelay(offset 0x218, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flCustomGameSetupAutoLaunchDelay(offset 0x21c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flCustomGameSetupTimeout(offset 0x220, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flCustomVictoryMessageDuration(offset 0x224, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flHeroSelectPenaltyTime(offset 0x228, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bCustomGameSetupAutoLaunchEnabled(offset 0x22c, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bCustomGameTeamSelectionLocked(offset 0x22d, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bCustomGameEnablePickRules(offset 0x22e, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bCustomGameAllowHeroPickMusic(offset 0x22f, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bCustomGameAllowMusicAtGameStart(offset 0x230, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bCustomGameAllowBattleMusic(offset 0x231, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bCustomGameDisableIK(offset 0x232, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bCustomGameAllowSecondaryAbilitiesOnOtherUnits(offset 0x233, size 0x1, align 0x1)
+		^MNetworkEnable
+	int32 m_iCMModePickBanOrder(offset 0x234, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iCDModePickBanOrder(offset 0x238, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nGGTeam(offset 0x23c, size 0x4, align 0x4)
+		^MNetworkEnable
+	GameTime_t m_flGGEndsAtTime(offset 0x240, size 0x4, align 0x0)
+		^MNetworkEnable
+	bool m_bGGCalled(offset 0x244, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bWhiteListEnabled(offset 0x245, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0x246)
+	uint64[4] m_bItemWhiteList(offset 0x248, size 0x20, align 0x8)
+		^MNetworkEnable
+		^MNetworkEncoder "fixed64"
+		^MNetworkChangeCallback "OnWhitelistChanged"
+	int32 m_nLastHitUIMode(offset 0x268, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bHUDTimerTutorialMode(offset 0x26c, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x26d)
+	CountdownTimer m_HeroPickMiscTimer(offset 0x270, size 0x18, align 0x0)
+	CountdownTimer m_ExtraTimeTimer(offset 0x288, size 0x18, align 0x0)
+	float32[2] m_fExtraTimeRemaining(offset 0x2a0, size 0x8, align 0x4)
+		^MNetworkEnable
+	bool m_bHeroRespawnEnabled(offset 0x2a8, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bIsRandomingEnabled(offset 0x2a9, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0x2aa)
+	PlayerID_t[2] m_iCaptainPlayerIDs(offset 0x2ac, size 0x8, align 0x4)
+		^MNetworkEnable
+	HeroID_t[24] m_BannedHeroes(offset 0x2b4, size 0x60, align 0x4)
+		^MNetworkEnable
+	HeroID_t[24] m_SelectedHeroes(offset 0x314, size 0x60, align 0x4)
+		^MNetworkEnable
+	int32 m_iActiveTeam(offset 0x374, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iStartingTeam(offset 0x378, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iPenaltyLevelRadiant(offset 0x37c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iPenaltyLevelDire(offset 0x380, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bIsLoadingScenario(offset 0x384, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x385)
+	C_NetworkUtlVectorBase< HeroID_t > m_vecNewBannedHeroes(offset 0x388, size 0x18, align 0x8)
+		^MNetworkEnable
+	C_NetworkUtlVectorBase< HeroID_t > m_vecWhitelistedHeroes(offset 0x3a0, size 0x18, align 0x8)
+		^MNetworkEnable
+	C_NetworkUtlVectorBase< HeroID_t > m_vecBlacklistedHeroes(offset 0x3b8, size 0x18, align 0x8)
+		^MNetworkEnable
+	bool m_bHideBlacklistedHeroes(offset 0x3d0, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x3d1)
+	int32 m_nSeriesType(offset 0x3d4, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nRadiantSeriesWins(offset 0x3d8, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nDireSeriesWins(offset 0x3dc, size 0x4, align 0x4)
+		^MNetworkEnable
+	C_UtlVectorEmbeddedNetworkVar< CHeroesPerPlayer > m_vecAvailableHerosPerPlayerID(offset 0x3e0, size 0x50, align 0x8)
+		^MNetworkEnable
+	C_UtlVectorEmbeddedNetworkVar< CHeroesPerPlayer > m_vecLockedHerosByPlayerID(offset 0x430, size 0x50, align 0x8)
+		^MNetworkEnable
+	C_UtlVectorEmbeddedNetworkVar< CHeroesPerPlayer > m_vecDisabledRandomHerosByPlayerID(offset 0x480, size 0x50, align 0x8)
+		^MNetworkEnable
+	HeroID_t[24] m_CustomGameForceSelectHero(offset 0x4d0, size 0x60, align 0x4)
+	float32 m_flGoldTime(offset 0x530, size 0x4, align 0x4)
+	float32 m_flXPTime(offset 0x534, size 0x4, align 0x4)
+	GameTime_t m_flCreepSpawntime(offset 0x538, size 0x4, align 0x0)
+	float32 m_flAnnounceStartTime(offset 0x53c, size 0x4, align 0x4)
+	int32 m_iGoodTomeCount(offset 0x540, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iBadTomeCount(offset 0x544, size 0x4, align 0x4)
+		^MNetworkEnable
+	GameTime_t m_flPreGameStartTime(offset 0x548, size 0x4, align 0x0)
+		^MNetworkEnable
+	GameTime_t m_flGameStartTime(offset 0x54c, size 0x4, align 0x0)
+		^MNetworkEnable
+	GameTime_t m_flGameEndTime(offset 0x550, size 0x4, align 0x0)
+		^MNetworkEnable
+	float32 m_flGameLoadTime(offset 0x554, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32[2] m_iCustomGameScore(offset 0x558, size 0x8, align 0x4)
+		^MNetworkEnable
+	int32 m_nCustomGameDifficulty(offset 0x560, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bEnemyModifiersEnabled(offset 0x564, size 0x1, align 0x1)
+	uint8_t[3] unaccounted(offset 0x565)
+	int32 m_iWaves(offset 0x568, size 0x4, align 0x4)
+	int32 m_iCreepUpgradeState(offset 0x56c, size 0x4, align 0x4)
+	GameTime_t m_fGoodGlyphCooldown(offset 0x570, size 0x4, align 0x0)
+		^MNetworkEnable
+	GameTime_t m_fBadGlyphCooldown(offset 0x574, size 0x4, align 0x0)
+		^MNetworkEnable
+	GameTime_t[15] m_flGlyphCooldowns(offset 0x578, size 0x3c, align 0x4)
+		^MNetworkEnable
+	GameTime_t m_fGoodRadarCooldown(offset 0x5b4, size 0x4, align 0x0)
+		^MNetworkEnable
+	GameTime_t m_fBadRadarCooldown(offset 0x5b8, size 0x4, align 0x0)
+		^MNetworkEnable
+	GameTime_t[15] m_flRadarCooldowns(offset 0x5bc, size 0x3c, align 0x4)
+		^MNetworkEnable
+	int32 m_iGoodRadarCharges(offset 0x5f8, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_iBadRadarCharges(offset 0x5fc, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32[15] m_iRadarCharges(offset 0x600, size 0x3c, align 0x4)
+		^MNetworkEnable
+	float32[24] m_flOutpostTimes(offset 0x63c, size 0x60, align 0x4)
+		^MNetworkEnable
+	bool m_bIsNightstalkerNight(offset 0x69c, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bIsTemporaryNight(offset 0x69d, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bIsTemporaryDay(offset 0x69e, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[1] unaccounted(offset 0x69f)
+	int32 m_nRiverType(offset 0x6a0, size 0x4, align 0x4)
+		^MNetworkEnable
+	PlayerID_t[15] m_nTeamFeaturedPlayerID(offset 0x6a4, size 0x3c, align 0x4)
+		^MNetworkEnable
+	item_definition_index_t[15] m_nTeamVersusScreen(offset 0x6e0, size 0x3c, align 0x4)
+		^MNetworkEnable
+	float32 m_flGoldRedistributeTime(offset 0x71c, size 0x4, align 0x4)
+	int32[2] m_nGoldToRedistribute(offset 0x720, size 0x8, align 0x4)
+	GameTime_t m_flNextPreGameThink(offset 0x728, size 0x4, align 0x0)
+	GameTime_t m_flNextAllDraftGoldThink(offset 0x72c, size 0x4, align 0x0)
+	float64 m_flTimeEnteredState(offset 0x730, size 0x8, align 0x8)
+	uint32 m_unRiverAccountID(offset 0x738, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x73c)
+	itemid_t m_ulRiverItemID(offset 0x740, size 0x8, align 0x0)
+	uint8_t[64] unaccounted(offset 0x748)
+	C_UtlVectorEmbeddedNetworkVar< CDOTA_ItemStockInfo > m_vecItemStockInfo(offset 0x788, size 0x50, align 0x8)
+		^MNetworkEnable
+	DOTA_AssassinMinigameNetworkState m_AssassinMiniGameNetData(offset 0x7d8, size 0x10, align 0x0)
+		^MNetworkEnable
+	int32 m_nGameWinner(offset 0x7e8, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x7ec)
+	MatchID_t m_unMatchID64(offset 0x7f0, size 0x8, align 0x0)
+		^MNetworkEnable
+	bool m_bMatchSignoutComplete(offset 0x7f8, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x7f9)
+	CHandle< C_BaseEntity > m_hSideShop1(offset 0x7fc, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hSideShop2(offset 0x800, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hSecretShop1(offset 0x804, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hSecretShop2(offset 0x808, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity >[15] m_hTeamFountains(offset 0x80c, size 0x3c, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity >[15] m_hTeamForts(offset 0x848, size 0x3c, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity >[15] m_hTeamShops(offset 0x884, size 0x3c, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hAnnouncerGood(offset 0x8c0, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hAnnouncerBad(offset 0x8c4, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hAnnouncerSpectator(offset 0x8c8, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hAnnouncerGood_KillingSpree(offset 0x8cc, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hAnnouncerBad_KillingSpree(offset 0x8d0, size 0x4, align 0x4)
+		^MNetworkEnable
+	CHandle< C_BaseEntity > m_hAnnouncerSpectator_KillingSpree(offset 0x8d4, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool[15] m_arrTier1TowerDestroyed(offset 0x8d8, size 0xf, align 0x1)
+		^MNetworkEnable
+	bool[15] m_arrTier2TowerDestroyed(offset 0x8e7, size 0xf, align 0x1)
+		^MNetworkEnable
+	bool[15] m_arrTier3TowerDestroyed(offset 0x8f6, size 0xf, align 0x1)
+		^MNetworkEnable
+	bool[15] m_arrMeleeBarracksDestroyed(offset 0x905, size 0xf, align 0x1)
+		^MNetworkEnable
+	bool m_bTier1TowerDestroyed(offset 0x914, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bTier2TowerDestroyed(offset 0x915, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bTier3TowerDestroyed(offset 0x916, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bMeleeBarracksDestroyed(offset 0x917, size 0x1, align 0x1)
+		^MNetworkEnable
+	float32 m_fTimeOfDay(offset 0x918, size 0x4, align 0x4)
+	int32 m_iNetTimeOfDay(offset 0x91c, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkPriority "32"
+	float32 m_flDaytimeStart(offset 0x920, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flNighttimeStart(offset 0x924, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nLoadedPlayers(offset 0x928, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nExpectedPlayers(offset 0x92c, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[8] unaccounted(offset 0x930)
+	int32 m_iMinimapDebugGridState(offset 0x938, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[124] unaccounted(offset 0x93c)
+	int32 m_iFoWFrameNumber(offset 0x9b8, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkPriority "32"
+	Vector m_vWeatherWindDirection(offset 0x9bc, size 0xc, align 0x4)
+		^MNetworkEnable
+	HeroID_t[24] m_vecRequiredPlaytestHeroesStorage(offset 0x9c8, size 0x60, align 0x4)
+		^MNetworkEnable
+	HeroID_t[24] m_vecRecommendedPlaytestHeroesStorage(offset 0xa28, size 0x60, align 0x4)
+		^MNetworkEnable
+	bool m_bAllRequiredPlaytestHeroesPicked(offset 0xa88, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0xa89)
+	int32 m_nLastPlaytestPickPhase(offset 0xa8c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nCustomGameFowTeamCount(offset 0xa90, size 0x4, align 0x4)
+	bool m_bUseAlternateABRules(offset 0xa94, size 0x1, align 0x1)
+	bool m_bLobbyIsAssociatedWithGame(offset 0xa95, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0xa96)
+	CountdownTimer m_BotDebugTimer(offset 0xa98, size 0x18, align 0x0)
+	uint8[18] m_BotDebugPushLane(offset 0xab0, size 0x12, align 0x1)
+		^MNetworkEnable
+		^MNetworkPriority "48"
+	uint8[18] m_BotDebugDefendLane(offset 0xac2, size 0x12, align 0x1)
+		^MNetworkEnable
+	uint8[6] m_BotDebugFarmLane(offset 0xad4, size 0x6, align 0x1)
+		^MNetworkEnable
+	uint8[8] m_BotDebugRoam(offset 0xada, size 0x8, align 0x1)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0xae2)
+	CHandle< C_BaseEntity >[2] m_hBotDebugRoamTarget(offset 0xae4, size 0x8, align 0x4)
+		^MNetworkEnable
+	uint8[2] m_BotDebugRoshan(offset 0xaec, size 0x2, align 0x1)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0xaee)
+	ERoshanSpawnPhase m_nRoshanRespawnPhase(offset 0xaf0, size 0x4, align 0x4)
+		^MNetworkEnable
+	GameTime_t m_flRoshanRespawnPhaseEndTime(offset 0xaf4, size 0x4, align 0x0)
+		^MNetworkEnable
+	C_UtlVectorEmbeddedNetworkVar< CDOTA_AbilityDraftAbilityState > m_AbilityDraftAbilities(offset 0xaf8, size 0x50, align 0x8)
+		^MNetworkEnable
+		^MNetworkTypeAlias "CDOTA_AbilityDraftAbilityState[MAX_ABILITY_DRAFT_ABILITIES]"
+	bool m_bAbilityDraftCurrentPlayerHasPicked(offset 0xb48, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0xb49)
+	int32 m_nAbilityDraftPlayerTracker(offset 0xb4c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nAbilityDraftRoundNumber(offset 0xb50, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nAbilityDraftAdvanceSteps(offset 0xb54, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nAbilityDraftPhase(offset 0xb58, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bIsPlayerDraft(offset 0xb5c, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0xb5d)
+	DOTA_PlayerDraftState m_ePlayerDraftState(offset 0xb60, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0xb64)
+	C_NetworkUtlVectorBase< uint8 > m_vecPlayerDraftPickOrder(offset 0xb68, size 0x18, align 0x8)
+		^MNetworkEnable
+	int32 m_nPlayerDraftPick(offset 0xb80, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nPlayerDraftActiveTeam(offset 0xb84, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32[2] m_flPlayerDraftTimeBank(offset 0xb88, size 0x8, align 0x4)
+		^MNetworkEnable
+	CUtlVector< KeyValues* >[2] m_vecARDMHeroes(offset 0xb90, size 0x30, align 0x8)
+	int32 m_nARDMHeroesPrecached(offset 0xbc0, size 0x4, align 0x4)
+	float32 m_fLastARDMPrecache(offset 0xbc4, size 0x4, align 0x4)
+	int32 m_nAllDraftPhase(offset 0xbc8, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bAllDraftRadiantFirst(offset 0xbcc, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bAllowOverrideVPK(offset 0xbcd, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0xbce)
+	int32[2] m_nARDMHeroesRemaining(offset 0xbd0, size 0x8, align 0x4)
+		^MNetworkEnable
+	bool m_bUpdateHeroStatues(offset 0xbd8, size 0x1, align 0x1)
+	uint8_t[23] unaccounted(offset 0xbd9)
+	bool m_bExperimentalGameplay(offset 0xbf0, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[71] unaccounted(offset 0xbf1)
+	uint32 m_lobbyType(offset 0xc38, size 0x4, align 0x4)
+		^MNetworkEnable
+	LeagueID_t m_lobbyLeagueID(offset 0xc3c, size 0x4, align 0x0)
+		^MNetworkEnable
+	char[256] m_lobbyGameName(offset 0xc40, size 0x100, align 0x1)
+		^MNetworkEnable
+	C_UtlVectorEmbeddedNetworkVar< CHeroStatueLiked > m_vecHeroStatueLiked(offset 0xd40, size 0x50, align 0x8)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnHeroStatueLiked"
+	int32[15] m_CustomGameTeamMaxPlayers(offset 0xd90, size 0x3c, align 0x4)
+		^MNetworkEnable
+	int32[5] m_iMutations(offset 0xdcc, size 0x14, align 0x4)
+		^MNetworkEnable
+	C_NetworkUtlVectorBase< CHandle< C_IngameEvent_Base > > m_vecIngameEvents(offset 0xde0, size 0x18, align 0x8)
+		^MNetworkEnable
+	int8 m_nPrimaryIngameEventIndex(offset 0xdf8, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0xdf9)
+	CHandle< C_IngameEvent_Base > m_hObsoleteIngameEvent(offset 0xdfc, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkChangeCallback "OnObsoleteIngameEventChanged"
+		^MNetworkAlias "m_hIngameEvent"
+	uint32 m_nOfrendaPledges(offset 0xe00, size 0x4, align 0x4)
+	uint32 m_nRadiantOfrendas(offset 0xe04, size 0x4, align 0x4)
+	uint32 m_nDireOfrendas(offset 0xe08, size 0x4, align 0x4)
+	bool m_bOfrendaEnabled(offset 0xe0c, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[51] unaccounted(offset 0xe0d)
+	C_NetworkUtlVectorBase< NeutralSpawnBoxes_t > m_NeutralSpawnBoxes(offset 0xe40, size 0x18, align 0x8)
+		^MNetworkEnable
+	C_NetworkUtlVectorBase< RegionTriggerBoxes_t > m_RegionTriggerBoxes(offset 0xe58, size 0x18, align 0x8)
+		^MNetworkEnable
+	uint8_t[4024] unaccounted(offset 0xe70)
+	float64 m_flLastPerfSampleTime(offset 0x1e28, size 0x8, align 0x8)
+	float64 m_flLastPerfSampleSendTime(offset 0x1e30, size 0x8, align 0x8)
+	bool m_bDidSeeStrategyTime(offset 0x1e38, size 0x1, align 0x1)
+	uint8_t[36183] unaccounted(offset 0x1e39)
+	float64 m_flLastUnfocusedSleepTime(offset 0xab90, size 0x8, align 0x8)
+

@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CShmupPathDefinition (size: 0x40 bytes, project "client", binding @ client.dll + 0x48e3180, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x21d7fe0"
+^MVDataRoot
+
+-----members of class CShmupPathDefinition-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlString m_strNameInMap(offset 0x8, size 0x8, align 0x8)
+		^MPropertyDescription "Name of the path entity in the map."
+	float32 m_flSpeed(offset 0x10, size 0x4, align 0x4)
+		^MPropertyDescription "Speed in units/second."
+	Vector m_vPathOffset(offset 0x14, size 0xc, align 0x4)
+	CUtlVector< CShmupPathEvent > m_vecPathEvents(offset 0x20, size 0x18, align 0x8)
+	uint8_t[8] unaccounted(offset 0x38)
+

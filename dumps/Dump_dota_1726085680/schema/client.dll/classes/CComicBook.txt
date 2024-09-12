@@ -1,0 +1,36 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CComicBook (size: 0xa8 bytes, project "client", binding @ client.dll + 0x48f5fc0, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x2701130"
+^MVDataRoot
+
+-----members of class CComicBook-----
+	int32 m_nId(offset 0x0, size 0x4, align 0x4)
+		^MPropertyDescription "ID of the comic book.  Must be unique.  Changing will disrupt graphs."
+	uint8_t[4] unaccounted(offset 0x4)
+	CUtlString m_Name(offset 0x8, size 0x8, align 0x8)
+		^MPropertyDescription "Name of the comic book.  Must be unique.  Changing will disrupt graphs."
+	CUtlString m_strNameToken(offset 0x10, size 0x8, align 0x8)
+		^MPropertyDescription "User facing name or localization token to the user facing name."
+	CPanoramaImageName m_CoverImage(offset 0x18, size 0x10, align 0x8)
+		^MPropertyDescription "Cover image to use. Likely starts with file://{images}/comics/..."
+	int32 m_nNumberOfImages(offset 0x28, size 0x4, align 0x4)
+		^MPropertyDescription "Number Of Images"
+	uint8_t[4] unaccounted(offset 0x2c)
+	CUtlString m_URLForImages(offset 0x30, size 0x8, align 0x8)
+		^MPropertyDescription "URL for images.  Supports %CDN% and %LANGUAGE% variables to be replaced at runtime."
+	int32 m_nNumDigitsInFilename(offset 0x38, size 0x4, align 0x4)
+		^MPropertyDescription "Num digits in filename.  Will be zero padded (i.e. 001, 002, 003, etc)"
+	uint8_t[4] unaccounted(offset 0x3c)
+	CUtlString m_ImageFileExtension(offset 0x40, size 0x8, align 0x8)
+		^MPropertyDescription "Image file extension."
+	CUtlVector< ELanguage > m_AllowedLanguages(offset 0x48, size 0x18, align 0x8)
+		^MPropertyDescription "Allowed languages for this comic book.  Anything not specified here will default to English."
+	CUtlOrderedMap< ELanguage, ELanguage > m_LanguageOverrideMap(offset 0x60, size 0x28, align 0x8)
+		^MPropertyDescription "Language mapping for overrides. This is used when we don't have content like tchinese but have schinese and want to map one to the other."
+	CUtlVector< int32 > m_StartPages(offset 0x88, size 0x18, align 0x8)
+		^MPropertyDescription "Indices of pages that are new pages to the user.  Useful if you have a series of images which are full screen but reveal new cells. If not specified, each page is a start page. Try setting the comic_viewer_popup_show_internal_page convar to help set this up."
+	int32 m_nCacheBustingVersion(offset 0xa0, size 0x4, align 0x4)
+		^MPropertyDescription "Cache version to use. Increment this number if the files on the CDN have changed but the URL has not."
+	uint8_t[4] unaccounted(offset 0xa4)
+

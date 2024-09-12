@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class RegionTriggerBoxes_t (size: 0x30 bytes, project "client", binding @ client.dll + 0x48216b0, scope "!GlobalTypes")
+
+-----members of class RegionTriggerBoxes_t-----
+	AABB_t regionBox(offset 0x0, size 0x18, align 0x0)
+	Vector vRegionBoxOrigin(offset 0x18, size 0xc, align 0x4)
+	uint8_t[4] unaccounted(offset 0x24)
+	CUtlString strRegionName(offset 0x28, size 0x8, align 0x8)
+

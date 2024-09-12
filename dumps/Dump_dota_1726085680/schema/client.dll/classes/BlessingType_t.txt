@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class BlessingType_t (size: 0x20 bytes, project "client", binding @ client.dll + 0x4897710, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x173e730"
+^MVDataOutlinerIconExpr "'tools/images/common/icon_type_generic.png'"
+
+-----members of class BlessingType_t-----
+	BlessingTypeID_t nID(offset 0x0, size 0x4, align 0x0)
+		^MVDataUniqueMonotonicInt "m_nNextBlessingTypeID"
+		^MPropertyAttributeEditor "locked_int()"
+	uint8_t[12] unaccounted(offset 0x4)
+	CPanoramaImageName szIconImage(offset 0x10, size 0x10, align 0x8)
+

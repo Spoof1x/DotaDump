@@ -1,8 +1,0 @@
-|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
-enum Attributes(size: 4 bytes, 6 values, project "client", binding @ client.dll + 0x48254a0):
-	DOTA_ATTRIBUTE_STRENGTH = 0,
-	DOTA_ATTRIBUTE_AGILITY = 1,
-	DOTA_ATTRIBUTE_INTELLECT = 2,
-	DOTA_ATTRIBUTE_ALL = 3,
-	DOTA_ATTRIBUTE_MAX = 4,
-	DOTA_ATTRIBUTE_INVALID = -1,

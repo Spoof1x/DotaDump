@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CavernCrawlPath_t (size: 0x18 bytes, project "client", binding @ client.dll + 0x488cae0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class CavernCrawlPath_t-----
+	CavernCrawlRoomID_t m_nStartingRoomID(offset 0x0, size 0x1, align 0x0)
+	CavernCrawlRoomID_t m_nEndingRoomID(offset 0x1, size 0x1, align 0x0)
+	uint8_t[6] unaccounted(offset 0x2)
+	char* m_pCSSClass(offset 0x8, size 0x8, align 0x8)
+	bool m_bCannotBeSwapped(offset 0x10, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x11)
+

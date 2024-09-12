@@ -1,4 +1,0 @@
-|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
-enum HeroPickType(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x4814f90):
-	HERO_PICK = 0,
-	HERO_BAN = 1,

@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum PortraitDisplayMode_t(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x48e0750):
+	PORTRAIT_DISPLAY_MODE_INVALID = -1,
+	PORTRAIT_DISPLAY_MODE_LOADOUT = 0,
+	PORTRAIT_DISPLAY_MODE_LOADOUT_DIRE = 1,
+	PORTRAIT_DISPLAY_MODE_LOADOUT_SMALL = 2,
+	PORTRAIT_DISPLAY_MODE_TREASURE_SMALL = 3,

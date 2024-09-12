@@ -1,8 +1,0 @@
-|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
- class DOTACavernCrawlMapResult_t (size: 0x2 bytes, project "client", binding @ client.dll + 0x482f330, scope "!GlobalTypes")
-| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
-
------members of class DOTACavernCrawlMapResult_t-----
-	CavernCrawlPathID_t m_nCompletedPathID(offset 0x0, size 0x1, align 0x0)
-	CavernCrawlRoomID_t m_nClaimedRoomID(offset 0x1, size 0x1, align 0x0)
-

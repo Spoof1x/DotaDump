@@ -1,0 +1,41 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTALabyrinthBlessingsMap (size: 0x198 bytes, project "client", binding @ client.dll + 0x4897c80, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x173ee60"
+^MVDataRoot
+^MVDataSingleton
+^MVDataPreviewWidget "blessing_graph"
+^MCustomFGDMetadata "{ promote_children=[ { key="_editor" mode="ARRAY_OF_MULTIPLE" class="blessing_editor_guide" promotion_mode="VDATA_PROMOTE_AS_CHILD_NODE" }, ] }"
+
+-----members of class CDOTALabyrinthBlessingsMap-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CUtlString m_strBlessingEventAction(offset 0x8, size 0x8, align 0x8)
+	uint8_t[8] unaccounted(offset 0x10)
+	BlessingTypeID_t m_nNextBlessingTypeID(offset 0x18, size 0x4, align 0x0)
+		^MPropertyAttributeEditor "locked_int()"
+	BlessingID_t m_nNextBlessingID(offset 0x1c, size 0x4, align 0x0)
+		^MPropertyAttributeEditor "locked_int()"
+	CUtlString m_UnlockHeroBlessingType(offset 0x20, size 0x8, align 0x8)
+		^MPropertyAttributeEditor "VDataNodePicker(//m_mapBlessingTypes/*)"
+	uint8_t[8] unaccounted(offset 0x28)
+	CUtlVector< CUtlString > m_vecHeroNames(offset 0x30, size 0x18, align 0x8)
+	uint8_t[24] unaccounted(offset 0x48)
+	int32 m_nNumStartingHeroesUnlocked(offset 0x60, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x64)
+	CUtlString m_UnlockLegacyHeroBlessingType(offset 0x68, size 0x8, align 0x8)
+		^MPropertyAttributeEditor "VDataNodePicker(//m_mapBlessingTypes/*)"
+	uint8_t[8] unaccounted(offset 0x70)
+	CUtlVector< CUtlString > m_vecLegacyHeroNames(offset 0x78, size 0x18, align 0x8)
+	uint8_t[24] unaccounted(offset 0x90)
+	int32 m_nNumStartingLegacyHeroesUnlocked(offset 0xa8, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0xac)
+	CUtlDict< BlessingType_t > m_mapBlessingTypes(offset 0xb0, size 0x28, align 0x8)
+		^MVDataPromoteField "0"
+	uint8_t[64] unaccounted(offset 0xd8)
+	CUtlDict< Blessing_t > m_mapBlessings(offset 0x118, size 0x28, align 0x8)
+		^MVDataPromoteField "0"
+	uint8_t[40] unaccounted(offset 0x140)
+	CUtlVector< BlessingPath_t > m_vecPaths(offset 0x168, size 0x18, align 0x8)
+		^MVDataPromoteField "0"
+	uint8_t[24] unaccounted(offset 0x180)
+

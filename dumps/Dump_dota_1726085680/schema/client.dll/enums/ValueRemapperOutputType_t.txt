@@ -1,0 +1,6 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum ValueRemapperOutputType_t(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x4866f10):
+	OutputType_AnimationCycle = 0,
+	OutputType_RotationX = 1,
+	OutputType_RotationY = 2,
+	OutputType_RotationZ = 3,

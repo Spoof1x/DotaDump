@@ -1,7 +1,0 @@
-|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
-enum PortraitSummonsDisplayMode_t(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x4826230):
-	PORTRAIT_SUMMONS_DISPLAY_MODE_INVALID = -1,
-	PORTRAIT_SUMMONS_DISPLAY_MODE_NONE = 0,
-	PORTRAIT_SUMMONS_DISPLAY_MODE_ALL = 1,
-	PORTRAIT_SUMMONS_DISPLAY_MODE_NON_DEFAULT = 2,
-	PORTRAIT_SUMMONS_DISPLAY_MODE_TYPE_COUNT = 3,

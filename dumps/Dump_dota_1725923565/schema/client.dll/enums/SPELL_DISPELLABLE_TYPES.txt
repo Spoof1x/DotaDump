@@ -1,6 +1,0 @@
-|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
-enum SPELL_DISPELLABLE_TYPES(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x4825730):
-	SPELL_DISPELLABLE_NONE = 0,
-	SPELL_DISPELLABLE_YES_STRONG = 1,
-	SPELL_DISPELLABLE_YES = 2,
-	SPELL_DISPELLABLE_NO = 3,

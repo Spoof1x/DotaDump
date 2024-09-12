@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CandyShopRewardOption_t (size: 0x40 bytes, project "client", binding @ client.dll + 0x488a660, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x15b46e0"
+^MPropertyAutoExpandSelf
+
+-----members of class CandyShopRewardOption_t-----
+	CandyShopRewardOptionID_t m_unRewardOptionID(offset 0x0, size 0x0, align 0x0)
+		^MPropertyDescription "A unique ID for this reward option."
+	CUtlString m_sRewardClass(offset 0x8, size 0x8, align 0x8)
+		^MPropertyDescription "A CSS class to assign to rewards of this type"
+	uint8_t[48] unaccounted(offset 0x10)
+

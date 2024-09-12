@@ -1,5 +1,0 @@
-|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
-enum ChatIgnoreType_t(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x48357b0):
-	CHAT_IGNORE_NONE = 0,
-	CHAT_IGNORE_ALL = 1,
-	CHAT_IGNORE_TEAM = 2,

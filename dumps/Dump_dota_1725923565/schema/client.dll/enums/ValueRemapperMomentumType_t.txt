@@ -1,6 +1,0 @@
-|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
-enum ValueRemapperMomentumType_t(size: 4 bytes, 4 values, project "client", binding @ client.dll + 0x4866fa0):
-	MomentumType_None = 0,
-	MomentumType_Friction = 1,
-	MomentumType_SpringTowardSnapValue = 2,
-	MomentumType_SpringAwayFromSnapValue = 3,

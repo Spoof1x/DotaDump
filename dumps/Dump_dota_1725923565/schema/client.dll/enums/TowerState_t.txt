@@ -1,7 +1,0 @@
-|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
-enum TowerState_t(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x487d1a0):
-	TOWER_STATE_ACTIVE = 0,
-	TOWER_STATE_SELECTED = 1,
-	TOWER_STATE_INACTIVE = 2,
-	TOWER_STATE_NO_BEAM_MOVEMENT = 3,
-	TOWER_STATE_ACTIVE_CHANNELED = 4,

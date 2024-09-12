@@ -1,0 +1,8 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum EShmupPathEventType(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x48e2bf0):
+	k_eShmupPathEventType_Invalid = -1,
+		^MPropertySuppressEnumerator
+	k_eShmupPathEventType_Speed = 0,
+	k_eShmupPathEventType_Shoot = 1,
+	k_eShmupPathEventType_StorePlayerPosition = 2,
+	k_eShmupPathEventType_DestroySelf = 3,

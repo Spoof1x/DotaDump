@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CFuseSymbolTable (size: 0xb0 bytes, project "mathlib_extended", binding @ client.dll + 0x4921340, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x29cd660"
+
+-----members of class CFuseSymbolTable-----
+	CUtlVector< ConstantInfo_t > m_constants(offset 0x0, size 0x18, align 0x8)
+	CUtlVector< VariableInfo_t > m_variables(offset 0x18, size 0x18, align 0x8)
+	CUtlVector< FunctionInfo_t > m_functions(offset 0x30, size 0x18, align 0x8)
+	CUtlHashtable< CUtlStringToken, int32 > m_constantMap(offset 0x48, size 0x20, align 0x8)
+	CUtlHashtable< CUtlStringToken, int32 > m_variableMap(offset 0x68, size 0x20, align 0x8)
+	CUtlHashtable< CUtlStringToken, int32 > m_functionMap(offset 0x88, size 0x20, align 0x8)
+	uint8_t[8] unaccounted(offset 0xa8)
+

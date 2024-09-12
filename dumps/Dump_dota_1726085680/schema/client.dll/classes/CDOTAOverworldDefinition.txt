@@ -1,0 +1,60 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTAOverworldDefinition (size: 0x358 bytes, project "client", binding @ client.dll + 0x489a060, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x1787c20"
+^MVDataRoot
+^MVDataSingleton
+
+-----members of class CDOTAOverworldDefinition-----
+	CUtlString generic_data_type(offset 0x0, size 0x8, align 0x8)
+	OverworldID_t m_unID(offset 0x8, size 0x1, align 0x0)
+		^MPropertyDescription
+	uint8_t[7] unaccounted(offset 0x9)
+	CUtlString m_sKey(offset 0x10, size 0x8, align 0x8)
+		^MPropertyDescription
+	EEvent m_eAssociatedEvent(offset 0x18, size 0x4, align 0x4)
+		^MPropertyDescription "The event related to this overworld. Used for rewards and expiration."
+	uint8_t[4] unaccounted(offset 0x1c)
+	CUtlString m_sNodeUnlockEventAction(offset 0x20, size 0x8, align 0x8)
+		^MPropertyDescription "An event action to grant whenever a node is unlocked."
+	Vector2D m_vGridOffset(offset 0x28, size 0x8, align 0x4)
+	uint32 m_unGridSize(offset 0x30, size 0x4, align 0x4)
+	uint32 m_unMapWidth(offset 0x34, size 0x4, align 0x4)
+	uint32 m_unMapHeight(offset 0x38, size 0x4, align 0x4)
+	uint8_t[4] unaccounted(offset 0x3c)
+	CUtlString m_sMapVisualsXmlPath(offset 0x40, size 0x8, align 0x8)
+	OverworldNodeID_t m_unStartNodeID(offset 0x48, size 0x2, align 0x0)
+		^MPropertyDescription
+	OverworldNodeID_t m_unEndNodeID(offset 0x4a, size 0x2, align 0x0)
+		^MPropertyDescription
+	uint8_t[4] unaccounted(offset 0x4c)
+	CUtlString m_sVisualNovelName(offset 0x50, size 0x8, align 0x8)
+		^MPropertyDescription "Name/key of the Visual Novel associated with this map."
+	CUtlString m_sTokenLocStringPrefix(offset 0x58, size 0x8, align 0x8)
+		^MPropertyDescription "Prefix to combine with tokent names to give their loc strings."
+	CUtlString m_sActNumberLocString(offset 0x60, size 0x8, align 0x8)
+		^MPropertyDescription "Act number loc string, e.g. Act I."
+	CUtlString m_sActTitleLocString(offset 0x68, size 0x8, align 0x8)
+		^MPropertyDescription "Act title loc string, e.g. The Eyrie."
+	item_definition_index_t m_unPremiumItemDef(offset 0x70, size 0x4, align 0x0)
+		^MPropertyDescription
+	item_definition_index_t m_unFullCompletionItemDef(offset 0x74, size 0x4, align 0x0)
+		^MPropertyDescription
+	OverworldTokenID_t m_unScrapTokenID(offset 0x78, size 0x1, align 0x0)
+		^MPropertyDescription "ID of the scrap token rewarded for playing matches."
+	uint8_t[7] unaccounted(offset 0x79)
+	CUtlVector< CDOTAEventActionTrigger > m_vecEventActionTriggers(offset 0x80, size 0x18, align 0x8)
+	CUtlVector< CDOTAEventActionGrantAndClaimPairTrigger > m_vecEventActionGrantAndClaimPairTriggers(offset 0x98, size 0x18, align 0x8)
+	CUtlVector< CDOTAOverworldPathColorRule > m_vecPathColorRules(offset 0xb0, size 0x18, align 0x8)
+	uint8_t[320] unaccounted(offset 0xc8)
+	CUtlVector< CDOTAOverworldToken* > m_vecTokenTypes(offset 0x208, size 0x18, align 0x8)
+	uint8_t[24] unaccounted(offset 0x220)
+	CUtlVector< CDOTAOverworldHeroReward* > m_vecHeroRewards(offset 0x238, size 0x18, align 0x8)
+	CUtlVector< CDOTAOverworldNode* > m_vecNodes(offset 0x250, size 0x18, align 0x8)
+	CUtlVector< CDOTAOverworldPath* > m_vecPaths(offset 0x268, size 0x18, align 0x8)
+	CUtlVector< CDOTAOverworldEncounter* > m_vecEncounters(offset 0x280, size 0x18, align 0x8)
+	CUtlVector< CDOTAOverworldHero* > m_vecHeroes(offset 0x298, size 0x18, align 0x8)
+	CUtlVector< CDOTAOverworldCharacter* > m_vecCharacters(offset 0x2b0, size 0x18, align 0x8)
+	CUtlVector< CDOTAOverworldClickable* > m_vecClickables(offset 0x2c8, size 0x18, align 0x8)
+	uint8_t[120] unaccounted(offset 0x2e0)
+

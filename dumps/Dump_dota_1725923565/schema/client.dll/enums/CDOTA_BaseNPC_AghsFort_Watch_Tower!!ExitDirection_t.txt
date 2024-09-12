@@ -1,5 +1,0 @@
-|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
-enum CDOTA_BaseNPC_AghsFort_Watch_Tower::ExitDirection_t(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x487d0e0):
-	EXIT_DIRECTION_LEFT = 0,
-	EXIT_DIRECTION_TOP = 1,
-	EXIT_DIRECTION_RIGHT = 2,

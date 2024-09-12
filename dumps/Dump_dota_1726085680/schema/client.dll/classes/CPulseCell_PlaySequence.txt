@@ -1,0 +1,63 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CPulseCell_PlaySequence (size: 0xc8 bytes, project "client", binding @ client.dll + 0x4713d30, scope "!GlobalTypes") extends CPulseCell_BaseYieldingInflow
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+^MGetKV3ClassDefaults "func: client.dll + 0x998b60"
+^MCellForDomain "BaseDomain"
+^MPulseCellMethodBindings "ptr: client.dll + 0x4714010"
+^MPulseCellOutflowHookInfo "ptr: client.dll + 0x4bcf980"
+^MPulseDomainOptInFeatureTag "PulseEntities"
+^MPropertyFriendlyName "Play Sequence"
+^MPropertyDescription "Play the specified animation sequence on a NON-ANIMGRAPH entity, and wait for it to complete."
+
+	|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseYieldingInflow (size: 0x48 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x49260d0, scope "client.dll") extends CPulseCell_BaseFlow
+	| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+	| SCHEMA_CF1_IS_ABSTRACT
+	| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+	| SCHEMA_CF1_CONSTRUCT_ALLOWED
+	| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+	^MGetKV3ClassDefaults "func: client.dll + 0x2b3d210"
+	
+		|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_BaseFlow (size: 0x48 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x4925960, scope "client.dll") extends CPulseCell_Base
+		| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+		| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+		| SCHEMA_CF1_CONSTRUCT_ALLOWED
+		| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+		^MGetKV3ClassDefaults "func: client.dll + 0x2b3c140"
+		
+			|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ base class CPulseCell_Base (size: 0x48 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x4926dd0, scope "client.dll")
+			| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+			| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+			| SCHEMA_CF1_CONSTRUCT_ALLOWED
+			| SCHEMA_CF1_INFO_TAG_MHasKV3TransferPolymorphicClassname
+			^MGetKV3ClassDefaults "func: client.dll + 0x2b3c020"
+			
+			-----members of class CPulseCell_Base-----
+				uint8_t[8] unaccounted(offset 0x0)
+				PulseDocNodeID_t m_nEditorNodeID(offset 0x8, size 0x4, align 0x0)
+					^MFgdFromSchemaCompletelySkipField
+				uint8_t[60] unaccounted(offset 0xc)
+			
+		
+		-----members of class CPulseCell_BaseFlow-----
+			<no members>
+		
+	
+	-----members of class CPulseCell_BaseYieldingInflow-----
+		<no members>
+	
+
+-----members of class CPulseCell_PlaySequence-----
+	CUtlString m_SequenceName(offset 0x48, size 0x8, align 0x8)
+		^MPropertyAttributeSuggestionName "pulse_model_sequence_name"
+	PulseNodeDynamicOutflows_t m_PulseAnimEvents(offset 0x50, size 0x18, align 0x8)
+		^MPulseDocCustomAttr "<unidentified non-null meta: client.dll + 0x2ee5ba0>"
+	CPulse_ResumePoint m_OnFinished(offset 0x68, size 0x30, align 0x0)
+		^MPulseCellOutflow_IsDefault
+	CPulse_ResumePoint m_OnCanceled(offset 0x98, size 0x30, align 0x0)
+

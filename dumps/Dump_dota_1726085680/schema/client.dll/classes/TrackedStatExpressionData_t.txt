@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TrackedStatExpressionData_t (size: 0x10 bytes, project "client", binding @ client.dll + 0x48ca670, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x189c410"
+^MPropertyAutoExpandSelf
+
+-----members of class TrackedStatExpressionData_t-----
+	CUtlString strExpression(offset 0x0, size 0x8, align 0x8)
+		^MPropertyDescription "The expression"
+	uint8_t[8] unaccounted(offset 0x8)
+

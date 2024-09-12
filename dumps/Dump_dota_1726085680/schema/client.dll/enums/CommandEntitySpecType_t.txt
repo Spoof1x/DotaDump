@@ -1,0 +1,4 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum CommandEntitySpecType_t(size: 4 bytes, 2 values, project "client", binding @ client.dll + 0x483fae0):
+	SPEC_SEARCH = 0,
+	SPEC_TYPES_COUNT = 1,

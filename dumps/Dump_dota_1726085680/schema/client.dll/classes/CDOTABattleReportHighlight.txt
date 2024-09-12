@@ -1,0 +1,42 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABattleReportHighlight (size: 0x70 bytes, project "client", binding @ client.dll + 0x488b380, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x15b8250"
+^MVDataRoot
+
+-----members of class CDOTABattleReportHighlight-----
+	uint8_t[8] unaccounted(offset 0x0)
+	uint16 m_nID(offset 0x8, size 0x2, align 0x2)
+		^MPropertyDescription "Battle Report Highlight ID"
+		^MVDataUniqueMonotonicInt "_editor/next_battle_report_highlight_id"
+		^MPropertyAttributeEditor "locked_int()"
+	bool m_bEnabled(offset 0xa, size 0x1, align 0x1)
+		^MPropertyDescription "Enabled"
+	uint8_t[1] unaccounted(offset 0xb)
+	CMsgBattleReport_HighlightType m_eHighlightType(offset 0xc, size 0x4, align 0x4)
+		^MPropertyDescription "Battle Report Highlight Type"
+		^MPropertyFriendlyName "Gameplay Outcome to Highlight"
+	CMsgBattleReport_HighlightCategory m_eHighlightCategory(offset 0x10, size 0x4, align 0x4)
+		^MPropertyDescription "Battle Report Highlight Category"
+	CMsgBattleReport_HighlightRarity m_eHighlightRarity(offset 0x14, size 0x4, align 0x4)
+		^MPropertyDescription "Battle Report Highlight Rarity"
+	CUtlString m_sNameToken(offset 0x18, size 0x8, align 0x8)
+		^MPropertyDescription "Localized name for this highlight"
+	CUtlString m_sFlavorToken(offset 0x20, size 0x8, align 0x8)
+		^MPropertyDescription "Localized name for this highlight"
+	bool m_bTooltip(offset 0x28, size 0x1, align 0x1)
+		^MPropertyDescription "Helper Tooltip Available"
+	uint8_t[7] unaccounted(offset 0x29)
+	CUtlString m_sTooltipLocString(offset 0x30, size 0x8, align 0x8)
+		^MPropertyDescription "Helper Tooltip Loc String"
+		^MPropertySuppressExpr "m_bTooltip == false"
+	EHighlightNumberFormat m_eFormat(offset 0x38, size 0x4, align 0x4)
+		^MPropertyDescription "Number formatting for player score"
+	uint8_t[4] unaccounted(offset 0x3c)
+	CUtlVector< CMsgBattleReport_Role > m_vecRoles(offset 0x40, size 0x18, align 0x8)
+		^MPropertyDescription "Roles for the Highlight.  If none selected, use all roles."
+		^MPropertySuppressExpr "m_eHighlightCategory != k_eHighlightRole"
+	CUtlVector< CDOTABattleReportHighlightTier_t > m_vecTiers(offset 0x58, size 0x18, align 0x8)
+		^MPropertyDescription "Possible Tiers for the Highlight"
+		^MPropertyAutoExpandSelf
+

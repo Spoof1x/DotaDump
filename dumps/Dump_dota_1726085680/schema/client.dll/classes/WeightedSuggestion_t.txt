@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class WeightedSuggestion_t (size: 0x8 bytes, project "client", binding @ client.dll + 0x4826710, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_CONSTRUCTOR
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+
+-----members of class WeightedSuggestion_t-----
+	int32 nSuggestion(offset 0x0, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 fWeight(offset 0x4, size 0x4, align 0x4)
+		^MNetworkEnable
+

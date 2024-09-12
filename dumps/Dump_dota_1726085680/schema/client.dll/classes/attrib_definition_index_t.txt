@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class attrib_definition_index_t (size: 0x2 bytes, project "client", binding @ client.dll + 0x48f12a0, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_GLOBAL_TYPE_SCOPE
+^MIsBoxedIntegerType
+
+-----static members of class attrib_definition_index_t-----
+	static bool IS_TYPESAFE_INTEGER(client.dll + 0x3e875f8)
+
+-----members of class attrib_definition_index_t-----
+	uint16 m_Value(offset 0x0, size 0x2, align 0x2)
+

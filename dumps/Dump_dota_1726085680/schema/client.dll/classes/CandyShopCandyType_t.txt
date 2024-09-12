@@ -1,0 +1,14 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CandyShopCandyType_t (size: 0x20 bytes, project "client", binding @ client.dll + 0x488a570, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x15b43e0"
+^MPropertyAutoExpandSelf
+
+-----members of class CandyShopCandyType_t-----
+	CandyShopCandyTypeID_t m_unCandyTypeID(offset 0x0, size 0x0, align 0x0)
+		^MPropertyDescription "unique integer ID of this candy type"
+	CUtlString m_sLocName(offset 0x8, size 0x8, align 0x8)
+		^MPropertyDescription "localization name of the candy type"
+	CPanoramaImageName m_sImage(offset 0x10, size 0x10, align 0x8)
+		^MPropertyDescription "the image used for this candy type"
+

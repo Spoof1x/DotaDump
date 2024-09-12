@@ -1,0 +1,11 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CMatch3OpponentHeroItemDefinition (size: 0x8 bytes, project "client", binding @ client.dll + 0x48df880, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x215cb50"
+
+-----members of class CMatch3OpponentHeroItemDefinition-----
+	item_definition_index_t m_unItemDef(offset 0x0, size 0x4, align 0x0)
+	style_index_t m_nStyleIndex(offset 0x4, size 0x1, align 0x0)
+	uint8_t[3] unaccounted(offset 0x5)
+

@@ -1,0 +1,13 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class TrackedStatAggregateData_t (size: 0x10 bytes, project "client", binding @ client.dll + 0x48cb570, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x189cbc0"
+^MPropertyAutoExpandSelf
+
+-----members of class TrackedStatAggregateData_t-----
+	CUtlString m_strIndividualStat(offset 0x0, size 0x8, align 0x8)
+		^MPropertyDescription "The stat to aggregate"
+	ETrackedStatAggregate m_eAggregate(offset 0x8, size 0x4, align 0x4)
+		^MPropertyDescription "The aggregate function"
+	uint8_t[4] unaccounted(offset 0xc)
+

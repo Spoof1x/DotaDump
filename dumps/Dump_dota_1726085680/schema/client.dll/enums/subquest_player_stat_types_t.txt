@@ -1,0 +1,7 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum subquest_player_stat_types_t(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x489d7f0):
+	SUBQUEST_PLAYER_STAT_GOLD = 0,
+	SUBQUEST_PLAYER_STAT_LEVEL = 1,
+	SUBQUEST_PLAYER_STAT_LAST_HITS = 2,
+	SUBQUEST_PLAYER_STAT_DENIES = 3,
+	SUBQUEST_NUM_PLAYER_STATS = 4,

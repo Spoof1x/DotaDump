@@ -1,0 +1,20 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FantasyLeagueData_t (size: 0x58 bytes, project "client", binding @ client.dll + 0x4893470, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x166c850"
+^MPropertyAutoExpandSelf
+
+-----members of class FantasyLeagueData_t-----
+	FantasyLeagueID_t m_nFantasyLeagueID(offset 0x0, size 0x2, align 0x0)
+		^MPropertyDescription "Unique identifier for the league"
+	uint8_t[2] unaccounted(offset 0x2)
+	EEvent m_eEvent(offset 0x4, size 0x4, align 0x4)
+		^MPropertyDescription "What event this data is tied to"
+	FantasyCraftDataID_t m_nCraftingID(offset 0x8, size 0x2, align 0x0)
+		^MPropertyDescription "What data to use for crafting"
+	uint8_t[6] unaccounted(offset 0xa)
+	CUtlVector< LeagueID_t > m_nLeagues(offset 0x10, size 0x18, align 0x8)
+		^MPropertyDescription "Which Leagues is this attached to"
+	CUtlVector< FantasyRoleData_t > m_vecPlayers(offset 0x28, size 0x18, align 0x8)
+	CUtlVector< FantasyPeriodData_t > m_vecPeriods(offset 0x40, size 0x18, align 0x8)
+

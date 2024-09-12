@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTAFishingGameDefinition (size: 0x88 bytes, project "client", binding @ client.dll + 0x4891750, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x16721d0"
+^MVDataRoot
+^MVDataSingleton
+
+-----members of class CDOTAFishingGameDefinition-----
+	CUtlString m_strID(offset 0x0, size 0x8, align 0x8)
+	bool m_bBurrowedFish(offset 0x8, size 0x1, align 0x1)
+	uint8_t[7] unaccounted(offset 0x9)
+	CUtlString m_strMapName(offset 0x10, size 0x8, align 0x8)
+	CUtlString m_strBurrowedFishParticle(offset 0x18, size 0x8, align 0x8)
+	CUtlVector< CDOTAFishingGameFish* > m_vecFishTypes(offset 0x20, size 0x18, align 0x8)
+	CUtlOrderedMap< CUtlString, int32 > m_mapFishNameToVecIndex(offset 0x38, size 0x28, align 0x8)
+	CUtlOrderedMap< EFishingGameFishCategory, float32 > m_mapCategoryToDifficulty(offset 0x60, size 0x28, align 0x8)
+

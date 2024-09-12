@@ -1,0 +1,16 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTABattleReportHighlightCompareContext_t (size: 0xc bytes, project "client", binding @ client.dll + 0x488ab60, scope "!GlobalTypes")
+| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x15b6dd0"
+^MPropertyAutoExpandSelf
+
+-----members of class CDOTABattleReportHighlightCompareContext_t-----
+	CMsgBattleReport_CompareContext m_eCompareContext(offset 0x0, size 0x4, align 0x4)
+		^MPropertyDescription "How to view the baseline data of the player's performance for comparison."
+	EHighlightScoreComparison m_eComparisonType(offset 0x4, size 0x4, align 0x4)
+		^MPropertyDescription "Comparison Type for player score to baseline data or threshold value"
+	float32 m_flCompareValue(offset 0x8, size 0x4, align 0x4)
+		^MPropertyDescription "Value for comparison using the selected context."
+		^MPropertySuppressExpr "m_eCompareContext != k_eAbsoluteValue"
+

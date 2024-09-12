@@ -1,0 +1,9 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class PulseGraphExecutionHistoryNodeDesc_t (size: 0x18 bytes, project "pulse_runtime_lib", binding @ client.dll + 0x492a450, scope "client.dll")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x2b7c140"
+
+-----members of class PulseGraphExecutionHistoryNodeDesc_t-----
+	CBufferString strCellDesc(offset 0x0, size 0x10, align 0x8)
+	CUtlSymbolLarge strBindingName(offset 0x10, size 0x8, align 0x8)
+

@@ -1,0 +1,12 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CandyShopDefinitionGC_t (size: 0x28 bytes, project "client", binding @ client.dll + 0x488ac20, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x15b5b80"
+^MPropertyAutoExpandSelf
+
+-----members of class CandyShopDefinitionGC_t-----
+	uint8_t[8] unaccounted(offset 0x0)
+	CandyShopID_t m_unCandyShopID(offset 0x8, size 0x0, align 0x0)
+		^MPropertyDescription "unique integer ID of this candy shop"
+	CUtlVector< CandyShopRewardOptionGC_t > m_vecRewards(offset 0x10, size 0x18, align 0x8)
+

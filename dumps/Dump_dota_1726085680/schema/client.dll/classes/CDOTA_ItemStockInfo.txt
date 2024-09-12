@@ -1,0 +1,37 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTA_ItemStockInfo (size: 0x58 bytes, project "client", binding @ client.dll + 0x4821cb0, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkNoBase
+^MNetworkVarNames "iTeamNumber int"
+^MNetworkVarNames "nItemAbilityID AbilityID_t"
+^MNetworkVarNames "fStockDuration float"
+^MNetworkVarNames "fStockTime GameTime_t"
+^MNetworkVarNames "iStockCount int"
+^MNetworkVarNames "iMaxCount int"
+^MNetworkVarNames "fInitialStockDuration float"
+^MNetworkVarNames "iPlayerID PlayerID_t"
+^MNetworkVarNames "iBonusDelayedStockCount int"
+
+-----members of class CDOTA_ItemStockInfo-----
+	uint8_t[48] unaccounted(offset 0x0)
+	int32 iTeamNumber(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+	AbilityID_t nItemAbilityID(offset 0x34, size 0x4, align 0x0)
+		^MNetworkEnable
+	float32 fStockDuration(offset 0x38, size 0x4, align 0x4)
+		^MNetworkEnable
+	GameTime_t fStockTime(offset 0x3c, size 0x4, align 0x0)
+		^MNetworkEnable
+	int32 iStockCount(offset 0x40, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 iMaxCount(offset 0x44, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 fInitialStockDuration(offset 0x48, size 0x4, align 0x4)
+		^MNetworkEnable
+	PlayerID_t iPlayerID(offset 0x4c, size 0x4, align 0x0)
+		^MNetworkEnable
+	int32 iBonusDelayedStockCount(offset 0x50, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint8_t[4] unaccounted(offset 0x54)
+

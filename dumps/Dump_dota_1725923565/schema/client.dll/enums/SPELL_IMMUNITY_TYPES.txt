@@ -1,8 +1,0 @@
-|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
-enum SPELL_IMMUNITY_TYPES(size: 4 bytes, 6 values, project "client", binding @ client.dll + 0x48256e0):
-	SPELL_IMMUNITY_NONE = 0,
-	SPELL_IMMUNITY_ALLIES_YES = 1,
-	SPELL_IMMUNITY_ALLIES_NO = 2,
-	SPELL_IMMUNITY_ENEMIES_YES = 3,
-	SPELL_IMMUNITY_ENEMIES_NO = 4,
-	SPELL_IMMUNITY_ALLIES_YES_ENEMIES_NO = 5,

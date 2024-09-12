@@ -1,0 +1,115 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CProjectedTextureBase (size: 0x2e0 bytes, project "client", binding @ client.dll + 0x46e3450, scope "client.dll")
+| SCHEMA_CF1_HAS_VIRTUAL_MEMBERS
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MDisableDataDescValidation
+| SCHEMA_CLASS_UNIDENTIFIED16
+^MNetworkVarNames "m_hTargetEntity CHandle< C_BaseEntity>"
+^MNetworkVarNames "m_bState bool"
+^MNetworkVarNames "m_bAlwaysUpdate bool"
+^MNetworkVarNames "m_flLightFOV float32"
+^MNetworkVarNames "m_bEnableShadows bool"
+^MNetworkVarNames "m_bSimpleProjection bool"
+^MNetworkVarNames "m_bLightOnlyTarget bool"
+^MNetworkVarNames "m_bLightWorld bool"
+^MNetworkVarNames "m_bCameraSpace bool"
+^MNetworkVarNames "m_flBrightnessScale float32"
+^MNetworkVarNames "m_LightColor Color"
+^MNetworkVarNames "m_flIntensity float32"
+^MNetworkVarNames "m_flLinearAttenuation float32"
+^MNetworkVarNames "m_flQuadraticAttenuation float32"
+^MNetworkVarNames "m_bVolumetric bool"
+^MNetworkVarNames "m_flVolumetricIntensity float32"
+^MNetworkVarNames "m_flNoiseStrength float32"
+^MNetworkVarNames "m_flFlashlightTime float32"
+^MNetworkVarNames "m_nNumPlanes uint32"
+^MNetworkVarNames "m_flPlaneOffset float32"
+^MNetworkVarNames "m_flColorTransitionTime float32"
+^MNetworkVarNames "m_flAmbient float32"
+^MNetworkVarNames "m_SpotlightTextureName char"
+^MNetworkVarNames "m_nSpotlightTextureFrame int32"
+^MNetworkVarNames "m_nShadowQuality uint32"
+^MNetworkVarNames "m_flNearZ float32"
+^MNetworkVarNames "m_flFarZ float32"
+^MNetworkVarNames "m_flProjectionSize float32"
+^MNetworkVarNames "m_flRotation float32"
+^MNetworkVarNames "m_bFlipHorizontal bool"
+
+-----static members of class CProjectedTextureBase-----
+	static float32 m_flVisibleBBoxMinHeight(client.dll + 0x48523c8)
+
+-----members of class CProjectedTextureBase-----
+	uint8_t[12] unaccounted(offset 0x0)
+	CHandle< C_BaseEntity > m_hTargetEntity(offset 0xc, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bState(offset 0x10, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bAlwaysUpdate(offset 0x11, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[2] unaccounted(offset 0x12)
+	float32 m_flLightFOV(offset 0x14, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bEnableShadows(offset 0x18, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bSimpleProjection(offset 0x19, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bLightOnlyTarget(offset 0x1a, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bLightWorld(offset 0x1b, size 0x1, align 0x1)
+		^MNetworkEnable
+	bool m_bCameraSpace(offset 0x1c, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x1d)
+	float32 m_flBrightnessScale(offset 0x20, size 0x4, align 0x4)
+		^MNetworkEnable
+	Color m_LightColor(offset 0x24, size 0x4, align 0x1)
+		^MNetworkEnable
+	float32 m_flIntensity(offset 0x28, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flLinearAttenuation(offset 0x2c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flQuadraticAttenuation(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bVolumetric(offset 0x34, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[3] unaccounted(offset 0x35)
+	float32 m_flVolumetricIntensity(offset 0x38, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flNoiseStrength(offset 0x3c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flFlashlightTime(offset 0x40, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint32 m_nNumPlanes(offset 0x44, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flPlaneOffset(offset 0x48, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flColorTransitionTime(offset 0x4c, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flAmbient(offset 0x50, size 0x4, align 0x4)
+		^MNetworkEnable
+	char[512] m_SpotlightTextureName(offset 0x54, size 0x200, align 0x1)
+		^MNetworkEnable
+	int32 m_nSpotlightTextureFrame(offset 0x254, size 0x4, align 0x4)
+		^MNetworkEnable
+	uint32 m_nShadowQuality(offset 0x258, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flNearZ(offset 0x25c, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkBitCount "16"
+		^MNetworkMinValue "0"
+		^MNetworkMaxValue "500"
+		^MNetworkEncodeFlags "1"
+	float32 m_flFarZ(offset 0x260, size 0x4, align 0x4)
+		^MNetworkEnable
+		^MNetworkBitCount "18"
+		^MNetworkMinValue "0"
+		^MNetworkMaxValue "1500"
+		^MNetworkEncodeFlags "1"
+	float32 m_flProjectionSize(offset 0x264, size 0x4, align 0x4)
+		^MNetworkEnable
+	float32 m_flRotation(offset 0x268, size 0x4, align 0x4)
+		^MNetworkEnable
+	bool m_bFlipHorizontal(offset 0x26c, size 0x1, align 0x1)
+		^MNetworkEnable
+	uint8_t[115] unaccounted(offset 0x26d)
+

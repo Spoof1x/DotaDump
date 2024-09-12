@@ -1,7 +1,0 @@
-|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
-enum quest_text_replace_values_t(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x489d740):
-	QUEST_TEXT_REPLACE_VALUE_CURRENT_VALUE = 0,
-	QUEST_TEXT_REPLACE_VALUE_TARGET_VALUE = 1,
-	QUEST_TEXT_REPLACE_VALUE_ROUND = 2,
-	QUEST_TEXT_REPLACE_VALUE_REWARD = 3,
-	QUEST_NUM_TEXT_REPLACE_VALUES = 4,

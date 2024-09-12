@@ -1,0 +1,20 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class C_DOTA_CombatLogQueryProgress (size: 0x38 bytes, project "client", binding @ client.dll + 0x482f7f0, scope "client.dll")
+| SCHEMA_CF1_MODULE_LOCAL_TYPE_SCOPE
+| SCHEMA_CF1_INFO_TAG_MNetworkNoBase
+^MNetworkVarNames "m_nPlayerID PlayerID_t"
+^MNetworkVarNames "m_nQueryID int"
+^MNetworkVarNames "m_nQueryRank int"
+^MNetworkVarNames "m_nMultiQueryID int"
+
+-----members of class C_DOTA_CombatLogQueryProgress-----
+	uint8_t[40] unaccounted(offset 0x0)
+	PlayerID_t m_nPlayerID(offset 0x28, size 0x4, align 0x0)
+		^MNetworkEnable
+	int32 m_nQueryID(offset 0x2c, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nQueryRank(offset 0x30, size 0x4, align 0x4)
+		^MNetworkEnable
+	int32 m_nMultiQueryID(offset 0x34, size 0x4, align 0x4)
+		^MNetworkEnable
+

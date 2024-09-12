@@ -1,0 +1,20 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FantasyPlayerData_t (size: 0x20 bytes, project "client", binding @ client.dll + 0x4893170, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x1673dd0"
+^MPropertyAutoExpandSelf
+
+-----members of class FantasyPlayerData_t-----
+	uint32 m_unAccountID(offset 0x0, size 0x4, align 0x4)
+		^MPropertyDescription "Account ID of the Pro Player"
+	uint32 m_unTeamID(offset 0x4, size 0x4, align 0x4)
+		^MPropertyDescription "What team this player is competing with for the fantasy league"
+	ELeagueRegion m_eRegion(offset 0x8, size 0x4, align 0x4)
+		^MPropertyDescription "What region does this player play for"
+	uint8_t[4] unaccounted(offset 0xc)
+	CUtlString m_strPlayerName(offset 0x10, size 0x8, align 0x8)
+		^MPropertyDescription "Name of the pro player"
+	bool m_bIsValid(offset 0x18, size 0x1, align 0x1)
+		^MPropertyDescription "Is this player still playing in the league?"
+	uint8_t[7] unaccounted(offset 0x19)
+

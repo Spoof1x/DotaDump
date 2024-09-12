@@ -1,0 +1,5 @@
+|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
+enum DOTAPostGameLayout_t(size: 4 bytes, 3 values, project "client", binding @ client.dll + 0x4826290):
+	DOTA_POST_GAME_LAYOUT_DOUBLE_COLUMN = 0,
+	DOTA_POST_GAME_LAYOUT_SINGLE_COLUMN = 1,
+	DOTA_POST_GAME_LAYOUT_MAX = 2,

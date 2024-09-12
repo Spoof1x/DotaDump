@@ -1,9 +1,0 @@
-|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
- class C_CommandContext (size: 0xa0 bytes, project "client", binding @ client.dll + 0x4835840, scope "!GlobalTypes")
-
------members of class C_CommandContext-----
-	bool needsprocessing(offset 0x0, size 0x1, align 0x1)
-	uint8_t[151] unaccounted(offset 0x1)
-	int32 command_number(offset 0x98, size 0x4, align 0x4)
-	uint8_t[4] unaccounted(offset 0x9c)
-

@@ -1,8 +1,0 @@
-|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
- class sMuertaPartingShotSoulDef (size: 0x8 bytes, project "client", binding @ client.dll + 0x4821770, scope "!GlobalTypes")
-| SCHEMA_CF1_HAS_TRIVIAL_DESTRUCTOR
-
------members of class sMuertaPartingShotSoulDef-----
-	CHandle< C_BaseEntity > hHeroOwner(offset 0x0, size 0x4, align 0x4)
-	CHandle< C_BaseEntity > hSoulClone(offset 0x4, size 0x4, align 0x4)
-

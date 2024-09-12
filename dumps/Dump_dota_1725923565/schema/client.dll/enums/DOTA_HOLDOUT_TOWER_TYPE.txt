@@ -1,7 +1,0 @@
-|||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) |||||||||||||||||| 
-enum DOTA_HOLDOUT_TOWER_TYPE(size: 4 bytes, 5 values, project "client", binding @ client.dll + 0x4825d20):
-	DOTA_HOLDOUT_TOWER_NONE = 0,
-	DOTA_HOLDOUT_TOWER_LIGHTFAST = 1,
-	DOTA_HOLDOUT_TOWER_HEAVYSLOW = 2,
-	DOTA_HOLDOUT_TOWER_REDUCESPEED = 3,
-	DOTA_HOLDOUT_TOWER_COUNT = 4,

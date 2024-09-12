@@ -1,0 +1,17 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class FantasyCraftingQualityData_t (size: 0x18 bytes, project "client", binding @ client.dll + 0x4892080, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x166f580"
+^MPropertyAutoExpandSelf
+
+-----members of class FantasyCraftingQualityData_t-----
+	FantasyGemQuality_t m_unQualityID(offset 0x0, size 0x1, align 0x0)
+		^MPropertyDescription "Unique Identifier for the Quality"
+	uint8_t[7] unaccounted(offset 0x1)
+	CUtlString m_sLocName(offset 0x8, size 0x8, align 0x8)
+		^MPropertyDescription "Localization token for the name of the quality"
+	int32 m_nBonus(offset 0x10, size 0x4, align 0x4)
+		^MPropertyDescription "How much does this quality improve the stat?"
+	int32 m_nRollWeight(offset 0x14, size 0x4, align 0x4)
+		^MPropertyDescription "How likely are we to roll this quality?"
+

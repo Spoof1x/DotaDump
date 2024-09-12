@@ -1,0 +1,19 @@
+|||||||||||||||||||| DUMPED BY SPOOF1X(prog. Liberalist) ||||||||||||||||||||
+ class CDOTAFightingGameCancelOptionDefinition (size: 0x28 bytes, project "client", binding @ client.dll + 0x4891f60, scope "!GlobalTypes")
+| SCHEMA_CF1_CONSTRUCT_ALLOWED
+^MGetKV3ClassDefaults "func: client.dll + 0x166cf80"
+^MVDataRoot
+
+-----members of class CDOTAFightingGameCancelOptionDefinition-----
+	EFightingGameButtonBit m_eCancelInput(offset 0x0, size 0x4, align 0x4)
+	EFightingGameButtonBit m_eCancelInput2(offset 0x4, size 0x4, align 0x4)
+	EFightingGameButtonBit m_eCancelInput3(offset 0x8, size 0x4, align 0x4)
+	int32 m_nCancelStart(offset 0xc, size 0x4, align 0x4)
+	int32 m_nCancelDuration(offset 0x10, size 0x4, align 0x4)
+	int32 m_nCancelInputBuffer(offset 0x14, size 0x4, align 0x4)
+	bool m_bRequiresInstall(offset 0x18, size 0x1, align 0x1)
+	bool m_bAllowCancelOnWhiff(offset 0x19, size 0x1, align 0x1)
+	uint8_t[2] unaccounted(offset 0x1a)
+	EFightingGameActionID m_nCancelActionID(offset 0x1c, size 0x4, align 0x4)
+	CUtlString m_strCancelActionName(offset 0x20, size 0x8, align 0x8)
+
